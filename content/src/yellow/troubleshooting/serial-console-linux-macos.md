@@ -19,7 +19,7 @@ Connecting to Yellow via serial console can be helpful for troubleshooting. For 
    - On macOS, use `ls /dev/cu.*`. If the Silicon Labs CP2102N driver is installed, you will see both `/dev/cu.SLAB_USBtoUART` and `/dev/cu.usbserial-110` (`/dev/cu.usbserial-210`, depending on which port the Yellow is plugged in to).
 4. Connect the Yellow with USB C to your computer.
 
-   **Note:** Since Yellow is not powered on yet, it is normal for no lights to be on.
+   **Note:** If Yellow is not powered on yet, it is normal for no lights to be on.
 5. List the USB port numbers again (see step above on Listing the USB port numbers). The new entry is for Yellow.
 
    **Troubleshooting:** In case no new entry appears, make sure JP1 is at the right position (UART) and your USB-C cable supports at least USB 2.0 signals (try using a different USB-C cable if in doubt).
@@ -37,11 +37,11 @@ Connecting to Yellow via serial console can be helpful for troubleshooting. For 
    2. Make sure JP1 is set to UART.
    3. [Close the case](/hc/en-us/articles/25298668266269-Home-Assistant-Yellow-Kit-with-CM4-and-optional-NVMe).
    4. Connect Yellow to your router again via Ethernet and make sure there is an internet connection.
-8. Power the Yellow back on with either the DC adapter or Power over Ethernet (if supported).
-9. After the Yellow finishes booting, hit the **Enter** key until prompted for credentials.
+   5. Power the Yellow back on with either the DC adapter or Power over Ethernet (if supported).
+8. Hit the **Enter** key until prompted for credentials.
    - Homeassistant login: `root`
    - No password is required. Hit the **Enter** key.
-10. The console offers the Home Assistant CLI under the command `ha`. The command allows to get information about the state of the system.
+9. The console offers the Home Assistant CLI under the command `ha`. The command allows to get information about the state of the system.
     Typically useful commands are:
     - To print the supervisor logs, type:
 
@@ -55,14 +55,17 @@ Connecting to Yellow via serial console can be helpful for troubleshooting. For 
       ha network info
       ```
 
-11. To save the boot log into a file, perform the following steps:
-    1. Power off Yellow.
-    2. Perform steps 1–11.
-    3. Power up Yellow.
-    4. To save the bootlogs, press `Ctrl`+`A` and then type:
+10. To save the boot log into a file, perform the following steps:
+    1. Reboot Yellow:
+
+       ```sh
+        reboot
+        ```
+
+    2. To save the bootlogs, press `Ctrl`+`A` and then type:
 
         ```sh
         :hardcopy -h /tmp/boot.log
         ```
 
-12. To exit GNU Screen, press `Ctrl`+`A` and then `D`.
+11. To exit GNU Screen, press `Ctrl`+`A` and then `D`.
