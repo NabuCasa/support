@@ -5,7 +5,7 @@
 There are two ways you can use a backup:
 
 - You can use a backup to recover your existing configuration on your current system.
-- You can use a backup during the onboarding process to restore your configuration. For example, if you want to migrate from another device to a Home Assistant Green.
+- You can use a backup during the onboarding process to restore your configuration. For example, if you want to migrate from another device (such a Raspberry Pi) to a Home Assistant Green or a Home Assistant Yellow.
 
 ### Elements included in full backup
 
