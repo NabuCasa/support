@@ -1,4 +1,4 @@
-<!---Installing Home Assistant Software on Kit-->
+<!---Installing Home Assistant Software on Kit, CM4-->
 
 1. Installing the Raspberry Pi Imager
 
@@ -16,7 +16,7 @@
 
    ![Raspberry Pi Imager start page](/static/img/yellow/start_rpi_imager.png)
 
-1. Choosing the operating system.
+1. Choosing the operating system to install on CM4.
 
    - Select **Choose OS**.
    - Choose **Other specific-purpose OS**.

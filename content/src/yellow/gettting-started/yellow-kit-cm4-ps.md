@@ -34,4 +34,4 @@ Additionally, make sure you have the following items which are not part of the K
 
 ## Installing Home Assistant Software on Kit
 
-{% partial 'yellow/yellow-install-haos' %}
+{% partial 'yellow/yellow-install-haos-cm4' %}
