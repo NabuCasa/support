@@ -25,8 +25,8 @@ The steps to clear the data disk differ, depending on whether you use a Raspberr
 If you use Home Assistant Yellow with a Raspberry Pi Compute Module 5, the red button cannot be used for factory reset. Instead, follow these steps:
 
 1. Make sure you do not lose your automations and configuration settings: [Create a backup](/hc/en-us/articles/25454640981533-Creating-a-backup).
-2. Connect via serial console from Windows or connect via serial console from Linux or Mac.
-3. Follow the steps on Wiping the data disk via command line.
+2. [Connect via serial console from Windows](/hc/en-us/articles/25454894609693-Using-the-serial-console-for-debugging-Windows) or [connect via serial console from Linux or Mac](/hc/en-us/articles/25454972435357-Using-the-serial-console-for-debugging-Linux-macOS).
+3. Follow the steps on [Wiping the data disk via command line](https://www.home-assistant.io/common-tasks/os/#wiping-the-data-disk-from-the-command-line).
 
 ## To reset a device with a CM4
 
@@ -43,9 +43,10 @@ If you use Home Assistant Yellow with a Raspberry Pi Compute Module 4, follow th
     - Keep the red button pressed until the yellow LED turns on or starts flashing.
     - **Release** the red button.
       - The green and the yellow LEDs start blinking.
-      - The Home Assistant Operating System now downloads the latest version of Home Assistant Supervisor and Home Assistant Core.
+      - The [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) now downloads the latest version of [Home Assistant Supervisor](https://www.home-assistant.io/docs/glossary/#home-assistant-supervisor) and [Home Assistant Core](https://www.home-assistant.io/docs/glossary/#home-assistant-core).
       - Due to the downloads, it can take a while until Home Assistant becomes accessible again.
 
 ## Related topics
 
 - [Creating a backup](/hc/en-us/articles/25454640981533-Creating-a-backup)
+- [Wiping the data disk via command line](https://www.home-assistant.io/common-tasks/os/#wiping-the-data-disk-from-the-command-line)
