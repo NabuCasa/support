@@ -23,3 +23,7 @@ Note: It is very unlikely that reinstalling the Home Assistant OS is necessary. 
 ## Reassembling Home Assistant Yellow
 
 {% partial 'yellow/yellow-reassemble-case.md' %}
+
+## Setting up
+
+{% partial 'yellow/yellow-setup-cm5.md' %}
