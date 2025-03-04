@@ -9,7 +9,7 @@ zendesk:
 
 The Home Assistant Yellow team officially supports [ZHA](/integrations/zha/) (Zigbee Home Automation), the Zigbee stack integrated into [Home Assistant Core](https://www.home-assistant.io/docs/glossary/#home-assistant-core).
 
-The [Zigbee2MQTT](https://www.zigbee2mqtt.io/) project has experimental support (in beta stage) for the Silicon Labs radio on Home Assistant Yellow. With this setting, Zigbee2MQTT is known to work on Home Assistant Yellow.
+The [Zigbee2MQTT](https://www.zigbee2mqtt.io/) project has [experimental support](https://www.zigbee2mqtt.io/guide/adapters/#experimental) (in beta stage) for the Silicon Labs radio on Home Assistant Yellow. With this setting, Zigbee2MQTT is known to work on Home Assistant Yellow.
 
 **Note**: The Zigbee Home Automation integration is active by default! If you are using Zigbee2MQTT, remember to delete and ignore the discovered Zigbee Home Automation integration to avoid interference.
 
@@ -28,3 +28,4 @@ serial:
 - [ZHA](/integrations/zha/)
 - [Zigbee2MQTT](https://www.zigbee2mqtt.io/)
 - [Configuration file](https://www.home-assistant.io/docs/glossary/#configuration-file)
+- [Zigbee2MQTT experimental support](https://www.zigbee2mqtt.io/guide/adapters/#experimental)
