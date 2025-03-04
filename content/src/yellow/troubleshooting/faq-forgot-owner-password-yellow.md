@@ -1,6 +1,6 @@
 ---
 zendesk:
-  article_id: 25142896227357
+  article_id: 25455301907997
   name: I forgot the owner password for the Home Assistant Yellow. How can I reset it?
   position: 3
   labels: yellow, troubleshooting
