@@ -7,3 +7,28 @@ zendesk:
 ---
 
 
+## Prerequisites
+
+    - Home Assistant Yellow with Compute Module installed, powered off
+    - Flat nose pliers
+    - **Notice**: Don't use screws to fix the module in place. The screws can damage the CM5 module.
+
+    ![Home Assistant Yellow and flat nose pliers](/static/img/yellow/cm5_reseat_tools_350.jpg)
+
+## Opening the case
+
+{% partial 'yellow/yellow-open-case-cm5.md' %}
+
+## Removing the Raspberry Pi Compute Module 5
+
+{% partial 'yellow/yellow-remove-cm.md' %}
+
+## Re-seating the Raspberry Pi Compute Module 5
+
+**Notice**: Don't use screws to fix the module in place. The screws can damage the CM5 module.
+
+{% partial 'yellow/yellow-reseat-cm5.md' %}
+
+## Reassembling your Home Assistant Yellow
+
+{% partial 'yellow/yellow-reassemble-case.md' %}
