@@ -4,6 +4,7 @@ zendesk:
   name: Removing the Raspberry Pi Compute Module
   description: How to remove the compute module from Home Assistant Yellow
   position: 2
+  labels: yellow, setup, CM4
 ---
 
 Step-by-step instructions on removing the compute module from Home Assistant Yellow

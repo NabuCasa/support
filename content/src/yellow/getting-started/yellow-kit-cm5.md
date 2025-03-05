@@ -4,6 +4,7 @@ zendesk:
   name: Home Assistant Yellow Kit with CM5
   description: Getting started with a Home Assistant Yellow Kit with a Raspberry Pi Compute Module 5
   position: 3
+  labels: yellow, getting started, kit, CM5
 ---
 
 ## Prerequisites

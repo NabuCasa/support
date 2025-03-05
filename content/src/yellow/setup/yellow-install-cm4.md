@@ -4,6 +4,7 @@ zendesk:
   name: Installing the Raspberry Pi Compute Module 4 (CM4)
   description: How to install the Raspberry Pi Compute Module 4 (CM4) on Home Assistant Yellow
   position: 2
+  labels: yellow, setup, CM4
 ---
 
 Step-by-step instructions on install the Raspberry Pi Compute Module 4 (CM4) on Home Assistant Yellow.

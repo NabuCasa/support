@@ -4,6 +4,7 @@ zendesk:
   name: Home Assistant Yellow Kit with CM4 and optional NVMe
   description: Home Assistant Yellow Kit with a Raspberry Pi Compute Module 4, and NVMe.
   position: 3
+  labels: yellow, getting started, kit, CM4, NVMe
 ---
 
 ## Prerequisites
@@ -12,7 +13,6 @@ zendesk:
 - Heat sink assembly bag
 - Ethernet cable
 - Power supply (12 V / 2 A) (Not included if you have a PoE kit)
-
 
 Additionally, make sure you have the following items which are not part of the Kit
 
