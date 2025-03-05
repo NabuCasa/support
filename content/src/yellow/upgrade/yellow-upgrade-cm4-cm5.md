@@ -29,6 +29,9 @@ Additionally, make sure you have the following items which are not part of the K
 ## Preparing the migration
 
 {% partial 'yellow/yellow-migration-to-cm5-prep.md' %}
+  - Before creating a backup, make sure your CM5 eMMC has enough storage capacity:
+    - Check how much disk space you've used under [**Settings** > **System** > **Storage**](https://my.home-assistant.io/redirect/storage/)
+      - If this is larger than the eMMC, you need to reduce the size of your instance.
 
 ## Opening the case
 
