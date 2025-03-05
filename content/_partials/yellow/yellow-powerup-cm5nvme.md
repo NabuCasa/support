@@ -1,4 +1,5 @@
 
+<!---Powering up the Yellow with CM5 and NVMe after a migration from CM4 with NVMe-->
 
 1. Power up your Home Assistant Yellow
 
