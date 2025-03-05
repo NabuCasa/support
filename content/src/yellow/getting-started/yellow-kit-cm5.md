@@ -47,3 +47,10 @@ Additionally, make sure you have the following items which are not part of the K
 ## Setting up
 
 {% partial 'yellow/yellow-setup-cm5.md' %}
+
+## Related topics
+
+- [https://www.home-assistant.io/getting-started/onboarding/](https://www.home-assistant.io/getting-started/onboarding/)
+- [Raspberry Pi software](https://www.raspberrypi.com/software/)
+- [Windows installer of rpiboot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)
+- [rpiboot from source code](https://github.com/raspberrypi/usbboot?tab=readme-ov-file#building)
