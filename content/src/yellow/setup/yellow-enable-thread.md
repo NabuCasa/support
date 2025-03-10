@@ -17,8 +17,7 @@ This guide assumes you have the following setup:
 
 - Home Assistant Yellow up and running.
 - Home Assistant OS installation.
-- Multiprotocol support disabled: Refer to the [Disable multiprotocol support]() procedure.
-- Zigbee integration installed
+- Multiprotocol support disabled: Refer to the [Disable multiprotocol support](/hc/en-us/articles/25744235797661-Disabling-multiprotocol-support) procedure.
 
 ![screenshot of Zigbee integration card](/static/img/yellow/yellow-zha-setup.png)
 
@@ -66,3 +65,4 @@ This guide assumes you have the following setup:
 - [Home Assistant Connect ZBT-1](https://www.home-assistant.io/connectzbt1)
 - [Thread integration documentation](https://www.home-assistant.io/integrations/thread/)
 - [About firmware options](/hc/en-us/articles/25616122309405-About-firmware-options)
+- [Disable multiprotocol support](/hc/en-us/articles/25744235797661-Disabling-multiprotocol-support)
