@@ -6,6 +6,15 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '.github/**'
+      - '!.github/workflows/zendesk-deploy.yml'
+      - '.devcontainer.json'
+      - '.editorconfig'
+      - '.env.example'
+      - 'CHANGELOG.md'
+      - 'LICENSE'
+      - 'README.md'
 
 permissions: {}
 
