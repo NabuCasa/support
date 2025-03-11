@@ -8,7 +8,7 @@ zendesk:
 
 Overview of the device interfaces.
 
-![Image showing the Home Assistant Voice PE interfaces and terminology](/static/img/voice/voice_details_callouts.png)
+![Image showing Home Assistant Voice PE interfaces and terminology](/static/img/voice-pe/voice_details_callouts.png)
 
 1. Center button
    - Reset, stop, converse without wake word
@@ -21,3 +21,8 @@ Overview of the device interfaces.
    - 3.5 mm stereo output jack
 7. Speaker
 8. 2 microphones
+
+## Related topics
+
+- [Abot Home Assistant Voice PE](/hc/en-us/articles/25764286546717-About-Home-Assistant-Voice-Preview-Edition)
+- [Status colors on the Home Assistant Voice PE](/hc/en-us/articles/25764604971421-Status-colors)
