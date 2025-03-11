@@ -1373,7 +1373,7 @@ section.section.hero[data-category="Home Assistant Voice Preview Edition"] [data
 }
 main > .visibility-hidden:has(ol li a[href$=Voice-Preview-Edition]) + section.hero [data-description]:before,
 section.section.hero[data-category="Home Assistant Voice Preview Edition"] [data-description]:before {
-  content: "Built for Home Assistant - Easy Setup - one USB-C cable and setup wizard, no assembly required.";
+  content: "Built for Home Assistant - Easy setup - one USB&#8209;C cable and setup wizard, no assembly required.";
 }
 
 main > .visibility-hidden:has(ol li a[href$=ZBT-1]) + section.hero,
