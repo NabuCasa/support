@@ -14,8 +14,9 @@ zendesk:
        - Stops listening.
        - Stops playing music.
 
+    Click the image to view the video on Youtube.
+
     [![Link to Youtube video showing how to stop the timer](https://img.youtube.com/vi/GuoMjoHuV4U/0.jpg)](https://www.youtube.com/watch?v=GuoMjoHuV4U)
-    Click the image to see the video on Youtube.
 
 1. **Option 2**: Say "stop".
    - To stop the timer or the response, you can say “stop”.
