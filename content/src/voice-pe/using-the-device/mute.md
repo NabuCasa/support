@@ -25,3 +25,9 @@ If you don’t want the device to listen for a while, you can mute the microphon
    - If you muted the device, the LEDs closest to the speaker turn red to indicate that the microphones are off.
 
    ![Image showing the red status light](/static/img/voice-pe/status_muted.png)
+
+## Related topics
+
+- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629-Turning-the-wake-sound-on-or-off)
+- [Changing the volume](/hc/en-us/articles/25773395022237-Changing-the-volume)-
+- [Status colors](/hc/en-us/articles/25764604971421-Status-colors)
