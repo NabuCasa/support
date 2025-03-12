@@ -43,4 +43,5 @@ jobs:
           ZENDESK_API_USER: ${{ secrets.ZENDESK_API_USER }}
           ZENDESK_API_TOKEN: ${{ secrets.ZENDESK_API_TOKEN }}
         run: |
-          node content/deploy.js
+          cd content
+          node deploy.js
