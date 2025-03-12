@@ -2,9 +2,18 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Lint all",
+      "label": "Lint all (fix)",
       "type": "shell",
       "command": "npm run lint:all:fix",
+      "group": {
+        "kind": "test",
+        "isDefault": true,
+      }
+    },
+    {
+      "label": "Lint all (check)",
+      "type": "shell",
+      "command": "npm run lint:all:check",
       "group": {
         "kind": "test",
         "isDefault": true,
