@@ -19,6 +19,11 @@
         "SkyConnect",
         "Home Assistant Connect ZBT-1",
         "Home Assistant Yellow",
+        "iOS",
+        "IoT",
+        "iPad",
+        "iPhone",
+        "UART",
         ["docs\\b", "documentation"],
         ["Mac ?OS", "macOS"],
         ["ZWave", "Z-Wave"]
