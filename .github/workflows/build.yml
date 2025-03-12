@@ -4,15 +4,6 @@ on:
   pull_request:
     branches:
       - main
-    paths-ignore:
-      - '.github/**'
-      - '!.github/workflows/build.yml'
-      - '.devcontainer.json'
-      - '.editorconfig'
-      - '.env.example'
-      - 'CHANGELOG.md'
-      - 'LICENSE'
-      - 'README.md'
 
 permissions: {}
 
