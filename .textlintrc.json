@@ -7,7 +7,22 @@
     "terminology": {
       "defaultTerms": false,
       "skip": ["Blockquote"],
-      "terms": []
+      "terms": [
+        "Home Assistant Companion",
+        "Home Assistant Core",
+        "Home Assistant Operating System",
+        "Home Assistant OS",
+        "Home Assistant Supervised",
+        "Home Assistant Supervisor",
+        "Home Assistant",
+        "Home Assistant SkyConnect",
+        "SkyConnect",
+        "Home Assistant Connect ZBT-1",
+        "Home Assistant Yellow",
+        ["docs\\b", "documentation"],
+        ["Mac ?OS", "macOS"],
+        ["ZWave", "Z-Wave"]
+      ]
     }
   }
 }
