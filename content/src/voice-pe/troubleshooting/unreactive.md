@@ -10,6 +10,8 @@ zendesk:
 
 The device status light is red and the device does not respond.
 
+  ![Image showing the red status light](/static/img/voice-pe/status_muted.png)
+
 ## Resolution
 
 Your device microphone is muted. [Turn off the mute switch](/hc/en-us/articles/25774403768477-Muting-the-device).
