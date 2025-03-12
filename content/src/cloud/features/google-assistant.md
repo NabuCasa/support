@@ -113,7 +113,7 @@ Google Assistant will consider sending commands locally if it does not involve a
 
 Your Home Assistant instance needs to be connected to the same network as the Google Assistant device that you're talking to. The Google Assistant device will discover your Home Assistant instance via mDNS discovery (UDP broadcasts).
 
-Your Home Assistant instance should not have the HTTP integration configured to use an SSL certificate ([docs](https://www.home-assistant.io/integrations/http/)). This is necessary because the Google device will connect directly to the IP of your Home Assistant installation and will fail if it encounters an invalid SSL certificate.
+Your Home Assistant instance should not have the HTTP integration configured to use an SSL certificate ([documentation](https://www.home-assistant.io/integrations/http/)). This is necessary because the Google device will connect directly to the IP of your Home Assistant installation and will fail if it encounters an invalid SSL certificate.
 
 The Google device still needs to be connected to the internet to be able to sync entities via Home Assistant Cloud, get credentials to establish a local connection and as a fallback for secure devices or if your Home Assistant instance cannot be reached.
 
