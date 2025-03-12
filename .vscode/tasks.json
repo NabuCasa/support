@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Lint all",
+      "type": "shell",
+      "command": "npm run lint:all:fix",
+      "group": {
+        "kind": "test",
+        "isDefault": true,
+      }
+    }
+  ]
+}
