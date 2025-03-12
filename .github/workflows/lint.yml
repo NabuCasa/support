@@ -1,0 +1,35 @@
+name: Lint
+
+on:
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint-tools:
+    name: Check lint with ${{ matrix.tool }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        tool:
+          - textlint
+    steps:
+      - name: Check out files from GitHub
+        uses: actions/checkout@v4.2.2
+
+      - name: Setting up Node.js
+        uses: actions/setup-node@v4.2.0
+        with:
+          node-version-file: '.nvmrc'
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install ci
+
+      - name: Lint with ${{ matrix.tool }}
+        run: npm run lint:${{ matrix.tool }}:check
