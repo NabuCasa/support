@@ -1,15 +1,14 @@
-
 <!--Installing the rpiboot on your computer and then running rpiboot to install the HAOS on Yellow-->
 
 1. Install rpiboot on your computer.
 
    1. **rpiboot** is a command line utility for booting a Raspberry Pi in USB device mode. This is needed because the CM5 cannot boot from the USB 2.0 ports of the Yellow.
    2. Install rpiboot on your PC.
-      - **Windows**: Download and run the [Windows Installer from Raspberry Pi Github](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe).
+      - **Windows**: Download and run the [Windows Installer from Raspberry Pi GitHub](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe).
       - **macOS or Linux**: Install from [source code](https://github.com/raspberrypi/usbboot?tab=readme-ov-file#building).
    3. Install rpiboot, but do not run it yet!
 
-    ![source_code.png](/static/img/yellow/source_code.png)
+   ![source_code.png](/static/img/yellow/source_code.png)
 
 2. Connect the Yellow to your PC.
 
@@ -30,7 +29,7 @@
    3. Release the recovery push button.
       - Older Home Assistant Yellow versions: Un-bridge JP2.
 
-    ![yellow_usb_recovery_button.png](/static/img/yellow/yellow_usb_recovery_button.png)
+   ![yellow_usb_recovery_button.png](/static/img/yellow/yellow_usb_recovery_button.png)
 
 4. Run rpiboot
 

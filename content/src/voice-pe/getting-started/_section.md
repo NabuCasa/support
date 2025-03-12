@@ -1,6 +1,6 @@
 ---
 zendesk:
   section_id: 24980017436701
-  name: Getting Started
+  name: Getting started
   position: 1
 ---

@@ -15,7 +15,7 @@ Note: It is very unlikely that reinstalling the Home Assistant OS is necessary. 
 - USB-C cable
 - [Reset the device](/hc/en-us/articles/25463622043165-Resetting-the-device)
 
- ![Image showing a Yellow, USB-C cable, and a Raspberry Pi Compute Module 5](/static/img/yellow/yellow_cm5_ucb-c.jpg)
+![Image showing a Yellow, USB-C cable, and a Raspberry Pi Compute Module 5](/static/img/yellow/yellow_cm5_ucb-c.jpg)
 
 ## Opening the case
 
@@ -40,7 +40,7 @@ Note: It is very unlikely that reinstalling the Home Assistant OS is necessary. 
 ## Related topics
 
 - [Reset the device](/hc/en-us/articles/25463622043165-Resetting-the-device)
-- [rpiboot Windows Installer from Raspberry Pi Github](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)
+- [rpiboot Windows Installer from Raspberry Pi GitHub](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)
 - [rpiboot for macOS and Linux from source code](https://github.com/raspberrypi/usbboot?tab=readme-ov-file#building)
 - [RPI imager from https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
 - [Onboarding Home Assistant](https://www.home-assistant.io/getting-started/onboarding/)
