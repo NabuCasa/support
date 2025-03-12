@@ -16,7 +16,7 @@
     "zcli": "zcli",
     "lint:all:check": "npm run lint:textlint:check && npm run lint:remark:check",
     "lint:all:fix": "npm run lint:textlint:fix",
-    "lint:remark:check": "remark content --quiet --frail",
+    "lint:remark:check": "remark content --verbose --frail",
     "lint:remark:fix": "remark content --quiet --output",
     "lint:textlint:check": "textlint content",
     "lint:textlint:fix": "textlint --fix content",
