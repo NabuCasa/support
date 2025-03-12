@@ -21,6 +21,7 @@ permissions: {}
 jobs:
   deploy-to-zendesk:
     if: github.repository_owner == 'NabuCasa'
+    environment: deploy-content
     runs-on: ubuntu-latest
     steps:
       - name: Check out files from GitHub
