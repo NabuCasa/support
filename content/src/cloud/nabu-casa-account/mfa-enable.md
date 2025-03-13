@@ -58,7 +58,7 @@ Step-by-step instructions on enabling multi-factor authentication (MFA) to log i
 
 ## Disabling multi-factor authentication (MFA) for Home Assistant Cloud
 
-If you have multi-factor authentication (MFA) enabled for your Home Assistant Cloud account enabled and want to disable it, follow these steps.
+Follow these steps to disable multi-factor authentication (MFA) for your Home Assistant Cloud account.
 
 ## Prerequisites
 
