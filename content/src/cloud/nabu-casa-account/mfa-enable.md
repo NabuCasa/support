@@ -20,12 +20,12 @@ This page shows you how to enable multi-factor authentication (MFA) for Home Ass
 
 ## Enabling multi-factor authentication (MFA) for Home Assistant Cloud
 
-Step-by-step instructions on enabling multi-factor authentication (MFA) to log into your Home Assistant Cloud account.
+Step-by-step instructions on enabling multi-factor authentication (MFA) to log in to your Home Assistant Cloud account.
 
 ### Prerequisites
 
 - A [Home Assistant Cloud account](/hc/en-us/articles/25649130769949-Enabling-Home-Assistant-Cloud)
-- Home Assistant version 2025.1.0 or later-
+- Home Assistant version 2025.1.0 or later
 - Administrator rights in Home Assistant
 - A multi-factor authentication application. For example:
   - [Google Authenticator](hhttps://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid&oco=0)
@@ -39,14 +39,14 @@ Step-by-step instructions on enabling multi-factor authentication (MFA) to log i
 
    <img src="/static/img/cloud/ha-settings-panel.png" alt="Home Assistant Settings panel">
 
-2. To sign into your account on the Nabu Casa website, select **Manage account**.
+2. Select **Manage account**.
    - **Result**: The account login page on the Nabu Casa website opens.
 
    <img src="/static/img/cloud/ha_cloud_connected.png" alt="Home Assistant Cloud connected">
 
 3. On the Nabu Casa website, log into your account.
 4. Under **Multi-factor authentication**, select **Enable new MFA device**.
-   - **Result**: A QR code and a code are displayed.
+   - **Result**: A QR code and a regular code are displayed.
 5. To add Home Assistant Cloud to your authenticator app, follow the instructions on screen:
    1. Open your authenticator app.
    2. In the app, either scan the QR code or copy and paste the code manually into the authenticator app.
