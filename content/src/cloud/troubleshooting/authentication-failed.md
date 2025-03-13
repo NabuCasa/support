@@ -3,7 +3,7 @@ zendesk:
   article_id: 25836973464733
   name: Can't log into Cloud. "Authentication failed", or "Unexpected error - software token MFA"
   position: 7
-  labels: cloud
+  labels: cloud, troubleshooting, mfa
 ---
 
 ### Symptom
