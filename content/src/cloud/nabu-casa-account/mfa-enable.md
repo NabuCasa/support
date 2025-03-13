@@ -56,7 +56,7 @@ Step-by-step instructions on enabling multi-factor authentication (MFA) to log i
    1. Open your authenticator app.
    2. In the app, either scan the QR code or copy and paste the code manually into the authenticator app.
       - If you are not using a dedicated authenticator app but a password manager, in the entry for the Home Assistant Cloud login, enter a section for one-time password and enter the code there.
-      - **Result**: The app generates a (one-time) code.
+      - **Result**: The app generates a one-time code.
 6. On the Nabu Casa website, enter the code.
    - **Result**: Multi-factor authentication is enabled.
    - From now on, you need the authenticator app to generate a code every time you log into Home Assistant Cloud.
