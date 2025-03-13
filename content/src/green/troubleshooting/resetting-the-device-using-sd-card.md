@@ -19,7 +19,7 @@ Perform this procedure if you want to perform a factory reset on your device.
 ![Image showing a Home Assistant Green without an SD card](/static/img/green/green_without_sd_card.png)
 
 > **Note**
-> This process clears the data disk on your Green. Unless you [create a backup](https://www.home-assistant.io/guides/create-backup/), you will lose all data and configuration settings.
+> This process clears the data disk on your Green. Unless you [create a backup](https://www.home-assistant.io/common-tasks/general/#backups), you will lose all data and configuration settings.
 > A device reset wipes the data partition of your device. It removes all user data as well as Home Assistant Core, Supervisor, and any installed add-ons. The Home Assistant Operating System stays on the system.
 > Once a device wipe is initiated, the data partition is marked as to be cleared on boot. Then, the system reinstalls the latest version of all Home Assistant components.
 
