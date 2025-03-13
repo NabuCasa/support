@@ -34,7 +34,7 @@ Step-by-step instructions on enabling multi-factor authentication (MFA) to log i
   - A password manager with authenticator capabilities, such as
     - [1Password](https://support.1password.com/one-time-passwords/)
     - If you are using a password manager for this, make sure you have added an entry for your Home Assistant Cloud account.
-    - Then, add a section in that entry for one time password (OTP)
+    - Then, add a section in that entry for one-time password (OTP)
 
 ### To enable multi-factor authentication (MFA) for Home Assistant Cloud
 
