@@ -28,8 +28,13 @@ Step-by-step instructions on enabling multi-factor authentication (MFA) to log i
 - Home Assistant version 2025.1.0 or later
 - Administrator rights in Home Assistant
 - A multi-factor authentication application. For example:
-  - [Google Authenticator](hhttps://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid&oco=0)
-  - [1Password](https://support.1password.com/one-time-passwords/)
+  - A dedicated authenticator app on your phone, such as
+    - [Google Authenticator](hhttps://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid&oco=0)
+    - [Microsoft Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app)
+  - A password manager with authenticator capabilities, such as
+    - [1Password](https://support.1password.com/one-time-passwords/)
+    - If you are using a password manager for this, make sure you have added an entry for your Home Assistant Cloud account.
+    - Then, add a section in that entry for one time password (OTP)
 
 ### To enable multi-factor authentication (MFA) for Home Assistant Cloud
 
@@ -50,8 +55,8 @@ Step-by-step instructions on enabling multi-factor authentication (MFA) to log i
 5. To add Home Assistant Cloud to your authenticator app, follow the instructions on screen:
    1. Open your authenticator app.
    2. In the app, either scan the QR code or copy and paste the code manually into the authenticator app.
-      - **Result**: The app generates a code.
-      - The code is valid for a short time only (and sometimes called one-time code.)
+      - If you are not using a dedicated authenticator app but a password manager, in the entry for the Home Assistant Cloud login, enter a section for one-time password and enter the code there.
+      - **Result**: The app generates a (one-time) code.
 6. On the Nabu Casa website, enter the code.
    - **Result**: Multi-factor authentication is enabled.
    - From now on, you need the authenticator app to generate a code every time you log into Home Assistant Cloud.
