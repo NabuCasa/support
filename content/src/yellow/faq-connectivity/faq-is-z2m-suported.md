@@ -6,8 +6,7 @@ zendesk:
   labels: yellow, faq, connectivity
 ---
 
-
-The Home Assistant Yellow team officially supports [ZHA](/integrations/zha/) (Zigbee Home Automation), the Zigbee stack integrated into [Home Assistant Core](https://www.home-assistant.io/docs/glossary/#home-assistant-core).
+The Home Assistant Yellow team officially supports [ZHA](https://www.home-assistant.io/integrations/zha/) (Zigbee Home Automation), the Zigbee stack integrated into [Home Assistant Core](https://www.home-assistant.io/docs/glossary/#home-assistant-core).
 
 The [Zigbee2MQTT](https://www.zigbee2mqtt.io/) project has [experimental support](https://www.zigbee2mqtt.io/guide/adapters/#experimental) (in beta stage) for the Silicon Labs radio on Home Assistant Yellow. With this setting, Zigbee2MQTT is known to work on Home Assistant Yellow.
 
@@ -17,15 +16,15 @@ The [Zigbee2MQTT](https://www.zigbee2mqtt.io/) project has [experimental support
 
 ```yaml
 serial:
-    adapter: ezsp
-    port: /dev/ttyAMA1
-    baudrate: 115200
-    rtscts: true
+  adapter: ezsp
+  port: /dev/ttyAMA1
+  baudrate: 115200
+  rtscts: true
 ```
 
 ## Related topics
 
-- [ZHA](/integrations/zha/)
+- [ZHA](https://www.home-assistant.io/integrations/zha/)
 - [Zigbee2MQTT](https://www.zigbee2mqtt.io/)
 - [Configuration file](https://www.home-assistant.io/docs/glossary/#configuration-file)
 - [Zigbee2MQTT experimental support](https://www.zigbee2mqtt.io/guide/adapters/#experimental)

@@ -1,0 +1,28 @@
+name: Build
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions: {}
+
+jobs:
+  guide-content:
+    runs-on: ubuntu-latest
+    name: Guide content
+    steps:
+      - name: Check out files from GitHub
+        uses: actions/checkout@v4.2.2
+
+      - name: Setting up Node.js
+        uses: actions/setup-node@v4.2.0
+        with:
+          node-version-file: '.nvmrc'
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install ci
+
+      - name: Compile Eleventy
+        run: npm run zendesk-content-build

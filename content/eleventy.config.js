@@ -47,6 +47,17 @@ export default async function (eleventyConfig) {
     }
   );
 
+  // Make external links open in a new tab
+  eleventyConfig.addTransform("external-links", function (content, outputPath) {
+    if (outputPath.endsWith(".html")) {
+      return content.replace(
+        /<a href="(http[s]:\/\/)(?!support\.nabucasa\.com)([^"]+)"/g,
+        '<a href="$1$2" target="_blank"'
+      );
+    }
+    return content;
+  });
+
   eleventyConfig.addShortcode("zendeskData", function (zendeskFrontmatter) {
     return `<!-- ${JSON.stringify({ zendesk: zendeskFrontmatter })} -->`;
   });
