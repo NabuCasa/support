@@ -40,7 +40,7 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
       - **Troubleshooting**: The yellow LED blinks, instead of turning on solid. This means you do not have the HAOS version required to perform this procedure. In this case, [Reset the device using an SD card](/guides/reset_with_sd_card/)
    2. Release the button.
       - The LEDs start blinking.
-      - The Home Assistant operating system now downloads the latest version of Home Assistant Supervisor and Home Assistant Core.
+      - The Home Assistant Operating System now downloads the latest version of Home Assistant Supervisor and Home Assistant Core.
       - Due to the downloads, it can take a while until Home Assistant becomes accessible again.
       ![Powering up the system](/static/img/green/green_reset.webp)
 

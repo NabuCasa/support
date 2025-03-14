@@ -22,3 +22,7 @@ zendesk:
    - To stop the timer or the response, you can say “stop”.
 
    ![Speech bubble saying stop](/static/img/voice-pe/voice_say_stop.png)
+
+## Related topics
+
+- [Using the center button to trigger automations](/hc/en-us/articles/25774619221661-Using-the-center-button-to-trigger-automations)

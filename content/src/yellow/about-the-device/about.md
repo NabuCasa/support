@@ -18,7 +18,7 @@ Home Assistant Yellow comes in three different flavours:
 
 **Home Assistant Yellow Kit**: You must provide your own Raspberry Pi Compute Module and install Home Assistant on it. This allows you to pick the compute module with the memory and eMMC storage to fit your needs. This kit comes with an external power supply and does not support PoE.
 
-**Home Assistant Yellow (No longer manufactured)**: The version that was ready to go out of the box. It came with everything pre-installed, including the Home Assistant operating system. Although this variant is no longer manufactured, it will continue to receive the same support as the kit models. If you are looking for more of a plug-and-play experience, take a look at the [Home Assistant Green](https://www.home-assistant.io/green/).
+**Home Assistant Yellow (No longer manufactured)**: The version that was ready to go out of the box. It came with everything pre-installed, including the Home Assistant Operating System. Although this variant is no longer manufactured, it will continue to receive the same support as the kit models. If you are looking for more of a plug-and-play experience, take a look at the [Home Assistant Green](https://www.home-assistant.io/green/).
 
 ## Related topics
 
