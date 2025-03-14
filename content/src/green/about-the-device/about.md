@@ -8,7 +8,7 @@ zendesk:
 
 ## Smart home hub for Home Assistant
 
-Home Assistant Green is a smart home hub designed to run Home Assistant. It comes with a preinstalled Home Assistant operating system. Because smart home hubs usually run around the clock, Green has a low power consumption: under heavy load, it uses ~3 W, 1.7 W when idle.
+Home Assistant Green is a smart home hub designed to run Home Assistant. It comes with a preinstalled Home Assistant Operating System. Because smart home hubs usually run around the clock, Green has a low power consumption: under heavy load, it uses ~3 W, 1.7 W when idle.
 
 No custom hardware components required. Connect power and Ethernet and you are ready to get started with Home Assistant.
 

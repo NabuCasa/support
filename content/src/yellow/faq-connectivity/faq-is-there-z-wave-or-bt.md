@@ -6,11 +6,11 @@ zendesk:
   labels: yellow, faq, connectivity
 ---
 
-No, Home Assistant Yellow neither has a [Z-Wave](/integrations/zwave_js/) nor a Bluetooth radio onboard.
+No, Home Assistant Yellow neither has a [Z-Wave](https://www.home-assistant.io/integrations/zwave_js/) nor a Bluetooth radio onboard.
 
 - For Bluetooth, you can use an[an ESPHome as a Bluetooth proxy](https://esphome.io/projects/?type=bluetooth) or add a USB dongle and use [local Bluetooth support](https://www.home-assistant.io/integrations/bluetooth/).
-- For [Z-Wave](/integrations/zwave_js/), you can use a USB dongle.
+- For [Z-Wave](https://www.home-assistant.io/integrations/zwave_js/), you can use a USB dongle.
 
 ## Related topics
 
-- [Z-Wave](/integrations/zwave_js/)
+- [Z-Wave](https://www.home-assistant.io/integrations/zwave_js/)
