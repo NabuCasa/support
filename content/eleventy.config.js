@@ -52,7 +52,7 @@ export default async function (eleventyConfig) {
     if (outputPath.endsWith(".html")) {
       return content.replace(
         /<a href="(http[s]:\/\/)(?!support\.nabucasa\.com)([^"]+)"/g,
-        '<a href="$1$2" target="_blank"'
+        '<a href="$1$2" target="_blank" rel="noreferrer"'
       );
     }
     return content;
