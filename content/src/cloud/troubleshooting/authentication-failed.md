@@ -19,7 +19,7 @@ _"Authentication failed"_, with _"Unexpected error - software token MFA"_ indica
 1. In Home Assistant, check if you have Home Assistant version 2025.1.0 or later
    - Open [**Settings** > **About**](https://my.home-assistant.io/redirect/info/).
 2. If you're version is older, choose one of the following options:
-   - **Option 1**: Update Home Assistant.
+   - **Option 1**: [Update](https://www.home-assistant.io/common-tasks/os/#updating-home-assistant) Home Assistant.
    - **Option 2**: [Disable MFA](https://support.nabucasa.com/hc/en-us/articles/25807025727005) for Home Assistant Cloud.
 
 ## Related topics
