@@ -25,4 +25,4 @@ _"Authentication failed"_, with _"Unexpected error - software token MFA"_ indica
 ## Related topics
 
 - [Disable MFA](https://support.nabucasa.com/hc/en-us/articles/25807025727005)
-- [Update  Home Assistant](https://www.home-assistant.io/common-tasks/os/#updating-home-assistant)
+- [Update Home Assistant](https://www.home-assistant.io/common-tasks/os/#updating-home-assistant)
