@@ -27,7 +27,7 @@ It is not usually necessary to reinstall the firmware. Only follow this procedur
       - **Troubleshooting**: If the reinstallation was not successful, try to [reinstall the firmware from bootloader mode](/hc/en-us/articles/25800285426589).
    4. To add the device to Home Assistant, follow the [Getting started](/hc/en-us/sections/24980017436701) steps.
 
-    ![Screenshot showing installation wizard](/static/img/voice-pe/voice_esp_connect_usb.pngvoice_esp_install.png)
+    ![Screenshot showing installation wizard](/static/img/voice-pe/voice_esp_install.png)
 
 ## Related topics
 
