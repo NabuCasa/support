@@ -15,6 +15,8 @@ Reinstalling the firmware from bootloader mode is an **extreme measure**. Only d
 - Home Assistant installation up and running
   - If you do not have Home Assistant installed yet, refer to the [installation documentation](https://www.home-assistant.io/installation/) for instructions.
   - You are logged in with a user that has Administrator rights on Home Assistant
+    - To check if a user has Administrator rights, you need to be logged in with Administrator rights.
+    - Go to [**Settings** > **People**](https://my.home-assistant.io/redirect/people/) and check the settings for that user.
 - This guide was tested using [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) on [Home Assistant Yellow](https://www.home-assistant.io/yellow/) and on [Home Assistant Green](https://www.home-assistant.io/green/).
 - The password to your Wi-Fi network
 
@@ -50,5 +52,5 @@ Reinstalling the firmware from bootloader mode is an **extreme measure**. Only d
 ## Related topics
 
 - [Reinstalling the firmware of the Home Assistant Voice PE](/hc/en-us/articles/25800241218717)
-- [Home Assistant installation documentation](https://www.home-assistant.io/installation/)-
+- [Home Assistant installation documentation](https://www.home-assistant.io/installation/)
 - [Getting started with Home Assistant Voice PE](/hc/en-us/sections/24980017436701)
