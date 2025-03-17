@@ -31,7 +31,7 @@ Step-by-step instructions on enabling multi-factor authentication (MFA) to log i
 - Administrator rights in Home Assistant
 - A multi-factor authentication application. For example:
   - A dedicated authenticator app on your phone, such as
-    - [Google Authenticator](hhttps://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid&oco=0)
+    - [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid&oco=0)
     - [Microsoft Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app)
   - A password manager with authenticator capabilities, such as
     - [1Password](https://support.1password.com/one-time-passwords/)
