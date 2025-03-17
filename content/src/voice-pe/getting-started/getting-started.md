@@ -1,6 +1,6 @@
 ---
 zendesk:
-  article_id:
+  article_id: 24980017436701
   name: Getting started
   position: 1
   labels: voice pe, getting started
