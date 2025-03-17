@@ -17,9 +17,9 @@ A device reset deletes the Wi-Fi credentials and the light settings from Home As
 
 2. Press the button until it lights up red (22 seconds)
    - Keep pressing the button until the red circle is complete and the device tells you to stop pressing.
-     - **Result**: Once the reset is complete. All data is cleared from the device.
+     - **Result**: All data is cleared from the device.
      - **Info**: If you stop pressing the button before the red light has completed the circle, the reset process is aborted.
-     - **Info**: After the reset is complete, the device starts up again. The white twinkle indicates that it is ready to be connected.
+     - **Info**: Once the reset is complete, the device starts up again. The white twinkle indicates that it is ready to be connected.
 
     ![Clip showing how to start the reset process by pressing the central button](/static/img/voice-pe/voice_reset_v2_480.webp)
 
