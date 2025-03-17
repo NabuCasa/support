@@ -25,4 +25,4 @@ A device reset deletes the Wi-Fi credentials and the light settings from Home As
 
 ## Related topics
 
-- [Removing an integration instance](https://www.home-assistant.io/common-tasks/general/#removing-an-integration-instance)[rem
+- [Removing an integration instance](https://www.home-assistant.io/common-tasks/general/#removing-an-integration-instance)
