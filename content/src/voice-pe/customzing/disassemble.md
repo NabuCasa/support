@@ -31,7 +31,7 @@ Follow these steps if you have 3D-printed your own enclosure parts and now want 
    ![Image showing the back of the device, pointing out the location of the rubber pads](/static/img/voice-pe/01_remove_pads_small.png)
 
 2. Removing the top enclosure.
-   1. Remove the top enclosure.
+   1. Lift up the top enclosure.
    2. If you only want to replace the top cover, your job is done here.
       - You can now [reassemble the enclosure](/hc/en-us/articles/25938314528285) with your own parts.
 
