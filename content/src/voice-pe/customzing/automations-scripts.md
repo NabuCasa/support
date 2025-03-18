@@ -78,7 +78,7 @@ You can turn it on or off when something happens and define color and effects.
 
 ## Example 4: Changing the wake word
 
-1. To select a different wake word when something happens, use the select.select_option action.
+1. To select a different wake word when something happens, use the `select.select_option` action.
 
           ```yaml
           action: select.select_option
