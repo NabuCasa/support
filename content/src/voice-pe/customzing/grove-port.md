@@ -9,7 +9,9 @@ zendesk:
 Connecting a sensor to the Grove port of the device allows the sensor to use the device's power supply and Wi-Fi connection. Home Assistant can then detect the sensor and start using it. This page provides configuration details for a few selected sensors.
 
 >Notice
+>
 >Risk of damage to equipment
+>
 >Connecting devices to the Grove port and reassembling your own firmware can void the warranty.
 
 ## Prerequisites
@@ -39,23 +41,23 @@ Connecting a sensor to the Grove port of the device allows the sensor to use the
    2. In the configuration file, under packages, add the configuration for the sensor.
       - In this example, we are adding the configuration for the [M5Stack SHT40-BMP280 temperature, humidity, air pressure sensor](https://shop.m5stack.com/products/env-iv-unit-with-temperature-humidity-air-pressure-sensor-sht40-bmp280).
 
-          ```yaml
-          packages:
-            grove-i2c: github://esphome/home-assistant-voice-pe/modules/grove-i2c.yaml
-          sensor:
-            - platform: sht4x
-              i2c_id: grove_i2c
-              temperature:
-                name: Temperature
-              humidity:
-                name: Humidity
+      ```yaml
+      packages:
+        grove-i2c: github://esphome/home-assistant-voice-pe/modules/grove-i2c.yaml
+      sensor:
+        - platform: sht4x
+          i2c_id: grove_i2c
+          temperature:
+            name: Temperature
+          humidity:
+            name: Humidity
 
-            - platform: bmp280_i2c
-              i2c_id: grove_i2c
-              address: 0x76
-              pressure:
-                name: Pressure
-            ```
+        - platform: bmp280_i2c
+          i2c_id: grove_i2c
+          address: 0x76
+          pressure:
+            name: Pressure
+      ```
 
       - For other sensors, refer to the section on [Configuration data for selected sensors](https://voice-pe.home-assistant.io/guides/grove_port/#configuration-data-for-selected-sensors).
 
@@ -89,46 +91,45 @@ Connecting a sensor to the Grove port of the device allows the sensor to use the
 
 Configuration for the [M5Stack PIR](https://shop.m5stack.com/products/pir-module) motion sensor.
 
-        ```yaml
-        packages:
-          grove-power: github://esphome/home-assistant-voice-pe/modules/grove-power.yaml
-        binary_sensor:
-          - platform: gpio
-            pin:
-              number: 2
-            name: Motion
-            device_class: motion
-        ```
+  ```yaml
+  packages:
+    grove-power: github://esphome/home-assistant-voice-pe/modules/grove-power.yaml
+  binary_sensor:
+    - platform: gpio
+      pin:
+        number: 2
+      name: Motion
+      device_class: motion
+  ```
 
 ### Example 2: SGP30 TVOC, eCO2 gas sensor
 
 Configuration for the [M5Stack SGP30](https://shop.m5stack.com/products/tvoc-eco2-gas-unit-sgp30) TVOC, eCO2 gas sensor.
 
-        ```yaml
-        packages:
-          grove-i2c: github://esphome/home-assistant-voice-pe/modules/grove-i2c.yaml
-        sensor
-          - platform: sgp30
-            i2c_id: grove_i2c
-            tvoc:
-              name: "TVOC"
-            eco2:
-              name: "eCO2"
-        ```
+  ```yaml
+  packages:
+    grove-i2c: github://esphome/home-assistant-voice-pe/modules/grove-i2c.yaml
+  sensor
+    - platform: sgp30
+      i2c_id: grove_i2c
+      tvoc:
+        name: "TVOC"
+      eco2:
+        name: "eCO2"
+  ```
 
 ### Example 3: BH1750 ambient light sensor
 
 Configuration for the [M5Stack BH1750](https://shop.m5stack.com/products/dlight-unit-ambient-light-sensor-bh1750fvi-tr) ambient light sensor.
 
-        ```yaml
-        packages:
-          grove-i2c: github://esphome/home-assistant-voice-pe/modules/grove-i2c.yaml
-        sensor:
-          - platform: bh1750
-            i2c_id: grove_i2c
-            name: "Light Intensity"
-        ```
-
+  ```yaml
+  packages:
+    grove-i2c: github://esphome/home-assistant-voice-pe/modules/grove-i2c.yaml
+  sensor:
+    - platform: bh1750
+      i2c_id: grove_i2c
+      name: "Light Intensity"
+  ```
 
 ## Related topics
 
