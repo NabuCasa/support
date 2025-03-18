@@ -90,7 +90,6 @@ Connecting a sensor to the Grove port of the device allows the sensor to use the
 This section shows some configuration examples for selected sensors. The configuration information needs to be added to the configuration file.
 
 1. To open the device configuration file, on the **Home Assistant Voice** card, select **Edit**.
-
 2. In the configuration file, under packages, add the configuration for the specific sensor.
 
 ### Example 1: PIR motion sensor
