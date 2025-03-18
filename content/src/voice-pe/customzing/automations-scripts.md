@@ -25,7 +25,7 @@ You can create an automation or script to play an announcement on the device.
 
    ![Screenshot showing the automation editor](/static/img/voice-pe/voice_script_announcement.png)
 
-If you prefer editing in YAML, you can find an example with the `assist_satellite.announce` action below.
+If you prefer editing in YAML, you can find an example with the [`assist_satellite.announce`](https://www.home-assistant.io/integrations/assist_satellite/#action-assist_satelliteannounce) action below.
 
     ```yaml
     action: assist_satellite.announce
@@ -37,7 +37,7 @@ If you prefer editing in YAML, you can find an example with the `assist_satellit
 
 ## Example 2: Controlling the color of the LED ring
 
-You can use `light.turn_on and light.turn_off` actions to control the light.
+You can use [`light.turn_on`(https://www.home-assistant.io/integrations/light/#action-lightturn_off) and [`light.turn_off`](https://www.home-assistant.io/integrations/light/#action-lightturn_on) actions to control the light.
 
 You can turn it on or off when something happens and define color and effects.
 
@@ -59,7 +59,7 @@ You can turn it on or off when something happens and define color and effects.
 
 ## Example 3: Changing the selected assistant
 
-1. To select a different assistant when something happens, use the select.select_option action. For example, when a button is pressed.
+1. To select a different assistant when something happens, use the [`select.select_option`](https://www.home-assistant.io/integrations/select/#action-selectselect_option) action. For example, when a button is pressed.
 
     ```yaml
     action: select.select_option
@@ -78,7 +78,7 @@ You can turn it on or off when something happens and define color and effects.
 
 ## Example 4: Changing the wake word
 
-1. To select a different wake word when something happens, use the `select.select_option` action.
+1. To select a different wake word when something happens, use the [`select.select_option`]([`select.select_option`](https://www.home-assistant.io/integrations/select/#action-selectselect_option)) action.
 
           ```yaml
           action: select.select_option
@@ -98,3 +98,6 @@ You can turn it on or off when something happens and define color and effects.
 - [Home Assistant event entities](https://www.home-assistant.io/integrations/event/)
 - [Automating on a button press](https://www.home-assistant.io/integrations/event/#automating-on-a-button-press)
 - [VPE button press: automation example](https://gist.github.com/jlpouffier/68434e51c8e347e974a791f90914c59)
+- [`assist_satellite.announce` action](https://www.home-assistant.io/integrations/assist_satellite/#action-assist_satelliteannounce)
+- [`select.select_option` action](https://www.home-assistant.io/integrations/select/#action-selectselect_option)
+- [`light.turn_on` action](https://www.home-assistant.io/integrations/light/#action-lightturn_off)
