@@ -39,7 +39,7 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
    2. Place the button onto the rotary disk.
    3. Take the dial and take note of the square cutout. It must align with the button.
    4. Slide the dial onto the board and press until it clicks into place.
-   5. Rotate the dial. If it does rotate easily, make sure the dial is not tilted.
+   5. Rotate the dial. If it does not rotate easily, make sure the dial is not tilted.
 
     ![Assemble button and dial](/static/img/voice-pe/voice_assemble_dial_480.webp)
 
