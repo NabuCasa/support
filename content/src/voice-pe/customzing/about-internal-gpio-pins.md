@@ -18,6 +18,8 @@ If you open the device, you can access 2 sets of GPIO pins. The image below show
 
 ## GPIO Pin header group 1: Pin header in corner
 
+The pins of group 2 are located in the center of the board. You need to [disassemble the device](/hc/en-us/articles/25938306296605) to access them.
+
 ### Pin assignments
 
 - `IO47`, `GND`
@@ -25,8 +27,9 @@ If you open the device, you can access 2 sets of GPIO pins. The image below show
 - `IO41`, `RGBIN`
 - `IO40`, `IO48`
 
-> **Notice**: Risk of damaging VPE components due to high current.
-> Current drawn from GPIO pins should be limited to 20 milliampère (mA) or damage to the ESP32-S3 may occur.
+> **Notice**: **Risk of damaging VPE components due to high current.**
+>
+> Current drawn from GPIO pins should be limited to 20 milliampere (mA) or damage to the ESP32-S3 may occur.
 
 ### RGBIN/RGBOUT pins
 
@@ -39,22 +42,24 @@ If you open the device, you can access 2 sets of GPIO pins. The image below show
 
 ## GPIO Pin header group 2: Pin header in board center
 
-### Pin assignments**
+The pins of group 2 are located in the center of the board. You need to [disassemble the device](/hc/en-us/articles/25938306296605) to access them.
+
+### Pin assignments
 
 - `+3.3 V`, `+5 V`
 - `IO02`, `IO39`
 - `IO01`, `IO38`
 - `RXD`, `TXD`
 
-### Power pins (+5 V, +3.3 V)**:
+### Power pins (+5 V, +3.3 V)
 
-  > **Notice**: Risk of damaging VPE components due to high current.
+  > **Notice**: **Risk of damaging VPE components due to high current.**
   >
     > **Mind the power limitations**:
     >
-    >  - The amount of power you can draw from the power pins (+5 V, +3.3 V) on these headers depends on the capabilities of the power supply you are using; most common USB power supplies can supply either 1, 2, or 3 amps.
+    >  - The amount of power you can draw from the power pins (+5&nbsp;V, +3.3&nbsp;V) on these headers depends on the capabilities of the power supply you are using; most common USB power supplies can supply either 1, 2, or 3&nbsp;amperes.
     >  - Reputable power supplies will be labeled with their capabilities (voltage, current).
-    >  - Regardless of the power supply, do not attempt to draw more than 2 amps (total) from the +5 V and +3.3 V pins. Drawing more current than this from these pins may cause damage to components in the VPE, causing it to stop working.
+    >  - Regardless of the power supply, do not attempt to draw more than 2&nbsp;amperes (total) from the +5&nbsp;V and +3.3&nbsp;V pins. Drawing more current than this from these pins may cause damage to components in the VPE, causing it to stop working.
     >  - If you attempt to draw more current than your USB power supply can handle, it may become very hot and/or unexpectedly switch off.
     > - Be sure that you  do not exceed the capabilities of your USB power supply/port.
 
@@ -67,19 +72,21 @@ If you open the device, you can access 2 sets of GPIO pins. The image below show
 
 ## GPIO pin header group 3: Grove port
 
+The pins of the Grove port can be accessed from the outside of the device.
+
 ### Pin assignments
 
 - `SCL`, `SDA`, `5V`, `GND`
 
-> **Notice**: Risk of damaging VPE components due to high current.
+> **Notice**: **Risk of damage to components due to high current.**
 >
->  - Current drawn from GPIO pins should be limited to 20 milliamps (mA) or damage to the ESP32-S3 may occur.
+> - Current drawn from GPIO pins should be limited to 20&nbsp;milliampere (mA) or damage to the ESP32-S3 may occur.
 
 ### +5V pin power switching
 
-- The Grove expansion port has a “load switch” on its +5 V pin.
-- This is controlled by the ESP32-S3’s GPIO pin 46.
-- Power is not available on the Grove port’s +5 V pin unless this GPIO pin is switched on (high).
+- The Grove expansion port has a “load switch” on its +5&nbsp;V pin.
+- This is controlled by the ESP32-S3’s GPIO&nbsp;pin&nbsp;46.
+- Power is not available on the Grove port’s +5&nbsp;V pin unless this GPIO pin is switched on (high).
 
  ![Image showing location of the Grove port](/static/img/voice-pe/voice_pe_internal_pin_group_03_grove_port.jpg)
 
