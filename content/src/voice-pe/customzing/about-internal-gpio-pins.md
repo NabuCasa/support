@@ -20,16 +20,16 @@ If you open the device, you can access 2 sets of GPIO pins. The image below show
 
 The pins of group 2 are located in the center of the board. You need to [disassemble the device](/hc/en-us/articles/25938306296605) to access them.
 
+> **Notice**: **Risk of damaging VPE components due to high current.**
+>
+> Current drawn from GPIO pins should be limited to 20 milliampere (mA) or damage to the ESP32-S3 may occur.
+
 ### Pin assignments
 
 - `IO47`, `GND`
 - `IO42`, `RGBOUT`
 - `IO41`, `RGBIN`
 - `IO40`, `IO48`
-
-> **Notice**: **Risk of damaging VPE components due to high current.**
->
-> Current drawn from GPIO pins should be limited to 20 milliampere (mA) or damage to the ESP32-S3 may occur.
 
 ### RGBIN/RGBOUT pins
 
@@ -74,13 +74,13 @@ The pins of group 2 are located in the center of the board. You need to [disasse
 
 The pins of the Grove port can be accessed from the outside of the device.
 
-### Pin assignments
-
-- `SCL`, `SDA`, `5V`, `GND`
-
 > **Notice**: **Risk of damage to components due to high current.**
 >
 > - Current drawn from GPIO pins should be limited to 20&nbsp;milliampere (mA) or damage to the ESP32-S3 may occur.
+
+### Pin assignments
+
+- `SCL`, `SDA`, `5V`, `GND`
 
 ### +5V pin power switching
 
