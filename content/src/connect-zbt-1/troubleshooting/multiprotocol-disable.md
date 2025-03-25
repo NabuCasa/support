@@ -23,7 +23,7 @@ This guide assumes you have already completed the following steps:
    2. Under **Home Assistant SkyConnect**, select **Configure**.
    3. Select the **Configure IEEE 802.15.4 radio multiprotocol support** option.
 
-    ![disable_multiprotocol_sc_01.png](disable_multiprotocol_sc_01.png)
+    ![disable_multiprotocol_sc_01.png](/static/img/connect-zbt-1/disable_multiprotocol_sc_01.png)
 
 2. Removing multiprotocol support.
 
@@ -31,7 +31,7 @@ This guide assumes you have already completed the following steps:
    2. Then, select the **Disable multiprotocol support** checkbox.
    3. Wait for the setup to complete.
 
-  ![disable_multiprotocol_sc_02.png](disable_multiprotocol_sc_02.png)
+  ![disable_multiprotocol_sc_02.png](/static/img/connect-zbt-1/disable_multiprotocol_sc_02.png)
 
   > **Note:** Your Zigbee devices will continue to work. Your Thread devices will continue working only if you have another Thread border router set up.
 
