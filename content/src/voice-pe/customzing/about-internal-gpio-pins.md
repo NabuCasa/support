@@ -6,13 +6,13 @@ zendesk:
   labels: voice pe, customizing
 ---
 
-If you open the device, you can access 2 sets of GPIO pins. This section provides a description of those internal GPIO pins.
+If you open the device, you can access 2 sets of GPIO pins. The image below shows pin header groups 1 and 2, located on the board. This page also describes the pins of the Grove port (not shown in the image below)
 
- ![Image showing location of pins on board](/static/img/voice-pe/voice_pe_internal_pin_headers.jpg)
+ ![Image showing location of pin header groups 1 and 2 on the board](/static/img/voice-pe/voice_pe_internal_pin_headers.jpg)
 
->Notice
+>**Notice**
 >
->Risk of damage to equipment
+>**Risk of damage to equipment**
 >
 >Opening the device and connecting to the GPIO pins voids the warranty.
 
@@ -51,7 +51,9 @@ If you open the device, you can access 2 sets of GPIO pins. This section provide
 - **Power pins (+5 V, +3.3 V)**:
 
   > **Notice**: Risk of damaging VPE components due to high current.
+  >
     > **Mind the power limitations**:
+    >
     >  - The amount of power you can draw from the power pins (+5 V, +3.3 V) on these headers depends on the capabilities of the power supply you are using; most common USB power supplies can supply either 1, 2, or 3 amps.
     >  - Reputable power supplies will be labeled with their capabilities (voltage, current).
     >  - Regardless of the power supply, do not attempt to draw more than 2 amps (total) from the +5 V and +3.3 V pins. Drawing more current than this from these pins may cause damage to components in the VPE, causing it to stop working.
@@ -59,16 +61,18 @@ If you open the device, you can access 2 sets of GPIO pins. This section provide
     > - Be sure that you  do not exceed the capabilities of your USB power supply/port.
 
 - **ESP32-S3 TXD and RXD pins**:
+
   - The ESP32-S3’s `U0TXD` and `U0RXD` (serial/UART) pins are not used by the firmware shipped with the Home Assistant Voice Preview Edition.
   - If you want to watch logs and/or reinstall the ESP32-S3, use the built-in USB port.
 
  ![Image showing location of pin header group 2 in the center of the board](/static/img/voice-pe/voice_pe_internal_pin_group_02_center.jpg)
 
-###
+### GPIO pin header group 3: Grove port
 
 - **Pin assignments**: `SCL`, `SDA`, `5V`, `GND`
 
 > **Notice**: Risk of damaging VPE components due to high current.
+>
 >  - Current drawn from GPIO pins should be limited to 20 milliamps (mA) or damage to the ESP32-S3 may occur.
 
 - **+5V pin power switching**:
