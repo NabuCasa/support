@@ -94,4 +94,4 @@ The pins of the Grove port can be accessed from the outside of the device.
 
 - [Disassembling the device](/hc/en-us/articles/25938306296605)
 - [Reassembling the device](/hc/en-us/articles/25938314528285)
-- [Connecting a sensor to the Grove port](/hc/en-us/articles/25938314528285)
+- [Connecting a sensor to the Grove port](/hc/en-us/articles/25938245892765)
