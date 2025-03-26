@@ -6,7 +6,7 @@ zendesk:
   labels: connect zbt-1, about the device, interference, connectivity issues
 ---
 
-Zigbee devices, including Home Assistant Connect ZBT-1, can't communicate reliably if they are too close to other electronics which cause interference. Especially USB 3.0 devices are known to interfere with the 2.4&nbsp;GHz based protocols such as Zigbee or Thread.
+Zigbee devices, including Home Assistant Connect&nbsp;ZBT-1, can't communicate reliably if they are too close to other electronics which cause interference. Especially USB 3.0 devices are known to interfere with the 2.4&nbsp;GHz based protocols such as Zigbee or Thread.
 
 The video below demonstrates this effect: when the stick is moved closely to a source of interference, the light switch and the light cannot communicate.
 

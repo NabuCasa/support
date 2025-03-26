@@ -8,7 +8,7 @@ zendesk:
 
 ## Symptom
 
-My Home Assistant Connect ZBT-1 device is completely unresponsive.
+My Connect&nbsp;ZBT-1 device is completely unresponsive.
 
 ## Resolution
 
