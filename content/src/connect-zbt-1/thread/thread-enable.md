@@ -6,13 +6,13 @@ zendesk:
   labels: connect zbt-1, thread
 ---
 
-This guide outlines the steps for configuring the Home Assistant Connect ZBT-1 for dedicated Thread support. This setup facilitates the connection of Matter-over-Thread devices to your network.
+This guide outlines the steps for configuring the Home Assistant Connect&nbsp;ZBT-1 for dedicated Thread support. This setup facilitates the connection of Matter-over-Thread devices to your network.
 
 ## Prerequisites
 
 This guide assumes you have the following setup:
 
-- Connected Home Assistant Connect ZBT-1.
+- Connected Home Assistant Connect&nbsp;ZBT-1.
 - [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) installation.
 - You don't have Multiprotocol enabled. If you do, disable it by following the steps in the procedure on [disabling multiprotocol support](/hc/en-us/articles/26124969612445).
 - **Important:** This guide installs firmware that supports only Thread! If you use your Connect ZBT-1 to control Zigbee devices, you will no longer be able to control them after installing the Thread firmware.
@@ -36,7 +36,7 @@ This guide assumes you have the following setup:
 
      ![Migrate your Zigbee network or delete the ZHA integration](/static/img/connect-zbt-1/connect-zbt-1-zha-delete.png)
 
-2. Configuring the Connect ZBT-1.
+2. Configuring the Home Assistant Connect&nbsp;ZBT-1.
 
    1. Go to [**Settings** > **System** > **Hardware**](https://my.home-assistant.io/redirect/hardware/).
    2. Under **Home Assistant Connect ZBT-1**, select **Configure**.
@@ -47,7 +47,7 @@ This guide assumes you have the following setup:
 
    1. Select **Use as a Thread border router**.
       - **Result**: This will install the OpenThread Border Router add-on.
-   2. The dialog informs you that Connect ZBT-1 now acts as an OpenThread border router. Select **Submit**.
+   2. The dialog informs you that Home Assistant Connect&nbsp;ZBT-1 now acts as an OpenThread border router. Select **Submit**.
    3. Then, select **Finish**.
 
    ![Select the Thread firmware](/static/img/connect-zbt-1/connect-zbt-1_pick_firmware.png)
