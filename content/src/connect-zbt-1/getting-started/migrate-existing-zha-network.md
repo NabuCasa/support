@@ -8,7 +8,7 @@ zendesk:
 
 Follow this guide if you already have a running Zigbee Home Assistant (ZHA) network and want to migrate to Home Assistant Connect&nbsp;ZBT-1.
 
-
+## To migrate an existing ZHA network to Connect&nbsp;ZBT-
 
 1. Starting radio migration.
    1. Under **[Settings > Devices & services](https://my.home-assistant.io/redirect/integrations/)**, select the ZHA integration, then select **Configure**.
