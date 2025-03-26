@@ -42,8 +42,8 @@ Follow this guide if you already have a running Zigbee Home Assistant (ZHA) netw
 
    ![Image showing the Home Assistant Connect&nbsp;ZBT-1 connected to a Raspberry Pi via extension cable](/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg)
 
-7. Confirming that Connect&nbsp;ZBT-1 is plugged in.
-   - Now that Connect&nbsp;ZBT-1 is plugged in, select **Submit**.
+7. Confirming that Home Assistant Connect&nbsp;ZBT-1 is plugged in.
+   - Now that Home Assistant Connect&nbsp;ZBT-1 is plugged in, select **Submit**.
 
    ![Screenshot showing the Unplug your radio dialog](/static/img/connect-zbt-1/z2m-migrate-zha-06.png)
 
