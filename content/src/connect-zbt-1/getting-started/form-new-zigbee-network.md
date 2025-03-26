@@ -11,6 +11,8 @@ zendesk:
 - Home Assistant installation on your board (for example on a Home Assistant Green, Home Assistant Yellow or on a Raspberry Pi) with the latest updates installed.
 - Home Assistant Connect&nbsp;ZBT-1 dongle and USB extension cable.
 
+  ![Image showing the Assistant Connect&nbsp;ZBT-1 with the USB extension cable in the original packaging](/static/img/connect-zbt-1/connect-zbt-1-boxed-01.jpg)
+
 ## To form a new Zigbee network
 
 1. Plugging the extension cable into Home Assistant Connect&nbsp;ZBT-1.
