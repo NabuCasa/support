@@ -23,3 +23,25 @@ If you must reinstall the firmware on your Connect ZBT-1 today, the following op
   - Start the add-on.
 
 Verify the add-on logs to confirm successful flashing.
+
+## Reflash using the Silicon Labs Web Flasher
+
+> **Notice**
+> Firmware update through web flasher is only available for Home Assistant SkyConnect devices and Home Assistant ZBT-1 devices purchased after October 20, 2024.
+
+If your Home Assistant installation has no add-ons available, you can use the web flasher below to install the latest firmware version for Home Assistant Connect ZBT-1 directly from your browser over USB. Plug in your Connect ZBT-1 to your computer and select the firmware version you want to install.
+
+To read more about the SL Web Tools, refer to this [blog post](https://www.home-assistant.io/blog/2023/02/08/state-of-matter-and-thread/#silabs-multi-flasher--sl-web-tools).
+
+<nabucasa-zigbee-flasher manifest="/firmwares/manifest.json">
+  <span slot="button">Update Firmware</span>
+</nabucasa-zigbee-flasher>
+    <script
+      type="module"
+      src="https://unpkg.com/@nabucasa/sl-web-tools@0.10.1/dist/web/nabucasa-zigbee-flasher.js?module"
+    ></script>
+  </div>
+
+## Related topics
+
+- [Blog post on SL Web Tools](https://www.home-assistant.io/blog/2023/02/08/state-of-matter-and-thread/#silabs-multi-flasher--sl-web-tools)
