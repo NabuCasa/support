@@ -28,37 +28,44 @@ zendesk:
    - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
    - Connect ZBT-1 should now have been discovered.
    - Select **Configure**.
+
    ![Locate the Connect ZBT-1 integration](/static/img/connect-zbt-1/connect-zbt-1-discovered-01.png)
 
 3. Picking your firmware.
    - In the dialog, select **Zigbee**.
+
    ![Pick your firmware](/static/img/connect-zbt-1/connect-zbt-1_pick_firmware.png)
 
 4. Completing the Zigbee setup.
    - Select **Submit** to complete the setup of the Home Assistant Connect&nbsp;ZBT-1 integration.
    - Your Connect ZBT-1 is now a Zigbee coordinator.
+
    ![Complete the Zigbee setup](/static/img/connect-zbt-1/connect-zbt-1_complete-zigbee-setup.png)
 
 5. Configuring the Zigbee Home Automation integration.
    - Connect ZBT-1 will be shown in your **Zigbee Home Automation integration**.
    - Select **Configure**.
    - To confirm, select **Submit**.
+
    ![Configure the Zigbee Home Automation integration](/static/img/connect-zbt-1/connect-zbt-1_zha-discovered.png)
 
 6. Creating a network.
    - Select **Create network**.
+
    ![Create a network](/static/img/connect-zbt-1/connect-zbt-1_create-network.png)
 
 7. Adding devices to an area.
    - Once the network has been set up, add the Zigbee Coordinator to an area.
    - Select **Finish**.
      - Your Zigbee devices are now added to your Zigbee network.
+
    ![Add devices to area](/static/img/connect-zbt-1/connect-zbt-1-discovered-04.png)
 
 8. Adding Zigbee devices.
    - Select **1 device** and select **Add devices via this device**. ZHA will now search for Zigbee devices in pairing mode.
    - Put your Zigbee device into pairing mode.
    - **Warning:** If ZHA can't find your Zigbee device, make sure that Home Assistant Connect&nbsp;ZBT-1 does not suffer from interference. Use the extension cable and move the Connect&nbsp;ZBT-1 further away from potential devices which can cause interference.
+
    ![Add Zigbee devices](/static/img/connect-zbt-1/connect-zbt-1-discovered-05.png)
 
 ## Related topics
