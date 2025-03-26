@@ -182,3 +182,8 @@ ul {
 .section-content {
   width: 100%;
 }
+
+.nabucasa-zigbee-flasher {
+  --mdc-theme-primary: var(--accent-color);
+  --mdc-theme-on-primary: #fff;
+}
