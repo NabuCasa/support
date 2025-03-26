@@ -72,3 +72,4 @@ zendesk:
 
 - [Home Assistant Container installation](https://www.home-assistant.io/docs/glossary/#home-assistant-container)
 - [Mapping devices to the container](https://www.home-assistant.io/installation/linux#exposing-devices)
+- [Connectivity issues due to interference](/hc/en-us/articles/26124431414557)
