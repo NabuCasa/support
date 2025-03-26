@@ -64,7 +64,7 @@ zendesk:
 8. Adding Zigbee devices.
    - Select **1 device** and select **Add devices via this device**. ZHA will now search for Zigbee devices in pairing mode.
    - Put your Zigbee device into pairing mode.
-   - **Warning:** If ZHA can't find your Zigbee device, make sure that Home Assistant Connect&nbsp;ZBT-1 does not suffer from interference. Use the extension cable and move the Connect&nbsp;ZBT-1 further away from potential devices which can cause interference.
+   - **Warning:** If Zigbee Home Automation (ZHA) can't find your Zigbee device, make sure that Home Assistant Connect&nbsp;ZBT-1 does not suffer from interference. Use the extension cable and move the Connect&nbsp;ZBT-1 further away from potential devices which can cause interference.
 
    ![Add Zigbee devices](/static/img/connect-zbt-1/connect-zbt-1-discovered-05.png)
 
