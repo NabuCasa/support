@@ -55,7 +55,7 @@ zendesk:
    ![Create a network](/static/img/connect-zbt-1/connect-zbt-1_create-network.png)
 
 7. Adding devices to an area.
-   - Once the network has been set up, add the Zigbee Coordinator to an area.
+   - Once the network has been set up, add the Zigbee coordinator to an area.
    - Select **Finish**.
      - Your Zigbee devices are now added to your Zigbee network.
 
