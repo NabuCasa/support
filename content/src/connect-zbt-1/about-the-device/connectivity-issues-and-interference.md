@@ -26,7 +26,7 @@ In some cases, the extension cable delivered with Home Assistant Connect&nbsp;ZB
 2. Ensure the Home Assistant Connect&nbsp;ZBT-1 is not placed near any of the following devices:
    - USB&nbsp;3.0 devices or hubs
    - External SSDs or HDDs
-   - 2.4&nbsp;GHz WiFi devices, routers, or SBCs such as a Raspberry Pi
+   - 2.4&nbsp;GHz wireless devices, routers, or SBCs such as a Raspberry Pi
 
 ## Related topics
 
