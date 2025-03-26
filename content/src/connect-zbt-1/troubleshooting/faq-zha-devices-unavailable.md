@@ -1,14 +1,14 @@
 ---
 zendesk:
   article_id: 26125387134877
-  name: Some of my ZHA devices are unavailable
+  name: Some of my Zigbee Home Automation (ZHA) devices are unavailable
   position: 4
   labels: connect zbt-1, troubleshooting
 ---
 
 ## Symptom
 
-Some of my ZHA devices are now shown as unavailable or have suddenly stopped working.
+Some of my Zigbee Home Automation (ZHA) devices are now shown as unavailable or have suddenly stopped working.
 
 ## Resolution
 

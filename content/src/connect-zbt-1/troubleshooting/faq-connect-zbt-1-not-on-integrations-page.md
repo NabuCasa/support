@@ -8,7 +8,7 @@ zendesk:
 
 ## Symptom
 
-I plugged in Connect&nbsp;ZBT-1 but the ZHA Connect&nbsp;ZBT-1 integration does not show up on the integration page.
+I plugged in Connect&nbsp;ZBT-1 but the Zigbee Home Automation (ZHA) Connect&nbsp;ZBT-1 integration does not show up on the integration page.
 
 ## Resolution
 

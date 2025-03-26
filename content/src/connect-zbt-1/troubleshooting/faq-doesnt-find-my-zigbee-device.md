@@ -8,7 +8,7 @@ zendesk:
 
 ## Symptom
 
-I'm trying to add a Zigbee device using ZHA, but Home Assistant doesn't find it.
+I'm trying to add a Zigbee device using Zigbee Home Automation (ZHA), but Home Assistant doesn't find it.
 
 ## Resolution
 

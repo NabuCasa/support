@@ -18,7 +18,7 @@ There are currently 2 different firmware options for Home Assistant Yellow:
 ### Zigbee firmware
 
 This is the firmware that runs a Zigbee network. It is preinstalled on Connect ZBT-1 and Yellow.
-Bundled in the Silicon Labs Flasher add-on. In case you have installed one of the other two options at some point, this add-on allows you to re-install the Zigbee firmware. Note that the add-on is only used to flash the firmware. It is never used during operation: ZHA communicates with the Zigbee firmware directly.
+Bundled in the Silicon Labs Flasher add-on. In case you have installed one of the other two options at some point, this add-on allows you to re-install the Zigbee firmware. Note that the add-on is only used to flash the firmware. It is never used during operation: Zigbee Home Automation (ZHA) communicates with the Zigbee firmware directly.
 Other terms you may have seen to designate this firmware: EmberZNet firmware, EZSP firmware, Zigbee EZSP.
 
 ### Thread firmware
