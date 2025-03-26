@@ -6,13 +6,17 @@ zendesk:
   labels: connect zbt-1, getting started, migrate, migration
 ---
 
-Follow this guide if you have a Zigbee2MQTT network running and want to migrate to Connect ZBT-1 and ZHA.
+Follow this guide if you have a Zigbee2MQTT network running and want to migrate to Home Assistant Connect&nbsp;ZBT-1 and Zigbee Home Automation (ZHA).
 
-Note: this procedure only helps migrate basic network settings to your Home Assistant Connect ZBT-1, customizations like device names will be lost and automations will need to be updated. Most powered devices like lightbulbs will be re-discovered over time (you can speed this up by rebooting the device) but your battery-powered devices may need to be re-joined to the network for the migration to complete. There is currently no migration path to migrate all settings and devices.
+>**Note**: this procedure only helps migrate basic network settings to your Home Assistant Connect ZBT-1.
+> - Customizations like device names will be lost and automations will need to be updated.
+> - Most powered devices like lightbulbs will be re-discovered over time (you can speed this up by rebooting the device) but your battery-powered devices may need to be re-joined to the network for the migration to complete.
+>
+> There is currently no migration path to migrate all settings and devices.
 
-If you no longer have the old stick, you can migrate via z2m backup.
+If you no longer have the old stick, you can migrate via a Zigbee2MQTT backup.
 
-## To migrate a Zigbee2MQTT network to Connect ZBT-1 via ZHA
+## To migrate a Zigbee2MQTT network to ZHA
 
 1. Stopping the Zigbee2MQTT add-on.
    - Under **Settings** > **Add-ons**, in the **Zigbee2MQTT** add-on, select **Stop**.
