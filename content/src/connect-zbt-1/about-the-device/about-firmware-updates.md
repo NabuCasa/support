@@ -33,6 +33,7 @@ If your Home Assistant installation has no add-ons available, you can use the we
 
 To read more about the SL Web Tools, refer to this [blog post](https://www.home-assistant.io/blog/2023/02/08/state-of-matter-and-thread/#silabs-multi-flasher--sl-web-tools).
 
+<div>
 <nabucasa-zigbee-flasher manifest="/firmwares/manifest.json">
   <span slot="button">Update Firmware</span>
 </nabucasa-zigbee-flasher>
