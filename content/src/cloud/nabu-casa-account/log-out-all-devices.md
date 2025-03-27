@@ -10,7 +10,7 @@ You can log out all devices that are currently logged in to Home Assistant Cloud
 
 >**Notice** If you log out of your device, your remote connection stops working
 >
-> You need physical access to Home Assistant to re-establish a remote connection.
+> You need physical access to Home Assistant to re-establish the remote connection.
 
 ## To log out all devices from Home Assistant Cloud
 
