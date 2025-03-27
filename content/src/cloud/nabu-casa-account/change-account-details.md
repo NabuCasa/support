@@ -19,7 +19,3 @@ You can delete your payment method on our [account page](https://account.nabucas
 ## How can I change the email address for my account?
 
 You can change your email address on our [account page](https://account.nabucasa.com/).
-
-## How can I transfer the Nabu Casa subscription to another person?
-
-There is not a way to transfer the subscription from one account to another. Please contact our support if you need help canceling a subscription.
