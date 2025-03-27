@@ -1,9 +1,9 @@
 ---
 zendesk:
-  article_id: 
+  article_id: 26177541625245
   name: Is Home Assistant Cloud open source?
   position: 15
-  labels: cloud
+  labels: cloud, open-source, open source
 ---
 
 We make sure that as much processing as possible is done locally inside Home Assistant.
