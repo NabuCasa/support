@@ -10,4 +10,4 @@ You will lose access if you did not enter a payment method by the time that your
 
 ## Related topics
 
-- [Pricing](https://www.nabucasa.com/pricing/)
+- [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/)

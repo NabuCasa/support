@@ -8,4 +8,8 @@ zendesk:
 
 The price depends on your location/currency and whether you subscribe to an annual or monthly plan.
 
-To check the price and currency for your region, please refer to the [pricing](https://www.nabucasa.com/pricing/).
+To check the price and currency for your region, please refer to the [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/) page.
+
+## Related topics
+
+- [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/)

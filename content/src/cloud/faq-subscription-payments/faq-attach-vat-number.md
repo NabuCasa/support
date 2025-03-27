@@ -10,4 +10,4 @@ We strictly operate as a business-to-consumer provider, as such we can not attac
 
 ## Related topics
 
-- [Pricing](https://www.nabucasa.com/pricing/)
+- [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/)

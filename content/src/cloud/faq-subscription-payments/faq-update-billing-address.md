@@ -10,3 +10,7 @@ zendesk:
 2. Under **Billing information**, fill in the required details.
 3. To apply the change, select **Update billing information**.
    - Note that your new payment method will be applied from the following (monthly or yearly) payments onward.
+
+## Related topics
+
+- [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/)

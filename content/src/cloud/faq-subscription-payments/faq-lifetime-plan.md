@@ -10,4 +10,4 @@ No. Projecting the lifetime cost of administering a cloud service and adding/mai
 
 ## Related topics
 
-- [Pricing](https://www.nabucasa.com/pricing/)
+- [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/)

@@ -12,4 +12,4 @@ To find out why a payment is failing, check with the bank which has issued the c
 
 ## Related topics
 
-- [Pricing](https://www.nabucasa.com/pricing/)
+- [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/)

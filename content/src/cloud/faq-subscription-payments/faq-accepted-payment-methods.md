@@ -10,4 +10,4 @@ As of August 2022, we support two payment options: Stripe (Credit Cards, Google 
 
 ## Related topics
 
-- [Pricing](https://www.nabucasa.com/pricing/)
+- [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/)
