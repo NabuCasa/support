@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26178660073501
   name: Can I use remote access with any Home Assistant installation method?
-  position: 15
+  position: 4
   labels: cloud
 ---
 

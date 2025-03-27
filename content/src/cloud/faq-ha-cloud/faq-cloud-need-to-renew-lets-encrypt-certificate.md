@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26178053658781
   name: I received an email from Let's Encrypt. Do I need to renew my own certificates?
-  position: 15
+  position: 5
   labels: cloud
 ---
 

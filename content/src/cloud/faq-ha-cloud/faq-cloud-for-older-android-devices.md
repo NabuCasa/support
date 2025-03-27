@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26178731338141
   name: How can I use Home Assistant Cloud on older Android devices?
-  position: 15
+  position: 6
   labels: cloud
 ---
 

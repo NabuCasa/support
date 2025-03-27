@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26177541625245
   name: Is Home Assistant Cloud open source?
-  position: 15
+  position: 1
   labels: cloud, open-source, open source
 ---
 
