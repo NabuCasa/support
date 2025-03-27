@@ -1,6 +1,6 @@
 ---
 zendesk:
-  section_id: 26176681477405
+  section_id: 26177468171549
   position: 6
   name: FAQ - Nabu Casa
 ---
