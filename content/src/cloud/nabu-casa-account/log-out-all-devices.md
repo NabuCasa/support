@@ -6,7 +6,7 @@ zendesk:
   labels: cloud
 ---
 
-You can log out all devices that are currently logged in to Home Assistant Cloud. This includes Home Assistant, Google Home, Alexa, browsers, and the Home Assistant Companion App on any of your phones or tablets.
+You can log out all devices that are currently logged in to Home Assistant Cloud. This includes Home Assistant, Google Home, Alexa, and browsers.
 
 ## To log out all devices from Home Assistant Cloud
 
