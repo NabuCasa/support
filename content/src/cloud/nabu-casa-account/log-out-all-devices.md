@@ -8,6 +8,10 @@ zendesk:
 
 You can log out all devices that are currently logged in to Home Assistant Cloud. This includes Home Assistant, Google Home, Alexa, and browsers.
 
+>**Notice** If you log out of your device, your remote connection stops working
+>
+> You need physical access to home assistant to renable remote connection.
+
 ## To log out all devices from Home Assistant Cloud
 
 1. Log in to your [Nabu Casa account](https://account.nabucasa.com/) and select **Manage account**.
