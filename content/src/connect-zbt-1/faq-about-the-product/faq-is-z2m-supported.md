@@ -14,6 +14,8 @@ The Zigbee2MQTT project has [experimental support](https://www.zigbee2mqtt.io/gu
 
 **Note:** When setting up Zigbee2MQTT with the Home Assistant Connect ZBT-1, you will need to configure the adapter type in Zigbee2MQTT. Make sure the following is present in your Zigbee2MQTT configuration:
 
+After copying the example below, replace the `<usb-serial-number>` placeholder with the actual serial number.
+
 ```yaml
 serial:
   adapter: ezsp
@@ -30,7 +32,7 @@ serial:
   rtscts: true
 ```
 
-You can find the port information under [Settings > System > Hardware](https://my.home-assistant.io/redirect/hardware/), then on the menu button, select **All Hardware** and search for Connect.
+You can find the port information under [Settings > System > Hardware](https://my.home-assistant.io/redirect/hardware/), then on the menu button, select **All Hardware** and search for **Connect**.
 
 ![Connect ZBT-1 Identification](/static/img/connect-zbt-1/connect-zbt-1-id.png)
 

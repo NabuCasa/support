@@ -19,4 +19,4 @@ During migration, the IEEE address of the Connect&nbsp;ZBT-1 is replaced by the 
 
 After migration, don't operate the old stick in the same area.
 
-(In theory, you could not migrate the IEEE address. But if you do not migrate the IEEE address from your old stick, you'll have to re-pair many of your devices in order to keep them working.)
+(In theory, you could not migrate the IEEE address. But if you do not migrate the IEEE address from your old stick, you'll have to re-pair many of your devices in order to keep them working).
