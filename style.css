@@ -378,6 +378,11 @@ ul {
   width: 100%;
 }
 
+nabucasa-zigbee-flasher {
+  --mdc-theme-primary: $brand_color;
+  --mdc-theme-on-primary: #fff;
+}
+
 /***** Buttons *****/
 .button, .pagination-next-link, .pagination-prev-link, .pagination-first-link, .pagination-last-link, .subscriptions-subscribe button, .requests-table-toolbar .organization-subscribe button, .community-follow button, .article-subscribe button, .section-subscribe button, .split-button button {
   background-color: transparent;
@@ -1373,43 +1378,43 @@ section.section.hero[data-category="Home Assistant Voice Preview Edition"] [data
 }
 main > .visibility-hidden:has(ol li a[href$=Voice-Preview-Edition]) + section.hero [data-description]:before,
 section.section.hero[data-category="Home Assistant Voice Preview Edition"] [data-description]:before {
-  content: "Built for Home Assistant - Easy setup - one USB&#8209;C cable and setup wizard, no assembly required.";
+  content: "Built for Home Assistant - Easy Setup - one USB-C cable and setup wizard, no assembly required.";
 }
 
-main > .visibility-hidden:has(ol li a[href$=ZBT-1]) + section.hero,
-section.section.hero[data-category="Home Assistant ZBT-1"] {
+main > .visibility-hidden:has(ol li a[href$=Connect-ZBT-1]) + section.hero,
+section.section.hero[data-category="Home Assistant Connect ZBT-1"] {
   background-image: url("https://raw.githubusercontent.com/NabuCasa/support/refs/heads/static/img/hero-zbt-1.webp");
   margin-bottom: 1rem;
 }
 @media (min-width: 768px) {
-  main > .visibility-hidden:has(ol li a[href$=ZBT-1]) + section.hero,
-  section.section.hero[data-category="Home Assistant ZBT-1"] {
+  main > .visibility-hidden:has(ol li a[href$=Connect-ZBT-1]) + section.hero,
+  section.section.hero[data-category="Home Assistant Connect ZBT-1"] {
     margin-bottom: 1rem;
   }
 }
 @media (min-width: 1024px) {
-  main > .visibility-hidden:has(ol li a[href$=ZBT-1]) + section.hero,
-  section.section.hero[data-category="Home Assistant ZBT-1"] {
+  main > .visibility-hidden:has(ol li a[href$=Connect-ZBT-1]) + section.hero,
+  section.section.hero[data-category="Home Assistant Connect ZBT-1"] {
     margin-bottom: 1rem;
   }
 }
-main > .visibility-hidden:has(ol li a[href$=ZBT-1]) + section.hero:after,
-section.section.hero[data-category="Home Assistant ZBT-1"]:after {
+main > .visibility-hidden:has(ol li a[href$=Connect-ZBT-1]) + section.hero:after,
+section.section.hero[data-category="Home Assistant Connect ZBT-1"]:after {
   content: "";
   background-color: rgba(23, 75, 98, 0.58);
   position: absolute;
   inset: 0;
 }
-main > .visibility-hidden:has(ol li a[href$=ZBT-1]) + section.hero .hero-inner,
-section.section.hero[data-category="Home Assistant ZBT-1"] .hero-inner {
+main > .visibility-hidden:has(ol li a[href$=Connect-ZBT-1]) + section.hero .hero-inner,
+section.section.hero[data-category="Home Assistant Connect ZBT-1"] .hero-inner {
   color: #fff;
 }
-main > .visibility-hidden:has(ol li a[href$=ZBT-1]) + section.hero [data-title]:before,
-section.section.hero[data-category="Home Assistant ZBT-1"] [data-title]:before {
-  content: "Home Assistant ZBT-1";
+main > .visibility-hidden:has(ol li a[href$=Connect-ZBT-1]) + section.hero [data-title]:before,
+section.section.hero[data-category="Home Assistant Connect ZBT-1"] [data-title]:before {
+  content: "Home Assistant Connect ZBT-1";
 }
-main > .visibility-hidden:has(ol li a[href$=ZBT-1]) + section.hero [data-description]:before,
-section.section.hero[data-category="Home Assistant ZBT-1"] [data-description]:before {
+main > .visibility-hidden:has(ol li a[href$=Connect-ZBT-1]) + section.hero [data-description]:before,
+section.section.hero[data-category="Home Assistant Connect ZBT-1"] [data-description]:before {
   content: "The easiest way to add Zigbee support to your Home Assistant instance.";
 }
 
@@ -1494,16 +1499,16 @@ section.section.hero[data-category="Home Assistant Voice Preview Edition"]:after
 section.section.hero[data-category="Home Assistant Voice Preview Edition"] .hero-inner {
   color: #fff;
 }
-section.section.hero[data-category="Home Assistant ZBT-1"] {
+section.section.hero[data-category="Home Assistant Connect ZBT-1"] {
   background-image: url("https://raw.githubusercontent.com/NabuCasa/support/refs/heads/static/img/hero-zbt-1.webp");
 }
-section.section.hero[data-category="Home Assistant ZBT-1"]:after {
+section.section.hero[data-category="Home Assistant Connect ZBT-1"]:after {
   content: "";
   background-color: rgba(23, 75, 98, 0.58);
   position: absolute;
   inset: 0;
 }
-section.section.hero[data-category="Home Assistant ZBT-1"] .hero-inner {
+section.section.hero[data-category="Home Assistant Connect ZBT-1"] .hero-inner {
   color: #fff;
 }
 section.section.hero[data-category="Home Assistant Cloud"] {
@@ -1933,8 +1938,8 @@ section.section.hero[data-category="Home Assistant Voice Preview Edition"] ~ .co
   display: flex;
 }
 
-main > .visibility-hidden:has(ol li a[href$=ZBT-1]) ~ .container .layout .column.sidebar .item-card.product.product-zbt-1,
-section.section.hero[data-category="Home Assistant ZBT-1"] ~ .container .layout .column.sidebar .item-card.product.product-zbt-1 {
+main > .visibility-hidden:has(ol li a[href$=Connect-ZBT-1]) ~ .container .layout .column.sidebar .item-card.product.product-connect-zbt-1,
+section.section.hero[data-category="Home Assistant Connect ZBT-1"] ~ .container .layout .column.sidebar .item-card.product.product-connect-zbt-1 {
   display: flex;
 }
 
@@ -2018,11 +2023,11 @@ section.section.hero[data-category="Home Assistant Cloud"] ~ .container .layout 
 .item-cards .item-card[data-name="Home Assistant Voice Preview Edition"]:hover {
   border-color: #DB582E;
 }
-.item-cards .item-card[data-name="Home Assistant ZBT-1"]:before {
+.item-cards .item-card[data-name="Home Assistant Connect ZBT-1"]:before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44' fill='none'%3E%3Cpath d='M40 0H4C1.79086 0 0 1.79086 0 4V40C0 42.2091 1.79086 44 4 44H40C42.2091 44 44 42.2091 44 40V4C44 1.79086 42.2091 0 40 0Z' fill='%2300AEF8'/%3E%3Cpath d='M27.9527 13.6545C27.9527 12.6887 27.154 11.9058 26.1688 11.9058H18.3488C17.3637 11.9058 16.5649 12.6887 16.5649 13.6545L16.5649 28.4705H18.6355V33.6469H25.8826V28.4705H27.9532L27.9527 13.6545Z' fill='white'/%3E%3C/svg%3E");
   content: "";
 }
-.item-cards .item-card[data-name="Home Assistant ZBT-1"]:hover {
+.item-cards .item-card[data-name="Home Assistant Connect ZBT-1"]:hover {
   border-color: #00AEF8;
 }
 .item-cards .item-card[data-name="Home Assistant Cloud"]:before {
@@ -2101,7 +2106,7 @@ section.section.hero[data-category="Home Assistant Cloud"] ~ .container .layout 
 .item-cards .item-card.product-voice-preview-edition {
   background-image: url("https://www.home-assistant.io/images/frontpage/voice-pe-frontpage.jpg");
 }
-.item-cards .item-card.product-zbt-1 {
+.item-cards .item-card.product-connect-zbt-1 {
   background-image: url("https://www.home-assistant.io/images/frontpage/feature-zbt1.jpg");
 }
 .item-cards .item-card.product-cloud {
