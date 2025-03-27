@@ -1,6 +1,6 @@
 ---
 zendesk:
-  article_id: 
+  article_id: 26167476727581
   name: Deleting my Nabu Casa account
   position: 25
   labels: cloud, account
