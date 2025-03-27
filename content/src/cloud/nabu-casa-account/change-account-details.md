@@ -1,15 +1,14 @@
 ---
 zendesk:
   article_id: 25651116591901
-  name: Your Account
+  name: Changing your Naba Casa account information
   position: 1
   labels: cloud
 ---
 
-## How can I change my payment method?
+To change your password, email, or the billing information for your Home Assistant Cloud subscription, follow these steps
 
-You can delete your payment method on our [account page](https://account.nabucasa.com/). Your payment method will be used from following monthly payments onward.
-
-## How can I change the email address for my account?
-
-You can change your email address on our [account page](https://account.nabucasa.com/).
+1. Log in to your [Nabu Casa account](https://account.nabucasa.com/) and select **Manage account**.
+2. To change your password or email, fill in the required details in the dedicated section.
+3. If you are changing the billing information:
+   - Note that your new payment method will be applied from the following (monthly or yearly) payments onward.
