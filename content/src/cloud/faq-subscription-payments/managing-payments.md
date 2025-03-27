@@ -6,14 +6,6 @@ zendesk:
   labels: cloud
 ---
 
-## How much does Home Assistant Cloud cost?
-
-After the initial 31-day trial period for new users, the subscription costs $6.50 + tax per month or $65 + tax for the annual plan. The annual plan is available for all countries. The price depends on your location/currency and whether you subscribe to an annual or monthly plan.
-
-## Which payment methods are accepted?
-
-As of August 2022, we support two payment options: Stripe (Credit Cards, Google Pay, Apple Pay) and PayPal.
-
 ## Do you offer a lifetime plan or a one time fee?
 
 No. Projecting the lifetime cost of administering a cloud service and adding/maintaining functionality seems a bit unreasonable.
