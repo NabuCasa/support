@@ -6,12 +6,6 @@ zendesk:
   labels: cloud
 ---
 
-## How can I remove my account?
-
-You can delete your account on our [account page](https://account.nabucasa.com/).
-
-If you are currently subscribed to Home Assistant Cloud, you will need to cancel your plan before you can remove your account. You can do this on the [account page](https://account.nabucasa.com/) too. Removing your account while there is still time left on your subscription will not delete your account immediately. Instead it will be scheduled to be deleted once your subscription expires.
-
 ## How can I change my payment method?
 
 You can delete your payment method on our [account page](https://account.nabucasa.com/). Your payment method will be used from following monthly payments onward.
