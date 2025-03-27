@@ -8,8 +8,4 @@ zendesk:
 
 The price depends on your location/currency and whether you subscribe to an annual or monthly plan.
 
-After the initial 31-day trial period for new users, the Home Assistant Cloud subscription costs are as following:
-
-- $6.50 + tax per month.
-- or $65 + tax for the annual subscription.
-  - The annual subscription is available for all countries.
+To check the price and currency for your region, please refer to the [pricing](https://www.nabucasa.com/pricing/).
