@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26179743752733
   name: I moved, how do I update my billing address?
-  position: 6
+  position: 5
   labels: cloud
 ---
 
