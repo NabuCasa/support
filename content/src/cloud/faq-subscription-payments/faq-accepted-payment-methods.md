@@ -6,7 +6,7 @@ zendesk:
   labels: cloud, payments
 ---
 
-As of August 2022, we support two payment options: Stripe (Credit Cards, Google Pay, Apple Pay) and PayPal.
+As of August 2022, we support two payment options: Stripe (Credit cards, Google Pay, Apple Pay) and PayPal.
 
 ## Related topics
 
