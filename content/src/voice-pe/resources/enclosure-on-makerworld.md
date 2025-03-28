@@ -6,4 +6,3 @@ zendesk:
   labels: voice pe, downloads, resources
 ---
 
-- [Enclosure (on Makerworld)](https://makerworld.com/models/885769)
