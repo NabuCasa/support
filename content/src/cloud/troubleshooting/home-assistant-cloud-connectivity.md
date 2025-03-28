@@ -34,4 +34,4 @@ This error indicates a network issue. It often occurs when the Home Assistant ho
 
 ## Related topic
 
-- [403 Forbidden](/hc/en-us/articles/26203603012509/l)
+- [403 Forbidden](/hc/en-us/articles/26203603012509)

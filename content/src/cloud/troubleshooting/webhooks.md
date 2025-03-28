@@ -1,12 +1,10 @@
 ---
 zendesk:
   article_id: 25620473014685
-  name: Webhooks
+  name: Troubleshooting webhook response codes
   position: 5
   labels: cloud
 ---
-
-## Webhook Response Codes
 
 Calling a webhook URL can return various status codes for different problems. Below is a list of the most common codes and reasons.
 
