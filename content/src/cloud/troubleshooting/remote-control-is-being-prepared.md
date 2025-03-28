@@ -48,4 +48,4 @@ If the problem persists, try resetting your Home Assistant Cloud data and reques
 5. Once Home Assistant restarts, go back to the **Home Assistant Cloud** page and sign in with your Nabu Casa credentials.
 6. Wait a few minutes while Home Assistant attempts to request and download a new SSL certificate for your remote URL.
 
-If resetting cloud data **did not resolve the issue**, **do not reset it again** and instead [contact Nabu Casa support](https://www.nabucasa.com/support/).
+If resetting cloud data **did not resolve the issue**, **do not reset it again**. Instead, contact Nabu Casa support.
