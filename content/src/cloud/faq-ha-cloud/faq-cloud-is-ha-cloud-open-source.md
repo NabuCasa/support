@@ -6,7 +6,9 @@ zendesk:
   labels: cloud, open-source, open source
 ---
 
-We make sure that as much processing as possible is done locally inside Home Assistant.
+We make sure that as much processing as possible is done locally inside Home Assistant. All code for local processing is fully open source, using open source libraries and resources. However, we use some closed source components for the server component, such as the software used to process payments.
+
+To view the source code for Home Assistant Cloud, refer to the following repositories:
 
 - Remote UI is powered by [our snitun library](https://github.com/NabuCasa/snitun)
 - [Alexa skill source code](https://github.com/home-assistant/home-assistant/blob/dev/homeassistant/components/alexa/smart_home.py)
