@@ -18,4 +18,3 @@ For detailed information about the product features, refer to the [Home Assistan
 
 - [Home Assistant Voice Preview Edition](https://www.home-assistant.io/voice-pe/)
 - [Home Assistant documentation](https://www.home-assistant.io/)
--
