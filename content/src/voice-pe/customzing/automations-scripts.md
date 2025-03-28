@@ -61,13 +61,13 @@ You can turn it on or off when something happens and define color and effects.
 
 1. To select a different assistant when something happens, use the [`select.select_option`](https://www.home-assistant.io/integrations/select/#action-selectselect_option) action. For example, when a button is pressed.
 
-    ```yaml
-    action: select.select_option
-      data:
-        option: preferred
-      target:
-        entity_id: select.home_assistant_voice_012345_assist_pipeline
-    ```
+        ```yaml
+        action: select.select_option
+          data:
+            option: preferred
+          target:
+            entity_id: select.home_assistant_voice_012345_assist_pipeline
+        ```
 
 2. Under **Options**, enter the name of the voice assistant.
    - Make sure to spell it exactly as you named it. For example `Spanish`.
