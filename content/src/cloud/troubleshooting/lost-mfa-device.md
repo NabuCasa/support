@@ -1,6 +1,6 @@
 ---
 zendesk:
-  article_id:
+  article_id: 25806000298397
   name: I lost the device that I use to generate the MFA token
   position: 5
   labels: cloud, troubleshooting
