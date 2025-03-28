@@ -19,4 +19,4 @@ Your device microphone is muted. [Turn off the mute switch](/hc/en-us/articles/2
 ## Related topics
 
 - [Turn off the mute switch](/hc/en-us/articles/25774403768477-Muting-the-device)
-- [Home Assistant Voice PE status colors](/hc/en-us/articles/25764604971421-Status-colors)
+- [Home Assistant Voice Preview Edition status colors](/hc/en-us/articles/25764604971421-Status-colors)

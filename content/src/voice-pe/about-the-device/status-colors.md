@@ -19,5 +19,5 @@ zendesk:
 
 ## Related topics
 
-- [About Home Assistant Voice PE](/hc/en-us/articles/25764286546717-About-Home-Assistant-Voice-Preview-Edition)
+- [About Home Assistant Voice Preview Edition](/hc/en-us/articles/25764286546717-About-Home-Assistant-Voice-Preview-Edition)
 - [Device overview and interfaces](/hc/en-us/articles/25764488568605-Device-overview)

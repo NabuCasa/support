@@ -10,7 +10,7 @@ To activate Assist, you can also just press the center button. Assist will then 
 
    Click the image to view the video on Youtube.
 
-   [![Link to Youtube video showing how use Voice PE without a wake word by pressing the button](https://img.youtube.com/vi/e1f-lBJRgyo/0.jpg)](https://www.youtube.com/watch?v=e1f-lBJRgyo)
+   [![Link to Youtube video showing how use Voice Preview Edition without a wake word by pressing the button](https://img.youtube.com/vi/e1f-lBJRgyo/0.jpg)](https://www.youtube.com/watch?v=e1f-lBJRgyo)
 
 ## Related topics
 

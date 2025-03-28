@@ -34,7 +34,7 @@ Reinstalling the firmware from bootloader mode is an **extreme measure**. Only d
     ![Image showing a hand pressing the central button](/static/img/voice-pe/voice_authorize.png)
 
 2. Opening the web installer page.
-   1. Open the ESPHome web installer page for Home Assistant Voice PE.
+   1. Open the ESPHome web installer page for Home Assistant Voice Preview Edition.
       - **Info**: The web installer is a tool that allows you to install software on your device.
    2. On the web installer page, select **Connect** and select the device from the list of USB devices.
    3. Select **Connect** again.
@@ -51,6 +51,6 @@ Reinstalling the firmware from bootloader mode is an **extreme measure**. Only d
 
 ## Related topics
 
-- [Reinstalling the firmware of the Home Assistant Voice PE](/hc/en-us/articles/25800241218717)
+- [Reinstalling the firmware of the Home Assistant Voice Preview Edition](/hc/en-us/articles/25800241218717)
 - [Home Assistant installation documentation](https://www.home-assistant.io/installation/)
-- [Getting started with Home Assistant Voice PE](/hc/en-us/sections/24980017436701)
+- [Getting started with Home Assistant Voice Preview Edition](/hc/en-us/sections/24980017436701)
