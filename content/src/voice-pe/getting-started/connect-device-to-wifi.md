@@ -107,4 +107,3 @@ If you don't wan't to use a phone and your Home Assistant has Bluetooth: either 
 - [Home Assistant Companion app](https://companion.home-assistant.io/)
 - [Supported voice commands](https://www.home-assistant.io/voice_control/builtin_sentences/)
 - [Exposing devices to Assist](https://www.home-assistant.io/voice_control/voice_remote_expose_devices/)
-- [Home Assistant Companion app](https://companion.home-assistant.io/)
