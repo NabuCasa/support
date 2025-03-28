@@ -59,7 +59,7 @@ Follow these steps if you have 3D-printed your own enclosure parts and now want 
    1. Slide the flathead screwdriver underneath the LED diffuser ring.
    2. Give the screwdriver a slight twist to detach the LED diffuser ring.
 
-  ![Clip showing how to remove the LED diffuser ring](/static/img/voice-pe/voice_remove_diffuser_480.webp)
+   ![Clip showing how to remove the LED diffuser ring](/static/img/voice-pe/voice_remove_diffuser_480.webp)
 
 7. Removing the dial and the center button.
    1. Locate the slot on the rear of the PCB.
@@ -68,13 +68,13 @@ Follow these steps if you have 3D-printed your own enclosure parts and now want 
    4. Proceed carefully and don't apply too much force.
    5. Push the button out of the LED ring.
 
-  ![Clip showing how to remove the dial and center button](/static/img/voice-pe/voice_remove_dial_480.webp)
+   ![Clip showing how to remove the dial and center button](/static/img/voice-pe/voice_remove_dial_480.webp)
 
 8. All done!
    - Congratulations! You've disassembled the device enclosure.
    - You can now [put it back together](/hc/en-us/articles/25938314528285) using your own awesome 3D-printed parts.
 
-  ![Image showing fully disassembled device](/static/img/voice-pe/07_bis_fully_disassembled_small.png)
+   ![Image showing fully disassembled device](/static/img/voice-pe/07_bis_fully_disassembled_small.png)
 
 ## Related topics
 
