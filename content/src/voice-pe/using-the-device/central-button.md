@@ -16,22 +16,17 @@ The following button presses are supported:
 
 ## To use the center button to trigger automations
 
-1. Create an automation for the button press.
-   - To set up an automation based on a button press pattern (for example, long press), follow the steps on [Automating on a button press](https://www.home-assistant.io/integrations/event/#automating-on-a-button-press).
-   - **Info**: Those instructions are based on a Matter device.
-   - The process is very similar for a voice device.
+- Create an automation for the button press.
+  - To set up an automation based on a button press pattern (for example, long press), follow the steps on [Automating on a button press](https://www.home-assistant.io/integrations/event/#automating-on-a-button-press).
+  - **Info**: Those instructions are based on a Matter device.
+  - The process is very similar for a voice device.
 
-    Click the image to view the video on Youtube.
+  Click the image to view the video on Youtube.
 
-   [![Link to Youtube video showing how to use the button for automations](https://img.youtube.com/vi/4QszFcwWYNY/0.jpg)](https://www.youtube.com/watch?v=4QszFcwWYNY)
-
-2. For inspiration, check out the [automation example in YAML](https://gist.github.com/jlpouffier/68434e51c8e347e974a791f90914c591).
-
-   ![Screenshot of YAML automation example](/static/img/voice-pe/voice_automation_yaml.png)
+  [![Link to Youtube video showing how to use the button for automations](https://img.youtube.com/vi/4QszFcwWYNY/0.jpg)](https://www.youtube.com/watch?v=4QszFcwWYNY)
 
 ## Related topics
 
 - [Automating on a button press](https://www.home-assistant.io/integrations/event/#automating-on-a-button-press)
-- [VPE button press automation example in YAML](https://gist.github.com/jlpouffier/68434e51c8e347e974a791f90914c591)
 - [Event entities](https://www.home-assistant.io/integrations/event/)
 - [Using the center button to stop the current process](/hc/en-us/articles/25774498553629-Stopping-the-current-process)
