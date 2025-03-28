@@ -6,3 +6,4 @@ zendesk:
   labels: voice pe, downloads, resources
 ---
 
+- [Declaration of Conformity for EU](/static/docs/voice/ha_voice_preview_edition_doc_eu.pdf)
