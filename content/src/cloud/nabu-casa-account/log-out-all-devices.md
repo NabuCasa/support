@@ -2,15 +2,17 @@
 zendesk:
   article_id: 26170426881693
   name: Logging out all devices from Home Assistant Cloud
-  position: 24
+  position: 4
   labels: cloud
 ---
 
 You can log out all devices that are currently logged in to Home Assistant Cloud. This includes Home Assistant, Google Home, Alexa, and browsers.
 
->**Notice** If you log out of your device, your remote connection stops working
+>**Notice**: **Loss of remote connection**.
 >
-> You need physical access to Home Assistant to re-establish the remote connection.
+> - If you log out of your device, your remote connection stops working
+>
+> - You need physical access to Home Assistant to re-establish the remote connection.
 
 ## To log out all devices from Home Assistant Cloud
 

@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25807025727005
-  name: Enabling/Disabling multi-factor authentication (MFA) for Home Assistant Cloud
+  name: Enabling multi-factor authentication (MFA) for Home Assistant Cloud
   position: 4
   labels: cloud
 ---
@@ -15,8 +15,6 @@ Multi-factor authentication uses a combination of two or three different ways to
 3. Who you are (indicated by some biometric such as a fingerprint)
 
 If you enable multi-factor authentication for Home Assistant Cloud, in addition to your password, you will be asked for a code from a multi-factor authentication application such as Google Authenticator.
-
-This page shows you how to enable multi-factor authentication (MFA) for Home Assistant Cloud, and how to disable it again later.
 
 ## Enabling multi-factor authentication (MFA) for Home Assistant Cloud
 
@@ -51,22 +49,6 @@ Step-by-step instructions on enabling multi-factor authentication (MFA) to log i
 4. On the Nabu Casa website, enter the code.
    - **Result**: Multi-factor authentication is enabled.
    - From now on, you need the authenticator app to generate a code every time you log into Home Assistant Cloud.
-
-## Disabling multi-factor authentication (MFA) for Home Assistant Cloud
-
-Follow these steps to disable multi-factor authentication (MFA) for your Home Assistant Cloud account.
-
-### Prerequisites
-
-- Have multi-factor authentication (MFA) enabled for Home Assistant Cloud
-- Have access to the multi-factor authentication application you used to set MFA up
-
-### To disable multi-factor authentication (MFA) for Home Assistant Cloud
-
-1. Log into your [Home Assistant Cloud account](https://account.nabucasa.com/).
-2. Under **Manage account** > **Multi-factor authentication**, select **Disable MFA**.
-   - **Result**: Multi-factor authentication is disabled.
-   - When logging into Home Assistant Cloud, you will no longer be prompted to provide a one-time code.
 
 ## Related topics
 
