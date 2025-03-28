@@ -6,3 +6,4 @@ zendesk:
   labels: voice pe, downloads, resources
 ---
 
+You can find the firmware source code on [GitHub](https://github.com/esphome/home-assistant-voice-pe).

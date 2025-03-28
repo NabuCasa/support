@@ -6,3 +6,4 @@ zendesk:
   labels: voice pe, downloads, resources
 ---
 
+[Download the Circuit Diagram/Schematic (PDF)](/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf)

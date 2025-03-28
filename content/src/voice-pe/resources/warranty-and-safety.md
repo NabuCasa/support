@@ -6,3 +6,4 @@ zendesk:
   labels: voice pe, downloads, resources
 ---
 
+- [Warranty & Safety Information](/static/docs/voice/ha-voice_warranty-and-safety-information_v1-0.pdf)

@@ -8,4 +8,4 @@ zendesk:
 
 The repository with the source files is in preparation.
 
-
+- [Design files PDF](/static/docs/voice/ha_voice_preview_edition_pcb_design_files.pdf)
