@@ -1,12 +1,14 @@
 ---
 zendesk:
   article_id: 26167476727581
-  name: Deleting my Nabu Casa account
+  name: Cancelling the subscription and deleting my Nabu Casa account
   position: 6
   labels: cloud, account
 ---
 
-If you want to delete your Nabu Casa account, follow these steps.
+If you want to delete your Nabu Casa account, you need to cancel your subscription first.
+
+## To cancel the subscription and delete the account
 
 1. Cancelling your Home Assistant Cloud subscription.
    - If you are currently subscribed to Home Assistant Cloud, you need to cancel your subscription before deleting your account.
