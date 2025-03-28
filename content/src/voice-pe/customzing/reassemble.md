@@ -34,7 +34,7 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
 
     ![Placing the rubber ring](/static/img/voice-pe/voice_replace_rubber_ring_480.webp)
 
-2. Assemble button and dial
+2. Assembling button and dial.
    1. Take note of the orientation of the rotary disk. Rotate until it is aligned as shown in the video.
    2. Place the button onto the rotary disk.
    3. Take the dial and take note of the square cutout. It must align with the button.
@@ -43,18 +43,18 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
 
     ![Assemble button and dial](/static/img/voice-pe/voice_assemble_dial_480.webp)
 
-3. Place the LED diffuser ring
+3. Placing the LED diffuser ring.
    - The LED diffuser ring has a small latch. Make sure it aligns with the notch in the board.
    - Gently press the LED diffuser ring until it clicks into place.
 
     ![Place the LED diffuser ring](/static/img/voice-pe/voice_place_diffuser_480.webp)
 
-4. Attach the speaker
+4. Attaching the speaker.
    - Take the crosshead screwdriver and attach the speaker with the 2 screws.
 
     ![Attach the speaker](/static/img/voice-pe/12_assemble_speaker_small.png)
 
-5. Attach the mute switch
+5. Attaching the mute switch.
    1. Attach the mute switch.
    2. Mind the orientation. The colored part should face the middle, not the corner.
    3. Find the switch opening in the case.
@@ -62,12 +62,12 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
 
    ![Attach the mute switch](/static/img/voice-pe/voice_assemble_mute_switch_480.webp)
 
-6. Attach the PCB
+6. Attaching the PCB.
    - Take the crosshead screwdriver and the 4 screws and attach the PCB.
 
     ![Attach the PCB](/static/img/voice-pe/14_add_pcb_screws_small.png)
 
-7. Place the top cover onto the device
+7. Placing the top cover onto the device.
    1. Pick up the top cover and orient it to fit the case.
       - The 2 holes should be above the microphones.
       - Watch out for the side with the wider border.
@@ -75,7 +75,7 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
 
     ![Place the top cover onto the device](/static/img/voice-pe/voice_assemble_top_cover_480.webp)
 
-8. Close the enclosure
+8. Closing the enclosure.
    1. Take the crosshead screwdriver and the 4 screws and close the enclosure.
    2. Place the rubber feet.
 
