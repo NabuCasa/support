@@ -6,7 +6,12 @@ zendesk:
   labels: cloud
 ---
 
-## 403 Forbidden
+There are multiple reasons Home Assistant Cloud cannot be reached. This page provides instructions how to troubleshoot the two most common symptoms:
+
+- Message [403 Forbidden](#403-forbidden)
+- Message [Unable to connect](#unable-to-reach-home-assistant-cloud)
+
+## Message: 403 Forbidden
 
 ### Symptom
 
@@ -41,7 +46,7 @@ http:
 
 3. To apply the changes, save the `ip_bans.yaml` file and restart Home Assistant.
 
-## "Unable to reach Home Assistant Cloud"
+## Message: "Unable to reach Home Assistant Cloud"
 
 ### Symptom
 
