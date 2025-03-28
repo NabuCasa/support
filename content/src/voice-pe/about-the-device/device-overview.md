@@ -24,5 +24,5 @@ Overview of the device interfaces.
 
 ## Related topics
 
-- [Abot Home Assistant Voice PE](/hc/en-us/articles/25764286546717-About-Home-Assistant-Voice-Preview-Edition)
+- [About Home Assistant Voice PE](/hc/en-us/articles/25764286546717-About-Home-Assistant-Voice-Preview-Edition)
 - [Status colors on the Home Assistant Voice PE](/hc/en-us/articles/25764604971421-Status-colors)
