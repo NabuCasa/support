@@ -18,8 +18,8 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
 
 - Disassembled Home Assistant Voice Preview Edition
 - Your own awesome 3D-printed parts
-- [Enclosure on printables](https://www.printables.com/model/1110526)
-- [Enclosure on Makerworld](https://makerworld.com/models/885769)
+- [Enclosure on printables](/hc/en-us/articles/26195275149469)
+- [Enclosure on Makerworld](/hc/en-us/articles/26195222499101)
 - No 2 crosshead screwdriver
 - No 4 flathead screwdriver
 
@@ -89,5 +89,5 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
 ## Related topics
 
 - [Disassembling the enclosure](/hc/en-us/articles/25938306296605)
-- [Enclosure on printables](https://www.printables.com/model/1110526)
-- [Enclosure on Makerworld](https://makerworld.com/models/885769)
+- [Enclosure on printables](/hc/en-us/articles/26195275149469)
+- [Enclosure on Makerworld](/hc/en-us/articles/26195222499101)

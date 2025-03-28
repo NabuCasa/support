@@ -6,3 +6,4 @@ zendesk:
   labels: voice pe, downloads, resources
 ---
 
+- [Enclosure (on printables.com)](https://www.printables.com/model/1110526)
