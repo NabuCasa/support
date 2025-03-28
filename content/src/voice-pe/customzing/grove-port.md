@@ -81,7 +81,7 @@ Connecting a sensor to the Grove port of the device allows the sensor to use the
    ![Screenshot showing the device list of the ESPHome integration](/static/img/voice-pe/voice_esphome.png)
 
 5. Viewing the sensor data.
-   - On the device page, under **Sensors** you can view the new sensor data.
+   - On the device page, under **Sensors**, you can view the new sensor data.
 
    ![Screenshot showing sensor data](/static/img/voice-pe/voice_grove_port_sensor_data.png)
 
