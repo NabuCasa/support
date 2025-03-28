@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26167476727581
-  name: Cancelling the subscription and deleting my Nabu Casa account
+  name: Cancelling the subscription and deleting the account
   position: 6
   labels: cloud, account
 ---
