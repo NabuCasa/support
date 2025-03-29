@@ -22,7 +22,7 @@ To control Home Assistant entities from Alexa, follow these steps:
      <img src="/static/img/cloud/assistant-expose-05.png" alt="Open the Expose tab">
    - Select all entities you want to be able to control via Alexa.
      <img src="/static/img/cloud/assistant-expose-06.png" alt="Select the entities you want to expose to Alexa">
-   - Select **Expose enitites**.
+   - Select **Expose entities**.
      **Result**: The Alexa icon is now visible in the **Assistants** column.
      <img src="/static/img/cloud/assistant-expose-08-a.png" alt="Expose entities: Alexa icon is now visible">
 1. Activate the Home Assistant Smart Home skill via the Alexa app.

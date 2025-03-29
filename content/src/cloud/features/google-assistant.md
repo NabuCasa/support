@@ -163,7 +163,7 @@ cloud:
 
   <b>entity_config:</b>
     (map) (Optional) Entity specific configuration for Google Assistant.
-    <i>ENTITY_ID</i>:</b>
+    <i>ENTITY_ID</i>:
       (map) (Optional) Entity to configure.
       <b>name:</b>
         (string) (Optional) Name of entity to show in Google Assistant.

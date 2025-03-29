@@ -34,7 +34,7 @@ Using your iPhone/Android is the easiest way to connect your Home Assistant Voic
 
 ### Onboarding via Bluetooth
 
-If you don't wan't to use a phone and your Home Assistant has Bluetooth: either onboard Bluetooth, or an ESPHome device set up as a [Bluetooth proxy](https://esphome.io/projects/?type=bluetooth) and connected to Home Assistant.
+If you don't want to use a phone and your Home Assistant has Bluetooth: either onboard Bluetooth, or an ESPHome device set up as a [Bluetooth proxy](https://esphome.io/projects/?type=bluetooth) and connected to Home Assistant.
 
 ## To connect the device to your Wi-Fi and to Home Assistant
 
