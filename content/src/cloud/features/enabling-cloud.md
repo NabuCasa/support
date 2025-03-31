@@ -6,6 +6,10 @@ zendesk:
   labels: cloud
 ---
 
+Before you can use the [features provided by Home Assistant Cloud](/hc/en-us/articles/26260474250269/), you have to enable Home Assistant Cloud in Home Assistant.
+
+## To enable Home Assistant Cloud
+
 1. In Home Assistant, go to [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
 
    <img src="/static/img/cloud/ha-settings-panel.png" alt="Home Assistant Settings panel">
@@ -30,5 +34,8 @@ zendesk:
 
 5. That's it. You are ready to go with Home Assistant Cloud.
 
+## Related topics
+
 - [Nabu Casa account pricing](https://www.nabucasa.com/pricing/)
 - [Nabu Casa account log in page](https://account.nabucasa.com/)
+- [Features provided by Home Assistant Cloud](/hc/en-us/articles/26260474250269/)
