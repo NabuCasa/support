@@ -6,7 +6,7 @@ zendesk:
   labels: cloud
 ---
 
-The [Alexa integration](https://www.home-assistant.io/integrations/alexa/) allows users to control the Home Assistant entities via the [Home Assistant Smart Home skill](https://www.home-assistant.io/integrations/alexa.smart_home/) for Amazon Alexa. You can then say things like "Alexa, turn on the kitchen light" to control your local Home Assistant.
+The [Alexa integration](https://www.home-assistant.io/integrations/alexa/) allows you to control the Home Assistant entities via the [Home Assistant Smart Home skill](https://www.home-assistant.io/integrations/alexa.smart_home/) for Amazon Alexa. You can then say things like "Alexa, turn on the kitchen light" to control your local Home Assistant.
 
 ## Prerequisites
 
