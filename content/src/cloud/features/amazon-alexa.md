@@ -19,15 +19,23 @@ The [Alexa integration](https://www.home-assistant.io/integrations/alexa/) allow
 
 1. [Set up Home Assistant Cloud](/hc/en-us/articles/25649130769949).
 2. Under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/), enable **Alexa**.
+
    <img src="/static/img/cloud/alexa-enable.png" alt="Enable Alexa">
+
 3. On the **Expose** tab, expose at least one entity to Alexa.
    - Open the **Expose** tab.
+
      <img src="/static/img/cloud/assistant-expose-05.png" alt="Open the Expose tab">
+
    - Select all entities you want to be able to control via Alexa.
+
      <img src="/static/img/cloud/assistant-expose-06.png" alt="Select the entities you want to expose to Alexa">
+
    - Select **Expose entities**.
      **Result**: The Alexa icon is now visible in the **Assistants** column.
+
      <img src="/static/img/cloud/assistant-expose-08-a.png" alt="Expose entities: Alexa icon is now visible">
+
 4. Activate the Home Assistant Smart Home skill via the Alexa app.
 
    - From the Alexa App on your phone, go to **Skills & Games**.
