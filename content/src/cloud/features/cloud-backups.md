@@ -1,16 +1,28 @@
 ---
 zendesk:
   article_id: 25619338169501
-  name: Cloud Backups
+  name: Enabling a cloud backup
   position: 2
   labels: cloud
 ---
 
-Home Assistant Cloud Backups stores your latest [Home Assistant backup](https://www.home-assistant.io/common-tasks/general/#backups), helping you to secure your system from hardware failures, data corruption, and unexpected disasters. This backup can be downloaded from your [Nabu Casa account](https://account.nabucasa.com/) page and help restore Home Assistant to a working state. To maintain the security and privacy of your smart home, the backup is locked via [encryption](https://www.home-assistant.io/more-info/backup-emergency-kit/), and Nabu Casa cannot access your data. Use Home Assistant Cloud as part of your [3-2-1 backup strategy](https://www.home-assistant.io/blog/2025/01/03/3-2-1-backup/) and minimize your smart home downtime.
+If your backup is smaller than 5GB in size, you have the option to store an encrypted backup on Home Assistant Cloud.
+
+## About Home Assistant Cloud backup
+
+The Home Assistant Cloud backup option is available if you have a Home Assistant Cloud subscription. However, your system needs to meet the [prerequisites](#prerequisites) and you need to [enable the Cloud backup](#to-enable-automated-backups).
+
+### Cloud as your off-site backup option
+
+Home Assistant Cloud Backups stores your latest [Home Assistant backup](https://www.home-assistant.io/common-tasks/general/#backups), helping you to secure your system from hardware failures, data corruption, and unexpected disasters. This backup can be downloaded from your [Nabu Casa account](https://account.nabucasa.com/) page and help restore Home Assistant to a working state. Use Home Assistant Cloud as part of your [3-2-1 backup strategy](https://www.home-assistant.io/blog/2025/01/03/3-2-1-backup/) and minimize your smart home downtime.
+
+### Encrypted and private
+
+To maintain the security and privacy of your smart home, the backup is locked via [encryption](https://www.home-assistant.io/more-info/backup-emergency-kit/), and Nabu Casa cannot access your data.
 
 For more on Home Assistant backups, read the [full documentation](https://www.home-assistant.io/common-tasks/general/#backups).
 
-## Backup requirements
+## Prerequisites
 
 A backup will only be uploaded to Home Assistant Cloud if the following requirements are met:
 
@@ -26,14 +38,14 @@ A backup will only be uploaded to Home Assistant Cloud if the following requirem
 
 1. **Update to the latest version**: You’ll need to [update](https://www.home-assistant.io/common-tasks/os/#updating-home-assistant) to Home Assistant 2025.1 or above to use automated Cloud backup.
 2. **Navigate to Backups**: Go to [Settings > System > Backups](https://my.home-assistant.io/redirect/backup/) in your Home Assistant installation, then select “Set up backups” and select next.
-3. **Save Your Encryption Key**: Copy and save the provided encryption key (preferably in a password manager) or download the “Emergency kit” and store it somewhere safe, as it’s required to access your backups.
-4. **Use Recommended Settings**: These settings will make a backup daily, storing three backups locally, and automatically upload your most recent backup to all integrated locations. As a Home Assistant Cloud user, your most recent backup will be uploaded automatically.
+3. **Save your encryption key**: Copy and save the provided encryption key (preferably in a password manager) or download the “Emergency kit” and store it somewhere safe, as it’s required to access your backups.
+4. **Use recommended settings**: These settings will make a backup daily, storing three backups locally, and automatically upload your most recent backup to all integrated locations. As a Home Assistant Cloud user, your most recent backup will be uploaded automatically.
 
    **_Note_**: Home Assistant Cloud will only store one backup at a time and will always store your most recently made encrypted backup.
 
 5. **Complete Your First Backup**: Once settings are chosen, the creation of your first backup starts immediately.
 
-## Disable Home Assistant Cloud backups
+## Disabling Home Assistant Cloud backups
 
 If you do not want to upload your backups to Home Assistant Cloud. Navigate to the Home Assistant [Backups settings page](https://my.home-assistant.io/redirect/backup_config/), and under “Locations” turn off Home Assistant Cloud.
 
@@ -41,7 +53,7 @@ If you do not want to upload your backups to Home Assistant Cloud. Navigate to t
 
 Your Home Assistant backup can be downloaded from the [Nabu Casa account page](https://account.nabucasa.com/) and can help restore your Home Assistant system. On the account page, scroll to the section titled “Stored Files” and select the download button. You can [restore your Home Assistant installation](https://www.home-assistant.io/common-tasks/general/#restoring-a-backup) with your backup file and encryption key. Though your Home Assistant system may contain multiple recent backups, only one backup is stored on Home Assistant Cloud, which is your most recently made backup.
 
-## Encryption
+## About encryption
 
 Encryption is the process of locking files to prevent access without a key, in this case an encryption key made up of 28 characters. We strongly believe if you’re putting data on any cloud, it should be encrypted for your security and privacy. Home Assistant Cloud is the privacy-focused cloud. This is why it will only accept encrypted backups and why we don’t store your encryption key.
 
@@ -62,3 +74,8 @@ Encryption is the process of locking files to prevent access without a key, in t
 ## Security
 
 Nabu Casa uses Cloudflare as its storage provider for Home Assistant Cloud Backups. It specifically uses Cloudflare’s West Europe servers due to high privacy standards compared to other regions. Home Assistant will only upload encrypted backups to Home Assistant Cloud, which are secured with AES-128 encryption. Importantly, Nabu Casa does not have access to the encryption key. This ensures that your smart home data remains private and inaccessible to Nabu Casa - or anyone without the key - while stored away from your Home Assistant system.
+
+## Related topics
+
+- [About the backup emergency kit](https://www.home-assistant.io/more-info/backup-emergency-kit/)
+- [Creating a backup in Home Assistant](https://www.home-assistant.io/common-tasks/general/#backups)
