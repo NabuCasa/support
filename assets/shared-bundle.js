@@ -19181,24 +19181,15 @@ var functionBind = Function.prototype.bind || implementation$7;
 /** @type {import('./functionCall')} */
 var functionCall = Function.prototype.call;
 
-var functionApply;
-var hasRequiredFunctionApply;
-
-function requireFunctionApply () {
-	if (hasRequiredFunctionApply) return functionApply;
-	hasRequiredFunctionApply = 1;
-
-	/** @type {import('./functionApply')} */
-	functionApply = Function.prototype.apply;
-	return functionApply;
-}
+/** @type {import('./functionApply')} */
+var functionApply = Function.prototype.apply;
 
 /** @type {import('./reflectApply')} */
 var reflectApply = typeof Reflect !== 'undefined' && Reflect && Reflect.apply;
 
 var bind$4 = functionBind;
 
-var $apply$2 = requireFunctionApply();
+var $apply$2 = functionApply;
 var $call$2 = functionCall;
 var $reflectApply = reflectApply;
 
@@ -19339,7 +19330,7 @@ var getProto$1 = getProto$2;
 var $ObjectGPO = Object_getPrototypeOf;
 var $ReflectGPO = Reflect_getPrototypeOf;
 
-var $apply$1 = requireFunctionApply();
+var $apply$1 = functionApply;
 var $call = functionCall;
 
 var needsEval = {};
@@ -19883,7 +19874,7 @@ var setFunctionLength = function setFunctionLength(fn, length) {
 };
 
 var bind = functionBind;
-var $apply = requireFunctionApply();
+var $apply = functionApply;
 var actualApply = actualApply$1;
 
 /** @type {import('./applyBind')} */

@@ -173,6 +173,11 @@ ul {
 
 .error-page {
   @include max-width-container;
+
+  .error {
+    padding-top: 20%;
+    text-align: center
+  }
 }
 
 .visibility-hidden {
@@ -184,6 +189,6 @@ ul {
 }
 
 nabucasa-zigbee-flasher {
-  --mdc-theme-primary:  $brand_color;
+  --mdc-theme-primary: $brand_color;
   --mdc-theme-on-primary: #fff;
 }

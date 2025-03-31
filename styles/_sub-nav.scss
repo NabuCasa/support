@@ -32,3 +32,18 @@
     }
   }
 }
+
+.sub-hero {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 0rem 1rem;
+
+  .sub-nav {
+    flex-grow: 1;
+    margin: 0;
+  }
+
+  margin-bottom: 1rem;
+}

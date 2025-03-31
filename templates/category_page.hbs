@@ -12,10 +12,20 @@
 </section>
 <div class="container">
   <div class="layout">
-    <div class="column">
+    <div class="sub-hero">
       <div class="sub-nav">
         {{breadcrumbs}}
       </div>
+      <div class="search-wrapper small">
+        {{search submit=false instant=settings.instant_search class='search search-full' placeholder='Search for articles'}}
+        <button class="btn btn-dark btn-large" onclick="document.querySelector('form[role=search]').submit()">Search</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="layout">
+    <div class="column">
       <div class="category-container">
         <div class="category-content">
           <header class="page-header">
@@ -27,7 +37,6 @@
     <div class="column sidebar">
     </div>
   </div>
-
   <div class="layout">
     <div class="column">
       <div id="main-content" class="section-tree">

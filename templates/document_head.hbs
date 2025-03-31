@@ -21,13 +21,15 @@
   }}"><\/script>'); }
 </script>
 <script type="importmap">
-  { "imports": { "new-request-form": "{{asset "new-request-form-bundle.js"}}",
-  "flash-notifications": "{{asset "flash-notifications-bundle.js"}}",
-  "new-request-form-translations": "{{asset
-    "new-request-form-translations-bundle.js"
-  }}", "shared": "{{asset "shared-bundle.js"}}", "wysiwyg": "{{asset
-    "wysiwyg-bundle.js"
-  }}" } }
+{
+  "imports": {
+    "new-request-form": "{{asset 'new-request-form-bundle.js'}}",
+    "flash-notifications": "{{asset 'flash-notifications-bundle.js'}}",
+    "new-request-form-translations": "{{asset 'new-request-form-translations-bundle.js'}}",
+    "shared": "{{asset 'shared-bundle.js'}}",
+    "wysiwyg": "{{asset 'wysiwyg-bundle.js'}}"
+  }
+}
 </script>
 <script type="module">
   import { renderFlashNotifications } from "flash-notifications"; const settings
