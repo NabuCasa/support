@@ -15,10 +15,20 @@
 </section>
 <div class="container">
   <div class="layout">
-    <div class="column">
+    <div class="sub-hero">
       <div class="sub-nav">
         {{breadcrumbs}}
       </div>
+      <div class="search-wrapper small">
+        {{search submit=false instant=settings.instant_search class='search search-full' placeholder='Search for articles'}}
+        <button class="btn btn-dark btn-large" onclick="document.querySelector('form[role=search]').submit()">Search</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="layout">
+    <div class="column">
       <header class="page-header">
         <h2>{{t 'submit_a_request'}}</h2>
       </header>

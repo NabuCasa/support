@@ -359,6 +359,10 @@ ul {
   padding: 0 1rem;
   width: 100%;
 }
+.error-page .error {
+  padding-top: 20%;
+  text-align: center;
+}
 
 .visibility-hidden {
   border: 0;
@@ -1269,6 +1273,41 @@ nabucasa-zigbee-flasher {
   right: 15px;
 }
 
+.search-wrapper.small {
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: unset;
+}
+.search-wrapper.small form {
+  margin-bottom: 0;
+}
+.search-wrapper.small .search input[type=search] {
+  height: 42px;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #d6d6d6;
+}
+.search-wrapper.small .search input[type=search]::placeholder {
+  color: #7C7F80;
+}
+.search-wrapper.small form + button {
+  height: 42px;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  padding: 0 1rem;
+}
+
+.sub-nav {
+  flex-grow: 1;
+}
+
+.error-page .search-wrapper .search input[type=search] {
+  border: 1px solid #d6d6d6;
+}
+.error-page .search-wrapper .search input[type=search]::placeholder {
+  color: #7C7F80;
+}
+
 /***** Hero component *****/
 main > .visibility-hidden:has(ol li a[href$=Green]) + section.hero,
 section.section.hero[data-category="Home Assistant Green"] {
@@ -1647,6 +1686,19 @@ section.section.hero[data-category="Home Assistant Cloud"] .hero-inner {
 }
 .sub-nav input[type=search]::after {
   font-size: 16px;
+}
+
+.sub-hero {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 0rem 1rem;
+  margin-bottom: 1rem;
+}
+.sub-hero .sub-nav {
+  flex-grow: 1;
+  margin: 0;
 }
 
 /***** Blocks *****/
