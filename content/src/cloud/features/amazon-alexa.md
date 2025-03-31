@@ -1,23 +1,26 @@
 ---
 zendesk:
   article_id: 25619363899677
-  name: Amazon Alexa Configuration
+  name: Configuring Amazon Alexa to work with Home Assistant
   position: 3
   labels: cloud
 ---
 
-The Alexa integration allows users to control the Home Assistant entities via the Home Assistant Smart Home skill for Amazon Alexa. You can then say things like "Alexa, turn on the kitchen light" to control your local Home Assistant.
+The [Alexa integration](https://www.home-assistant.io/integrations/alexa/) allows users to control the Home Assistant entities via the [Home Assistant Smart Home skill](https://www.home-assistant.io/integrations/alexa.smart_home/) for Amazon Alexa. You can then say things like "Alexa, turn on the kitchen light" to control your local Home Assistant.
 
-To use this integration, you need to have an Amazon Alexa enabled device like the Amazon Echo.
+## Prerequisites
 
-**Note**: The procedure below applies to Home Assistant version 2023.5 and later. If you are running an older version, Amazon Alexa is located under [**Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
+- To use this integration, you need to have an Amazon Alexa enabled device like the Amazon Echo.
 
-To control Home Assistant entities from Alexa, follow these steps:
+- **Note**: The procedure below applies to Home Assistant version 2023.5 and later.
+  - If you are running an older version, Amazon Alexa is located under [**Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
 
-1. [Set up Home Assistant Cloud](/config).
-1. Under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/), enable **Alexa**.
+## To control Home Assistant entities from Alexa
+
+1. [Set up Home Assistant Cloud](/hc/en-us/articles/25649130769949).
+2. Under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/), enable **Alexa**.
    <img src="/static/img/cloud/alexa-enable.png" alt="Enable Alexa">
-1. On the **Expose** tab, expose at least one entity to Alexa.
+3. On the **Expose** tab, expose at least one entity to Alexa.
    - Open the **Expose** tab.
      <img src="/static/img/cloud/assistant-expose-05.png" alt="Open the Expose tab">
    - Select all entities you want to be able to control via Alexa.
@@ -25,7 +28,7 @@ To control Home Assistant entities from Alexa, follow these steps:
    - Select **Expose entities**.
      **Result**: The Alexa icon is now visible in the **Assistants** column.
      <img src="/static/img/cloud/assistant-expose-08-a.png" alt="Expose entities: Alexa icon is now visible">
-1. Activate the Home Assistant Smart Home skill via the Alexa app.
+4. Activate the Home Assistant Smart Home skill via the Alexa app.
 
    - From the Alexa App on your phone, go to **Skills & Games**.
    - Find **Home Assistant** and add it.</br>
@@ -49,13 +52,13 @@ To control Home Assistant entities from Alexa, follow these steps:
 
      **Result**: You will be prompted to link to your Nabu Casa account.
 
-1. Once activated, tell Alexa to discover new devices: _Alexa, discover new devices_.
+5. Once activated, tell Alexa to discover new devices: _Alexa, discover new devices_.
 
 <div class='videoWrapper'>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PhWpnc-Pvko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Available domains
+## List of available domains
 
 Currently, the following domains are available to be used with Alexa:
 
@@ -79,7 +82,7 @@ Currently, the following domains are available to be used with Alexa:
 
 ## Manual configuration
 
-You can use `configuration.yaml` to configure the entities that are being shown to Alexa and how they are exposed.
+You can use the [`configuration.yaml`](https://www.home-assistant.io/docs/configuration/) file to configure the entities that are being shown to Alexa and how they are exposed.
 
 If you use any filters, as shown in the example below, the entities can no longer be exposed via User Interface. They are still listed under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/) > **Expose**, but are shown grayed out.
 
@@ -106,7 +109,7 @@ cloud:
         display_categories: LIGHT
 ```
 
-## Configuration variables
+## List of configuration variables
 
 <pre>
 <b>alexa:</b>
@@ -134,3 +137,9 @@ cloud:
       <b>display_categories:</b>
         (string) (Optional) The display category to use in Alexa. <a href="https://developer.amazon.com/docs/device-apis/alexa-discovery.html#display-categories">Available categories</a>
 </pre>
+
+## Related topics
+
+- [Alexa integration](https://www.home-assistant.io/integrations/alexa/)
+- [Home Assistant Smart Home skill](https://www.home-assistant.io/integrations/alexa.smart_home/)
+- [Set up Home Assistant Cloud](/hc/en-us/articles/25649130769949)
