@@ -60,12 +60,6 @@ If you do no longer want to upload your backups to Home Assistant Cloud, you can
 2. Under **Locations**, turn off Home Assistant Cloud.
    - **Result**: Your next backup will not be uploaded to Home Assistant Cloud. Your last backup will remain available, unless you [delete it](/common-tasks/general/#deleting-obsolete-backups).
 
-## Deleting Home Assistant Cloud backups
-
-Deleting a Home Assistant Cloud backup is done the same way as any other backup.
-
-Follow the steps on [deleting backups](https://www.home-assistant.io/common-tasks/general/#deleting-obsolete-backups).
-
 ## About encryption
 
 Encryption is the process of locking files to prevent access without a key, in this case an encryption key made up of 28 characters. We strongly believe if you’re putting data on any cloud, it should be encrypted for your security and privacy. Home Assistant Cloud is the privacy-focused cloud. This is why it will only accept encrypted backups and why we don’t store your encryption key.
