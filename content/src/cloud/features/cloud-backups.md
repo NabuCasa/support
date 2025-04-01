@@ -22,31 +22,7 @@ To maintain the security and privacy of your smart home, the backup is locked vi
 
 For more on Home Assistant backups, read the [full documentation](https://www.home-assistant.io/common-tasks/general/#backups).
 
-## Prerequisites
 
-A backup will only be uploaded to Home Assistant Cloud if the following requirements are met:
-
-- You are running Home Assistant 2025.1 or later
-- Automatic backups have been enabled
-- The backup is under 5GB in size
-
-## To setup a Home Assistant Cloud backup
-
-**_Note_**: Home Assistant Cloud will only store one backup at a time on Home Assistant Cloud. It will always store your most recently made encrypted backup.
-
-<div class='videoWrapper'>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nSSkMVBqChM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-1. To setup a Home Assistant Cloud backup, follow the steps on [setting up an automatic backup](/common-tasks/general/#setting-up-an-automatic-backup-process).
-2. In the step on defining the backup location, enable **Home Assistant Cloud**.
-   - **Troubleshooting**: If you do not see **Home Assistant Cloud** as an option in the list, you do not have [Home Assistant Cloud enabled](/hc/en-us/articles/25649130769949).
-
-## Downloading a Home Assistant Cloud backup
-
-To download a backup from Home Assistant Cloud, follow the steps on [downloading a backup](https://www.home-assistant.io/common-tasks/general/#downloading-a-backup-from-home-assistant-cloud).
-
-- Note that only your most recent backup is available on Home Assistant Cloud.
 
 ## About encryption
 
