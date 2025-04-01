@@ -11,7 +11,7 @@ zendesk:
 - You have administrator rights in Home Assistant
 - You have [enabled Home Assistant Cloud backups](/hc/en-us/articles/26294320337181/)
 
-## Deleting Home Assistant Cloud backups
+## To delete Home Assistant Cloud backups
 
 Deleting a Home Assistant Cloud backup is done the same way as deleting any other backup.
 

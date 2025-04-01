@@ -52,14 +52,6 @@ To download a backup from Home Assistant Cloud, follow the steps on [downloading
 
 If you are downloading the backup in order to restore your Home Assistant instance from it, follow the steps on [restoring your Home Assistant installation](https://www.home-assistant.io/common-tasks/general/#restoring-a-backup).
 
-## Disabling Home Assistant Cloud backups
-
-If you do no longer want to upload your backups to Home Assistant Cloud, you can disable it as a backup location.
-
-1. In Home Assistant, go to  the [Settings > System > Backups > Backups settings](https://my.home-assistant.io/redirect/backup_config/).
-2. Under **Locations**, turn off Home Assistant Cloud.
-   - **Result**: Your next backup will not be uploaded to Home Assistant Cloud. Your last backup will remain available, unless you [delete it](/common-tasks/general/#deleting-obsolete-backups).
-
 ## About encryption
 
 Encryption is the process of locking files to prevent access without a key, in this case an encryption key made up of 28 characters. We strongly believe if you’re putting data on any cloud, it should be encrypted for your security and privacy. Home Assistant Cloud is the privacy-focused cloud. This is why it will only accept encrypted backups and why we don’t store your encryption key.
