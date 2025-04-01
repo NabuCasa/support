@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25619338169501
-  name: Enabling a cloud backup
+  name: All about the Home Assistant Cloud backup
   position: 2
   labels: cloud
 ---
@@ -30,28 +30,41 @@ A backup will only be uploaded to Home Assistant Cloud if the following requirem
 - Automatic backups have been enabled
 - The backup is under 5GB in size
 
-## To enable automated backups
+## To setup a Home Assistant Cloud backup
+
+**_Note_**: Home Assistant Cloud will only store one backup at a time on Home Assistant Cloud. It will always store your most recently made encrypted backup.
 
 <div class='videoWrapper'>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nSSkMVBqChM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-1. **Update to the latest version**: You’ll need to [update](https://www.home-assistant.io/common-tasks/os/#updating-home-assistant) to Home Assistant 2025.1 or above to use automated Cloud backup.
-2. **Navigate to Backups**: Go to [Settings > System > Backups](https://my.home-assistant.io/redirect/backup/) in your Home Assistant installation, then select “Set up backups” and select next.
-3. **Save your encryption key**: Copy and save the provided encryption key (preferably in a password manager) or download the “Emergency kit” and store it somewhere safe, as it’s required to access your backups.
-4. **Use recommended settings**: These settings will make a backup daily, storing three backups locally, and automatically upload your most recent backup to all integrated locations. As a Home Assistant Cloud user, your most recent backup will be uploaded automatically.
+1. To setup a Home Assistant Cloud backup, follow the steps on [setting up an automatic backup](/common-tasks/general/#setting-up-an-automatic-backup-process).
+2. In the step on defining the backup location, enable **Home Assistant Cloud**.
+   - **Troubleshooting**: If you do not see **Home Assistant Cloud** as an option in the list, you do not have [Home Assistant Cloud enabled](/hc/en-us/articles/25649130769949).
 
-   **_Note_**: Home Assistant Cloud will only store one backup at a time and will always store your most recently made encrypted backup.
+## Downloading a Home Assistant Cloud backup
 
-5. **Complete Your First Backup**: Once settings are chosen, the creation of your first backup starts immediately.
+To download a backup from Home Assistant Cloud, follow the steps on [downloading a backup](https://www.home-assistant.io/common-tasks/general/#downloading-a-backup-from-home-assistant-cloud).
+
+- Note that only your most recent backup is available on Home Assistant Cloud.
+
+## Restoring Home Assistant from backup
+
+If you are downloading the backup in order to restore your Home Assistant instance from it, follow the steps on [restoring your Home Assistant installation](https://www.home-assistant.io/common-tasks/general/#restoring-a-backup).
 
 ## Disabling Home Assistant Cloud backups
 
-If you do not want to upload your backups to Home Assistant Cloud. Navigate to the Home Assistant [Backups settings page](https://my.home-assistant.io/redirect/backup_config/), and under “Locations” turn off Home Assistant Cloud.
+If you do no longer want to upload your backups to Home Assistant Cloud, you can disable it as a backup location.
 
-## Retrieving automated backups
+1. In Home Assistant, go to  the [Settings > System > Backups > Backups settings](https://my.home-assistant.io/redirect/backup_config/).
+2. Under **Locations**, turn off Home Assistant Cloud.
+   - **Result**: Your next backup will not be uploaded to Home Assistant Cloud. Your last backup will remain available, unless you [delete it](/common-tasks/general/#deleting-obsolete-backups).
 
-Your Home Assistant backup can be downloaded from the [Nabu Casa account page](https://account.nabucasa.com/) and can help restore your Home Assistant system. On the account page, scroll to the section titled “Stored Files” and select the download button. You can [restore your Home Assistant installation](https://www.home-assistant.io/common-tasks/general/#restoring-a-backup) with your backup file and encryption key. Though your Home Assistant system may contain multiple recent backups, only one backup is stored on Home Assistant Cloud, which is your most recently made backup.
+## Deleting Home Assistant Cloud backups
+
+Deleting a Home Assistant Cloud backup is done the same way as any other backup.
+
+Follow the steps on [deleting backups](https://www.home-assistant.io/common-tasks/general/#deleting-obsolete-backups).
 
 ## About encryption
 
@@ -79,3 +92,6 @@ Nabu Casa uses Cloudflare as its storage provider for Home Assistant Cloud Backu
 
 - [About the backup emergency kit](https://www.home-assistant.io/more-info/backup-emergency-kit/)
 - [Creating a backup in Home Assistant](https://www.home-assistant.io/common-tasks/general/#backups)
+- [Nabu Casa account page](https://account.nabucasa.com/)
+- [Downloading a backup](https://www.home-assistant.io/common-tasks/general/#downloading-a-backup-from-home-assistant-cloud)
+- [Restoring your Home Assistant installation](https://www.home-assistant.io/common-tasks/general/#restoring-a-backup)
