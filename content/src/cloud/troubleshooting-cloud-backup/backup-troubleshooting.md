@@ -12,7 +12,6 @@ zendesk:
 
 ## Backup keeps failing
 
-**Backup is too large** - Check that your backup is under 5 gigabytes (GB) in size. If it is too large to upload, you should receive a repair message. You can reduce the size of your backup by going to the Home Assistant [Backups settings page](https://my.home-assistant.io/redirect/backup_config/), and removing large folders (the media and share folders can sometimes be quite large) or add-ons.
 
 **Backup is not encrypted** - If you are using an Automation, Blueprint, or Add-on to backup your system on a scheduled basis, and encryption is not set, those backups will not be uploaded. Set a password on those backups if you want them uploaded to Home Assistant Cloud.
 

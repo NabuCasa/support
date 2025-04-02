@@ -6,3 +6,17 @@ zendesk:
   labels: cloud
 ---
 
+## Symptom
+
+You have Home Assistant Cloud backup enabled in Home Assistant. You see a message stating that the **Backup is too large**.
+
+## Resolution
+
+Check that your backup is under 5 gigabytes (GB) in size. If it is too large to upload, you should receive a repair message.
+
+- To learn how to reduce the size of a backup, follow the steps on [preparing a backup](https://www.home-assistant.io/common-tasks/general/#preparing-for-a-backup)
+
+## Related topics
+
+- [Preparing a backup](https://www.home-assistant.io/common-tasks/general/#preparing-for-a-backup)
+- [Creating a backup in Home Assistant](https://www.home-assistant.io/common-tasks/general/#backups)
