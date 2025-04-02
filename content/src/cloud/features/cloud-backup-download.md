@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26294370569245
   name: Downloading a backup from Home Assistant Cloud
-  position: 2
+  position: 12
   labels: cloud
 ---
 

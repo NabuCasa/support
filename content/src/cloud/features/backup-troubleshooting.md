@@ -2,7 +2,7 @@
 zendesk:
   article_id:
   name: Backup - Troubleshooting
-  position: 2
+  position: 16
   labels: cloud
 ---
 

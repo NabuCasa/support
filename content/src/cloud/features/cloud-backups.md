@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25619338169501
   name: About the Home Assistant Cloud backup
-  position: 2
+  position: 10
   labels: cloud
 ---
 

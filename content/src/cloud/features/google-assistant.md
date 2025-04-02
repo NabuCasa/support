@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25619376817053
   name: Google Assistant
-  position: 4
+  position: 40
   labels: cloud
 ---
 

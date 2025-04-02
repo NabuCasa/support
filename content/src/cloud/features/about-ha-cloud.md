@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26260474250269
   name: About Home Assistant Cloud
-  position: 0
+  position: 1
   labels: cloud
 ---
 
