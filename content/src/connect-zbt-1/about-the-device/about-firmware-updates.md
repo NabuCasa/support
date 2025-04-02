@@ -8,7 +8,9 @@ zendesk:
 
 The Home Assistant Connect&nbsp;ZBT-1 ships with a full-fledged Zigbee firmware. *At this point, there are no known issues with the factory-flashed firmware.*
 
-The Nabu Casa team is working on integrating firmware updates for Home Assistant Connect&nbsp;ZBT-1 directly into Home Assistant. Update notifications for Connect ZBT-1 will be available just like any other updates supported by Home Assistant. If you have a working Zigbee or Thread setup today, it is recommended to wait until the new update system is introduced, which is expected to arrive in early 2025.
+Firmware updates for the Connect&nbsp;ZBT-1 are natively supported in Home Assistant 2025.4.0 if you are running the ZHA integration or OTBR:
+
+![Screenshot of update notification](/static/img/connect-zbt-1/connect-zbt-1_firmware_update_notification.png)
 
 ## Reinstalling the firmware on Home Assistant Connect ZBT-1
 
