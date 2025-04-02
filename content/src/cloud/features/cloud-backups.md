@@ -6,21 +6,19 @@ zendesk:
   labels: cloud
 ---
 
-If your backup is smaller than 5GB in size, you have the option to store an encrypted [Home Assistant backup](https://www.home-assistant.io/common-tasks/general/#backups) on Home Assistant Cloud.
+You have the option to store an encrypted [Home Assistant backup](https://www.home-assistant.io/common-tasks/general/#backups) on Home Assistant Cloud.
 
-## About Home Assistant Cloud backup
-
-The Home Assistant Cloud backup option is available if you have a Home Assistant Cloud subscription, at no additional cost. The scope is as follows:
+The Home Assistant Cloud backup option is available if you have a Home Assistant Cloud subscription, at no additional cost.
 
 - If Home Assistant Cloud backup is enabled in Home Assistant, 1 encrypted backup file is stored on Home Assistant Cloud
 - Home Assistant Cloud will only store the latest backup. Older versions will be deleted automatically.
-- The backup file must be smaller than 5GB in size.
-  - If it is larger, you’ll be notified to repair.
-  - In this case, check the steps on [preparing a backup](https://www.home-assistant.io/common-tasks/general/#preparing-for-a-backup). They include steps on reducing the size of a backup.
-- The backup on Home Assistant Cloud is encrypted
+- The backup file must be smaller than 5GB in size. Larger files cannot be stored on Home Assistant Cloud.
+  - If the backup file is larger, you’ll be notified to repair.
+  - In this case, check the steps on [preparing a backup](https://www.home-assistant.io/common-tasks/general/#preparing-for-a-backup) to learn how to reduce the size of a backup.
+- The backup on Home Assistant Cloud is always encrypted.
   - The key required to decrypt the backup is stored in the [backup emergency kit](https://www.home-assistant.io/more-info/backup-emergency-kit/)
   - If you ever lose your encryption key, it can be re-downloaded in Home Assistant’s [Backups settings page](https://my.home-assistant.io/redirect/backup_config/).
-  - If you do not have the key, you will not be able to use your backups to restore your system. Nabu Casa does not store your encryption key and cannot provide support in decrypting backups if the key goes missing.
+  - If you do not have the key and don't have access to your Home Assistant, you will not be able to use your backups to restore your system. Nabu Casa does not store your encryption key and cannot provide support in decrypting backups if the key goes missing.
 - Nabu Casa can not access your data.
 
 ## Why store a backup in Home Assistant Cloud?
@@ -33,13 +31,9 @@ Storing your latest [Home Assistant backup](https://www.home-assistant.io/common
 
 ### Encrypted and private
 
-Home Assistant Cloud is the privacy-focused cloud. To maintain the security and privacy of your smart home, the backup is locked via [encryption](https://www.home-assistant.io/more-info/backup-emergency-kit/). Nabu Casa cannot access your data and does not store your encryption key for you.
+Home Assistant Cloud is the privacy-focused cloud. Nabu Casa uses Cloudflare as its storage provider for Home Assistant Cloud Backups. It specifically uses Cloudflare’s West Europe servers due to high privacy standards compared to other regions. To maintain the security and privacy of your smart home, backups stored on Home Assistant Cloud are always encrypted using [AES-128](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard). Encryption is a method of converting data into a coded format so that it can only be read by someone who has the encryption key. This ensures that your data about your home remains private. So even if someone else had a copy of your Home Assistant backup, it is unreadable for them without the encryption key. Nabu Casa does not have access to the [encryption key](ttps://www.home-assistant.io/more-info/backup-emergency-kit/).
 
-**_Note_**: Neither your Home Assistant account password nor your Nabu Casa Account password acts as your Encryption key. It is a distinct password that must be stored somewhere safe alongside those passwords.
-
-## What measures do you take to keep my data safe in the Cloud?
-
-Nabu Casa uses Cloudflare as its storage provider for Home Assistant Cloud Backups. It specifically uses Cloudflare’s West Europe servers due to high privacy standards compared to other regions. Home Assistant will only upload encrypted backups to Home Assistant Cloud, which are secured with AES-128 encryption. Importantly, Nabu Casa does not have access to the encryption key. This ensures that your smart home data remains private and inaccessible to Nabu Casa - or anyone without the key - while stored away from your Home Assistant system.
+**_Note_**: Neither your Home Assistant account password nor your Nabu Casa Account password acts as your encryption key. It is a distinct password that must be stored somewhere safe alongside those passwords.
 
 ## Related topics
 
