@@ -30,6 +30,7 @@ A backup will only be uploaded to Home Assistant Cloud if the following requirem
 
 ## Related topics
 
+- [About Home Assistant Cloud backup](/hc/en-us/articles/25619338169501-About-the-Home-Assistant-Cloud-backup)
 - [Creating a backup in Home Assistant](https://www.home-assistant.io/common-tasks/general/#backups)
 - [Nabu Casa account page](https://account.nabucasa.com/)
 - [Downloading a backup](/hc/en-us/articles/26294370569245/)
