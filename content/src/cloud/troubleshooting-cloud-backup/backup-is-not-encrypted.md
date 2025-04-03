@@ -8,7 +8,7 @@ zendesk:
 
 ## Symptom
 
-In Home Assistant, you're seeing a notification **Backup is not encrypted**.
+You have [Home Assistant Cloud backup enabled](/hc/en-us/articles/26294320337181-Enabling-a-cloud-backup) in Home Assistant and you're now seeing a notification **Backup is not encrypted**.
 
 ## Cause
 
