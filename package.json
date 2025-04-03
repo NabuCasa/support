@@ -20,7 +20,9 @@
     "lint:textlint:check": "textlint content",
     "lint:textlint:fix": "textlint --fix content",
     "zendesk-theme-preview": "export $(grep -v -E '^\\s*#|^\\s*$' .env | sed 's/\\s*#.*//' | xargs) && zcli themes:preview --bind 127.0.0.1 --port 4568",
+    "zendesk-content-preview": "cd content && rm -rf _site && eleventy --watch --serve",
     "zendesk-content-build": "cd content && rm -rf _site && eleventy",
+    "zendesk-content-build-preview": "cd content && rm -rf _site && PREVIEW_BUILD=1 eleventy",
     "zendesk-content-deploy": "export $(grep -v -E '^\\s*#|^\\s*$' .env | sed 's/\\s*#.*//' | xargs) && cd content && node deploy.js",
     "zendesk-content-build-deploy": "npm run zendesk-content-build && npm run zendesk-content-deploy"
   },
