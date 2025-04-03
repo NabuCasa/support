@@ -8,7 +8,7 @@ zendesk:
 
 ## Symptom
 
-You have [Home Assistant Cloud backup enabled](/hc/en-us/articles/26294320337181-Enabling-a-cloud-backup) in Home Assistant and you now want to restore your Home Assistant using the backup you have stored on Home Assistant Cloud.
+You have [Home Assistant Cloud backup enabled](/hc/en-us/articles/26294320337181-Enabling-a-cloud-backup) in Home Assistant and you now want to restore your Home Assistant using the backup you have uploaded to Home Assistant Cloud.
 
 ## Resolution
 

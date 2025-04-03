@@ -15,7 +15,7 @@ zendesk:
 
 If you do no longer want to upload your backups to Home Assistant Cloud, you can disable Cloud as a backup location.
 
-1. In Home Assistant, go to  the [Settings > System > Backups > Backups settings](https://my.home-assistant.io/redirect/backup_config/).
+1. In Home Assistant, go to  the [**Settings** > **System** > **Backups** > **Backups settings**](https://my.home-assistant.io/redirect/backup_config/).
 2. Under **Locations**, turn off Home Assistant Cloud.
    - **Result**: Your next backup will not be uploaded to Home Assistant Cloud. Your last backup will remain available, unless you [delete it](/common-tasks/general/#deleting-obsolete-backups).
 

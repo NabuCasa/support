@@ -6,7 +6,7 @@ zendesk:
   labels: cloud
 ---
 
-**Finding your encryption key** - If you ever lose your encryption key, it can be re-downloaded in Home Assistant’s [Backups settings page](https://my.home-assistant.io/redirect/backup_config/). Navigate to the **Encryption key** section and either select to download your emergency kit or copy the key.
+**Finding your encryption key** - If you ever lose your encryption key, it can be re-downloaded in Home Assistant’s [**Backups settings**](https://my.home-assistant.io/redirect/backup_config/) page. Navigate to the **Encryption key** section and either select to download your emergency kit or copy the key.
 
 **Lost encryption key** - If you do not have the key, you will not be able to use your backups to restore your system. Nabu Casa does not store your encryption key and cannot provide support in decrypting backups if the key goes missing.
 

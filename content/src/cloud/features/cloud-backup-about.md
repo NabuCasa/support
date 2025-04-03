@@ -28,7 +28,7 @@ Storing your latest [Home Assistant backup](https://www.home-assistant.io/common
 
 ### Encrypted and private
 
-Home Assistant Cloud is the privacy-focused cloud. Nabu Casa uses Cloudflare as its storage provider for Home Assistant Cloud Backups. It specifically uses Cloudflare’s West Europe servers due to high privacy standards compared to other regions.
+Home Assistant Cloud is the privacy-focused cloud. Nabu Casa uses Cloudflare as its storage provider to store backups on Home Assistant Cloud. It specifically uses Cloudflare’s West Europe servers due to high privacy standards compared to other regions.
 
 To maintain the security and privacy of your smart home, backups stored on Home Assistant Cloud are always encrypted using [AES-128](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard). Encryption is a method of converting data into a coded format so that it can only be read by someone who has the encryption key. This ensures that your data about your home remains private. So even if someone else had a copy of your Home Assistant backup, it is unreadable for them without the encryption key.
 
