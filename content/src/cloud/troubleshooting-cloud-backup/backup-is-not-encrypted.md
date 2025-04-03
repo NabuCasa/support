@@ -12,7 +12,7 @@ In Home Assistant, you're seeing a notification **Backup is not encrypted**.
 
 ## Cause
 
-If you are using an automation, blueprint, or [add-on](https://www.home-assistant.io/integrations/?search=backup) to create backups of your system on a scheduled basis, and encryption is not set, those backups will not be uploaded to Home Assistant Cloud. This is because only encrypted backups can be stored on Home Assistant Cloud. For more information, refer to the documentation [About Home Assistant Cloud backup](/hc/en-us/articles/25619338169501-About-the-Home-Assistant-Cloud-backup).
+If you are using an automation, blueprint, or [add-on](https://www.home-assistant.io/integrations/?search=backup) to create backups of your Home Assistant on a scheduled basis, and encryption is not set, those backups will not be uploaded to Home Assistant Cloud. This is because only encrypted backups can be stored on Home Assistant Cloud. For more information, refer to the documentation [About Home Assistant Cloud backup](/hc/en-us/articles/25619338169501-About-the-Home-Assistant-Cloud-backup).
 
 ## Resolution
 
