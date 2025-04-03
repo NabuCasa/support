@@ -1,6 +1,6 @@
 ---
 zendesk:
   section_id: 26177468171549
-  position: 11
+  position: 70
   name: FAQ - Home Assistant Cloud
 ---
