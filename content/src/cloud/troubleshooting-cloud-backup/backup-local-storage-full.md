@@ -10,12 +10,17 @@ zendesk:
 
 You have [Home Assistant Cloud backup enabled](/hc/en-us/articles/26294320337181-Enabling-a-cloud-backup) in Home Assistant. You see a message stating that the **Local storage is full**.
 
+## Cause
+
+If your local storage is full, or even nearing full, it may not be possible to generate the backup because there is not enough space for that backup.
+
 ## Resolution
 
-If your local storage is full, or even nearing full, it may not be possible to generate the backup to upload online. Check if you have enough space in the [storage settings](https://my.home-assistant.io/redirect/storage/) to generate your backup.
+- To see how much space you have left, check the [storage settings](https://my.home-assistant.io/redirect/storage/).
+- Follow the steps on [Freeing disk space](https://www.home-assistant.io/more-info/free-space) on your Home Assistant system.
 
 ## Related topics
 
-- [About the backup emergency kit](https://www.home-assistant.io/more-info/backup-emergency-kit/)
+- [Freeing disk space](https://www.home-assistant.io/more-info/free-space)
 - [Creating a backup in Home Assistant](https://www.home-assistant.io/common-tasks/general/#backups)
 - [Network storage](https://www.home-assistant.io/common-tasks/os/#network-storage)
