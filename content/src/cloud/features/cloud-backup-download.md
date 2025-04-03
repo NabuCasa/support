@@ -8,7 +8,6 @@ zendesk:
 
 ## Prerequisites
 
-- You have administrator rights in Home Assistant
 - You have [enabled Home Assistant Cloud backups](/hc/en-us/articles/26294320337181/)
 
 ## To download a backup from Home Assistant Cloud
