@@ -45,7 +45,7 @@ Reinstalling the firmware from bootloader mode is an **extreme measure**. Only d
    1. Select **Install** and follow the wizard.
    2. Once the installation is complete, power-cylce the device:
    3. Unplug the USB-C cable and plug it back in.
-   4. To add the device to Home Assistant, follow the [Getting started](/hc/en-us/sections/24980017436701) steps.
+   4. To add the device to Home Assistant, follow the [getting started](/hc/en-us/sections/24980017436701) steps.
 
     ![Screenshot showing USB device list](/static/img/voice-pe/voice_esp_connect_usb.png)
 

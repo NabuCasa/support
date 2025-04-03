@@ -17,7 +17,7 @@ If your local storage is full, or even nearing full, it may not be possible to g
 ## Resolution
 
 - To see how much space you have left, check the [storage settings](https://my.home-assistant.io/redirect/storage/).
-- Follow the steps on [Freeing disk space](https://www.home-assistant.io/more-info/free-space) on your Home Assistant system.
+- Follow the steps on freeing disk space](https://www.home-assistant.io/more-info/free-space) on your Home Assistant system.
 
 ## Related topics
 
