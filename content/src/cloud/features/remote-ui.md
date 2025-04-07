@@ -11,7 +11,7 @@ Home Assistant Remote UI allows you to connect to your Home Assistant instance f
 ## To enable remote control
 
 1. In Home Assistant, go to [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
-2. Make sure you are [logged in](/config/) to Home Assistant Cloud.
+2. Make sure you are logged in to Home Assistant Cloud.
    - If you only just logged in for the first time, you might see a message _"Remote control is being prepared. We will notify you when it's ready."_.
    - In this case, wait a few minutes and refresh the page.
 3. Under **Remote control**, enable the toggle.
@@ -39,7 +39,7 @@ If you are away from home and want to access your Home Assistant, but the remote
 
 Activating remote control from outside your network only works if under [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/) you previously enabled **Allow external activation of remote control** (see steps above under _To enable remote control_).
 
-1. [Login](/config/) to your [Nabu Casa account page](https://account.nabucasa.com).
+1. Login to your [Nabu Casa account page](https://account.nabucasa.com).
    - If your instance is not connected, the status under **Remote UI** is shown as **Not connected**.
 2. To connect remotely, select **Connect**.
 
