@@ -193,6 +193,10 @@ export default async function (eleventyConfig) {
     return `<!-- ${JSON.stringify({ zendesk: zendeskFrontmatter })} -->`;
   });
 
+  eleventyConfig.addShortcode("timestamp", function (zendeskFrontmatter) {
+    return new Date().setUTCHours(0, 0, 0, 0);
+  });
+
   eleventyConfig.addShortcode("partial", function (filename, data) {
     // if no extension in filename, default to .md
     if (filename.split(".").length === 1) {
