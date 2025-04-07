@@ -11,13 +11,13 @@ There are a few moving parts to this repository:
 
 # Folder structure
 
-### Zendesk theme
+## Zendesk theme
 
 The Zendesk theme is stored in the root of the repository as per the [requirements of Zendesk](https://support.zendesk.com/hc/en-us/articles/4408832476698-Setting-up-the-GitHub-integration-with-your-Guide-theme#topic_i3v_kyk_chb).
 
-### Content
+## Content
 
-This is a custom implementation of using version control to manage content for Zendesk. The goal is to use DITA as the publishing arhitecture with the [Markdown flavour](https://www.dita-ot.org/dev/reference/markdown/markdown-dita-syntax).
+This is a custom implementation of using version control to manage content for Zendesk. The goal is to use DITA as the publishing architecture with the [Markdown flavour](https://www.dita-ot.org/dev/reference/markdown/markdown-dita-syntax).
 
 Upon a push to the `main` branch, the GitHub Action will validate the DITA syntax, convert the Markdown to HTML and upload the content to Zendesk via the REST API.
 
@@ -36,3 +36,11 @@ All `.md` files within the `content/` folder will be treated as something that r
 - Clone this repo into a docker container volume
 - Create a `.env` file at the root of the project, copying the contents of `.env.example`, replacing the values with your own
 - Run `npm run start` to start the Zendesk theme compiler and the preview server
+
+## Content preview
+
+To ease content creation, a preview is available. Keep in mind that is just a preview to help visualize content, some features are not working (search engine for example). To run it, open the devcontainer in Visual Studio Code and run:
+```bash
+npm run zendesk-content-preview
+```
+Visit `http://127.0.0.1:8080`.
