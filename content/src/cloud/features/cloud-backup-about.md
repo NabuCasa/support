@@ -32,7 +32,7 @@ Home Assistant Cloud is the privacy-focused cloud. Nabu Casa uses Cloudflare as 
 
 To maintain the security and privacy of your smart home, backups stored on Home Assistant Cloud are always encrypted using [AES-128](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard). Encryption is a method of converting data into a coded format so that it can only be read by someone who has the encryption key. This ensures that your data about your home remains private. So even if someone else had a copy of your Home Assistant backup, it is unreadable for them without the encryption key.
 
-Nabu Casa does not have access to the [encryption key](ttps://www.home-assistant.io/more-info/backup-emergency-kit/).
+Nabu Casa does not have access to the [encryption key](https://www.home-assistant.io/more-info/backup-emergency-kit/).
 
 **_Note_**: Neither your Home Assistant account password nor your Nabu Casa Account password acts as your encryption key. It is a distinct password that must be stored somewhere safe alongside those passwords.
 
