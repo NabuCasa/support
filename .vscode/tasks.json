@@ -17,7 +17,16 @@
       "group": {
         "kind": "test",
         "isDefault": true,
-      }
+      },
+    },
+    {
+      "label": "Content preview",
+      "type": "shell",
+      "command": "npm run zendesk-content-preview",
+      "group": {
+        "kind": "test",
+        "isDefault": true,
+      },
     }
   ]
 }

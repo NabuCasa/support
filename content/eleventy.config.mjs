@@ -214,6 +214,10 @@ export default async function (eleventyConfig) {
 
   if (isPreview) {
     // Additional changes required for preview build
+    eleventyConfig.setServerOptions({
+      messageOnStart: ({ options }) =>
+        `Server started at http://127.0.0.1:${options.port}/`,
+    });
 
     eleventyConfig.addGlobalData("permalink", () => {
       return (data) => {
