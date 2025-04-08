@@ -29,4 +29,4 @@ This flow ensures that all communication is encrypted and secure.
 
 ## Related topics
 
-- [Enable it](/hc/en-us/articles/26474279202973/)
+- [Enabling remote access to Home Assistant (Remote UI)](/hc/en-us/articles/26474279202973/)
