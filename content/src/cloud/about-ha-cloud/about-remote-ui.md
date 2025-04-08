@@ -29,10 +29,4 @@ This flow ensures that all communication is encrypted and secure, providing a se
 
 ### What makes it secure, exactly?
 
-All communication is using HTTPS (HyperText Transfer Protocol Secure). HTTPS is the secure version of HTTP, the protocol used for communication between your web browser and a website. It's secure, because it uses encryption. Encryption is important to ensure the following:
-
-- Your data (passwords, messages, credit card info, etc.) can’t be read by others.
-- No one can modify the data while it's in transit. (With one exception: In theory, Nabu Casa could modify it, because it owns the domain and can create its own certificate. Read more about this [here]()).
-- You’re actually connected to the real website, not a fake or malicious one.
-
-This encryption is powered by SSL (Secure Sockets Layer). SSL is a protocol that establishes a secure, encrypted link between two systems — typically a browser and a server.
+All communication is using HTTPS (HyperText Transfer Protocol Secure). HTTPS is the secure version of HTTP, the protocol used for communication between your web browser and a website. It's secure, because it uses encryption.
