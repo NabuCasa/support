@@ -25,10 +25,9 @@ Below is a simplified visualization showing how the Remote UI connection to Home
 2. **Cloud server**: The request is routed through a secure cloud server managed by Nabu Casa. This server acts as a proxy, ensuring secure communication between your browser and your Home Assistant instance.
 3. **Home Assistant instance**: The cloud server forwards the encrypted request to your Home Assistant instance at home. Your local instance decrypts the data and processes the request.
 
-
 This flow ensures that all communication is encrypted and secure, providing a seamless and safe remote access experience.
 
-### What makes is secure, exactly?
+### What makes it secure, exactly?
 
 All communication is using HTTPS (HyperText Transfer Protocol Secure). HTTPS is the secure version of HTTP, the protocol used for communication between your web browser and a website. It's secure, because it uses encryption. Encryption is important to ensure the following:
 
