@@ -14,9 +14,12 @@ By default, remote access is not possible. You need to enable it.
 
 Once enabled, Home Assistant generates a security certificate for secure communication and provides you with a URL. You can then use this URL to access your Home Assistant while away from home.
 
-Below is a simplified visualization of how the Remote UI connection to Home Assistant works:
+Below is a simplified visualization showing how the Remote UI connection to Home Assistant works:
 
-![Data flow diagram between your browser outside of your home network, and your Home Assistant](/static/img/cloud/ha-cloud-remote-remote-ui-data-flow.svg)
+<figure>
+  <img src="/static/img/cloud/ha-cloud-remote-remote-ui-data-flow.svg" alt="Data flow diagram between your browser outside of your home network, and your Home Assistant">
+  <figcaption>Data flow diagram between your browser (accessing from outside of your home network), and your Home Assistant</figcaption>
+</figure>
 
 1. **Remote website**: When you access your Home Assistant instance remotely, your browser sends an encrypted request to the Nabu Casa Cloud servers.
 2. **Cloud server**: The request is routed through a secure cloud server managed by Nabu Casa. This server acts as a proxy, ensuring secure communication between your browser and your Home Assistant instance.
