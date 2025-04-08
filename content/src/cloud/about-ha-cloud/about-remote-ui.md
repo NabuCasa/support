@@ -8,7 +8,7 @@ zendesk:
 
 One of the main features of Home Assistant Cloud is the Remote UI. The Remote UI allows you to connect to your Home Assistant instance from outside of your home network. So that you can start the vacuum cleaner from your phone while you are on the train for your daily commute, for example.
 
-By default, remote access is not possible. You need to enable it.
+By default, remote access is not possible. You need to [enable it](/hc/en-us/articles/26474279202973/).
 
 ## How does Remote UI work?
 
@@ -26,3 +26,7 @@ Below is a simplified visualization showing how the Remote UI connection to Home
 3. **Home Assistant instance**: The cloud server forwards the encrypted request to your Home Assistant instance at home. Your local instance decrypts the data and processes the request.
 
 This flow ensures that all communication is encrypted and secure.
+
+## Related topics
+
+- [Enable it](/hc/en-us/articles/26474279202973/)
