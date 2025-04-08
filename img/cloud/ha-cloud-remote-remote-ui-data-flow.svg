@@ -1,0 +1,35 @@
+
+<svg width="700" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Use a clean sans-serif font similar to Figtree -->
+  <style>
+    text {
+      font-family: 'Figtree', sans-serif;
+    }
+  </style>
+
+  <!-- Icons -->
+  <text x="50" y="50" font-size="18" font-weight="600">🌐 Browser</text>
+  <text x="270" y="50" font-size="18" font-weight="600">☁️ Nabu Casa Cloud</text>
+  <text x="520" y="50" font-size="18" font-weight="600">🏠 Home Assistant</text>
+
+  <!-- Arrows -->
+  <line x1="110" y1="90" x2="290" y2="90" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="120" y="80" font-size="14">HTTPS (SSL) Encrypted Request</text>
+
+  <line x1="310" y1="140" x2="540" y2="140" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="360" y="130" font-size="14">HTTPS (SSL) Encrypted Data</text>
+
+  <line x1="540" y1="200" x2="310" y2="200" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="360" y="215" font-size="14">HTTPS (SSL) Encrypted Response</text>
+
+  <line x1="290" y1="250" x2="110" y2="250" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="140" y="265" font-size="14">HTTPS (SSL) Encrypted Response</text>
+
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+    </marker>
+  </defs>
+</svg>
