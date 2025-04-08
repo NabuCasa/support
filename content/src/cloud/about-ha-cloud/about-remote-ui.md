@@ -16,11 +16,12 @@ Once enabled, Home Assistant generates a security certificate for secure communi
 
 Below is a simplified visualization of how the Remote UI connection to Home Assistant works:
 
+![Data flow diagram between your browser outside of your home network, and your Home Assistant](/static/img/cloud/ha-cloud-remote-remote-ui-data-flow.svg)
+
 1. **Remote website**: When you access your Home Assistant instance remotely, your browser sends an encrypted request to the Nabu Casa Cloud servers.
 2. **Cloud server**: The request is routed through a secure cloud server managed by Nabu Casa. This server acts as a proxy, ensuring secure communication between your browser and your Home Assistant instance.
 3. **Home Assistant instance**: The cloud server forwards the encrypted request to your Home Assistant instance at home. Your local instance decrypts the data and processes the request.
 
-![Data flow diagram between your browser outside of your home network, and your Home Assistant](/static/img/cloud/ha-cloud-remote-remote-ui-data-flow.svg)
 
 This flow ensures that all communication is encrypted and secure, providing a seamless and safe remote access experience.
 
