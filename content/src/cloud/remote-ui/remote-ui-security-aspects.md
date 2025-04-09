@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26508882007581
-  name: Remote UI - security aspects
+  name: Remote UI - Security aspects
   position: 8
   labels: cloud
 ---

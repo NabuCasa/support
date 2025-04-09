@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25619268678557
-  name: Remote UI - deep dive
+  name: Remote UI - Deep dive
   position: 3
   labels: cloud
 ---

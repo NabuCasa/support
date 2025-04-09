@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26510075061021
-  name: Remote UI - source code on GitHub
+  name: Remote UI - Source code on GitHub
   position: 15
   labels: cloud
 ---
