@@ -30,3 +30,4 @@ This flow ensures that all communication is encrypted and secure.
 ## Related topics
 
 - [Enabling remote access to Home Assistant (Remote UI)](/hc/en-us/articles/26474279202973/)
+- [Using Remote UI with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)

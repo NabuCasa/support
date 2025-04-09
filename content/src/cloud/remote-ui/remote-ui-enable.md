@@ -65,3 +65,4 @@ That way you can turn on the remote connection only when you leave the house and
 ## Related topics
 
 - [About the Remote UI connection to Home Assistant](/hc/en-us/articles/26469707849629/)
+- [Using Remote UI with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)
