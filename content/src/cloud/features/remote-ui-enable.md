@@ -57,8 +57,8 @@ Activating remote control from outside your network only works if under [**Setti
 
 The cloud component exposes two services to enable and disable the remote connection as part of an automation:
 
-- `cloud/remote_connect`
-- `cloud/remote_disconnect`
+- `cloud.remote_connect`
+- `cloud.remote_disconnect`
 
 That way you can turn on the remote connection only when you leave the house and need it.
 
