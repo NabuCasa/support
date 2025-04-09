@@ -17,10 +17,6 @@ In the "Add Custom Domain" card, write the subdomain you would like to start usi
 
 Once the configuration is complete, the certificate needs to be regenerated and validated with both your custom domain name and the one we previously provided. To do this, restart your Home Assistant instance. This feature requires Home Assistant 2023.9.0 or later.
 
-## Automating availability of the remote UI
-
-As a Home Assistant user, you might like to automate things. We understand! The cloud component exposes two service to enable and disable the remote connection: `cloud/remote_connect` and `cloud/remote_disconnect`. That way you can turn on the remote connection only when you leave the house and need it.
-
 ## Ingress
 
 Add-ons which support Ingress can be accessed via Home Assistant Cloud. Because they are served via the Home Assistant UI, they benefit from the same end-to-end encryption and local authentication as the Home Assistant frontend.

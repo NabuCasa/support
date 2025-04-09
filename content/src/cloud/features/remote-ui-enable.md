@@ -8,9 +8,13 @@ zendesk:
 
 The Remote UI allows you to connect to your Home Assistant instance from outside of your home network. So that you can start the vacuum cleaner from your phone while you are on the train for your daily commute, for example.
 
-By default, remote access is not possible. You need to enable it.
+By default, remote access is not enabled. You need to enable it. You can using one of the following methods:
 
-## To enable remote access to Home Assistant
+- [Enabling remote access from within your network](#to-enable-remote-access-to-home-assistant)
+- [Enabling remote access from outside of your network](#to-activate-remote-control-from-outside-your-network)
+- [Using an automation to enable or disable remote connection](#using-an-automation-to-enable-and-disable-the-remote-connection)
+
+## To enable remote access to Home Assistant while your inside the network
 
 1. In Home Assistant, go to [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
 2. Make sure you are logged in to Home Assistant Cloud.
@@ -48,6 +52,15 @@ Activating remote control from outside your network only works if under [**Setti
    <img src="/static/img/cloud/remote_control_connect.png" alt='Screenshot of the Remote UI section with the Connect button.' class='img-fluid'>
 
 3. You can now connect to your Home Assistant using the **Remote address** URL.
+
+## Using an automation to enable and disable the remote connection
+
+The cloud component exposes two services to enable and disable the remote connection as part of an automation:
+
+- `cloud/remote_connect`
+- `cloud/remote_disconnect`
+
+That way you can turn on the remote connection only when you leave the house and need it.
 
 ## Related topics
 
