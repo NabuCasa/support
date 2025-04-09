@@ -6,7 +6,6 @@ zendesk:
   labels: cloud
 ---
 
-## Security
 
 Making a secure solution is a challenge. In this section, we want to discuss the things we do to improve security, what weaknesses there are in our approach, and how we plan to solve them.
 
