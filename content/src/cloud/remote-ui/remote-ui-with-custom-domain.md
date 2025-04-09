@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26497540527517
   name: Using Remote UI with a custom domain for Home Assistant
-  position: 8
+  position: 5
   labels: cloud
 ---
 

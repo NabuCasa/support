@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26469707849629
   name: About Home Assistant Remote UI
-  position: 2
+  position: 1
   labels: cloud
 ---
 
