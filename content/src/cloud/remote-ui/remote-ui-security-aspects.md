@@ -14,6 +14,8 @@ Our approach is secure because:
 - All data is encrypted between your browser and your local instance. The local instance has generated and owns the certificate. Therefore, only the local instance will be able to decrypt the incoming traffic.
 - Once a user is communicating with their Home Assistant instance, they will have to log in with their local credentials. These credentials are only stored locally and cannot be impersonated by anyone.
 
+## Weaknesses and man-in-the-middle attack
+
 Before we talk about weaknesses, know that we will never abuse any weakness unless forced by a government entity. Our approach has one single weakness that is unavoidable: since we own the domain that hosts the remote connection, we are able to issue our own certificate and [man-in-the-middle attack (MITM)](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) remote connections. This would allow us to see all data passing through, including authentication tokens.
 
 It is not going to be possible to avoid MITM attacks. However, it is possible to spot them:
