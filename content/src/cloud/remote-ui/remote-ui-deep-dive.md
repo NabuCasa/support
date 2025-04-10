@@ -33,14 +33,6 @@ To handle simultaneous requests, all data is routed through a TCP multiplexer. T
 2. Decrypting the packets using the SSL certificate.
 3. Forwarding the decrypted data to the HTTP component for further handling.
 
-## Limitations
-
-The IP address of the incoming request is not being forwarded. This means that you cannot use Remote UI if you are using one of the following network scenarios:
-
-- If your Home Assistant instance has configured `127.0.0.1` or `::1` as trusted networks or proxies.
-- If you use IP bans, the remote connection will be banned as a whole instead of just the address from which the incorrect passwords were entered.
-  - We are currently exploring a solution for this issue.
-
 ## About add-ons which support ingress
 
 Add-ons which support Ingress can be accessed via Home Assistant Cloud. Because they are served via the Home Assistant UI, they benefit from the same end-to-end encryption and local authentication as the Home Assistant frontend.
