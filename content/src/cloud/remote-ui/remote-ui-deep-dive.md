@@ -16,16 +16,11 @@ This section dives into more technical details on how the remote connection work
 
 ### Remote UI communication and routing
 
-The Remote UI ensures secure communication between your browser and your local Home Assistant instance by encrypting all data. This encryption is achieved using a Let's Encrypt certificate. Behind the scenes, your local Home Assistant instance connects to one of our custom-built UI proxy servers. These servers operate at the TCP level, forwarding all encrypted data to the local instance.
+The Remote UI ensures secure communication between your browser and your local Home Assistant instance by encrypting all data. This encryption is achieved using a Let's Encrypt certificate. Behind the scenes, your local Home Assistant instance connects to one of our custom-built UI proxy servers. These servers operate at the TCP level, forwarding all encrypted data between your browser/client and the local instance.
 
 #### Routing mechanism
 
 Routing is handled on the proxy server (Home Assistant Cloud) by the [Server Name Indication (SNI)](https://en.wikipedia.org/wiki/Server_Name_Indication) extension during the TLS handshake. This extension specifies the hostname for which an incoming request is intended, allowing the proxy server to forward the request to the matching local instance.
-
-<figure>
-  <img src="/static/img/cloud/ha-cloud-remote-remote-ui-data-flow-detailed.svg" alt="Data flow diagram between your browser outside of your home network, and your Home Assistant">
-  <figcaption>Data flow diagram between your browser (accessing from outside of your home network), and the local Home Assistant instance</figcaption>
-</figure>
 
 To handle simultaneous requests, all data is routed through a TCP multiplexer. The local Home Assistant instance processes the incoming TCP packets using the following steps:
 
