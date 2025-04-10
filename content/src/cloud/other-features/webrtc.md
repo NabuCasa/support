@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25619464018461
-  name: Improved camera streaming via WebRTC relay server connection
+  name: Improved camera streaming with WebRTC
   position: 22
   labels: cloud
 ---
