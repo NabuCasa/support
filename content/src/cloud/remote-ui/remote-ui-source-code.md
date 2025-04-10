@@ -14,4 +14,5 @@ The source code for the Remote UI is available on GitHub:
 ## Related topics
 
 - [Remote UI - security aspects](/hc/en-us/articles/26508882007581/)
-- [About the Remote UI connection to Home Assistant](/hc/en-us/articles/26469707849629/)
+- [About the Remote UI connection to Home Assistant (high level explainer)](/hc/en-us/articles/26469707849629/)
+- [Remote UI - deep dive](/hc/en-us/articles/25619268678557/)

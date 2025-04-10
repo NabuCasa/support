@@ -33,9 +33,12 @@ To handle simultaneous requests, all data is routed through a TCP multiplexer. T
 2. Decrypting the packets using the SSL certificate.
 3. Forwarding the decrypted data to the HTTP component for further handling.
 
-## Caveats
+## Limitations
 
-We are currently not forwarding the IP address of the incoming request. Because of this, we are unable to support Home Assistant instances that have configured `127.0.0.1` or `::1` as trusted networks or proxies. It also means that if you use IP bans, the remote connection will be banned as a whole instead of just the address from which the incorrect passwords were entered. We are currently exploring a solution for this issue.
+We are currently not forwarding the IP address of the incoming request. This means that the Remote UI cannot be used if you are using one of the following network scenarios.
+
+- If your Home Assistant instances that has configured `127.0.0.1` or `::1` as trusted networks or proxies.
+- If you use IP bans, the remote connection will be banned as a whole instead of just the address from which the incorrect passwords were entered. We are currently exploring a solution for this issue.
 
 ## Ingress
 
@@ -43,7 +46,7 @@ Add-ons which support Ingress can be accessed via Home Assistant Cloud. Because 
 
 ## Related topics
 
-- [About the Remote UI connection to Home Assistant](/hc/en-us/articles/26469707849629/)
-- [Remote UI - security aspects](/hc/en-us/articles/26508882007581/)
 - [Enabling remote access to Home Assistant (Remote UI)](/hc/en-us/articles/26474279202973/)
+- [About the Remote UI connection to Home Assistant (high level explainer)](/hc/en-us/articles/26469707849629/)
+- [Remote UI - security aspects](/hc/en-us/articles/26508882007581/)
 - [Using Remote UI with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)
