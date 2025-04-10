@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25619382358685
-  name: Webhooks
+  name: Triggering an automation with a webhook trigger
   position: 20
   labels: cloud
 ---
@@ -16,7 +16,14 @@ This tutorial will show you the following:
 1. How to use this webhook in an automation.
 1. We will be able to trigger this automation from anywhere in the world and use the data in the trigger.
 
-To create a webhook trigger and use it in an automation, follow these steps:
+### Prerequisites
+
+- [Home Assistant installed](https://www.home-assistant.io/installation/) and up and running
+- Have administrator rights on Home Assistant
+- Have a Home Assistant Cloud subscription
+- [Have Home Assistant Cloud enabled in Home Assistant](/hc/en-us/articles/25649130769949)
+
+### To create a webhook trigger and use it in an automation
 
 1. To start creating a new automation, go to [**Settings** > **Automations & scenes**](https://my.home-assistant.io/redirect/automations/).
 
@@ -48,6 +55,9 @@ To create a webhook trigger and use it in an automation, follow these steps:
 
    <img src="/static/img/cloud/webhooks-03.png" alt="Screenshot of the webhook info dialog">
 
-### Related information
+### Related topics
 
-For more information about webhook triggers, refer to the [documentation](https://www.home-assistant.io/docs/automation/trigger/#webhook-trigger).
+- [Webhook integration documentation](https://www.home-assistant.io/docs/automation/trigger/#webhook-trigger)
+- [Nabu Casa account pricing](https://www.nabucasa.com/pricing/)
+- [Nabu Casa account log in page](https://account.nabucasa.com/)
+- [Enabling Home Assistant Cloud in Home Assistant](/hc/en-us/articles/25649130769949)
