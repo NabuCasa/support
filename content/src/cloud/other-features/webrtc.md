@@ -18,7 +18,7 @@ TL;DR: Nabu Casa provides relay servers for Home Assistant Cloud subscribers to 
 
 All Home Assistant users can use WebRTC connections, even if they do not have a Home Assistant Cloud subscription. This is facilitated by the [Open Home Foundation](https://www.openhomefoundation.org/), which is hosting the negotiating network infrastructure ([STUN servers](https://en.wikipedia.org/wiki/STUN)). However, sometimes a direct connection between the client (like your browser or mobile app) and the camera is not possible. In these situations, the camera stream needs to be relayed by an external server. Your [Home Assistant Cloud](https://www.home-assistant.io/cloud/) subscription provides this relay server ([TURN server](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT)), allowing you to connect to your cameras in the best possible way in more situations.
 
-## Turning on the relay server for WebRTC
+## Enabling the WebRTC relay server connection for improved camera streaming
 
 WebRTC connections via our relay servers ([TURN server](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT)) are enabled by default. If you've disabled it, follow these steps to enable it.
 
@@ -27,7 +27,7 @@ WebRTC connections via our relay servers ([TURN server](https://en.wikipedia.org
 
    <img src="/static/img/cloud/relay-toggle.png" alt="WebRTC toggle inside of Home Assistant">
 
-## Turning off the relay server for WebRTC
+## Disabling WebRTC relay server connection
 
  If, for some reason, you would like to turn this feature off and only use peer-to-peer connections without the relay functionality, this setting is available.
 
