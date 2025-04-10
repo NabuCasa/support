@@ -35,12 +35,13 @@ To handle simultaneous requests, all data is routed through a TCP multiplexer. T
 
 ## Limitations
 
-We are currently not forwarding the IP address of the incoming request. This means that the Remote UI cannot be used if you are using one of the following network scenarios.
+The IP address of the incoming request is not being forwarded. This means that you cannot use Remote UI if you are using one of the following network scenarios:
 
-- If your Home Assistant instances that has configured `127.0.0.1` or `::1` as trusted networks or proxies.
-- If you use IP bans, the remote connection will be banned as a whole instead of just the address from which the incorrect passwords were entered. We are currently exploring a solution for this issue.
+- If your Home Assistant instance has configured `127.0.0.1` or `::1` as trusted networks or proxies.
+- If you use IP bans, the remote connection will be banned as a whole instead of just the address from which the incorrect passwords were entered.
+  - We are currently exploring a solution for this issue.
 
-## Ingress
+## About add-ons which support ingress
 
 Add-ons which support Ingress can be accessed via Home Assistant Cloud. Because they are served via the Home Assistant UI, they benefit from the same end-to-end encryption and local authentication as the Home Assistant frontend.
 
