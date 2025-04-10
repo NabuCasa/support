@@ -20,7 +20,7 @@ All Home Assistant users can use WebRTC connections, even if they do not have a 
 
 ## Enabling the WebRTC relay server connection for improved camera streaming
 
-If you are [logged into Home Assistant Cloud in Home Assistant](/hc/en-us/articles/25649130769949), WebRTC connections via our relay servers ([TURN server](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT)) are enabled by default.
+If you are [logged into Home Assistant Cloud in Home Assistant](/hc/en-us/articles/25649130769949), WebRTC connections via our relay servers are enabled by default.
 
 If you've disabled it, follow these steps to enable it.
 
