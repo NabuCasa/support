@@ -32,7 +32,7 @@ WebRTC connections via our relay servers ([TURN server](https://en.wikipedia.org
  If, for some reason, you would like to turn this feature off and only use peer-to-peer connections without the relay functionality, this setting is available.
 
 1. In Home Assistant, go to [Settings > Home Assistant Cloud](https://my.home-assistant.io/redirect/cloud/).
-2. Under WebRTC connections, disable the toggle.
+2. Under **WebRTC connections**, disable the toggle.
    - **Result**: If disabled, whenever a WebRTC connection is not possible, it will revert to using other less responsive video streaming methods.
 
 ## Related topics
