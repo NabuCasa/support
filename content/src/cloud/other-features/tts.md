@@ -1,14 +1,14 @@
 ---
 zendesk:
   article_id: 25619386304541
-  name: TTS
+  name: Text-to-speech (TTS)
   position: 4
   labels: cloud
 ---
 
-The Cloud TTS service allows you to have text read aloud with natural sounding voices. This service is automatically enabled when you are signed in to your Home Assistant Cloud account.
+The Cloud text-to-speech (TTS) service allows you to have text read aloud with natural sounding voices. This service is automatically enabled when you are signed in to your Home Assistant Cloud account.
 
-**Text to speech sample:**
+**Text-to-speech sample:**
 
 <audio src="/static/audio/tts_demo.mp3" controls></audio>
 
