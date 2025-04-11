@@ -10,6 +10,7 @@ zendesk:
 
 - You have administrator rights in Home Assistant
 - You have [enabled Home Assistant Cloud backups](/hc/en-us/articles/26294320337181/)
+- You're logged in to Home Assistant Cloud
 
 ## To disable Home Assistant Cloud backup
 
