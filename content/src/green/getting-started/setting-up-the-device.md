@@ -58,3 +58,9 @@ This sections shows you how to setup your device and get started with Home Assis
    4. The Home Assistant user interface guides you through the initial onboarding.
 
    5. For further information, refer to the instructions provided under [https://www.home-assistant.io/getting-started/onboarding/](https://www.home-assistant.io/getting-started/onboarding/).
+
+## Related topics
+
+- [Home Assistant Onboarding](https://www.home-assistant.io/getting-started/onboarding/)
+- [About the LEDs](/hc/en-us/articles/25210352599197)
+- [I can't access the system via http://homeassistant.local:8123](/hc/en-us/articles/25140903526301)
