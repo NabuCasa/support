@@ -6,6 +6,10 @@ zendesk:
   labels: voice pe, getting started
 ---
 
+<div class='videoWrapper'>
+<iframe width="560" height="315" src="hhttps://youtube.com/embed/ZgoaoTpIhm8?start=1940" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Prerequisites
 
 - Home Assistant Voice Preview Edition
