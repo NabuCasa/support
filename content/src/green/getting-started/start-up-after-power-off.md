@@ -59,3 +59,4 @@ Follow these steps if you want to start up the system after it has been powered 
 
 - [Getting started](/hc/en-us/articles/24737667232413-Getting-started-with-Home-Assistant-Green)
 - [Shutting down the device](/hc/en-us/articles/25207565119133-Shutting-down-the-device)
+- [About the LEDs](/hc/en-us/articles/25210352599197-About-the-LEDs)
