@@ -7,6 +7,11 @@ zendesk:
 
 This sections shows you how to setup your device and get started with Home Assistant
 
+ <div class='videoWrapper'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/u8sk6B8_Qkc?start=33" videotitle="Getting started with Home Assistant Green" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" controls>
+    </iframe>
+  </div>
+
 ## Prerequisites
 
 - Home Assistant Green
