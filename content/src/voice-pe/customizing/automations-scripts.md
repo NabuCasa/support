@@ -9,7 +9,7 @@ zendesk:
 You can use scripts and automations to control the device. The steps below show a few examples of what you could do.
 
 <div class='videoWrapper'>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QhhuCzbQEag" videotitle="Use automations and scripts to control Home Assistant Voice Preview Edition" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QhhuCzbQEag" videotitle="Use automations and scripts to control Home Assistant Voice Preview Edition" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" controls></iframe>
 </div>
 
 ## Example 1: Playing announcements on the device

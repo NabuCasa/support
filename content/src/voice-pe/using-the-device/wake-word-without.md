@@ -8,9 +8,10 @@ zendesk:
 
 To activate Assist, you can also just press the center button. Assist will then start listening.
 
-   Click the image to view the video on Youtube.
-
-   [![Link to Youtube video showing how use Voice Preview Edition without a wake word by pressing the button](https://img.youtube.com/vi/e1f-lBJRgyo/0.jpg)](https://www.youtube.com/watch?v=e1f-lBJRgyo)
+  <div class='videoWrapper'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e1f-lBJRgyo" videotitle="Stopping the timer on Home Assistant Voice Preview Edition" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" controls>
+    </iframe>
+  </div>
 
 ## Related topics
 
