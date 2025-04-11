@@ -6,9 +6,11 @@ zendesk:
   labels: cloud, pricing, subscription
 ---
 
-This happens after a number of payment attempts have failed. PayPal will then mark a subscription agreement as suspended and creating a new subscription agreement is the only way forward as we cannot remove the suspended status.
+If several payment attempts fail, PayPal will eventually mark your subscription as suspended. Unfortunately, once this happens, we can’t reactivate the existing agreement and a new subscription must be created through [account.nabucasa.com](https://account.nabucasa.com).
 
-To find out why a payment is failing, check with the bank which has issued the card. Often, a credit card issuer may not support currency conversion. In this case, PayPal's conversion option needs to be used.
+Payment failures can happen for a number of reasons. In some countries, such as India, recurring payments may require manual approval.
+
+If you’re unsure why your payment failed, it’s best to check directly with your bank or card issuer, as they control whether a charge is allowed.
 
 ## Related topics
 
