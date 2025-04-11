@@ -6,7 +6,11 @@ zendesk:
   labels: cloud, pricing
 ---
 
-No. Projecting the lifetime cost of administering a cloud service and adding/maintaining functionality seems a bit unreasonable.
+We don’t offer a lifetime subscription, one-time payment, or student discount.
+
+Home Assistant Cloud exists to support ongoing development of the otherwise free Home Assistant project. A recurring subscription keeps things sustainable and ensures we can continue providing stable, reliable service over time.
+
+If you’re subscribing, you’re helping keep Home Assistant independent and open for everyone!
 
 ## Related topics
 
