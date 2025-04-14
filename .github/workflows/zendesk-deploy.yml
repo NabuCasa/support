@@ -7,14 +7,14 @@ on:
     branches:
       - main
     paths-ignore:
-      - '.github/**'
-      - '!.github/workflows/zendesk-deploy.yml'
-      - '.devcontainer.json'
-      - '.editorconfig'
-      - '.env.example'
-      - 'CHANGELOG.md'
-      - 'LICENSE'
-      - 'README.md'
+      - ".github/**"
+      - "!.github/workflows/zendesk-deploy.yml"
+      - ".devcontainer.json"
+      - ".editorconfig"
+      - ".env.example"
+      - "CHANGELOG.md"
+      - "LICENSE"
+      - "README.md"
 
 permissions: {}
 
@@ -30,7 +30,7 @@ jobs:
       - name: Setting up Node.js
         uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4.2.0
         with:
-          node-version-file: '.nvmrc'
+          node-version-file: ".nvmrc"
           cache: "npm"
 
       - name: Install dependencies
@@ -44,5 +44,4 @@ jobs:
           ZENDESK_API_USER: ${{ secrets.ZENDESK_API_USER }}
           ZENDESK_API_TOKEN: ${{ secrets.ZENDESK_API_TOKEN }}
         run: |
-          cd content
           node deploy.js

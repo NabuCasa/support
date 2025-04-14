@@ -1,0 +1,7 @@
+{% zendeskData zendesk %}
+{{ content | safe }}
+
+{% if zendesk.article_id %}
+<hr><a href="https://github.com/NabuCasa/support/blob/main/src{{ page.filePathStem }}.md" class="gh-edit">Edit this
+  article on GitHub</a>
+{% endif %}
