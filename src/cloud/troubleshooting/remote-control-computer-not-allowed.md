@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26205125179549
   name: Remote control - Computer not allowed
-  position: 11
+  position: 33
   labels: cloud
 ---
 
@@ -18,7 +18,7 @@ When trying to access the Home Assistant user interface, you see the message:
 
 ### Cause
 
-This message indicates that you have [trusted networks](https://www.home-assistant.io/docs/authentication/providers/#trusted-networks) configured in the `configuration.yaml` file. Due to the way the [Remote UI is set up](/config/remote/#how-it-works), you cannot use `trusted_networks` over the cloud URL.
+This message indicates that you have [trusted networks](https://www.home-assistant.io/docs/authentication/providers/#trusted-networks) configured in the `configuration.yaml` file. Due to the way the [Remote UI is set up](/hc/en-us/articles/25619268678557), you cannot use `trusted_networks` over the cloud URL.
 
 ### Resolution
 

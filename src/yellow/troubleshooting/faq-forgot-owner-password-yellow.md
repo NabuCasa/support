@@ -9,8 +9,8 @@ zendesk:
 
 If you forgot the owner's password, you need to reset the password via a terminal.
 
-1. To connect a terminal using a Windows computer, follow the steps on [Using the serial console for debugging (Windows)](/hc/en-us/articles/25454894609693-Using-the-serial-console-for-debugging-Windows) up to (and including) step 9.
-2. To connect a terminal using a Mac or Linux computer, follow the steps on [Using the serial console for debugging (Linux/macOS)](/hc/en-us/articles/25454972435357-Using-the-serial-console-for-debugging-Linux-macOS) up to (and including) step 9.
+1. To connect a terminal using a Windows computer, follow the steps on [using the serial console for debugging (Windows)](/hc/en-us/articles/25454894609693-Using-the-serial-console-for-debugging-Windows) up to (and including) step 9.
+2. To connect a terminal using a Mac or Linux computer, follow the steps on [using the serial console for debugging (Linux/macOS)](/hc/en-us/articles/25454972435357-Using-the-serial-console-for-debugging-Linux-macOS) up to (and including) step 9.
 3. To reset the password, enter `auth reset --username 'existing_user' --password 'new_password'`.
    - **Info**: The ha command line doesn't support all special characters.
      - When resetting via the command line, use a short and simple password without special characters.

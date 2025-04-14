@@ -16,7 +16,7 @@ There are 2 different start up procedures, depending on the current state of you
 - Home Assistant Green with power and Ethernet cable
 - Home Assistant Green has previously been set up, but was powered off temporarily
 - You have your Home Assistant credentials
-- If these conditions are not met, or this is your first time using Home Assistant Green, instead, follow the [Getting started](/hc/en-us/articles/24737667232413-Getting-started-with-Home-Assistant-Green) procedure.
+- If these conditions are not met, or this is your first time using Home Assistant Green, instead, follow the [getting started](/hc/en-us/articles/24737667232413-Getting-started-with-Home-Assistant-Green) procedure.
 
 ![Image showing the Home Assistant Green with power supply and Ethernet cable](/static/img/green/green_getting-started_prereq.png)
 
@@ -59,3 +59,4 @@ Follow these steps if you want to start up the system after it has been powered 
 
 - [Getting started](/hc/en-us/articles/24737667232413-Getting-started-with-Home-Assistant-Green)
 - [Shutting down the device](/hc/en-us/articles/25207565119133-Shutting-down-the-device)
+- [About the LEDs](/hc/en-us/articles/25210352599197-About-the-LEDs)

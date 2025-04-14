@@ -29,3 +29,11 @@ TODO: Update this section
 - Clone this repo into a docker container volume
 - Create a `.env` file at the root of the project, copying the contents of `.env.example`, replacing the values with your own
 - Run `npm run start` to start the Zendesk theme compiler and the preview server
+
+## Content preview
+
+To ease content creation, a preview is available. Keep in mind that is just a preview to help visualize content, some features are not working (search engine for example). To run it:
+
+- open the devcontainer in Visual Studio Code
+- the task `Content preview` (or run `npm run zendesk-content-preview`)
+- visit `http://127.0.0.1:8080`

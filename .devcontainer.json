@@ -1,6 +1,15 @@
 {
   "name": "NabuCasa/support",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:bullseye",
+  "forwardPorts": [
+    8080
+  ],
+  "portsAttributes": {
+    "8080": {
+      "label": "Content preview",
+      "onAutoForward": "ignore"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [

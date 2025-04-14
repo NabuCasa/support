@@ -27,3 +27,8 @@ The activity LED indicates various firmware and boot loader states at startup. O
 The yellow system health LED blinks in a heartbeat pattern if the Home Assistant Operating System is running.
 
 {% partial 'disable-leds.md' %}
+
+## Related topics
+
+- [About Home Assistant Green](/hc/en-us/articles/25212448491165/)
+- [About interfaces](/hc/en-us/articles/25212058857373)

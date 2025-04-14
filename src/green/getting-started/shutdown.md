@@ -25,3 +25,7 @@ Follow these steps if you want to shut down the system.
    - Wait until all the LEDs turned off.
 
    ![Clip showing where to press the button on the device](/static/img/green/green_reset_power-up_after_sd-insert.webp)
+
+## Related topics
+
+- [Starting up the device](/hc/en-us/articles/25209783508125/)

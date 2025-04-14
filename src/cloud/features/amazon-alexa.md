@@ -10,7 +10,7 @@ The [Alexa integration](https://www.home-assistant.io/integrations/alexa/) allow
 
 ## Prerequisites
 
-- To use this integration, you need to have an Amazon Alexa enabled device like the Amazon Echo.
+- To use this integration, you need to have an Amazon Alexa enabled device. For example, a device from the Amazon Echo series.
 
 - **Note**: The procedure below applies to Home Assistant version 2023.5 and later.
   - If you are running an older version, Amazon Alexa is located under [**Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).

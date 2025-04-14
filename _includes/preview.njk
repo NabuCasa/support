@@ -1,0 +1,283 @@
+---
+eleventyComputed:
+  zendeskCategoryId: "{% zendeskCategoryId page %}"
+  zendeskSectionId: "{% zendeskSectionId page %}"
+  zendeskArticleId: "{{zendesk.article_id}}"
+---
+
+{% zendeskData zendesk %}
+<html dir="ltr" lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  {% if zendesk.name %}
+  <title>{{zendesk.name}} - Nabu Casa</title>
+  {% else %}
+  <title>Nabu Casa</title>
+  {% endif %}
+  <link rel="stylesheet" type="text/css"
+    href="https://support.nabucasa.com/hc/theming_assets/21891975/20902849390493/style.css?digest={%timestamp%}">
+  <link rel="icon" type="image/x-icon" href="https://support.nabucasa.com/hc/theming_assets/01JQE68WEEMX8ASYPWC4A1WY4K">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="robots" content="noindex">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <a title="Home" href="/">
+            <img src="https://support.nabucasa.com/hc/theming_assets/01JKBQ34YR6TKF5XS5935MMEH6"
+              alt="Nabu Casa Help Center home page" height="44">
+          </a>
+        </div>
+        <h2 style="color:white;margin:0 0 0 24px">PREVIEW!</h2>
+        <div class="nav-wrapper-desktop">
+          <nav class="user-nav" id="user-nav" aria-label="User navigation">
+            <ul class="user-nav-list">
+              <li><a href="https://community.home-assistant.io" target="_blank" rel="noopener"
+                  class="btn btn-text btn-text-light external-link">Community</a></li>
+              <li><a class="submit-a-request btn btn-white"
+                  href="https://support.nabucasa.com/hc/en-us/requests/new">Submit a ticket</a></li>
+
+              <li>
+                <a class="sign-in btn btn-light" rel="nofollow" data-auth-action="signin" title="Opens a dialog"
+                  role="button">
+                  Sign in
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="nav-wrapper-mobile">
+          <button class="menu-button-mobile" aria-controls="user-nav-mobile" aria-expanded="false"
+            aria-label="Toggle navigation menu">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16"
+              class="icon-menu">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"></path>
+            </svg>
+          </button>
+          <nav class="menu-list-mobile" id="user-nav-mobile" aria-expanded="false">
+            <ul class="menu-list-mobile-items">
+
+              <li class="item">
+                <a role="button" rel="nofollow" data-auth-action="signin" title="Opens a dialog">
+                  Sign in
+                </a>
+              </li>
+              <li class="nav-divider"></li>
+              <li class="item"></li>
+              <li class="item"><a class="submit-a-request" role="menuitem"
+                  href="https://support.nabucasa.com/hc/en-us/requests/new">Submit a
+                  request</a></li>
+              <li class="nav-divider"></li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <main role="main">
+    {% if zendeskCategoryId %}
+    <section id="main-content" class="section hero" data-category="{{collections.zendeskCategories[zendeskCategoryId]['name']}}">
+    {% else %}
+        <section id="main-content" class="section hero">
+    {% endif %}
+      <div class="hero-inner">
+        <div class="container">
+          <div class="hero-heading">
+            <h1 class="visibility-hidden" data-title=""></h1>
+            <h2 data-title=""></h2>
+            <p data-description=""></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="layout">
+        <div class="sub-hero">
+          <div class="sub-nav">
+          {%if zendeskArticleId or zendeskCategoryId or zendeskSectionId %}
+            <nav aria-label="Current location">
+              <ol class="breadcrumbs">
+                <li><a href="/">Nabu Casa</a></li>
+                {% if zendeskCategoryId %}
+                  <li><a href="/categories/{{zendeskCategoryId}}">{{collections.zendeskCategories[zendeskCategoryId]['name']}}</a></li>
+                {% endif %}
+                {% if zendeskSectionId %}
+                  <li><a href="/sections/{{zendeskSectionId}}">{{collections.zendeskSections[zendeskSectionId]['name']}}</a></li>
+                {% endif %}
+              </ol>
+            </nav>
+            {%endif%}
+          </div>
+          <div class="search-wrapper small">
+            <form role="search" class="search search-full" data-search="" data-instant="true" autocomplete="off"
+              action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"
+                autocomplete="off"><input type="search" name="query" id="query" placeholder="Search for articles"
+                autocomplete="off" aria-label="Search for articles"><button type="button" aria-controls="query"
+                class="clear-button"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false"
+                  role="img" viewBox="0 0 12 12" aria-label="Clear search">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M3 9l6-6m0 6L3 3"></path>
+                </svg></button></form>
+            <button class="btn btn-dark btn-large">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="layout">
+        <div class="column">
+          {% if zendeskArticleId %}
+          <header class="article-header">
+            <h1 title="{{zendesk.name}}" class="article-title">
+              {{zendesk.name}}
+            </h1>
+            <div class="article-author">
+              <div class="article-meta">
+                <div class="meta-group">
+                  <span class="meta-data">Last updated: now</span>
+                </div>
+              </div>
+            </div>
+          </header>
+          {% elif zendeskSectionId %}
+          <header class="page-header">
+            <h2>{{zendesk.name}}</h2>
+            <p class="page-header-description">{{zendesk.description}}</p>
+          </header>
+          {% else %}
+          <h2 >
+            Choose a category
+          </h2>
+          {% endif %}
+        </div>
+      </div>
+      <div class="layout">
+        <div class="column">
+        {% if zendeskArticleId %}
+          <div class="article-container" id="article-container">
+            <article id="main-content" class="article">
+              <section class="article-info">
+                <div class="article-content">
+                  <div class="article-body">
+                    {{ content | safe }}
+                  </div>
+              </section>
+            </article>
+          </div>
+          {% elif zendeskSectionId %}
+          <div class="section-container">
+            <section id="main-content" class="section-content">
+                <div class="item-cards">
+                {% for article in collections.zendeskSections[zendeskSectionId].articles %}
+                  <a href="/articles/{{article.data.zendesk.article_id}}" class="item-card small">
+                    <div class="item-card-details">
+                      <div class="item-card-content">
+                        <span class="item-card-title">{{article.data.zendesk.name}}</span>
+                        <span class="item-card-description">
+                        {{article.templateContent | striptags(true) | truncate(117, true) | safe }}
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                {% endfor %}
+              </div>
+            </section>
+          </div>
+          {% elif zendeskCategoryId %}
+          <div id="main-content" class="section-tree">
+              <div class="item-cards">
+
+              {% set zendeskCategoryData = collections.zendeskCategories[zendeskCategoryId] %}
+
+              {% for section in zendeskCategoryData.sections %}
+
+                <a class="item-card" data-icon="{{section.name}}" href="/sections/{{section.section_id}}" >
+                  <div class="item-card-details">
+                    <div class="item-card-content">
+                      <span class="item-card-title">{{section.name}}</span>
+                        <span class="item-card-description">{{section.description}}</span>
+                    </div>
+                      <div class="item-card-pills">
+                      {% for article in section.articles %}
+                          <span class="item-card-pill" data-url="/articles/{{article.data.zendesk.article_id}}">{{article.data.zendesk.name}}</span>
+                      {% endfor %}
+                      </div>
+                  </div>
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+          {% else %}
+            <section class="section knowledge-base">
+              <section class="categories blocks">
+                <div class="item-cards">
+                {% for id, category in collections.zendeskCategories %}
+                    <a href="/categories/{{id}}" class="item-card" data-name="{{category.name}}">
+                      <div class="item-card-details">
+                        <div class="item-card-content">
+                          <span class="item-card-title">{{category.name}}</span>
+                          <span class="item-card-description">{{category.description}}</span>
+                        </div>
+                      </div>
+                    </a>
+                {% endfor %}
+                </div>
+              </section>
+            </section>
+          {% endif %}
+        </div>
+        <div class="column sidebar">
+          <div class="item-cards">
+            <div class="item-card primary">
+              <div class="item-card-details">
+                <div class="item-card-content">
+                  <span class="item-card-title">Still need help?</span>
+                  <span class="item-card-description">Feel free to open a ticket and talk with our Customer Service
+                    team</span>
+                  <a class="item-card-button btn btn-primary" href="/hc/en-us/requests/new">Submit a ticket</a>
+                </div>
+              </div>
+            </div>
+            <div class="item-card">
+              <div class="item-card-details">
+                <div class="item-card-content">
+                  <span class="item-card-title">Our community</span>
+                  <span class="item-card-description">The community is happy to be of help, just visit the forums or
+                    join our Discord server</span>
+                  <div class="item-card-buttons">
+                    <a href="https://community.home-assistant.io" class="item-card-button btn btn-primary external-link"
+                      target="_blank" rel="noopener">Community forum</a>
+                    <a href="https://www.home-assistant.io/join-chat/"
+                      class="item-card-button btn btn-primary external-link" target="_blank" rel="noopener">Discord
+                      server</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-inner">
+      <a title="Home" href="/">Nabu Casa</a>
+
+      <div class="footer-language-selector">
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
