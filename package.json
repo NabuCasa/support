@@ -9,7 +9,7 @@
     "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
     "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "zendesk-content-preview": "npx @11ty/eleventy --serve",
-    "zendesk-content-build": "rm -rf _site && npx @11ty/eleventy",
+    "build": "rm -rf _site && npx @11ty/eleventy",
     "zendesk-content-build-preview": "rm -rf _site && PREVIEW_BUILD=1 npx @11ty/eleventy",
     "zendesk-content-deploy": "export $(grep -v -E '^\\s*#|^\\s*$' .env | sed 's/\\s*#.*//' | xargs) && node deploy.js",
     "zendesk-content-build-deploy": "npm run zendesk-content-build && npm run zendesk-content-deploy"
