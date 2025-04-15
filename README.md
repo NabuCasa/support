@@ -35,5 +35,5 @@ TODO: Update this section
 To ease content creation, a preview is available. Keep in mind that is just a preview to help visualize content, some features are not working (search engine for example). To run it:
 
 - open the devcontainer in Visual Studio Code
-- the task `Content preview` (or run `npm run zendesk-content-preview`)
+- the task `Content preview` (or run `npm run start`)
 - visit `http://127.0.0.1:8080`
