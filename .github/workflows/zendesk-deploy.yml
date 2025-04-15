@@ -37,7 +37,7 @@ jobs:
         run: npm install ci
 
       - name: Compile Eleventy
-        run: npm run zendesk-content-build
+        run: npm run build
 
       - name: Deploy to Zendesk via REST API
         env:
