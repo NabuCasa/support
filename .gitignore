@@ -1,8 +1,10 @@
 .sass-cache/
 style.css.map
+content/
 node_modules/
 .a11yrc.json
 *.DS_Store
 coverage/
 .env
+.husky/
 _site/
