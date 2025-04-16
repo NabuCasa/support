@@ -14,15 +14,92 @@
     "build-deploy": "npm run build && npm run deploy",
     "lint:all:check": "npm run lint:textlint:check && npm run lint:remark:check",
     "lint:all:fix": "npm run lint:textlint:fix",
-    "lint:remark:check": "remark content --verbose --frail",
-    "lint:textlint:check": "textlint content",
-    "lint:textlint:fix": "textlint --fix content"
+    "lint:remark:check": "remark . --verbose --frail",
+    "lint:textlint:check": "textlint ./",
+    "lint:textlint:fix": "textlint --fix ./"
   },
   "devDependencies": {
-    "@11ty/eleventy": "3.0.0",
     "@11ty/eleventy-navigation": "0.3.5",
     "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
+    "@11ty/eleventy": "3.0.0",
     "cross-env": "7.0.3",
-    "luxon": "3.5.0"
+    "luxon": "3.5.0",
+    "remark-cli": "^12.0.1",
+    "remark-frontmatter": "^5.0.0",
+    "remark-lint-fenced-code-flag": "^4.1.1",
+    "remark-lint-heading-increment": "^4.0.1",
+    "remark-lint-heading-style": "^4.0.1",
+    "remark-lint-no-shell-dollars": "^4.0.1",
+    "remark-lint-ordered-list-marker-style": "^4.0.1",
+    "remark-lint-ordered-list-marker-value": "^4.0.1",
+    "remark-lint-prohibited-strings": "^4.0.0",
+    "remark-lint-unordered-list-marker-style": "^4.0.1",
+    "remark-lint": "^10.0.1",
+    "remark-stringify": "^11.0.0",
+    "textlint": "^14.5.0",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-common-misspellings": "^1.0.1",
+    "textlint-rule-terminology": "^5.0.13"
+  },
+  "remarkConfig": {
+    "settings": {
+      "bullet": "-",
+      "commonmark": true,
+      "emphasis": "_",
+      "fence": "`",
+      "incrementListMarker": true,
+      "listItemIndent": 1,
+      "strong": "*"
+    },
+    "plugins": [
+      [
+        "frontmatter"
+      ],
+      [
+        "lint-fenced-code-flag"
+      ],
+      [
+        "lint-no-shell-dollars"
+      ],
+      [
+        "remark-lint-heading-increment"
+      ],
+      [
+        "remark-lint-heading-style",
+        "atx"
+      ],
+      [
+        "remark-lint-unordered-list-marker-style",
+        "-"
+      ],
+      [
+        "remark-lint-ordered-list-marker-style",
+        "."
+      ],
+      [
+        "remark-lint-ordered-list-marker-value"
+      ],
+      [
+        "remark-lint-prohibited-strings",
+        [
+          {
+            "no": "[Hh]ome [Aa]ss?s?istant",
+            "yes": "Home Assistant"
+          },
+          {
+            "no": "Github",
+            "yes": "GitHub"
+          },
+          {
+            "no": "Speech-[Tt]o-Text",
+            "yes": "Speech-to-text"
+          },
+          {
+            "no": "Text-[Tt]o-Speech",
+            "yes": "Text-to-speech"
+          }
+        ]
+      ]
+    ]
   }
 }
