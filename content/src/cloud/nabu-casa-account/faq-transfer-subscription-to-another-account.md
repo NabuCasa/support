@@ -12,4 +12,4 @@ Please contact our support if you need help canceling a subscription.
 
 ## Related topics
 
-- [Cancelling the subscription and deleting the account](hc/en-us/articles/26167476727581)
+- [Cancelling the subscription and deleting the account](hc/en-us/articles/26167476727581/)
