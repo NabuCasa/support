@@ -22,7 +22,7 @@
     {
       "label": "Content preview",
       "type": "shell",
-      "command": "npm run zendesk-content-preview",
+      "command": "npm run start",
       "group": {
         "kind": "test",
         "isDefault": true,
