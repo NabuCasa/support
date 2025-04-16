@@ -10,7 +10,7 @@ The Google Assistant integration allows users to control Home Assistant entities
 
 To control Home Assistant entities from Google Home, follow these steps:
 
-1. [Set up Home Assistant Cloud](/config).
+1. [Set up Home Assistant Cloud](/hc/en-us/articles/25649130769949)
 1. Under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/), enable **Google Assistant**.
    <img src="/static/img/cloud/google-assistant-enable.png" alt="Enable Google Assistant">
 1. On the **Expose** tab, expose at least one entity to Google.

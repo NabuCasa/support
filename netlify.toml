@@ -1,0 +1,4 @@
+[build]
+  base = "/"
+  publish = "content/_site"
+  command = "npm run zendesk-content-build-preview"
