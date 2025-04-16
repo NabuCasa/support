@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="721.08002"
+   height="294.04001"
+   version="1.1"
+   id="svg7"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <!-- Use a clean sans-serif font similar to Figtree -->
+  <style
+     id="style1">
+    text {
+      font-family: 'Figtree', sans-serif;
+    }
+  </style>
+  <g
+     id="layer1"
+     transform="translate(30,30)">
+    <rect
+       style="fill:#f9f9f9;fill-opacity:0"
+       id="rect7"
+       width="438.97049"
+       height="301.90741"
+       x="-6.3842592"
+       y="-8.1909723" />
+  </g>
+  <!-- Icons -->
+  <text
+     x="7.5878906"
+     y="43.68"
+     font-size="18px"
+     font-weight="600"
+     id="text1">🌐 Browser</text>
+  <text
+     x="273.58789"
+     y="43.68"
+     font-size="18px"
+     font-weight="600"
+     id="text2">☁️ Nabu Casa Cloud</text>
+  <text
+     x="523.58789"
+     y="43.68"
+     font-size="18px"
+     font-weight="600"
+     id="text3">🏠 Home Assistant</text>
+  <!-- Arrows -->
+  <line
+     x1="60.322266"
+     y1="83.68"
+     x2="293.58789"
+     y2="83.68"
+     stroke="#000000"
+     stroke-width="2.15915"
+     marker-end="url(#arrowhead)"
+     id="line3" />
+  <text
+     x="59.587891"
+     y="73.68"
+     font-size="14px"
+     id="text4">HTTPS (SSL) encrypted request</text>
+  <line
+     x1="313.58789"
+     y1="133.67999"
+     x2="578.95245"
+     y2="133.67999"
+     stroke="#000000"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line4" />
+  <text
+     x="317.58789"
+     y="123.68"
+     font-size="14px"
+     id="text5">HTTPS (SSL) encrypted data</text>
+  <line
+     x1="578.88361"
+     y1="193.67999"
+     x2="313.58789"
+     y2="193.67999"
+     stroke="#000000"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line5" />
+  <text
+     x="367.58789"
+     y="212.67999"
+     font-size="14px"
+     id="text6">HTTPS (SSL) encrypted response</text>
+  <line
+     x1="352.26151"
+     y1="243.67999"
+     x2="63.769604"
+     y2="243.67999"
+     stroke="#000000"
+     stroke-width="2.24081"
+     marker-end="url(#arrowhead)"
+     id="line6" />
+  <text
+     x="143.58789"
+     y="260.67999"
+     font-size="14px"
+     id="text7">HTTPS (SSL) encrypted response</text>
+  <!-- Arrowhead marker -->
+  <defs
+     id="defs7">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0,7 0,0 10,3.5 "
+         fill="#000000"
+         id="polygon7" />
+    </marker>
+  </defs>
+</svg>

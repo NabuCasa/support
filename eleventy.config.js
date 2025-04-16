@@ -20,19 +20,6 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
-  eleventyConfig.addTransform(
-    "replace-static-links",
-    function (content, outputPath) {
-      if (outputPath.endsWith(".html")) {
-        return content.replace(
-          /(href|src)="\/static/g,
-          '$1="https://raw.githubusercontent.com/NabuCasa/support/refs/heads/static'
-        );
-      }
-      return content;
-    }
-  );
-
   // Add ids to headings
   eleventyConfig.addTransform(
     "add-heading-ids",
@@ -234,6 +221,8 @@ export default async function (eleventyConfig) {
       };
     });
 
+    eleventyConfig.addPassthroughCopy("static");
+
     eleventyConfig.addTransform(
       "external-links",
       function (content, outputPath) {
@@ -241,6 +230,19 @@ export default async function (eleventyConfig) {
           return content.replace(
             /="\/hc\/en-us\/(categories|articles|sections)\/(\w+).*"/g,
             '="/$1/$2"'
+          );
+        }
+        return content;
+      }
+    );
+  } else {
+    eleventyConfig.addTransform(
+      "replace-static-links",
+      function (content, outputPath) {
+        if (outputPath.endsWith(".html")) {
+          return content.replace(
+            /(href|src)="\/static/g,
+            '$1="https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static'
           );
         }
         return content;
