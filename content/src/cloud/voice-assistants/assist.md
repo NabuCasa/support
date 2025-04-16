@@ -65,7 +65,6 @@ The video showcases different ways to talk to Home Assistant.
 
 - [Google Assistant via Home Assistant Cloud](/hc/en-us/articles/25619376817053-Google-Assistant)
 - [Alexa via Home Assistant Cloud](/hc/en-us/articles/25619363899677)
-- [ESPHome-based voice assistant via Assist]
 - [Android Assist native integration](https://www.home-assistant.io/voice_control/android/)
 - [ESP32 S3-BOX-3](https://www.home-assistant.io/voice_control/s3_box_voice_assistant/)
 - [ESPhome-based voice assistant via Assist - using an M5Stack ATOM Echo](https://www.home-assistant.io/voice_control/thirteen-usd-voice-remote/)
