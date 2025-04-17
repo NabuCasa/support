@@ -6,7 +6,7 @@ zendesk:
   labels: green, troubleshooting
 ---
 
-Perform this procedure if you have Home Assistant 13.1 or later and you want to do a factory reset. If you have a new device, you likely have an older version of Home Assistant Operating System (older than 13.1). In this case, [reset the device using an SD card](/guides/reset_with_sd_card/)
+Perform this procedure if you have Home Assistant 13.1 or later and you want to do a factory reset. If you have a new device, you likely have an older version of Home Assistant Operating System (older than 13.1). In this case, [reset the device using an SD card](/hc/en-us/articles/25162566451485)
 
 ## Prerequisites
 
@@ -37,7 +37,7 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
    1. Press and hold the button.
       - Reapply power and make sure the system has an Internet connection.
       - Keep the button pressed until the yellow LED turns on solid.
-      - **Troubleshooting**: The yellow LED blinks, instead of turning on solid. This means you do not have the HAOS version required to perform this procedure. In this case, [reset the device using an SD card](/guides/reset_with_sd_card/)
+      - **Troubleshooting**: The yellow LED blinks, instead of turning on solid. This means you do not have the HAOS version required to perform this procedure. In this case, [reset the device using an SD card](/hc/en-us/articles/25162566451485)
    2. Release the button.
       - The LEDs start blinking.
       - The Home Assistant Operating System now downloads the latest version of Home Assistant Supervisor and Home Assistant Core.
@@ -59,4 +59,3 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
 - [Creating a backup](/hc/en-us/articles/25154828325917-Creating-a-backup)
 - [Onboarding](https://www.home-assistant.io/getting-started/onboarding/)
 - [Can't access homeassistant.local:8123](/hc/en-us/articles/25140903526301-I-can-t-access-the-system-via-http-homeassistant-local-8123-what-can-I-do)
-

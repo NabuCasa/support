@@ -59,7 +59,7 @@ Connecting a sensor to the Grove port of the device allows the sensor to use the
             name: Pressure
       ```
 
-      - For other sensors, refer to the section on [Configuration data for selected sensors](https://voice-pe.home-assistant.io/guides/grove_port/#configuration-data-for-selected-sensors).
+      - For other sensors, refer to the section on [Configuration data for selected sensors](#configuration-data-for-selected-sensors).
 
    3. Now, you need to recompile the firmware with the new configuration settings. To start the process, select **Install**.
    4. Wait for the compilation to complete. Depending on your hardware, this may take a while.
