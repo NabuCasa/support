@@ -35,5 +35,5 @@ Chart illustrating the relationships between Zigbee and Thread firmware options,
 
 ## Related topics
 
-[Zigbee Home Automation integration documentation](https://www.home-assistant.io/integrations/zha/)
-[Thread integration documentation](https://www.home-assistant.io/integrations/thread/)
+- [Zigbee Home Automation integration documentation](https://www.home-assistant.io/integrations/zha/)
+- [Thread integration documentation](https://www.home-assistant.io/integrations/thread/)
