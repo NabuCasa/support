@@ -92,7 +92,19 @@ function setParam(string, param, value) {
   return string.replace(`{${param}}`, value);
 }
 
+function rateLimitRetry(func) {
+  setTimeout(() => {
+    func();
+  }, 60000);
+}
+
 function deployCategory(category) {
+  deployCategoryMeta(category);
+  deployCategoryContent(category);
+}
+
+function deployCategoryMeta(category) {
+  // Update category meta
   fetch(
     ZENDESK_API.base +
       setParam(ZENDESK_API.category.update, "id", category.meta.category_id),
@@ -107,11 +119,25 @@ function deployCategory(category) {
     if (response.ok) {
       console.log(`[C][\x1b[32m✔\x1b[0m] ${category.meta.name}`);
     } else {
-      console.error(`[C][\x1b[31m✘\x1b[0m] ${category.meta.name}`);
-      console.error(response);
+      console.error(
+        `[C][\x1b[31m✘\x1b[0m] ${category.meta.name} - ${response.statusText}`
+      );
+
+      if (response.status === 429) {
+        // try again in 1 minute
+        console.log("Rate limit exceeded. Retrying in 1 minute...");
+        rateLimitRetry(() => {
+          deployCategoryMeta(category);
+        });
+      } else {
+        console.error("Error: ", response.statusText);
+      }
     }
   });
+}
 
+function deployCategoryContent(category) {
+  // Update category content
   fetch(
     ZENDESK_API.base +
       setParam(
@@ -133,8 +159,18 @@ function deployCategory(category) {
     if (response.ok) {
       console.log(`[C][T][\x1b[32m✔\x1b[0m] ${category.meta.name}`);
     } else {
-      console.error(`[C][T][\x1b[31m✘\x1b[0m] ${category.meta.name}`);
-      console.error(response);
+      console.error(
+        `[C][T][\x1b[31m✘\x1b[0m] ${category.meta.name} - ${response.statusText}`
+      );
+      if (response.status === 429) {
+        // try again in 1 minute
+        console.log("Rate limit exceeded. Retrying in 1 minute...");
+        rateLimitRetry(() => {
+          deployCategoryContent(category);
+        });
+      } else {
+        console.error("Error: ", response.statusText);
+      }
     }
   });
 }
@@ -159,13 +195,28 @@ function deploySection(section) {
     if (response.ok) {
       console.log(`[S][\x1b[32m✔\x1b[0m] -- ${section.meta.name}`);
     } else {
-      console.error(`[S][\x1b[31m✘\x1b[0m] -- ${section.meta.name}`);
-      console.error(response);
+      console.error(
+        `[S][\x1b[31m✘\x1b[0m] -- ${section.meta.name} - ${response.statusText}`
+      );
+      if (response.status === 429) {
+        // try again in 1 minute
+        console.log("Rate limit exceeded. Retrying in 1 minute...");
+        rateLimitRetry(() => {
+          deploySection(section);
+        });
+      } else {
+        console.error("Error: ", response.statusText);
+      }
     }
   });
 }
 
 function deployArticle(article) {
+  deployArticleMeta(article);
+  deployArticleContent(article);
+}
+
+function deployArticleMeta(article) {
   // Update article meta
   fetch(
     ZENDESK_API.base +
@@ -182,16 +233,28 @@ function deployArticle(article) {
       if (response.ok) {
         console.log(`[A][\x1b[32m✔\x1b[0m] ---- ${article.meta.name}`);
       } else {
-        console.error(`[A][\x1b[31m✘\x1b[0m] ---- ${article.meta.name}`);
-        console.error(response);
+        console.error(
+          `[A][\x1b[31m✘\x1b[0m] ---- ${article.meta.name} - ${response.statusText}`
+        );
+
+        if (response.status === 429) {
+          // try again in 1 minute
+          console.log("Rate limit exceeded. Retrying in 1 minute...");
+          rateLimitRetry(() => {
+            deployArticleMeta(article);
+          });
+        } else {
+          console.error("Error: ", response.statusText);
+        }
       }
     })
     .catch((error) => {
       console.error(`[A][\x1b[31m✘\x1b[0m] ---- ${article.meta.name}`);
       console.error(error);
     });
-
-  // Update article meta
+}
+function deployArticleContent(article) {
+  // Update article content
   fetch(
     ZENDESK_API.base +
       setParam(
@@ -212,8 +275,19 @@ function deployArticle(article) {
       if (response.ok) {
         console.log(`[A][T][\x1b[32m✔\x1b[0m] ---- ${article.meta.name}`);
       } else {
-        console.error(`[A][T][\x1b[31m✘\x1b[0m] ---- ${article.meta.name}`);
-        console.error(response);
+        console.error(
+          `[A][T][\x1b[31m✘\x1b[0m] ---- ${article.meta.name} - ${response.statusText}`
+        );
+
+        if (response.status === 429) {
+          // try again in 1 minute
+          console.log("Rate limit exceeded. Retrying in 1 minute...");
+          rateLimitRetry(() => {
+            deployArticleContent(article);
+          });
+        } else {
+          console.error("Error: ", response.statusText);
+        }
       }
     })
     .catch((error) => {
