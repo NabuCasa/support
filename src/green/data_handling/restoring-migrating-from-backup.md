@@ -22,7 +22,4 @@ If you want to restore your full configuration or even only parts of it, follow 
 
 - [Restoring a backup during onboarding](https://www.home-assistant.io/common-tasks/general/#restoring-a-backup-during-onboarding)
 - [Restoring a backup on your current system](https://www.home-assistant.io/common-tasks/general/#to-restore-a-backup-on-your-current-system)
-- [Creating a backup](https://www.home-assistant.io/common-tasks/os/#making-a-backup-from-the-ui) from the Home Assistant user interface.
-
-
-
+- [Creating a backup](https://www.home-assistant.io/common-tasks/general/#backups) from the Home Assistant user interface.
