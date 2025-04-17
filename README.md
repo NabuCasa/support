@@ -66,3 +66,16 @@ zendesk:
 - Make sure to run `npm run build` to build the content before pushing
 - Raise a PR to the main branch
 - Once the PR is merged, the content will be deployed to Zendesk
+
+# Static assets
+
+Github is used to serve the static assets shown on Zendesk. These assets are located under the `static` folder at the root of this repo. When referencing static assets, use them as follows:
+
+```markdown
+For an image:
+![Clip showing the 3 LEDS on Home Assistant Green](/static/img/green/green_yellow_led_heartbeat.webp)
+For a link:
+[Datasheet](/static/docs/connect-zbt-1/Home-Assistant-Connect-ZBT-1_Datasheet_v2_0.pdf)
+```
+
+Upon build, Eleventy will replace all the static assets with the correct URL for the asset. This allows for easy referencing of static assets in the content.
