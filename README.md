@@ -118,7 +118,7 @@ For each category and article, 2 requests are made to the Zendesk API. The first
 
 # Static assets
 
-Github is used to serve the static assets shown on Zendesk. These assets are located under the `static` folder at the root of this repo. When referencing static assets, use them as follows:
+GitHub is used to serve the static assets shown on Zendesk. These assets are located under the `static` folder at the root of this repo. When referencing static assets, use them as follows:
 
 ```markdown
 For an image:
