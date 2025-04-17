@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26700478689949
-  name: Migrating an existing Zigbee Home Automation (ZHA) network from a backup
+  name: Migrating an existing Zigbee Home Automation (ZHA) network via z2m backup
   position: 8
   labels: connect zbt1, getting started, migrate, migration
 ---
@@ -11,8 +11,12 @@ Follow these instructions if you are in the following situation:
 
 - You have a Zigbee2MQTT network running, you no longer have the stick, and you want to migrate to Connect ZBT-1.
 
+Please note that not all settings can be migrated in this case:
+
 - These steps help migrate the network, meaning you won't have to pair all your devices again with Home Assistant Connect ZBT-1.
 - However, some higher-level settings cannot be migrated. Elements such as device names may be lost. There is currently no migration path to transfer all settings.
+
+## To migrate an existing Zigbee Home Automation (ZHA) network via z2m backup
 
 1. Creating a Zigbee2MQTT backup
    1. Under **Settings** > **Add-ons**, open the **Zigbee2MQTT** add-on and select **Open Web UI**.
@@ -43,6 +47,7 @@ Follow these instructions if you are in the following situation:
    1. If you don't want to delete the Mosquito Broker integration, you can remove the devices from the MQTT network.
    2. In the integration card, select **Devices**, under **Device info**, select **Delete**.
    3. Repeat this for every device.
+
    ![/static/img/connect-zbt-1/z2m-mqtt-dereg-device-01.png](/static/img/connect-zbt-1/z2m-mqtt-dereg-device-01.png)
 
 6. Plugging the extension cable into Connect ZBT-1.
@@ -51,16 +56,19 @@ Follow these instructions if you are in the following situation:
    3. If you are using the standalone Home Assistant Container installation method, make sure Connect ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
    4.  **Note:** USB 3.0 ports and USB 3.0 drives can cause interference with 2.4 GHz protocols, including the ones provided by Home Assistant Connect ZBT-1. It is important to use the USB extension cable and to position the Home Assistant Connect ZBT-1 away from possible interference sources.
     This [video](/connectivity) shows the effect of interference.
+
    ![/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg](/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg)
 
 7. Locating the Connect ZBT-1 integration.
    1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
    2. Connect ZBT-1 should now have been discovered.
    3. Select **Configure**.
+
    ![/static/img/connect-zbt-1/connect-zbt-1-discovered-01.png](/static/img/connect-zbt-1/connect-zbt-1-discovered-01.png)
 
 8. Uploading a manual backup.
    - In the **Network Formation** dialog, select **Upload a manual backup**.
+
    ![/static/img/connect-zbt-1/z2m-backup-04.png](/static/img/connect-zbt-1/z2m-backup-04.png)
 
 9. Selecting the backup file
@@ -79,4 +87,5 @@ Follow these instructions if you are in the following situation:
 12. Reconfiguring automations and dashboards
     - **Note:** All migrated devices have new entity IDs. This means you will need to manually reconfigure automations and dashboard cards.
     - **Note:** The names that you manually assigned to your devices won't have been migrated. You will have to rename the devices again.
+
     ![/static/img/connect-zbt-1/z2m-backup-restore-05.png](/static/img/connect-zbt-1/z2m-backup-restore-05.png)
