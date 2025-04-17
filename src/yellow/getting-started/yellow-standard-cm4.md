@@ -9,7 +9,7 @@ zendesk:
 
 > **Note**
 > Although this variant is no longer manufactured, it will continue to receive the same support as the kit models.
-> If you are looking for more of a plug-and-play experience, take a look at the [Home Assistant Green](/hc/en-us/categories/24638797677853-Home-Assistant-Green).
+> If you are looking for more of a plug-and-play experience, take a look at the [Home Assistant Green](https://www.home-assistant.io/green).
 
 ## Prerequisites
 
@@ -53,3 +53,8 @@ zendesk:
    1. The Home Assistant user interface guides you through the initial onboarding.
 
    1. For further information, refer to the instructions provided under [https://www.home-assistant.io/getting-started/onboarding/](https://www.home-assistant.io/getting-started/onboarding/).
+
+## Related topics
+
+- [Getting started with Home Assistant](https://www.home-assistant.io/getting-started/onboarding/)
+- [Home Assistant Green](https://www.home-assistant.io/green)
