@@ -40,7 +40,7 @@ zendesk:
 ---
 zendesk:
   section_id: 24737097675549 # Required. The ID of the section in Zendesk
-  name: Getting Started # Required. The name of the section in Zendesk
+  name: Getting started # Required. The name of the section in Zendesk
   position: 1 # Optional. The position of the section in Zendesk in relation to other sections
   description: All the things to get you started... # Optional. The description of the section in Zendesk
 ---
@@ -63,11 +63,15 @@ This repo does not create or delete content in Zendesk. It only updates the cont
 
 ## Creating content
 
-If you want to create content, you must first make the content structure in Zendesk. This includes creating the category, section, and article(s). You do not need to populate any content in these objects. Once created, you must obtain the ID for each object. The easiest way to do this is to "preview" the article/section/category in Zendesk. The ID will be in the URL. For example, if the URL is `https://support.nabucasa.com/hc/en-us/articles/24737667232413-Setting-up-the-device`, the ID is `24737667232413`. You can then use this ID in the metadata for the object.
+Before creating new content, you must first create the content structure in Zendesk.
+1. In Zendesk, creating the category, section, and article(s). You do not need to populate any content in these objects. 2. Once created, obtain the ID for each object. 
+    - To do this, "preview" the article/section/category in Zendesk and copy the ID from the URL.
+    - For example, if the URL is `https://support.nabucasa.com/hc/en-us/articles/24737667232413-Setting-up-the-device`, the ID is `24737667232413`. 
+4. Paste this ID into the metadata header of that object.
 
-## Deleting content
+## Deleting articles, sections, or categories
 
-This repo does not delete content in Zendesk. If you want to delete content, you must do this in Zendesk. Once deleted, remove the relevant files from this repo to avoid errors.
+This repo can delete content of an article in Zendesk, but not an entire article, section, or category. If you want to delete these, you must do this in Zendesk. Once deleted, remove the relevant files from this repo to avoid errors.
 
 # Deployment
 
@@ -148,10 +152,10 @@ Notice how the slug of the article is not included in the link. (e.g. use `/hc/e
 
 # How to contribute
 
-- Clone this repo into a docker container volume
-- Create a `.env` file at the root of the project, copying the contents of `.env.example`, replacing the values with your own
-- Run `npm run start` to start the Zendesk theme compiler and the preview server on port 8080
-- Make changes to the content in the `src/` folder
-- Make sure to run `npm run build` to build the content before pushing
-- Raise a PR to the main branch
-- Once the PR is merged, the content will be deployed to Zendesk
+- Clone this repo into a docker container volume.
+- Create a `.env` file at the root of the project, copying the contents of `.env.example`, replacing the values with your own.
+- Run `npm run start` to start the Zendesk theme compiler and the preview server on port 8080.
+- Make changes to the content in the `src/` folder.
+- Make sure to run `npm run build` to build the content before pushing.
+- Raise a PR to the main branch.
+- Once the PR is merged, the content will be deployed to Zendesk.
