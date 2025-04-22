@@ -56,6 +56,6 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
 
 ## Related topics
 
-- [Creating a backup](/hc/en-us/articles/25154828325917-Creating-a-backup)
+- [Creating a backup](/hc/en-us/articles/25154828325917)
 - [Onboarding](https://www.home-assistant.io/getting-started/onboarding/)
 - [Can't access homeassistant.local:8123](/hc/en-us/articles/25140903526301)
