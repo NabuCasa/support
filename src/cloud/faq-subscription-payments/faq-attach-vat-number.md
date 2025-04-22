@@ -8,7 +8,7 @@ zendesk:
 
 We strictly operate as a business-to-consumer provider. As such, we cannot include your VAT number on the invoice.
 
-If you’re located in the EU or UK, and you’re seeing VAT charged, it’s because our services are provided to private individuals. We are VAT registered where required by law, but as a business-to-consumer provider, our VAT registration does not allow customers to reclaim or reverse-charge VAT.
+If you’re located in the EU, UK, US, or Canada and you’re seeing VAT charged, it’s because our services are provided to private individuals. We are VAT registered where required by law, but as a business-to-consumer provider, our VAT registration does not allow customers to reclaim or reverse-charge VAT.
 
 You can update your billing name and address by visiting [account.nabucasa.com](https://account.nabucasa.com/).
 
