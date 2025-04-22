@@ -93,10 +93,8 @@
 
 1. Get started with Home Assistant.
 
-    **Notice**: Initial startup may take a while, depending on your internet connection.
-
-    ![Home Assistant user interface on a screen](/static/img/yellow/HA-get-started-02.png)
-
+   1. Initial startup may take a while, depending on your internet connection.
+      ![Home Assistant user interface on a screen](/static/img/green/getting_started_04.png)
    1. Install the app.
 
       To access Home Assistant from your mobile device, use the QR code to locate the app in the app store.
