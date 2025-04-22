@@ -13,7 +13,7 @@ Home Assistant Yellow has 4 LEDs:
 - Yellow LED (D6): Home Assistant Yellow system health LED
 - Blue LED (D2): Radio LED. Indicates network traffic on the radio. The radio can be used for Zigbee or Thread. The behavior of the LED is the same for either.
 
- ![Clip showing 3 LEDs. The red is on solid, the green is blinking, and the yellow LED is blinking in a heartbeat pattern](/static/img/yellow/yellow_heartbeat_yellow_led.webp)
+<img src="/static/img/yellow/yellow_heartbeat_yellow_led.webp" alt="Clip showing 3 LEDs. The red is on solid, the green is blinking, and the yellow LED is blinking in a heartbeat pattern" width="350">
 
 - The red and green LED's behavior is similar to the red and green LED on a Raspberry Pi.
 - The yellow LED is specific to Home Assistant Yellow. It indicates Home Assistant specific information.
@@ -30,11 +30,11 @@ The activity LED indicates various firmware and boot loader states at startup. I
 
 ### Home Assistant OS
 
-| Pattern                                                               | Description                                      |
-| --------------------------------------------------------------------- | ------------------------------------------------ |
-| Off                                                                   | System is in EEPROM firmware or bootloader mode. |
-| Heartbeat                                                             |
-| ![Heartbeat LED](/static/img/yellow/yellow_heartbeat_yellow_led.webp) | Home Assistant OS is running.                    |
+| Pattern                                                                                         | Description                                      |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| Off                                                                                             | System is in EEPROM firmware or bootloader mode. |
+| Heartbeat                                                                                       |
+| <img src="/static/img/yellow/yellow_heartbeat_yellow_led.webp" alt="Heartbeat LED" width="350"> | Home Assistant OS is running.                    |
 
 ## Home Assistant OS Installer for Yellow on CM4: LED patterns during installation
 
