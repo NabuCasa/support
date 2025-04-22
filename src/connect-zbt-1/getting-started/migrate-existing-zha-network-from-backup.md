@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26700478689949
-  name: Migrating an existing Zigbee Home Automation (ZHA) network via z2m backup
+  name: Migrating an existing Zigbee Home Automation (ZHA) network via Zigbee2MQTT backup
   position: 8
   labels: connect zbt1, getting started, migrate, migration
 ---
@@ -16,7 +16,7 @@ Please note that not all settings can be migrated in this case:
 - These steps help migrate the network, meaning you won't have to pair all your devices again with Home Assistant Connect ZBT-1.
 - However, some higher-level settings cannot be migrated. Elements such as device names may be lost. There is currently no migration path to transfer all settings.
 
-## To migrate an existing Zigbee Home Automation (ZHA) network via z2m backup
+## To migrate an existing Zigbee Home Automation (ZHA) network via Zigbee2MQTT backup
 
 1. Creating a Zigbee2MQTT backup
    1. Under **Settings** > **Add-ons**, open the **Zigbee2MQTT** add-on and select **Open Web UI**.
