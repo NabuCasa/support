@@ -9,8 +9,8 @@ zendesk:
 
 If you forgot the owner's password, you need to reset the password via a terminal.
 
-1. To connect a terminal using a Windows computer, follow the steps on [using the serial console for debugging (Windows)](/hc/en-us/articles/25454894609693-Using-the-serial-console-for-debugging-Windows) up to (and including) step 9.
-2. To connect a terminal using a Mac or Linux computer, follow the steps on [using the serial console for debugging (Linux/macOS)](/hc/en-us/articles/25454972435357-Using-the-serial-console-for-debugging-Linux-macOS) up to (and including) step 9.
+1. To connect a terminal using a Windows computer, follow the steps on [using the serial console for debugging (Windows)](/hc/en-us/articles/25454894609693) up to (and including) step 9.
+2. To connect a terminal using a Mac or Linux computer, follow the steps on [using the serial console for debugging (Linux/macOS)](/hc/en-us/articles/25454972435357) up to (and including) step 9.
 3. To reset the password, enter `auth reset --username 'existing_user' --password 'new_password'`.
    - **Info**: The ha command line doesn't support all special characters.
      - When resetting via the command line, use a short and simple password without special characters.
@@ -26,5 +26,5 @@ If you forgot the owner's password, you need to reset the password via a termina
 
 - [Resetting a password via console](https://www.home-assistant.io/docs/locked_out/#to-reset-a-users-password-via-console)
 - [Home Assistant command line](https://www.home-assistant.io/common-tasks/os/#home-assistant-via-the-command-line)
-- [Using the serial console for debugging (Windows)](/hc/en-us/articles/25454894609693-Using-the-serial-console-for-debugging-Windows)
-- [Using the serial console for debugging (Linux/macOS)](/hc/en-us/articles/25454972435357-Using-the-serial-console-for-debugging-Linux-macOS)
+- [Using the serial console for debugging (Windows)](/hc/en-us/articles/25454894609693)
+- [Using the serial console for debugging (Linux/macOS)](/hc/en-us/articles/25454972435357)

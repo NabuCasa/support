@@ -19,4 +19,4 @@ Home Assistant Green provides the following interfaces:
 
 ## Related topics
 
-- [About the LEDs](/hc/en-us/articles/25210352599197-About-the-LEDs)
+- [About the LEDs](/hc/en-us/articles/25210352599197)

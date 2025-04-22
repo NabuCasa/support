@@ -26,4 +26,4 @@ zendesk:
 
 ## Related topics
 
-- [Using the center button to trigger automations](/hc/en-us/articles/25774619221661-Using-the-center-button-to-trigger-automations)
+- [Using the center button to trigger automations](/hc/en-us/articles/25774619221661)

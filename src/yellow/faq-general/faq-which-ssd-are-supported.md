@@ -13,8 +13,8 @@ NVMe SSDs supporting a newer generation of PCIe or more, supporting multiple lan
 A high-end NVMe is not required, since the CM4 PCIe interface is only Gen 2.0 x1.
 A low-cost NVMe is typically good enough.
 
-Check the [list of models which have been reported to NOT work](/hc/en-us/articles/25592268332445-Which-SSDs-are-not-supported) currently.
+Check the [list of models which have been reported to NOT work](/hc/en-us/articles/25592268332445) currently.
 
 ## Related topics
 
-- [list of models which have been reported to NOT work](/hc/en-us/articles/25592268332445-Which-SSDs-are-not-supported)
+- [list of models which have been reported to NOT work](/hc/en-us/articles/25592268332445)

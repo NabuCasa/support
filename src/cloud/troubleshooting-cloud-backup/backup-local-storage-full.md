@@ -8,7 +8,7 @@ zendesk:
 
 ## Symptom
 
-You have [Home Assistant Cloud backup enabled](/hc/en-us/articles/26294320337181-Enabling-a-cloud-backup) in Home Assistant. You see a message stating that the **Local storage is full**.
+You have [Home Assistant Cloud backup enabled](/hc/en-us/articles/26294320337181) in Home Assistant. You see a message stating that the **Local storage is full**.
 
 ## Cause
 

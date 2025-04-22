@@ -14,7 +14,7 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
 - Home Assistant Operating System 13.1 or later installed.
    - To see which version you have, go to [**Settings** > **About**](https://my.home-assistant.io/redirect/info/).
 - PC with internet access
-- You have [created a backup](/hc/en-us/articles/25154828325917-Creating-a-backup) and stored it on another system.
+- You have [created a backup](/hc/en-us/articles/25154828325917) and stored it on another system.
 
 ![image showing a green without an SD card](/static/img/green/green_without_sd_card.png)
 
@@ -58,4 +58,4 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
 
 - [Creating a backup](/hc/en-us/articles/25154828325917-Creating-a-backup)
 - [Onboarding](https://www.home-assistant.io/getting-started/onboarding/)
-- [Can't access homeassistant.local:8123](/hc/en-us/articles/25140903526301-I-can-t-access-the-system-via-http-homeassistant-local-8123-what-can-I-do)
+- [Can't access homeassistant.local:8123](/hc/en-us/articles/25140903526301)

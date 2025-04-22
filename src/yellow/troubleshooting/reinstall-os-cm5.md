@@ -39,7 +39,7 @@ Note: It is very unlikely that reinstalling the Home Assistant OS is necessary. 
 
 ## Related topics
 
-- [Reset the device](/hc/en-us/articles/25463622043165-Resetting-the-device)
+- [Reset the device](/hc/en-us/articles/25463622043165)
 - [rpiboot Windows Installer from Raspberry Pi GitHub](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)
 - [rpiboot for macOS and Linux from source code](https://github.com/raspberrypi/usbboot?tab=readme-ov-file#building)
 - [RPI imager from https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)

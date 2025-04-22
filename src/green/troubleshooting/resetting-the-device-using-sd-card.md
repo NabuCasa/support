@@ -14,7 +14,7 @@ Perform this procedure if you want to perform a factory reset on your device.
 - microSD card
 - Memory card reader for microSD (your computer might have an integrated card reader, otherwise use an external one)
 - Computer with internet access
-- You have [created a backup](/hc/en-us/articles/25154828325917-Creating-a-backup) and stored it on another system
+- You have [created a backup](/hc/en-us/articles/25154828325917) and stored it on another system
 
 ![Image showing a Home Assistant Green without an SD card](/static/img/green/green_without_sd_card.png)
 
@@ -108,6 +108,6 @@ Perform this procedure if you want to perform a factory reset on your device.
 
 ## Related topics
 
-- [Creating a backup](/hc/en-us/articles/25154828325917-Creating-a-backup)
+- [Creating a backup](/hc/en-us/articles/25154828325917)
 - [Onboarding](https://www.home-assistant.io/getting-started/onboarding/)
-- [Can't access homeassistant.local:8123](/hc/en-us/articles/25140903526301-I-can-t-access-the-system-via-http-homeassistant-local-8123-what-can-I-do)
+- [Can't access homeassistant.local:8123](/hc/en-us/articles/25140903526301)

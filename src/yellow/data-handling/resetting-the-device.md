@@ -24,15 +24,15 @@ The steps to clear the data disk differ, depending on whether you use a Raspberr
 
 If you use Home Assistant Yellow with a Raspberry Pi Compute Module 5, the red button cannot be used for factory reset. Instead, follow these steps:
 
-1. Make sure you do not lose your automations and configuration settings: [Create a backup](/hc/en-us/articles/25454640981533-Creating-a-backup).
-2. [Connect via serial console from Windows](/hc/en-us/articles/25454894609693-Using-the-serial-console-for-debugging-Windows) or [connect via serial console from Linux or Mac](/hc/en-us/articles/25454972435357-Using-the-serial-console-for-debugging-Linux-macOS).
+1. Make sure you do not lose your automations and configuration settings: [Create a backup](/hc/en-us/articles/25454640981533).
+2. [Connect via serial console from Windows](/hc/en-us/articles/25454894609693) or [connect via serial console from Linux or Mac](/hc/en-us/articles/25454972435357).
 3. Follow the steps on [wiping the data disk via command line](https://www.home-assistant.io/common-tasks/os/#wiping-the-data-disk-from-the-command-line).
 
 ## To reset a device with a CM4
 
 If you use Home Assistant Yellow with a Raspberry Pi Compute Module 4, follow these steps to clear all user data and reinstall the latest version of Home Assistant components.
 
-1. Make sure you do not lose your automations and configuration settings: [Create a backup](/hc/en-us/articles/25454640981533-Creating-a-backup).
+1. Make sure you do not lose your automations and configuration settings: [Create a backup](/hc/en-us/articles/25454640981533).
 2. Shut down the system.
     - Go to [**Settings** > **System**](https://my.home-assistant.io/redirect/system_dashboard/), and in the top right corner, select the shut down icon. Select **Shut down system**.
     - Wait for the LEDs to turn off, except the red power LED.
@@ -48,5 +48,5 @@ If you use Home Assistant Yellow with a Raspberry Pi Compute Module 4, follow th
 
 ## Related topics
 
-- [Creating a backup](/hc/en-us/articles/25454640981533-Creating-a-backup)
+- [Creating a backup](/hc/en-us/articles/25454640981533)
 - [Wiping the data disk via command line](https://www.home-assistant.io/common-tasks/os/#wiping-the-data-disk-from-the-command-line)

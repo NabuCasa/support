@@ -42,5 +42,5 @@ Nabu Casa does not have access to the [encryption key](https://www.home-assistan
 - [Creating a backup in Home Assistant](https://www.home-assistant.io/common-tasks/general/#backups)
 - [Nabu Casa account page](https://account.nabucasa.com/)
 - [Restoring your Home Assistant installation](https://www.home-assistant.io/common-tasks/general/#restoring-a-backup)
-- [Troubleshooting: backup is too large](/hc/en-us/articles/26323079049245-Backup-is-too-large)
-- [Troubleshooting: can't find the encryption key](/hc/en-us/articles/26323093151901-Backup-Can-t-find-encryption-key)
+- [Troubleshooting: backup is too large](/hc/en-us/articles/26323079049245)
+- [Troubleshooting: can't find the encryption key](/hc/en-us/articles/26323093151901)

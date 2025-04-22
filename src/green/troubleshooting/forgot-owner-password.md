@@ -34,4 +34,4 @@ If you forgot the owner's password, you need to connect an external monitor and 
 
 - [Resetting a password via console](https://www.home-assistant.io/docs/locked_out/#to-reset-a-users-password-via-console)
 - [Home Assistant command line](https://www.home-assistant.io/common-tasks/os/#home-assistant-via-the-command-line)
-- [Using the console on the HDMI display](/hc/en-us/articles/25153288092829-Using-the-console-on-the-HDMI-display)
+- [Using the console on the HDMI display](/hc/en-us/articles/25153288092829)

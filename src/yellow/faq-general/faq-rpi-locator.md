@@ -13,9 +13,9 @@ Recommended hardware:
 - Min. 4 GB of RAM.
 - Min. 32 GB of eMMC flash space.
 - If you opt for the CM4 or CM5 Lite: as the Lite variant does not have an eMMC module, you must use an NVMe SSD hard drive.
-  - Some users reported that [these SSDs](/hc/en-us/articles/25592268332445-Which-SSDs-are-not-supported) are not working on the Home Assistant Yellow.
+  - Some users reported that [these SSDs](/hc/en-us/articles/25592268332445) are not working on the Home Assistant Yellow.
 
 ## Related topics
 
 - [rpilocator](https://rpilocator.com/)
-- [SSDs that have been reported to not work](/hc/en-us/articles/25592268332445-Which-SSDs-are-not-supported) on the Home Assistant Yellow
+- [SSDs that have been reported to not work](/hc/en-us/articles/25592268332445) on the Home Assistant Yellow

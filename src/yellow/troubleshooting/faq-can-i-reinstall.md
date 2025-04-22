@@ -17,10 +17,10 @@ If you have a Raspberry Pi Compute Module 4 (CM4) and Home Assistant OS 8.5 or n
 
 If you have a Raspberry Pi Compute Module 5 (CM5): you cannot use the Home Assistant OS Installer from a USB flash drive.
 
-1. Instead, follow the CM5-specific steps on [Resetting the device](/hc/en-us/articles/25463622043165-Resetting-the-device)
-2. Then follow the steps on [Reinstalling the Operating System on a CM5](/hc/en-us/articles/25485061432093-Reinstall-the-Home-Assistant-Operating-System-on-Raspberry-Pi-CM5).
+1. Instead, follow the CM5-specific steps on [Resetting the device](/hc/en-us/articles/25463622043165)
+2. Then follow the steps on [Reinstalling the Operating System on a CM5](/hc/en-us/articles/25485061432093).
 
 ## Related topics
 
-- [Resetting the device](/hc/en-us/articles/25463622043165-Resetting-the-device)
-- [Reinstalling the Operating System on a CM5](/hc/en-us/articles/25485061432093-Reinstall-the-Home-Assistant-Operating-System-on-Raspberry-Pi-CM5)
+- [Resetting the device](/hc/en-us/articles/25463622043165)
+- [Reinstalling the Operating System on a CM5](/hc/en-us/articles/25485061432093)

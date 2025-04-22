@@ -20,4 +20,4 @@ zendesk:
 
 ## Related topics
 
-- [Home Assistant Yellow LEDs](/hc/en-us/articles/25410366475165-About-the-LEDs)
+- [Home Assistant Yellow LEDs](/hc/en-us/articles/25410366475165)

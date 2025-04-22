@@ -24,5 +24,5 @@ Overview of the device interfaces.
 
 ## Related topics
 
-- [About Home Assistant Voice Preview Edition](/hc/en-us/articles/25764286546717-About-Home-Assistant-Voice-Preview-Edition)
-- [Status colors on the Home Assistant Voice Preview Edition](/hc/en-us/articles/25764604971421-Status-colors)
+- [About Home Assistant Voice Preview Edition](/hc/en-us/articles/25764286546717)
+- [Status colors on the Home Assistant Voice Preview Edition](/hc/en-us/articles/25764604971421)

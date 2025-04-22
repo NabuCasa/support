@@ -28,6 +28,6 @@ If you don’t want the device to listen for a while, you can mute the microphon
 
 ## Related topics
 
-- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629-Turning-the-wake-sound-on-or-off)
-- [Changing the volume](/hc/en-us/articles/25773395022237-Changing-the-volume)
-- [Status colors](/hc/en-us/articles/25764604971421-Status-colors)
+- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629)
+- [Changing the volume](/hc/en-us/articles/25773395022237)
+- [Status colors](/hc/en-us/articles/25764604971421)

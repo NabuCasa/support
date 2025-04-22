@@ -19,5 +19,5 @@ zendesk:
 
 ## Related topics
 
-- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629-Turning-the-wake-sound-on-or-off)
-- [Conversing without wake word](/hc/en-us/articles/25775805328029-Conversing-without-wake-word)
+- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629)
+- [Conversing without wake word](/hc/en-us/articles/25775805328029)

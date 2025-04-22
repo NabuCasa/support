@@ -33,4 +33,4 @@ The following button presses are supported:
 
 - [Automating on a button press](https://www.home-assistant.io/integrations/event/#automating-on-a-button-press)
 - [Event entities](https://www.home-assistant.io/integrations/event/)
-- [Using the center button to stop the current process](/hc/en-us/articles/25774498553629-Stopping-the-current-process)
+- [Using the center button to stop the current process](/hc/en-us/articles/25774498553629)

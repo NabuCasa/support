@@ -15,5 +15,5 @@ To activate Assist, you can also just press the center button. Assist will then 
 
 ## Related topics
 
-- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629-Turning-the-wake-sound-on-or-off)
-- [Changing the wake word](/hc/en-us/articles/25775743017629-Changing-the-wake-word)
+- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629)
+- [Changing the wake word](/hc/en-us/articles/25775743017629)

@@ -16,6 +16,6 @@ To change the volume, move the dial.
 
 ## Related topics
 
-- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629-Turning-the-wake-sound-on-or-off)
-- [Muting the device](/hc/en-us/articles/25774403768477-Muting-the-device)
-- [Status colors](/hc/en-us/articles/25764604971421-Status-colors)
+- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629)
+- [Muting the device](/hc/en-us/articles/25774403768477)
+- [Status colors](/hc/en-us/articles/25764604971421)

@@ -56,5 +56,5 @@ Step-by-step instructions on enabling multi-factor authentication (MFA) to log i
 - [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid&oco=0)
 - [Microsoft Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app)
 - [1Password](https://support.1password.com/one-time-passwords/)
-- [I lost the device with the authenticator app](/hc/en-us/articles/25806000298397-I-lost-the-device-used-to-generate-the-MFA-token-to-log-into-Home-Assistant-Cloud)
+- [I lost the device with the authenticator app](/hc/en-us/articles/25806000298397)
 - [Nabu Casa account page](https://account.nabucasa.com/)

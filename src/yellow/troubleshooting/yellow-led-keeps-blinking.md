@@ -27,10 +27,10 @@ You can install Home Assistant OS directly onto the internal eMMC using the `rpi
    - From [source code](https://www.raspberrypi.com/documentation/computers/compute-module.html#building-rpiboot-on-your-host-system-cygwinlinux)
 
 3. Reinstall the operating system on Yellow:
-   - Open the procedure on [how to reinstall the operating system](/hc/en-us/articles/25484982657309-Reinstall-the-Home-Assistant-Operating-System-on-Raspberry-Pi-CM4).
+   - Open the procedure on [how to reinstall the operating system](/hc/en-us/articles/25484982657309).
    - Follow the procedure **Option 2: Reinstall Home Assistant OS using rpiboot** up to step 8.
    - To install the Home Assistant Operating System directly, follow these steps:
-     1. Run [Step 1 through 5](/hc/en-us/articles/25298668266269-Home-Assistant-Yellow-Kit-with-CM4-and-optional-NVMe) from the **Installing Home Assistant Software on Kit** procedure.
+     1. Run [Step 1 through 5](/hc/en-us/articles/25298668266269) from the **Installing Home Assistant Software on Kit** procedure.
      2. In step 3, use the image you just downloaded, instead of the image provided by the Raspberry Pi Imager.
      3. Windows might bring up a message asking to insert a disk. Close this message.
      4. Ignore the Raspberry Pi Imager prompt to remove the SD card.
@@ -42,12 +42,12 @@ You can install Home Assistant OS directly onto the internal eMMC using the `rpi
 
 6. Power up your board.
    - **Result**: Your system should now start up.
-   - Follow the steps under [Get started with Home Assistant](/hc/en-us/articles/25298668266269-Home-Assistant-Yellow-Kit-with-CM4-and-optional-NVMe).
+   - Follow the steps under [Get started with Home Assistant](/hc/en-us/articles/25298668266269).
 
 ## Related topics
 
 - [Operating system repository release page](https://github.com/home-assistant/operating-system/releases)
 - [Windows Installer](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)
 - [Source code](https://www.raspberrypi.com/documentation/computers/compute-module.html#building-rpiboot-on-your-host-system-cygwinlinux)
-- [Reinstalling the operating system](/hc/en-us/articles/25484982657309-Reinstall-the-Home-Assistant-Operating-System-on-Raspberry-Pi-CM4)
-- [Get started with Home Assistant](/hc/en-us/articles/25298668266269-Home-Assistant-Yellow-Kit-with-CM4-and-optional-NVMe)
+- [Reinstalling the operating system](/hc/en-us/articles/25484982657309)
+- [Get started with Home Assistant](/hc/en-us/articles/25298668266269)

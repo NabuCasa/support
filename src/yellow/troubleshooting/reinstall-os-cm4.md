@@ -6,7 +6,7 @@ zendesk:
   labels: yellow, troubleshooting
 ---
 
-Note: It is very unlikely that reinstalling the Home Assistant Operating System is necessary. Before going through this procedure, make sure to [reset the device](/hc/en-us/articles/25463622043165-Resetting-the-device).
+Note: It is very unlikely that reinstalling the Home Assistant Operating System is necessary. Before going through this procedure, make sure to [reset the device](/hc/en-us/articles/25463622043165).
 
 To reinstall [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) on a CM4, the **Home Assistant OS Installer for Yellow** flashed on a USB flash drive needs to be used. However, the Raspberry Pi Compute Module 4 has a fixed boot order: **eMMC** -> **NVMe SSD** -> **USB flash drive**.
 
@@ -22,14 +22,14 @@ There are currently 2 options on how to reinstall the Home Assistant OS:
 3. Within 3 seconds (or from start), press and hold the red and blue button on the backside of the device simultaneously.
 4. Hold the two buttons for approximately 10 seconds. The Yellow LED should not start blinking!
 5. Remove power from your system.
-6. Follow the instructions to [install the Home Assistant Software on kit](/hc/en-us/articles/25298668266269-Home-Assistant-Yellow-Kit-with-CM4-and-optional-NVMe) using the **Home Assistant OS Installer for Yellow** from a USB flash drive.
+6. Follow the instructions to [install the Home Assistant Software on kit](/hc/en-us/articles/25298668266269) using the **Home Assistant OS Installer for Yellow** from a USB flash drive.
 
 ## Option 2: Reinstall Home Assistant OS using rpiboot
 
 1. Install rpiboot onto your computer.
    - Using [Windows Installer](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)
    - [From source code](https://github.com/raspberrypi/usbboot?tab=readme-ov-file#building)
-2. [Open](/hc/en-us/articles/25298668266269-Home-Assistant-Yellow-Kit-with-CM4-and-optional-NVMe) the Home Assistant Yellow enclosure to access jumpers on the PCB.
+2. [Open](/hc/en-us/articles/25298668266269) the Home Assistant Yellow enclosure to access jumpers on the PCB.
 3. Set JP1 to USB.
 4. Plug-in a USB-C cable to Home Assistant Yellow and connect it to your PC.
 5. Press and hold the **USB-C Recvry** push button. Older Home Assistant Yellow versions: Bridge JP2 (USB-C Rcvry).
@@ -39,17 +39,17 @@ There are currently 2 options on how to reinstall the Home Assistant OS:
    - If you are on Windows, it might ask you if you want to reformat the disk. Select **Cancel** each time.
    - Afterwards, the green LED should be on.
 9. To flash the **Home Assistant OS Installer for Yellow** onto the eMMC ("RPi-MSD"), run the Raspberry Pi Imager.
-   - Follow [step 1 through 5](/hc/en-us/articles/25298668266269-Home-Assistant-Yellow-Kit-with-CM4-and-optional-NVMe) from the **Installing Home Assistant Software on Kit** procedure.
+   - Follow [step 1 through 5](/hc/en-us/articles/25298668266269) from the **Installing Home Assistant Software on Kit** procedure.
    - Windows might bring up a message asking to insert a disk. Close this message.
    - Ignore the Raspberry Pi Imager prompt to remove the SD card.
    - Select **Continue** and close the Raspberry Pi Installer.
 10. Remove power from the board.
 11. Set JP1 to UART.
-12. To connect Ethernet and power, follow the instructions [from step 8](/hc/en-us/articles/25298668266269-Home-Assistant-Yellow-Kit-with-CM4-and-optional-NVMe) from the **Installing Home Assistant Software on Kit** procedure. Note that because the installer is now installed to the eMMC, no USB flash drive is required.
+12. To connect Ethernet and power, follow the instructions [from step 8](/hc/en-us/articles/25298668266269) from the **Installing Home Assistant Software on Kit** procedure. Note that because the installer is now installed to the eMMC, no USB flash drive is required.
 
 ## Related topics
 
-- [Resetting the device](/hc/en-us/articles/25463622043165-Resetting-the-device)
+- [Resetting the device](/hc/en-us/articles/25463622043165)
 - [Windows Installer](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)
 - [Rpiboot from source code](https://github.com/raspberrypi/usbboot?tab=readme-ov-file#building)
-- [Install the Home Assistant Software on kit](/hc/en-us/articles/25298668266269-Home-Assistant-Yellow-Kit-with-CM4-and-optional-NVMe)
+- [Install the Home Assistant Software on kit](/hc/en-us/articles/25298668266269)

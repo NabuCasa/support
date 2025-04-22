@@ -21,4 +21,4 @@ Usually, if one model doesn't work, other models from the same product family ha
 
 ## Related topics
 
-- [List of SSDs that have been reported to work with CM4](/hc/en-us/articles/25592245613213-Which-SSDs-are-supported)
+- [List of SSDs that have been reported to work with CM4](/hc/en-us/articles/25592245613213)

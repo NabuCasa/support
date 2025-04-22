@@ -20,7 +20,7 @@ To resolve this issue, you need to reinstall the Raspberry Pi bootloader onto th
 
 ### To reinstall the Raspberry Pi EEPROM firmware on CM4
 
-1. Open the procedure on [re-installing the operating system on CM4](/hc/en-us/articles/25484982657309-Reinstall-the-Home-Assistant-Operating-System-on-Raspberry-Pi-CM4).
+1. Open the procedure on [re-installing the operating system on CM4](/hc/en-us/articles/25484982657309).
 2. Follow steps 1–7 of the section **Option 2: Reinstall Home Assistant OS using rpiboot**.
 3. On Windows, open the Command Prompt window (cmd).
 4. Run the following commands:
@@ -47,4 +47,4 @@ To resolve this issue, you need to reinstall the Raspberry Pi bootloader onto th
 
 ## Related topics
 
-- [Re-installing the operating system on CM4](/hc/en-us/articles/25484982657309-Reinstall-the-Home-Assistant-Operating-System-on-Raspberry-Pi-CM4)
+- [Re-installing the operating system on CM4](/hc/en-us/articles/25484982657309)

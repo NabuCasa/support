@@ -38,4 +38,4 @@ This guide assumes you have already completed the following steps:
 
 - [Zigbee Home Automation (ZHA) integration documentation](https://www.home-assistant.io/integrations/zigbee/)
 - [Thread integration documentation](https://www.home-assistant.io/integrations/thread/)
-- [About firmware options](/hc/en-us/articles/25616122309405-About-firmware-options)
+- [About firmware options](/hc/en-us/articles/25616122309405)

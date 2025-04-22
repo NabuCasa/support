@@ -22,6 +22,6 @@ The active color is shown when the device is triggered by the wake word. By defa
 
 ## Related topics
 
-- [Changing the volume](/hc/en-us/articles/25773395022237-Changing-the-volume)
-- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629-Turning-the-wake-sound-on-or-off)
-- [Muting the device](/hc/en-us/articles/25774403768477-Muting-the-device)
+- [Changing the volume](/hc/en-us/articles/25773395022237)
+- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629)
+- [Muting the device](/hc/en-us/articles/25774403768477)
