@@ -25,7 +25,7 @@ It is not usually necessary to reinstall the firmware. Only follow this procedur
       - If you have different SSIDs (Wi-Fi network names) for the 2.4 GHz and the 5 GHz Wi-Fi networks, make sure you use the credentials for the 2.4 GHz network, as the device cannot connect to 5 GHz Wi-Fi networks.
    3. Congratulations! You have successfully reinstalled the firmware.
       - **Troubleshooting**: If the reinstallation was not successful, try to [reinstall the firmware from bootloader mode](/hc/en-us/articles/25800285426589).
-   4. To add the device to Home Assistant, follow the [Getting started](/hc/en-us/sections/24980017436701) steps.
+   4. To add the device to Home Assistant, follow the [Getting started](/hc/en-us/articles/25918770371229) steps.
 
     ![Screenshot showing installation wizard](/static/img/voice-pe/voice_esp_install.png)
 
@@ -33,4 +33,4 @@ It is not usually necessary to reinstall the firmware. Only follow this procedur
 
 - [ESPHome web installer page for Home Assistant Voice Preview Edition](https://esphome.github.io/home-assistant-voice-pe/)
 - [Reinstall the firmware from bootloader mode](/hc/en-us/articles/25800285426589)
-- [Getting started with Home Assistant Voice Preview Edition](/hc/en-us/sections/24980017436701)
+- [Getting started with Home Assistant Voice Preview Edition](/hc/en-us/articles/25918770371229)
