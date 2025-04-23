@@ -6,4 +6,4 @@ zendesk:
   labels: connect zbt-1, downloads, resources
 ---
 
-- [Declaration of Conformity for EU](/static/connect-zbt-1/green/Home-Assistant-Connect-ZBT-1_DoC_EU_CE.pdf)
+- [Declaration of Conformity for EU](/static//docs/connect-zbt-1/Home-Assistant-Connect-ZBT-1_DoC_EU_CE.pdf)
