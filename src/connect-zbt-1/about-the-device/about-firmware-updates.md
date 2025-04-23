@@ -14,7 +14,7 @@ Firmware updates for the Connect&nbsp;ZBT-1 are natively supported in Home Assis
 
 ## Reinstalling the firmware on Home Assistant Connect ZBT-1
 
-> **Note:** [Home Assistant SkyConnect](https://www.home-assistant.io/faq/#what-is-the-difference-between-home-assistant-skyconnect-and-connect-zbt-1) and Home Assistant Connect&nbsp;ZBT-1 use the same firmware. You can use the same firmware update process for both devices.
+> **Note:** [Home Assistant SkyConnect](/hc/en-us/articles/26151953609117) and Home Assistant Connect&nbsp;ZBT-1 use the same firmware. You can use the same firmware update process for both devices.
 
 If you must reinstall the firmware on your Home Assistant Connect&nbsp;ZBT-1 today, the following options are available:
 

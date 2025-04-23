@@ -19,7 +19,7 @@ Follow this guide if you have a deCONZ network running with a ConBee II or RaspB
 
 1. Viewing the firmware version of the stick.
    - In the deCONZ app, under **Settings** > **Gateway**, check the firmware version. It should be version 26720700 or newer.
-     - If the version is recent enough, skip the next two steps and continue with Step 4 [Stop the deCONZ add-on](#step-stop-the-deconz-add-on).
+     - If the version is recent enough, skip the next two steps and continue with Step 4 (Stop the deCONZ add-on).
      - If the version is not up-to-date, select **Update to 26720700**.
 
    ![View the firmware version of the stick](/static/img/connect-zbt-1/conbee-update-05.png)
