@@ -16,10 +16,16 @@ The voice response is generated in Home Assistant by one of our supported text-t
 
 ## Resolution
 
-Check the Home Assistant URL.
+### Prerequisites
+
+- You need administrator rights on Home Assistant
+
+### To check the Home Assistant URL
+
+Check if you can reach Home Assistant via the Home Assistant URL.
 
 1. Go to your [user profile](https://my.home-assistant.io/redirect/profile/) and enable **Advanced mode**.
-2. Under [**Settings** > **System** > **Network**](https://my.home-assistant.io/redirect/network/).
+2. Go to [**Settings** > **System** > **Network**](https://my.home-assistant.io/redirect/network/).
 3. Change your **Local Network** Home Assistant URL to a URL that can be reached locally and that points to Home Assistant.
 4. For most users, the **Automatic** option works and is recommended.
 
