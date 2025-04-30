@@ -16,7 +16,7 @@ The voice response is generated in Home Assistant by one of our supported text-t
 
 ## Resolution
 
-Make sure you can reach Home Assistant via the local Home Assistant URL (from inside your network, not using the external URL you use to access Home Assistant from outside your network).
+Make sure the voice assistant device can reach Home Assistant via the local Home Assistant URL (from inside your network, not using the external URL you use to access Home Assistant from outside your network).
 
 ### Prerequisites
 
