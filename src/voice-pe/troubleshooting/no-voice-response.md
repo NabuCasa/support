@@ -16,17 +16,23 @@ The voice response is generated in Home Assistant by one of our supported text-t
 
 ## Resolution
 
-Make sure the voice assistant device can reach Home Assistant via the local Home Assistant URL (from inside your network, not using the external URL you use to access Home Assistant from outside your network).
+To resolve this issue, follow the steps below.
 
 ### Prerequisites
 
 - You need administrator rights on Home Assistant
 
-### To check the Home Assistant URL
+### To troubleshoot the connection to the voice assistant device
 
-1. Go to your [user profile](https://my.home-assistant.io/redirect/profile/) and enable **Advanced mode**.
-2. Go to [**Settings** > **System** > **Network**](https://my.home-assistant.io/redirect/network/).
-3. Change your **Local network** Home Assistant URL to a URL that can be reached locally and that points to Home Assistant.
-4. For most users, the **Automatic** option works and is recommended.
+1. Make sure the voice assistant device can reach Home Assistant via the local Home Assistant URL (from inside your network, not using the external URL you use to access Home Assistant from outside your network).
+   1. Go to your [user profile](https://my.home-assistant.io/redirect/profile/) and enable **Advanced mode**.
+   2. Go to [**Settings** > **System** > **Network**](https://my.home-assistant.io/redirect/network/).
+   3. Change your **Local network** Home Assistant URL to a URL that can be reached locally and that points to Home Assistant.
+   4. For most users, the **Automatic** option works and is recommended.
 
    ![Screenshot of the network settings](/static/img/voice-pe/local_network_automatic.png)
+
+2. Another reason the connection fails could be an invalid SSL certificate.
+   - The voice assistant device rejects invalid SSL certificates.
+   - If the certificate is expired, your browser will tell you.
+   - Create a new SSL certificate.
