@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cd "$(dirname "$0")/.."
+
+python3 -m pip install --upgrade hass_nabucasa "josepy<2.0"
+
+python3 -c '
+import json
+from hass_nabucasa.voice_data import TTS_VOICES
+print(json.dumps(TTS_VOICES, indent=2))
+' > _data/ttsLanguages.json

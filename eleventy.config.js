@@ -9,6 +9,10 @@ const __dirname = dirname(__filename);
 
 const isPreview = process.env.PREVIEW_BUILD || process.argv.includes("--serve");
 
+const languageDisplayNames = new Intl.DisplayNames(["en"], {
+  type: "language",
+});
+
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
   eleventyConfig.setIncludesDirectory("../_includes");
@@ -64,6 +68,10 @@ export default async function (eleventyConfig) {
       };
     }
     return data;
+  });
+
+  eleventyConfig.addFilter("languageDisplayName", function (code) {
+    return languageDisplayNames.of(code);
   });
 
   eleventyConfig.addCollection("zendeskCategories", function (collection) {

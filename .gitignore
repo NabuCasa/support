@@ -8,3 +8,4 @@ coverage/
 .env
 .husky/
 _site/
+_data/

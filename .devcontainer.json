@@ -42,7 +42,10 @@
     }
   },
   "features": {
-    "ghcr.io/devcontainers/features/node:1": {}
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.13"
+    }
   },
   "postCreateCommand": {
     "node": ". ${NVM_DIR}/nvm.sh && nvm install && nvm alias default $(cat .nvmrc) && npm install"
