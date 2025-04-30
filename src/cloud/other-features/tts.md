@@ -58,7 +58,7 @@ Another way to test the Home Assistant Cloud text-to-speech service is by callin
 The supported languages are listed below. Some of the languages have multiple voices.
 
 | **Neural voices by language** | **Locale** |
-| ----------------------------- | ---------- |
+| :---------------------------- | :--------- |
 
 {%- for language in ttsLanguages %}
 | {{ language[0] | languageDisplayName }} | {{ language[0] }} |
