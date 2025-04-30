@@ -22,7 +22,7 @@ The voice response is generated in Home Assistant by one of our supported text-t
 
 ### To check the Home Assistant URL
 
-Check if you can reach Home Assistant via the Home Assistant URL.
+Make sure you can reach Home Assistant via the Home Assistant URL.
 
 1. Go to your [user profile](https://my.home-assistant.io/redirect/profile/) and enable **Advanced mode**.
 2. Go to [**Settings** > **System** > **Network**](https://my.home-assistant.io/redirect/network/).
