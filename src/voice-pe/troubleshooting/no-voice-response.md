@@ -32,7 +32,7 @@ To resolve this issue, follow the steps below.
 
    ![Screenshot of the network settings](/static/img/voice-pe/local_network_automatic.png)
 
-2. Another reason the connection fails could be when you have configured an SSL certificate directly inside Home Assistant.
+2. Another reason the connection fails could be when you have [configured an SSL certificate directly inside Home Assistant](https://www.home-assistant.io/integrations/http/).
    - The voice assistant device rejects invalid SSL certificates.
    - If the certificate is expired, your browser will tell you.
    - Create a new SSL certificate.
