@@ -23,28 +23,40 @@ This sections shows you how to setup your device and get started with Home Assis
 
 ## To get started with Home Assistant Green
 
-1. Connect the Ethernet cable.
+{% steps %}
+{% step "Connecting the Ethernet cable" %}
+{% image "/static/img/green/green_connect_ethernet.webp" "Connecting the Ethernet cable to the device" %}
+{% stepContent %}
 
    1. Plug in your Ethernet cable and make sure it is locked into place.
-      ![Connecting the Ethernet cable to the device](/static/img/green/green_connect_ethernet.webp)
    2. Connect the other end of the Ethernet cable to your router or switch.
 
-2. Power it up.
+{% endstepContent %}
+{% endstep %}
+
+{% step "Powering up" %}
+{% image "/static/img/green/green_connect_power.webp" "Connecting the power cable to the device" %}
+{% stepContent %}
 
    - Connect the power to the electrical outlet and then to the Home Assistant Green.
 
-   ![Connecting the power cable to the device](/static/img/green/green_connect_power.webp)
+{% endstepContent %}
+{% endstep %}
 
-3. Check the status light.
+{% step "Checking the status light" %}
+{% image "/static/img/green/green_yellow_heartbeat.webp" "Yellow status light blinking in a heartbeat pattern" %}
+{% stepContent %}
 
    - Wait for a few minutes until the yellow light starts blinking in a heartbeat pattern.
 
-   ![Yellow status light blinking in a heartbeat pattern](/static/img/green/green_yellow_heartbeat.webp)
+{% endstepContent %}
+{% endstep %}
 
-4. Get started with Home Assistant.
+{% step "Getting started with Home Assistant" %}
+{% image "/static/img/green/getting_started_04.png" "Home Assistant user interface on a screen" %}
+{% stepContent %}
 
    1. Initial startup may take a while, depending on your internet connection.
-      ![Home Assistant user interface on a screen](/static/img/green/getting_started_04.png)
    2. Install the app.
 
       To access Home Assistant from your mobile device, use the QR code to locate the app in the app store.
@@ -58,6 +70,10 @@ This sections shows you how to setup your device and get started with Home Assis
    4. The Home Assistant user interface guides you through the initial onboarding.
 
    5. For further information, refer to the instructions provided under [https://www.home-assistant.io/getting-started/onboarding/](https://www.home-assistant.io/getting-started/onboarding/).
+
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 
