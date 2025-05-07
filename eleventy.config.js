@@ -10,6 +10,7 @@ import {
   HAZARD_TYPE,
   HAZARD_TYPE_MAP,
   STEP_INFO_ICON,
+  STEP_RESULT_ICON,
 } from "./defs.js";
 
 const __filename = fileURLToPath(import.meta.url);
