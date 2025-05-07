@@ -306,7 +306,7 @@ export default async function (eleventyConfig) {
       throw new Error("Step result shortcode requires content");
     }
 
-    return `<div class="step-result"><div class="step-result-prefix">${STEP_RESULT_ICON} Info:</div><div>${content}</div></div>`;
+    return `<div class="step-result"><div class="step-result-prefix">${STEP_RESULT_ICON} Result:</div><div>${content}</div></div>`;
   });
 
   eleventyConfig.addShortcode("zendeskData", function (zendeskFrontmatter) {
