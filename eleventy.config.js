@@ -10,6 +10,7 @@ import {
   HAZARD_TYPE,
   HAZARD_TYPE_MAP,
   STEP_INFO_ICON,
+  STEP_RESULT_ICON,
 } from "./defs.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -289,6 +290,7 @@ export default async function (eleventyConfig) {
 
     return `<div class="callout ${type}"><div class="callout-prefix">${calloutMap.icon} ${calloutMap.text}:</div><div class="callout-content">${content}</div></div>`;
   });
+
   eleventyConfig.addShortcode("stepInfo", function (content) {
     // if type not in array of strings
     if (!content) {
@@ -297,7 +299,15 @@ export default async function (eleventyConfig) {
 
     return `<div class="step-info"><div class="step-info-prefix">${STEP_INFO_ICON} Info:</div><div>${content}</div></div>`;
   });
-  eleventyConfig.addShortcode("stepResult", function (type, content) {});
+
+  eleventyConfig.addShortcode("stepResult", function (content) {
+    // if type not in array of strings
+    if (!content) {
+      throw new Error("Step result shortcode requires content");
+    }
+
+    return `<div class="step-result"><div class="step-result-prefix">${STEP_RESULT_ICON} Result:</div><div>${content}</div></div>`;
+  });
 
   eleventyConfig.addShortcode("zendeskData", function (zendeskFrontmatter) {
     return `<!-- ${JSON.stringify({ zendesk: zendeskFrontmatter })} -->`;
