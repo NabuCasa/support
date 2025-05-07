@@ -1,5 +1,6 @@
 import path, { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
+import childProcess from "child_process";
 import fs from "fs";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
 import { load as yamlLoad } from "js-yaml";
@@ -15,6 +16,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const isPreview = process.env.PREVIEW_BUILD || process.argv.includes("--serve");
+
+const currentGitSha = childProcess
+  .execSync(`git log -1 --format=format:%H`)
+  .toString()
+  .trim();
 
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
@@ -297,8 +303,8 @@ export default async function (eleventyConfig) {
     return `<!-- ${JSON.stringify({ zendesk: zendeskFrontmatter })} -->`;
   });
 
-  eleventyConfig.addShortcode("timestamp", function (zendeskFrontmatter) {
-    return new Date().setUTCHours(0, 0, 0, 0);
+  eleventyConfig.addShortcode("currentGitSha", function () {
+    return currentGitSha;
   });
 
   eleventyConfig.addShortcode("partial", function (filename, data) {
