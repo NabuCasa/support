@@ -114,7 +114,6 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
 {% image "/static/img/voice-pe/15_add_top_enclosure_small.png" "Done!" %}
 {% stepContent %}
 
-1. Done!
    - Connect a USB-C power supply and continue using the device.
 
 {% endstepContent %}
