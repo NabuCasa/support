@@ -1,8 +1,17 @@
 import path, { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
+import childProcess from "child_process";
 import fs from "fs";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
 import { load as yamlLoad } from "js-yaml";
+import {
+  CALLOUT_TYPE,
+  CALLOUT_TYPE_MAP,
+  HAZARD_TYPE,
+  HAZARD_TYPE_MAP,
+  STEP_INFO_ICON,
+  STEP_RESULT_ICON,
+} from "./defs.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -12,10 +21,15 @@ const isPreview = process.env.PREVIEW_BUILD || process.argv.includes("--serve");
 const languageDisplayNames = new Intl.DisplayNames(["en"], {
   type: "language",
 });
+const currentGitSha = childProcess
+  .execSync(`git log -1 --format=format:%H`)
+  .toString()
+  .trim();
 
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
-  eleventyConfig.setIncludesDirectory("../_includes");
+  eleventyConfig.setLayoutsDirectory("../_includes");
+  eleventyConfig.setIncludesDirectory("../_partials");
   eleventyConfig.setDataDirectory("../_data");
   eleventyConfig.addGlobalData(
     "layout",
@@ -184,12 +198,131 @@ export default async function (eleventyConfig) {
     return yamlLoad(content, { json: true }).zendesk.section_id;
   });
 
+  let currentStep = 0;
+  eleventyConfig.addPairedShortcode("steps", function (content) {
+    currentStep = 0; // reset step number
+    let html = `<div class="steps">`; // open steps
+    html += content;
+    html += `</div>`; // close steps
+
+    return html;
+  });
+
+  eleventyConfig.addPairedShortcode("step", function (content, title) {
+    let html = `<div class="step">`; // open step
+
+    html += `<div class="step-header">`; // open header
+    html += `<div class="step-number">Step ${++currentStep}</div>`; // add step number
+    if (title) {
+      html += `<div class="step-title">${title}</div>`; // add step title
+    }
+    html += `</div>`; // close header
+
+    html += `<div class="step-content-wrapper">`; // open content
+    html += content;
+    html += `</div>`; // close content
+
+    html += `</div>`; // close step
+
+    return html;
+  });
+
+  eleventyConfig.addPairedShortcode("stepContent", function (content) {
+    let html = `<div class="step-content">`; // open content
+    html += content;
+    html += `</div>`; // close content
+
+    return html;
+  });
+
+  eleventyConfig.addShortcode("image", function (src, alt) {
+    if (!src) {
+      throw new Error("Image shortcode requires a src parameter");
+    }
+
+    if (!alt) {
+      throw new Error("Image shortcode requires an alt parameter");
+    }
+
+    return `<img src="${src}" alt="${alt}"/>`;
+  });
+
+  eleventyConfig.addShortcode("hazard", function (type, content) {
+    // if type not in array of strings
+    if (!Object.values(HAZARD_TYPE).includes(type)) {
+      throw new Error(
+        `Hazard shortcode requires a valid type parameter: ${Object.values(
+          HAZARD_TYPE
+        ).join(", ")}`
+      );
+    }
+
+    const hazardKey = Object.keys(HAZARD_TYPE).find(
+      (key) => HAZARD_TYPE[key] === type
+    );
+    const hazardMap = HAZARD_TYPE_MAP[hazardKey];
+
+    if (!hazardMap) {
+      throw new Error(`Hazard type ${type} not found in hazard map`);
+    }
+
+    if (!content) {
+      throw new Error("Hazard shortcode requires content");
+    }
+
+    return `<div class="hazard ${type}"><div class="hazard-prefix">${hazardMap.icon} ${hazardMap.text}</div><div class="hazard-content">${content}</div></div>`;
+  });
+
+  eleventyConfig.addShortcode("callout", function (type, content) {
+    // if type not in array of strings
+    if (!Object.values(CALLOUT_TYPE).includes(type)) {
+      throw new Error(
+        `Callout shortcode requires a valid type parameter: ${Object.values(
+          CALLOUT_TYPE
+        ).join(", ")}`
+      );
+    }
+
+    const calloutKey = Object.keys(CALLOUT_TYPE).find(
+      (key) => CALLOUT_TYPE[key] === type
+    );
+    const calloutMap = CALLOUT_TYPE_MAP[calloutKey];
+
+    if (!calloutMap) {
+      throw new Error(`Callout type ${type} not found in callout map`);
+    }
+
+    if (!content) {
+      throw new Error("Callout shortcode requires content");
+    }
+
+    return `<div class="callout ${type}"><div class="callout-prefix">${calloutMap.icon} ${calloutMap.text}:</div><div class="callout-content">${content}</div></div>`;
+  });
+
+  eleventyConfig.addShortcode("stepInfo", function (content) {
+    // if type not in array of strings
+    if (!content) {
+      throw new Error("Step info shortcode requires content");
+    }
+
+    return `<div class="step-info"><div class="step-info-prefix">${STEP_INFO_ICON} Info:</div><div>${content}</div></div>`;
+  });
+
+  eleventyConfig.addShortcode("stepResult", function (content) {
+    // if type not in array of strings
+    if (!content) {
+      throw new Error("Step result shortcode requires content");
+    }
+
+    return `<div class="step-result"><div class="step-result-prefix">${STEP_RESULT_ICON} Result:</div><div>${content}</div></div>`;
+  });
+
   eleventyConfig.addShortcode("zendeskData", function (zendeskFrontmatter) {
     return `<!-- ${JSON.stringify({ zendesk: zendeskFrontmatter })} -->`;
   });
 
-  eleventyConfig.addShortcode("timestamp", function (zendeskFrontmatter) {
-    return new Date().setUTCHours(0, 0, 0, 0);
+  eleventyConfig.addShortcode("currentGitSha", function () {
+    return currentGitSha;
   });
 
   eleventyConfig.addShortcode("partial", function (filename, data) {
