@@ -18,50 +18,80 @@ If you no longer have the old stick, you can migrate via a Zigbee2MQTT backup.
 
 ## To migrate a Zigbee2MQTT network to ZHA
 
-1. Stopping the Zigbee2MQTT add-on.
+{% steps %}
+{% step "Stopping the Zigbee2MQTT add-on" %}
+{% image "/static/img/connect-zbt-1/z2m-delete-add-on.png" "Stop the Zigbee2MQTT add-on" %}
+{% stepContent %}
+
    - Under **Settings** > **Add-ons**, in the **Zigbee2MQTT** add-on, select **Stop**.
    - Zigbee2MQTT uses the MQTT discovery feature to make the Zigbee devices available in Home Assistant. After removing the Zigbee2MQTT add-on, the devices are still present in Home Assistant since the MQTT broker is still holding on to the MQTT discovery messages.
    - It is recommended to remove these stale devices from the MQTT broker (see next steps).
 
-   ![Stop the Zigbee2MQTT add-on](/static/img/connect-zbt-1/z2m-delete-add-on.png)
+{% endstepContent %}
+{% endstep %}
 
-2. Removing Zigbee2MQTT devices (option 1).
-   - If you don't use MQTT outside of Zigbee2MQTT, you can delete the Mosquitto Broker integration.
-     1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the **Mosquitto broker** integration.
-     2. Select the three dots and in the dropdown menu, select **Delete**.
+{% step "Removing Zigbee2MQTT devices (option 1)" %}
+{% image "/static/img/connect-zbt-1/z2m-mqq-integration-new-01.png" "Remove Zigbee2MQTT devices (option 1)" %}
+{% stepContent %}
 
-   ![Remove Zigbee2MQTT devices (option 1)](/static/img/connect-zbt-1/z2m-mqq-integration-new-01.png)
+- If you don't use MQTT outside of Zigbee2MQTT, you can delete the Mosquitto Broker integration.
+  1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the **Mosquitto broker** integration.
+  2. Select the three dots and in the dropdown menu, select **Delete**.
 
-3. Removing Zigbee2MQTT devices (option 2).
-   - If you don't want to delete the Mosquitto Broker integration, you can remove the devices from the MQTT network.
-     1. In the integration card, select **Devices**, under **Device info**, select **Delete**.
-     2. Repeat this for every device.
+{% endstepContent %}
+{% endstep %}
 
-   ![Remove Zigbee2MQTT devices (option 2)](/static/img/connect-zbt-1/z2m-mqtt-dereg-device-01.png)
+{% step "Removing Zigbee2MQTT devices (option 2)" %}
+{% image "/static/img/connect-zbt-1/z2m-mqtt-dereg-device-01.png" "Remove Zigbee2MQTT devices (option 2)" %}
+{% stepContent %}
 
-4. Adding the ZHA integration (1).
-   1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), if you do not see the ZHA integration, select the **Add integration** button.
-   2. From the dropdown list, select **Add Zigbee device**.
+- If you don't want to delete the Mosquitto Broker integration, you can remove the devices from the MQTT network.
+  1. In the integration card, select **Devices**, under **Device info**, select **Delete**.
+  2. Repeat this for every device.
 
-   ![Add ZHA integration (1)](/static/img/connect-zbt-1/z2m-migrate-zha-15.png)
+{% endstepContent %}
+{% endstep %}
 
-5. Adding the ZHA integration (2).
-   1. Make sure your old radio stick is still plugged in.
-   2. Select **Proceed**.
+{% step "Adding the ZHA integration (1)" %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-15.png" "Add ZHA integration (1)" %}
+{% stepContent %}
 
-   ![Add ZHA integration (2)](/static/img/connect-zbt-1/z2m-migrate-zha-13.png)
+1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), if you do not see the ZHA integration, select the **Add integration** button.
+2. From the dropdown list, select **Add Zigbee device**.
 
-6. Adding the ZHA integration (3).
-   1. Choose the serial device path of your old radio stick.
-   2. Select **Submit**.
+{% endstepContent %}
+{% endstep %}
 
-   ![Add ZHA integration (3)](/static/img/connect-zbt-1/z2m-migrate-zha-14.png)
+{% step "Adding the ZHA integration (2)." %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-13.png" "Add ZHA integration (2)" %}
+{% stepContent %}
 
-7. Choosing the network settings for your radio.
-   - Select **Keep radio network settings**.
-   - You can now start migrating the ZHA network as described below.
+1. Make sure your old radio stick is still plugged in.
+2. Select **Proceed**.
 
-   ![Choose the network settings for your radio](/static/img/connect-zbt-1/z2m-migrate-zha-01.png)
+{% endstepContent %}
+{% endstep %}
+
+{% step "Adding the ZHA integration (3)" %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-14.png" "Add ZHA integration (3)" %}
+{% stepContent %}
+
+1. Choose the serial device path of your old radio stick.
+2. Select **Submit**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Choosing the network settings for your radio" %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-01.png" "Choose the network settings for your radio" %}
+{% stepContent %}
+
+- Select **Keep radio network settings**.
+- {% stepResult "You can now start migrating the ZHA network as described below." %}
+
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## To migrate an existing ZHA network to Connect&nbsp;ZBT-1
 
