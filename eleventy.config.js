@@ -25,7 +25,8 @@ const currentGitSha = childProcess
 
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
-  eleventyConfig.setIncludesDirectory("../_includes");
+  eleventyConfig.setLayoutsDirectory("../_includes");
+  eleventyConfig.setIncludesDirectory("../_partials");
   eleventyConfig.setDataDirectory("../_data");
   eleventyConfig.addGlobalData(
     "layout",
