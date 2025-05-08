@@ -65,7 +65,7 @@ If you no longer have the old stick, you can migrate via a Zigbee2MQTT backup.
 
 ## To migrate an existing ZHA network to Connect&nbsp;ZBT-1
 
-{% partial 'connect-zbt-1/migrate-zha-only.md' %}
+{% include 'connect-zbt-1/migrate-zha-only.md' %}
 
 ## Related topics
 
