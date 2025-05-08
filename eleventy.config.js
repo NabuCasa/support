@@ -25,8 +25,8 @@ const currentGitSha = childProcess
 
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
-  eleventyConfig.setLayoutsDirectory("../_includes");
-  eleventyConfig.setIncludesDirectory("../_partials");
+  eleventyConfig.setLayoutsDirectory("../_layouts");
+  eleventyConfig.setIncludesDirectory("../_includes");
   eleventyConfig.setDataDirectory("../_data");
   eleventyConfig.addGlobalData(
     "layout",
@@ -324,7 +324,7 @@ export default async function (eleventyConfig) {
       filename = `${filename}.md`;
     }
 
-    const partialPath = path.join(__dirname, "./_partials", filename);
+    const partialPath = path.join(__dirname, "./_includes", filename);
 
     if (!fs.existsSync(partialPath)) {
       return `Partial not found: ${partialPath}`;
