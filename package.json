@@ -4,19 +4,20 @@
   "repository": "git@github.com:nabucasa/support.git",
   "type": "module",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve --quiet",
+    "start": "npm run generate:tts-languages && npx @11ty/eleventy --serve --quiet",
     "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
     "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
     "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "build": "rm -rf _site && npx @11ty/eleventy",
-    "build-preview": "rm -rf _site && PREVIEW_BUILD=1 npx @11ty/eleventy",
+    "build": "rm -rf _site && npm run generate:tts-languages && npx @11ty/eleventy",
+    "build-preview": "rm -rf _site && npm run generate:tts-languages && PREVIEW_BUILD=1 npx @11ty/eleventy",
     "deploy": "export $(grep -v -E '^\\s*#|^\\s*$' .env | sed 's/\\s*#.*//' | xargs) && node deploy.js",
     "build-deploy": "npm run build && npm run deploy",
     "lint:all:check": "npm run lint:textlint:check && npm run lint:remark:check",
     "lint:all:fix": "npm run lint:textlint:fix",
     "lint:remark:check": "remark . --verbose --frail",
     "lint:textlint:check": "textlint ./",
-    "lint:textlint:fix": "textlint --fix ./"
+    "lint:textlint:fix": "textlint --fix ./",
+    "generate:tts-languages": "scripts/generate-tts-languages"
   },
   "devDependencies": {
     "@11ty/eleventy-navigation": "0.3.5",
