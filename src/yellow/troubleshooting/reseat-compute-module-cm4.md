@@ -15,16 +15,16 @@ zendesk:
 
 ## Opening the case
 
-{% partial 'yellow/yellow-open-case-cm5.md' %}
+{% include 'yellow/yellow-open-case-cm5.md' %}
 
 ## Removing the Raspberry Pi Compute Module 4
 
-{% partial 'yellow/yellow-remove-cm.md' %}
+{% include 'yellow/yellow-remove-cm.md' %}
 
 ## Re-seating the Raspberry Pi Compute Module 4
 
-{% partial 'yellow/yellow-reseat-cm4.md' %}
+{% include 'yellow/yellow-reseat-cm4.md' %}
 
 ## Reassembling your Home Assistant Yellow
 
-{% partial 'yellow/yellow-reassemble-case.md' %}
+{% include 'yellow/yellow-reassemble-case.md' %}
