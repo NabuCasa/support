@@ -34,8 +34,8 @@ Please note that not all settings can be migrated in this case:
 {% image "/static/img/connect-zbt-1/z2m-backup-restore-01.png" "Unzipping the backup folder" %}
 {% stepContent %}
 
-- In your **Downloads** folder, unzip the **z2m-backup**.
-  - It should contain a **coordinator_backup.json** file.
+- In your **Downloads** folder, unzip the **z2m-backup** file.
+  - {% stepInfo "It should contain a **coordinator_backup.json** file." %}
 
 {% endstepContent %}
 {% endstep %}
