@@ -19,23 +19,23 @@ Note: It is very unlikely that reinstalling the Home Assistant OS is necessary. 
 
 ## Opening the case
 
-{% partial 'yellow/yellow-open-case-cm5.md' %}
+{% include 'yellow/yellow-open-case-cm5.md' %}
 
 ## Running rpiboot
 
-{% partial 'yellow/yellow-install-rpiboot.md' %}
+{% include 'yellow/yellow-install-rpiboot.md' %}
 
 ## Installing Home Assistant Software on CM5
 
-{% partial 'yellow/yellow-install-haos-cm5.md' %}
+{% include 'yellow/yellow-install-haos-cm5.md' %}
 
 ## Reassembling Home Assistant Yellow
 
-{% partial 'yellow/yellow-reassemble-case.md' %}
+{% include 'yellow/yellow-reassemble-case.md' %}
 
 ## Setting up
 
-{% partial 'yellow/yellow-setup-cm5.md' %}
+{% include 'yellow/yellow-setup-cm5.md' %}
 
 ## Related topics
 
