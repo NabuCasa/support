@@ -6,9 +6,9 @@ zendesk:
   labels: green, data
 ---
 
-{% partial 'backups-about.md' %}
+{% include 'backups-about.md' %}
 
-{% partial 'backups-create.md' %}
+{% include 'backups-create.md' %}
 
 ## Related topics
 

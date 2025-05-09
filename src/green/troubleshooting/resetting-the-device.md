@@ -12,13 +12,13 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
 
 - Home Assistant Green
 - Home Assistant Operating System 13.1 or later installed.
-   - To see which version you have, go to [**Settings** > **About**](https://my.home-assistant.io/redirect/info/).
+  - To see which version you have, go to [**Settings** > **About**](https://my.home-assistant.io/redirect/info/).
 - PC with internet access
 - You have [created a backup](/hc/en-us/articles/25154828325917) and stored it on another system.
 
 ![image showing a green without an SD card](/static/img/green/green_without_sd_card.png)
 
-{% partial 'about-device-reset.md' %}
+{% include 'about-device-reset.md' %}
 
 ## To reset the device
 
@@ -31,9 +31,10 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
       - To shutdown gracefully, press the power button for 6 seconds.
       - For a hard shutdown (do this only if all else fails), press the power button for 12 seconds.
    3. Remove the power cable to remove power from the system.
-   ![Shutting down the system](/static/img/green/shutdown_system.png)
+      ![Shutting down the system](/static/img/green/shutdown_system.png)
 
 2. Power up the system
+
    1. Press and hold the button.
       - Reapply power and make sure the system has an Internet connection.
       - Keep the button pressed until the yellow LED turns on solid.
@@ -42,7 +43,7 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
       - The LEDs start blinking.
       - The Home Assistant Operating System now downloads the latest version of Home Assistant Supervisor and Home Assistant Core.
       - Due to the downloads, it can take a while until Home Assistant becomes accessible again.
-      ![Powering up the system](/static/img/green/green_reset.webp)
+        ![Powering up the system](/static/img/green/green_reset.webp)
 
 3. Getting started with Home Assistant
    - **Info**: Initial startup may take a while, depending on your internet connection.
@@ -52,7 +53,7 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
       - **Desktop**: Visit [http://homeassistant.local:8123](http://homeassistant.local:8123) to access the Home Assistant user interface.
    3. The Home Assistant user interface guides you through the initial onboarding.
       - **Info**: For further information, refer to the instructions
-   ![Getting started with Home Assistant](/static/img/green/getting_started_04.png)
+        ![Getting started with Home Assistant](/static/img/green/getting_started_04.png)
 
 ## Related topics
 

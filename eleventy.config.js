@@ -325,21 +325,6 @@ export default async function (eleventyConfig) {
     return currentGitSha;
   });
 
-  eleventyConfig.addShortcode("partial", function (filename, data) {
-    // if no extension in filename, default to .md
-    if (filename.split(".").length === 1) {
-      filename = `${filename}.md`;
-    }
-
-    const partialPath = path.join(__dirname, "./_includes", filename);
-
-    if (!fs.existsSync(partialPath)) {
-      return `Partial not found: ${partialPath}`;
-    }
-
-    return fs.readFileSync(partialPath, "utf-8");
-  });
-
   if (isPreview) {
     // Additional changes required for preview build
     eleventyConfig.setServerOptions({

@@ -6,7 +6,7 @@ zendesk:
   labels: green, data
 ---
 
-{% partial 'backups-about-restoring.md' %}
+{% include 'backups-about-restoring.md' %}
 
 ## Restoring from a backup during onboarding
 
