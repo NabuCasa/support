@@ -25,29 +25,29 @@ Additionally, make sure you have the following items which are not part of the K
 
 ## Opening the case
 
-{% partial 'yellow/yellow-open-case-cm5.md' %}
+{% include 'yellow/yellow-open-case-cm5.md' %}
 
 ## Seating the Raspberry Pi Compute Module 5
 
 **Notice**: Don't use screws to fix the module in place. The screws can damage the CM5 module.
 
-{% partial 'yellow/yellow-reseat-cm5.md' %}
+{% include 'yellow/yellow-reseat-cm5.md' %}
 
 ## Installing and running rpiboot
 
-{% partial 'yellow/yellow-install-rpiboot.md' %}
+{% include 'yellow/yellow-install-rpiboot.md' %}
 
 ## Installing the Home Assistant OS using Raspberry Pi Imager
 
-{% partial 'yellow/yellow-install-haos-cm5.md' %}
+{% include 'yellow/yellow-install-haos-cm5.md' %}
 
 ## Reassembling your Home Assistant Yellow
 
-{% partial 'yellow/yellow-reassemble-case.md' %}
+{% include 'yellow/yellow-reassemble-case.md' %}
 
 ## Setting up
 
-{% partial 'yellow/yellow-setup-cm5.md' %}
+{% include 'yellow/yellow-setup-cm5.md' %}
 
 ## Related topics
 
