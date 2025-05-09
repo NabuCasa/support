@@ -48,7 +48,12 @@
 1. On your PC, run rpiboot and let it run through.
    - If you are using Windows, it might ask you if you want to reformat the disk. Select **Cancel** each time.
    - If you are running an Apple Silicon mac, before running rpiboot, make sure you open the terminal using the “Rosetta” compatibility mode.
-   - If you are using Linux or macOS, use `sudo ./rpiboot -d mass-storage-gadget64` to run the tool.
+   - If you are using Linux or macOS, use the following command to run the tool.
+
+     ```bash
+     sudo ./rpiboot -d mass-storage-gadget64
+     ```
+
 2. After a few seconds, the yellow LED on the Yellow board should start blinking.
 3. Afterwards, only the green LED should be on.
 4. The module is now ready to have the Home Assistant Operating System installed on it (next steps).
