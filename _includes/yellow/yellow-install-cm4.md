@@ -2,7 +2,7 @@
 
 {% steps %}
 {% step "Unpacking the components" %}
-{% image "/static/img/yellow/step-5-poe-unpacked.jpeg" "Clip showing the components layed out, with the case disassembled" %}
+{% image "/static/img/yellow/step-5-poe-unpacked.jpeg" "Clip showing the components laid out, with the case disassembled" %}
 {% stepContent %}
 
 - Make sure you have all the components:
