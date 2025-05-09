@@ -22,19 +22,19 @@ Step-by-step instructions on adding an NVMe M.2 SSD drive to your Home Assistant
 
   ## Opening the case
 
-{% partial 'yellow/yellow-open-case-cm5.md' %}
+{% include 'yellow/yellow-open-case-cm5.md' %}
 
 ## Installing the NVMe drive
 
-{% partial 'yellow/yellow-install-nvme-cm4.md' %}
+{% include 'yellow/yellow-install-nvme-cm4.md' %}
 
 ## Reassembling your Home Assistant Yellow
 
-{% partial 'yellow/yellow-reassemble-case.md' %}
+{% include 'yellow/yellow-reassemble-case.md' %}
 
 ## Moving the data disk
 
-{% partial 'yellow/yellow-move-data-disk.md' %}
+{% include 'yellow/yellow-move-data-disk.md' %}
 
 ## Related topics
 

@@ -1,5 +1,6 @@
 import path, { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
+import childProcess from "child_process";
 import fs from "fs";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
 import { load as yamlLoad } from "js-yaml";
@@ -9,6 +10,7 @@ import {
   HAZARD_TYPE,
   HAZARD_TYPE_MAP,
   STEP_INFO_ICON,
+  STEP_RESULT_ICON,
 } from "./defs.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -16,8 +18,17 @@ const __dirname = dirname(__filename);
 
 const isPreview = process.env.PREVIEW_BUILD || process.argv.includes("--serve");
 
+const languageDisplayNames = new Intl.DisplayNames(["en"], {
+  type: "language",
+});
+const currentGitSha = childProcess
+  .execSync(`git log -1 --format=format:%H`)
+  .toString()
+  .trim();
+
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
+  eleventyConfig.setLayoutsDirectory("../_layouts");
   eleventyConfig.setIncludesDirectory("../_includes");
   eleventyConfig.setDataDirectory("../_data");
   eleventyConfig.addGlobalData(
@@ -71,6 +82,10 @@ export default async function (eleventyConfig) {
       };
     }
     return data;
+  });
+
+  eleventyConfig.addFilter("languageDisplayName", function (code) {
+    return languageDisplayNames.of(code);
   });
 
   eleventyConfig.addCollection("zendeskCategories", function (collection) {
@@ -283,6 +298,7 @@ export default async function (eleventyConfig) {
 
     return `<div class="callout ${type}"><div class="callout-prefix">${calloutMap.icon} ${calloutMap.text}:</div><div class="callout-content">${content}</div></div>`;
   });
+
   eleventyConfig.addShortcode("stepInfo", function (content) {
     // if type not in array of strings
     if (!content) {
@@ -291,14 +307,22 @@ export default async function (eleventyConfig) {
 
     return `<div class="step-info"><div class="step-info-prefix">${STEP_INFO_ICON} Info:</div><div>${content}</div></div>`;
   });
-  eleventyConfig.addShortcode("stepResult", function (type, content) {});
+
+  eleventyConfig.addShortcode("stepResult", function (content) {
+    // if type not in array of strings
+    if (!content) {
+      throw new Error("Step result shortcode requires content");
+    }
+
+    return `<div class="step-result"><div class="step-result-prefix">${STEP_RESULT_ICON} Result:</div><div>${content}</div></div>`;
+  });
 
   eleventyConfig.addShortcode("zendeskData", function (zendeskFrontmatter) {
     return `<!-- ${JSON.stringify({ zendesk: zendeskFrontmatter })} -->`;
   });
 
-  eleventyConfig.addShortcode("timestamp", function (zendeskFrontmatter) {
-    return new Date().setUTCHours(0, 0, 0, 0);
+  eleventyConfig.addShortcode("currentGitSha", function () {
+    return currentGitSha;
   });
 
   eleventyConfig.addShortcode("partial", function (filename, data) {
@@ -307,7 +331,7 @@ export default async function (eleventyConfig) {
       filename = `${filename}.md`;
     }
 
-    const partialPath = path.join(__dirname, "./_partials", filename);
+    const partialPath = path.join(__dirname, "./_includes", filename);
 
     if (!fs.existsSync(partialPath)) {
       return `Partial not found: ${partialPath}`;
