@@ -1,30 +1,50 @@
 <!--Installing the NVMe on Yellow with CM4-->
 
-1. Unscrew the stand-off nut.
+{% steps %}
+{% step "Unscrewing the stand-off nut" %}
+{% image "/static/img/yellow/step-8.png" "Preparation" %}
+{% stepContent %}
 
-    ![Preparation](/static/img/yellow/step-8.png)
+- Unscrew the stand-off nut.
 
-1. Inserting the drive
-    - **Notice**: **Do not touch the gold connector pins**.
-    - Carefully hold the NVMe M.2 SSD by the sides.
-    - Align the notches in the SSD with the ridges in the slot.
-    - Then, insert at a 30-degree angle.
-    - Do not force the connection.
+{% endstepContent %}
+{% endstep %}
 
-    ![Inserting the drive](/static/img/yellow/step-9.png)
+{% step "Inserting the drive" %}
+{% image "/static/img/yellow/step-9.png" "Inserting the drive" %}
+{% stepContent %}
 
-1. Installing the stand-off nut
-    - Slide the stand-off nut into the dent at the end of the SSD drive.
-    - Make sure the thinner end of the nut is on top.
+- **Notice**: **Do not touch the gold connector pins**.
+  - Carefully hold the NVMe M.2 SSD by the sides.
+  - Align the notches in the SSD with the ridges in the slot.
+  - Then, insert at a 30-degree angle.
+  - Do not force the connection.
 
-    ![Installing the stand-off nut](/static/img/yellow/step-10.png)
+{% endstepContent %}
+{% endstep %}
 
-1. Attaching the SSD drive to the board
-    - Press the stand-off nut and the SSD drive against the board.
-    - While pressing down the drive, turn over the board.
-    - From the rear side of the board, insert the M2 hex screw.
-      > **Notice**: **Risk of damage to equipment due to excessive force**.
-      >
-      > - Do not over-tighten the screw.
+{% step "Installing the stand-off nut" %}
+{% image "/static/img/yellow/step-10.png" "Installing the stand-off nut" %}
+{% stepContent %}
 
-    ![Attaching the SSD drive to the board](/static/img/yellow/step-12.png)
+- Slide the stand-off nut into the dent at the end of the SSD drive.
+- Make sure the thinner end of the nut is on top.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Attaching the SSD drive to the board" %}
+{% image "/static/img/yellow/step-12.png" "Attaching the SSD drive to the board" %}
+{% stepContent %}
+
+  **Notice**: **Risk of damage to equipment due to excessive force**.
+  - Do not over-tighten the screw.
+
+- Press the stand-off nut and the SSD drive against the board.
+- While pressing down the drive, turn over the board.
+- From the rear side of the board, insert the M2 hex screw.
+
+
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
