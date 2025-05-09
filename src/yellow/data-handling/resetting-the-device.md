@@ -9,7 +9,7 @@ zendesk:
 
 ## About resetting the device
 
-{% partial 'about-device-reset.md' %}
+{% include 'about-device-reset.md' %}
 
 ## Resetting the  device
 
