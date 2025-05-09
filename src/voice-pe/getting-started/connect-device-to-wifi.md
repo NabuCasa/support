@@ -121,7 +121,7 @@ If you don't want to use a phone and your Home Assistant has Bluetooth: either o
       - **Option 2**: If you choose **Do it yourself**:
         - {% stepInfo "If you have lower-power hardware, this option is not recommended. Weaker Home Assistant hardware can lead to slow speech processing." %}
         - Select **Setup with add-ons**.
-        - {% stepResult "The required add-ons are being installed: **Whisper**, **Piper**." %}
+        - **Result**: The required add-ons are being installed: **Whisper**, **Piper**.
    4. On the integrations page, under **Discovered**, **Add** the **Whisper** and **Piper** integrations.
 
 {% endstepContent %}
