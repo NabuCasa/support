@@ -20,20 +20,12 @@ The following button presses are supported:
 
 ## To use the center button to trigger automations
 
-{% steps %}
-{% step "Create an automation for the button press" %}
-{% image "https://img.youtube.com/vi/4QszFcwWYNY/0.jpg" "Link to Youtube video showing how to use the button for automations" %}
-{% stepContent %}
-
 - To set up an automation based on a button press pattern (for example, long press), follow the steps on [automating on a button press](https://www.home-assistant.io/integrations/event/#automating-on-a-button-press).
 
 - {% stepInfo "Those instructions are based on a Matter device." %}
 
   - The process is very similar for a voice device.
 
-{% endstepContent %}
-{% endstep %}
-{% endsteps %}
 
 ## Related topics
 
