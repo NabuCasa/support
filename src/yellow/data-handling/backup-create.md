@@ -7,6 +7,6 @@ zendesk:
 ---
 
 
-{% partial 'backups-about.md' %}
+{% include 'backups-about.md' %}
 
-{% partial 'backups-create.md' %}
+{% include 'backups-create.md' %}
