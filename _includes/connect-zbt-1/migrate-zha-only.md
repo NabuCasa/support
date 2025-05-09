@@ -102,7 +102,7 @@ This [video](/hc/en-us/articles/26124431414557) shows the effect of interference
 {% stepContent %}
 
 - Select the **Permanently replace the radio IEEE address** and select **Submit**.
-- {% stepInfo "This means that your old stick and your new stick will have the same IEEE address." %}
+- **Info** This means that your old stick and your new stick will have the same IEEE address.
   - This is required for the migration process to complete successfully.
   - From this point onwards, you should not operate the old stick in the same area. If you do not migrate the IEEE address from your old stick, you'll have to repair many of your devices to keep them working.
 
@@ -123,7 +123,9 @@ This [video](/hc/en-us/articles/26124431414557) shows the effect of interference
 {% stepContent %}
 
 - Select **Finish** to confirm. The migration process is now complete.
-- {% stepInfo "You won't be able to control the devices until they rejoin the network. Normally, they rejoin within one hour. You may be able to accelerate that process by power-cycling devices." %}
+- **Info** You won't be able to control the devices until they rejoin the network.
+  - Normally, they rejoin within one hour.
+  - You may be able to accelerate that process by power-cycling devices.
 
 {% endstepContent %}
 {% endstep %}
