@@ -18,8 +18,8 @@ Step-by-step instructions on removing the compute module from Home Assistant Yel
 
 ## Opening the case
 
-{% partial 'yellow/yellow-open-case-cm5.md' %}
+{% include 'yellow/yellow-open-case-cm5.md' %}
 
 ## Removing the Raspberry Pi Compute Module
 
-{% partial 'yellow/yellow-remove-cm.md' %}
+{% include 'yellow/yellow-remove-cm.md' %}

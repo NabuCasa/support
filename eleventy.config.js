@@ -13,11 +13,18 @@ import {
   STEP_RESULT_ICON,
 } from "./defs.js";
 
+import markdownIt from "markdown-it";
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+const md = markdownIt({ html: true, breaks: false });
+
 const isPreview = process.env.PREVIEW_BUILD || process.argv.includes("--serve");
 
+const languageDisplayNames = new Intl.DisplayNames(["en"], {
+  type: "language",
+});
 const currentGitSha = childProcess
   .execSync(`git log -1 --format=format:%H`)
   .toString()
@@ -25,6 +32,7 @@ const currentGitSha = childProcess
 
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
+  eleventyConfig.setLayoutsDirectory("../_layouts");
   eleventyConfig.setIncludesDirectory("../_includes");
   eleventyConfig.setDataDirectory("../_data");
   eleventyConfig.addGlobalData(
@@ -78,6 +86,10 @@ export default async function (eleventyConfig) {
       };
     }
     return data;
+  });
+
+  eleventyConfig.addFilter("languageDisplayName", function (code) {
+    return languageDisplayNames.of(code);
   });
 
   eleventyConfig.addCollection("zendeskCategories", function (collection) {
@@ -297,7 +309,7 @@ export default async function (eleventyConfig) {
       throw new Error("Step info shortcode requires content");
     }
 
-    return `<div class="step-info"><div class="step-info-prefix">${STEP_INFO_ICON} Info:</div><div>${content}</div></div>`;
+    return `<div class="step-info"><div class="step-info-prefix">${STEP_INFO_ICON} Info:</div><div>${md.renderInline(content)}</div></div>`;
   });
 
   eleventyConfig.addShortcode("stepResult", function (content) {
@@ -306,7 +318,7 @@ export default async function (eleventyConfig) {
       throw new Error("Step result shortcode requires content");
     }
 
-    return `<div class="step-result"><div class="step-result-prefix">${STEP_RESULT_ICON} Result:</div><div>${content}</div></div>`;
+    return `<div class="step-result"><div class="step-result-prefix">${STEP_RESULT_ICON} Result:</div><div>${md.renderInline(content)}</div></div>`;
   });
 
   eleventyConfig.addShortcode("zendeskData", function (zendeskFrontmatter) {
@@ -323,7 +335,7 @@ export default async function (eleventyConfig) {
       filename = `${filename}.md`;
     }
 
-    const partialPath = path.join(__dirname, "./_partials", filename);
+    const partialPath = path.join(__dirname, "./_includes", filename);
 
     if (!fs.existsSync(partialPath)) {
       return `Partial not found: ${partialPath}`;
