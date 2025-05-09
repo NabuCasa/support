@@ -6,13 +6,21 @@ zendesk:
   labels: voice pe, operation, using the device, volume
 ---
 
+{% steps %}
+{% step "Changing the volume" %}
+{% image "/static/img/voice-pe/voice_change_volume.webp" "Clip showing how to move the dial to change the volume" %}
+{% stepContent %}
+
 To change the volume, move the dial.
 
-- **Result**: the light shows if you are turning the volume up or down.
+- {% stepResult "The light shows if you are turning the volume up or down." %}
+
   - A fully illuminated LED ring indicates the maximum volume.
   - If the LED closest to the speaker is red, the volume is set to 0.
 
-   ![Clip showing how to move the dial to change the volume](/static/img/voice-pe/voice_change_volume.webp)
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 
