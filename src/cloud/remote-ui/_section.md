@@ -1,6 +1,6 @@
 ---
 zendesk:
   section_id: 26496346499997
-  position: 25
+  position: 20
   name: Home Assistant Remote UI
 ---

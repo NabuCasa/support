@@ -2,6 +2,6 @@
 zendesk:
   section_id: 24979873257245
   name: Resources
-  position: 10
+  position: 60
   description: Files for download
 ---
