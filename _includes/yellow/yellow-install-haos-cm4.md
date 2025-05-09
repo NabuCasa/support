@@ -1,110 +1,156 @@
 <!---Installing Home Assistant Software on Kit, CM4-->
 
-1. Installing the Raspberry Pi Imager
+{% steps %}
+{% step "Installing the Raspberry Pi Imager" %}
+{% image "/static/img/yellow/rpi_imager.png" "Screenshot of Raspberry Pi Imager Download page" %}
+{% stepContent %}
 
-   - Install the Raspberry Pi Imager on your computer as described under [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/).
-      - **Info**: If your platform doesn't support the Raspberry Pi Imager, you can use another imager (e.g. balenaEtcher) and flash the Home Assistant OS Installer for Yellow directly from [GitHub releases](https://github.com/NabuCasa/yellow-buildroot/releases).
-      - **Important**: If you are using a Raspberry Pi Compute Module 4 (CM4) that already has software on it, this procedure does not work. Ignore this and the following steps.
-         - Instead, follow the procedure [Option 2: Reinstall Home Assistant OS using rpiboot]().
-         - The reason is that by default, the CM4 tries to boot from the internal eMMC before booting from the USB flash drive.
+- Install the Raspberry Pi Imager on your computer as described under [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/).
+  - **Info**: If your platform doesn't support the Raspberry Pi Imager, you can use another imager (e.g. balenaEtcher) and flash the Home Assistant OS Installer for Yellow directly from [GitHub releases](https://github.com/NabuCasa/yellow-buildroot/releases).
+  - **Important**: If you are using a Raspberry Pi Compute Module&nbsp;4 (CM4) that already has software on it, this procedure does not work. Ignore this and the following steps.
+    - Instead, follow the procedure [Option 2: Reinstall Home Assistant OS using rpiboot]().
+    - The reason is that by default, the CM4 tries to boot from the internal eMMC before booting from the USB flash drive.
 
-   ![Screenshot of Raspberry Pi Imager Download page](/static/img/yellow/rpi_imager.png)
+{% endstepContent %}
+{% endstep %}
 
-1. Open Raspberry Pi Imager.
+{% step "Open Raspberry Pi Imager" %}
+{% image "/static/img/yellow/start_rpi_imager.png" "Raspberry Pi Imager start page" %}
+{% stepContent %}
 
-   - Under **Raspberry Pi Device**, select **Raspberry Pi 4**.
+- Under **Raspberry Pi Device**, select **Raspberry Pi&nbsp;4**.
 
-   ![Raspberry Pi Imager start page](/static/img/yellow/start_rpi_imager.png)
+{% endstepContent %}
+{% endstep %}
 
-1. Choosing the operating system to install on CM4.
+{% step "Choosing the operating system to install on CM4" %}
+{% image "/static/img/yellow/rpi_choose_ha_os.gif" "Clip showing how to choose the Home Assistant Operating System" %}
+{% stepContent %}
 
-   - Select **Choose OS**.
-   - Choose **Other specific-purpose OS**.
-   - Choose **Home assistants and home automation**.
-   - Choose **Home Assistant**.
-   - Choose **Home Assistant OS Installer for Yellow**.
+- Select **Choose OS**.
+- Choose **Other specific-purpose OS**.
+- Choose **Home assistants and home automation**.
+- Choose **Home Assistant**.
+- Choose **Home Assistant OS Installer for Yellow**.
 
-   ![Clip showing how to choose the Home Assistant Operating System](/static/img/yellow/rpi_choose_ha_os.gif)
+{% endstepContent %}
+{% endstep %}
 
-1. Choosing storage.
+{% step "Choosing storage" %}
+{% image "/static/img/yellow/rpi_choose_storage.png" "Screenshot showing the external storage" %}
+{% stepContent %}
 
-   - Insert the USB flash drive into the computer. Note: The contents of this drive will be overwritten.
-   - From the dropdown menu, select your USB flash drive.
+- Insert the USB flash drive into the computer. Note: The contents of this drive will be overwritten.
+- From the dropdown menu, select your USB flash drive.
 
-   ![Screenshot showing the external storage](/static/img/yellow/rpi_choose_storage.png)
+{% endstepContent %}
+{% endstep %}
 
-1. Writing the installer onto the drive.
+{% step "Writing the installer onto the drive" %}
+{% image "/static/img/yellow/rpi_choose_next.png" "Screenshot showing the next button" %}
+{% stepContent %}
 
-   - Select the **Next** button to start the process.
-   - Wait for the Home Assistant OS Installer to be written to the USB flash drive.
+- Select the **Next** button to start the process.
+- Wait for the Home Assistant OS Installer to be written to the USB flash drive.
+- Eject the USB flash drive.
 
-   ![Screenshot showing the next button](/static/img/yellow/rpi_choose_next.png)
+{% endstepContent %}
+{% endstep %}
 
-1. Eject the USB flash drive.
+{% step "Inserting the flash drive" %}
+{% image "/static/img/yellow/plug-usb-flash.jpeg" "Image showing the flash drive plugged into Home Assistant Yellow" %}
+{% stepContent %}
 
-1. Insert the USB flash drive with the Home&nbsp;Assistant OS Installer into your Home&nbsp;Assistant&nbsp;Yellow&nbsp;Kit.
+- Insert the USB flash drive with the Home&nbsp;Assistant OS Installer into your Home&nbsp;Assistant&nbsp;Yellow&nbsp;Kit.
 
-   ![Image showing the flash drive plugged into Home Assistant Yellow](/static/img/yellow/plug-usb-flash.jpeg)
+{% endstepContent %}
+{% endstep %}
 
-1. Connect the Ethernet cable to your Home Assistant Yellow Kit and make sure it has access to the internet.
+{% step "Connecting to the internet" %}
+{% image "/static/img/yellow/plug-usb-flash-ethernet.jpeg" "Image showing the flash drive and the Ethernet cable plugged into Home Assistant Yellow" %}
+{% stepContent %}
 
-   - **Note**: Internet is required because the newly installed Home Assistant OS does not contain all Home Assistant components yet. It downloads the latest version of Home Assistant Core on first start.
+- Connect the Ethernet cable to your Home Assistant Yellow Kit and make sure it has access to the internet.
+  - **Note**: Internet is required because the newly installed Home Assistant OS does not contain all Home Assistant components yet. It downloads the latest version of Home Assistant Core on first start.
 
-   ![Image showing the flash drive and the Ethernet cable plugged into Home Assistant Yellow](/static/img/yellow/plug-usb-flash-ethernet.jpeg)
+{% endstepContent %}
+{% endstep %}
 
-1. Connecting the power supply (if you don't have PoE).
+{% step "Connecting the power supply (if you don't have PoE)" %}
+{% image "/static/img/yellow/plug-usb-flash-ethernet-power.jpeg" "Image showing the flash drive, Ethernet cable, and power supply all plugged into Home Assistant Yellow" %}
+{% stepContent %}
 
-   - If you are not using PoE, connect the power supply to Home Assistant Yellow Kit.
-   - **Info**: For CM4 Lite, Home Assistant OS is automatically installed on the NVMe SSD. For regular CM4s, Home Assistant OS is installed onto the eMMC by default.
-   - **Advanced**: Forcing installation onto the NVMe SSD when using CM4 with eMMC:
-      - Press the blue button while the yellow LED is on constantly (during the 5s window, see next step).
+- If you are not using PoE, connect the power supply to Home Assistant Yellow Kit.
+- **Info**: For CM4 Lite, Home Assistant OS is automatically installed on the NVMe SSD. For regular CM4s, Home Assistant OS is installed onto the eMMC by default.
+- **Advanced**: Forcing installation onto the NVMe SSD when using CM4 with eMMC:
+  - Press the blue button while the yellow LED is on constantly (during the 5s window, see next step).
 
-   ![Image showing the flash drive, Ethernet cable, and power supply all plugged into Home Assistant Yellow](/static/img/yellow/plug-usb-flash-ethernet-power.jpeg)
+{% endstepContent %}
+{% endstep %}
 
-1. Watching the LEDs.
+{% step "Watching the LEDs" %}
+{% image "/static/img/yellow/led-pattern-blink-steady.webp" "Clip showing the LED pattern with the yellow LED blinking steady" %}
+{% stepContent %}
 
-   - Wait for Home Assistant Yellow to start booting from the USB flash drive.
-   - During boot, the Yellow LED will blink steadily.
-   - Once the installer is ready, the Yellow LED will be constantly on for 5 seconds.
-   - **Troubleshooting**: If the LED is stuck in steady blinking or constantly on for an extended period of time, this could indicate that the installer cannot connect to the internet. Follow this procedure to troubleshoot.
+- Wait for Home Assistant Yellow to start booting from the USB flash drive.
+- During boot, the Yellow LED will blink steadily.
+- Once the installer is ready, the Yellow LED will be constantly on for 5 seconds.
+- **Troubleshooting**: If the LED is stuck in steady blinking or constantly on for an extended period of time, this could indicate that the installer cannot connect to the internet. Follow this procedure to troubleshoot.
 
-   ![Clip showing the LED pattern with the yellow LED blinking steady](/static/img/yellow/led-pattern-blink-steady.webp)
+{% endstepContent %}
+{% endstep %}
 
-1. Waiting.
-   - During installation, the LED will blink fast.
-   - Wait for Home Assistant Yellow to finish installing the Home Assistant Operating System.
-   - Once the installer finishes installing the Home Assistant Operating System, only the red LED will be on.
+{% step "Waiting" %}
+{% image "/static/img/yellow/led-pattern-install-blink-fast.webp" "Clip showing the LED pattern with the yellow LED blinking fast" %}
+{% stepContent %}
 
-   ![Clip showing the LED pattern with the yellow LED blinking fast](/static/img/yellow/led-pattern-install-blink-fast.webp)
+- During installation, the LED will blink fast.
+- Wait for Home Assistant Yellow to finish installing the Home Assistant Operating System.
+- Once the installer finishes installing the Home Assistant Operating System, only the red LED will be on.
 
-1. Disconnecting everything.
+{% endstepContent %}
+{% endstep %}
 
-   - Remove the USB flash drive.
-   - Remove the power cable.
+{% step "Disconnecting everything" %}
+{% image "/static/img/yellow/plug-nothing.jpeg" "Image showing the connectors of the Yellow with nothing connected to them" %}
+{% stepContent %}
 
-   ![Image showing the connectors of the Yellow with nothing connected to them](/static/img/yellow/plug-nothing.jpeg)
+- Remove the USB flash drive.
+- Remove the power cable.
 
-1. Reconnecting power.
+{% endstepContent %}
+{% endstep %}
 
-   - Reinsert the Ethernet cable.
-   - Reinsert the power cable to start Home Assistant (if PoE is not used).
+{% step "Reconnecting power" %}
+{% image "/static/img/yellow/plug-ethernet-power.jpeg" "Image showing the the Yellow with Ethernet and power connected" %}
+{% stepContent %}
 
-   ![Image showing the the Yellow with Ethernet and power connected](/static/img/yellow/plug-ethernet-power.jpeg)
+- Reinsert the Ethernet cable.
+- Reinsert the power cable to start Home Assistant (if PoE is not used).
 
-1. Get started with Home Assistant.
+{% endstepContent %}
+{% endstep %}
 
-   1. Initial startup may take a while, depending on your internet connection.
-      ![Home Assistant user interface on a screen](/static/img/green/getting_started_04.png)
-   1. Install the app.
+{% step "Get started with Home Assistant" %}
+{% image "/static/img/green/getting_started_04.png" "Home Assistant user interface on a screen" %}
+{% stepContent %}
 
-      To access Home Assistant from your mobile device, use the QR code to locate the app in the app store.
+1. Initial startup may take a while, depending on your internet connection.
 
-   1. Select your Home Assistant server.
+2. Install the app.
 
-      **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196:8123`
+  To access Home Assistant from your mobile device, use the QR code to locate the app in the app store.
 
-      **Desktop**: Visit [http://homeassistant.local:8123](http://homeassistant.local:8123) to access the Home Assistant user interface.
+3. Select your Home Assistant server.
 
-   1. The Home Assistant user interface guides you through the initial onboarding.
+    **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196:8123`
 
-   1. For further information, refer to the instructions provided under [https://www.home-assistant.io/getting-started/onboarding/](https://www.home-assistant.io/getting-started/onboarding/).
+    **Desktop**: Visit [http://homeassistant.local:8123](http://homeassistant.local:8123) to access the Home Assistant user interface.
+
+4. The Home Assistant user interface guides you through the initial onboarding.
+
+5. For further information, refer to the instructions provided under [https://www.home-assistant.io/getting-started/onboarding/](https://www.home-assistant.io/getting-started/onboarding/).
+
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
