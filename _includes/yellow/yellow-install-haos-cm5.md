@@ -15,7 +15,7 @@
 {% image "/static/img/yellow/yellow_rpi-imager_select_device_cm5.png" "Open Raspberry Pi Imager" %}
 {% stepContent %}
 
-- Under **Raspberry Pi Device**, select **Raspberry Pi 5**.
+- Under **Raspberry Pi Device**, select **Raspberry Pi&nbsp;5**.
 
 {% endstepContent %}
 {% endstep %}
