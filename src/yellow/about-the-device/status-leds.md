@@ -51,4 +51,4 @@ As the Home Assistant OS Installer is not used for the Raspberry Pi Compute Modu
 | Fast blinking (~3-5 min) ![Fast blinking](/static/img/yellow/led-pattern-install-blink-fast.webp) | Downloading and installing Home Assistant OS.                                                     |
 | Off                                                                                               | Installer finished. Green LED blinks a few times before turning off. Only the red LED remains on. |
 
-{% partial 'disable-leds.md' %}
+{% include 'disable-leds.md' %}

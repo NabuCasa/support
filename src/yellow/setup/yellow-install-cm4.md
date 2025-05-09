@@ -20,12 +20,12 @@ Step-by-step instructions on install the Raspberry Pi Compute Module 4 (CM4) on 
 
 ## Opening the case
 
-{% partial 'yellow/yellow-open-case-cm5.md' %}
+{% include 'yellow/yellow-open-case-cm5.md' %}
 
 ## Installing the Raspberry Pi Compute Module 4
 
-{% partial 'yellow/yellow-install-cm4.md' %}
+{% include 'yellow/yellow-install-cm4.md' %}
 
 ## Reassembling your Home Assistant Yellow
 
-{% partial 'yellow/yellow-reassemble-case.md' %}
+{% include 'yellow/yellow-reassemble-case.md' %}
