@@ -14,20 +14,17 @@ The following button presses are supported:
 - Triple press
 - Long press
 
+## To use the center button to trigger automations
+
+- To set up an automation based on a button press pattern (for example, long press), follow the steps on [automating on a button press](https://www.home-assistant.io/integrations/event/#automating-on-a-button-press).
+
+- {% stepInfo "Those instructions are based on a Matter device." %}
+
+  - The process is very similar for a voice device.
+
 <div class='videoWrapper'>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4QszFcwWYNY" frameborder="0" videotitle="Home Assistant Voice Preview Edition: Voice button press automations" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" controls></iframe>
 </div>
-
-## To use the center button to trigger automations
-
-- Create an automation for the button press.
-  - To set up an automation based on a button press pattern (for example, long press), follow the steps on [automating on a button press](https://www.home-assistant.io/integrations/event/#automating-on-a-button-press).
-  - **Info**: Those instructions are based on a Matter device.
-  - The process is very similar for a voice device.
-
-  Click the image to view the video on Youtube.
-
-  [![Link to Youtube video showing how to use the button for automations](https://img.youtube.com/vi/4QszFcwWYNY/0.jpg)](https://www.youtube.com/watch?v=4QszFcwWYNY)
 
 ## Related topics
 

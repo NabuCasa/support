@@ -22,38 +22,64 @@ There are 2 different start up procedures, depending on the current state of you
 
 ## Starting up the system if it is still connected to Ethernet and power
 
-1. Powering up the system.
-   - Press the power button.
-   - Once the yellow LED blinks in a heard beat pattern, the system is ready.
+{% steps %}
+{% step "Powering up the system" %}
+{% image "/static/img/green/green_connect_ethernet.webp" "Clip showing how to plug i the Ethernet cable" %}
+{% stepContent %}
 
-   ![Clip showing how to plug i the Ethernet cable](/static/img/green/green_connect_ethernet.webp)
+ - Press the power button.
+ - Once the yellow LED blinks in a heart beat pattern, the system is ready.
 
-2. Connect to Home Assistant.
+{% endstepContent %}
+{% endstep %}
+
+{% step "Connecting to Home Assistant" %}
+{% image "/static/img/green/lovelace.png" "Screenshot showing a Home Assistant dashboard" %}
+{% stepContent %}
+
    - Select your Home Assistant server:
       - **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196:8123`
       - **Desktop**: Visit [http://homeassistant.local:8123](http://homeassistant.local:8123) to access the Home Assistant user interface.
 
-   ![Screenshot showing a Home Assistant dashboard](/static/img/green/lovelace.png)
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Starting up the system if it has been disconnected
 
 Follow these steps if you want to start up the system after it has been powered off.
 
-1. Connect the device to the Internet.
+{% steps %}
+{% step "Connecting the device to the Internet" %}
+{% image "/static/img/green/green_reset_power-up_heartbeat.webp" "Clip showing the where to press the button on the device" %}
+{% stepContent %}
+
    - Plug in your Ethernet cable and make sure it is locked into place.
    - Connect the other end of the Ethernet cable to your router or switch.
 
-   ![Clip showing the where to press the button on the device](/static/img/green/green_reset_power-up_heartbeat.webp)
-2. Connect the power to the electrical outlet and then to the Home Assistant Green.
+{% endstepContent %}
+{% endstep %}
 
-   ![Clip showing the where to press the button on the device](/static/img/green/green_connect_power.webp)
+{% step "Connecting power" %}
+{% image "/static/img/green/green_connect_power.webp" "Clip showing the where to press the button on the device" %}
+{% stepContent %}
 
-3. Connect to Home Assistant.
+- Connect the power to the electrical outlet and then to the Home Assistant Green.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Connecting to Home Assistant" %}
+{% image "/static/img/green/lovelace.png" "Screenshot showing a Home Assistant dashboard" %}
+{% stepContent %}
+
    - Select your Home Assistant server:
-      - **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196:8123`
+      - **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196:8123`.
       - **Desktop**: Visit [http://homeassistant.local:8123](http://homeassistant.local:8123) to access the Home Assistant user interface.
 
-   ![Screenshot showing a Home Assistant dashboard](/static/img/green/lovelace.png)
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 
