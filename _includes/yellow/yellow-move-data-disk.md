@@ -12,7 +12,7 @@
 {% endstep %}
 
 {% step "Starting the moving process" %}
-{% image "/static/img/yellow/move-datadisk.png" "move-datadisk" %}
+{% image "/static/img/yellow/move-datadisk.png" "Card showing disk metrics" %}
 {% stepContent %}
 
 - Select **Move datadisk**.
@@ -21,7 +21,7 @@
 {% endstep %}
 
 {% step "Selecting the NVMe drive" %}
-{% image "/static/img/yellow/select-new-datadisk.png" "select-new-datadisk" %}
+{% image "/static/img/yellow/select-new-datadisk.png" "Select new datadisk dialog" %}
 {% stepContent %}
 
 - Select your NVMe drive. If it does not show the full name of your disk, select **nvme0n1** and select **MOVE**.
@@ -32,7 +32,7 @@
 {% endstep %}
 
 {% step "Viewing the new disk" %}
-{% image "/static/img/yellow/move-datadisk-02.png" "move-datadisk-02" %}
+{% image "/static/img/yellow/move-datadisk-02.png" "Card showing different disk metrics after the move" %}
 {% stepContent %}
 
 - Once the transfer has been completed, hover over the status bar to see how much free disk space there is available.
