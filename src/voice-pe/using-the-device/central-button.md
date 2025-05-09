@@ -22,9 +22,9 @@ The following button presses are supported:
 
   - The process is very similar for a voice device.
 
-  <div class='videoWrapper'>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/4QszFcwWYNY" frameborder="0" videotitle="Home Assistant Voice Preview Edition: Voice button press automations" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" controls></iframe>
-  </div>
+<div class='videoWrapper'>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4QszFcwWYNY" frameborder="0" videotitle="Home Assistant Voice Preview Edition: Voice button press automations" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" controls></iframe>
+</div>
 
 ## Related topics
 
