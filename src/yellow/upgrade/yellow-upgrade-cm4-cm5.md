@@ -28,40 +28,40 @@ Additionally, make sure you have the following items which are not part of the K
 
 ## Preparing the migration
 
-{% partial 'yellow/yellow-migration-to-cm5-prep.md' %}
+{% include 'yellow/yellow-migration-to-cm5-prep.md' %}
     - Before creating a backup, make sure your CM5 eMMC has enough storage capacity:
       - Check how much disk space you've used under [**Settings** > **System** > **Storage**](https://my.home-assistant.io/redirect/storage/)
         - If this is larger than the eMMC, you need to reduce the size of your instance.
 
 ## Opening the case
 
-{% partial 'yellow/yellow-open-case-cm5.md' %}
+{% include 'yellow/yellow-open-case-cm5.md' %}
 
 ## Removing the Raspberry Pi Compute Module 4
 
-{% partial 'yellow/yellow-remove-cm.md' %}
+{% include 'yellow/yellow-remove-cm.md' %}
 
 ## Seating the Raspberry Pi Compute Module 5
 
 **Notice**: Don't use screws to fix the module in place. The screws can damage the CM5 module.
 
-{% partial 'yellow/yellow-reseat-cm5.md' %}
+{% include 'yellow/yellow-reseat-cm5.md' %}
 
 ## Installing and running rpiboot
 
-{% partial 'yellow/yellow-install-rpiboot.md' %}
+{% include 'yellow/yellow-install-rpiboot.md' %}
 
 ## Installing the Home Assistant OS using Raspberry Pi Imager
 
-{% partial 'yellow/yellow-install-haos-cm5.md' %}
+{% include 'yellow/yellow-install-haos-cm5.md' %}
 
 ## Reassembling your Home Assistant Yellow
 
-{% partial 'yellow/yellow-reassemble-case.md' %}
+{% include 'yellow/yellow-reassemble-case.md' %}
 
 ## Setting up
 
-{% partial 'yellow/yellow-setup-cm5.md' %}
+{% include 'yellow/yellow-setup-cm5.md' %}
 
 ## Related topics
 
