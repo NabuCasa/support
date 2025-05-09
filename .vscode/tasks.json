@@ -27,6 +27,15 @@
         "kind": "test",
         "isDefault": true,
       },
+    },
+    {
+      "label": "Generate TTS languages",
+      "type": "shell",
+      "command": "npm run generate:tts-languages",
+      "group": {
+        "kind": "test",
+        "isDefault": true,
+      },
     }
   ]
 }
