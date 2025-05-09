@@ -2,7 +2,7 @@
 
 {% steps %}
 {% step "Protecting from ESD" %}
-{% image "/static/img/yellow/step-2-esd.png" "icon indicating risk of electrostatic discharge (ESD), A triangle including a hand about to touch something" %}
+{% image "/static/img/yellow/step-2-esd.png" "Icon indicating risk of electrostatic discharge (ESD), A triangle including a hand about to touch something" %}
 {% stepContent %}
 
 - Grounding protects the components from the static electricity that can be naturally present (electrostatic discharge, ESD).
@@ -15,7 +15,7 @@
 {% endstep %}
 
 {% step "Removing the case - bottom part" %}
-{% image "/static/img/yellow/cm5-remove-thumb-screws.jpg" "image showing the bottom of the Yellow with arrows around the thumb-screws indicating counter-clockwise motion" %}
+{% image "/static/img/yellow/cm5-remove-thumb-screws.jpg" "Image showing the bottom of the Yellow with arrows around the thumb-screws indicating counter-clockwise motion" %}
 {% stepContent %}
 
 1. Remove the 4 screws on the bottom of the Home Assistant Yellow Kit.
