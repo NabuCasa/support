@@ -50,7 +50,7 @@ This guide assumes you have the following setup:
 {% endstep %}
 
 {% step "Selecting the Thread firmware" %}
-{% image "Dialog to pick the firmware" "/static/img/yellow/pick_firmware_thread.png" %}
+{% image "/static/img/yellow/pick_firmware_thread.png" "Dialog to pick the firmware" %}
 {% stepContent %}
 
 1. Under **Pick your firmware**, select **Thread**.
@@ -62,7 +62,7 @@ This guide assumes you have the following setup:
 {% endstep %}
 
 {% step "Locating the Thread integration" %}
-{% image "Open Thread Border Router and Thread integration cards on integration page" "/static/img/yellow/otbr_thread_integrations.png" %}
+{% image "/static/img/yellow/otbr_thread_integrations.png" "Open Thread Border Router and Thread integration cards on integration page" %}
 {% stepContent %}
 
 - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
@@ -72,7 +72,7 @@ This guide assumes you have the following setup:
 {% endstep %}
 
 {% step "Ignoring Yellow as a Zigbee Home Automation device" %}
-{% image "Ignore button on ZHA integration card" "/static/img/yellow/yellow-zha-delete-discovery.png" %}
+{% image "/static/img/yellow/yellow-zha-delete-discovery.png" "Ignore button on ZHA integration card" %}
 {% stepContent %}
 
 1. On the Yellow ZHA card, select **Ignore**.
