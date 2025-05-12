@@ -11,7 +11,8 @@ zendesk:
 
   - Home Assistant Yellow with Compute Module installed, powered off
   - Flat nose pliers
-  - **Notice**: Don't use screws to fix the module in place. The screws can damage the CM5 module.
+
+{% include "fragments/notice-dont-use-screws.md" %}
 
   ![Home Assistant Yellow and flat nose pliers](/static/img/yellow/cm5_reseat_tools_350.jpg)
 
@@ -25,7 +26,7 @@ zendesk:
 
 ## Re-seating the Raspberry Pi Compute Module 5
 
-**Notice**: Don't use screws to fix the module in place. The screws can damage the CM5 module.
+{% include "fragments/notice-dont-use-screws.md" %}
 
 {% include 'yellow/yellow-reseat-cm5.md' %}
 

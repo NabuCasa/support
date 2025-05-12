@@ -23,47 +23,64 @@ This guide assumes you have the following setup:
 
 ## Enabling dedicated Thread support
 
-1. Delete the Zigbee Home Automation (ZHA) integration.
+{% steps %}
+{% step "Deleting the Zigbee Home Automation (ZHA) integration" %}
+{% image "/static/img/yellow/yellow-zha-delete.png" "Zigbee Home Automation integration page with delete button" %}
+{% stepContent %}
 
-   - If you have a new Yellow or did not setup Zigbee Home Automation (ZHA) yet, skip to Step 2.
-   - If you are using the Yellow with Zigbee Home Automation (ZHA), this step removes Zigbee Home Automation (ZHA) from the integration list.
-     1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-     2. Select the **Zigbee Home Automation integration** card.
-     3. Select the menu behind the **Yellow** integration and choose **Delete**.
-     4. In the pop-up menu, select **Delete again** to confirm deletion.
+- If you have a new Yellow or did not setup Zigbee Home Automation (ZHA) yet, skip to Step 2.
+- If you are using the Yellow with Zigbee Home Automation (ZHA), this step removes Zigbee Home Automation (ZHA) from the integration list.
+  1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
+  2. Select the **Zigbee Home Automation integration** card.
+  3. Select the menu behind the **Yellow** integration and choose **Delete**.
+  4. In the pop-up menu, select **Delete again** to confirm deletion.
 
-   ![](/static/img/yellow/yellow-zha-delete.png)
+{% endstepContent %}
+{% endstep %}
 
-2. Configure Yellow for Thread support.
+{% step "Configuring Yellow for Thread support" %}
+{% image "/static/img/yellow/configure_yellow.png" "Configure Yellow for Thread support on the Yellow hardware page" %}
+{% stepContent %}
 
-   1. Go to [**Settings** > **System** > **Hardware**](https://my.home-assistant.io/redirect/hardware/).
-   2. Select **Configure**.
-   3. Select **Switch between Zigbee and Thread** firmware.
+1. Go to [**Settings** > **System** > **Hardware**](https://my.home-assistant.io/redirect/hardware/).
+2. Select **Configure**.
+3. Select **Switch between Zigbee and Thread** firmware.
 
-   ![](/static/img/yellow/configure_yellow.png)
+{% endstepContent %}
+{% endstep %}
 
-3. Select the Thread firmware
+{% step "Selecting the Thread firmware" %}
+{% image "/static/img/yellow/pick_firmware_thread.png" "Dialog to pick the firmware" %}
+{% stepContent %}
 
-   1. Under **Pick your firmware**, select **Thread**.
-      - **Result**: **The OpenThread Border Router** add-on is installed.
-      - The dialog informs you that Connect ZBT-1 now acts as an OpenThread border router. Select **Submit**.
-   2. Then, select **Finish**.
+1. Under **Pick your firmware**, select **Thread**.
+   - **Result**: **The OpenThread Border Router** add-on is installed.
+   - The dialog informs you that Connect ZBT-1 now acts as an OpenThread border router. Select **Submit**.
+2. Then, select **Finish**.
 
-   ![](/static/img/yellow/pick_firmware_thread.png)
+{% endstepContent %}
+{% endstep %}
 
-4. Locate the Thread integration
+{% step "Locating the Thread integration" %}
+{% image "/static/img/yellow/otbr_thread_integrations.png" "Open Thread Border Router and Thread integration cards on integration page" %}
+{% stepContent %}
 
-   - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-   - You should now see the **OpenThread Border Router** and the **Thread** integrations.
+- Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
+- You should now see the **OpenThread Border Router** and the **Thread** integrations.
 
-   ![](/static/img/yellow/otbr_thread_integrations.png)
+{% endstepContent %}
+{% endstep %}
 
-5. Ignore Yellow as a Zigbee Home Automation device.
+{% step "Ignoring Yellow as a Zigbee Home Automation device" %}
+{% image "/static/img/yellow/yellow-zha-delete-discovery.png" "Ignore button on ZHA integration card" %}
+{% stepContent %}
 
-   1. On the Yellow ZHA card, select **Ignore**.
-   2. Confirm ignoring the Yellow for Zigbee Home Automation (ZHA) usage by selecting **Ignore** again.
+1. On the Yellow ZHA card, select **Ignore**.
+2. Confirm ignoring the Yellow for Zigbee Home Automation (ZHA) usage by selecting **Ignore** again.
 
-   ![](/static/img/yellow/yellow-zha-delete-discovery.png)
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 

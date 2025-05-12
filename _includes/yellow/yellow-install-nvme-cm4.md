@@ -37,13 +37,11 @@
 {% image "/static/img/yellow/step-12.png" "Attaching the SSD drive to the board" %}
 {% stepContent %}
 
-  **Notice**: **Risk of damage to equipment due to excessive force**.
-  - Do not over-tighten the screw.
+{% include "fragments/notice-excessive-force.md" %}
 
 - Press the stand-off nut and the SSD drive against the board.
 - While pressing down the drive, turn over the board.
 - From the rear side of the board, insert the M2 hex screw.
-
 
 {% endstepContent %}
 {% endstep %}

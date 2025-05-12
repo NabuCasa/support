@@ -35,8 +35,9 @@
 {% image "/static/img/yellow/cm5_insert-thumb-screws.jpg" "Clip showing how to fasten the thumb screws by turning them clockwise" %}
 {% stepContent %}
 
+{% include "fragments/notice-excessive-force.md" %}
+
 - Insert the 4 thumb screws.
-- **Notice**: Risk of damage to the equipment due to excessive force. Do not over-tighten the screws.
 
 {% endstepContent %}
 {% endstep %}

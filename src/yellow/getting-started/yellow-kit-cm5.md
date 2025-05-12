@@ -19,7 +19,8 @@ Additionally, make sure you have the following items which are not part of the K
 - Raspberry Pi Compute Module 5 (CM5)
 - USB-C cable
 - If you are using PoE, make sure your router or switch provides PoE on that port
-- **Notice**: Don't use screws to fix the module in place. The screws can damage the CM5 module.
+
+{% include "fragments/notice-dont-use-screws.md" %}
 
   ![Image showing the Home Assistant Yellow with a Raspberry Pi Compute Module 5, Heat sink assembly bag, Ethernet cable, power supply, a USB flash drive, and an NVMe M.2 SSD drive](/static/img/yellow/cm5_kit.jpg)
 
@@ -29,7 +30,7 @@ Additionally, make sure you have the following items which are not part of the K
 
 ## Seating the Raspberry Pi Compute Module 5
 
-**Notice**: Don't use screws to fix the module in place. The screws can damage the CM5 module.
+{% include "fragments/notice-dont-use-screws.md" %}
 
 {% include 'yellow/yellow-reseat-cm5.md' %}
 
