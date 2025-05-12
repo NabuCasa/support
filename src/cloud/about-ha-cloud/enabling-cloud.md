@@ -10,29 +10,49 @@ Before you can use the [features provided by Home Assistant Cloud](/hc/en-us/art
 
 ## To enable Home Assistant Cloud
 
-1. In Home Assistant, go to [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
+{% steps %}
+{% step "Opening the Home Assistant Cloud page" %}
+{% image "/static/img/cloud/ha-settings-panel.png" "Home Assistant Settings panel" %}
+{% stepContent %}
 
-   <img src="/static/img/cloud/ha-settings-panel.png" alt="Home Assistant Settings panel">
+- In Home Assistant, go to [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
 
-   - **Troubleshooting**: If you do not see **Home Assistant Cloud** under **Settings**, you might have removed the [`default_config`](https://www.home-assistant.io/integrations/default_config/) integration from your `configuration.yaml`.
-   Add `cloud:` to the `configuration.yaml` file.
+- **Troubleshooting**: If you do not see **Home Assistant Cloud** under **Settings**, you might have removed the [`default_config`](https://www.home-assistant.io/integrations/default_config/) integration from your `configuration.yaml`.
+Add `cloud:` to the `configuration.yaml` file.
 
-    ```yml
-    # configuration.yaml entry to enable the cloud integration
-    cloud:
-    ```
+```yaml
+# configuration.yaml entry to enable the cloud integration
+cloud:
+```
 
-2. If you already have an account, sign in.
+{% endstepContent %}
+{% endstep %}
+
+{% step "Singing in to Home Assistant Cloud" %}
+{% image "/static/img/cloud/ha-cloud-register-01.png" "Home Assistant Cloud log in page" %}
+{% stepContent %}
+
+1. If you already have an account, sign in.
    - The account name is case-sensitive.
-3. If you do not have an account yet, start a trial:
+2. If you do not have an account yet, start a trial:
    - Select **Start your free 1 month trial**.
    - To create an account, enter **Email address** and **Password**.
    - Select **Start trial**.
-4. Under [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/), you should now see that you are connected to Home Assistant Cloud.
 
-   <img src="/static/img/cloud/ha_cloud_connected.png" alt="Home Assistant Cloud connected">
+{% endstepContent %}
+{% endstep %}
 
-5. That's it. You are ready to go with Home Assistant Cloud.
+{% step "Connected to Home Assistant Cloud" %}
+{% image "/static/img/cloud/ha_cloud_connected.png" "Home Assistant Cloud connected" %}
+{% stepContent %}
+
+1. Under [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/), you should now see that you are connected to Home Assistant Cloud.
+
+2. That's it. You are ready to go with Home Assistant Cloud.
+
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 
