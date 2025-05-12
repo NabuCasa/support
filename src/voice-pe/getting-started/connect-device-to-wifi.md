@@ -45,7 +45,7 @@ If you don't want to use a phone and your Home Assistant has Bluetooth: either o
 {% steps %}
 
 {% step "Connecting the device to the power source" %}
-{% image "/static/img/voice-pe/status_white_twinkle.gif" "Image showing the white twinkle status animation" %}
+{% image "/static/img/voice-pe/status_video-white-twinkle.gif" "Image showing the white twinkle status animation" %}
 {% stepContent %}
 
 - Use the USB-C cable to connect the device to a power source.
