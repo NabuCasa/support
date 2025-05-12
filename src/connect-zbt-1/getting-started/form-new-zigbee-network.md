@@ -20,11 +20,11 @@ zendesk:
 {% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Plug the extension cable into Connect ZBT-1" %}
 {% stepContent %}
 
+{% include "fragments/notice-interference.md" %}
+
 - Plug the Home Assistant Connect&nbsp;ZBT-1 into the USB extension cable.
 - Plug the extension cable into your Home Assistant instance.
 - If you are using the standalone [Home Assistant Container](https://www.home-assistant.io/docs/glossary/#home-assistant-container) installation method, make sure Connect ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
-- **Important:** USB 3.0 ports and USB 3.0 drives can cause interference with 2.4 GHz protocols, including the ones provided by Home Assistant Connect ZBT-1. It is important to use the USB extension cable and to position the Home Assistant Connect ZBT-1 away from possible interference sources.
-This [video](/hc/en-us/articles/26124431414557) shows the effect of interference.
 
 {% endstepContent %}
 {% endstep %}
@@ -94,9 +94,10 @@ This [video](/hc/en-us/articles/26124431414557) shows the effect of interference
 {% image "/static/img/connect-zbt-1/connect-zbt-1-discovered-05.png" "Add Zigbee devices" %}
 {% stepContent %}
 
+{% include "fragments/notice-interference.md" %}
+
 - Select **1 device** and select **Add devices via this device**. ZHA will now search for Zigbee devices in pairing mode.
 - Put your Zigbee device into pairing mode.
-- **Warning:** If Zigbee Home Automation (ZHA) can't find your Zigbee device, make sure that Home Assistant Connect&nbsp;ZBT-1 does not suffer from interference. Use the extension cable and move the Connect&nbsp;ZBT-1 further away from potential devices which can cause interference.
 
 {% endstepContent %}
 {% endstep %}
