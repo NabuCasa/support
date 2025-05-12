@@ -77,11 +77,11 @@ Please note that not all settings can be migrated in this case:
 {% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Plugging the extension cable into Connect ZBT-1" %}
 {% stepContent %}
 
+{% include "fragments/notice-interference.md" %}
+
 1. Plug the Home Assistant Connect ZBT-1 into the USB extension cable.
 2. Plug the extension cable into your Home Assistant instance.
 3. If you are using the standalone Home Assistant Container installation method, make sure Connect ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
-4. **Note:** USB 3.0 ports and USB 3.0 drives can cause interference with 2.4 GHz protocols, including the ones provided by Home Assistant Connect ZBT-1. It is important to use the USB extension cable and to position the Home Assistant Connect ZBT-1 away from possible interference sources.
- This [video](/connectivity) shows the effect of interference.
 
 {% endstepContent %}
 {% endstep %}

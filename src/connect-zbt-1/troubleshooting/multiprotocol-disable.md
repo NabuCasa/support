@@ -17,23 +17,31 @@ This guide assumes you have already completed the following steps:
 
 ## To disable multiprotocol support
 
-1. Configuring radio multiprotocol support.
+{% steps %}
+{% step "Configuring radio multiprotocol support" %}
+{% image "/static/img/connect-zbt-1/disable_multiprotocol_sc_01.png" "Screenshot showing the Configure IEEE 802.15.4 radio multiprotocol support option" %}
+{% stepContent %}
 
-   1. Go to **[Settings > System > Hardware](https://my.home-assistant.io/redirect/hardware/)**.
-   2. Under **Home Assistant SkyConnect**, select **Configure**.
-   3. Select the **Configure IEEE 802.15.4 radio multiprotocol support** option.
+1. Go to **[Settings > System > Hardware](https://my.home-assistant.io/redirect/hardware/)**.
+2. Under **Home Assistant SkyConnect**, select **Configure**.
+3. Select the **Configure IEEE 802.15.4 radio multiprotocol support** option.
 
-    ![Screenshot showing the Configure IEEE 802.15.4 radio multiprotocol support option](/static/img/connect-zbt-1/disable_multiprotocol_sc_01.png)
+{% endstepContent %}
+{% endstep %}
 
-2. Removing multiprotocol support.
+{% step "Removing multiprotocol support" %}
+{% image "/static/img/connect-zbt-1/disable_multiprotocol_sc_02.png" "Screenshot showing the Configure IEEE 802.15.4 radio multiprotocol support option" %}
+{% stepContent %}
 
-   1. Select **Remove 802.15.4 radio multiprotocol support**.
-   2. Then, select the **Disable multiprotocol support** checkbox.
-   3. Wait for the setup to complete.
+1. Select **Remove 802.15.4 radio multiprotocol support**.
+2. Then, select the **Disable multiprotocol support** checkbox.
+3. Wait for the setup to complete.
 
-    ![Screenshot showing the Configure IEEE 802.15.4 radio multiprotocol support option](/static/img/connect-zbt-1/disable_multiprotocol_sc_02.png)
+{% stepInfo "Your Zigbee devices will continue to work. Your Thread devices will continue working only if you have another Thread border router set up." %}
 
-  > **Note:** Your Zigbee devices will continue to work. Your Thread devices will continue working only if you have another Thread border router set up.
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 
