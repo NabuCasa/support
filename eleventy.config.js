@@ -212,11 +212,19 @@ export default async function (eleventyConfig) {
     return html;
   });
 
-  eleventyConfig.addPairedShortcode("step", function (content, title) {
+  eleventyConfig.addPairedShortcode("step", function (content, title, prefix) {
     let html = `<div class="step">`; // open step
+    let stepPrefix = `Step ${currentStep + 1}`;
+
+    if (prefix) {
+      stepPrefix = prefix;
+    }
 
     html += `<div class="step-header">`; // open header
-    html += `<div class="step-number">Step ${++currentStep}</div>`; // add step number
+
+    if (stepPrefix) {
+      html += `<div class="step-number">${stepPrefix}</div>`; // add step number
+    }
     if (title) {
       html += `<div class="step-title">${title}</div>`; // add step title
     }
@@ -227,6 +235,8 @@ export default async function (eleventyConfig) {
     html += `</div>`; // close content
 
     html += `</div>`; // close step
+
+    currentStep++; // increment step number
 
     return html;
   });
@@ -274,7 +284,7 @@ export default async function (eleventyConfig) {
       throw new Error("Hazard shortcode requires content");
     }
 
-    return `<div class="hazard ${type}"><div class="hazard-prefix">${hazardMap.icon} ${hazardMap.text}</div><div class="hazard-content">${md.renderInline(content)}</div></div>`;
+    return `<div class="hazard ${type}"><div class="hazard-prefix">${hazardMap.icon} ${hazardMap.text}</div><div class="hazard-content">${content}</div></div>`;
   });
 
   eleventyConfig.addShortcode("callout", function (type, content) {
@@ -300,7 +310,7 @@ export default async function (eleventyConfig) {
       throw new Error("Callout shortcode requires content");
     }
 
-    return `<div class="callout ${type}"><div class="callout-prefix">${calloutMap.icon} ${calloutMap.text}:</div><div class="callout-content">${md.renderInline(content)}</div></div>`;
+    return `<div class="callout ${type}"><div class="callout-prefix">${calloutMap.icon} ${calloutMap.text}:</div><div class="callout-content">${content}</div></div>`;
   });
 
   eleventyConfig.addShortcode("stepInfo", function (content) {
