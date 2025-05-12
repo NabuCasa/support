@@ -24,9 +24,11 @@
      - If you don't hear a loud click, it is most likely not fully seated.
      - **Note**: It has been reported that on some boards, there is no click sound when pressing the module onto the board. It can still be seated correctly.
   2. Do a visual check to make sure the CM5 is installed correctly.
+
      - It needs to run parallel to the Home Assistant Yellow board.
      - You can also pull a bit on the sides to make sure it is not loose.
-     - **Notice**: Don't use screws to fix the module in place. The screws can damage the CM5 module.
+
+{% include "fragments/notice-dont-use-screws.md" %}
 
 {% endstepContent %}
 {% endstep %}

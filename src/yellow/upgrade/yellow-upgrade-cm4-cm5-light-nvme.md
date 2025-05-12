@@ -40,7 +40,7 @@ Additionally, make sure you have the following items which are not part of the K
 
 ## Seating the Raspberry Pi Compute Module 5
 
-**Notice**: Don't use screws to fix the module in place. The screws can damage the CM5 module.
+{% include "fragments/notice-dont-use-screws.md" %}
 
 {% include 'yellow/yellow-reseat-cm5.md' %}
 
