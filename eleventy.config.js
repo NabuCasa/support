@@ -274,7 +274,7 @@ export default async function (eleventyConfig) {
       throw new Error("Hazard shortcode requires content");
     }
 
-    return `<div class="hazard ${type}"><div class="hazard-prefix">${hazardMap.icon} ${hazardMap.text}</div><div class="hazard-content">${content}</div></div>`;
+    return `<div class="hazard ${type}"><div class="hazard-prefix">${hazardMap.icon} ${hazardMap.text}</div><div class="hazard-content">${md.renderInline(content)}</div></div>`;
   });
 
   eleventyConfig.addShortcode("callout", function (type, content) {
@@ -300,7 +300,7 @@ export default async function (eleventyConfig) {
       throw new Error("Callout shortcode requires content");
     }
 
-    return `<div class="callout ${type}"><div class="callout-prefix">${calloutMap.icon} ${calloutMap.text}:</div><div class="callout-content">${content}</div></div>`;
+    return `<div class="callout ${type}"><div class="callout-prefix">${calloutMap.icon} ${calloutMap.text}:</div><div class="callout-content">${md.renderInline(content)}</div></div>`;
   });
 
   eleventyConfig.addShortcode("stepInfo", function (content) {
