@@ -64,11 +64,12 @@ This repo does not create or delete content in Zendesk. It only updates the cont
 ## Creating content
 
 Before creating new content, you must first create the content structure in Zendesk.
+
 1. In Zendesk, creating the category, section, and article(s). You do not need to populate any content in these objects.
 
-2. Once created, obtain the ID for each object. 
-    - To do this, "preview" the article/section/category in Zendesk and copy the ID from the URL.
-    - For example, if the URL is `https://support.nabucasa.com/hc/en-us/articles/24737667232413-Setting-up-the-device`, the ID is `24737667232413`. 
+2. Once created, obtain the ID for each object.
+   - To do this, "preview" the article/section/category in Zendesk and copy the ID from the URL.
+   - For example, if the URL is `https://support.nabucasa.com/hc/en-us/articles/24737667232413-Setting-up-the-device`, the ID is `24737667232413`.
 3. Paste this ID into the metadata header of that object.
 
 ## Deleting articles, sections, or categories
@@ -155,8 +156,7 @@ Notice how the slug of the article is not included in the link. (e.g. use `/hc/e
 # How to contribute
 
 - Clone this repo into a docker container volume.
-- Create a `.env` file at the root of the project, copying the contents of `.env.example`, replacing the values with your own.
-- Run `npm run start` to start the Zendesk theme compiler and the preview server on port 8080.
+- Run `npm run start` to start the preview server on port 8080.
 - Make changes to the content in the `src/` folder.
 - Make sure to run `npm run build` to build the content before pushing.
 - Raise a PR to the main branch.
