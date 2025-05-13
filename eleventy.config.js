@@ -241,6 +241,19 @@ export default async function (eleventyConfig) {
     return html;
   });
 
+
+## Add a prerequisite without prefix, without title
+  eleventyConfig.addPairedShortcode("prereq", function (content) {
+    let html = `<div class="step">`; // open prereq
+
+    html += `<div class="step-content-wrapper">`; // open content
+    html += content;
+    html += `</div>`; // close content
+
+    html += `</div>`; // close prereq
+    return html;
+  });
+
   eleventyConfig.addPairedShortcode("stepContent", function (content) {
     let html = `<div class="step-content">`; // open content
     html += content;
