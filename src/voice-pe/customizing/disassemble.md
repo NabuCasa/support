@@ -12,11 +12,18 @@ Follow these steps if you have 3D-printed your own enclosure parts and now want 
 
 ## Prerequisites
 
+{% steps %}
+{% step " " " " %}
+{% image "/static/img/voice-pe/voice_disassembly_prereq_small.jpg" "Home Assistant Voice Preview Edition and screw drivers" %}
+{% stepContent %}
+
 - Home Assistant Voice Preview Edition
 - No 1 and 2 crosshead screwdriver
 - No 4 flathead screwdriver
 
-   ![Home Assistant Voice Preview Edition and screw drivers](/static/img/voice-pe/voice_disassembly_prereq_small.jpg)
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Disassembling the device enclosure
 
