@@ -10,6 +10,11 @@ Reinstalling the firmware from bootloader mode is an **extreme measure**. Only d
 
 ## Prerequisites
 
+{% steps %}
+{% step " " " " %}
+{% image "/static/img/voice-pe/voice_prereqs_02.png" "Illustration of prerequisites" %}
+{% stepContent %}
+
 - Home Assistant Voice Preview Edition.
 - USB-C cable and USB power supply (these are not included in the box).
 - Home Assistant installation up and running.
@@ -20,7 +25,9 @@ Reinstalling the firmware from bootloader mode is an **extreme measure**. Only d
 - This guide was tested using [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) on [Home Assistant Yellow](https://www.home-assistant.io/yellow/) and on [Home Assistant Green](https://www.home-assistant.io/green/).
 - The password to your Wi-Fi network.
 
-    ![Illustration of prerequisites](/static/img/voice-pe/voice_prereqs_02.png)
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## To reinstall the firmware from bootloader mode
 

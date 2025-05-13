@@ -12,6 +12,11 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
 
 ## Prerequisites
 
+{% steps %}
+{% step " " " " %}
+{% image "/static/img/voice-pe/voice_assembly_prereq_small.jpg" "Disassembled device" %}
+{% stepContent %}
+
 - Disassembled Home Assistant Voice Preview Edition
 - Your own awesome 3D-printed parts
 - [Enclosure on printables](https://www.printables.com/model/1110526)
@@ -19,7 +24,9 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
 - No 2 crosshead screwdriver
 - No 4 flathead screwdriver
 
-   ![Disassembled device](/static/img/voice-pe/voice_assembly_prereq_small.jpg)
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## To reassemble the enclosure using 3D-printed parts
 
