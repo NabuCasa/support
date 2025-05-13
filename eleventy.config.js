@@ -241,8 +241,6 @@ export default async function (eleventyConfig) {
     return html;
   });
 
-
-## Add a prerequisite without prefix, without title
   eleventyConfig.addPairedShortcode("prereq", function (content) {
     let html = `<div class="step">`; // open prereq
 
