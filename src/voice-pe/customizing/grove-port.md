@@ -16,6 +16,11 @@ Connecting a sensor to the Grove port of the device allows the sensor to use the
 
 ## Prerequisites
 
+{% steps %}
+{% step " " " " %}
+{% image "/static/img/voice-pe/voice_grove_port_detail.png" "Detail view of the grove port" %}
+{% stepContent %}
+
 - Home Assistant Voice Preview Edition set up and running in Home Assistant
 - Opened the Grove port
 - Have one or more external sensors, such as:
@@ -25,7 +30,9 @@ Connecting a sensor to the Grove port of the device allows the sensor to use the
   - [M5Stack BH1750](https://shop.m5stack.com/products/dlight-unit-ambient-light-sensor-bh1750fvi-tr) ambient light sensor
 - If you are adding more than one sensor, you need an expansion unit like this [Grove hub](https://shop.m5stack.com/products/mini-hub-module?srsltid=AfmBOooKdCNWJPf90Wr25-jC_8QqbrVeqc3gzZ678-yi4396Cc1q792_)
 
-   ![Detail view of the grove port](/static/img/voice-pe/voice_grove_port_detail.png)
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## To connect a sensor to the grove port
 
