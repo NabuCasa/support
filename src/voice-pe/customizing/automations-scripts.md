@@ -12,7 +12,10 @@ You can use scripts and automations to control the device. The steps below show 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QhhuCzbQEag" videotitle="Use automations and scripts to control Home Assistant Voice Preview Edition" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" controls></iframe>
 </div>
 
-## Example 1: Playing announcements on the device
+{% steps %}
+{% step "Playing announcements on the device" "Example 1:" %}
+{% image "/static/img/voice-pe/voice_script_announcement.png" "Screenshot showing the automation editor" %}
+{% stepContent %}
 
 You can create an automation or script to play an announcement on the device.
 
@@ -23,19 +26,21 @@ You can create an automation or script to play an announcement on the device.
 5. Enter the message you want to play and select the device you want to play it on.
 6. Save the automation.
 
-   ![Screenshot showing the automation editor](/static/img/voice-pe/voice_script_announcement.png)
-
 If you prefer editing in YAML, you can find an example with the [`assist_satellite.announce`](https://www.home-assistant.io/integrations/assist_satellite/#action-assist_satelliteannounce) action below.
 
-    ```yaml
-    action: assist_satellite.announce
-      data:
-        message: The laundry is done
-      target:
-        entity_id: assist_satellite.home_assistant_voice_012345
-    ```
+  ```yaml
+  action: assist_satellite.announce
+    data:
+      message: The laundry is done
+    target:
+      entity_id: assist_satellite.home_assistant_voice_012345
+  ```
+{% endstepContent %}
+{% endstep %}
 
-## Example 2: Controlling the color of the LED ring
+{% step "Controlling the color of the LED ring" "Example 2:" %}
+{% image "/static/img/voice-pe/voice_light_turn_on_script.png" "Screenshot showing a light automation in the automation editor" %}
+{% stepContent %}
 
 You can use [`light.turn_on`](https://www.home-assistant.io/integrations/light/#action-lightturn_on) and [`light.turn_off`](https://www.home-assistant.io/integrations/light/#action-lightturn_off) actions to control the light.
 
@@ -55,43 +60,51 @@ You can turn it on or off when something happens and define color and effects.
     entity_id: light.home_assistant_voice_012345_led_ring
   ```
 
-  ![Screenshot showing a light automation in the automation editor](/static/img/voice-pe/voice_light_turn_on_script.png)
+{% endstepContent %}
+{% endstep %}
 
-## Example 3: Changing the selected assistant
+{% step "Changing the selected assistant" "Example 3:" %}
+{% image "/static/img/voice-pe/voice_select_assistant_spanish.png" "Image showing the automation editor" %}
+{% stepContent %}
 
 1. To select a different assistant when something happens, use the [`select.select_option`](https://www.home-assistant.io/integrations/select/#action-selectselect_option) action. For example, when a button is pressed.
 
-        ```yaml
-        action: select.select_option
-          data:
-            option: preferred
-          target:
-            entity_id: select.home_assistant_voice_012345_assist_pipeline
-        ```
+  ```yaml
+  action: select.select_option
+    data:
+      option: preferred
+    target:
+      entity_id: select.home_assistant_voice_012345_assist_pipeline
+  ```
 
 2. Under **Options**, enter the name of the voice assistant.
    - Make sure to spell it exactly as you named it. For example `Spanish`.
 3. To learn how to set up an automation based on a button press, follow the steps on [Automating on a button press](https://www.home-assistant.io/integrations/event/#automating-on-a-button-press).
    - **Info**: Those instructions are based on a Matter device. The process is very similar for other devices featuring a button.
 
-   ![Image showing the automation editor](/static/img/voice-pe/voice_select_assistant_spanish.png)
+{% endstepContent %}
+{% endstep %}
 
-## Example 4: Changing the wake word
+{% step "Changing the wake word" "Example 4:" %}
+{% image "/static/img/voice-pe/voice_select_wake_word_mycroft.png" "Screenshot showing an automation to change the wake word to Mycroft" %}
+{% stepContent %}
 
 1. To select a different wake word when something happens, use the [`select.select_option`](https://www.home-assistant.io/integrations/select/#action-selectselect_option) action.
 
-          ```yaml
-          action: select.select_option
-            data:
-              option: Okay Nabu
-            target:
-              entity_id: select.home_assistant_voice_012345_wake_word
-          ```
+  ```yaml
+  action: select.select_option
+    data:
+      option: Okay Nabu
+    target:
+      entity_id: select.home_assistant_voice_012345_wake_word
+  ```
 
 2. Under **Options**, enter the preferred wake word. The default options are `Hey Jarvis`, `Hey Mycroft`, and `Okay Nabu`.
    - Make sure to spell it exactly as you named it.
 
-   ![Screenshot showing an automation to change the wake word to Mycroft](/static/img/voice-pe/voice_select_wake_word_mycroft.png)
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 
