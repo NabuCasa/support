@@ -8,7 +8,10 @@ zendesk:
 
 Follow these steps if you have 3D-printed your own enclosure parts and want to reassemble the device.
 
-{% hazard "notice" "Risk of damage to equipment. Disassembling and reassembling the device can void the warranty." %}
+**Notice**
+**Risk of damage to equipment**
+
+- Disassembling and reassembling the device can void the warranty.
 
 ## Prerequisites
 
