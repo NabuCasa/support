@@ -13,7 +13,7 @@ You can use scripts and automations to control the device. The steps below show 
 </div>
 
 {% steps %}
-{% step "Playing announcements on the device" "Example 1:" %}
+{% step "Playing announcements on the device" "Example 1" %}
 {% image "/static/img/voice-pe/voice_script_announcement.png" "Screenshot showing the automation editor" %}
 {% stepContent %}
 
@@ -38,7 +38,7 @@ If you prefer editing in YAML, you can find an example with the [`assist_satelli
 {% endstepContent %}
 {% endstep %}
 
-{% step "Controlling the color of the LED ring" "Example 2:" %}
+{% step "Controlling the color of the LED ring" "Example 2" %}
 {% image "/static/img/voice-pe/voice_light_turn_on_script.png" "Screenshot showing a light automation in the automation editor" %}
 {% stepContent %}
 
@@ -63,7 +63,7 @@ You can turn it on or off when something happens and define color and effects.
 {% endstepContent %}
 {% endstep %}
 
-{% step "Changing the selected assistant" "Example 3:" %}
+{% step "Changing the selected assistant" "Example 3" %}
 {% image "/static/img/voice-pe/voice_select_assistant_spanish.png" "Image showing the automation editor" %}
 {% stepContent %}
 
