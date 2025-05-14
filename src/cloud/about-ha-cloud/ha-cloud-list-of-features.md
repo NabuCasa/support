@@ -8,7 +8,7 @@ zendesk:
 
 Home Assistant Cloud provides the following features:
 
-- Secure [remote access](https://support.nabucasa.com/hc/en-us/articles/25619268678557) to your Home Assistant (also called Remote UI)
+- Secure [remote access](https://support.nabucasa.com/hc/en-us/articles/25619268678557) to your Home Assistant (also called Remote Access)
 - Easy integration with popular voice assistants, such as [Home Assistant Assist](https://www.home-assistant.io/voice_control/), [Amazon Alexa](/hc/en-us/articles/25619363899677), or [Google Assistant](/hc/en-us/articles/25619376817053)
 - [Improved text-to-speech](/hc/en-us/articles/25619386304541) to have text read aloud with natural sounding voices.
 - [Cloud storage of your latest Home Assistant backup](/hc/en-us/articles/25619338169501)

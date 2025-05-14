@@ -10,7 +10,7 @@ We make sure that as much processing as possible is done locally inside Home Ass
 
 To view the source code for Home Assistant Cloud, refer to the following repositories:
 
-- Remote UI is powered by [our snitun library](https://github.com/NabuCasa/snitun)
+- Remote Access is powered by [our snitun library](https://github.com/NabuCasa/snitun)
 - [Alexa skill source code](https://github.com/home-assistant/home-assistant/blob/dev/homeassistant/components/alexa/smart_home.py)
 - [Google Assistant source code](https://github.com/home-assistant/home-assistant/blob/dev/homeassistant/components/google_assistant/smart_home.py)
 - [Cloud component in Home Assistant](https://github.com/home-assistant/home-assistant/blob/dev/homeassistant/components/cloud/) is powered by [our hass-nabucasa library](https://github.com/NabuCasa/hass-nabucasa)

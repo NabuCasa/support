@@ -1,11 +1,10 @@
 ---
 zendesk:
   article_id: 26508882007581
-  name: Remote UI - Security aspects
+  name: Remote Access - Security aspects
   position: 8
   labels: cloud
 ---
-
 
 Making a secure solution is a challenge. In this section, we want to discuss the things we do to improve security, what weaknesses there are in our approach, and how we plan to solve them.
 
@@ -25,13 +24,13 @@ It is not going to be possible to avoid MITM attacks. However, it is possible to
 
 ## Insecure versions
 
-Home Assistant instances known to have security issues to connect to the Cloud are blocked from using the remote UI feature. This helps in securing your Home Assistant instance.
+Home Assistant instances known to have security issues to connect to the Cloud are blocked from using the Remote Access feature. This helps in securing your Home Assistant instance.
 
-Updating your Home Assistant instance to a secure version will allow it to be accessible via Remote UI once again.
+Updating your Home Assistant instance to a secure version will allow it to be accessible via Remote Access once again.
 
 If you cannot update to the latest version of Home Assistant right now and are certain that your instance is safe, you can disable this protection. You do this at your own risk! You can manage this on your [Nabu Casa account page](https://account.nabucasa.com).
 
-Please note, such a block only affects the remote UI feature, all other Cloud features will keep functioning normally.
+Please note, such a block only affects the Remote Access feature, all other Cloud features will keep functioning normally.
 Amazon Alexa, Google Assistant, TTS and Webhooks will continue to work during a security block.
 
 If this protection has been manually disabled and the Home Assistant Team has identified a new insecure version, it will automatically re-enable the protection by itself. This ensures you are protected if new security issues are found in the future, as quickly as possible.
@@ -42,5 +41,5 @@ Currently blocked versions of Home Assistant:
 
 ## Related topics
 
-- [Enabling remote access to Home Assistant (Remote UI)](/hc/en-us/articles/26474279202973/)
-- [Remote UI - deep dive](/hc/en-us/articles/25619268678557/)
+- [Enabling remote access to Home Assistant (Remote Access)](/hc/en-us/articles/26474279202973/)
+- [Remote Access - deep dive](/hc/en-us/articles/25619268678557/)

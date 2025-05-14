@@ -1,20 +1,20 @@
 ---
 zendesk:
   article_id: 26469707849629
-  name: About Home Assistant Remote UI
+  name: About Home Assistant Remote Access
   position: 1
   labels: cloud
 ---
 
-One of the main features of Home Assistant Cloud is the Remote UI. The Remote UI allows you to connect to your Home Assistant instance from outside of your home network. So that you can start the vacuum cleaner from your phone while you are on the train for your daily commute, for example.
+One of the main features of Home Assistant Cloud is the Remote Access. The Remote Access allows you to connect to your Home Assistant instance from outside of your home network. So that you can start the vacuum cleaner from your phone while you are on the train for your daily commute, for example.
 
 By default, remote access is not possible. You need to [enable it](/hc/en-us/articles/26474279202973/).
 
-## How does Remote UI work?
+## How does Remote Access work?
 
 Once enabled, Home Assistant generates a security certificate for secure communication and provides you with a URL. You can then use this URL to access your Home Assistant while away from home.
 
-Below is a simplified visualization showing how the Remote UI connection to Home Assistant works:
+Below is a simplified visualization showing how the Remote Access connection to Home Assistant works:
 
 <figure>
   <img src="/static/img/cloud/ha-cloud-remote-remote-ui-data-flow.svg" alt="Data flow diagram between your browser outside of your home network, and your Home Assistant">
@@ -29,8 +29,8 @@ This flow ensures that all communication is encrypted and secure.
 
 ## Related topics
 
-- [Enabling remote access to Home Assistant (Remote UI)](/hc/en-us/articles/26474279202973/)
-- [Using Remote UI with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)
-- [Remote UI - How it works - deep dive](/hc/en-us/articles/25619268678557/)
-- [Remote UI - security aspects](/hc/en-us/articles/26508882007581/)
-- [Remote UI source code on GitHub](/hc/en-us/articles/26510075061021)
+- [Enabling remote access to Home Assistant (Remote Access)](/hc/en-us/articles/26474279202973/)
+- [Using Remote Access with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)
+- [Remote Access - How it works - deep dive](/hc/en-us/articles/25619268678557/)
+- [Remote Access - security aspects](/hc/en-us/articles/26508882007581/)
+- [Remote Access source code on GitHub](/hc/en-us/articles/26510075061021)

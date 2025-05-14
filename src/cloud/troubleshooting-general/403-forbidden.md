@@ -12,7 +12,7 @@ There are multiple reasons Home Assistant Cloud cannot be reached. This page pro
 
 ### Symptom
 
-You are using the [Remote UI](/hc/en-us/articles/25619268678557) feature. Instead of the Home Assistant user interface, the browser shows a _403 Forbidden_ message.
+You are using the [Remote Access](/hc/en-us/articles/25619268678557) feature. Instead of the Home Assistant user interface, the browser shows a _403 Forbidden_ message.
 
 ### Cause
 
