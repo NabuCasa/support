@@ -22,9 +22,9 @@
 
 {% endhazard %}
 
-- Carefully hold the NVMe M.2 SSD by the sides.
+- Carefully hold the NVMe M.2 SSD by the long sides.
 - Align the notches in the SSD with the ridges in the slot.
-- Then, insert at a 30-degree angle.
+- Then, insert at a ~30-degree angle.
 - Do not force the connection.
 
 {% endstepContent %}
