@@ -11,12 +11,19 @@ Step-by-step instructions on install the Raspberry Pi Compute Module 4 (CM4) on 
 
 ## Prerequisites
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/yellow/step-5-poe-unpacked.jpeg" "Image showing the Home Assistant Yellow, Raspberry Pi Compute Module 4 (CM4), heat sink, thermal pads, push pins" %}
+{% stepContent %}
+
 - 1 Raspberry Pi Compute Module 4 (CM4)
 - 1 heat sink
 - 2 thermal pads
 - 2 push pins
 
-  ![Image showing the Home Assistant Yellow, Raspberry Pi Compute Module 4 (CM4), heat sink, thermal pads, push pins](/static/img/yellow/step-5-poe-unpacked.jpeg)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## Opening the case
 
