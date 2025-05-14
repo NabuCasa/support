@@ -9,6 +9,11 @@ zendesk:
 
 # Prerequisites
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/yellow/cm5_prereqs.jpg" "Image showing the Home Assistant Yellow, a Raspberry Pi Compute Module 5, Ethernet cable, power supply, a USB-C cable, and flat-nose pliers" %}
+{% stepContent %}
+
 - Home&nbsp;Assistant Yellow installation with NVMe SSD drive and CM4 Lite
 - Ethernet cable
 
@@ -24,7 +29,9 @@ Additionally, make sure you have the following items which are not part of the K
 - Optional: Power supply (12 V / 2 A, if PoE is not used)
 - Flat nose pliers
 
-  ![Image showing the Home Assistant Yellow, a Raspberry Pi Compute Module 5, Ethernet cable, power supply, a USB-C cable, and flat-nose pliers](/static/img/yellow/cm5_prereqs.jpg)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## Preparing the migration
 

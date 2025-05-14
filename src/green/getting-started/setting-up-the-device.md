@@ -14,12 +14,19 @@ This sections shows you how to setup your device and get started with Home Assis
 
 ## Prerequisites
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/green/green-box-contents.webp" "Home Assistant Green with power supply" %}
+{% stepContent %}
+
 - Home Assistant Green
 - Ethernet connection to your local network and internet access
 - Web browser, tablet, or phone (Android or iOS)
 - Electrical outlet
 
-![Home Assistant Green with power supply](/static/img/green/green-box-contents.webp)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## To get started with Home Assistant Green
 

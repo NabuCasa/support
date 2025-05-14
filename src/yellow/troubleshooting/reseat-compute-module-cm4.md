@@ -8,10 +8,17 @@ zendesk:
 
 ## Prerequisites
 
-  - Home Assistant Yellow with Compute Module installed, powered off
-  - Flat nose pliers
+{% steps %}
+{% prereq %}
+{% image "/static/img/yellow/unseat-cm4-tools.jpg" "Home Assistant Yellow and flat nose pliers" %}
+{% stepContent %}
 
-    ![Home Assistant Yellow and flat nose pliers](/static/img/yellow/unseat-cm4-tools.jpg)
+- Home Assistant Yellow with Compute Module installed, powered off
+- Flat nose pliers
+
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## Opening the case
 

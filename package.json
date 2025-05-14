@@ -10,8 +10,6 @@
     "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "build": "rm -rf _site && npx @11ty/eleventy",
     "build-preview": "rm -rf _site && PREVIEW_BUILD=1 npx @11ty/eleventy",
-    "deploy": "export $(grep -v -E '^\\s*#|^\\s*$' .env | sed 's/\\s*#.*//' | xargs) && node deploy.js",
-    "build-deploy": "npm run build && npm run deploy",
     "lint:all:check": "npm run lint:textlint:check && npm run lint:remark:check",
     "lint:all:fix": "npm run lint:textlint:fix",
     "lint:remark:check": "remark . --verbose --frail",

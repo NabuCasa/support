@@ -15,11 +15,18 @@ Step-by-step instructions on configuring the Home Assistant Yellow for Thread su
 
 This guide assumes you have the following setup:
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/yellow/yellow-zha-setup.png" "Screenshot of Zigbee integration card" %}
+{% stepContent %}
+
 - Home Assistant Yellow up and running.
 - Home Assistant OS installation.
 - Multiprotocol support disabled: Refer to the [Disable multiprotocol support](/hc/en-us/articles/25744235797661-Disabling-multiprotocol-support) procedure.
 
-![screenshot of Zigbee integration card](/static/img/yellow/yellow-zha-setup.png)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## Enabling dedicated Thread support
 

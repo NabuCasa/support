@@ -13,26 +13,43 @@ Step-by-step instructions on disabling multiprotocol support on Home Assistant Y
 
 This guide assumes you have already completed the following steps:
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/yellow/yellow-multiprotocol-new-05.png" "Screenshot showing the Multi-Pan integration entry" %}
+{% stepContent %}
+
 - Have the **Zigbee Home Automation (ZHA)** integration up and running.
 - Enabled multiprotocol support
 
-![Screenshot showing the Multi-Pan integration entry](/static/img/yellow/yellow-multiprotocol-new-05.png)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## Disabling multiprotocol support
 
-1. Configure radio multiprotocol support.
-   1. Go to [**Settings** > **System** > **Hardware**](https://my.home-assistant.io/redirect/hardware/).
-   2. Under **Home Assistant Yellow**, select **Configure**.
-   3. Select the **Configure IEEE 802.15.4 radio multiprotocol support** option.
+{% steps %}
+{% step "Configuring radio multiprotocol support" %}
+{% image "/static/img/yellow/disable_multiprotocol_01.png" "Screenshot showing where to Configure IEEE 802.15.4 radio multiprotocol support" %}
+{% stepContent %}
 
-    ![Screenshot showing where to Configure IEEE 802.15.4 radio multiprotocol support](/static/img/yellow/disable_multiprotocol_01.png)
+1. Go to [**Settings** > **System** > **Hardware**](https://my.home-assistant.io/redirect/hardware/).
+2. Under **Home Assistant Yellow**, select **Configure**.
+3. Select the **Configure IEEE 802.15.4 radio multiprotocol support** option.
 
-2. Configure Yellow for Thread support.
-   1. Select **Remove 802.15.4 radio multiprotocol support**.
-   2. Then, select the **Disable multiprotocol support** checkbox.
-   3. Wait for the setup to complete.
+{% endstepContent %}
+{% endstep %}
 
-    ![Screenshot showing where to Remove 802.15.4 radio multiprotocol support](/static/img/yellow/disable_multiprotocol_02.png)
+{% step "Configuring Yellow for Thread support" %}
+{% image "/static/img/yellow/disable_multiprotocol_02.png" "Screenshot showing where to Remove 802.15.4 radio multiprotocol support" %}
+{% stepContent %}
+
+1. Select **Remove 802.15.4 radio multiprotocol support**.
+2. Then, select the **Disable multiprotocol support** checkbox.
+3. Wait for the setup to complete.
+
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 
