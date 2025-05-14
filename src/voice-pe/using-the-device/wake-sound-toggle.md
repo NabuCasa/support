@@ -7,7 +7,7 @@ zendesk:
 ---
 
 {% steps %}
-{% step "Toggling the wake sound switch" %}
+{% step "Toggling the wake sound switch" "Step" %}
 {% image "/static/img/voice-pe/voice_wake_sound.png" "Clip showing the wake sound switch" %}
 {% stepContent %}
 
