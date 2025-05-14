@@ -10,13 +10,20 @@ Perform this procedure if you want to perform a factory reset on your device.
 
 ## Prerequisites
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/green/green_without_sd_card.png" "Image showing a Home Assistant Green without an SD card" %}
+{% stepContent %}
+
 - Home Assistant Green
 - microSD card
 - Memory card reader for microSD (your computer might have an integrated card reader, otherwise use an external one)
 - Computer with internet access
 - You have [created a backup](/hc/en-us/articles/25154828325917) and stored it on another system
 
-![Image showing a Home Assistant Green without an SD card](/static/img/green/green_without_sd_card.png)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 > **Note**
 > This process clears the data disk on your Green. Unless you [create a backup](https://www.home-assistant.io/common-tasks/general/#backups), you will lose all data and configuration settings.
@@ -25,86 +32,134 @@ Perform this procedure if you want to perform a factory reset on your device.
 
 ## To copy the Home Assistant Green OS to the SD card
 
-1. To download the Home Assistant Green OS installer, paste this [URL](https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410) into your browser.
-   - To start the download, select the file *green-installer-20240410.img.xz*.
-   - Download and start [Balena Etcher](https://www.balena.io/etcher).
-      - You may need to run it with administrator privileges on Windows.
-   ![Downloading the required software](/static/img/green/download-circle-outline.svg)
+{% steps %}
+{% step "Downloading the Home Assistant Green OS installer" %}
+{% image "/static/img/green/download-circle-outline.svg" "Downloading the required software" %}
+{% stepContent %}
 
-2. To select the image, select **Flash from file** and select the image you just downloaded.
+- To download the Home Assistant Green OS installer, paste this `https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410` into your browser.
+  1. To start the download, select the file *green-installer-20240410.img.xz*.
+  2. Download and start [Balena Etcher](https://www.balena.io/etcher).
+     - You may need to run it with administrator privileges on Windows.
 
-   ![Selecting the image](/static/img/green/etcher1_file.png)
+{% endstepContent %}
+{% endstep %}
 
-3. To select the target, insert the SD card to your computer.
-   - Select the **Select target** button and select the SD card as target.
+{% step "Selecting the image" %}
+{% image "/static/img/green/etcher1_file.png" "Selecting the image" %}
+{% stepContent %}
 
-   ![Selecting the target](/static/img/green/etcher3.png)
+- Choose **Flash from file**, then select the image you just downloaded.
 
-4. To start writing the image to the SD card, select **Flash!**.
+{% endstepContent %}
+{% endstep %}
 
-   ![Writing the image](/static/img/green/etcher5.png)
+{% step "Selecting the target" %}
+{% image "/static/img/green/etcher3.png" "Selecting the target" %}
+{% stepContent %}
 
-5. Flash complete.
+- To select the target, insert the SD card to your computer.
+  - **Select target**, then pick the SD card as target.
 
-   - Once Balena Etcher has finished writing the image, you will see a confirmation.
-   - You can now remove the SD card.
+{% endstepContent %}
+{% endstep %}
 
-   ![Flash complete](/static/img/green/etcher6.png)
+{% step "Writing the image" %}
+{% image "/static/img/green/etcher5.png" "Writing the image" %}
+{% stepContent %}
+
+- To start writing the image to the SD card, select **Flash!**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Flash complete" %}
+{% image "/static/img/green/etcher6.png" "Flash complete" %}
+{% stepContent %}
+
+- Once Balena Etcher has finished writing the image, you will see a confirmation.
+- You can now remove the SD card.
+
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## To reset the device using an SD card
 
-1. Shutting down the system.
+{% steps %}
+{% step "Shutting down the system" %}
+{% image "/static/img/green/shutdown_system.png" "Shutting down the system" %}
+{% stepContent %}
 
-   1. In your Home Assistant UI, go to **Settings** > **System** and in the top right, select the three-dots menu. Select **Restart Home Assistant**.
-      - Then, select **Shut down system**.
-      - Wait until all the LEDs turned off.
-   2. In case the shutdown via UI should not work:
-      - To shutdown gracefully, press the power button for 6 seconds.
-      - For a hard shutdown (do this only if all else fails), press the power button for 12 seconds.
-   3. Remove the power cable to remove power from the system.
+1. In your Home Assistant UI, go to **Settings** > **System** and in the top right, select the three-dots menu. Select **Restart Home Assistant**.
+   - Then, select **Shut down system**.
+   - Wait until all the LEDs turned off.
+2. In case the shutdown via UI should not work:
+   - To shutdown gracefully, press the power button for 6 seconds.
+   - For a hard shutdown (do this only if all else fails), press the power button for 12 seconds.
+3. Remove the power cable to remove power from the system.
 
-   ![Shutting down the system](/static/img/green/shutdown_system.png)
+{% endstepContent %}
+{% endstep %}
 
-2. Inserting the SD card.
+{% step "Inserting the SD card" %}
+{% image "/static/img/green/green_reset_insert_sd.webp" "Inserting the SD card" %}
+{% stepContent %}
 
-   - Insert the SD card with the Home Assistant Green OS installer.
-   - Make sure the Home Assistant Green is connected to the Internet.
+- Insert the SD card with the Home Assistant Green OS installer.
+- Make sure the Home Assistant Green is connected to the Internet.
 
-   ![Inserting the SD card](/static/img/green/green_reset_insert_sd.webp)
+{% endstepContent %}
+{% endstep %}
 
-3. Powering up the system.
+{% step "Powering up the system" %}
+{% image "/static/img/green/green_reset_power-up_after_sd-insert.webp" "Powering up the system" %}
+{% stepContent %}
 
-   - Press the power button.
-   - The operating system is being written to the eMMC.
-   - During this time, the yellow LED is blinking fast.
-   - Wait for the LEDs to turn off.
+- Press the power button.
+- The operating system is being written to the eMMC.
+- During this time, the yellow LED is blinking fast.
+- Wait for the LEDs to turn off.
 
-   ![Powering up the system](/static/img/green/green_reset_power-up_after_sd-insert.webp)
+{% endstepContent %}
+{% endstep %}
 
-4. Removing the SD card.
-   - When the LEDs turn off, the operating system has been written to the eMMC.
-   - Remove the SD card.
+{% step "Removing the SD card" %}
+{% image "/static/img/green/green_reset_remove_sd-card.webp" "Removing the SD card" %}
+{% stepContent %}
 
-   ![Removing the SD card](/static/img/green/green_reset_remove_sd-card.webp)
+- When the LEDs turn off, the operating system has been written to the eMMC.
+- Remove the SD card.
 
-5. Powering up the system.
+{% endstepContent %}
+{% endstep %}
 
-   - Press the power button.
-   - Once the yellow LED blinks in a heartbeat pattern, the system is ready.
+{% step "Powering up the system" %}
+{% image "/static/img/green/green_reset_power-up_heartbeat.webp" "Powering up the system" %}
+{% stepContent %}
 
-   ![Powering up the system](/static/img/green/green_reset_power-up_heartbeat.webp)
+- Press the power button.
+- Once the yellow LED blinks in a heartbeat pattern, the system is ready.
 
-6. Getting started with Home Assistant.
+{% endstepContent %}
+{% endstep %}
 
-   - **Info**: Initial startup may take a while, depending on your internet connection.
-   1. Install the app: To access Home Assistant from your mobile device, use the QR code to locate the app in the app store.
-   2. Select your Home Assistant server:
-      - **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196:8123`.
-      - **Desktop**: Visit [http://homeassistant.local:8123](http://homeassistant.local:8123) to access the Home Assistant user interface.
-   3. The Home Assistant user interface guides you through the initial onboarding.
-      - **Info**: For further information, refer to the instructions provided.
+{% step "Getting started with Home Assistant" %}
+{% image "/static/img/green/getting_started_04.png" "Getting started with Home Assistant" %}
+{% stepContent %}
 
-   ![Getting started with Home Assistant](/static/img/green/getting_started_04.png)
+- **Info**: Initial startup may take a while, depending on your internet connection.
+
+1. Install the app: To access Home Assistant from your mobile device, use the QR code to locate the app in the app store.
+2. Select your Home Assistant server:
+   - **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196:8123`.
+   - **Desktop**: Visit [http://homeassistant.local:8123](http://homeassistant.local:8123) to access the Home Assistant user interface.
+3. The Home Assistant user interface guides you through the initial onboarding.
+   - **Info**: For further information, refer to the instructions provided.
+
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 

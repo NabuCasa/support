@@ -12,13 +12,20 @@ This guide outlines the steps for configuring the Home Assistant Connect&nbsp;ZB
 
 This guide assumes you have the following setup:
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-zha-setup.png" "Screenshot showing the Zigbee integration page" %}
+{% stepContent %}
+
 - Connected Home Assistant Connect&nbsp;ZBT-1.
 - [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) installation.
 - You don't have Multiprotocol enabled. If you do, disable it by following the steps in the procedure on [disabling multiprotocol support](/hc/en-us/articles/26124969612445).
 - **Important:** This guide installs firmware that supports only Thread! If you use your Connect ZBT-1 to control Zigbee devices, you will no longer be able to control them after installing the Thread firmware.
 - **Notice:** [Home Assistant Supervised](https://www.home-assistant.io/docs/glossary/#home-assistant-supervised) installation type: The Thread border router has specific requirements for IPv6 configuration (for example, IPv6 routing needs to be enabled). The add-on is being tested on the [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system). If you experience connectivity issues, try using a Home Assistant OS installation.
 
-  ![Screenshot showing the Zigbee integration page](/static/img/connect-zbt-1/connect-zbt-1-zha-setup.png)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## To enable dedicated Thread support
 

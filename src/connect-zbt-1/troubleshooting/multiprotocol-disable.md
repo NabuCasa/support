@@ -10,10 +10,17 @@ zendesk:
 
 This guide assumes you have already completed the following steps:
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/connect-zbt-1/skyconnect-zha-setup.png" "Screenshot showing the Zigbee integration page" %}
+{% stepContent %}
+
 - Have the **Zigbee Home Automation (ZHA)** integration up and running.
 - Enabled multiprotocol support
 
-  ![Screenshot showing the Zigbee integration page](/static/img/connect-zbt-1/skyconnect-zha-setup.png)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## To disable multiprotocol support
 

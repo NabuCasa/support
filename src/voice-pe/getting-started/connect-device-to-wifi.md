@@ -12,6 +12,11 @@ zendesk:
 
 ## Prerequisites
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/voice-pe/voice_prereqs_01.png" "Icons showing the prerequisites" %}
+{% stepContent %}
+
 - Home Assistant Voice Preview Edition
 - USB-C cable and USB power supply (these are not included in the box)
 - Home Assistant installation.
@@ -39,6 +44,10 @@ Using your iPhone/Android is the easiest way to connect your Home Assistant Voic
 ### Onboarding via Bluetooth
 
 If you don't want to use a phone and your Home Assistant has Bluetooth: either onboard Bluetooth, or an ESPHome device set up as a [Bluetooth proxy](https://esphome.io/projects/?type=bluetooth) and connected to Home Assistant.
+
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## To connect the device to your Wi-Fi and to Home Assistant
 
