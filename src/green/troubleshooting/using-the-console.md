@@ -26,11 +26,11 @@ Connecting to Home Assistant Green via console may be required for some troubles
 ## To use the console on the HDMI display
 
 {% steps %}
-{% step "Connecting an HDMI monitor" %}
+{% step "Connecting a monitor via HDMI" %}
 {% image "/static/img/green/icons/hdmi-monitor.png" "HDMI monitor connected to Home Assistant Green" %}
 {% stepContent %}
 
-- Connect an HDMI monitor to Home Assistant Green.
+- Connect a monitor via HDMI to Home Assistant Green.
 
 {% endstepContent %}
 {% endstep %}
