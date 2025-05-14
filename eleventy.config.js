@@ -272,7 +272,7 @@ export default async function (eleventyConfig) {
     return `<img src="${src}" alt="${alt}"/>`;
   });
 
-  eleventyConfig.addShortcode("hazard", function (type, content) {
+  eleventyConfig.addPairedShortcode("hazard", function (content, type) {
     // if type not in array of strings
     if (!Object.values(HAZARD_TYPE).includes(type)) {
       throw new Error(
