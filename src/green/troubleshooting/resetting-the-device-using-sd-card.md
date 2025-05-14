@@ -37,7 +37,7 @@ Perform this procedure if you want to perform a factory reset on your device.
 {% image "/static/img/green/download-circle-outline.svg" "Downloading the required software" %}
 {% stepContent %}
 
-- To download the Home Assistant Green OS installer, paste this [URL](https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410) into your browser.
+- To download the Home Assistant Green OS installer, paste this `https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410` into your browser.
   1. To start the download, select the file *green-installer-20240410.img.xz*.
   2. Download and start [Balena Etcher](https://www.balena.io/etcher).
      - You may need to run it with administrator privileges on Windows.
@@ -49,7 +49,7 @@ Perform this procedure if you want to perform a factory reset on your device.
 {% image "/static/img/green/etcher1_file.png" "Selecting the image" %}
 {% stepContent %}
 
-- To select the image, select **Flash from file** and select the image you just downloaded.
+- Choose **Flash from file**, then select the image you just downloaded.
 
 {% endstepContent %}
 {% endstep %}
@@ -59,7 +59,7 @@ Perform this procedure if you want to perform a factory reset on your device.
 {% stepContent %}
 
 - To select the target, insert the SD card to your computer.
-  - Select the **Select target** button and select the SD card as target.
+  - **Select target**, then pick the SD card as target.
 
 {% endstepContent %}
 {% endstep %}
