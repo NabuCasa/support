@@ -11,7 +11,7 @@ Reinstalling the firmware from bootloader mode is an **extreme measure**. Only d
 ## Prerequisites
 
 {% steps %}
-{% step " " " " %}
+{% prereq %}
 {% image "/static/img/voice-pe/voice_prereqs_02.png" "Illustration of prerequisites" %}
 {% stepContent %}
 
@@ -26,7 +26,7 @@ Reinstalling the firmware from bootloader mode is an **extreme measure**. Only d
 - The password to your Wi-Fi network.
 
 {% endstepContent %}
-{% endstep %}
+{% endprereq %}
 {% endsteps %}
 
 ## To reinstall the firmware from bootloader mode

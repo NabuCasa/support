@@ -8,23 +8,38 @@ zendesk:
 
 If you don’t want the device to listen for a while, you can mute the microphone.
 
-1. **Option 1**: Use the hardware mute switch.
-   - On the device, move the switch so that you see the red color.
-     - **Result**: The light turns red, indicating that the microphone is muted.
-   - **Info**: When the switch is in this position, you cannot unmute the device from the UI.
+{% steps %}
+{% step "Use the hardware mute switch" "Option 1" %}
+{% image "/static/img/voice-pe/voice_mute_device.webp" "Clip showing how to move the hardware mute switch" %}
+{% stepContent %}
 
-    ![Clip showing how to move the hardware mute switch](/static/img/voice-pe/voice_mute_device.webp)
+- On the device, move the switch so that you see the red color.
+  - **Result**: The light turns red, indicating that the microphone is muted.
+- **Info**: When the switch is in this position, you cannot unmute the device from the UI.
 
-1. **Option 2**: Use the software button.
-   - To use the mute function in the UI, under **Configuration**, toggle the **Mute** switch.
-   - **Info**: The switch in the UI does not work when the physical switch is in the muted position.
+{% endstepContent %}
+{% endstep %}
 
-   ![Screenshot showing showing the software mute switch](/static/img/voice-pe/voice_mute.png)
+{% step "Use the software button" "Option 2" %}
+{% image "/static/img/voice-pe/voice_mute.png" "Screenshot showing showing the software mute switch" %}
+{% stepContent %}
+
+- To use the mute function in the UI, under **Configuration**, toggle the **Mute** switch.
+- **Info**: The switch in the UI does not work when the physical switch is in the muted position.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Checking the status light" "Step 2" %}
+{% image "/static/img/voice-pe/status_muted.png" "Image showing the red status light" %}
+{% stepContent %}
 
 1. The red status light indicates the device is muted.
    - If you muted the device, the LEDs closest to the speaker turn red to indicate that the microphones are off.
 
-   ![Image showing the red status light](/static/img/voice-pe/status_muted.png)
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 

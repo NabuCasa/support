@@ -8,10 +8,17 @@ zendesk:
 
 ## Prerequisites
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-boxed-01.jpg" "Image showing the Assistant Connect&nbsp;ZBT-1 with the USB extension cable in the original packaging" %}
+{% stepContent %}
+
 - Home Assistant installed on your board (for example on a Home Assistant Green, Home Assistant Yellow or on a Raspberry Pi) with the latest updates installed.
 - Home Assistant Connect&nbsp;ZBT-1 dongle and USB extension cable.
 
-  ![Image showing the Assistant Connect&nbsp;ZBT-1 with the USB extension cable in the original packaging](/static/img/connect-zbt-1/connect-zbt-1-boxed-01.jpg)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## To form a new Zigbee network
 

@@ -10,13 +10,20 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
 
 ## Prerequisites
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/green/green_without_sd_card.png" "Image showing a green without an SD card" %}
+{% stepContent %}
+
 - Home Assistant Green
 - Home Assistant Operating System 13.1 or later installed.
   - To see which version you have, go to [**Settings** > **About**](https://my.home-assistant.io/redirect/info/).
 - PC with internet access
 - You have [created a backup](/hc/en-us/articles/25154828325917) and stored it on another system.
 
-![image showing a green without an SD card](/static/img/green/green_without_sd_card.png)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 {% include 'about-device-reset.md' %}
 

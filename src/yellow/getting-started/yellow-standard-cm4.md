@@ -13,11 +13,18 @@ zendesk:
 
 ## Prerequisites
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/yellow/yellow-standard-unboxed.jpeg" "Home Assistant Yellow with Ethernet cable and power supply" %}
+{% stepContent %}
+
 - Home Assistant Yellow
 - Ethernet cable
 - Power supply
 
-![Home Assistant Yellow with Ethernet cable and power supply](/static/img/yellow/yellow-standard-unboxed.jpeg)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## To get started with Home Assistant Yellow
 

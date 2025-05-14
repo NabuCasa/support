@@ -9,6 +9,11 @@ zendesk:
 
 ## Prerequisites
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/yellow/cm5_kit.jpg" "Image showing the Home Assistant Yellow with a Raspberry Pi Compute Module 5, Heat sink assembly bag, Ethernet cable, power supply, a USB flash drive, and an NVMe M.2 SSD drive" %}
+{% stepContent %}
+
 - Home Assistant Yellow
 - Heat sink assembly bag
 - Ethernet cable
@@ -22,7 +27,9 @@ Additionally, make sure you have the following items which are not part of the K
 
 {% include "fragments/notice-dont-use-screws.md" %}
 
-  ![Image showing the Home Assistant Yellow with a Raspberry Pi Compute Module 5, Heat sink assembly bag, Ethernet cable, power supply, a USB flash drive, and an NVMe M.2 SSD drive](/static/img/yellow/cm5_kit.jpg)
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## Opening the case
 
