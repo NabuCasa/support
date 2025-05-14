@@ -14,7 +14,7 @@ zendesk:
 
 {% steps %}
 {% prereq %}
-{% image "/static/img/voice-pe/voice_prereqs_01.png" "icons showing the prerequisites" %}
+{% image "/static/img/voice-pe/voice_prereqs_01.png" "Icons showing the prerequisites" %}
 {% stepContent %}
 
 - Home Assistant Voice Preview Edition
