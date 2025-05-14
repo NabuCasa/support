@@ -13,7 +13,7 @@ zendesk:
 ## Prerequisites
 
 {% steps %}
-{% prereq "" %}
+{% prereq %}
 {% image "/static/img/voice-pe/voice_prereqs_01.png" "icons showing the prerequisites" %}
 {% stepContent %}
 
