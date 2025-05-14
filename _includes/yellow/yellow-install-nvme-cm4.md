@@ -14,11 +14,18 @@
 {% image "/static/img/yellow/step-9.png" "Inserting the drive" %}
 {% stepContent %}
 
-- **Notice**: **Do not touch the gold connector pins**.
-  - Carefully hold the NVMe M.2 SSD by the sides.
-  - Align the notches in the SSD with the ridges in the slot.
-  - Then, insert at a 30-degree angle.
-  - Do not force the connection.
+{% hazard "notice" %}
+
+**Risk of damage to the equipment due to electromagnetic discharge (ESD)**
+
+- Do not touch the gold connector pins
+
+{% endhazard %}
+
+- Carefully hold the NVMe M.2 SSD by the sides.
+- Align the notches in the SSD with the ridges in the slot.
+- Then, insert at a 30-degree angle.
+- Do not force the connection.
 
 {% endstepContent %}
 {% endstep %}
