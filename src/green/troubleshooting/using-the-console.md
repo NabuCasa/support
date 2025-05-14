@@ -35,7 +35,7 @@ Connecting to Home Assistant Green via console may be required for some troubles
 {% endstepContent %}
 {% endstep %}
 
-{% step " Connecting a USB keyboard" %}
+{% step "Connecting a USB keyboard" %}
 {% image "/static/img/green/icons/usb_keyboard.png" "USB keyboard connected to Home Assistant Green" %}
 {% stepContent %}
 
