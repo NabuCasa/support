@@ -13,7 +13,7 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
 ## Prerequisites
 
 {% steps %}
-{% step " " " " %}
+{% prereq %}
 {% image "/static/img/voice-pe/voice_assembly_prereq_small.jpg" "Disassembled device" %}
 {% stepContent %}
 
@@ -25,7 +25,7 @@ Follow these steps if you have 3D-printed your own enclosure parts and want to r
 - No 4 flathead screwdriver
 
 {% endstepContent %}
-{% endstep %}
+{% endprereq %}
 {% endsteps %}
 
 ## To reassemble the enclosure using 3D-printed parts

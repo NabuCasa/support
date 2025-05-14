@@ -17,7 +17,7 @@ Connecting a sensor to the Grove port of the device allows the sensor to use the
 ## Prerequisites
 
 {% steps %}
-{% step " " " " %}
+{% prereq %}
 {% image "/static/img/voice-pe/voice_grove_port_detail.png" "Detail view of the grove port" %}
 {% stepContent %}
 
@@ -31,7 +31,7 @@ Connecting a sensor to the Grove port of the device allows the sensor to use the
 - If you are adding more than one sensor, you need an expansion unit like this [Grove hub](https://shop.m5stack.com/products/mini-hub-module?srsltid=AfmBOooKdCNWJPf90Wr25-jC_8QqbrVeqc3gzZ678-yi4396Cc1q792_)
 
 {% endstepContent %}
-{% endstep %}
+{% endprereq %}
 {% endsteps %}
 
 ## To connect a sensor to the grove port
