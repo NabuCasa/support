@@ -12,7 +12,7 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
 
 {% steps %}
 {% prereq %}
-{% image "/static/img/green/green_without_sd_card.png" "image showing a green without an SD card" %}
+{% image "/static/img/green/green_without_sd_card.png" "Image showing a green without an SD card" %}
 {% stepContent %}
 
 - Home Assistant Green
