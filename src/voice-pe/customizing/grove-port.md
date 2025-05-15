@@ -8,11 +8,13 @@ zendesk:
 
 Connecting a sensor to the Grove port of the device allows the sensor to use the device's power supply and Wi-Fi connection. Home Assistant can then detect the sensor and start using it. This page provides configuration details for a few selected sensors.
 
->Notice
->
->Risk of damage to equipment
->
->Connecting devices to the Grove port and reassembling your own firmware can void the warranty.
+{% hazard "notice" %}
+
+**Risk of damage to equipment**
+
+- Connecting devices to the Grove port and reassembling your own firmware can void the warranty.
+
+{% endhazard %}
 
 ## Prerequisites
 
