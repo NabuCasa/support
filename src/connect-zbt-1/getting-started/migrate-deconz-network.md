@@ -258,7 +258,10 @@ Follow this guide if you have a deCONZ network running with a ConBee II or RaspB
 
 - Overwrite radio IEEE address.
   - Select the **Permanently replace the radio IEEE address** and select **Submit**.
-  - {% stepInfo "This means that your old stick and your new stick will have the same IEEE address. This is required for the migration process to complete successfully. From this point onwards, you should not operate the old stick in the same area. If you do not migrate the IEEE address from your old stick, you'll have to repair many of your devices in order to keep them working." %}
+  - **Info**: This means that your old stick and your new stick will have the same IEEE address.
+    - This is required for the migration process to complete successfully.
+    - From this point onwards, you should not operate the old stick in the same area.
+    - If you do not migrate the IEEE address from your old stick, you'll have to repair many of your devices in order to keep them working.
 
 {% endstepContent %}
 {% endstep %}
@@ -314,8 +317,8 @@ Follow this guide if you have a deCONZ network running with a ConBee II or RaspB
 {% image "/static/img/connect-zbt-1/conbee-migrate-zha-new-22.png" "Reconfigure automations and dashboards" %}
 {% stepContent %}
 
-- {% stepInfo "All migrated devices have new entity IDs. This means you will need to manually reconfigure automations and dashboard cards." %}
-- {% stepInfo "The names that you manually assigned to your devices won't have been migrated. You will have to rename the devices again." %}
+- **Info**: All migrated devices have new entity IDs. This means you will need to manually reconfigure automations and dashboard cards.
+- **Info**: The names that you manually assigned to your devices won't have been migrated. You will have to rename the devices again.
 
 {% endstepContent %}
 {% endstep %}

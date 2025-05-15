@@ -44,7 +44,7 @@ This guide assumes you have already completed the following steps:
 2. Then, select the **Disable multiprotocol support** checkbox.
 3. Wait for the setup to complete.
 
-{% stepInfo "Your Zigbee devices will continue to work. Your Thread devices will continue working only if you have another Thread border router set up." %}
+**Info**: Your Zigbee devices will continue to work. Your Thread devices will continue working only if you have another Thread border router set up.
 
 {% endstepContent %}
 {% endstep %}

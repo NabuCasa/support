@@ -58,7 +58,7 @@ If you don't want to use a phone and your Home Assistant has Bluetooth: either o
 {% stepContent %}
 
 - Use the USB-C cable to connect the device to a power source.
-  - {% stepInfo "You should see a warm white twinkle animation." %}
+  - **Info**: You should see a warm white twinkle animation.
 
 {% endstepContent %}
 {% endstep %}
@@ -98,7 +98,7 @@ If you don't want to use a phone and your Home Assistant has Bluetooth: either o
 {% stepContent %}
 
    1. When prompted, press the center button on Home Assistant Voice.
-      - {% stepInfo "This is to confirm that you are the one trying to connect the device." %}
+      - **Info**: This is to confirm that you are the one trying to connect the device.
       - **Troubleshooting**: If you now see a message “Failed to connect”, continue with the [Troubleshooting steps](/hc/en-us/articles/25800488193949).
       - Success! Your device is now connected to your Wi-Fi. Close.
 
@@ -128,7 +128,7 @@ If you don't want to use a phone and your Home Assistant has Bluetooth: either o
         - If you do not have an account yet, select **Learn more**, then **Try 1 month for free**.
         - For more information, refer to the guide on [Getting started with Home Assistant Cloud](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/).
       - **Option 2**: If you choose **Do it yourself**:
-        - {% stepInfo "If you have lower-power hardware, this option is not recommended. Weaker Home Assistant hardware can lead to slow speech processing." %}
+        - **Info**: If you have lower-power hardware, this option is not recommended. Weaker Home Assistant hardware can lead to slow speech processing.
         - Select **Setup with add-ons**.
         - **Result**: The required add-ons are being installed: **Whisper**, **Piper**.
    4. On the integrations page, under **Discovered**, **Add** the **Whisper** and **Piper** integrations.

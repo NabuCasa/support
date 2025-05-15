@@ -50,7 +50,7 @@ Reinstalling the firmware from bootloader mode is an **extreme measure**. Only d
 {% stepContent %}
 
    1. Open the ESPHome web installer page for Home Assistant Voice Preview Edition.
-      - {% stepInfo "The web installer is a tool that allows you to install software on your device." %}
+      - **Info**: The web installer is a tool that allows you to install software on your device.
    2. On the web installer page, select **Connect** and select the device from the list of USB devices.
    3. Select **Connect** again.
 
