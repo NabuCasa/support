@@ -19,7 +19,8 @@
 
 - Do not use a screwdriver as a lever. It might damage the board.
 
-{% endhazard %}{% hazard "notice" %}
+{% endhazard %}
+{% hazard "notice" %}
 
 **Tilting can damage the connector**
 
