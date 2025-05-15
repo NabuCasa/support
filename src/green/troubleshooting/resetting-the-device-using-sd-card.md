@@ -25,10 +25,18 @@ Perform this procedure if you want to perform a factory reset on your device.
 {% endprereq %}
 {% endsteps %}
 
-> **Note**
-> This process clears the data disk on your Green. Unless you [create a backup](https://www.home-assistant.io/common-tasks/general/#backups), you will lose all data and configuration settings.
-> A device reset wipes the data partition of your device. It removes all user data as well as Home Assistant Core, Supervisor, and any installed add-ons. The Home Assistant Operating System stays on the system.
-> Once a device wipe is initiated, the data partition is marked as to be cleared on boot. Then, the system reinstalls the latest version of all Home Assistant components.
+{% hazard "notice" %}
+
+**Risk of losing your configuration**
+
+This process clears the data disk on your Green. Unless you [create a backup](https://www.home-assistant.io/common-tasks/general/#backups), you will lose all data and configuration settings.
+
+- A device reset wipes the data partition of your device. It removes all user data as well as Home Assistant Core, Supervisor, and any installed add-ons. The Home Assistant Operating System stays on the system.
+- Once a device wipe is initiated, the data partition is marked as to be cleared on boot. Then, the system reinstalls the latest version of all Home Assistant components.
+
+- To avoid losing data and configuration settings, [create a backup](https://www.home-assistant.io/common-tasks/general/#backups) and [define a backup location](https://www.home-assistant.io/common-tasks/general/#defining-backup-locations) outside of your Home Assistant.
+
+{% endhazard %}
 
 ## To copy the Home Assistant Green OS to the SD card
 
@@ -37,10 +45,15 @@ Perform this procedure if you want to perform a factory reset on your device.
 {% image "/static/img/green/download-circle-outline.svg" "Downloading the required software" %}
 {% stepContent %}
 
-- To download the Home Assistant Green OS installer, paste this `https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410` into your browser.
-  1. To start the download, select the file *green-installer-20240410.img.xz*.
-  2. Download and start [Balena Etcher](https://www.balena.io/etcher).
-     - You may need to run it with administrator privileges on Windows.
+1. To download the Home Assistant Green OS installer, paste this into your browser.
+
+    ```text
+      https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410
+    ```
+
+2. To start the download, select the file *green-installer-20240410.img.xz*.
+3. Download and start [Balena Etcher](https://www.balena.io/etcher).
+   - You may need to run it with administrator privileges on Windows.
 
 {% endstepContent %}
 {% endstep %}
