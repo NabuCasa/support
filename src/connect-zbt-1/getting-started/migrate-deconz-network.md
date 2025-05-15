@@ -8,12 +8,18 @@ zendesk:
 
 Follow this guide if you have a deCONZ network running with a ConBee II or RaspBee II and want to migrate to Connect ZBT-1 and ZHA.
 
-> **Note**: this procedure only helps migrate basic network settings to your Home Assistant Connect ZBT-1.
->
-> - Customizations like device names will be lost and automations will need to be updated.
-> - Most powered devices like lightbulbs will be re-discovered over time (you can speed this up by rebooting the device) but your battery-powered devices may need to be re-joined to the network for the migration to complete.
->
-> There is currently no migration path to migrate all settings and devices.
+{% callout "note" %}
+
+**Not possible to migrate all settings and devices**
+
+This procedure only helps migrate basic network settings to Home Assistant Connect ZBT-1.
+
+- Customizations like device names will be lost and automations will need to be updated.
+- Most powered devices like lightbulbs will be re-discovered over time (you can speed this up by rebooting the device) but your battery-powered devices may need to be re-joined to the network for the migration to complete.
+
+- There is currently no migration path to migrate all settings and devices.
+
+{% endcallout %}
 
 ## To migrate a deCONZ network to Connect ZBT-1 using ZHA
 
