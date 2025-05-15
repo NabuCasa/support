@@ -18,7 +18,10 @@ If you open the device, you can access 2 sets of GPIO pins. The image below show
 
 {% endhazard %}
 
-## GPIO Pin header group 1: Pin header in corner
+{% steps %}
+{% step "Pin header in corner" "GPIO Pin header group 1" %}
+{% image "/static/img/voice-pe/voice_pe_internal_pin_group_01.jpg" "Image showing location of pin header group 1 on board" %}
+{% stepContent %}
 
 The pins of group 2 are located in the center of the board. You need to [disassemble the device](/hc/en-us/articles/25938306296605) to access them.
 
@@ -44,9 +47,12 @@ Current drawn from GPIO pins should be limited to 20 milliampere (mA) or damage 
 - `RGBIN` is connected to the input of the first LED in the ring.
 - `RGBOUT` is connected to the output from the last LED in the ring.
 
- ![Image showing location of pin header group 1 on board](/static/img/voice-pe/voice_pe_internal_pin_group_01.jpg)
+{% endstepContent %}
+{% endstep %}
 
-## GPIO Pin header group 2: Pin header in board center
+{% step "Pin header in board center" "GPIO Pin header group 2" %}
+{% image "/static/img/voice-pe/voice_pe_internal_pin_group_02_center.jpg" "Image showing location of pin header group 2 in the center of the board" %}
+{% stepContent %}
 
 The pins of group 2 are located in the center of the board. You need to [disassemble the device](/hc/en-us/articles/25938306296605) to access them.
 
@@ -78,9 +84,12 @@ The pins of group 2 are located in the center of the board. You need to [disasse
 - The ESP32-S3’s `U0TXD` and `U0RXD` (serial/UART) pins are not used by the firmware shipped with the Home Assistant Voice Preview Edition.
 - If you want to watch logs and/or reinstall the ESP32-S3, use the built-in USB port.
 
- ![Image showing location of pin header group 2 in the center of the board](/static/img/voice-pe/voice_pe_internal_pin_group_02_center.jpg)
+{% endstepContent %}
+{% endstep %}
 
-## GPIO pin header group 3: Grove port
+{% step "Grove port" "GPIO pin header group 3" %}
+{% image "/static/img/voice-pe/voice_pe_internal_pin_group_03_grove_port.jpg" "Image showing location of the Grove port" %}
+{% stepContent %}
 
 The pins of the Grove port can be accessed from the outside of the device.
 
@@ -102,7 +111,9 @@ The pins of the Grove port can be accessed from the outside of the device.
 - This is controlled by the ESP32-S3’s GPIO&nbsp;pin&nbsp;46.
 - Power is not available on the Grove port’s +5&nbsp;V pin unless this GPIO pin is switched on (high).
 
- ![Image showing location of the Grove port](/static/img/voice-pe/voice_pe_internal_pin_group_03_grove_port.jpg)
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 
