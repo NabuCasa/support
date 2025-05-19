@@ -27,7 +27,7 @@ Follow these steps if you want to shut down the system.
 {% image "/static/img/green/green_reset_power-up_after_sd-insert.webp" "Clip showing where to press the button on the device" %}
 {% stepContent %}
 
-- Use this option in case the shutdown via UI doesn't work:
+- Use this option in case the shutdown via UI doesn't work.
 - To shutdown gracefully, press the power button for 6 seconds.
 - For a hard shutdown (do this only if all else fails), press the power button for 12 seconds.
 - Wait until all the LEDs turned off.
