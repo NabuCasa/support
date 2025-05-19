@@ -6,7 +6,9 @@ zendesk:
   labels: voice pe, customizing
 ---
 
-Connecting a sensor to the Grove port of the device allows the sensor to use the device's power supply and Wi-Fi connection. Home Assistant can then detect the sensor and start using it. This page provides configuration details for a few selected sensors.
+Connecting a sensor to the [Grove port](https://wiki.seeedstudio.com/Grove_System/) of the device allows the sensor to use the device's power supply and Wi-Fi connection. Home Assistant can then detect the sensor and start using it. This page provides configuration details for a few selected sensors.
+
+Grove is a modular, standardized connector prototyping system by Seeed. It allows you to connect devices without soldering.
 
 {% hazard "notice" %}
 
@@ -172,4 +174,5 @@ Configuration for the [M5Stack BH1750](https://shop.m5stack.com/products/dlight-
 - [M5Stack SHT40-BMP280](https://shop.m5stack.com/products/env-iv-unit-with-temperature-humidity-air-pressure-sensor-sht40-bmp280) temperature, humidity, air pressure sensor
 - [M5Stack PIR](https://shop.m5stack.com/products/pir-module) motion sensor
 - [M5Stack SGP30](https://shop.m5stack.com/products/tvoc-eco2-gas-unit-sgp30) TVOC, eCO2 gas sensor
-- [M5Stack BH1750](https://shop.m5stack.com/products/dlight-unit-ambient-light-sensor-bh1750fvi-tr) ambient light sensor
+- [M5Stack BH1750](https://shop.m5stack.com/products/dlight-unit-ambient-light-sensor-bh1750fvi-tr) ambient light sensor-
+- [What is the Grove ecosystem by Seeed](https://wiki.seeedstudio.com/Grove_System/)
