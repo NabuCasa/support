@@ -8,7 +8,7 @@ zendesk:
 
 Connecting a sensor to the [Grove port](https://wiki.seeedstudio.com/Grove_System/) of the device allows the sensor to use the device's power supply and Wi-Fi connection. Home Assistant can then detect the sensor and start using it. This page provides configuration details for a few selected sensors.
 
-Grove is a modular, standardized connector prototyping system by Seeed. It allows you to connect devices without soldering.
+[Grove](https://wiki.seeedstudio.com/Grove_System/ is a modular, standardized connector prototyping system by Seeed. It allows you to connect devices without soldering.
 
 {% hazard "notice" %}
 
