@@ -298,7 +298,7 @@ export default async function (eleventyConfig) {
     return `<div class="hazard ${type}"><div class="hazard-prefix">${hazardMap.icon} ${hazardMap.text}</div><div class="hazard-content">${md.renderInline(content)}</div></div>`;
   });
 
-  eleventyConfig.addShortcode("callout", function (type, content) {
+  eleventyConfig.addPairedShortcode("callout", function (content, type) {
     // if type not in array of strings
     if (!Object.values(CALLOUT_TYPE).includes(type)) {
       throw new Error(
