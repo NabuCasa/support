@@ -48,7 +48,7 @@ This process clears the data disk on your Green. Unless you [create a backup](ht
 1. To download the Home Assistant Green OS installer, paste this into your browser.
 
     ```text
-      https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410
+    https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410
     ```
 
 2. To start the download, select the file *green-installer-20240410.img.xz*.
