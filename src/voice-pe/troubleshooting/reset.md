@@ -27,10 +27,10 @@ A device reset deletes the Wi-Fi credentials and the light settings from Home As
 - Keep pressing the button until the red circle is complete and the device tells you to stop pressing.
 
   - {% stepResult "All data is cleared from the device." %}
-  
-  - {% stepInfo "If you stop pressing the button before the red light has completed the circle, the reset process is aborted." %}
-  
-  - {% stepInfo "Once the reset is complete, the device starts up again. The white twinkle indicates that it is ready to be connected." %}
+
+  - **Info**: If you stop pressing the button before the red light has completed the circle, the reset process is aborted.
+
+  - **Info**: Once the reset is complete, the device starts up again. The white twinkle indicates that it is ready to be connected.
 
 {% endstepContent %}
 {% endstep %}

@@ -17,7 +17,7 @@ It is not usually necessary to reinstall the firmware. Only follow this procedur
 
    1. Take a USB-C cable and connect the device to your computer.
    2. Open the ESPHome [web installer page for Home Assistant Voice Preview Edition](https://esphome.github.io/home-assistant-voice-pe/).
-      - {% stepInfo "The web installer page is a tool that allows you to install firmware to your device." %}
+      - **Info**: The web installer page is a tool that allows you to install firmware to your device.
    3. On the web installer page, select **Connect** and select the device from the list of USB devices.
    4. Select **Connect** again.
 

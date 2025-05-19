@@ -35,7 +35,7 @@ Please note that not all settings can be migrated in this case:
 {% stepContent %}
 
 - In your **Downloads** folder, unzip the **z2m-backup** file.
-  - {% stepInfo "It should contain a **coordinator_backup.json** file." %}
+  - **Info**: It should contain a **coordinator_backup.json** file.
 
 {% endstepContent %}
 {% endstep %}
@@ -129,7 +129,7 @@ Please note that not all settings can be migrated in this case:
 {% stepContent %}
 
 - Assign the coordinator to an area and select **Finish**.
-- {% stepInfo "You won't be able to control the devices until they rejoin the network. Normally, they join within one hour. You may be able to accelerate that process by power-cycling the device." %}
+- **Info**: You won't be able to control the devices until they rejoin the network. Normally, they join within one hour. You may be able to accelerate that process by power-cycling the device."
 
 {% endstepContent %}
 {% endstep %}
@@ -138,8 +138,8 @@ Please note that not all settings can be migrated in this case:
 {% image "/static/img/connect-zbt-1/z2m-backup-restore-05.png" "Reconfiguring automations and dashboards" %}
 {% stepContent %}
 
-- {% stepInfo "All migrated devices have new entity IDs. This means you will need to manually reconfigure automations and dashboard cards." %}
-- {% stepInfo "The names that you manually assigned to your devices won't have been migrated. You will have to rename the devices again." %}
+- **Info**: All migrated devices have new entity IDs. This means you will need to manually reconfigure automations and dashboard cards.
+- **Info**: The names that you manually assigned to your devices won't have been migrated. You will have to rename the devices again.
 
 {% endstepContent %}
 {% endstep %}

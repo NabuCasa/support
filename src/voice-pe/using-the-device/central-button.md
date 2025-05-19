@@ -18,7 +18,7 @@ The following button presses are supported:
 
 - To set up an automation based on a button press pattern (for example, long press), follow the steps on [automating on a button press](https://www.home-assistant.io/integrations/event/#automating-on-a-button-press).
 
-- {% stepInfo "Those instructions are based on a Matter device." %}
+- **Info**: Those instructions are based on a Matter device.
 
   - The process is very similar for a voice device.
 
