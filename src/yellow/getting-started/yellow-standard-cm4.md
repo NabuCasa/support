@@ -8,8 +8,9 @@ zendesk:
 ---
 
 {% callout "note" %}
+
 - Although this variant is no longer manufactured, it will continue to receive the same support as the kit models.
-- If you are looking for more of a plug-and-play experience, take a look at the [Home Assistant Green](https://www.home-assistant.io/green)
+- If you are looking for more of a plug-and-play experience, take a look at the [Home Assistant Green](https://www.home-assistant.io/green).
 
 {% endcallout %}
 
