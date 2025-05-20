@@ -6,7 +6,7 @@ zendesk:
   labels: voice pe, customizing
 ---
 
-If you open the device, you can access 2 sets of GPIO pins. The image below shows pin header groups 1 and 2, located on the board. This page also describes the pins of the Grove port which you can access from the outside of the device.
+If you open the device, you can access 2 sets of GPIO pins. The image below shows pin header groups 1 and 2, located on the board. This page also describes the pins of the [Grove port](/hc/en-us/articles/25938245892765) which you can access from the outside of the device.
 
  ![Image showing location of pin header groups 1 and 2 on the board](/static/img/voice-pe/voice_pe_internal_pin_headers.jpg)
 
@@ -120,3 +120,4 @@ The pins of the Grove port can be accessed from the outside of the device.
 - [Disassembling the device](/hc/en-us/articles/25938306296605)
 - [Reassembling the device](/hc/en-us/articles/25938314528285)
 - [Connecting a sensor to the Grove port](/hc/en-us/articles/25938245892765)
+- [What is the Grove ecosystem by Seeed](https://wiki.seeedstudio.com/Grove_System/)
