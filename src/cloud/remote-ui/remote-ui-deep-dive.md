@@ -12,7 +12,7 @@ Once enabled, Home Assistant generates a security certificate for secure communi
 
 ## How it works
 
-This section dives into more technical details on how the remote connection works. If you are only interested in a high level overview, refer to the topic [about the Remote Access connection to Home Assistant](/hc/en-us/articles/26469707849629/).
+This section dives into more technical details on how remote access works. If you are only interested in a high level overview, refer to the topic about the [remote access to Home Assistant](/hc/en-us/articles/26469707849629/).
 
 ### Remote access communication and routing
 
