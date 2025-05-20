@@ -6,7 +6,7 @@ zendesk:
   labels: cloud
 ---
 
-One of the main features of Home Assistant Cloud is the Remote Access. The Remote Access allows you to connect to your Home Assistant instance from outside of your home network. So that you can start the vacuum cleaner from your phone while you are on the train for your daily commute, for example.
+One of the main features of Home Assistant Cloud is remote access. Remote access allows you to connect to your Home Assistant instance from outside of your home network. So that you can start the vacuum cleaner from your phone while you are on the train for your daily commute, for example.
 
 By default, remote access is not possible. You need to [enable it](/hc/en-us/articles/26474279202973/).
 
@@ -14,7 +14,7 @@ By default, remote access is not possible. You need to [enable it](/hc/en-us/art
 
 Once enabled, Home Assistant generates a security certificate for secure communication and provides you with a URL. You can then use this URL to access your Home Assistant while away from home.
 
-Below is a simplified visualization showing how the remote access connection to Home Assistant works:
+Below is a simplified visualization showing how remote access to Home Assistant works:
 
 <figure>
   <img src="/static/img/cloud/ha-cloud-remote-remote-ui-data-flow.svg" alt="Data flow diagram between your browser outside of your home network, and your Home Assistant">
