@@ -15,8 +15,8 @@ If you own your own domain (like `example.com`), you might want to use a subdoma
 ## To apply a custom domain for using remote access with Home Assistant
 
 1. To use your own domain name, first log in to the [Nabu Casa account page](https://account.nabucasa.com).
-2. Then, look for the **Add Custom Domain** card.
-3. In the **Add Custom Domain** card, enter the subdomain name you would like to start using (like `home.example.com`).
+2. Then, look for the **Add a custom domain** card.
+3. In the **Add a custom domain** card, enter the subdomain name you would like to start using (like `home.example.com`).
 4. To start the process, select **Next**.
    - **Result**: Once the configuration is complete, the certificate needs to be regenerated and validated with both your custom domain name and the one we previously provided.
 5. To do this, restart your Home Assistant instance.
