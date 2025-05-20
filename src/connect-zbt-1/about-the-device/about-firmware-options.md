@@ -19,7 +19,7 @@ There are currently two different recommended firmware options available for Hom
 
 - This is the firmware that runs a Zigbee network. It is preinstalled on Home Assistant Connect&nbsp;ZBT-1.
 - Bundled in the **Silicon Labs Flasher** add-on. If you have installed one of the other two options at some point, this add-on allows you to re-install the Zigbee firmware. Note that the add-on is only used to flash the firmware. It is never used during operation: Zigbee Home Automation (ZHA) communicates with the Zigbee firmware directly.
-- Other terms you may have seen to designate this firmware: EmberZNet firmware, <abbr title="EmberZnet serial protocol">EZSP</abbr> firmware, Zigbee EZSP.
+- Other terms you may have seen to designate this firmware: EmberZNet firmware, {% abbr "EZSP" %} firmware, Zigbee EZSP.
 
 ### Thread firmware
 

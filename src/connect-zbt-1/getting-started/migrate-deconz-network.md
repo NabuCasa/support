@@ -6,7 +6,7 @@ zendesk:
   labels: connect zbt-1, getting started, migrate, migration
 ---
 
-Follow this guide if you have a deCONZ network running with a ConBee II or RaspBee II and want to migrate to Connect ZBT-1 and ZHA.
+Follow this guide if you have a deCONZ network running with a ConBee II or RaspBee II and want to migrate to Connect ZBT-1 and {% abbr "ZHA" %}.
 
 {% callout "note" %}
 
