@@ -1,8 +1,8 @@
-<!---Steps on reseating the Raspberry Pi Compute Module 4. The steps are almost the same as the ones fo rinstalling the CM4, except the heat pads don't need to be placed, as they are already there from the previous installation. -->
+<!---Steps on reseating the Raspberry Pi Compute Module 5. The steps are almost the same as the ones for installing the CM4, except the heat pads don't need to be placed, as they are already there from the previous installation. -->
 
 {% steps %}
 {% step "Aligning the CM5" %}
-{% image "/static/img/yellow/step-6-poe-align-cm4.jpeg" "Top view of the board, without CM4, connectors facing to the right" %}
+{% image "/static/img/yellow/step-6-poe-align-cm4.jpeg" "Top view of the board, without the module, connectors facing to the right" %}
 {% stepContent %}
 
 1. Place the board in front of you, the connectors facing to the right.
