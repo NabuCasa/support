@@ -272,6 +272,18 @@ export default async function (eleventyConfig) {
     return `<img src="${src}" alt="${alt}"/>`;
   });
 
+  eleventyConfig.addShortcode("abbr", function (abbr) {
+    const targetPath = resolve(eleventyConfig.dir.input, "_data", "abbr.yml");
+    const abbrDefinitions = yamlLoad(fs.readFileSync(targetPath, "utf8"));
+    const abbrValue = abbrDefinitions[abbr];
+
+    if (!abbrValue) {
+      throw new Error(`Abbr '${abbr}' not found in _data/abbr.yml`);
+    }
+
+    return `<abbr title="${abbrValue}">${abbr}</abbr>`;
+  });
+
   eleventyConfig.addPairedShortcode("hazard", function (content, type) {
     // if type not in array of strings
     if (!Object.values(HAZARD_TYPE).includes(type)) {
