@@ -46,7 +46,7 @@ If you are away from home and want to access your Home Assistant, but the remote
 Activating remote control from outside your network only works if under [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/) you previously enabled **Allow external activation of remote control** (see steps above under _To enable remote control_).
 
 1. Log in to your [Nabu Casa account page](https://account.nabucasa.com).
-   - If your instance is not connected, the status under **Remote access** is shown as **Not connected**.
+   - If your instance is not connected, the **Status** under **Remote access** is shown as **Not connected**.
 2. To connect remotely, select **Connect**.
 
    <img src="/static/img/cloud/ha-remote-access-connect.png" alt='Screenshot of the remote access section with the Connect button.' class='img-fluid'>
