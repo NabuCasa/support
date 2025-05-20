@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26469707849629
-  name: About Home Assistant Remote Access
+  name: About Home Assistant remote access
   position: 1
   labels: cloud
 ---
@@ -10,11 +10,11 @@ One of the main features of Home Assistant Cloud is the Remote Access. The Remot
 
 By default, remote access is not possible. You need to [enable it](/hc/en-us/articles/26474279202973/).
 
-## How does Remote Access work?
+## How does remote access work?
 
 Once enabled, Home Assistant generates a security certificate for secure communication and provides you with a URL. You can then use this URL to access your Home Assistant while away from home.
 
-Below is a simplified visualization showing how the Remote Access connection to Home Assistant works:
+Below is a simplified visualization showing how the remote access connection to Home Assistant works:
 
 <figure>
   <img src="/static/img/cloud/ha-cloud-remote-remote-ui-data-flow.svg" alt="Data flow diagram between your browser outside of your home network, and your Home Assistant">
@@ -29,8 +29,8 @@ This flow ensures that all communication is encrypted and secure.
 
 ## Related topics
 
-- [Enabling remote access to Home Assistant (Remote Access)](/hc/en-us/articles/26474279202973/)
-- [Using Remote Access with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)
-- [Remote Access - How it works - deep dive](/hc/en-us/articles/25619268678557/)
-- [Remote Access - security aspects](/hc/en-us/articles/26508882007581/)
-- [Remote Access source code on GitHub](/hc/en-us/articles/26510075061021)
+- [Enabling remote access to Home Assistant](/hc/en-us/articles/26474279202973/)
+- [Using remote access with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)
+- [Remote access - How it works - deep dive](/hc/en-us/articles/25619268678557/)
+- [Remote access - security aspects](/hc/en-us/articles/26508882007581/)
+- [Remote access source code on GitHub](/hc/en-us/articles/26510075061021)

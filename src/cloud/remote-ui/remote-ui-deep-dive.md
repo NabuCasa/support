@@ -1,12 +1,12 @@
 ---
 zendesk:
   article_id: 25619268678557
-  name: Remote Access - Deep dive
+  name: Remote access - Deep dive
   position: 3
   labels: cloud
 ---
 
-Home Assistant Remote Access allows you to connect to your Home Assistant instance from outside of your home network. By default, remote access is not enabled. You need to [enable it](/hc/en-us/articles/26474279202973/).
+Home Assistant remote access allows you to connect to your Home Assistant instance from outside of your home network. By default, remote access is not enabled. You need to [enable it](/hc/en-us/articles/26474279202973/).
 
 Once enabled, Home Assistant generates a security certificate for secure communication and provides you with a URL. You can then use this URL to access your Home Assistant while away from home.
 
@@ -14,9 +14,9 @@ Once enabled, Home Assistant generates a security certificate for secure communi
 
 This section dives into more technical details on how the remote connection works. If you are only interested in a high level overview, refer to the topic [about the Remote Access connection to Home Assistant](/hc/en-us/articles/26469707849629/).
 
-### Remote Access communication and routing
+### Remote access communication and routing
 
-The Remote Access ensures secure communication between your browser and your local Home Assistant instance by encrypting all data. This encryption is achieved using a Let's Encrypt certificate. Behind the scenes, your local Home Assistant instance connects to one of our custom-built UI proxy servers. These servers operate at the TCP level, forwarding all encrypted data between your browser/client and the local instance.
+Remote access ensures secure communication between your browser and your local Home Assistant instance by encrypting all data. This encryption is achieved using a Let's Encrypt certificate. Behind the scenes, your local Home Assistant instance connects to one of our custom-built UI proxy servers. These servers operate at the TCP level, forwarding all encrypted data between your browser/client and the local instance.
 
 #### Routing mechanism
 
@@ -34,7 +34,7 @@ Add-ons which support Ingress can be accessed via Home Assistant Cloud. Because 
 
 ## Related topics
 
-- [Enabling remote access to Home Assistant (Remote Access)](/hc/en-us/articles/26474279202973/)
-- [About the Remote Access connection to Home Assistant (high level explainer)](/hc/en-us/articles/26469707849629/)
-- [Remote Access - security aspects](/hc/en-us/articles/26508882007581/)
-- [Using Remote Access with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)
+- [Enabling remote access to Home Assistant](/hc/en-us/articles/26474279202973/)
+- [About the remote access connection to Home Assistant (high level explainer)](/hc/en-us/articles/26469707849629/)
+- [Remote access - security aspects](/hc/en-us/articles/26508882007581/)
+- [Using remote access with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)
