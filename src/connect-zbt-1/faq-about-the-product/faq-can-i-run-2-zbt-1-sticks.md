@@ -9,4 +9,4 @@ zendesk:
 
 No, you cannot run 2 Home Assistant Connect ZBT-1 sticks at once. ZHA (Zigbee Home Automation) is single instance only.
 
-<abbr title="Zigbee Home Automation">ZHA</abbr> cannot control 2 radios at once.
+{% ZHA %} cannot control 2 radios at once.
