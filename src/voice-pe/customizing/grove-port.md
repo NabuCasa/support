@@ -6,7 +6,7 @@ zendesk:
   labels: voice pe, customizing
 ---
 
-Connecting a sensor to the [Grove port](https://wiki.seeedstudio.com/Grove_System/) of the device allows the sensor to use the device's power supply and Wi-Fi connection. Home Assistant can then detect the sensor and start using it. This page provides configuration details for a few selected sensors.
+The [Grove port](https://wiki.seeedstudio.com/Grove_System/) provides an easy way to connect a sensor; it facilitates both a power and data connection. With a minor modification to the VPE's configuration, Home Assistant can then detect the sensor and start using it. This page provides configuration details for a few selected sensors.
 
 [Grove](https://wiki.seeedstudio.com/Grove_System/ is a modular, standardized connector prototyping system by Seeed. It allows you to connect devices without soldering.
 
