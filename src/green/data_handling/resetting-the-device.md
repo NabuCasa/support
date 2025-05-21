@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25161225495837
   name: Resetting the device
-  position: 1
+  position: 3
   labels: green, troubleshooting
 ---
 
