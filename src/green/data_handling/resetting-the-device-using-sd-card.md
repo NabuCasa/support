@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25162566451485
   name: Resetting the device using an SD card
-  position: 2
+  position: 4
   labels: green, troubleshooting
 ---
 
