@@ -8,7 +8,7 @@ zendesk:
 
 Follow these steps to disable multi-factor authentication (MFA) for your Home Assistant Cloud account.
 
-- Note that once you have disabled multi-factor authentication (MFA), you can not enable it again.
+- Note that once you have disabled multi-factor authentication (MFA), you can not enable it again. The function to enable it is not currently available.
 
 ### Prerequisites
 
