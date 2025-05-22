@@ -26,3 +26,4 @@ If you enable multi-factor authentication for Home Assistant Cloud, in addition 
 
 - [I lost the device with the authenticator app](/hc/en-us/articles/25806000298397)
 - [Nabu Casa account page](https://account.nabucasa.com/)
+- [Disabling multi-factor authentication (MFA)](/hc/en-us/articles/26198603111581)
