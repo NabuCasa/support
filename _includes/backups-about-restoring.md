@@ -17,7 +17,7 @@ A full backup includes the following elements:
 - scripts
 - and media stored on Home Assistant.
 
-Before creating a backup, you can select what to include or explude for a backup.
+Before creating a backup, you can select what to include or exclude for a backup.
 
 ### Estimated duration
 
