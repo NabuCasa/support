@@ -18,7 +18,7 @@ zendesk:
 
 - Home Assistant Voice Preview Edition
 - USB-C cable and USB power supply (these are not included in the box)
-- Home Assistant installation (Home Assistant server).
+- Home Assistant server.
   - The Home Assistant Voice Preview Edition is not a standalone device. For it to work, it needs to connect to Home Assistant, which is installed on a device to act as a server, for example on a [Home Assistant Green](https://www.home-assistant.io/green/).
   - If you do not have Home Assistant installed yet, refer to the [installation documentation](https://www.home-assistant.io/installation/) for instructions.
   - If you already have Home Assistant, make sure to [update to the most recent version](https://www.home-assistant.io/common-tasks/os/#updating-home-assistant).
@@ -34,7 +34,7 @@ zendesk:
 
 Using your iPhone/Android is the easiest way to connect your Home Assistant Voice Preview Edition to your Wi-Fi network.
 
-- Have the [Home Assistant Companion app](https://companion.home-assistant.io/) installed on your iPhone or Android and configured to connect to your Home Assistant instance.
+- Have the [Home Assistant Companion app](https://companion.home-assistant.io/) installed on your iPhone or Android and configured to connect to your Home Assistant server.
   - The Home Assistant Companion app is a client software. This means it allows you to access and use your Home Assistant server from a mobile device.
   - Note that in the app store, it is called **Home Assistant**. In the app itself, is called **Companion app**.
 - Make sure the version of the Home Assistant Companion app is up to date.
