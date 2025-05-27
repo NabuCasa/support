@@ -36,6 +36,7 @@ Using your iPhone/Android is the easiest way to connect your Home Assistant Voic
 
 - Have the [Home Assistant Companion app](https://companion.home-assistant.io/) installed on your iPhone or Android and configured to connect to your Home Assistant instance.
   - The Home Assistant Companion app is a client software. This means it allows you to access and use your Home Assistant server from a mobile device.
+  - Note that in the app store, it is called **Home Assistant**. In the app itself, is called **Companion app**.
 - Make sure the version of the Home Assistant Companion app is up to date.
 - You are logged in to your Home Assistant Companion app with a user that has Administrator rights on Home Assistant.
 - On your phone, make sure Bluetooth is enabled.
