@@ -19,7 +19,7 @@ zendesk:
 - Home Assistant Voice Preview Edition
 - USB-C cable and USB power supply (these are not included in the box)
 - Home Assistant installation (Home Assistant server).
-  - The Home Assistant Voice Preview Edition is not a standalone device. For it to function, it needs to connect to Home Assistant, which is installed on a device to act as a server, for example on a [Home Assistant Green](https://www.home-assistant.io/green/).
+  - The Home Assistant Voice Preview Edition is not a standalone device. For it to work, it needs to connect to Home Assistant, which is installed on a device to act as a server, for example on a [Home Assistant Green](https://www.home-assistant.io/green/).
   - If you do not have Home Assistant installed yet, refer to the [installation documentation](https://www.home-assistant.io/installation/) for instructions.
   - If you already have Home Assistant, make sure to [update to the most recent version](https://www.home-assistant.io/common-tasks/os/#updating-home-assistant).
   - In the Home Assistant UI, you are logged in with a user that has Administrator rights on Home Assistant.
