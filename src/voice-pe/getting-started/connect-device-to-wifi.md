@@ -25,7 +25,8 @@ zendesk:
   - In the Home Assistant UI, you are logged in with a user that has Administrator rights on Home Assistant.
     - To check if a user has Administrator rights, you need to be logged in with Administrator rights.
     - Go to [**Settings** > **People**](https://my.home-assistant.io/redirect/people/) and check the [settings](https://www.home-assistant.io/integrations/person/#adding-a-person-to-home-assistant) for that user.
-- The password to your Wi-Fi network
+- The password to your 2.4 GHz Wi-Fi network
+  - Some routers default to the 5 Ghz frequency. In that case, you need to specifically select the 2.4 Ghz.
 
 **Note**: This guide was tested using [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) on [Home Assistant Yellow](https://www.home-assistant.io/yellow/) and on [Home Assistant Green](https://www.home-assistant.io/green/).
 
