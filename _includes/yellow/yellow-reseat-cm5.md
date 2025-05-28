@@ -35,7 +35,7 @@
 {% image "/static/img/yellow/cm5-place-heat-pads-02.png" "Top view of the board, showing how to install the heat pads" %}
 {% stepContent %}
 
-1. If the packaging included a plastic bag labelled **CM5** with screws and heat pads, place those heat pads on the CM5.
+1. If your Yellow came with a plastic bag labelled **CM5**, containing screws and heat pads, place those heat pads on the CM5.
 2. Align the pads as shown in the image.
 3. Make sure that the pad with the cut off corner is placed so that there is room for the screw.
 
