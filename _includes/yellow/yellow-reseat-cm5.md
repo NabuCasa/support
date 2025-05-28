@@ -28,7 +28,30 @@
      - It needs to run parallel to the Home Assistant Yellow board.
      - You can also pull a bit on the sides to make sure it is not loose.
 
+{% endstepContent %}
+{% endstep %}
+
+{% step "Placing the heat pads" %}
+{% image "/static/img/yellow/cm5-place-heat-pads-02.png" "Top view of the board, showing how to install the heat pads" %}
+{% stepContent %}
+
+1. If the packaging included a plastic bag labelled **CM5** with screws and heat pads, place those heat pads on the CM5.
+2. Align the pads as shown in the image.
+3. Make sure that the pad with the cut off corner is placed so that there is room for the screw.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Optional: Adding screws" %}
+{% image "/static/img/yellow/cm5-place-heat-pads-and-screws-01.png" "Top view of the board, showing how to install the screws" %}
+{% stepContent %}
+
 {% include "fragments/notice-dont-use-screws.md" %}
+
+1. If the packaging included a plastic bag labelled **CM5** with screws and heat pads, you have the option to screw the CM5 module in place.
+2. Only do this if you feel the module did not click in place properly.
+3. Use a No 2 crosshead screwdriver.
+4. Be careful not to overtighten the screws.
 
 {% endstepContent %}
 {% endstep %}
