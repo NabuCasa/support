@@ -50,7 +50,7 @@
 
 1. If the packaging included a plastic bag labelled **CM5** with screws and heat pads, you have the option to screw the CM5 module in place.
 2. Only add screws if you feel the module did not click in place properly.
-3. Use a No 2 crosshead screwdriver.
+3. Use a No 1 crosshead screwdriver.
 4. Be careful not to overtighten the screws.
 
 {% endstepContent %}
