@@ -14,29 +14,33 @@ zendesk:
 
 {% steps %}
 {% prereq %}
-{% image "/static/img/voice-pe/voice_prereqs_01.png" "Icons showing the prerequisites" %}
 {% stepContent %}
 
 - Home Assistant Voice Preview Edition
 - USB-C cable and USB power supply (these are not included in the box)
-- Home Assistant installation.
-  - Make sure you have the most recent version installed.
+- Home Assistant server.
+  - The Home Assistant Voice Preview Edition is not a standalone device. For it to work, it needs to connect to Home Assistant, which is installed on a device to act as a server, for example on a [Home Assistant Green](https://www.home-assistant.io/green/).
   - If you do not have Home Assistant installed yet, refer to the [installation documentation](https://www.home-assistant.io/installation/) for instructions.
-  - You are logged in with a user that has Administrator rights on Home Assistant
+  - If you already have Home Assistant, make sure to [update to the most recent version](https://www.home-assistant.io/common-tasks/os/#updating-home-assistant).
+  - In the Home Assistant UI, you are logged in with a user that has Administrator rights on Home Assistant.
     - To check if a user has Administrator rights, you need to be logged in with Administrator rights.
     - Go to [**Settings** > **People**](https://my.home-assistant.io/redirect/people/) and check the [settings](https://www.home-assistant.io/integrations/person/#adding-a-person-to-home-assistant) for that user.
-- This guide was tested using [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) on [Home Assistant Yellow](https://www.home-assistant.io/yellow/) and on [Home Assistant Green](https://www.home-assistant.io/green/).
-- The password to your Wi-Fi network
+- The password to your 2.4 GHz Wi-Fi network
+  - Some routers default to the 5 Ghz frequency. In that case, you need to specifically select the 2.4 Ghz.
+
+**Note**: This guide was tested using [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) on [Home Assistant Yellow](https://www.home-assistant.io/yellow/) and on [Home Assistant Green](https://www.home-assistant.io/green/).
 
 ### Onboarding via phone
 
-Using your iPhone/Android is the easiest way to connect your Home Assistant Voice to your Wi-Fi network.
+Using your iPhone/Android is the easiest way to connect your Home Assistant Voice Preview Edition to your Wi-Fi network.
 
-- Have the [Home Assistant Companion](https://companion.home-assistant.io/) app installed on your iPhone or Android and configured to connect to your Home Assistant instance.
-- Make sure the version is up to date.
-- You are logged in to your Home Assistant Companion app with a user that has Administrator rights.
+- Have the [Home Assistant Companion app](https://companion.home-assistant.io/) installed on your iPhone or Android and configured to connect to your Home Assistant server.
+  - The Home Assistant Companion app is a client software. This means it allows you to access and use your Home Assistant server from a mobile device.
+  - Note that in the app store, it is called **Home Assistant**. In the app itself, it is called **Companion app**.
+- Make sure the version of the Home Assistant Companion app is up to date.
+- You are logged in to your Home Assistant Companion app with a user that has Administrator rights on Home Assistant.
 - On your phone, make sure Bluetooth is enabled.
-- Make sure the Home Assistant Companion App has Bluetooth permission:
+- Make sure the Home Assistant Companion app has Bluetooth permission:
   - **On iPhone**, go to **Settings** > **Privacy & Security** and enable Bluetooth for Home Assistant.
   - **On Android**: make sure you’ve enabled precise location service permissions for Home Assistant. It is used for onboarding only. You can disable it again afterward.
     - Go to **Settings** > **Apps** > **Home Assistant** > **Permissions** and enable Location, **Allow all the time and Use precise location**.
