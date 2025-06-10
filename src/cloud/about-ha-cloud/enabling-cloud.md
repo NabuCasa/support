@@ -28,7 +28,7 @@ cloud:
 {% endstepContent %}
 {% endstep %}
 
-{% step "Singing in to Home Assistant Cloud" %}
+{% step "Signing in to Home Assistant Cloud" %}
 {% image "/static/img/cloud/ha-cloud-register-01.png" "Home Assistant Cloud log in page" %}
 {% stepContent %}
 
