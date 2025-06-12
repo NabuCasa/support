@@ -23,4 +23,4 @@ For detailed information about the product features, refer to the [Home Assistan
 - [About the LEDs](/hc/en-us/articles/25210352599197)
 - [Getting started with Home Assistant Green](/hc/en-us/articles/24737667232413)
 - [Does Home Assistant Green have Zigbee, Thread, Wi-Fi, or Bluetooth?](/hc/en-us/articles/25143653817501)
-- [Resources (Datasheet, EU DoC, Warranty and Safety Information)](/sections/24979866957981/)
+- [Resources (Datasheet, EU DoC, Warranty and Safety Information)](/hc/en-us/sections/24979866957981)
