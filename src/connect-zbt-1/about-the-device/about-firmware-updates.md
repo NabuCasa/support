@@ -33,7 +33,7 @@ Verify the add-on logs to confirm successful flashing.
 
 If your Home Assistant installation has no add-ons available, you can install the latest firmware version for Home Assistant Connect&nbsp;ZBT-1 directly from your browser over USB. To do this, follow these steps:
 
-1. Open [the linked page](https://deploy-preview-145--home-assistant-skyconnect.netlify.app/firmware-update/).
+1. Open [the linked page](https://home-assistant-skyconnect.netlify.app/firmware-update/).
 2. On the bottom of that page, select the **Update firmware** button.
 3. Plug in your Connect&nbsp;ZBT-1 to your computer and select the firmware version you want to install.
 
