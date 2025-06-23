@@ -57,6 +57,7 @@
 2. After a few seconds, the yellow LED on the Yellow board should start blinking.
 3. Afterwards, only the green LED should be on.
 4. The module is now ready to have the Home Assistant Operating System installed on it (next steps).
+5. **Troubleshooting**: If this step didn't work, remove power from the system and repeat step 3.
 
 {% endstepContent %}
 {% endstep %}
