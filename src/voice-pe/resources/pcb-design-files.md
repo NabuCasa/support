@@ -6,6 +6,6 @@ zendesk:
   labels: voice pe, downloads, resources
 ---
 
-The repository with the source files is in preparation.
+Link to the repository containing the design files of Home Assistant Voice Preview Edition.
 
-- [Design files PDF](/static/docs/voice/ha_voice_preview_edition_pcb_design_files.pdf)
+- [KiCAD design files](https://github.com/NabuCasa/home-assistant-voice-pe)
