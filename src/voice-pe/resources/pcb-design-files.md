@@ -8,4 +8,4 @@ zendesk:
 
 
 - [Design files PDF](/static/docs/voice/ha_voice_preview_edition_pcb_design_files.pdf)
-- [Github repository with the KiCAD design files](https://github.com/NabuCasa/home-assistant-voice-pe)
+- [GitHub repository with the KiCAD design files](https://github.com/NabuCasa/home-assistant-voice-pe)
