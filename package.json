@@ -89,6 +89,10 @@
             "yes": "GitHub"
           },
           {
+            "no": "KiCAD",
+            "yes": "KiCad"
+          },
+          {
             "no": "Speech-[Tt]o-Text",
             "yes": "Speech-to-text"
           },
