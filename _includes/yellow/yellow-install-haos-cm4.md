@@ -8,7 +8,7 @@
 - Install the Raspberry Pi Imager on your computer as described under [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/).
   - **Info**: If your platform doesn't support the Raspberry Pi Imager, you can use another imager (e.g. balenaEtcher) and flash the Home Assistant OS Installer for Yellow directly from [GitHub releases](https://github.com/NabuCasa/yellow-buildroot/releases).
   - **Important**: If you are using a Raspberry Pi Compute Module&nbsp;4 (CM4) that already has software on it, this procedure does not work. Ignore this and the following steps.
-    - Instead, follow the procedure [Option 2: Reinstall Home Assistant OS using rpiboot]().
+    - Instead, follow the procedure [Option 2: Reinstall Home Assistant OS using rpiboot](/hc/en-us/articles/25484982657309).
     - The reason is that by default, the CM4 tries to boot from the internal eMMC before booting from the USB flash drive.
 
 {% endstepContent %}
