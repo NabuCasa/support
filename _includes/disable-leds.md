@@ -10,7 +10,7 @@ Note: This procedure only allows you to disable the status lights of the device 
 - This feature requires HAOS version 11.0 or later.
 - You need **Administrator** rights to do this
 
-### To disable or enable the status light (LEDs)
+### To disable the status light (LEDs)
 
 1. Go to [**Settings** > **System** > **Hardware**](https://my.home-assistant.io/redirect/hardware/) and select **Configure** > **Configure hardware settings**.
 2. In the dialog, select the toggles to disable the LEDs and submit the changes.
