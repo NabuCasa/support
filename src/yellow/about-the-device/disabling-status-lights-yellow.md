@@ -3,7 +3,7 @@ zendesk:
   article_id: 28604930148637
   name: Disabling the status lights (LEDs) of Home Assistant Yellow
   position: 6
-  labels: green, about the system, status
+  labels: yellow, about the system, status
 ---
 
 {% include 'disable-leds.md' %}
