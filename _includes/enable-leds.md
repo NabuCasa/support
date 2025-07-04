@@ -1,4 +1,4 @@
-<!---Disabling the LEDs. applies for both Home Assistant Green and Yellow-->
+<!-- Disabling the LEDs. applies for both Home Assistant Green and Yellow -->
 
 ## Enabling the status lights (LEDs)
 
