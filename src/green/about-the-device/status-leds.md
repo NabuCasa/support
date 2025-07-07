@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25210352599197
-  name: About the LEDs
+  name: About the status lights (LEDs) on Home Assistant Green
   position: 2
   labels: green, about the system, status
 ---
@@ -26,9 +26,9 @@ The activity LED indicates various firmware and boot loader states at startup. O
 
 The yellow system health LED blinks in a heartbeat pattern if the Home Assistant Operating System is running.
 
-{% include 'disable-leds.md' %}
-
 ## Related topics
 
 - [About Home Assistant Green](/hc/en-us/articles/25212448491165/)
 - [About interfaces](/hc/en-us/articles/25212058857373)
+- [Disabling Home Assistant Green status lights](/hc/en-us/articles/28604790232349)
+- [Enabling Home Assistant Green status lights](/hc/en-us/articles/28604867573277)
