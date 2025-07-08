@@ -6,7 +6,7 @@ zendesk:
   labels: green, troubleshooting
 ---
 
-No. It is currently not possible to disable the status light of the Ethernet port on Home Assistant Green.
+No. It is not possible to disable the status light of the Ethernet port on Home Assistant Green.
 
 ## Related topics
 
