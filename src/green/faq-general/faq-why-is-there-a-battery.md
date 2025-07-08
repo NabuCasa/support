@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25141580918941
   name: Why is there an optional CR2032 battery? Do I need to add one?
-  position: 2
+  position: 1
   labels: green, troubleshooting
 ---
 
