@@ -8,6 +8,7 @@ zendesk:
 
 Once you have connected the device with Home Assistant, you can start talking to Assist.
 
+{% steps %}
 {% step "Talking to Home Assistant" %}
 {% image "/static/img/voice-pe/speak.png" "Speech bubbles" %}
 {% stepContent %}
