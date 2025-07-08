@@ -1,6 +1,6 @@
 <!---Disabling the LEDs. applies for both Home Assistant Green and Yellow-->
 
-If the status LEDs seem too bright for your environment, you can disable them.
+If the LEDs seem too bright for your environment, you can disable them.
 Note: This procedure only allows you to disable the status lights of the device itself. It is currently not possible to disable the status light of the Ethernet port.
 
 ### Prerequisites
