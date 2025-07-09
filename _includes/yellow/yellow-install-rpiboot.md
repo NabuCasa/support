@@ -46,8 +46,8 @@
 {% stepContent %}
 
 1. On your PC, run rpiboot and let it run through.
-   - If you are using Windows, it might ask you if you want to reformat the disk. Select **Cancel** each time.
-   - If you are running an Apple Silicon mac, before running rpiboot, make sure you open the terminal using the “Rosetta” compatibility mode.
+   - If you are using Windows, run "rpiboot-CM4-CM5 - Mass Storage Gadget" from the start menu. It might ask you if you want to reformat the disk. Select **Cancel** each time.
+   - If you are running an Apple Silicon mac, before running `rpiboot`, make sure you open the terminal using the “Rosetta” compatibility mode.
    - If you are using Linux or macOS, use the following command to run the tool.
 
      ```bash
