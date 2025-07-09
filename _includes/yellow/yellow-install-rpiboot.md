@@ -19,7 +19,7 @@
 {% stepContent %}
 
 1. On the Yellow board, make sure the JP1 jumper is set to USB.
-   - It is there by default, but it is worth to double-check.
+   - It may be there by default, but it is worth to double-check.
 2. Plug-in a USB-C cable to Home Assistant Yellow and connect it to your PC.
    - Make sure the cable supports USB 2.0 data.
 
