@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25773395022237
   name: Changing the volume
-  position: 1
+  position: 2
   labels: voice pe, operation, using the device, volume
 ---
 
