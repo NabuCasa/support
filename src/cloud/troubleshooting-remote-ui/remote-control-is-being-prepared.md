@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26205061961373
-  name: Remote control is being prepared
+  name: Remote access is being prepared
   position: 32
   labels: cloud
 ---
@@ -10,9 +10,9 @@ zendesk:
 
 Under [**System** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/), **Remote connection**, you see the following message:
 
-**Remote control is being prepared. We will notify you when it's ready**.
+**Remote access is being prepared. We will notify you when it's ready**.
 
-<img src="/static/img/cloud/cannot-retrieve-certificate-01.png" alt="Remote control is being prepared">
+<img src="/static/img/cloud/cannot-retrieve-certificate-01.png" alt="Remote access is being prepared">
 
 ## Description
 

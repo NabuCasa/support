@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26205112162461
-  name: Remote control - Cannot access Home Assistant remotely
+  name: Remote access - Cannot access Home Assistant remotely
   position: 34
   labels: cloud
 ---

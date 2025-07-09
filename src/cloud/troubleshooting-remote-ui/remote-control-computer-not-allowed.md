@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26205125179549
-  name: Remote control - Computer not allowed
+  name: Remote access - Computer not allowed
   position: 33
   labels: cloud
 ---
