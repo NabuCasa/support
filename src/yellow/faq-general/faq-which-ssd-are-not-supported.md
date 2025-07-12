@@ -11,6 +11,7 @@ All M.2 SATA SSDs are **NOT supported**. Besides the following NVMe SSDs are kno
 - WD_BLACK SN850X (1TB)
 - WD_BLACK SN770
 - WD_BLACK SN750 SE
+- WD_BLUE SN580
 - SK Hynix BC711
 - Crucial P2 CT250P2SSD8
 - Lexar NM620
