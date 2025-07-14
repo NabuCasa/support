@@ -63,5 +63,5 @@ If resetting cloud data **did not resolve the issue**, **do not reset it again**
    ```
 
 2. Restart Home Assistant and allow it to run for approximately 15 minutes.
-3. Download the Home Assistant core logs from [**Settings** > **System** > **Logs**](https://my.home-assistant.io/redirect/logs/).
+3. Download the Home Assistant Core logs from [**Settings** > **System** > **Logs**](https://my.home-assistant.io/redirect/logs/).
 4. Contact Nabu Casa support and include the downloaded logs with your support request. The debug information will help identify the root cause of the certificate generation issue.
