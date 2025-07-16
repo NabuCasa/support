@@ -178,3 +178,4 @@ This process clears the data disk on your Green. Unless you [create a backup](ht
 - [Creating a backup](/hc/en-us/articles/25154828325917)
 - [Onboarding](https://www.home-assistant.io/getting-started/onboarding/)
 - [Can't access homeassistant.local:8123](/hc/en-us/articles/25140903526301)
+- [Resetting the device without SD card (OS version 13.1 and later)](/hc/en-us/articles/25161225495837)
