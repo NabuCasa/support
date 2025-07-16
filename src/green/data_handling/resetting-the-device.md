@@ -6,7 +6,7 @@ zendesk:
   labels: green, troubleshooting
 ---
 
-Perform this procedure if you have Home Assistant 13.1 or later and you want to do a factory reset. If you have a new device, you likely have an older version of Home Assistant Operating System (older than 13.1). In this case, [reset the device using an SD card](/hc/en-us/articles/25162566451485)
+Perform this procedure if you have Home Assistant 13.1 or later and you want to do a factory reset. If you have a new device, you likely have an older version of Home Assistant Operating System (older than 13.1). In this case, [reset the device using an SD card](/hc/en-us/articles/25162566451485). To see which version you have, go to [**Settings** > **About**](https://my.home-assistant.io/redirect/info/).
 
 ## Prerequisites
 
@@ -77,7 +77,9 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
    3. The Home Assistant user interface guides you through the initial onboarding.
 
       - **Info** For further information, refer to the instructions.
-   4. **Troubleshooting**: If after startup you do not see the onboarding screen, but the "normal" user interface, the reset failed. A likely cause is that you did not wait long enough for the shutdown to complete. Repeat the procedure.
+   4. **Troubleshooting**: If after startup you do not see the onboarding screen, but the "normal" user interface, the reset failed.
+      - A likely cause is that you did not wait long enough for the shutdown to complete. Repeat the procedure.
+      - Another cause could by that the Green is running on OS 13.1 or older. In that case, this reset procedure does not work. [Reset the device using an SD card](/hc/en-us/articles/25162566451485).
 
 {% endstepContent %}
 {% endstep %}
