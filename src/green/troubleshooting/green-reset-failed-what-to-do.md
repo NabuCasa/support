@@ -2,7 +2,7 @@
 zendesk:
   article_id: 28896513100701
   name: Resetting Home Assistant Green failed. What can I do?
-  position: 3
+  position: 5
   labels: green, troubleshooting
 ---
 
