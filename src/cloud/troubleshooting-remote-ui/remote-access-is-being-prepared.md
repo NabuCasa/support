@@ -12,8 +12,6 @@ Under [**System** > **Home Assistant Cloud**](https://my.home-assistant.io/redir
 
 **Remote access is being prepared. We will notify you when it's ready**.
 
-<img src="/static/img/cloud/cannot-retrieve-certificate-01.png" alt="Remote access is being prepared">
-
 ## Description
 
 This message indicates that there is an issue generating the SSL certificate that is used to create an encrypted connection between your Home Assistant instance and Nabu&nbsp;Casa&nbsp;Cloud.
