@@ -50,7 +50,7 @@ If the problem persists, try resetting your Home Assistant Cloud data and reques
 
 If resetting cloud data **did not resolve the issue**, **do not reset it again**. Instead, enable debug logging to help diagnose the problem:
 
-1. Add the following logger configuration to your `configuration.yaml` file:
+1. Add the following logger configuration to your [`configuration.yaml`](https://www.home-assistant.io/docs/configuration/) file:
 
    ```yaml
    logger:
