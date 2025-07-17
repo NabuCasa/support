@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25455225584541
-  name: My Home Assistant Yellow lights up the red LED only. What can I do?
+  name: My Home Assistant Yellow lights up the red LED only.
   position: 15
   labels: yellow, troubleshooting
 ---
