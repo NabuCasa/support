@@ -23,4 +23,4 @@ You followed the steps on [resetting the device without SD card (OS version 13.1
 ## Related topics
 
 - [Resetting the device using an SD card (OS version 13.1 and older)](/hc/en-us/articles/25162566451485)
-- [Resetting the device without SD card (OS version 13.1 and later)](/hc/en-us/articles/25161225495837)
+- [Resetting the device without using an SD card (OS version 13.1 and later)](/hc/en-us/articles/25161225495837)
