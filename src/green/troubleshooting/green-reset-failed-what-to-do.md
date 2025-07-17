@@ -8,7 +8,7 @@ zendesk:
 
 ## Symptom
 
-You followed the steps on [resetting the device without SD card (OS version 13.1 and later)](/hc/en-us/articles/25161225495837) but the reset failed.
+You followed the steps on [resetting the device without SD card (OS version 13.1 and later)](/hc/en-us/articles/25161225495837), but the reset failed.
 
 ## Resolution
 
