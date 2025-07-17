@@ -6,7 +6,7 @@ zendesk:
   labels: green, troubleshooting
 ---
 
-Perform this procedure if you have Home Assistant 13.1 or later and you want to do a factory reset. If you have a new device, you likely have an older version of Home Assistant Operating System (older than 13.1). In this case, [reset the device using an SD card](/hc/en-us/articles/25162566451485)
+Perform this procedure if you have Home Assistant 13.1 or later and you want to do a factory reset. If you have a new device, you likely have an older version of Home Assistant Operating System (older than 13.1). In this case, [reset the device using an SD card](/hc/en-us/articles/25162566451485). To see which version you have, go to [**Settings** > **About**](https://my.home-assistant.io/redirect/info/).
 
 ## Prerequisites
 
@@ -36,10 +36,12 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
 
    1. In your Home Assistant UI, go to **Settings** > **System** and in the top right, select the three-dots menu. Select **Restart Home Assistant**.
       - Then, select **Shut down system**.
-      - Wait until all the LEDs turned off.
+      - **Wait** until all the LEDs turned off.
+      - **Important**: It is important to wait until all the the LEDs turned off, indicating that the shutdown is complete. otherwise the reset will fail.
    2. In case the shutdown via UI should not work:
       - To shutdown gracefully, press the power button for 6 seconds.
       - For a hard shutdown (do this only if all else fails), press the power button for 12 seconds.
+      - **Wait** until all the LEDs turned off.
    3. Remove the power cable to remove power from the system.
 
 {% endstepContent %}
@@ -75,6 +77,9 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
    3. The Home Assistant user interface guides you through the initial onboarding.
 
       - **Info** For further information, refer to the instructions.
+   4. **Troubleshooting**: If after startup you do not see the onboarding screen, but the "normal" user interface, the reset failed.
+      - A likely cause is that you did not wait long enough for the shutdown to complete. Repeat the procedure.
+      - Another cause could be that the Green is running on OS 13.1 or older. In that case, resetting with this procedure does not work. Instead, use the [reset the device using an SD card](/hc/en-us/articles/25162566451485) procedure.
 
 {% endstepContent %}
 {% endstep %}
