@@ -79,7 +79,7 @@ Perform this procedure if you have Home Assistant 13.1 or later and you want to 
       - **Info** For further information, refer to the instructions.
    4. **Troubleshooting**: If after startup you do not see the onboarding screen, but the "normal" user interface, the reset failed.
       - A likely cause is that you did not wait long enough for the shutdown to complete. Repeat the procedure.
-      - Another cause could by that the Green is running on OS 13.1 or older. In that case, this reset procedure does not work. [Reset the device using an SD card](/hc/en-us/articles/25162566451485).
+      - Another cause could be that the Green is running on OS 13.1 or older. In that case, resetting with this procedure does not work. Instead, use the [reset the device using an SD card](/hc/en-us/articles/25162566451485) procedure.
 
 {% endstepContent %}
 {% endstep %}
