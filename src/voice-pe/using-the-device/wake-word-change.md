@@ -23,6 +23,8 @@ zendesk:
 
    - On the device page, under **Configuration**, select your wake word.
       - The default options are `Hey Jarvis`, `Hey Mycroft`, and `Okay Nabu`.
+      - If needed, change the **Finished speaking detection**.
+        - This setting defines how much silence is needed for Assist to find you're done speaking and it can start processing your command.
 
 {% endstepContent %}
 {% endstep %}
