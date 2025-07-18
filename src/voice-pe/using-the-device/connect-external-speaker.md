@@ -22,7 +22,7 @@ zendesk:
 {% endstepContent %}
 {% endstep %}
 
-{% step "Play media or talk to Voice." %}
+{% step "Play media or talk to Assist." %}
 
 {% image "/static/img/voice-pe/speak.png" "Screenshot of the device list" %}
 {% stepContent %}
@@ -42,3 +42,4 @@ zendesk:
 - [Muting the device](/hc/en-us/articles/25774403768477)
 - [Turning the wake sound on or off](/hc/en-us/articles/25774481113629)
 - [Status colors](/hc/en-us/articles/25764604971421)
+- [Using Home Assistant Voice PE](/hc/en-us/articles/28699323695389)
