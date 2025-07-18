@@ -10,11 +10,15 @@ There are multiple reasons Home Assistant Cloud cannot be reached. This page pro
 
 ## Message: "Unable to reach the Home Assistant Cloud"
 
+This message can show in 2 different situations:
+
 ### Symptom
 
 Under [**System** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/):
 
-- The **Cloud connection status** is **Connecting&#8230;**
+- Either:
+  - the **Cloud connection status** is **Connecting&#8230;**
+  - or, if this is the first time you are connecting to Home Assistant Cloud, you do not see a connection status.
 - You see a message **Unable to reach the Home Assistant Cloud**.
   <img src="/static/img/cloud/coud_unable_to_connect_03.png" alt="Unable to connect to Home Assistant Cloud">
 
@@ -31,6 +35,8 @@ This error indicates a network issue. It often occurs when the Home Assistant ho
    - Under **Configure network interfaces**, expand the **IPv6** dropdown.
    - Choose the **disabled** option and save the changes.
    - To have all network settings applied from scratch, reboot the host. Select **Settings** > **System** > Restart Home Assistant (top right) > **Reboot system**.
+
+
 
 ## Related topic
 
