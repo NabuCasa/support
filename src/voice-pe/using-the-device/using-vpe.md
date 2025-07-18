@@ -28,3 +28,4 @@ Once you have connected the device with Home Assistant, you can start talking to
 - [Exposing entities to Assist](https://www.home-assistant.io/voice_control/voice_remote_expose_devices/)
 - [Automating on a button press](https://www.home-assistant.io/integrations/event/#automating-on-a-button-press)
 - [Using the center button to stop the current process](/hc/en-us/articles/25774498553629)
+- [About Home Assistant Voice Preview Edition](2869/hc/en-us/articles/9323695389)

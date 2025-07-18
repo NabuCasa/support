@@ -43,3 +43,4 @@ zendesk:
 - [Turning the wake sound on or off](/hc/en-us/articles/25774481113629)
 - [Status colors](/hc/en-us/articles/25764604971421)
 - [Using Home Assistant Voice PE](/hc/en-us/articles/28699323695389)
+- [About Home Assistant Voice Preview Edition](2869/hc/en-us/articles/9323695389)
