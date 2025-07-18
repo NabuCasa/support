@@ -15,7 +15,7 @@ zendesk:
 1. Connect your external speaker to the headphone jack on Home Assistant Voice Preview Edition.
 2. Play media or talk to Voice.
    - **Troubleshooting**: If you only hear one channel on your external speaker, the cable might not go all the way in due to a gap between the housing and the connector.
-   - Try a different cable.
+     - Try a different cable.
 
 ## Related topics
 
