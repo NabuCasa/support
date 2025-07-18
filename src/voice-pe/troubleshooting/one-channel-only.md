@@ -19,3 +19,10 @@ There is a gap between the audio connector component on the PCB and the enclosur
 ## Resolution
 
 Try a different cable.
+
+## Related topics
+
+- [Connecting an external speaker](/hc/en-us/articles/28934320761629)
+- [Change the volume](/hc/en-us/articles/25773395022237)
+- [Muting the device](/hc/en-us/articles/25774403768477)
+- [Turning the wake sound on or off](/hc/en-us/articles/25774481113629)
