@@ -6,16 +6,16 @@ zendesk:
   labels: cloud
 ---
 
-There are multiple reasons Home Assistant Cloud cannot be reached. This page provides instructions how to troubleshoot the "Unable to connect" message.
+There are multiple reasons Home Assistant Cloud cannot be reached. This page provides instructions how to troubleshoot the "Unable to reach the Home Assistant Cloud" message.
 
-## Message: "Unable to reach Home Assistant Cloud"
+## Message: "Unable to reach the Home Assistant Cloud"
 
 ### Symptom
 
 Under [**System** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/):
 
 - The **Cloud connection status** is **Connecting&#8230;**
-- You see a message **Unable to connect**.
+- You see a message **Unable to reach the Home Assistant Cloud**.
   <img src="/static/img/cloud/coud_unable_to_connect_03.png" alt="Unable to connect to Home Assistant Cloud">
 
 ### Cause
