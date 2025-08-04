@@ -6,4 +6,4 @@ zendesk:
   labels: green, downloads, resources
 ---
 
-- [Datasheet](/static/docs/green/Green_v1.1_Datasheet.pdf)
+- [Datasheet](/static/docs/green/Green_v2.0_Datasheet.pdf)
