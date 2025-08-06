@@ -10,7 +10,6 @@
 cd "$(dirname "$0")/.."
 
 project="$1"
-fi
 
 if ! echo "$project" | grep -Eq '^[a-zA-Z0-9_-]+$'; then
     echo "Error: Project name must only contain letters, numbers, dashes, or underscores."
