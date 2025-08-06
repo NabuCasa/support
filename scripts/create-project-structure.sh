@@ -6,17 +6,26 @@
 # Example:
 #   ./create-project-structure.sh my-new-project
 # -----------------------------------------------------------------------------
+# Change to the parent directory of the script location to ensure relative paths are correct
 cd "$(dirname "$(readlink -f "$0")")/.."
 project="$1"
 if [ -z "$project" ]; then
     echo "Usage: $0 <project>"
     exit 1
+# Record the start time in milliseconds for timing the script execution
+start_ms=$(date +%s%3N)
+# Create directories
+mkdir -p "./src/${project}/about-the-device" \
+if ! echo "$project" | grep -Eq '^[a-zA-Z0-9_-]+$'; then
+    echo "Error: Project name must only contain letters, numbers, dashes, or underscores."
+    exit 2
 fi
+
 start_ms=$(date +%s%3N)
 # Create directories
 mkdir -p "./src/${project}/about-the-device" \
          "./src/${project}/getting-started" \
-         "./src/${project}/faq-about-the-product" \
+         "./src/${project}/faq-about" \
          "./src/${project}/resources" \
          "./src/${project}/troubleshooting"
 echo "---
@@ -27,27 +36,8 @@ zendesk:
   description: ${project}
 ---
 " > "./src/${project}/_category.md"
-echo "---
-zendesk:
-  section_id:
-  position: 20
-  name: About the device
----
-" > "./src/${project}/about-the-device/_section.md"
-echo "---
-zendesk:
-  section_id:
-  position: 50
-  name: FAQ - About the product
----
-" > "./src/${project}/faq-about-the-product/_section.md"
-echo "---
-zendesk:
-  section_id:
-  position: 60
-  name: Resources
----
-" > "./src/${project}/resources/_section.md"
+
+# Getting started section
 echo "---
 zendesk:
   section_id:
@@ -55,15 +45,57 @@ zendesk:
   name: Getting started
 ---
 " > "./src/${project}/getting-started/_section.md"
+
+# About the device section
+
 echo "---
 zendesk:
   section_id:
-  position: 40
-  name: Troubleshooting
+  position: 20
+  name: About the device
 ---
-" > "./src/${project}/troubleshooting/_section.md"
+" > "./src/${project}/about-the-device/_section.md"
+
+# About the device articles
 echo "---
+zendesk:
+  article_id:
+  name:  About the device
+  position: 10
+  labels: about-the-device
+---" > "./src/${project}/about-the-device/about.md"
+
+# FAQ section
+
+echo "---
+zendesk:
+  section_id:
+  position: 50
+  name: FAQ - About the product
 ---
+" > "./src/${project}/faq-about/_section.md"
+
+# FAQ articles
+echo "---
+zendesk:
+  article_id:
+  name: Does it support Wi-Fi?
+  position: 10
+  labels: faq
+---
+" > "./src/${project}/faq-about/does-it-support-wi-fi.md"
+
+# Resources section
+echo "---
+zendesk:
+  section_id:
+  position: 60
+  name: Resources
+---
+" > "./src/${project}/resources/_section.md"
+
+# Resources articles
+echo "---
 zendesk:
   article_id:
   name: Datasheet
@@ -71,6 +103,7 @@ zendesk:
   labels: resources
 ---
 " > "./src/${project}/resources/datasheet.md"
+
 echo "---
 zendesk:
   article_id:
@@ -79,6 +112,7 @@ zendesk:
   labels: resources
 ---
 " > "./src/${project}/resources/eu-declaration-of-conformity.md"
+
 echo "---
 zendesk:
   article_id:
@@ -87,6 +121,7 @@ zendesk:
   labels: resources
 ---
 " > "./src/${project}/resources/quick-start-guide.md"
+
 echo "---
 zendesk:
   article_id:
@@ -95,21 +130,17 @@ zendesk:
   labels: resources
 ---
 " > "./src/${project}/resources/warranty-and-safety-information.md"
+
+# Troubleshooting section
 echo "---
 zendesk:
-  article_id:
-  name:  About the device
-  position: 10
-  labels: about-the-device
----" > "./src/${project}/about-the-device/about.md"
-echo "---
-zendesk:
-  article_id:
-  name: Does it support Wi-Fi?
-  position: 10
-  labels: faq
+  section_id:
+  position: 40
+  name: Troubleshooting
 ---
-" > "./src/${project}/faq-about-the-product/does-it-support-wi-fi.md"
+" > "./src/${project}/troubleshooting/_section.md"
+
+# Troubleshooting articles
 echo "---
 zendesk:
   article_id:
@@ -117,7 +148,11 @@ zendesk:
   position: 20
   labels: troubleshooting
 ---" > "./src/${project}/troubleshooting/enable-debug-logging.md"
+
 end_ms=$(date +%s%3N)
+
 elapsed_ms=$((end_ms - start_ms))
-echo "Project structure for '${project}'created successfully in ${elapsed_ms} ms."
+
+echo "Project structure for \"${project}\" created successfully in ${elapsed_ms} ms."
+
 exit 0
