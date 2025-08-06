@@ -14,7 +14,7 @@ if [ -z "$project" ]; then
     exit 1
 # Record the start time in milliseconds for timing the script execution
 start_ms=$(date +%s%3N)
-# Create directories
+# Create directories and validate parameter (project name)
 mkdir -p "./src/${project}/about-the-device" \
 if ! echo "$project" | grep -Eq '^[a-zA-Z0-9_-]+$'; then
     echo "Error: Project name must only contain letters, numbers, dashes, or underscores."
