@@ -44,6 +44,15 @@ zendesk:
 ---
 " > "./src/${project}/getting-started/_section.md"
 
+# Getting started articles
+echo "---
+zendesk:
+  article_id:
+  name:  Getting started with ${project}
+  position: 10
+  labels: getting-started
+---" > "./src/${project}/getting-started/getting-started.md"
+
 # About the device section
 
 echo "---
