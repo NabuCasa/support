@@ -6,6 +6,7 @@
 # Example:
 #   ./create-project-structure.sh my-new-project
 # -----------------------------------------------------------------------------
+
 # Change to the parent directory of the script location to ensure relative paths are correct
 cd "$(dirname "$0")/.."
 
@@ -54,7 +55,6 @@ zendesk:
 ---" > "./src/${project}/getting-started/getting-started.md"
 
 # About the device section
-
 echo "---
 zendesk:
   section_id:
@@ -73,7 +73,6 @@ zendesk:
 ---" > "./src/${project}/about-the-device/about.md"
 
 # FAQ section
-
 echo "---
 zendesk:
   section_id:
