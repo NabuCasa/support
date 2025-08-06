@@ -117,11 +117,7 @@ zendesk:
   position: 20
   labels: troubleshooting
 ---" > "./src/${project}/troubleshooting/enable-debug-logging.md"
-
-echo "Project structure created successfully."
-
 end_ms=$(date +%s%3N)
 elapsed_ms=$((end_ms - start_ms))
-echo "Created folders in ${elapsed_ms} ms."
+echo "Project structure for '${project}'created successfully in ${elapsed_ms} ms."
 exit 0
-# End of script
