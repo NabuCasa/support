@@ -7,16 +7,14 @@
 #   ./create-project-structure.sh my-new-project
 # -----------------------------------------------------------------------------
 # Change to the parent directory of the script location to ensure relative paths are correct
-cd "$(dirname "$(readlink -f "$0")")/.."
+cd "$(dirname "$0")/.."
+
 project="$1"
-if [ -z "$project" ]; then
-    echo "Usage: $0 <project>"
-    exit 1
 fi
 
 if ! echo "$project" | grep -Eq '^[a-zA-Z0-9_-]+$'; then
     echo "Error: Project name must only contain letters, numbers, dashes, or underscores."
-    exit 2
+    exit 1
 fi
 
 # Record the start time in milliseconds for timing the script execution
@@ -155,5 +153,3 @@ end_ms=$(date +%s%3N)
 elapsed_ms=$((end_ms - start_ms))
 
 echo "Project structure for \"${project}\" created successfully in ${elapsed_ms} ms."
-
-exit 0
