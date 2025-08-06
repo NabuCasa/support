@@ -6,4 +6,4 @@ zendesk:
   labels: connect ZWA-2, downloads, resources
 ---
 
-- [Datasheet](/static/docs/connect-zwa-2/)
+- [Datasheet](/static/docs/connect-zwa-2/ha-zwa-2-nc-zwa-9734-specs-v1-0.pdf)
