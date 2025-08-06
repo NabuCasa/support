@@ -27,6 +27,8 @@ mkdir -p "./src/${project}/about-the-device" \
          "./src/${project}/faq-about" \
          "./src/${project}/resources" \
          "./src/${project}/troubleshooting"
+
+# Create the project category
 echo "---
 zendesk:
   category_id:
