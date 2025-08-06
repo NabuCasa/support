@@ -35,3 +35,10 @@ Depends on the region:
 ## Power level calibration
 
 Should not be changed. Power level calibration is hardware-specific. For the Home Assistant Connect&nbsp;ZWA-2, it should be 0&nbsp;dBm.
+
+## Related topics
+
+- [Overriding the transmit power levels](/hc/en-us/articles/29060038585885)
+- [Overriding the radio frequency region](/hc/en-us/articles/29059418289821)
+- [Connecting Home Assistant Connect ZWA-2 to Home Assistant](/hc/en-us/articles/28685765309853)
+- [Z-Wave global regions](https://www.silabs.com/wireless/z-wave/global-regions)
