@@ -20,6 +20,8 @@ Home Assistant Connect ZWA-2 is not a standalone product. It requires the follow
 
 {% endcallout %}
 
+![Rear view of Home Assistant Connect showing USB-C connector](/static/img/connect-zwa-2/zwa-2-rear-view.png)
+
 ## Device characteristics
 
 - Home Assistant Connect ZWA-2 features an optimized, large antenna to reach devices where others can’t.
@@ -34,6 +36,7 @@ Home Assistant Connect ZWA-2 is not a standalone product. It requires the follow
 - Z-Wave stays out of the way of Wi-Fi and Bluetooth, meaning less congestion and interference.
 - Z-Wave (mesh) and Z-Wave Long Range each have their own benefits and use cases.
 - Z-Wave Long Range doesn’t support a mesh network but allows for larger deployments (thousands of devices) and better range, allowing more distant devices.
+
 
 ## Related topics
 
