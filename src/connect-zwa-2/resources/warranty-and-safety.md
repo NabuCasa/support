@@ -6,4 +6,4 @@ zendesk:
   labels: connect zwa-2, downloads, resources
 ---
 
-- [Warranty & Safety Information](/static/docs/connect-zwa-2/)
+- [Warranty & Safety Information](/static/docs/connect-zwa-2/ha-connect-zwa-2_warranty-and-safety-information_v1-0.pdf)

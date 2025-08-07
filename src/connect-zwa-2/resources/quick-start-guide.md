@@ -6,4 +6,4 @@ zendesk:
   labels: connect zwa-2, downloads, resources
 ---
 
-- [Quick Start Guide](/static/docs/connect-zwa-2/)
+- [Quick Start Guide](/static/docs/connect-zwa-2/ha-connect-zwa-2_quick-start-guide_v1-0.pdf)
