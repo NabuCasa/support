@@ -87,12 +87,12 @@ Please note that not all settings can be migrated in this case:
 {% endstep %}
 
 {% step "Locating the Connect ZBT-1 integration" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-discovered-01.png" "Locating the Connect ZBT-1 integration" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Locating the Connect ZBT-1 integration" %}
 {% stepContent %}
 
 1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
 2. Connect ZBT-1 should now have been discovered.
-3. Select **Configure**.
+3. Select **Add**.
 
 {% endstepContent %}
 {% endstep %}
