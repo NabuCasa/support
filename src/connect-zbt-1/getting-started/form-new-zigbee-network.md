@@ -67,7 +67,7 @@ zendesk:
 {% endstep %}
 
 {% step "Configuring the Zigbee Home Automation integration" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Configure the Zigbee Home Automation integration" %}
+{% image "/static/img/connect-zbt-1/zbt-1-zha-discovered.png" "Configure the Zigbee Home Automation integration" %}
 {% stepContent %}
 
 - Connect ZBT-1 will be shown in your **Zigbee Home Automation integration**.
