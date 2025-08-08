@@ -19,7 +19,7 @@ If you use the **Z-Wave JS** add-on, you do not need to do anything.
   - If you don't know whether you use the **Z-Wave JS** add-on:
     - Go to **Settings** > **Add-ons** and look for the **Z-Wave JS** add-on.
 
-- If needed, you can override the radio frequency region in the **Z-Wave JS** add-on. To do this, follow the [steps in the Z-Wave documentation]((https://www.home-assistant.io/integrations/zwave_js/#overriding-the-radio-frequency-region-of-the-adapter-in-the-z-wave-js-add-on)).
+- If needed, you can override the radio frequency region in the **Z-Wave JS** add-on. To do this, follow the [steps in the Z-Wave documentation](https://www.home-assistant.io/integrations/zwave_js/#overriding-the-radio-frequency-region-of-the-adapter-in-the-z-wave-js-add-on).
 
 ## Scenario 2: Running the device with Z-Wave JS UI add-on or another automation platform (without Home Assistant)
 

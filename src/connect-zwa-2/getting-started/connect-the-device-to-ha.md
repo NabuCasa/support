@@ -37,7 +37,7 @@ The **Prerequisites** are the same for both scenarios.
 
 1. If you don’t have a Z-Wave network yet, in general, follow [these steps to connect Home Assistant Connect ZWA-2 to Home Assistant](https://www.home-assistant.io/integrations/zwave_js/#setting-up-a-z-wave-js-server).
 
-2. If you are running Home Assistant Connect ZWA-2 with another hub (not Home Assistant) and if you are outside the EU, you might need to [override the radio frequency in the Z-Wave JS add-on](/hc/en-us/articles/29059418289821) and [override the transmit power levels](/hc/en-us/articles/29060038585885).
+2. If you are running Home Assistant Connect ZWA-2 with another hub (not Home Assistant) and if you are outside the EU, you might need to [override the radio frequency and transmit power levels in the Z-Wave JS add-on](/hc/en-us/articles/29059418289821).
 
 ## Scenario 2: Migrate your existing Z-Wave network to Home Assistant Connect ZWA-2
 
@@ -62,7 +62,7 @@ If you want to migrate from a **Nortek HUSBZB-1**: there is no (easy) way to upd
 
 - If you already have a Z-Wave network, follow the [steps in the Z-Wave integration documentation on migrating your Z-Wave network to Home Assistant Connect ZWA-2](https://www.home-assistant.io/integrations/zwave_js/#migrating-a-z-wave-network-to-a-new-adapter).
 
-- If you are running Home Assistant Connect ZWA-2 with another hub (not Home Assistant) and if you are outside the EU, you might need to [override the radio frequency in the Z-Wave JS add-on](/hc/en-us/articles/29059418289821) and [override the transmit power levels](/hc/en-us/articles/29060038585885).
+- If you are running Home Assistant Connect ZWA-2 with another hub (not Home Assistant) and if you are outside the EU, you might need to [override the radio frequency and transmit power in the Z-Wave JS add-on](/hc/en-us/articles/29059418289821).
 
 - If you are using the **Z-Wave JS UI** add-on (and not the default **Z-Wave JS** add-on), follow these steps:
   - Before starting migration, disable the Z-Wave JS integration:
@@ -84,5 +84,5 @@ If you want to migrate from a **Nortek HUSBZB-1**: there is no (easy) way to upd
 - [Device overview](/hc/en-us/articles/28670192316189)
 - [About Home Assistant Connect ZWA-2](/hc/en-us/articles/29190222644509)
 - [About transmit power levels](/hc/en-us/articles/29081378073501)
-- [Overriding the radio frequency in the Z-Wave JS add-on](/hc/en-us/articles/29059418289821)
+- [Overriding the radio frequency and transmit power in the Z-Wave JS add-on](/hc/en-us/articles/29059418289821)
 - [Steps to update Aeotec Z-Stick 5](https://aeotec.freshdesk.com/support/solutions/articles/6000252294-z-stick-gen5-v1-02-firmware-update)
