@@ -21,3 +21,5 @@ The following color patterns are used to indicate a status:
 - [Installing the device](/hc/en-us/articles/28685750450205)
 - [Turning the status light (LED) on or off](/hc/en-us/articles/29060874688285)
 - [Disabling the tilt indicator (stop fast blinking)](/hc/en-us/articles/28670788982941)
+- [About the device](/hc/en-us/articles/29190222644509)
+- [Device overview](/hc/en-us/articles/28670192316189)
