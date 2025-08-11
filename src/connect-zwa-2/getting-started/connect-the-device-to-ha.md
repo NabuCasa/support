@@ -28,6 +28,7 @@ The **Prerequisites** are the same for both scenarios.
   - If you do not have Home Assistant installed on the hub yet, refer to the [installation documentation for instructions](https://www.home-assistant.io/installation/).
 - Home Assistant 2025.7 or newer installed on your smart home hub.
 - Home Assistant Connect ZWA-2 with a USB-C to USB-A cable (included in the box).
+- Make sure you found a [good location for it, without interference](/hc/en-us/articles/28670284336925), and make sure the device is [placed in a vertical position](/hc/en-us/articles/28685750450205).
 
 {% endstepContent %}
 {% endprereq %}
@@ -78,11 +79,22 @@ If you want to migrate from a **Nortek HUSBZB-1**: there is no (easy) way to upd
 
 ## Related topics
 
-- [Connecting Home Assistant Connect ZWA-2 to Home Assistant (setting up a new Z-Wave JS server)](https://www.home-assistant.io/integrations/zwave_js/#setting-up-a-z-wave-js-server)
-- [Migrating your Z-Wave network to Home Assistant Connect ZWA-2](https://www.home-assistant.io/integrations/zwave_js/#migrating-a-z-wave-network-to-a-new-adapter)
-- [Home Assistant installation documentation or different hubs](https://www.home-assistant.io/installation/)
 - [Device overview](/hc/en-us/articles/28670192316189)
 - [About Home Assistant Connect ZWA-2](/hc/en-us/articles/29190222644509)
+
+### Prerequisites
+
+- [Finding an installation location](/hc/en-us/articles/28670284336925)
+- [Installing Home Assistant Connect ZWA-2](/hc/en-us/articles/28685750450205)
+- [Home Assistant installation documentation for different hubs](https://www.home-assistant.io/installation/)
+
+### Z-Wave integration documentation
+
+- [Connecting Home Assistant Connect ZWA-2 to Home Assistant (setting up a new Z-Wave JS server)](https://www.home-assistant.io/integrations/zwave_js/#setting-up-a-z-wave-js-server)
+- [Migrating your Z-Wave network to Home Assistant Connect ZWA-2](https://www.home-assistant.io/integrations/zwave_js/#migrating-a-z-wave-network-to-a-new-adapter)
+
+### Migration
+
 - [About transmit power levels](/hc/en-us/articles/29081378073501)
 - [Overriding the radio frequency and transmit power in the Z-Wave JS add-on](/hc/en-us/articles/29059418289821)
 - [Steps to update Aeotec Z-Stick 5](https://aeotec.freshdesk.com/support/solutions/articles/6000252294-z-stick-gen5-v1-02-firmware-update)
