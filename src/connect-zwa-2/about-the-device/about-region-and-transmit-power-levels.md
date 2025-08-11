@@ -49,3 +49,4 @@ Should not be changed. Power level calibration is hardware-specific. For the Hom
 - [Overriding the radio frequency region and transmit power levels](/hc/en-us/articles/29059418289821)
 - [Connecting Home Assistant Connect ZWA-2 to Home Assistant](/hc/en-us/articles/28685765309853)
 - [Z-Wave global regions](https://www.silabs.com/wireless/z-wave/global-regions)
+- [About the device](/hc/en-us/articles/29190222644509)
