@@ -2,7 +2,7 @@
 zendesk:
   article_id: 29059418289821
   name: Overriding the radio frequency region and transmit power levels
-  position: 40
+  position: 60
   labels: connect zwa-2
 ---
 
@@ -36,5 +36,5 @@ If you are using Home Assistant Connect ZWA-2 with the **Z-Wave JS UI** add-on o
 
 - [About transmit power levels](/hc/en-us/articles/29081378073501)
 - [Z-Wave documentation on overriding the radio frequency region](https://www.home-assistant.io/integrations/zwave_js/#overriding-the-radio-frequency-region-of-the-adapter-in-the-z-wave-js-add-on)
-- [Connecting Home Assistant Connect ZWA-2 to Home Assistant](/hc/en-us/articles/28685765309853)
+- [Migrating an existing Z-Wave network to Home Assistant Connect ZWA-2](/hc/en-us/articles/29529265751965)
 - [Z-Wave global regions](https://www.silabs.com/wireless/z-wave/global-regions)

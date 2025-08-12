@@ -12,5 +12,6 @@ zendesk:
 ## Related topics
 
 - [Overriding the radio frequency region and transmit power levels](/hc/en-us/articles/29059418289821)
-- [Connecting Home Assistant Connect ZWA-2 to Home Assistant](/hc/en-us/articles/)
+- [Migrating an existing Z-Wave network to Home Assistant Connect ZWA-2](/hc/en-us/articles/29529265751965)
+- [Using Home Assistant Connect ZWA-2 without Home Assistant](/hc/en-us/articles/29447110878493)
 - [About transmit power levels](/hc/en-us/articles/29081378073501)

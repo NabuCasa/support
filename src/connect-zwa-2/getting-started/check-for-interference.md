@@ -2,7 +2,7 @@
 zendesk:
   article_id: 28670741134365
   name: Checking the distance to other transmitters to avoid interference
-  position: 10
+  position: 80
   labels: connect zwa-2
 ---
 

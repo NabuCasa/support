@@ -16,7 +16,7 @@ Both the radio frequency and the radio transmit power level used by Z-Wave devic
 
 If you use Home Assistant with the **Z-Wave JS** add-on, the radio frequency region and transmit power levels are configured automatically. You do not need to do anything.
 
-If you use another hub (not Home Assistant), you may need to change the radio frequency region and transmit power levels. The location of the settings depends on your hub.
+If you use another hub (not Home Assistant), or you use the **Z-Wave JS UI** add-on (instead of the **Z-Wave JS** add-on) you may need to change the radio frequency region and transmit power levels. The location of the settings depends on your hub.
 
 There are 3 transmit power values that can be set:
 
@@ -47,6 +47,7 @@ Should not be changed. Power level calibration is hardware-specific. For the Hom
 ## Related topics
 
 - [Overriding the radio frequency region and transmit power levels](/hc/en-us/articles/29059418289821)
-- [Connecting Home Assistant Connect ZWA-2 to Home Assistant](/hc/en-us/articles/28685765309853)
+- [Migrating an existing Z-Wave network to Home Assistant Connect ZWA-2](/hc/en-us/articles/29529265751965)
+- [Using Home Assistant Connect ZWA-2 without Home Assistant](/hc/en-us/articles/29447110878493)
 - [Z-Wave global regions](https://www.silabs.com/wireless/z-wave/global-regions)
 - [About the device](/hc/en-us/articles/29190222644509)

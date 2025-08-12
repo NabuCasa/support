@@ -13,5 +13,6 @@ Before connecting Home Assistant Connect ZWA-2 to Home Assistant, assemble it an
 ## Related topics
 
 - [Finding an installation location](/hc/en-us/articles/28670284336925)
-- [Connecting Home Assistant Connect ZWA-2 to Home Assistant](/hc/en-us/articles/28685765309853)
+- [Forming a new Z-Wave network with Home Assistant Connect ZWA-2 and Home Assistant](/hc/en-us/articles/28685765309853)-
+- [Migrating an existing Z-Wave network to Home Assistant Connect ZWA-2](/hc/en-us/articles/29529265751965)
 - [Device overview](/hc/en-us/articles/28670192316189)

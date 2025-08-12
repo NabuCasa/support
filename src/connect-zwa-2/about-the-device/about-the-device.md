@@ -53,7 +53,9 @@ Home Assistant Connect ZWA-2 is not a standalone product. The following elements
 
 ### Getting started
 
-- [Connecting Home Assistant Connect ZWA-2 to Home Assistant](/hc/en-us/articles/28685765309853)
+- [Forming a new Z-Wave network with Home Assistant Connect ZWA-2 and Home Assistant](/hc/en-us/articles/28685765309853)
+- [Migrating an existing Z-Wave network to Home Assistant Connect ZWA-2](/hc/en-us/articles/29529265751965)
+- [Using Home Assistant Connect ZWA-2 without Home Assistant](/hc/en-us/articles/29447110878493)
 - [Overriding the radio frequency region](/hc/en-us/articles/29059418289821)
 - [About radio frequency and transmit power](/hc/en-us/articles/29081378073501)
 
