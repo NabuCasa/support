@@ -26,7 +26,7 @@
         "UART",
         ["docs\\b", "documentation"],
         ["Mac ?OS", "macOS"],
-        ["ZigBee", "Zigbee"]
+        ["ZigBee", "Zigbee"],
         ["ZWave", "Z-Wave"]
       ]
     }
