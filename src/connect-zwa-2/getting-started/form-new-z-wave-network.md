@@ -11,7 +11,7 @@ Before you can use Home Assistant Connect ZWA-2 with Home Assistant, you need to
 
 {% steps %}
 {% prereq %}
-{% image "/static/img/connect-zwa-2/zwa-2-connect-to-green.png" "Image showing the Assistant Connect&nbsp;ZWA-2 with the USB cable and a Home Assistant Green" %}
+{% image "/static/img/connect-zwa-2/zwa-2-connect-to-green.png" "Image showing the Assistant Connect ZWA-2 with the USB cable and a Home Assistant Green" %}
 {% stepContent %}
 
 - Home Assistant smart home hub with a USB 2.0 port, for example, a Home Assistant Green.
@@ -25,15 +25,18 @@ Before you can use Home Assistant Connect ZWA-2 with Home Assistant, you need to
 
 ## To form a new Z-Wave network
 
-1. Find a good location. Place the device away from objects that may cause interference or block signals, such as:
-   - thick walls
-   - wire mesh
-   - metal (such as server rack housings or wall mounting brackets)
-   - other transmitters (such as computers, routers, USB 3.0 ports)
-   - an aquarium.
-2. Screw the antenna onto the base and make sure the device is placed in a vertical position.
-   - **Notice**: Be careful not to overtighten. It could damage the device beyond repair.
-3. [Connect Home Assistant Connect ZWA-2 to Home Assistant](https://www.home-assistant.io/integrations/zwave_js/#setting-up-a-z-wave-js-server).
+{% steps %}
+{% include 'connect-zwa-2/assemble-and-install.md' %}
+
+{% step "Connecting Home Assistant Connect ZWA-2 to Home Assistant" %}
+{% image "/static/img/connect-zwa-2/zwa-2-follow-z-wave-integration-docs.png" "Screenshot of Z-Wave integration documentation" %}
+{% stepContent %}
+
+- Follow the Z-Wave integration documentation on [connecting Home Assistant Connect ZWA-2 to Home Assistant](https://www.home-assistant.io/integrations/zwave_js/#setting-up-a-z-wave-js-server).
+
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
 
 ## Related topics
 
