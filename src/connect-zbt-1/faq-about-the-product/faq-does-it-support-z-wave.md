@@ -6,4 +6,4 @@ zendesk:
   labels: connect zbt-1, faq
 ---
 
-No, Home Assistant Connect ZBT-1 does not support Z-Wave. ZBT stands for ZigBee and Thread.
+No, Home Assistant Connect ZBT-1 does not support Z-Wave. ZBT stands for Zigbee and Thread.
