@@ -3,9 +3,8 @@ zendesk:
   article_id: 29190222644509
   name: About Home Assistant Connect ZWA-2
   position: 20
-  labels: connect zwa-2
+  labels: connect-zwa-2
 ---
-
 
 Home Assistant Connect ZWA-2 is a Z-Wave adapter that connects to your Home Assistant hub via USB. It allows Home Assistant to build a Z-Wave network via the included Z-Wave integration.
 
@@ -29,7 +28,7 @@ Home Assistant Connect ZWA-2 is not a standalone product.
 - Because Home Assistant Connect ZWA-2 can receive faint signals, communication is more reliable. This improves both network stability and battery life of end devices.
 - Home Assistant Connect ZWA-2 supports both Z-Wave (mesh) and Z-Wave Long Range protocols via designated radio frequencies in all regions.
 - Note that by default, the radio frequency of Home Assistant Connect ZWA-2 is set to
-**EU Long Range**. For more information, read the section [about radio frequency and transmit power](/hc/en-us/articles/29081378073501).
+  **EU Long Range**. For more information, read the section [about radio frequency and transmit power](/hc/en-us/articles/29081378073501).
 
 ## Key features
 
