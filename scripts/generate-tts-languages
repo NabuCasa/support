@@ -6,7 +6,7 @@ cd "$(dirname "$0")/.."
 if ! python3 -c "import hass_nabucasa" 2>/dev/null; then
   coreversion=$(curl -sSL https://www.home-assistant.io/version.json | jq -r '.current_version')
   corehassnabucasa=$(curl -sSL "https://raw.githubusercontent.com/home-assistant/core/refs/tags/${coreversion}/homeassistant/components/cloud/manifest.json" | jq -r '.requirements[]' | grep -E '^hass-nabucasa')
-  python3 -m pip install "${corehassnabucasa}" "josepy<2.0"
+  python3 -m pip install "${corehassnabucasa}"
 fi
 mkdir -p _data
 

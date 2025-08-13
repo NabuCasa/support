@@ -37,12 +37,12 @@ zendesk:
 {% endstep %}
 
 {% step "Locating the Home Assistant Connect&nbsp;ZBT-1 integration" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-discovered-01.png" "Locate the Connect ZBT-1 integration" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Locate the Connect ZBT-1 integration" %}
 {% stepContent %}
 
 - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
 - Connect ZBT-1 should now have been discovered.
-- Select **Configure**.
+- Select **Add**.
 
 {% endstepContent %}
 {% endstep %}
@@ -67,11 +67,11 @@ zendesk:
 {% endstep %}
 
 {% step "Configuring the Zigbee Home Automation integration" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1_zha-discovered.png" "Configure the Zigbee Home Automation integration" %}
+{% image "/static/img/connect-zbt-1/zbt-1-zha-discovered.png" "Configure the Zigbee Home Automation integration" %}
 {% stepContent %}
 
 - Connect ZBT-1 will be shown in your **Zigbee Home Automation integration**.
-- Select **Configure**.
+- Select **Add**.
 - To confirm, select **Submit**.
 
 {% endstepContent %}
