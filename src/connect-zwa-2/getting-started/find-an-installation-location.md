@@ -14,7 +14,9 @@ Before installing and using Home Assistant Connect ZWA-2, find a good spot for i
    - metal (such as server rack housings or wall mounting brackets)
    - other transmitters (such as computers, routers, USB 3.0 ports)
    - an aquarium.
-2. To check if your device is in a good spot or if there is interference, follow the steps under [checking the distance to other transmitters to avoid interference](/hc/en-us/articles/28670741134365)
+2. Don't fix it into place permanently yet.
+   - After you have [connected the device to Home Assistant](28685765309853), you can check if your device is in a good spot or if there is interference:
+     - Follow the steps under [checking the distance to other transmitters to avoid interference](/hc/en-us/articles/28670741134365).
 
 ![Image of device with potential sources of interference: wire mesh, body of water, wireless transmitter, thick wall](/static/img/connect-zwa-2/zwa-2-find-device-location.png)
 
@@ -23,3 +25,5 @@ Before installing and using Home Assistant Connect ZWA-2, find a good spot for i
 - [Checking the distance to other transmitters to avoid interference](/hc/en-us/articles/28670741134365)
 - [Installing Home Assistant Connect ZWA-2](/hc/en-us/articles/28685750450205)
 - [Device overview](/hc/en-us/articles/28670192316189)
+- [Forming a new Z-Wave network with Home Assistant](/hc/en-us/articles/28685765309853)
+- [Migrate an existing Z-Wave network to Home Assistant Connect ZWA-2](/hc/en-us/articles/29529265751965)

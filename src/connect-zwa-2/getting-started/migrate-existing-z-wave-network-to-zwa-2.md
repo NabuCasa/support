@@ -81,6 +81,15 @@ If you want to migrate from a **Nortek HUSBZB-1**: there is no (easy) way to upd
    - In the control panel, select the purple **Advanced actions** button and under **NVM Management**, select **Restore**.
 3. Enable the Z-Wave integration again.
 
+{% endstepContent %}
+{% endstep %}
+
+{% step "Check for interference" "Step 4" %}
+{% image "/static/img/connect-zwa-2/zwa-2-signal-and-noise.png" "Screenshot of Z-Wave integration documentation" %}
+{% stepContent %}
+
+- You're all set, Home Assistant Connect ZWA-2 is connected to Home Assistant.
+- To be sure your device is in a good location, follow the steps under [checking the distance to other transmitters to avoid interference](/hc/en-us/articles/28670741134365).
 
 {% endstepContent %}
 {% endstep %}
