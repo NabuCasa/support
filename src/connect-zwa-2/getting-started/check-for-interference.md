@@ -10,8 +10,17 @@ As described in the section on [finding an installation location](/hc/en-us/arti
 
 ## Prerequisites
 
+{% steps %}
+{% prereq %}
+{% image "/static/img/connect-zwa-2/zwa-2-connect-to-green.png" "Image showing the Assistant Connect ZWA-2 with the USB cable and a Home Assistant Green" %}
+{% stepContent %}
+
 - Have Home Assistant Connect ZWA-2 connected to Home Assistant
 - Administrator rights on Home Assistant
+
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
 
 ## To check for interference or signal blocking
 
