@@ -1,12 +1,19 @@
 ---
 zendesk:
   article_id: 28670741134365
-  name: Checking the distance to other transmitters to avoid interference
+  name: Checking for interference or signal blocking
   position: 80
   labels: connect zwa-2
 ---
 
-As described in the section on [Finding an installation location](/hc/en-us/articles/28670284336925), some devices may cause interference. To check if your ZWA-2 is positioned far enough from other wireless transmitters to avoid interference, follow these steps.
+As described in the section on [finding an installation location](/hc/en-us/articles/28670284336925), some devices may cause interference. To check if your Home Assistant Connect ZWA-2 is positioned far enough from other wireless transmitters or objects to avoid interference or signal blocking, follow these steps.
+
+## Prerequisites
+
+- Have Home Assistant Connect ZWA-2 connected to Home Assistant
+- Administrator rights on Home Assistant
+
+## To check for interference or signal blocking
 
 {% steps %}
 {% step "Open the Z-Wave integration page" %}
