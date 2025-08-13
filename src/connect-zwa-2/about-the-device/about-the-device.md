@@ -11,13 +11,13 @@ Home Assistant Connect ZWA-2 is a Z-Wave adapter that connects to your Home Assi
 
 {% callout "important" %}
 
-Home Assistant Connect ZWA-2 is not a standalone product. The following elements are needed:
+Home Assistant Connect ZWA-2 is not a standalone product.
 
-- It was designed to run with Home Assistant installed and running on a smart home hub (such as [Home Assistant Green](https://www.home-assistant.io/green/)) and the **Z-Wave JS** add-on.
+- It was designed to run with Home Assistant running on a smart home hub (such as [Home Assistant Green](https://www.home-assistant.io/green/)) and the **Z-Wave JS** add-on.
   - You can run it without Home Assistant, in this case [extra steps are required](/hc/en-us/articles/29059418289821).
 - One or more Z-Wave devices, such as switches, dimmers, or locks.
 - **Optional**: [Home Assistant Companion app](https://companion.home-assistant.io/) installed on your smart phone.
-  - Note: the app does not run Home Assistant itself. It connects to your existing Home Assistant instance, allowing you to interact with it remotely.
+  - Note: the app does not run Home Assistant. It connects to your existing Home Assistant instance, allowing you to interact with it remotely.
 
 {% endcallout %}
 
@@ -26,14 +26,14 @@ Home Assistant Connect ZWA-2 is not a standalone product. The following elements
 ## Device characteristics
 
 - Home Assistant Connect ZWA-2 features an optimized, large antenna to reach devices where others can’t.
-- Because Home Assistant Connect ZWA-2 can receive very faint signals, communication is more reliable. This improves both network stability and battery life of end devices.
+- Because Home Assistant Connect ZWA-2 can receive faint signals, communication is more reliable. This improves both network stability and battery life of end devices.
 - Home Assistant Connect ZWA-2 supports both Z-Wave (mesh) and Z-Wave Long Range protocols via designated radio frequencies in all regions.
 - Note that by default, the radio frequency of Home Assistant Connect ZWA-2 is set to
 **EU Long Range**. For more information, read the section [about radio frequency and transmit power](/hc/en-us/articles/29081378073501).
 
 ## Key features
 
-- Supporting devices: Z-Wave 800 and older (including Z-Wave Plus and Plus V2), Z-Wave Long Range (only in EU and US).
+- Supported devices: Z-Wave 800 and older (including Z-Wave Plus and Plus V2), Z-Wave Long Range (only in EU and US).
 - Supported features: Security 2 (S2), SmartStart, Over-the-Air (OTA) Firmware Updates, Over-the-Wire (OTW) firmware updates.
 - Supported regions: All Z-Wave regions, including US, EU, and AU. Long Range support currently includes only the US and EU regions.
 - Chips inside: Silicon Labs ZG23 (Z-Wave 800 series chip) and ESP32-S3 (USB-serial bridge).
