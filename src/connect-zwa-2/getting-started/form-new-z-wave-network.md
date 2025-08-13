@@ -16,7 +16,7 @@ Before you can use Home Assistant Connect ZWA-2 with Home Assistant, you need to
 
 - Home Assistant smart home hub with a USB 2.0 port, for example, a Home Assistant Green.
   - If you do not have Home Assistant installed on the hub yet, [follow these steps](https://www.home-assistant.io/installation/).
-- Home Assistant 2025.7 or newer installed on your smart home hub.
+- Home Assistant 2025.8 or newer installed on your smart home hub.
 - Home Assistant Connect ZWA-2 with a USB-C to USB-A cable (included in the box).
 
 {% endstepContent %}

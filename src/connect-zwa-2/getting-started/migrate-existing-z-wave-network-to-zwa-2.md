@@ -17,7 +17,7 @@ If you already have a Z-Wave network running with Home Assistant and another Z-W
 
 - Home Assistant smart home hub with a USB 2.0 port, for example, a Home Assistant Green.
 - Have a Z-Wave network running on Home Assistant.
-- Home Assistant 2025.7 or newer installed on your smart home hub.
+- Home Assistant 2025.8 or newer installed on your smart home hub.
 - Home Assistant Connect ZWA-2 with a USB-C to USB-A cable (included in the box).
 
 {% endstepContent %}
