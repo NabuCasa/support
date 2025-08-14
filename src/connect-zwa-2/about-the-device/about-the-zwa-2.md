@@ -50,6 +50,7 @@ Home Assistant Connect ZWA-2 is not a standalone product.
 - [Device overview](/hc/en-us/articles/28670192316189)
 - [Status colors (LED)](/hc/en-us/articles/28670086157853)
 - [Datasheet](/hc/en-us/articles/28689873798173)
+- [Product page](https://www.home-assistant.io/connect/zwa-2/)
 
 ### Getting started
 
