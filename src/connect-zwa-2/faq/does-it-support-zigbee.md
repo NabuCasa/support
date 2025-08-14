@@ -6,8 +6,7 @@ zendesk:
   labels: connect-zwa-2, supported protocols
 ---
 
-- No, Home Assistant Connect ZWA-2 doesn't support protocols in the 2.4 GHz spectrum.
-- It is designed for Z-Wave and runs in a much quieter spectrum: 865.2-926.3 MHz.
+- No, Home Assistant Connect ZWA-2 doesn't support Zigbee, Wi-Fi, Bluetooth, or Thread.
 
 ## Related topics
 
