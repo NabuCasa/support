@@ -2,7 +2,7 @@
 zendesk:
   article_id: 28670749132061
   name: What are the default region and transmit power of the device?
-  position: 20
+  position: 10
   labels: connect-zwa-2
 ---
 
