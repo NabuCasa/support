@@ -20,7 +20,7 @@ Before you can migrate from a Nortek HUSBZB-1 adapter to Home Assistant Connect 
 {% image "/static/img/connect-zwa-2/zwa-2-connect-to-green.png" " with the USB cable and a Home Assistant Green" %}
 {% stepContent %}
 
-- Have the Nortek HUSBZB-1 upgraded to the latest firmware version to SDK 6.82.1.
+- Have the Nortek HUSBZB-1 upgraded to firmware version to SDK 6.82.1.
 - Home Assistant smart home hub with a USB 2.0 port, for example, a Home Assistant Green.
 - Have a Z-Wave network running on Home Assistant.
 - Home Assistant 2025.8 or newer installed on your smart home hub.
