@@ -59,3 +59,4 @@ If you migrate from one of these devices, follow the device specific steps:
 ### Migration
 
 - [About radio frequency region and transmit power levels](/hc/en-us/articles/29081378073501)
+- [Steps to update Aeotec Z-Stick 5](https://aeotec.freshdesk.com/support/solutions/articles/6000252294-z-stick-gen5-v1-02-firmware-update).
