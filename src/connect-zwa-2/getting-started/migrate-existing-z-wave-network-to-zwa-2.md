@@ -32,7 +32,7 @@ If you migrate from one of these devices, follow the device specific steps:
 
 <summary>Migrating from a **500 series adapter**:</summary>
 
-If you want to migrate from a **500 series adapter**, before starting migration, update the adapter to SDK 6.61+.
+Before starting migration, update the adapter to SDK 6.61+.
 
 - Check the documentation of your device to see if and how it can be updated.
   - [Steps to update Aeotec Z-Stick 5](https://aeotec.freshdesk.com/support/solutions/articles/6000252294-z-stick-gen5-v1-02-firmware-update).
@@ -43,7 +43,7 @@ If you want to migrate from a **500 series adapter**, before starting migration,
 
 <summary>Migrating from a **Nortek HUSBZB-1**:</summary>
 
-If you want to migrate from a **Nortek HUSBZB-1**: there is no (easy) way to update that device.
+There is no (easy) way to update that device.
 
 - You need to set up a new network.
 
