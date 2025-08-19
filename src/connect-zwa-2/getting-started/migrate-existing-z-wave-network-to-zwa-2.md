@@ -48,4 +48,5 @@ If you already have a Z-Wave network running with Home Assistant and another Z-W
 ### Migration
 
 - [About radio frequency region and transmit power levels](/hc/en-us/articles/29081378073501)
-- [Steps to update Aeotec Z-Stick 5](https://aeotec.freshdesk.com/support/solutions/articles/6000252294-z-stick-gen5-v1-02-firmware-update)
+- [Migrating from a 500 series adapter to Home Assistant Connect ZWA-2](/hc/en-us/articles/29689016023069)
+- [Migrating from a Nortek HUSBZB-1 adapter](/hc/en-us/articles/29688968436765)

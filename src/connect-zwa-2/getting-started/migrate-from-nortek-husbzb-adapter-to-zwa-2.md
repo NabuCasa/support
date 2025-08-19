@@ -51,4 +51,4 @@ Before you can migrate from a Nortek HUSBZB-1 adapter to Home Assistant Connect 
 ### Migration
 
 - [About radio frequency region and transmit power levels](/hc/en-us/articles/29081378073501)
-- [Steps to update Aeotec Z-Stick 5](https://aeotec.freshdesk.com/support/solutions/articles/6000252294-z-stick-gen5-v1-02-firmware-update)
+- [Upgrading Nortec HUSBZB-1 firmware](https://community.hubitat.com/t/guide-nortek-husbzb-1-nvm-backup-restore-and-updating-z-wave-firmware/48012)
