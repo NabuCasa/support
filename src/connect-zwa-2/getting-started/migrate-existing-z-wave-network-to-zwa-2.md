@@ -26,20 +26,30 @@ If you already have a Z-Wave network running with Home Assistant and another Z-W
 
 {% callout "important" %}
 
+If you migrate from one of these devices, follow the device specific steps:
+
+<details>
+
+<summary>Migrating from a **500 series adapter**:</summary>
+
 If you want to migrate from a **500 series adapter**, before starting migration, update the adapter to SDK 6.61+.
 
 - Check the documentation of your device to see if and how it can be updated.
   - [Steps to update Aeotec Z-Stick 5](https://aeotec.freshdesk.com/support/solutions/articles/6000252294-z-stick-gen5-v1-02-firmware-update).
 
-{% endcallout %}
+</details>
 
-{% callout "important" %}
+<details>
+
+<summary>Migrating from a **Nortek HUSBZB-1**:</summary>
 
 If you want to migrate from a **Nortek HUSBZB-1**: there is no (easy) way to update that device.
 
 - You need to set up a new network.
 
   - If you are comfortable with soldering and have time and patience: some users have reported that they were able to upgrade the firmware of the Nortek HUSBZB-1 with [this procedure](https://community.hubitat.com/t/guide-nortek-husbzb-1-nvm-backup-restore-and-updating-z-wave-firmware/48012).
+
+</details>
 
 {% endcallout %}
 
