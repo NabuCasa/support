@@ -1,12 +1,21 @@
 ---
 zendesk:
-  article_id: 29529265751965
-  name: Migrating an existing Z-Wave network to Home Assistant Connect ZWA-2
-  position: 40
+  article_id: 29689016023069
+  name: Migrating from a 500 series adapter to Home Assistant Connect ZWA-2
+  position: 41
   labels: connect zwa-2
 ---
 
-If you already have a Z-Wave network running with Home Assistant and another Z-Wave adapter, and you want to migrate to Home Assistant Connect ZWA-2, follow these steps.
+If you already have a Z-Wave network running with Home Assistant on a 500 series Z-Wave adapter, and you want to migrate to Home Assistant Connect ZWA-2, follow these steps.
+
+{% callout "important" %}
+
+- Before starting migration, upgrade the 500 series Z-Wave adapter firmware to SDK 6.61+.
+  - Check the documentation of your device to see if and how it can be updated.
+    - [Steps to update Aeotec Z-Stick 5](https://aeotec.freshdesk.com/support/solutions/articles/6000252294-z-stick-gen5-v1-02-firmware-update).
+- Once you have upgraded the firmware, follow the steps below to migrate the network.
+
+{% endcallout %}
 
 ## Prerequisites
 
@@ -15,9 +24,7 @@ If you already have a Z-Wave network running with Home Assistant and another Z-W
 {% image "/static/img/connect-zwa-2/zwa-2-connect-to-green.png" " with the USB cable and a Home Assistant Green" %}
 {% stepContent %}
 
-- Depending on the adapter you are using, you need to upgrade the adapter firmware before you can start migration. Follow these steps:
-  - [Migrating from a 500 series adapter to Home Assistant Connect ZWA-2](/hc/en-us/articles/29689016023069)
-  - [Migrating from a Nortek HUSBZB-1 adapter](/hc/en-us/articles/29688968436765)
+- Have the 500 series Z-Wave adapter firmware upgraded to SDK 6.61+.
 - Home Assistant smart home hub with a USB 2.0 port, for example, a Home Assistant Green.
 - Have a Z-Wave network running on Home Assistant.
 - Home Assistant 2025.8 or newer installed on your smart home hub.
@@ -26,6 +33,9 @@ If you already have a Z-Wave network running with Home Assistant and another Z-W
 {% endstepContent %}
 {% endprereq %}
 {% endsteps %}
+
+
+If you migrate from one of these devices, follow the device specific steps:
 
 ## To migrate your existing Z-Wave network to Home Assistant Connect ZWA-2
 
@@ -38,6 +48,7 @@ If you already have a Z-Wave network running with Home Assistant and another Z-W
 
 ### Prerequisites
 
+- [Steps to update Aeotec Z-Stick 5](https://aeotec.freshdesk.com/support/solutions/articles/6000252294-z-stick-gen5-v1-02-firmware-update)
 - [Finding an installation location](/hc/en-us/articles/28670284336925)
 - [Installing Home Assistant Connect ZWA-2](/hc/en-us/articles/28685750450205)
 
@@ -48,4 +59,3 @@ If you already have a Z-Wave network running with Home Assistant and another Z-W
 ### Migration
 
 - [About radio frequency region and transmit power levels](/hc/en-us/articles/29081378073501)
-- [Steps to update Aeotec Z-Stick 5](https://aeotec.freshdesk.com/support/solutions/articles/6000252294-z-stick-gen5-v1-02-firmware-update)
