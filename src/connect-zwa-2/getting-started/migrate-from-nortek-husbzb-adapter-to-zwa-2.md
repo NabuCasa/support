@@ -6,7 +6,7 @@ zendesk:
   labels: connect zwa-2
 ---
 
-Before you can migrate from a Nortek HUSBZB-1 adapter to Home Assistant Connect ZWA-2, you need to upgrade the device firmware. However, there is no (easy) way to update that device.
+Before you can migrate from a Nortek HUSBZB-1 adapter to Home Assistant Connect ZWA-2, you need to upgrade the device firmware. SDK 6.82.1 has been reported to work for this. However, there is no (easy) way to update that device.
 
 - Most likely, you need to set up a new network.
 
@@ -20,7 +20,7 @@ Before you can migrate from a Nortek HUSBZB-1 adapter to Home Assistant Connect 
 {% image "/static/img/connect-zwa-2/zwa-2-connect-to-green.png" " with the USB cable and a Home Assistant Green" %}
 {% stepContent %}
 
-- Have the Nortek HUSBZB-1 upgraded to the latest firmware version.
+- Have the Nortek HUSBZB-1 upgraded to firmware version to SDK 6.82.1.
 - Home Assistant smart home hub with a USB 2.0 port, for example, a Home Assistant Green.
 - Have a Z-Wave network running on Home Assistant.
 - Home Assistant Operating System with Home Assistant 2025.8 or newer installed on your smart home hub.
