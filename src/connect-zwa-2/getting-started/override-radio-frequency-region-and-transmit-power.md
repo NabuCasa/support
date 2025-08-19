@@ -17,7 +17,7 @@ If you use the **Z-Wave JS** add-on, you do not need to do anything.
 - The Z-Wave JS add-on automatically adjusts the region based on the location defined for your Home Assistant hub.
   - This means radio frequency and transmit power level are set automatically for your region.
   - If you don't know whether you use the **Z-Wave JS** add-on:
-    - Go to [**Settings** > **Add-ons**](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_zwave_js) and look for the **Z-Wave JS** add-on.
+    - Go to **Settings** > **Add-ons**](https://my.home-assistant.io/redirect/supervisor/) and look for the [**Z-Wave JS**](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_zwave_js) add-on.
 
 - If needed, you can override the radio frequency region in the **Z-Wave JS** add-on. To do this, follow the [steps in the Z-Wave documentation](https://www.home-assistant.io/integrations/zwave_js/#overriding-the-radio-frequency-region-of-the-adapter-in-the-z-wave-js-add-on).
 
