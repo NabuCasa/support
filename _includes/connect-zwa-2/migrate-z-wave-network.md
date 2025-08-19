@@ -13,7 +13,7 @@
 
 - Follow the [steps in the Z-Wave integration documentation on migrating your Z-Wave network to Home Assistant Connect ZWA-2](https://www.home-assistant.io/integrations/zwave_js/#migrating-a-z-wave-network-to-a-new-adapter).
 - **Troubleshooting**: If you don't know whether you use the **Z-Wave JS** add-on:
-  - Go to **Settings** > **Add-ons** and look for the **Z-Wave JS** add-on.
+  - Go to [**Settings** > **Add-ons**](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_zwave_js) and look for the **Z-Wave JS** add-on.
 
 {% endstepContent %}
 {% endstep %}

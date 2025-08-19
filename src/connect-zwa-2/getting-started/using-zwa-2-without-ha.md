@@ -6,7 +6,7 @@ zendesk:
   labels: connect zwa-2, getting started
 ---
 
-Home Assistant Connect ZWA-2 was designed to work with [Home Assistant](https://www.home-assistant.io/), the [Z-Wave integration](https://www.home-assistant.io/integrations/zwave_js/), and the **Z-Wave JS** add-on. The documentation is focused on this scenario.
+Home Assistant Connect ZWA-2 was designed to work with [Home Assistant](https://www.home-assistant.io/), the [Z-Wave integration](https://www.home-assistant.io/integrations/zwave_js/), and the [**Z-Wave JS** add-on](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_zwave_js). The documentation is focused on this scenario.
 
 However, you can use Home Assistant Connect ZWA-2 without Home Assistant.
 
