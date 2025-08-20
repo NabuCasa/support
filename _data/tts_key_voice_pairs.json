@@ -1,602 +1,602 @@
 [
   [
     "af-ZA",
-    "Adri, Willem"
+    "AdriNeural, WillemNeural"
   ],
   [
     "am-ET",
-    "Ameha, Mekdes"
+    "AmehaNeural, MekdesNeural"
   ],
   [
     "ar-AE",
-    "Fatima, Hamdan"
+    "FatimaNeural, HamdanNeural"
   ],
   [
     "ar-BH",
-    "Ali, Laila"
+    "AliNeural, LailaNeural"
   ],
   [
     "ar-DZ",
-    "Amina, Ismael"
+    "AminaNeural, IsmaelNeural"
   ],
   [
     "ar-EG",
-    "Salma, Shakir"
+    "SalmaNeural, ShakirNeural"
   ],
   [
     "ar-IQ",
-    "Bassel, Rana"
+    "BasselNeural, RanaNeural"
   ],
   [
     "ar-JO",
-    "Sana, Taim"
+    "SanaNeural, TaimNeural"
   ],
   [
     "ar-KW",
-    "Fahed, Noura"
+    "FahedNeural, NouraNeural"
   ],
   [
     "ar-LB",
-    "Layla, Rami"
+    "LaylaNeural, RamiNeural"
   ],
   [
     "ar-LY",
-    "Iman, Omar"
+    "ImanNeural, OmarNeural"
   ],
   [
     "ar-MA",
-    "Jamal, Mouna"
+    "JamalNeural, MounaNeural"
   ],
   [
     "ar-OM",
-    "Abdullah, Aysha"
+    "AbdullahNeural, AyshaNeural"
   ],
   [
     "ar-QA",
-    "Amal, Moaz"
+    "AmalNeural, MoazNeural"
   ],
   [
     "ar-SA",
-    "Hamed, Zariyah"
+    "HamedNeural, ZariyahNeural"
   ],
   [
     "ar-SY",
-    "Amany, Laith"
+    "AmanyNeural, LaithNeural"
   ],
   [
     "ar-TN",
-    "Hedi, Reem"
+    "HediNeural, ReemNeural"
   ],
   [
     "ar-YE",
-    "Maryam, Saleh"
+    "MaryamNeural, SalehNeural"
   ],
   [
     "as-IN",
-    "Priyom, Yashica"
+    "PriyomNeural, YashicaNeural"
   ],
   [
     "az-AZ",
-    "Babek, Banu"
+    "BabekNeural, BanuNeural"
   ],
   [
     "bg-BG",
-    "Borislav, Kalina"
+    "BorislavNeural, KalinaNeural"
   ],
   [
     "bn-BD",
-    "Nabanita, Pradeep"
+    "NabanitaNeural, PradeepNeural"
   ],
   [
     "bn-IN",
-    "Bashkar, Tanishaa"
+    "BashkarNeural, TanishaaNeural"
   ],
   [
     "bs-BA",
-    "Goran, Vesna"
+    "GoranNeural, VesnaNeural"
   ],
   [
     "ca-ES",
-    "Alba, Enric, Joana"
+    "AlbaNeural, EnricNeural, JoanaNeural"
   ],
   [
     "cs-CZ",
-    "Antonin, Vlasta"
+    "AntoninNeural, VlastaNeural"
   ],
   [
     "cy-GB",
-    "Aled, Nia"
+    "AledNeural, NiaNeural"
   ],
   [
     "da-DK",
-    "Christel, Jeppe"
+    "ChristelNeural, JeppeNeural"
   ],
   [
     "de-AT",
-    "Ingrid, Jonas"
+    "IngridNeural, JonasNeural"
   ],
   [
     "de-CH",
-    "Jan, Leni"
+    "JanNeural, LeniNeural"
   ],
   [
     "de-DE",
-    "Amala, Bernd, Christoph, Conrad, Elke, Gisela, Kasper, Katja, Killian, Klarissa, Klaus, Louisa, Maja, Ralf, Tanja"
+    "AmalaNeural, BerndNeural, ChristophNeural, Conrad, ElkeNeural, GiselaNeural, KasperNeural, KatjaNeural, KillianNeural, KlarissaNeural, KlausNeural, LouisaNeural, MajaNeural, RalfNeural, TanjaNeural"
   ],
   [
     "el-GR",
-    "Athina, Nestoras"
+    "AthinaNeural, NestorasNeural"
   ],
   [
     "en-AU",
-    "Annette, Carly, Darren, Duncan, Elsie, Freya, Joanne, Ken, Kim, Natasha, Neil, Tim, Tina, William"
+    "AnnetteNeural, CarlyNeural, DarrenNeural, DuncanNeural, ElsieNeural, FreyaNeural, JoanneNeural, KenNeural, KimNeural, NatashaNeural, NeilNeural, TimNeural, TinaNeural, WilliamNeural"
   ],
   [
     "en-CA",
-    "Clara, Liam"
+    "ClaraNeural, LiamNeural"
   ],
   [
     "en-GB",
-    "Abbi, Alfie, Bella, Elliot, Ethan, Hollie, Libby, Maisie, Noah, Oliver, Olivia, Ryan, Sonia, Thomas"
+    "AbbiNeural, AlfieNeural, BellaNeural, ElliotNeural, EthanNeural, HollieNeural, LibbyNeural, MaisieNeural, NoahNeural, OliverNeural, OliviaNeural, Ryan, Sonia, ThomasNeural"
   ],
   [
     "en-HK",
-    "Sam, Yan"
+    "SamNeural, YanNeural"
   ],
   [
     "en-IE",
-    "Connor, Emily"
+    "ConnorNeural, EmilyNeural"
   ],
   [
     "en-IN",
-    "Aarav, Aarti, Aashi, Ananya, Arjun, Kavya, Kunal, Neerja, Prabhat, Rehaan"
+    "AaravNeural, AartiNeural, AashiNeural, AnanyaNeural, ArjunNeural, KavyaNeural, KunalNeural, Neerja, PrabhatNeural, RehaanNeural"
   ],
   [
     "en-KE",
-    "Asilia, Chilemba"
+    "AsiliaNeural, ChilembaNeural"
   ],
   [
     "en-NG",
-    "Abeo, Ezinne"
+    "AbeoNeural, EzinneNeural"
   ],
   [
     "en-NZ",
-    "Mitchell, Molly"
+    "MitchellNeural, MollyNeural"
   ],
   [
     "en-PH",
-    "James, Rosa"
+    "JamesNeural, RosaNeural"
   ],
   [
     "en-SG",
-    "Luna, Wayne"
+    "LunaNeural, WayneNeural"
   ],
   [
     "en-TZ",
-    "Elimu, Imani"
+    "ElimuNeural, ImaniNeural"
   ],
   [
     "en-US",
-    "Amber, Ana, Andrew, Aria, Ashley, Ava, Brandon, Brian, Christopher, Cora, Davis, Elizabeth, Emma, Eric, Guy, Jacob, Jane, Jason, Jenny, Kai, Luna, Michelle, Monica, Nancy, Roger, Sara, Steffan, Tony"
+    "AmberNeural, AnaNeural, AndrewNeural, Aria, AshleyNeural, AvaNeural, BrandonNeural, BrianNeural, ChristopherNeural, CoraNeural, Davis, ElizabethNeural, EmmaNeural, EricNeural, Guy, JacobNeural, Jane, Jason, Jenny, Kai, Luna, MichelleNeural, MonicaNeural, Nancy, RogerNeural, Sara, SteffanNeural, Tony"
   ],
   [
     "en-ZA",
-    "Leah, Luke"
+    "LeahNeural, LukeNeural"
   ],
   [
     "es-AR",
-    "Elena, Tomas"
+    "ElenaNeural, TomasNeural"
   ],
   [
     "es-BO",
-    "Marcelo, Sofia"
+    "MarceloNeural, SofiaNeural"
   ],
   [
     "es-CL",
-    "Catalina, Lorenzo"
+    "CatalinaNeural, LorenzoNeural"
   ],
   [
     "es-CO",
-    "Gonzalo, Salome"
+    "GonzaloNeural, SalomeNeural"
   ],
   [
     "es-CR",
-    "Juan, Maria"
+    "JuanNeural, MariaNeural"
   ],
   [
     "es-CU",
-    "Belkys, Manuel"
+    "BelkysNeural, ManuelNeural"
   ],
   [
     "es-DO",
-    "Emilio, Ramona"
+    "EmilioNeural, RamonaNeural"
   ],
   [
     "es-EC",
-    "Andrea, Luis"
+    "AndreaNeural, LuisNeural"
   ],
   [
     "es-ES",
-    "Abril, Alvaro, Arnau, Dario, Elias, Elvira, Estrella, Irene, Laia, Lia, Nil, Saul, Teo, Triana, Vera, Ximena"
+    "AbrilNeural, Alvaro, ArnauNeural, DarioNeural, EliasNeural, ElviraNeural, EstrellaNeural, IreneNeural, LaiaNeural, LiaNeural, NilNeural, SaulNeural, TeoNeural, TrianaNeural, VeraNeural, XimenaNeural"
   ],
   [
     "es-GQ",
-    "Javier, Teresa"
+    "JavierNeural, TeresaNeural"
   ],
   [
     "es-GT",
-    "Andres, Marta"
+    "AndresNeural, MartaNeural"
   ],
   [
     "es-HN",
-    "Carlos, Karla"
+    "CarlosNeural, KarlaNeural"
   ],
   [
     "es-MX",
-    "Beatriz, Candela, Carlota, Cecilio, Dalia, Gerardo, Jorge, Larissa, Liberto, Luciano, Marina, Nuria, Pelayo, Renata, Yago"
+    "BeatrizNeural, CandelaNeural, CarlotaNeural, CecilioNeural, Dalia, GerardoNeural, Jorge, LarissaNeural, LibertoNeural, LucianoNeural, MarinaNeural, NuriaNeural, PelayoNeural, RenataNeural, YagoNeural"
   ],
   [
     "es-NI",
-    "Federico, Yolanda"
+    "FedericoNeural, YolandaNeural"
   ],
   [
     "es-PA",
-    "Margarita, Roberto"
+    "MargaritaNeural, RobertoNeural"
   ],
   [
     "es-PE",
-    "Alex, Camila"
+    "AlexNeural, CamilaNeural"
   ],
   [
     "es-PR",
-    "Karina, Victor"
+    "KarinaNeural, VictorNeural"
   ],
   [
     "es-PY",
-    "Mario, Tania"
+    "MarioNeural, TaniaNeural"
   ],
   [
     "es-SV",
-    "Lorena, Rodrigo"
+    "LorenaNeural, RodrigoNeural"
   ],
   [
     "es-US",
-    "Alonso, Paloma"
+    "AlonsoNeural, PalomaNeural"
   ],
   [
     "es-UY",
-    "Mateo, Valentina"
+    "MateoNeural, ValentinaNeural"
   ],
   [
     "es-VE",
-    "Paola, Sebastian"
+    "PaolaNeural, SebastianNeural"
   ],
   [
     "et-EE",
-    "Anu, Kert"
+    "AnuNeural, KertNeural"
   ],
   [
     "eu-ES",
-    "Ainhoa, Ander"
+    "AinhoaNeural, AnderNeural"
   ],
   [
     "fa-IR",
-    "Dilara, Farid"
+    "DilaraNeural, FaridNeural"
   ],
   [
     "fi-FI",
-    "Harri, Noora, Selma"
+    "HarriNeural, NooraNeural, SelmaNeural"
   ],
   [
     "fil-PH",
-    "Angelo, Blessica"
+    "AngeloNeural, BlessicaNeural"
   ],
   [
     "fr-BE",
-    "Charline, Gerard"
+    "CharlineNeural, GerardNeural"
   ],
   [
     "fr-CA",
-    "Antoine, Jean, Sylvie, Thierry"
+    "AntoineNeural, JeanNeural, SylvieNeural, ThierryNeural"
   ],
   [
     "fr-CH",
-    "Ariane, Fabrice"
+    "ArianeNeural, FabriceNeural"
   ],
   [
     "fr-FR",
-    "Alain, Brigitte, Celeste, Claude, Coralie, Denise, Eloise, Henri, Jacqueline, Jerome, Josephine, Maurice, Yves, Yvette"
+    "AlainNeural, BrigitteNeural, CelesteNeural, ClaudeNeural, CoralieNeural, Denise, EloiseNeural, Henri, JacquelineNeural, JeromeNeural, JosephineNeural, MauriceNeural, YvesNeural, YvetteNeural"
   ],
   [
     "ga-IE",
-    "Colm, Orla"
+    "ColmNeural, OrlaNeural"
   ],
   [
     "gl-ES",
-    "Roi, Sabela"
+    "RoiNeural, SabelaNeural"
   ],
   [
     "gu-IN",
-    "Dhwani, Niranjan"
+    "DhwaniNeural, NiranjanNeural"
   ],
   [
     "he-IL",
-    "Avri, Hila"
+    "AvriNeural, HilaNeural"
   ],
   [
     "hi-IN",
-    "Aarav, Aarti, Ananya, Arjun, Kavya, Kunal, Madhur, Rehaan, Swara"
+    "AaravNeural, AartiNeural, AnanyaNeural, ArjunNeural, KavyaNeural, KunalNeural, MadhurNeural, RehaanNeural, Swara"
   ],
   [
     "hr-HR",
-    "Gabrijela, Srecko"
+    "GabrijelaNeural, SreckoNeural"
   ],
   [
     "hu-HU",
-    "Noemi, Tamas"
+    "NoemiNeural, TamasNeural"
   ],
   [
     "hy-AM",
-    "Anahit, Hayk"
+    "AnahitNeural, HaykNeural"
   ],
   [
     "id-ID",
-    "Ardi, Gadis"
+    "ArdiNeural, GadisNeural"
   ],
   [
     "is-IS",
-    "Gudrun, Gunnar"
+    "GudrunNeural, GunnarNeural"
   ],
   [
     "it-IT",
-    "Benigno, Calimero, Cataldo, Diego, Elsa, Fabiola, Fiamma, Gianni, Giuseppe, Imelda, Irma, Isabella, Lisandro, Palmira, Pierina, Rinaldo"
+    "BenignoNeural, CalimeroNeural, CataldoNeural, Diego, ElsaNeural, FabiolaNeural, FiammaNeural, GianniNeural, GiuseppeNeural, ImeldaNeural, IrmaNeural, Isabella, LisandroNeural, PalmiraNeural, PierinaNeural, RinaldoNeural"
   ],
   [
     "iu-Cans-CA",
-    "Siqiniq, Taqqiq"
+    "SiqiniqNeural, TaqqiqNeural"
   ],
   [
     "iu-Latn-CA",
-    "Siqiniq, Taqqiq"
+    "SiqiniqNeural, TaqqiqNeural"
   ],
   [
     "ja-JP",
-    "Aoi, Daichi, Keita, Mayu, Nanami, Naoki, Shiori"
+    "AoiNeural, DaichiNeural, KeitaNeural, MayuNeural, Nanami, NaokiNeural, ShioriNeural"
   ],
   [
     "jv-ID",
-    "Dimas, Siti"
+    "DimasNeural, SitiNeural"
   ],
   [
     "ka-GE",
-    "Eka, Giorgi"
+    "EkaNeural, GiorgiNeural"
   ],
   [
     "kk-KZ",
-    "Aigul, Daulet"
+    "AigulNeural, DauletNeural"
   ],
   [
     "km-KH",
-    "Piseth, Sreymom"
+    "PisethNeural, SreymomNeural"
   ],
   [
     "kn-IN",
-    "Gagan, Sapna"
+    "GaganNeural, SapnaNeural"
   ],
   [
     "ko-KR",
-    "BongJin, GookMin, Hyunsu, InJoon, JiMin, SeoHyeon, SoonBok, SunHi, YuJin"
+    "BongJinNeural, GookMinNeural, HyunsuNeural, InJoon, JiMinNeural, SeoHyeonNeural, SoonBokNeural, SunHiNeural, YuJinNeural"
   ],
   [
     "lo-LA",
-    "Chanthavong, Keomany"
+    "ChanthavongNeural, KeomanyNeural"
   ],
   [
     "lt-LT",
-    "Leonas, Ona"
+    "LeonasNeural, OnaNeural"
   ],
   [
     "lv-LV",
-    "Everita, Nils"
+    "EveritaNeural, NilsNeural"
   ],
   [
     "mk-MK",
-    "Aleksandar, Marija"
+    "AleksandarNeural, MarijaNeural"
   ],
   [
     "ml-IN",
-    "Midhun, Sobhana"
+    "MidhunNeural, SobhanaNeural"
   ],
   [
     "mn-MN",
-    "Bataa, Yesui"
+    "BataaNeural, YesuiNeural"
   ],
   [
     "mr-IN",
-    "Aarohi, Manohar"
+    "AarohiNeural, ManoharNeural"
   ],
   [
     "ms-MY",
-    "Osman, Yasmin"
+    "OsmanNeural, YasminNeural"
   ],
   [
     "mt-MT",
-    "Grace, Joseph"
+    "GraceNeural, JosephNeural"
   ],
   [
     "my-MM",
-    "Nilar, Thiha"
+    "NilarNeural, ThihaNeural"
   ],
   [
     "nb-NO",
-    "Finn, Iselin, Pernille"
+    "FinnNeural, IselinNeural, PernilleNeural"
   ],
   [
     "ne-NP",
-    "Hemkala, Sagar"
+    "HemkalaNeural, SagarNeural"
   ],
   [
     "nl-BE",
-    "Arnaud, Dena"
+    "ArnaudNeural, DenaNeural"
   ],
   [
     "nl-NL",
-    "Colette, Fenna, Maarten"
+    "ColetteNeural, FennaNeural, MaartenNeural"
   ],
   [
     "or-IN",
-    "Subhasini, Sukant"
+    "SubhasiniNeural, SukantNeural"
   ],
   [
     "pa-IN",
-    "Ojas, Vaani"
+    "OjasNeural, VaaniNeural"
   ],
   [
     "pl-PL",
-    "Agnieszka, Marek, Zofia"
+    "AgnieszkaNeural, MarekNeural, ZofiaNeural"
   ],
   [
     "ps-AF",
-    "GulNawaz, Latifa"
+    "GulNawazNeural, LatifaNeural"
   ],
   [
     "pt-BR",
-    "Antonio, Brenda, Donato, Elza, Fabio, Francisca, Giovanna, Humberto, Julio, Leila, Leticia, Manuela, Nicolau, Thalita, Valerio, Yara"
+    "AntonioNeural, BrendaNeural, DonatoNeural, ElzaNeural, FabioNeural, Francisca, GiovannaNeural, HumbertoNeural, JulioNeural, LeilaNeural, LeticiaNeural, ManuelaNeural, NicolauNeural, ThalitaNeural, ValerioNeural, YaraNeural"
   ],
   [
     "pt-PT",
-    "Duarte, Fernanda, Raquel"
+    "DuarteNeural, FernandaNeural, Raquel"
   ],
   [
     "ro-RO",
-    "Alina, Emil"
+    "AlinaNeural, EmilNeural"
   ],
   [
     "ru-RU",
-    "Dariya, Dmitry, Svetlana"
+    "DariyaNeural, DmitryNeural, SvetlanaNeural"
   ],
   [
     "si-LK",
-    "Sameera, Thilini"
+    "SameeraNeural, ThiliniNeural"
   ],
   [
     "sk-SK",
-    "Lukas, Viktoria"
+    "LukasNeural, ViktoriaNeural"
   ],
   [
     "sl-SI",
-    "Petra, Rok"
+    "PetraNeural, RokNeural"
   ],
   [
     "so-SO",
-    "Muuse, Ubax"
+    "MuuseNeural, UbaxNeural"
   ],
   [
     "sq-AL",
-    "Anila, Ilir"
+    "AnilaNeural, IlirNeural"
   ],
   [
     "sr-Latn-RS",
-    "Nicholas, Sophie"
+    "NicholasNeural, SophieNeural"
   ],
   [
     "sr-RS",
-    "Nicholas, Sophie"
+    "NicholasNeural, SophieNeural"
   ],
   [
     "su-ID",
-    "Jajang, Tuti"
+    "JajangNeural, TutiNeural"
   ],
   [
     "sv-SE",
-    "Hillevi, Mattias, Sofie"
+    "HilleviNeural, MattiasNeural, SofieNeural"
   ],
   [
     "sw-KE",
-    "Rafiki, Zuri"
+    "RafikiNeural, ZuriNeural"
   ],
   [
     "sw-TZ",
-    "Daudi, Rehema"
+    "DaudiNeural, RehemaNeural"
   ],
   [
     "ta-IN",
-    "Pallavi, Valluvar"
+    "PallaviNeural, ValluvarNeural"
   ],
   [
     "ta-LK",
-    "Kumar, Saranya"
+    "KumarNeural, SaranyaNeural"
   ],
   [
     "ta-MY",
-    "Kani, Surya"
+    "KaniNeural, SuryaNeural"
   ],
   [
     "ta-SG",
-    "Anbu, Venba"
+    "AnbuNeural, VenbaNeural"
   ],
   [
     "te-IN",
-    "Mohan, Shruti"
+    "MohanNeural, ShrutiNeural"
   ],
   [
     "th-TH",
-    "Achara, Niwat, Premwadee"
+    "AcharaNeural, NiwatNeural, PremwadeeNeural"
   ],
   [
     "tr-TR",
-    "Ahmet, Emel"
+    "AhmetNeural, EmelNeural"
   ],
   [
     "uk-UA",
-    "Ostap, Polina"
+    "OstapNeural, PolinaNeural"
   ],
   [
     "ur-IN",
-    "Gul, Salman"
+    "GulNeural, SalmanNeural"
   ],
   [
     "ur-PK",
-    "Asad, Uzma"
+    "AsadNeural, UzmaNeural"
   ],
   [
     "uz-UZ",
-    "Madina, Sardor"
+    "MadinaNeural, SardorNeural"
   ],
   [
     "vi-VN",
-    "HoaiMy, NamMinh"
+    "HoaiMyNeural, NamMinhNeural"
   ],
   [
     "wuu-CN",
-    "Xiaotong, Yunzhe"
+    "XiaotongNeural, YunzheNeural"
   ],
   [
     "yue-CN",
-    "XiaoMin, YunSong"
+    "XiaoMinNeural, YunSongNeural"
   ],
   [
     "zh-CN",
-    "Xiaochen, Xiaohan, Xiaomeng, Xiaomo, Xiaoqiu, Xiaorou, Xiaorui, Xiaoshuang, Xiaoxiao, XiaoxiaoDialects, Xiaoyan, Xiaoyi, Xiaoyou, Xiaozhen, Yunfeng, Yunhao, Yunjian, Yunjie, Yunxi, Yunxia, Yunyang, Yunye, Yunze"
+    "Xiaochen, Xiaohan, Xiaomeng, Xiaomo, XiaoqiuNeural, XiaorouNeural, Xiaorui, Xiaoshuang, Xiaoxiao, XiaoxiaoDialectsNeural, XiaoyanNeural, Xiaoyi, XiaoyouNeural, Xiaozhen, Yunfeng, Yunhao, Yunjian, YunjieNeural, Yunxi, Yunxia, Yunyang, Yunye, Yunze"
   ],
   [
     "zh-CN-henan",
-    "Yundeng"
+    "YundengNeural"
   ],
   [
     "zh-CN-shandong",
-    "Yunxiang"
+    "YunxiangNeural"
   ],
   [
     "zh-HK",
-    "HiuGaai, HiuMaan, WanLung"
+    "HiuGaaiNeural, HiuMaanNeural, WanLungNeural"
   ],
   [
     "zh-TW",
-    "HsiaoChen, HsiaoYu, YunJhe"
+    "HsiaoChenNeural, HsiaoYuNeural, YunJheNeural"
   ],
   [
     "zu-ZA",
-    "Thando, Themba"
+    "ThandoNeural, ThembaNeural"
   ]
 ]
