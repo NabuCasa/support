@@ -16,7 +16,7 @@ You can define the language you speak to Assist when you [set up a Home Assistan
 
 If you want to speak to Assist in different languages, set up an assistant for each language.
 
-  ![STT language selector in voice assistant dialog](/static/img/cloud/tts_settings.png)
+  ![STT language selector in voice assistant dialog](/static/img/cloud/ha-cloud-stt.png)
 
 ## List of available languages
 
