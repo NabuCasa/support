@@ -30,9 +30,9 @@
    - Select the three-dot menu and select **Disable**.
 2. Do the migration in **Z-Wave JS UI**.
    - Open the **Z-Wave JS UI** control panel and in the bottom-right corner, select the purple **Advanced actions** button.
-   - Under **NVM Management**, select **Backup**.
-   - Unplug the adapter and connect Home Assistant Connect ZWA-2.
-   - Under **Settings** > **UI** > **Z-Wave**, enter the region and save.
+   - Under **NVM Management**, select **Backup**. Wait for the backup NVM file to finish downloading.
+   - Unplug the old Z-Wave adapter and connect Home Assistant Connect ZWA-2.
+   - Under **Settings** > **Z-Wave**, select the **Serial Port** for the Home Assistant Connect ZWA-2. Then, select the **RF Region** and save.
      - By default, the region on Home Assistant Connect ZWA-2 is set to EU Long Range. The transmit power level is configured for Europe.
      - If you are outside Europe, refer to the section [about radio frequency region and transmit power levels](/hc/en-us/articles/29081378073501) to find the right region and transmit power settings.
    - In the control panel, select the purple **Advanced actions** button and under **NVM Management**, select **Restore**.
