@@ -16,8 +16,8 @@
       "command": "npm run lint:all:check",
       "group": {
         "kind": "test",
-        "isDefault": true
-      }
+        "isDefault": true,
+      },
     },
     {
       "label": "Content preview",
@@ -25,8 +25,8 @@
       "command": "npm run start",
       "group": {
         "kind": "test",
-        "isDefault": true
-      }
+        "isDefault": true,
+      },
     },
     {
       "label": "Generate TTS languages",
@@ -34,9 +34,8 @@
       "command": "npm run generate:tts-languages",
       "group": {
         "kind": "test",
-        "isDefault": true
+        "isDefault": true,
       },
-      "problemMatcher": []
     }
   ]
 }
