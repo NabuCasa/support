@@ -37,16 +37,6 @@
         "isDefault": true
       },
       "problemMatcher": []
-    },
-    {
-      "label": "Generate STT languages",
-      "type": "shell",
-      "command": "npm run generate:stt-languages",
-      "group": {
-        "kind": "test",
-        "isDefault": true
-      },
-      "problemMatcher": []
     }
   ]
 }

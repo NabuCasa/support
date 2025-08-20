@@ -89,14 +89,7 @@ export default async function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("languageDisplayName", function (code) {
-    try {
-      if (!code || typeof code !== "string" || code.trim() === "") {
-        return code;
-      }
-      return languageDisplayNames.of(code);
-    } catch (e) {
-      return code;
-    }
+    return languageDisplayNames.of(code);
   });
 
   eleventyConfig.addCollection("zendeskCategories", function (collection) {
