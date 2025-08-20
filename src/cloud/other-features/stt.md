@@ -20,7 +20,7 @@ If you want to speak to Assist in different languages, set up an assistant for e
 
 ## List of available languages for speech-to-text
 
-Language options may change from time to time, so if you are missing options which are shown on this page, make sure you are running the latest version of Home Assistant.
+Language options may change from time to time, so if you are missing options which are shown on this page, make sure you are running the [latest version of Home Assistant](https://www.home-assistant.io/latest-release-notes/).
 
 Some variants may work better than others.
 
