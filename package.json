@@ -15,7 +15,7 @@
     "lint:remark:check": "remark . --verbose --frail",
     "lint:textlint:check": "textlint ./",
     "lint:textlint:fix": "textlint --fix ./",
-    "generate:tts-languages": "scripts/generate-tts-languages"
+    "generate:voice-languages": "scripts/generate-voice-languages"
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "5.0.2",

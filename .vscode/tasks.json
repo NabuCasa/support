@@ -29,9 +29,9 @@
       },
     },
     {
-      "label": "Generate TTS languages",
+      "label": "Generate voice languages",
       "type": "shell",
-      "command": "npm run generate:tts-languages",
+      "command": "npm run generate:voice-languages",
       "group": {
         "kind": "test",
         "isDefault": true,
