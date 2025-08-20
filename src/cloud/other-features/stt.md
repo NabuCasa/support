@@ -8,7 +8,7 @@ zendesk:
 
 The Home Assistant Cloud speech-to-text (STT) service allows Home Assistant to convert your speech into text. This can then be used, for example, to [control your devices by speaking to Assist or ask it questions](https://www.home-assistant.io/voice_control/builtin_sentences/).
 
-Speech-to-text (STT) is automatically enabled when you are signed in to your Home Assistant Cloud account.
+STT is automatically enabled when you are signed in to your Home Assistant Cloud account.
 
 ## Selecting the STT language
 
