@@ -57,11 +57,11 @@ Another way to test the Home Assistant Cloud text-to-speech service is by callin
 
 The supported languages are listed below. Some of the languages have multiple voices.
 
-| **Neural voices by language** | **Locale** |
-| :---------------------------- | :--------- |
+| **Neural voices by language** | **Locale** | **Voice** |
+| :---------------------------- | :--------- | :-------- |
 
-{%- for language in ttsLanguages %}
-| {{ language[0] | languageDisplayName }} | {{ language[0] }} |
+{%- for language in tts_key_voice_pairs %}
+| {{ language[0] | languageDisplayName }} | {{ language[0] }} | {{ language[1] }} |
 {%- endfor %}
 
 ---

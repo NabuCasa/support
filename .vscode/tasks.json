@@ -34,8 +34,20 @@
       "command": "npm run generate:voice-languages",
       "group": {
         "kind": "test",
-        "isDefault": true,
-      },
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Generate voice languages and extract pairs",
+      "dependsOn": [
+        "Generate voice languages"
+      ],
+      "type": "shell",
+      "command": "python3 scripts/extract_tts_key_voice_pairs.py",
+      "group": {
+        "kind": "test",
+        "isDefault": false
+      }
     }
   ]
 }
