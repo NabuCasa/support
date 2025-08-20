@@ -15,3 +15,9 @@ import json
 from hass_nabucasa.voice_data import TTS_VOICES
 print(json.dumps(TTS_VOICES, indent=2))
 ' > _data/ttsLanguages.json
+
+python3 -c '
+import json
+from hass_nabucasa.voice import STT_LANGUAGES
+print(json.dumps(STT_LANGUAGES, indent=2))
+' > _data/sttLanguages.json
