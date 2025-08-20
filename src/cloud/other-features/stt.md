@@ -10,7 +10,7 @@ The Home Assistant Cloud speech-to-text (STT) service allows Home Assistant to c
 
 Speech-to-text (STT) is automatically enabled when you are signed in to your Home Assistant Cloud account.
 
-## Selecting the language
+## Selecting the STT language
 
 You can define the language you speak to Assist when you [set up a Home Assistant Cloud voice assistant](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/).
 
@@ -18,7 +18,7 @@ If you want to speak to Assist in different languages, set up an assistant for e
 
   ![STT language selector in voice assistant dialog](/static/img/cloud/ha-cloud-stt.png)
 
-## List of available languages
+## List of available languages for speech-to-text
 
 Language options may change from time to time, so if you are missing options which are shown on this page, make sure you are running the latest version of Home Assistant.
 
