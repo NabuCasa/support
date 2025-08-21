@@ -15,8 +15,9 @@ If you already have a Z-Wave network running with Home Assistant and another Z-W
 {% image "/static/img/connect-zwa-2/zwa-2-connect-to-green.png" " with the USB cable and a Home Assistant Green" %}
 {% stepContent %}
 
-- Depending on the adapter you are using, it is recommended to upgrade the adapter firmware before starting migration.
+- Depending on the adapter you were using before migrating to Connect ZWA-2, it is recommended to upgrade the adapter firmware before starting migration.
 
+  - If you don't upgrade your adapter firmware before migration, you might need to exclude and include all devices again.
   - If you are migrating from an 800 series adapter, upgrade it to SDK versions 7.19.x and newer.
     - Refer to the adapter documentation for instructions how to upgrade the 800 series adapter.
   - Refer to the linked instructions if you are:
