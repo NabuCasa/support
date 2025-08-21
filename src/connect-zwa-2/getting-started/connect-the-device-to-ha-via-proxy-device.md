@@ -45,5 +45,3 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
 - [Installing a Z-Wave JS UI container](https://zwave-js.github.io/zwave-js-ui/#/getting-started/docker)
 - [Setting up a Z-Wave JS UI system](https://zwave-js.github.io/zwave-js-ui/#/usage/setup?id=setup)
 - [Z-Wave JS settings](https://community.home-assistant.io/t/switching-z-wave-js-addons-with-minimal-downtime-z-wave-js-official-to-z-wave-js-ui-community/409904)
-
-
