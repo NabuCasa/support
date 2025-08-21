@@ -15,9 +15,11 @@ If you already have a Z-Wave network running with Home Assistant and another Z-W
 {% image "/static/img/connect-zwa-2/zwa-2-connect-to-green.png" " with the USB cable and a Home Assistant Green" %}
 {% stepContent %}
 
-- Depending on the adapter you are using, you need to upgrade the adapter firmware before you can start migration. Follow these steps:
-  - [Migrating from a 500 series adapter to Home Assistant Connect ZWA-2](/hc/en-us/articles/29689016023069)
-  - [Migrating from a Nortek HUSBZB-1 adapter](/hc/en-us/articles/29688968436765)
+- Depending on the adapter you are using, you need to upgrade the adapter firmware before you can start migration.
+  - If you are migrating from an 800 series adapter, upgrade it to SDK versions 7.23.x and newer. Refer to the adapter documentation for instructions how to upgrade.
+  - Refer to the linked instructions if you are:
+    - [migrating from a 500 series adapter to Home Assistant Connect ZWA-2](/hc/en-us/articles/29689016023069)
+    - or [migrating from a Nortek HUSBZB-1 adapter](/hc/en-us/articles/29688968436765)
 - Home Assistant smart home hub with a USB 2.0 port, for example, a Home Assistant Green.
 - Have a Z-Wave network running on Home Assistant.
 - Home Assistant Operating System with Home Assistant 2025.8 or newer installed on your smart home hub.
