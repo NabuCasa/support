@@ -12,7 +12,7 @@ If you already have a Z-Wave network running with Home Assistant and another Z-W
 
 {% steps %}
 {% prereq %}
-{% image "/static/img/connect-zwa-2/zwa-2-connect-to-green.png" " with the USB cable and a Home Assistant Green" %}
+{% image "/static/img/connect-zwa-2/zwa-2-connect-to-green.png" "With the USB cable and a Home Assistant Green" %}
 {% stepContent %}
 
 - Depending on the adapter you were using before migrating to Connect ZWA-2, it is recommended to upgrade the adapter firmware.
