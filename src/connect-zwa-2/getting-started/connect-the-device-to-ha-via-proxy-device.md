@@ -30,7 +30,7 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
 5. [Set up that Z-Wave JS UI system](https://zwave-js.github.io/zwave-js-ui/#/usage/setup?id=setup):
    1. Enable the **WS Server** and **mDNS** options.
    2. Note this system's IP address and server port (default: 3000).
-6. It is also possible to migrate your existing Z-Wave network to this new system within the settings.
+6. **Option**: It is also possible to migrate your existing Z-Wave network to this new system [within the settings](https://community.home-assistant.io/t/switching-z-wave-js-addons-with-minimal-downtime-z-wave-js-official-to-z-wave-js-ui-community/409904).
 7. **Result**: The Z-Wave JS UI system should now be discovered by Home Assistant.
    - **Troubleshooting**:  if it is not discoverd, you can configure it manually.
      - On your Home Assistant system, go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/)
@@ -44,3 +44,4 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
 - [Assemble Connect ZWA-2](https://support.nabucasa.com/hc/en-us/articles/28685750450205)
 - [Installing a Z-Wave JS UI container](https://zwave-js.github.io/zwave-js-ui/#/getting-started/docker)
 - [Setting up a Z-Wave JS UI system](https://zwave-js.github.io/zwave-js-ui/#/usage/setup?id=setup)
+- [Z-Wave JS settings](https://community.home-assistant.io/t/switching-z-wave-js-addons-with-minimal-downtime-z-wave-js-official-to-z-wave-js-ui-community/409904)
