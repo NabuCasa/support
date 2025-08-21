@@ -29,8 +29,8 @@ If you already have a Z-Wave network running with Home Assistant and Z-Wave hat 
 1. For the most part, follow the [migration steps](/hc/en-us/articles/29529265751965), but watch out for the following:
 2. When  Home Assistant tells you to unplug the old adapter, don't do it!
    - Leave the Z-Wave module in place and continue.
-   - Removing it at this point would abort the migration.
-3. Once the migration is complete, power down your hub and remove that Z-Wave module.
+   - Removing it at this point requires shutting down the hub, which would abort the migration.
+3. Once the migration is complete, power down your hub and remove the Z-Wave module.
 
 ## Related topics
 
