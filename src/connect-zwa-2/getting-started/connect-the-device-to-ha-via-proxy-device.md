@@ -13,8 +13,8 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
 ## Prerequisites
 
 - A system that can act as proxy and fulfills the following requirements:
-  - has an Ethernet connection (Wi-Fi will be less reliable) to your network
-  - can run containers (for instance, a Raspberry Pi system running Docker)
+  - has an Ethernet connection (Wi-Fi will be less reliable) to your network.
+  - can run containers (for instance, a Raspberry Pi system with Docker installed).
   - Is located in a place where there is space to place Connect ZWA-2 in a vertical position.
 - A Home Assistant smart home hub, for example, a Home Assistant Green.
   - If you do not have Home Assistant installed on the hub yet, [follow these steps](https://www.home-assistant.io/installation/).
