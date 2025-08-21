@@ -8,7 +8,7 @@ zendesk:
 
 If you need to place Connect ZWA-2 far away from your Home Assistant system, you can run Z-Wave JS on another system and connect that to Home Assistant.
 
-This allows you to plug Home Assistant Connect ZWA-2 in a location that is closer to your end
+This allows you to plug Home Assistant Connect ZWA-2 in a location that is closer to your end devices.
 
 ## Prerequisites
 
