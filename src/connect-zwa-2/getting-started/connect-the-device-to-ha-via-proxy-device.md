@@ -24,8 +24,8 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
 
 ## To connect Home Assistant ZWA-2 via a proxy device
 
-1. [Make sure you find a good location](https://support.nabucasa.com/hc/en-us/articles/28670284336925) for Home Assistant Connect ZWA-2.
-2. [Assemble it](https://support.nabucasa.com/hc/en-us/articles/28685750450205).
+1. [Make sure you find a good location](/hc/en-us/articles/28670284336925) for Home Assistant Connect ZWA-2.
+2. [Assemble it](/hc/en-us/articles/28685750450205).
 3. Plug your Connect ZWA-2 into that system via USB.
 4. [Install the Z-Wave JS UI container](https://zwave-js.github.io/zwave-js-ui/#/getting-started/docker) on this system.
 5. [Set up that Z-Wave JS UI system](https://zwave-js.github.io/zwave-js-ui/#/usage/setup?id=setup):
