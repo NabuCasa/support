@@ -26,8 +26,8 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
 1. [Make sure you find a good location](https://support.nabucasa.com/hc/en-us/articles/28670284336925) for Home Assistant Connect ZWA-2.
 2. [Assemble it](https://support.nabucasa.com/hc/en-us/articles/28685750450205).
 3. Plug your Connect ZWA-2 into that system via USB.
-4. Install the Z-Wave JS UI container on this system.
-5. Set up that Z-Wave JS UI system:
+4. [Install the Z-Wave JS UI container](https://zwave-js.github.io/zwave-js-ui/#/getting-started/docker) on this system.
+5. [Set up that Z-Wave JS UI system](https://zwave-js.github.io/zwave-js-ui/#/usage/setup?id=setup):
    1. Enable the **WS Server** and **mDNS** options.
    2. Note this system's IP address and server port (default: 3000).
 6. It is also possible to migrate your existing Z-Wave network to this new system within the settings.
@@ -37,3 +37,10 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
      - Add a Z-Wave hub using a **Custom installation method**.
      - Make sure to *uncheck* the **Use the Z-Wave Supervisor add-on** option.
      - Fill in the IP address of the Z-Wave JS UI system (for example `ws://IP-ADDRESS:3000`.
+
+## Related topics
+
+- [Finding a good installation location](https://support.nabucasa.com/hc/en-us/articles/28670284336925)
+- [Assemble Connect ZWA-2](https://support.nabucasa.com/hc/en-us/articles/28685750450205)
+- [Installing a Z-Wave JS UI container](https://zwave-js.github.io/zwave-js-ui/#/getting-started/docker)
+- [Setting up a Z-Wave JS UI system](https://zwave-js.github.io/zwave-js-ui/#/usage/setup?id=setup)
