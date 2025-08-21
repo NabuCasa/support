@@ -41,8 +41,8 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
 
 ## Related topics
 
-- [Finding a good installation location](https://support.nabucasa.com/hc/en-us/articles/28670284336925)
-- [Assemble Connect ZWA-2](https://support.nabucasa.com/hc/en-us/articles/28685750450205)
+- [Finding a good installation location](/hc/en-us/articles/28670284336925)
+- [Assemble Connect ZWA-2](/hc/en-us/articles/28685750450205)
 - [Installing a Z-Wave JS UI container](https://zwave-js.github.io/zwave-js-ui/#/getting-started/docker)
 - [Setting up a Z-Wave JS UI system](https://zwave-js.github.io/zwave-js-ui/#/usage/setup?id=setup)
 - [Z-Wave JS settings](https://community.home-assistant.io/t/switching-z-wave-js-addons-with-minimal-downtime-z-wave-js-official-to-z-wave-js-ui-community/409904)
