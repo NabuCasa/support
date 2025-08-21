@@ -10,4 +10,4 @@ If you use Home Assistant Connect ZBT-1 as a Zigbee adapter, it stores your Zigb
 
 If you use Home Assistant Connect ZBT-1 as a Thread adapter, it does not store network information. With Thread, all network information is stored on Home Assistant.
 
-Home Assistant Connect ZBT-1 does not store any other user data, such as Wi-Fi credentials.
+Home Assistant Connect ZBT-1 does not store any other user data.
