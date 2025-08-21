@@ -33,7 +33,7 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
    2. Note this system's IP address and server port (default: 3000).
 6. **Option**: It is also possible to migrate your existing Z-Wave network to this new system [within the settings](https://community.home-assistant.io/t/switching-z-wave-js-addons-with-minimal-downtime-z-wave-js-official-to-z-wave-js-ui-community/409904).
 7. **Result**: The Z-Wave JS UI system should now be discovered by Home Assistant.
-   - **Troubleshooting**:  if it is not discovered, you can configure it manually.
+   - **Troubleshooting**:  If it is not discovered, you can configure it manually.
      - On your Home Assistant system, go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/)
      - Add a Z-Wave hub using a **Custom installation method**.
      - Make sure to *uncheck* the **Use the Z-Wave Supervisor add-on** option.
