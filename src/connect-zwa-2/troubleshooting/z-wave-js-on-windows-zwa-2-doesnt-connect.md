@@ -16,4 +16,4 @@ This behavior indicates that there is an issue with the ESP firmware on that dev
 
 ## Resolution
 
-[Update the ESP firmware on Connect ZWA-2](/hc/en-us/articles/30226941357341)
+[Update the ESP firmware on Connect ZWA-2](/hc/en-us/articles/30226941357341).
