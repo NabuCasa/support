@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 30226941357341
-  name: Updating the firmware of the ESP chip on the Connect ZWA-2
+  name: Updating the firmware of the ESP chip in Connect ZWA-2
   position: 30
   labels: connect-zwa-2
 ---
@@ -13,7 +13,7 @@ zendesk:
   - Note: Firefox is not chromium-based.
   - If your browser does not support web serial, you will see a warning message.
 
-## To update the firmware of the ESP chip on the Connect ZWA-2
+## To update the firmware of the ESP chip in Connect ZWA-2
 
 1. Connect Home Assistant Connect ZWA-2 to your computer using the USB cable shipped with the device.
 2. Opened the following page in a Chromium-based browser on a desktop.
