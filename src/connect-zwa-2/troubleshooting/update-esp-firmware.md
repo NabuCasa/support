@@ -11,7 +11,7 @@ zendesk:
 - Home Assistant Connect ZWA-2
 - Desktop computer or laptop with a USB-port and a Chromium-based browser (such as Chromium, Google Chrome, Microsoft Edge, Brave, or Opera)
   - Note: Firefox is not chromium-based.
-  - If your browser does not support web serial, you will see a warning message.
+  - If your browser does not support [Web Serial](https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API#browser_compatibility), you will see a warning message.
 
 ## To update the firmware of the ESP chip in Connect ZWA-2
 
