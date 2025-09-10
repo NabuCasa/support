@@ -9,13 +9,14 @@ zendesk:
 ## Prerequisites
 
 - Home Assistant Connect ZWA-2
+- USB cable shipped with the device (a USB-C to USB-A cable)
 - Desktop computer or laptop with a USB-port and a Chromium-based browser (such as Chromium, Google Chrome, Microsoft Edge, Brave, or Opera).
   - Note: Firefox is not chromium-based.
   - If your browser does not support [Web Serial](https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API#browser_compatibility), you will see a warning message.
 
 ## To update the firmware of the ESP chip in Connect ZWA-2
 
-1. Connect Home Assistant Connect ZWA-2 to your computer using the USB cable shipped with the device.
+1. Connect Home Assistant Connect ZWA-2 to your computer using the USB cable.
 2. Open the following page on your desktop or laptop in a compatible web browser.
    - **Note**: The software installation does not work with a tablet or phone.
    - [Connect ZWA](https://home-assistant.github.io/zwa2-toolbox/)
