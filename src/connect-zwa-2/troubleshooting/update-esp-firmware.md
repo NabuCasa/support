@@ -16,7 +16,7 @@ zendesk:
 
 ## To update the firmware of the ESP chip in Connect ZWA-2
 
-1. Connect Home Assistant Connect ZWA-2 to your computer using the USB cable.
+1. Connect Home Assistant Connect ZWA-2 to the USB-A port on your computer.
 2. Open the following page on your desktop or laptop in a compatible web browser.
    - **Note**: The software installation does not work with a tablet or phone.
    - [Connect ZWA](https://home-assistant.github.io/zwa2-toolbox/)
