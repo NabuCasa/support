@@ -23,7 +23,7 @@ Other terms you may have seen to designate this firmware: EmberZNet firmware, {%
 
 ### Thread firmware
 
-This firmware allows using Yellow or Connect ZBT-1 as a dedicated Thread border router when used with the Open Thread Border Router addon.
+This firmware allows using Yellow or Connect ZBT-1 as a dedicated Thread border router when used with the Open Thread Border Router add-on.
 Bundled in the Open Thread Border Router add-on.
 Other terms you may have seen to designate this firmware: OpenThread RCP, RCP OT
 
