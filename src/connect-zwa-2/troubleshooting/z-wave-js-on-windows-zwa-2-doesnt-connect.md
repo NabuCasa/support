@@ -12,8 +12,8 @@ You are running [Z-Wave JS UI](https://zwave-js.github.io/zwave-js-ui/#/) on a W
 
 ## Cause
 
-This behavior indicates that there is an issue with the ESP firmware on that device.
+This behavior indicates that the ESP32-S3's firmware requires an update on that device.
 
 ## Resolution
 
-[Update the ESP firmware on Connect ZWA-2](/hc/en-us/articles/30226941357341).
+[Update the ESP32-S3's firmware on Connect ZWA-2](/hc/en-us/articles/30226941357341).
