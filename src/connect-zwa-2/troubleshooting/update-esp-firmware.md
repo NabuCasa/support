@@ -8,8 +8,8 @@ zendesk:
 
 ## Prerequisites
 
-- Home Assistant Connect ZWA-2
-- A USB cable which will connect the Home Assistant Connect ZWA-2 to your computer system
+- Home Assistant Connect ZWA-2.
+- A USB cable (power and data) which will connect the Home Assistant Connect ZWA-2 to your computer system.
 - Desktop or laptop computer with a USB port and a Chromium-based browser (such as Chromium, Google Chrome, Microsoft Edge, Brave, or Opera).
   - Note: Firefox is not chromium-based.
   - If your browser does not support [Web Serial](https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API#browser_compatibility), you will see a warning message.
