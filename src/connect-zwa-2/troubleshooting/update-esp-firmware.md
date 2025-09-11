@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 30226941357341
-  name: Updating the firmware of the ESP chip in Connect ZWA-2
+  name: Updating the ESP32-S3's firmware  in the Connect ZWA-2
   position: 30
   labels: connect-zwa-2
 ---
