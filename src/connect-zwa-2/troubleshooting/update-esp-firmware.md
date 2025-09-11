@@ -27,3 +27,4 @@ zendesk:
 ## Related topics
 
 - [Home Assistant Connect ZWA-2 Toolbox](https://home-assistant.github.io/zwa2-toolbox/)
+- [I'm running Z-Wave JS UI on Windows and Connect ZWA-2 fails to start or connect](/hc/en-us/articles/30234641862301)

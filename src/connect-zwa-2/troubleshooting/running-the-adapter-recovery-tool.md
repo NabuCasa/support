@@ -24,3 +24,4 @@ zendesk:
 ## Related topics
 
 - [Home Assistant Connect ZWA-2 Toolbox](https://home-assistant.github.io/zwa2-toolbox/)
+- [My Connect ZWA-2 is stuck in bootloader](/hc/en-us/articles/30248635824413)

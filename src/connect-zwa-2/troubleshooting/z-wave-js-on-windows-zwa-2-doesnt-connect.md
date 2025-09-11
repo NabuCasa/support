@@ -17,3 +17,7 @@ This behavior indicates that the ESP32-S3's firmware requires an update on that 
 ## Resolution
 
 [Update the ESP32-S3's firmware on Connect ZWA-2](/hc/en-us/articles/30226941357341).
+
+## Related topics
+
+- [Update the ESP32-S3's firmware on Connect ZWA-2](/hc/en-us/articles/30226941357341)
