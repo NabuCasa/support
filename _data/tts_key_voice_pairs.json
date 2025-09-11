@@ -1,0 +1,602 @@
+[
+  [
+    "af-ZA",
+    "AdriNeural, WillemNeural"
+  ],
+  [
+    "am-ET",
+    "AmehaNeural, MekdesNeural"
+  ],
+  [
+    "ar-AE",
+    "FatimaNeural, HamdanNeural"
+  ],
+  [
+    "ar-BH",
+    "AliNeural, LailaNeural"
+  ],
+  [
+    "ar-DZ",
+    "AminaNeural, IsmaelNeural"
+  ],
+  [
+    "ar-EG",
+    "SalmaNeural, ShakirNeural"
+  ],
+  [
+    "ar-IQ",
+    "BasselNeural, RanaNeural"
+  ],
+  [
+    "ar-JO",
+    "SanaNeural, TaimNeural"
+  ],
+  [
+    "ar-KW",
+    "FahedNeural, NouraNeural"
+  ],
+  [
+    "ar-LB",
+    "LaylaNeural, RamiNeural"
+  ],
+  [
+    "ar-LY",
+    "ImanNeural, OmarNeural"
+  ],
+  [
+    "ar-MA",
+    "JamalNeural, MounaNeural"
+  ],
+  [
+    "ar-OM",
+    "AbdullahNeural, AyshaNeural"
+  ],
+  [
+    "ar-QA",
+    "AmalNeural, MoazNeural"
+  ],
+  [
+    "ar-SA",
+    "HamedNeural, ZariyahNeural"
+  ],
+  [
+    "ar-SY",
+    "AmanyNeural, LaithNeural"
+  ],
+  [
+    "ar-TN",
+    "HediNeural, ReemNeural"
+  ],
+  [
+    "ar-YE",
+    "MaryamNeural, SalehNeural"
+  ],
+  [
+    "as-IN",
+    "PriyomNeural, YashicaNeural"
+  ],
+  [
+    "az-AZ",
+    "BabekNeural, BanuNeural"
+  ],
+  [
+    "bg-BG",
+    "BorislavNeural, KalinaNeural"
+  ],
+  [
+    "bn-BD",
+    "NabanitaNeural, PradeepNeural"
+  ],
+  [
+    "bn-IN",
+    "BashkarNeural, TanishaaNeural"
+  ],
+  [
+    "bs-BA",
+    "GoranNeural, VesnaNeural"
+  ],
+  [
+    "ca-ES",
+    "AlbaNeural, EnricNeural, JoanaNeural"
+  ],
+  [
+    "cs-CZ",
+    "AntoninNeural, VlastaNeural"
+  ],
+  [
+    "cy-GB",
+    "AledNeural, NiaNeural"
+  ],
+  [
+    "da-DK",
+    "ChristelNeural, JeppeNeural"
+  ],
+  [
+    "de-AT",
+    "IngridNeural, JonasNeural"
+  ],
+  [
+    "de-CH",
+    "JanNeural, LeniNeural"
+  ],
+  [
+    "de-DE",
+    "AmalaNeural, BerndNeural, ChristophNeural, Conrad, ElkeNeural, GiselaNeural, KasperNeural, KatjaNeural, KillianNeural, KlarissaNeural, KlausNeural, LouisaNeural, MajaNeural, RalfNeural, TanjaNeural"
+  ],
+  [
+    "el-GR",
+    "AthinaNeural, NestorasNeural"
+  ],
+  [
+    "en-AU",
+    "AnnetteNeural, CarlyNeural, DarrenNeural, DuncanNeural, ElsieNeural, FreyaNeural, JoanneNeural, KenNeural, KimNeural, NatashaNeural, NeilNeural, TimNeural, TinaNeural, WilliamNeural"
+  ],
+  [
+    "en-CA",
+    "ClaraNeural, LiamNeural"
+  ],
+  [
+    "en-GB",
+    "AbbiNeural, AlfieNeural, BellaNeural, ElliotNeural, EthanNeural, HollieNeural, LibbyNeural, MaisieNeural, NoahNeural, OliverNeural, OliviaNeural, Ryan, Sonia, ThomasNeural"
+  ],
+  [
+    "en-HK",
+    "SamNeural, YanNeural"
+  ],
+  [
+    "en-IE",
+    "ConnorNeural, EmilyNeural"
+  ],
+  [
+    "en-IN",
+    "AaravNeural, AartiNeural, AashiNeural, AnanyaNeural, ArjunNeural, KavyaNeural, KunalNeural, Neerja, PrabhatNeural, RehaanNeural"
+  ],
+  [
+    "en-KE",
+    "AsiliaNeural, ChilembaNeural"
+  ],
+  [
+    "en-NG",
+    "AbeoNeural, EzinneNeural"
+  ],
+  [
+    "en-NZ",
+    "MitchellNeural, MollyNeural"
+  ],
+  [
+    "en-PH",
+    "JamesNeural, RosaNeural"
+  ],
+  [
+    "en-SG",
+    "LunaNeural, WayneNeural"
+  ],
+  [
+    "en-TZ",
+    "ElimuNeural, ImaniNeural"
+  ],
+  [
+    "en-US",
+    "AmberNeural, AnaNeural, AndrewNeural, Aria, AshleyNeural, AvaNeural, BrandonNeural, BrianNeural, ChristopherNeural, CoraNeural, Davis, ElizabethNeural, EmmaNeural, EricNeural, Guy, JacobNeural, Jane, Jason, Jenny, Kai, Luna, MichelleNeural, MonicaNeural, Nancy, RogerNeural, Sara, SteffanNeural, Tony"
+  ],
+  [
+    "en-ZA",
+    "LeahNeural, LukeNeural"
+  ],
+  [
+    "es-AR",
+    "ElenaNeural, TomasNeural"
+  ],
+  [
+    "es-BO",
+    "MarceloNeural, SofiaNeural"
+  ],
+  [
+    "es-CL",
+    "CatalinaNeural, LorenzoNeural"
+  ],
+  [
+    "es-CO",
+    "GonzaloNeural, SalomeNeural"
+  ],
+  [
+    "es-CR",
+    "JuanNeural, MariaNeural"
+  ],
+  [
+    "es-CU",
+    "BelkysNeural, ManuelNeural"
+  ],
+  [
+    "es-DO",
+    "EmilioNeural, RamonaNeural"
+  ],
+  [
+    "es-EC",
+    "AndreaNeural, LuisNeural"
+  ],
+  [
+    "es-ES",
+    "AbrilNeural, Alvaro, ArnauNeural, DarioNeural, EliasNeural, ElviraNeural, EstrellaNeural, IreneNeural, LaiaNeural, LiaNeural, NilNeural, SaulNeural, TeoNeural, TrianaNeural, VeraNeural, XimenaNeural"
+  ],
+  [
+    "es-GQ",
+    "JavierNeural, TeresaNeural"
+  ],
+  [
+    "es-GT",
+    "AndresNeural, MartaNeural"
+  ],
+  [
+    "es-HN",
+    "CarlosNeural, KarlaNeural"
+  ],
+  [
+    "es-MX",
+    "BeatrizNeural, CandelaNeural, CarlotaNeural, CecilioNeural, Dalia, GerardoNeural, Jorge, LarissaNeural, LibertoNeural, LucianoNeural, MarinaNeural, NuriaNeural, PelayoNeural, RenataNeural, YagoNeural"
+  ],
+  [
+    "es-NI",
+    "FedericoNeural, YolandaNeural"
+  ],
+  [
+    "es-PA",
+    "MargaritaNeural, RobertoNeural"
+  ],
+  [
+    "es-PE",
+    "AlexNeural, CamilaNeural"
+  ],
+  [
+    "es-PR",
+    "KarinaNeural, VictorNeural"
+  ],
+  [
+    "es-PY",
+    "MarioNeural, TaniaNeural"
+  ],
+  [
+    "es-SV",
+    "LorenaNeural, RodrigoNeural"
+  ],
+  [
+    "es-US",
+    "AlonsoNeural, PalomaNeural"
+  ],
+  [
+    "es-UY",
+    "MateoNeural, ValentinaNeural"
+  ],
+  [
+    "es-VE",
+    "PaolaNeural, SebastianNeural"
+  ],
+  [
+    "et-EE",
+    "AnuNeural, KertNeural"
+  ],
+  [
+    "eu-ES",
+    "AinhoaNeural, AnderNeural"
+  ],
+  [
+    "fa-IR",
+    "DilaraNeural, FaridNeural"
+  ],
+  [
+    "fi-FI",
+    "HarriNeural, NooraNeural, SelmaNeural"
+  ],
+  [
+    "fil-PH",
+    "AngeloNeural, BlessicaNeural"
+  ],
+  [
+    "fr-BE",
+    "CharlineNeural, GerardNeural"
+  ],
+  [
+    "fr-CA",
+    "AntoineNeural, JeanNeural, SylvieNeural, ThierryNeural"
+  ],
+  [
+    "fr-CH",
+    "ArianeNeural, FabriceNeural"
+  ],
+  [
+    "fr-FR",
+    "AlainNeural, BrigitteNeural, CelesteNeural, ClaudeNeural, CoralieNeural, Denise, EloiseNeural, Henri, JacquelineNeural, JeromeNeural, JosephineNeural, MauriceNeural, YvesNeural, YvetteNeural"
+  ],
+  [
+    "ga-IE",
+    "ColmNeural, OrlaNeural"
+  ],
+  [
+    "gl-ES",
+    "RoiNeural, SabelaNeural"
+  ],
+  [
+    "gu-IN",
+    "DhwaniNeural, NiranjanNeural"
+  ],
+  [
+    "he-IL",
+    "AvriNeural, HilaNeural"
+  ],
+  [
+    "hi-IN",
+    "AaravNeural, AartiNeural, AnanyaNeural, ArjunNeural, KavyaNeural, KunalNeural, MadhurNeural, RehaanNeural, Swara"
+  ],
+  [
+    "hr-HR",
+    "GabrijelaNeural, SreckoNeural"
+  ],
+  [
+    "hu-HU",
+    "NoemiNeural, TamasNeural"
+  ],
+  [
+    "hy-AM",
+    "AnahitNeural, HaykNeural"
+  ],
+  [
+    "id-ID",
+    "ArdiNeural, GadisNeural"
+  ],
+  [
+    "is-IS",
+    "GudrunNeural, GunnarNeural"
+  ],
+  [
+    "it-IT",
+    "BenignoNeural, CalimeroNeural, CataldoNeural, Diego, ElsaNeural, FabiolaNeural, FiammaNeural, GianniNeural, GiuseppeNeural, ImeldaNeural, IrmaNeural, Isabella, LisandroNeural, PalmiraNeural, PierinaNeural, RinaldoNeural"
+  ],
+  [
+    "iu-Cans-CA",
+    "SiqiniqNeural, TaqqiqNeural"
+  ],
+  [
+    "iu-Latn-CA",
+    "SiqiniqNeural, TaqqiqNeural"
+  ],
+  [
+    "ja-JP",
+    "AoiNeural, DaichiNeural, KeitaNeural, MayuNeural, Nanami, NaokiNeural, ShioriNeural"
+  ],
+  [
+    "jv-ID",
+    "DimasNeural, SitiNeural"
+  ],
+  [
+    "ka-GE",
+    "EkaNeural, GiorgiNeural"
+  ],
+  [
+    "kk-KZ",
+    "AigulNeural, DauletNeural"
+  ],
+  [
+    "km-KH",
+    "PisethNeural, SreymomNeural"
+  ],
+  [
+    "kn-IN",
+    "GaganNeural, SapnaNeural"
+  ],
+  [
+    "ko-KR",
+    "BongJinNeural, GookMinNeural, HyunsuNeural, InJoon, JiMinNeural, SeoHyeonNeural, SoonBokNeural, SunHiNeural, YuJinNeural"
+  ],
+  [
+    "lo-LA",
+    "ChanthavongNeural, KeomanyNeural"
+  ],
+  [
+    "lt-LT",
+    "LeonasNeural, OnaNeural"
+  ],
+  [
+    "lv-LV",
+    "EveritaNeural, NilsNeural"
+  ],
+  [
+    "mk-MK",
+    "AleksandarNeural, MarijaNeural"
+  ],
+  [
+    "ml-IN",
+    "MidhunNeural, SobhanaNeural"
+  ],
+  [
+    "mn-MN",
+    "BataaNeural, YesuiNeural"
+  ],
+  [
+    "mr-IN",
+    "AarohiNeural, ManoharNeural"
+  ],
+  [
+    "ms-MY",
+    "OsmanNeural, YasminNeural"
+  ],
+  [
+    "mt-MT",
+    "GraceNeural, JosephNeural"
+  ],
+  [
+    "my-MM",
+    "NilarNeural, ThihaNeural"
+  ],
+  [
+    "nb-NO",
+    "FinnNeural, IselinNeural, PernilleNeural"
+  ],
+  [
+    "ne-NP",
+    "HemkalaNeural, SagarNeural"
+  ],
+  [
+    "nl-BE",
+    "ArnaudNeural, DenaNeural"
+  ],
+  [
+    "nl-NL",
+    "ColetteNeural, FennaNeural, MaartenNeural"
+  ],
+  [
+    "or-IN",
+    "SubhasiniNeural, SukantNeural"
+  ],
+  [
+    "pa-IN",
+    "OjasNeural, VaaniNeural"
+  ],
+  [
+    "pl-PL",
+    "AgnieszkaNeural, MarekNeural, ZofiaNeural"
+  ],
+  [
+    "ps-AF",
+    "GulNawazNeural, LatifaNeural"
+  ],
+  [
+    "pt-BR",
+    "AntonioNeural, BrendaNeural, DonatoNeural, ElzaNeural, FabioNeural, Francisca, GiovannaNeural, HumbertoNeural, JulioNeural, LeilaNeural, LeticiaNeural, ManuelaNeural, NicolauNeural, ThalitaNeural, ValerioNeural, YaraNeural"
+  ],
+  [
+    "pt-PT",
+    "DuarteNeural, FernandaNeural, Raquel"
+  ],
+  [
+    "ro-RO",
+    "AlinaNeural, EmilNeural"
+  ],
+  [
+    "ru-RU",
+    "DariyaNeural, DmitryNeural, SvetlanaNeural"
+  ],
+  [
+    "si-LK",
+    "SameeraNeural, ThiliniNeural"
+  ],
+  [
+    "sk-SK",
+    "LukasNeural, ViktoriaNeural"
+  ],
+  [
+    "sl-SI",
+    "PetraNeural, RokNeural"
+  ],
+  [
+    "so-SO",
+    "MuuseNeural, UbaxNeural"
+  ],
+  [
+    "sq-AL",
+    "AnilaNeural, IlirNeural"
+  ],
+  [
+    "sr-Latn-RS",
+    "NicholasNeural, SophieNeural"
+  ],
+  [
+    "sr-RS",
+    "NicholasNeural, SophieNeural"
+  ],
+  [
+    "su-ID",
+    "JajangNeural, TutiNeural"
+  ],
+  [
+    "sv-SE",
+    "HilleviNeural, MattiasNeural, SofieNeural"
+  ],
+  [
+    "sw-KE",
+    "RafikiNeural, ZuriNeural"
+  ],
+  [
+    "sw-TZ",
+    "DaudiNeural, RehemaNeural"
+  ],
+  [
+    "ta-IN",
+    "PallaviNeural, ValluvarNeural"
+  ],
+  [
+    "ta-LK",
+    "KumarNeural, SaranyaNeural"
+  ],
+  [
+    "ta-MY",
+    "KaniNeural, SuryaNeural"
+  ],
+  [
+    "ta-SG",
+    "AnbuNeural, VenbaNeural"
+  ],
+  [
+    "te-IN",
+    "MohanNeural, ShrutiNeural"
+  ],
+  [
+    "th-TH",
+    "AcharaNeural, NiwatNeural, PremwadeeNeural"
+  ],
+  [
+    "tr-TR",
+    "AhmetNeural, EmelNeural"
+  ],
+  [
+    "uk-UA",
+    "OstapNeural, PolinaNeural"
+  ],
+  [
+    "ur-IN",
+    "GulNeural, SalmanNeural"
+  ],
+  [
+    "ur-PK",
+    "AsadNeural, UzmaNeural"
+  ],
+  [
+    "uz-UZ",
+    "MadinaNeural, SardorNeural"
+  ],
+  [
+    "vi-VN",
+    "HoaiMyNeural, NamMinhNeural"
+  ],
+  [
+    "wuu-CN",
+    "XiaotongNeural, YunzheNeural"
+  ],
+  [
+    "yue-CN",
+    "XiaoMinNeural, YunSongNeural"
+  ],
+  [
+    "zh-CN",
+    "Xiaochen, Xiaohan, Xiaomeng, Xiaomo, XiaoqiuNeural, XiaorouNeural, Xiaorui, Xiaoshuang, Xiaoxiao, XiaoxiaoDialectsNeural, XiaoyanNeural, Xiaoyi, XiaoyouNeural, Xiaozhen, Yunfeng, Yunhao, Yunjian, YunjieNeural, Yunxi, Yunxia, Yunyang, Yunye, Yunze"
+  ],
+  [
+    "zh-CN-henan",
+    "YundengNeural"
+  ],
+  [
+    "zh-CN-shandong",
+    "YunxiangNeural"
+  ],
+  [
+    "zh-HK",
+    "HiuGaaiNeural, HiuMaanNeural, WanLungNeural"
+  ],
+  [
+    "zh-TW",
+    "HsiaoChenNeural, HsiaoYuNeural, YunJheNeural"
+  ],
+  [
+    "zu-ZA",
+    "ThandoNeural, ThembaNeural"
+  ]
+]
