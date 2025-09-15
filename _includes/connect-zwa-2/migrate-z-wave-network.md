@@ -36,16 +36,16 @@
      - By default, the region on Home Assistant Connect ZWA-2 is set to EU Long Range. The transmit power level is configured for Europe.
      - If you are outside Europe, refer to the section [about radio frequency region and transmit power levels](/hc/en-us/articles/29081378073501) to find the right region and transmit power settings.
    - In the control panel, select the purple **Advanced actions** button and under **NVM Management**, select **Restore**.
-3. Rebuild the routes.
+3. Rebuild the routes to make the best use of the extended range.
    - **Info**: Rebuilding routes causes a lot of traffic and might take minutes to hours. It is performed in the background, so you can keep doing other things, but expect degraded performance while it is rebuilding.
    - Open the **Z-Wave JS UI** control panel and in the bottom-right corner, select the purple **Advanced actions** button.
    - Under **Rebuild routes** select **Begin**.
    - **Include sleeping nodes**: It makes sense to select this option.
      - However, it means you need to walk around and wake up all sleeping nodes (or wait for them to wake up on their own, which can take a long time).
      - If you skip this, not all devices will immediately make use of the better range.
-     - **Delete priority return routes**: It is recommended to select this option.
-       - Priority return routes are routes from the end device to the controller that you [assigned manually](https://zwave-js.github.io/zwave-js/#/troubleshooting/first-steps?id=manually-assign-routes) in the past.
-       - These priority return routes may not be ideal anymore after the migration.
+   - **Delete priority return routes**: It is recommended to select this option.
+     - Priority return routes are routes from the end device to the controller that you [assigned manually](https://zwave-js.github.io/zwave-js/#/troubleshooting/first-steps?id=manually-assign-routes) in the past.
+     - These routes may not be ideal anymore after the migration.
 4. Enable the Z-Wave integration again.
 
 {% endstepContent %}
