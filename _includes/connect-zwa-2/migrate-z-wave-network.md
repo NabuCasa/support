@@ -40,7 +40,7 @@
    - **Info**: Rebuilding routes causes a lot of traffic and might take minutes to hours. It is performed in the background, so you can keep doing other things, but expect degraded performance while it is rebuilding.
    - Open the **Z-Wave JS UI** control panel and in the bottom-right corner, select the purple **Advanced actions** button.
    - Under **Rebuild routes** select **Begin**.
-   - **Include sleeping nodes**: It makes sense to select this option.
+   - **Include sleeping nodes**: It is recommended to select this option.
      - However, it means you need to walk around and wake up all sleeping nodes (or wait for them to wake up on their own, which can take a long time).
      - If you skip this, not all devices will immediately make use of the better range.
    - **Delete priority return routes**: It is recommended to select this option.
