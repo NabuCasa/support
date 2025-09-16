@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 28670284336925
-  name: Finding an installation location
+  name: Finding an installation location for the Home Assistant Connect ZWA-2
   position: 10
   labels: connect-zwa-2
 ---

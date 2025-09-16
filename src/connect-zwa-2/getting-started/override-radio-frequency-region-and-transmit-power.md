@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 29059418289821
-  name: Overriding the radio frequency region and transmit power levels
+  name: Overriding the radio frequency region and transmit power levels of Home Assistant Connect ZWA-2
   position: 60
   labels: connect zwa-2
 ---

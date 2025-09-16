@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 29060874688285
-  name: Turning the status light (LED) on or off
+  name: Turning the Home Assistant Connect ZWA-2 status light (LED) on or off
   position: 20
   labels: connect zwa-2
 ---

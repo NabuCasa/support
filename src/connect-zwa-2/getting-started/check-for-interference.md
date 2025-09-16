@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 28670741134365
-  name: Checking for interference or signal blocking
+  name: Home Assistant Connect ZWA-2 - Checking for interference or signal blocking
   position: 80
   labels: connect zwa-2
 ---

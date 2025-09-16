@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26123541989661
-  name: Forming a new Zigbee network
+  name: Forming a new Zigbee network with Home Assistant Connect ZBT-1
   position: 1
   labels: connect zbt-1, getting started
 ---

@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 28670749132061
-  name: What are the default region and transmit power of the device?
+  name: What are the default region and transmit power of Home Assistant Connect ZWA-2?
   position: 10
   labels: connect-zwa-2
 ---

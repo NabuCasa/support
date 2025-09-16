@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 29581959276573
-  name: Does it support Zigbee, Wi-Fi, Bluetooth, or Thread?
+  name: Does Home Assistant Connect ZWA-2 support Zigbee, Wi-Fi, Bluetooth, or Thread?
   position: 20
   labels: connect-zwa-2, supported protocols
 ---
