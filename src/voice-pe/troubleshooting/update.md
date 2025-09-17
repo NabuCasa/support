@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25800097313053
-  name: Updating the device
+  name: Updating Home Assistant Voice Preview Edition
   position: 1
   labels: voice pe, troubleshooting, update
 ---

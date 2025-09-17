@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25774403768477
-  name: Muting the device
+  name: Muting Home Assistant Voice Preview Edition
   position: 3
   labels: voice pe, operation, using the device, mute
 ---

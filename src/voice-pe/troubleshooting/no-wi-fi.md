@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25800488193949
-  name: Can’t connect to Wi-Fi during onboarding
+  name: Can’t connect to Wi-Fi during onboarding of the Home Assistant Voice Preview Edition
   position: 8
   labels: voice pe, troubleshooting, Wi-Fi
 ---

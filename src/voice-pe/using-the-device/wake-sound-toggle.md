@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25774481113629
-  name: Turning the wake sound on or off
+  name: Turning the wake sound on or off on Home Assistant Voice Preview Edition
   position: 4
   labels: voice pe, operation, using the device, wake sound
 ---

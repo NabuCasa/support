@@ -1,14 +1,14 @@
 ---
 zendesk:
   article_id: 25207565119133
-  name: Shutting down the device
+  name: Shutting down Home Assistant Green
   position: 10
   labels: green, getting started
 ---
 
-Follow these steps if you want to shut down the system.
+Follow these steps if you want to shut down Home Assistant Green.
 
-## To shut down the system
+## To shut down of Home Assistant Green
 
 {% steps %}
 {% step "Shutting down the system from the UI" "Option 1" %}

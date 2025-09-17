@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25410366475165
-  name: About the LEDs
+  name: About the LEDs on Home Assistant Yellow
   position: 2
   labels: yellow, about the system, status
 ---

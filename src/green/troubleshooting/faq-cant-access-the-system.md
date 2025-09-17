@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25140903526301
-  name: I can’t access the system via http://homeassistant.local:8123.
+  name: I can’t access of Home Assistant Green via http://homeassistant.local:8123.
   position: 1
   labels: green, troubleshooting
 ---

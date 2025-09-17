@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25454894609693
-  name: Using the serial console for debugging (Windows)
+  name: Using the serial console on Home Assistant Yellow for debugging (Windows)
   position: 1
   labels: yellow, troubleshooting
 ---

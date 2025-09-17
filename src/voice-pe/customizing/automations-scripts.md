@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25935844321437
-  name: Using scripts and automations to control the device - Examples
+  name: Using scripts and automations to control Home Assistant Voice Preview Edition - Examples
   position: 1
   labels: voice pe, customizing
 ---
