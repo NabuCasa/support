@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 29081378073501
-  name: About radio frequency region and transmit power levels
+  name: Home Assistant Connect ZWA-2 - About radio frequency region and transmit power levels
   position: 40
   labels: connect zwa-2
 ---
