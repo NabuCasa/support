@@ -8,7 +8,7 @@ zendesk:
 
 Follow these steps if you want to shut down Home Assistant Green.
 
-## To shut down of Home Assistant Green
+## To shut down Home Assistant Green
 
 {% steps %}
 {% step "Shutting down the system from the UI" "Option 1" %}
