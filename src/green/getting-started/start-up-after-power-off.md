@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25209783508125
-  name: Starting up of Home Assistant Green
+  name: Starting up Home Assistant Green
   position: 10
   labels: green, getting started
 ---
