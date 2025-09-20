@@ -1,15 +1,17 @@
 ---
 zendesk:
   article_id: 25209783508125
-  name: Starting up the device
+  name: Starting up Home Assistant Green
   position: 10
   labels: green, getting started
 ---
 
 There are 2 different start up procedures, depending on the current state of your system.
 
-- [Starting up if the system is still connected to power and Etherent](#starting-up-the-system-if-it-is-still-connected-to-ethernet-and-power)
-- [Starting up if the system has been disconnected ](#starting-up-the-system-if-it-has-been-disconnected)
+- [Prerequisites](#prerequisites)
+- [Starting up the system if it is still connected to Ethernet and power](#starting-up-the-system-if-it-is-still-connected-to-ethernet-and-power)
+- [Starting up the system if it has been disconnected](#starting-up-the-system-if-it-has-been-disconnected)
+- [Related topics](#related-topics)
 
 ## Prerequisites
 

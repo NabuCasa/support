@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25590430268701
-  name: What is the serial port of the Zigbee radio?
+  name: What is the serial port of the Zigbee radio on Home Assistant Yellow?
   position: 2
   labels: yellow, faq, connectivity
 ---

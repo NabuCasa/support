@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25455253040797
-  name: Can I reset the system?
+  name: Can I reset Home Assistant Yellow?
   position: 3
   labels: yellow, troubleshooting, faq
 ---

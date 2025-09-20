@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 29750981827229
-  name: Installing a Raspberry Pi Z-Wave module
+  name: Installing a Raspberry Pi Z-Wave module on Home Assistant Yellow
   description: How to install a Raspberry Pi Z-Wave module on Home Assistant Yellow
   position: 50
   labels: yellow, z-wave

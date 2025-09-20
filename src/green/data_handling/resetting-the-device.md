@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25161225495837
-  name: Resetting the device
+  name: Resetting Home Assistant Green
   position: 3
   labels: green, troubleshooting
 ---

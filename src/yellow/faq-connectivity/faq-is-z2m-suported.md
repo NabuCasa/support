@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25590244122269
-  name: Is Zigbee2MQTT supported by the on-board radio?
+  name: Is Zigbee2MQTT supported by the on-board radio of Home Assistant Yellow?
   position: 1
   labels: yellow, faq, connectivity
 ---

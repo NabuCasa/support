@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25938245892765
-  name: Connecting a sensor to the Grove port
+  name: Connecting a sensor to the Grove port of Home Assistant Voice Preview Edition
   position: 2
   labels: voice pe, customizing
 ---
