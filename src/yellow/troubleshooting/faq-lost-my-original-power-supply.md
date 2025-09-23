@@ -24,4 +24,4 @@ The Home Assistant Yellow uses a 12&nbsp;V&nbsp;DC, 2&nbsp;A, center-positive po
 
 ## Related topics
 
-- [Datasheet](/hc/en-us/articles/26537153454109)
+- [Home Assistant Yellow Datasheet](/hc/en-us/articles/26537153454109)
