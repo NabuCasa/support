@@ -16,7 +16,7 @@ The Home Assistant Yellow uses a 12&nbsp;V&nbsp;DC, 2&nbsp;A, center-positive po
 
 - When buying a new power supply, make sure it is center-positive.
 - The wrong polarity could damage your device.
-  - Center-positivity is indicated by this symbol:
+  - Center-positive polarity is indicated by this symbol:
 
     ![Icon showing a circle with a dot in the center, a line connecting the dot to a plus sign (+) on the right, and on the left another line connecting the outer circle to a minus sign (−)](/static/img/yellow/polarity_marking_center_positive.png)
 
