@@ -6,4 +6,6 @@ zendesk:
   labels: green, troubleshooting
 ---
 
-Home Assistant Green ships with a 12&nbsp;V&nbsp;DC, 1&nbsp;A, center-positive power supply.
+Home Assistant Green ships with a 12&nbsp;V&nbsp;DC, 1&nbsp;A, center-positive power supply. 5.5 mm * 2.1 mm DC barrel connector. It does not have PoE (Power over Ethernet).
+
+{% include "fragments/notice-center-positive-polarity.md" %}
