@@ -25,7 +25,6 @@ This guide assumes you have the following setup:
 - have the latest updates installed
 - Home Assistant Connect&nbsp;ZBT-1 adapter and a USB extension cable
 - Thread devices
-- **Important:** This guide installs firmware that supports only Thread! If you already use your Connect ZBT-1 to control Zigbee devices, you will no longer be able to control them after installing the Thread firmware.
 
 {% endstepContent %}
 {% endprereq %}
