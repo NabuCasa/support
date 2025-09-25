@@ -12,7 +12,6 @@ Follow these steps if you have a new Home Assistant Connect ZBT-1 and have not u
 
 ## Prerequisites
 
-This guide assumes you have the following setup:
 
 {% steps %}
 {% prereq %}
