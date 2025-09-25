@@ -47,52 +47,35 @@ zendesk:
 {% endstepContent %}
 {% endstep %}
 
-{% step "Picking your firmware" %}
+{% step "Picking your protocol" %}
 {% image "/static/img/connect-zbt-1/connect-zbt-1_pick_firmware.png" "Pick your firmware" %}
 {% stepContent %}
 
-- In the dialog, select **Zigbee**.
+- In the dialog, select **Use as Zigbee adapter**.
 
 {% endstepContent %}
 {% endstep %}
 
-{% step "Completing the Zigbee setup" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1_complete-zigbee-setup.png" "Complete the Zigbee setup" %}
+{% step "Select installation type" %}
+{% image "/static/img/connect-zbt-1/zbt-select-installation-method.png" "Pick your firmware" %}
 {% stepContent %}
 
-- Select **Submit** to complete the setup of the Home Assistant Connect&nbsp;ZBT-1 integration.
-- Your Connect ZBT-1 is now a Zigbee coordinator.
+- **Option 1**: If you are a new user, select **Recommended installation**.
+  - This addds the device to Home Assistant and configures Zigbee with the **Zigbee Home Automation** integration that was developed specifically for Home Assistant.
+- **Option 2**: If you have your own controller, for example Zigbee2MQTT, select custom.
+  - This option adds the device to Home Assistant, but you will need to manually install the controller of your choice on your own.
+  - Documentation does not cover these steps.
 
 {% endstepContent %}
 {% endstep %}
 
-{% step "Configuring the Zigbee Home Automation integration" %}
-{% image "/static/img/connect-zbt-1/zbt-1-zha-discovered.png" "Configure the Zigbee Home Automation integration" %}
-{% stepContent %}
-
-- Connect ZBT-1 will be shown in your **Zigbee Home Automation integration**.
-- Select **Add**.
-- To confirm, select **Submit**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Creating a network" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1_create-network.png" "Create a network" %}
-{% stepContent %}
-
-- Select **Create network**.
-
-{% endstepContent %}
-{% endstep %}
 
 {% step "Adding devices to an area" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-discovered-04.png" "Add devices to area" %}
+{% image "/static/img/connect-zbt-1/zbt-add-to-area.png" "Add devices to area" %}
 {% stepContent %}
 
-- Once the network has been set up, add the Zigbee coordinator to an area.
+- Follow the steps on screen, and when prompted, add the Zigbee adapter to an area.
 - Select **Finish**.
-  - Your Zigbee devices are now added to your Zigbee network.
 
 {% endstepContent %}
 {% endstep %}
@@ -103,8 +86,9 @@ zendesk:
 
 {% include "fragments/notice-interference.md" %}
 
-- Select **1 device** and select **Add devices via this device**. ZHA will now search for Zigbee devices in pairing mode.
-- Put your Zigbee device into pairing mode.
+- You can now add your Zigbee devices to the Zigbee network.
+  - Select **1 device** and select **Add devices via this device**. ZHA will now search for Zigbee devices in pairing mode.
+  - Put your Zigbee device into pairing mode.
 
 {% endstepContent %}
 {% endstep %}
