@@ -61,14 +61,13 @@ zendesk:
 {% stepContent %}
 
 - **Option 1**: If you are a new user, select **Recommended installation**.
-  - This addds the device to Home Assistant and configures Zigbee with the **Zigbee Home Automation** integration that was developed specifically for Home Assistant.
+  - This adds the device to Home Assistant and configures Zigbee with the **Zigbee Home Automation** integration that was developed specifically for Home Assistant.
 - **Option 2**: If you have your own controller, for example Zigbee2MQTT, select custom.
   - This option adds the device to Home Assistant, but you will need to manually install the controller of your choice on your own.
-  - Documentation does not cover these steps.
+  - Those custom steps are not covered in this documentation.
 
 {% endstepContent %}
 {% endstep %}
-
 
 {% step "Adding devices to an area" %}
 {% image "/static/img/connect-zbt-1/zbt-add-to-area.png" "Add devices to area" %}
