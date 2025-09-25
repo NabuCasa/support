@@ -14,7 +14,7 @@ zendesk:
 {% stepContent %}
 
 - Home Assistant installed on your board (for example on a Home Assistant Green, Home Assistant Yellow or on a Raspberry Pi) with the latest updates installed.
-- Home Assistant Connect&nbsp;ZBT-1 dongle and USB extension cable.
+- Home Assistant Connect&nbsp;ZBT-1 adapter and USB extension cable.
 
 {% endstepContent %}
 {% endprereq %}
