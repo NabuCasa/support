@@ -13,7 +13,7 @@ zendesk:
 {% image "/static/img/connect-zbt-1/connect-zbt-1-boxed-01.jpg" "Image showing the Assistant Connect&nbsp;ZBT-1 with the USB extension cable in the original packaging" %}
 {% stepContent %}
 
-- Home Assistant Operating System installed on your board, for example:
+- [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) installed on your smart home hub. For example:
   - on a Home Assistant Green, where Home Assistant OS is preinstalled
   - on a Home Assistant Yellow or on a Raspberry Pi
 - have the latest updates installed
