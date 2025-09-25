@@ -13,8 +13,12 @@ zendesk:
 {% image "/static/img/connect-zbt-1/connect-zbt-1-boxed-01.jpg" "Image showing the Assistant Connect&nbsp;ZBT-1 with the USB extension cable in the original packaging" %}
 {% stepContent %}
 
-- Home Assistant installed on your board (for example on a Home Assistant Green, Home Assistant Yellow or on a Raspberry Pi) with the latest updates installed.
-- Home Assistant Connect&nbsp;ZBT-1 adapter and USB extension cable.
+- Home Assistant Operating System installed on your board, for example:
+  - on a Home Assistant Green, where Home Assistant OS is preinstalled
+  - on a Home Assistant Yellow or on a Raspberry Pi
+- have the latest updates installed
+- Home Assistant Connect&nbsp;ZBT-1 adapter and USB extension cable
+- Zigbee devices
 
 {% endstepContent %}
 {% endprereq %}
@@ -62,7 +66,7 @@ zendesk:
 
 - **Option 1**: If you are a new user, select **Recommended installation**.
   - This adds the device to Home Assistant and configures Zigbee with the **Zigbee Home Automation** integration that was developed specifically for Home Assistant.
-- **Option 2**: If you have your own controller, for example Zigbee2MQTT, select custom.
+- **Option 2**: If you have your own controller, for example Zigbee2MQTT, select **Custom**.
   - This option adds the device to Home Assistant, but you will need to manually install the controller of your choice on your own.
   - Those custom steps are not covered in this documentation.
 
