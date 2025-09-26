@@ -63,17 +63,6 @@ This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedic
 {% endstepContent %}
 {% endstep %}
 
-{% step "Adding the Thread integration" %}
-{% image "/static/img/connect-zbt-1/otbr_thread_integrations.png" "Locate the Thread integrations" %}
-{% stepContent %}
-
-1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-2. If the **Thread** integration is listed in the **Discovered** section, select **Add**.
-3. You should now see the **OpenThread Border Router** and the **Thread** integrations in the **Configured** section.
-
-{% endstepContent %}
-{% endstep %}
-
 {% step "Viewing the Thread networks" %}
 {% image "/static/img/connect-zbt-1/zbt-thread-network.png" "Locate the Thread integrations" %}
 {% stepContent %}
