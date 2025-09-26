@@ -6,12 +6,9 @@ zendesk:
   labels: connect zbt-1, thread
 ---
 
-This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedicated Thread adapter. This allows you to connect Matter-over-Thread devices to your network.
-
-Follow these steps if you have a new Home Assistant Connect ZBT-1 and have not used it for Zigbee or Thread yet.
+This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedicated Thread adapter. The Thread adapter allows you to connect Matter-over-Thread devices to your network.
 
 ## Prerequisites
-
 
 {% steps %}
 {% prereq %}
@@ -35,7 +32,6 @@ Follow these steps if you have a new Home Assistant Connect ZBT-1 and have not u
 
 {% include "connect-zbt-1/plug-in-zbt-1-and-extension-cable.md" %}
 
-
 {% step "Locating the Home Assistant Connect&nbsp;ZBT-1 integration" %}
 {% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Locate the Connect ZBT-1 integration" %}
 {% stepContent %}
@@ -51,11 +47,8 @@ Follow these steps if you have a new Home Assistant Connect ZBT-1 and have not u
 {% image "/static/img/connect-zbt-1/connect-zbt-1_pick_firmware.png" "Select the Thread firmware" %}
 {% stepContent %}
 
-1. Select **Use as a Thread adapter**.
-   - **Result**: This will install the OpenThread Border Router add-on.
-   - It will allow you to connect Matter-over-Thread devices.
-2. The dialog informs you that Home Assistant Connect&nbsp;ZBT-1 now acts as an OpenThread border router. Select **Submit**.
-3. Then, select **Finish**.
+- Select **Use as a Thread adapter**.
+  - **Result**: This installs the OpenThread Border Router add-on which allows you to connect Matter-over-Thread devices.
 
 {% endstepContent %}
 {% endstep %}
