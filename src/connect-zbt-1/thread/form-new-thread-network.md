@@ -48,7 +48,7 @@ This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedic
 {% stepContent %}
 
 - Select **Use as Thread adapter**.
-  - **Result**: This installs the OpenThread Border Router add-on which allows you to connect Matter-over-Thread devices.
+  - **Result**: This installs the **OpenThread Border Router** add-on which allows you to connect Matter-over-Thread devices.
 
 {% endstepContent %}
 {% endstep %}
@@ -63,12 +63,17 @@ This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedic
 {% endstepContent %}
 {% endstep %}
 
-{% step "Locating the Thread integrations" %}
-{% image "/static/img/connect-zbt-1/otbr_thread_integrations.png" "Locate the Thread integrations" %}
+{% step "Viewing the Thread networks" %}
+{% image "/static/img/connect-zbt-1/zbt-thread-network.png" "Locate the Thread integrations" %}
 {% stepContent %}
 
 1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-2. You should now see the **OpenThread Border Router** and the **Thread** integrations.
+   - You should now see the **OpenThread Border Router** and the **Thread** integrations.
+2. Select the **Thread** integration, then select the cogwheel.
+   - You will now see a **Home Assistant OpenThread Border Router**.
+   - You might also see other Thread networks from other border router devices in your home.
+   - Refer to the Thread documentation to learn more [about different Thread networks](https://www.home-assistant.io/integrations/thread/#about-different-thread-networks), or [about Thread border routers](https://www.home-assistant.io/integrations/thread/#about-thread-border-routers).
+   - You can now [add your Thread-based devices to Home Assistant](https://www.home-assistant.io/integrations/thread/#adding-a-thread-based-device-to-home-assistant).
 
 {% endstepContent %}
 {% endstep %}
@@ -76,5 +81,6 @@ This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedic
 
 ## Related topics
 
-- [Disabling multiprotocol support](/hc/en-us/articles/26124969612445)
-- [Migrating your Zigbee network](/hc/en-us/articles/26123655295261)
+- [Add your Thread-based devices to Home Assistant](https://www.home-assistant.io/integrations/thread/#adding-a-thread-based-device-to-home-assistant)
+- [About different Thread networks](https://www.home-assistant.io/integrations/thread/#about-different-thread-networks)
+- [About Thread border routers](https://www.home-assistant.io/integrations/thread/#about-thread-border-routers)
