@@ -47,7 +47,7 @@ This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedic
 {% image "/static/img/connect-zbt-1/connect-zbt-1_pick_firmware.png" "Select the Thread firmware" %}
 {% stepContent %}
 
-- Select **Use as a Thread adapter**.
+- Select **Use as Thread adapter**.
   - **Result**: This installs the OpenThread Border Router add-on which allows you to connect Matter-over-Thread devices.
 
 {% endstepContent %}
