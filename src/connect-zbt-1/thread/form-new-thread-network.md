@@ -12,13 +12,13 @@ This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedic
 
 {% steps %}
 {% prereq %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-boxed-01.jpg" "Image showing the Assistant Connect&nbsp;ZBT-1 with the USB extension cable in the original packaging" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-boxed-01.jpg" "Home Assistant Connect ZBT-1 with USB extension cable in packaging" %}
 {% stepContent %}
 
 - [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) installed on your smart home hub. For example:
   - on a Home Assistant Green, where Home Assistant OS is preinstalled
   - on a Home Assistant Yellow or on a Raspberry Pi
-- have the latest updates installed
+- Latest updates installed
 - Home Assistant Connect&nbsp;ZBT-1 adapter and a USB extension cable
 - Thread devices
 
@@ -37,7 +37,7 @@ This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedic
 {% stepContent %}
 
 - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-- Connect ZBT-1 should now have been discovered.
+- The Connect ZBT-1 should now be discovered.
 - Select **Add**.
 
 {% endstepContent %}
@@ -69,7 +69,7 @@ This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedic
 
 1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
 2. If the **Thread** integration is listed in the **Discovered** section, select **Add**.
-3. You should now see the **OpenThread Border Router** and the **Thread** integrations int the **Configured** section.
+3. You should now see the **OpenThread Border Router** and the **Thread** integrations in the **Configured** section.
 
 {% endstepContent %}
 {% endstep %}
