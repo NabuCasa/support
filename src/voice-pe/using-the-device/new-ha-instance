@@ -2,30 +2,44 @@
 zendesk:
   article_id: 30670495779997
   name: Connecting your Home Assistant Voice PE to a new Home Assistant Instance
-  position: 4
+  position: 10
   labels: voice pe, operation, using the device
 ---
 
-The active color is shown when the device is triggered by the wake word. By default, it is blue.
+When connecting your Home Assistant Voice Preview Edition (VPE) device to a new Home Assistant instance, a factory reset is required. This is because the VPE device stores an encryption key tied to the original Home Assistant instance, even if the device is removed from that setup.
+A factory reset removes this key and allows the device to securely pair with a new instance. This may be necessary if you’ve reinstalled Home Assistant from scratch, are setting up a new environment, or want to use the device with a different system.
+
+## To reset the device
 
 {% steps %}
-{% step "Changing the active color on the device" "Option 1" %}
-{% image "/static/img/voice-pe/voice_change_active_color.webp" "Clip showing how to change the color using the hardware dial" %}
+{% step "Removing the device from Home Assistant (if accessible)" %}
+{% image "/static/img/voice-pe/voice_delete_integration_instance.png" "Screenshot showing where to remove the integration" %}
 {% stepContent %}
 
-1. Press and hold the button and turn the dial until you see the color you like.
-2. When you see the color you like, let go of the button.
-   - **Result**: The device changes the active color.
+- If you still have access to the Home Assistant instance the device was previously connected to, follow the [removing an integration instance](https://www.home-assistant.io/common-tasks/general/#removing-an-integration-instance).
+
+*This step is optional but recommended before resetting the device.*
 
 {% endstepContent %}
 {% endstep %}
 
-{% step "Changing the active color from the UI" "Option 2" %}
-{% image "/static/img/voice-pe/voice_change_ring_color_02.png" "Screenshot showing how to change the color from the UI" %}
+{% step "Press the button until it lights up red (22 seconds)" %}
+{% image "/static/img/voice-pe/voice_reset_v2_480.webp" "Clip showing how to start the reset process by pressing the central button" %}
 {% stepContent %}
 
-- Under **Configuration**, select the ring icon and change the color.
+- Keep pressing the button until the red circle is complete and the device tells you to stop pressing.
+
+  - {% stepResult "All data (including encryption key) is cleared from the device." %}
+
+  - **Info**: If you stop pressing the button before the red light has completed the circle, the reset process is aborted.
+
+  - **Info**: Once the reset is complete, the device starts up again. The white twinkle indicates that it is ready to be paired with a new Home Assistant instance.
 
 {% endstepContent %}
 {% endstep %}
 {% endsteps %}
+
+## Related topics
+
+- [Removing an integration instance](https://www.home-assistant.io/common-tasks/general/#removing-an-integration-instance)
+- [Resetting Home Assistant Voice Preview Edition](https://support.nabucasa.com/hc/en-us/articles/25800178374557-Resetting-Home-Assistant-Voice-Preview-Edition)
