@@ -25,6 +25,7 @@ Under [**System** > **Home Assistant Cloud**](https://my.home-assistant.io/redir
 This error indicates a network issue. It often occurs when the Home Assistant host has a bad IPv6 network configuration. Fixing the network configuration or disabling IPv6 on the host should resolve this error.
 
 ### Resolution
+
 Try disabling IPv6:
    - In the UI, go to [**System** > **Network**](https://my.home-assistant.io/redirect/network/).
    - Under **Configure network interfaces**, expand the **IPv6** dropdown.
