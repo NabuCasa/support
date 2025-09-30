@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26700478689949
-  name: Migrating an existing Zigbee Home Automation (ZHA) network to Home Assistant Connect ZBT-1 via Zigbee2MQTT backup
+  name: Migrating an existing Zigbee network to Home Assistant Connect ZBT-1 via Zigbee2MQTT backup
   position: 8
   labels: connect zbt1, getting started, migrate, migration
 ---
@@ -86,13 +86,33 @@ Please note that not all settings can be migrated in this case:
 {% endstepContent %}
 {% endstep %}
 
-{% step "Locating the Connect ZBT-1 integration" %}
+{% step "Adding the Connect ZBT-1 integration" %}
 {% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Locating the Connect ZBT-1 integration" %}
 {% stepContent %}
 
 1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-2. Connect ZBT-1 should now have been discovered.
+2. Home Assistant Connect ZBT-1 should now have been discovered.
 3. Select **Add**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Picking your protocol" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1_pick_firmware.png" "Pick your firmware" %}
+{% stepContent %}
+
+- In the dialog, select **Use as Zigbee adapter**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Select installation type" %}
+{% image "/static/img/connect-zbt-1/zbt-select-installation-method-custom.png" "Pick your firmware" %}
+{% stepContent %}
+
+1. In the dialog, select **Custom**.
+2. When asked to select the Zigbee method, select **Zigbee Home Automation**.
+3. Then, select **Submit**.
 
 {% endstepContent %}
 {% endstep %}
