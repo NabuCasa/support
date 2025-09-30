@@ -2,11 +2,11 @@
 
 {% steps %}
 {% step "Starting radio migration" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-z2m-migrate-zha-02.png" "Screenshot showing the migrate radio button on the Network settings dialog" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-migrate-radio.png" "Screenshot showing the migrate radio button on the Network settings dialog" %}
 {% stepContent %}
 
-1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the ZHA integration, then select **Configure**.
-2. Under **Network settings** add-on, select **Migrate Radio**.
+1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the ZHA integration, then select the cog wheel.
+2. Under **Network settings** add-on, select **Migrate radio**.
 
 {% endstepContent %}
 {% endstep %}
@@ -15,7 +15,7 @@
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-03.png" "Screenshot showing the Reconfigure ZHA dialog" %}
 {% stepContent %}
 
-- To reconfigure ZHA, select **Submit**
+- To reconfigure ZHA, select **Submit**.
 
 {% endstepContent %}
 {% endstep %}
@@ -24,7 +24,7 @@
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-04.png" "Screenshot showing the Migrate or reconfigure dialog" %}
 {% stepContent %}
 
-- Select **Migrate to a new radio**
+- Select **Migrate to a new radio**.
 
 {% endstepContent %}
 {% endstep %}
@@ -42,7 +42,7 @@
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-06.png" "Screenshot showing the Unplug your old radio dialog" %}
 {% stepContent %}
 
-- If you no longer need the old radio stick, you can now remove it.
+- If you no longer need the old Zigbee adapter, you can now remove it.
 - Before selecting **Submit**, connect Connect&nbsp;ZBT-1, as described in the following steps.
 
 {% endstepContent %}
@@ -80,40 +80,13 @@
 {% endstep %}
 
 {% step "Restoring a backup" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-08.png" "Screenshot showing the Network formation dialog" %}
+{% image "/static/img/connect-zbt-1/zbt-migrate-automatically.png" "Screenshot showing the Network formation dialog" %}
 {% stepContent %}
 
-- Select **Restore an automatic backup**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Choosing the backup" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-09.png" "Screenshot showing the Restore automatic backup dialog" %}
-{% stepContent %}
-
-- Choose the latest backup and select **Submit**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Overwriting the radio IEEE address" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-10.png" "Screenshot showing the Overwriting the radio IEEE address dialog" %}
-{% stepContent %}
-
-- Select the **Permanently replace the radio IEEE address** and select **Submit**.
-- **Info** This means that your old stick and your new stick will have the same IEEE address.
-  - This is required for the migration process to complete successfully.
-  - From this point onwards, you should not operate the old stick in the same area. If you do not migrate the IEEE address from your old stick, you'll have to repair many of your devices to keep them working.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Wait" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-11.png" "Screenshot showing the Overwriting the radio IEEE address dialog with waiting animation" %}
-{% stepContent %}
-
-- Overwriting the IEEE address may take a while. Wait.
+- To use the backup that was created during this migration, select **Migrate automatically (recommended)**.
+  - This is the quickest way to complete the migration.
+- To restore a specific, older backup, select **Advanced migration** instead.
+  - This will let you select a backup of your choice.
 
 {% endstepContent %}
 {% endstep %}
