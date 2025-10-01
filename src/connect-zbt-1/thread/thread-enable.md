@@ -32,10 +32,9 @@ This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedic
 {% image "/static/img/connect-zbt-1/connect-zbt-1-zha-delete.png" "Migrate your Zigbee network or delete the ZHA integration" %}
 {% stepContent %}
 
-- **Scenario 1**: If you have a new Connect ZBT-1 or did not set up Zigbee Home Automation (ZHA) yet, follow the steps on [forming a new Thread network](/hc/en-us/articles/30589636469533).
-- **Scenario 2**: If you use your existing Connect ZBT-1 to run a Zigbee network, [migrate your Zigbee network](/hc/en-us/articles/26123655295261) to another controller.
+- **Scenario 1**: If you use your existing Connect ZBT-1 to run a Zigbee network, [migrate your Zigbee network](/hc/en-us/articles/26123655295261) to another controller.
   - Otherwise, if you delete the Zigbee network, even if you set it up again, all of your entity customizations will be gone.
-- **Scenario 3**: If you use your existing Connect ZBT-1 to run a Zigbee network, and you no longer need a Zigbee network, follow these steps to remove ZHA from the integration list:
+- **Scenario 2**: If you use your existing Connect ZBT-1 to run a Zigbee network, and you no longer need a Zigbee network, follow these steps to remove ZHA from the integration list:
 
   1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
   2. Select the **Zigbee Home Assistant** integration card.
