@@ -21,7 +21,7 @@ This procedure only helps migrate basic network settings to Home Assistant Conne
 
 {% endcallout %}
 
-If you no longer have the old stick, you can migrate via a Zigbee2MQTT backup.
+If you no longer have the old stick, you can [migrate via a Zigbee2MQTT backup](/hc/en-us/articles/26700478689949).
 
 ## To migrate a Zigbee2MQTT network to ZHA
 
@@ -88,11 +88,23 @@ If you no longer have the old stick, you can migrate via a Zigbee2MQTT backup.
 {% endstepContent %}
 {% endstep %}
 
+{% step "Choosing the Zigbee setup" %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-21.png" "Choose the network settings for your radio" %}
+{% stepContent %}
+
+- Select **Advanced setup**.
+
+{% endstepContent %}
+{% endstep %}
+
 {% step "Choosing the network settings for your radio" %}
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-01.png" "Choose the network settings for your radio" %}
 {% stepContent %}
 
-- Select **Keep radio network settings**.
+- Select **Keep network settings**.
+  - This lets Zigbee Home Automation (ZHA) import settings from another device that was used with software other than ZHA.
+  - This way, some of the network settings can be migrated automatically.
+
 - {% stepResult "You can now start migrating the ZHA network as described below." %}
 
 {% endstepContent %}
