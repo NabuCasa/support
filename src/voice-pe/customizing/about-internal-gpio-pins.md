@@ -27,7 +27,7 @@ The pins of group 2 are located in the center of the board. You need to [disasse
 
 {% hazard "notice" %}
 
-**Risk of damaging VPE components due to high current.**
+**Risk of damaging components due to high current.**
 
 Current drawn from GPIO pins should be limited to 20 milliampere (mA) or damage to the ESP32-S3 may occur.
 
@@ -67,13 +67,13 @@ The pins of group 2 are located in the center of the board. You need to [disasse
 
 {% hazard "notice" %}
 
-**Risk of damaging VPE components due to high current.**
+**Risk of damaging components due to high current.**
 
 **Mind the power limitations**
 
 - The amount of power you can draw from the power pins (+5&nbsp;V, +3.3&nbsp;V) on these headers depends on the capabilities of the power supply you are using; most common USB power supplies can supply either 1, 2, or 3&nbsp;amperes.
 - Reputable power supplies will be labeled with their capabilities (voltage, current).
-- Regardless of the power supply, do not attempt to draw more than 2&nbsp;amperes (total) from the +5&nbsp;V and +3.3&nbsp;V pins. Drawing more current than this from these pins may cause damage to components in the VPE, causing it to stop working.
+- Regardless of the power supply, do not attempt to draw more than 2&nbsp;amperes (total) from the +5&nbsp;V and +3.3&nbsp;V pins. Drawing more current than this from these pins may cause damage to components in the Voice Preview Edition, causing it to stop working.
 - If you attempt to draw more current than your USB power supply can handle, it may become very hot and/or unexpectedly switch off.
 - Be sure that you  do not exceed the capabilities of your USB power supply/port.
 
