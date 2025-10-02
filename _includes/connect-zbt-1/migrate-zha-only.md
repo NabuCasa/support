@@ -11,6 +11,19 @@
 {% endstepContent %}
 {% endstep %}
 
+{% step "Adding an extension cable and the adapter" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Home Assistant Connect&nbsp;ZBT-1 connected to a Raspberry Pi via extension cable" %}
+{% stepContent %}
+
+{% include "fragments/notice-interference.md" %}
+
+- Plug the Home Assistant Connect&nbsp;ZBT-1 into the USB extension cable.
+- Plug the extension cable into your Home Assistant instance.
+- If you are using the standalone Home Assistant Container installation method, make sure Connect&nbsp;ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
+
+{% endstepContent %}
+{% endstep %}
+
 {% step "Reconfiguring ZHA" %}
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-03.png" "Screenshot showing the Reconfigure ZHA dialog" %}
 {% stepContent %}
@@ -25,19 +38,6 @@
 {% stepContent %}
 
 - Select **Migrate to a new adapter**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Adding an extension cable and the adapter" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Home Assistant Connect&nbsp;ZBT-1 connected to a Raspberry Pi via extension cable" %}
-{% stepContent %}
-
-{% include "fragments/notice-interference.md" %}
-
-- Plug the Home Assistant Connect&nbsp;ZBT-1 into the USB extension cable.
-- Plug the extension cable into your Home Assistant instance.
-- If you are using the standalone Home Assistant Container installation method, make sure Connect&nbsp;ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
 
 {% endstepContent %}
 {% endstep %}
