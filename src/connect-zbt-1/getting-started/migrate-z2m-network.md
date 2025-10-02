@@ -73,7 +73,7 @@ If you no longer have the old stick, you can [migrate via a Zigbee2MQTT backup](
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-13.png" "Add ZHA integration (2)" %}
 {% stepContent %}
 
-1. Make sure your old radio stick is still plugged in.
+1. Make sure your old adapter is still plugged in.
 2. Select **Proceed**.
 
 {% endstepContent %}
@@ -83,13 +83,13 @@ If you no longer have the old stick, you can [migrate via a Zigbee2MQTT backup](
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-14.png" "Add ZHA integration (3)" %}
 {% stepContent %}
 
-1. Choose the serial device path of your old radio stick.
+1. Choose the serial device path of your old adapter.
 2. Select **Submit**.
 {% endstepContent %}
 {% endstep %}
 
 {% step "Choosing the Zigbee setup" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-21.png" "Choose the network settings for your radio" %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-21.png" "Choose the network settings for your adapter" %}
 {% stepContent %}
 
 - Select **Advanced setup**.
@@ -97,8 +97,8 @@ If you no longer have the old stick, you can [migrate via a Zigbee2MQTT backup](
 {% endstepContent %}
 {% endstep %}
 
-{% step "Choosing the network settings for your radio" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-01.png" "Choose the network settings for your radio" %}
+{% step "Choosing the network settings for your adapter" %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-01.png" "Choose the network settings for your adapter" %}
 {% stepContent %}
 
 - Select **Keep network settings**.

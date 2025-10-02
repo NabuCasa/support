@@ -1,7 +1,7 @@
 <!---steps on migrating an existing ZHA network to a Home Assistant Connect ZBT-1 stick. -->
 
 {% steps %}
-{% step "Starting radio migration" %}
+{% step "Starting adapter migration" %}
 {% image "/static/img/connect-zbt-1/connect-zbt-migrate-radio.png" "Screenshot showing the migrate radio button on the Network settings dialog" %}
 {% stepContent %}
 
@@ -20,17 +20,17 @@
 {% endstepContent %}
 {% endstep %}
 
-{% step "Migrating radio" %}
+{% step "Migrating adapter" %}
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-04.png" "Screenshot showing the Migrate or reconfigure dialog" %}
 {% stepContent %}
 
-- Select **Migrate to a new radio**.
+- Select **Migrate to a new adapter**.
 
 {% endstepContent %}
 {% endstep %}
 
 {% step "Starting the backup" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-05.png" "Screenshot showing the Migrate to a new radio dialog" %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-05.png" "Screenshot showing the Migrate to a new adapter dialog" %}
 {% stepContent %}
 
 - To start automatic backup, select **Submit**.
@@ -38,8 +38,8 @@
 {% endstepContent %}
 {% endstep %}
 
-{% step "Unplugging the old radio" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-06.png" "Screenshot showing the Unplug your old radio dialog" %}
+{% step "Unplugging the old adapter" %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-06.png" "Screenshot showing the Unplug your old adapter dialog" %}
 {% stepContent %}
 
 - If you no longer need the old Zigbee adapter, you can now remove it.
@@ -62,7 +62,7 @@
 {% endstep %}
 
 {% step "Confirming that Home Assistant Connect&nbsp;ZBT-1 is plugged in" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-06.png" "Screenshot showing the Unplug your radio dialog" %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-06.png" "Screenshot showing the Unplug your adapter dialog" %}
 {% stepContent %}
 
 - Now that Home Assistant Connect&nbsp;ZBT-1 is plugged in, select **Submit**.
