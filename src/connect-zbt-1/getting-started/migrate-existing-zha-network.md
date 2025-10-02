@@ -10,7 +10,7 @@ Follow this guide if you already have a running Zigbee Home Assistant (ZHA) netw
 
 ## Prerequisites
 
-- Home Assistant 2025.10.1 or newer
+- Home Assistant 2025.11 or newer
 - a running Zigbee Home Assistant (ZHA) network with a Zigbee adapter
 - a new Zigbee adapter you want to migrate your network to
 - a free USB port for your new adapter. If you don't have a free port, you can use a USB hub.
