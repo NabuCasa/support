@@ -29,7 +29,7 @@
 {% endstepContent %}
 {% endstep %}
 
-{% step "Adding extension cable" %}
+{% step "Adding an extension cable and the adapter" %}
 {% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Home Assistant Connect&nbsp;ZBT-1 connected to a Raspberry Pi via extension cable" %}
 {% stepContent %}
 
