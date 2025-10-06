@@ -10,7 +10,7 @@ Follow this guide if you have a Zigbee2MQTT network running and want to migrate 
 
 This migration is done in 2 steps:
 
-1. [Migrating the Zigbee2MQTT network from the old adapter to ZHA](#to-migrate-a-zigbee2mqtt-network-from-the-old-adapter-to-zha).
+1. [Migrating the Zigbee2MQTT network to ZHA using the old adapter](#to-migrate-a-zigbee2mqtt-network-to-zha-using-the-old-adapter).
 2. [Migrating this ZHA network to Connect ZBT-1](#to-migrate-the-zha-network-to-connectzbt-1)
 
 {% callout "note" %}
