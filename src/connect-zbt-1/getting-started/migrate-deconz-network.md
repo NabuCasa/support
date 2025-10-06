@@ -144,7 +144,7 @@ This migration includes the following steps:
 {% stepContent %}
 
 - Wait for the settings to be loaded.
-- Once deCONZ has been recognized as your Zigbee coordinator, select **Finish**.
+- Once the Conbee/Raspbee adapter has been recognized as your Zigbee coordinator, select **Finish**.
 
 {% endstepContent %}
 {% endstep %}
