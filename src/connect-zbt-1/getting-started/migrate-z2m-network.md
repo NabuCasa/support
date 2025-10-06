@@ -27,7 +27,7 @@ This procedure only helps migrate basic network settings to Home Assistant Conne
 
 If you no longer have the old stick, you can [migrate via a Zigbee2MQTT backup](/hc/en-us/articles/26700478689949).
 
-## To migrate a Zigbee2MQTT network from the old adapter to ZHA
+## Migrating a Zigbee network from Zigbee2MQTT to ZHA using the old adapter
 
 {% steps %}
 {% step "Stopping the Zigbee2MQTT add-on" %}
