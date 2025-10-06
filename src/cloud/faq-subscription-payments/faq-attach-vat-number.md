@@ -12,9 +12,9 @@ If you're located in the EU, UK, US, or Canada and see VAT/sales tax charged, th
 
 You can update your billing name and address at https://account.nabucasa.com/:
 
-  1. Scroll to the bottom of the page
-  2. Click "Manage Account"
-  3. Update your billing details
+  1. Scroll to the bottom of the page.
+  2. Select **Manage Account**.
+  3. Update your billing details.
 
 Changes apply to future invoices only. We cannot reissue or modify past invoices due to billing system constraints.
 
