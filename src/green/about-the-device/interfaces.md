@@ -12,7 +12,7 @@ Home Assistant Green provides the following interfaces:
 - MicroSD slot and an HDMI port for recovery and diagnostics.
 - 2 USB ports to extend the functionality, such as:
 - Home Assistant Connect&nbsp;ZBT-1 to communicate with Zigbee devices, and in the future with Thread devices.
-- Z-Wave stick to communicate with Z-Wave devices.
+- Z-Wave adapter to communicate with Z-Wave devices.
 - Power supply port: 12 V DC, 1 A, center-positive
 
 ![Image showing the Green interfaces](/static/img/green/green_system-overview.png)
