@@ -25,7 +25,7 @@ This procedure only helps migrate basic network settings to Home Assistant Conne
 
 {% endcallout %}
 
-If you no longer have the old stick, you can [migrate via a Zigbee2MQTT backup](/hc/en-us/articles/26700478689949).
+If you no longer have the old adapter, you can [migrate via a Zigbee2MQTT backup](/hc/en-us/articles/26700478689949).
 
 ## Migrating a Zigbee network from Zigbee2MQTT to ZHA using the old adapter
 
@@ -77,7 +77,7 @@ If you no longer have the old stick, you can [migrate via a Zigbee2MQTT backup](
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-13.png" "Add ZHA integration (2)" %}
 {% stepContent %}
 
-1. Make sure your old radio stick is still plugged in.
+1. Make sure your old adapter is still plugged in.
 2. Select **Proceed**.
 
 {% endstepContent %}
@@ -87,7 +87,7 @@ If you no longer have the old stick, you can [migrate via a Zigbee2MQTT backup](
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-14.png" "Add ZHA integration (3)" %}
 {% stepContent %}
 
-1. Choose the serial device path of your old radio stick.
+1. Choose the serial device path of your old adapter.
 2. Select **Submit**.
 {% endstepContent %}
 {% endstep %}

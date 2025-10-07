@@ -9,7 +9,7 @@ zendesk:
 
 Follow these instructions if you are in the following situation:
 
-- You have a Zigbee2MQTT network running, you no longer have the stick, and you want to migrate to Connect ZBT-1.
+- You have a Zigbee2MQTT network running, you no longer have the original adapter, and you want to migrate to Connect ZBT-1.
 
 Please note that not all settings can be migrated in this case:
 
