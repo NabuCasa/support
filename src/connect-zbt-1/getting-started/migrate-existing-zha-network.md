@@ -47,9 +47,9 @@ Follow this guide if you already have a running Zigbee Home Assistant (ZHA) netw
 {% stepContent %}
 
 - **Option 1**: If you just want to migrate, select **Recommended installation**.
-  - This adds the device to Home Assistant and configures Zigbee with the **Zigbee Home Automation** integration that was developed specifically for Home Assistant.
+  - This adds the device to Home Assistant, backups up your old adapter and moves those network settings to the Connect ZBT-1.
 - **Option 2**: If you have your own controller, for example Zigbee2MQTT, select **Custom**.
-  - This option adds the device to Home Assistant, but you will need to manually install the controller of your choice on your own.
+  - This adds the device to Home Assistant, but you will need to manually install the controller of your choice on your own.
   - Those custom steps are not covered in this documentation.
 
 {% endstepContent %}
