@@ -13,7 +13,7 @@ zendesk:
 Home Assistant Connect ZBT-1 is not a standalone product.
 
 - It requires Home Assistant installed on a smart home hub (such as [Home Assistant Green](https://www.home-assistant.io/green/)).
-- It requires Zigbee or Thread end devices to form a network.
+- It requires devices that are Zigbee- or Thread-capable.
 - **Optional**: [Home Assistant Companion app](https://companion.home-assistant.io/) installed on your smart phone.
   - Note: the app does not run Home Assistant. It connects to your existing Home Assistant instance, allowing you to interact with it remotely.
 
