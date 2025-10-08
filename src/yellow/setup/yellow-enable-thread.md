@@ -56,7 +56,7 @@ This guide assumes you have the following setup:
 
 1. Under **Pick your protocol**, select **Use as Thread adapter**.
    - **Result**: **The OpenThread Border Router** add-on is installed.
-   - The dialog informs you that Connect ZBT-1 now acts as an OpenThread border router. Select **Submit**.
+   - The dialog informs you that your Yellow now acts as an OpenThread border router. Select **Submit**.
 2. Then, select **Finish**.
 
 {% endstepContent %}
