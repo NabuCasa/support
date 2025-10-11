@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26700478689949
-  name: Migrating an existing Zigbee network to Home Assistant Connect ZBT-1 via Zigbee2MQTT backup
+  name: Migrating an existing Zigbee network to Home Assistant Connect&nbsp;ZBT-1 via Zigbee2MQTT backup
   position: 8
   labels: connect zbt1, getting started, migrate, migration
 ---
@@ -9,11 +9,11 @@ zendesk:
 
 Follow these instructions if you are in the following situation:
 
-- You have a Zigbee2MQTT network running, you no longer have the original adapter, and you want to migrate to Connect ZBT-1.
+- You have a Zigbee2MQTT network running, you no longer have the original adapter, and you want to migrate to Connect&nbsp;ZBT-1.
 
 Please note that not all settings can be migrated in this case:
 
-- These steps help migrate the network, meaning you won't have to pair all your devices again with Home Assistant Connect ZBT-1.
+- These steps help migrate the network, meaning you won't have to pair all your devices again with Home Assistant Connect&nbsp;ZBT-1.
 - However, some higher-level settings cannot be migrated. Elements such as device names may be lost. There is currently no migration path to transfer all settings.
 
 ## To migrate an existing Zigbee Home Automation (ZHA) network via Zigbee2MQTT backup
@@ -73,25 +73,25 @@ Please note that not all settings can be migrated in this case:
 {% endstepContent %}
 {% endstep %}
 
-{% step "Plugging the extension cable into Connect ZBT-1" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Plugging the extension cable into Connect ZBT-1" %}
+{% step "Plugging the extension cable into Connect&nbsp;ZBT-1" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Plugging the extension cable into Connect&nbsp;ZBT-1" %}
 {% stepContent %}
 
 {% include "fragments/notice-interference.md" %}
 
-1. Plug the Home Assistant Connect ZBT-1 into the USB extension cable.
+1. Plug the Home Assistant Connect&nbsp;ZBT-1 into the USB extension cable.
 2. Plug the extension cable into your Home Assistant instance.
-3. If you are using the standalone Home Assistant Container installation method, make sure Connect ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
+3. If you are using the standalone Home Assistant Container installation method, make sure Connect&nbsp;ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
 
 {% endstepContent %}
 {% endstep %}
 
-{% step "Adding the Connect ZBT-1 integration" %}
+{% step "Adding the Connect&nbsp;ZBT-1 integration" %}
 {% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Locating the Connect ZBT-1 integration" %}
 {% stepContent %}
 
 1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-2. Home Assistant Connect ZBT-1 should now have been discovered.
+2. Home Assistant Connect&nbsp;ZBT-1 should now have been discovered.
 3. Select **Add**.
 
 {% endstepContent %}

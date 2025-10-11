@@ -7,6 +7,6 @@ zendesk:
 ---
 
 
-No, you cannot run 2 Home Assistant Connect ZBT-1 adapters at once. ZHA (Zigbee Home Automation) is single instance only.
+No, you cannot run 2 Home Assistant Connect&nbsp;ZBT-1 adapters at once. ZHA (Zigbee Home Automation) is single instance only.
 
 {% abbr "ZHA" %} cannot control 2 radios at once.
