@@ -19,4 +19,4 @@ We’ve found an issue in Home Assistant Connect&nbsp;ZBT-1 that is the result o
 
 ## Related topic
 
-- [Blog post about Connect ZBT-1 issue and replacement program](https://www.home-assistant.io/blog/2024/10/02/connect-zbt1-issue-and-replacement/)
+- [Blog post about Connect&nbsp;ZBT-1 issue and replacement program](https://www.home-assistant.io/blog/2024/10/02/connect-zbt1-issue-and-replacement/)
