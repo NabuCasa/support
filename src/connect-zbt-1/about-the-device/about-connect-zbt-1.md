@@ -26,7 +26,7 @@ A few device characteristics are listed below:
   - Running Zigbee and Thread at the same time on the same adapter is not supported.
 - Home Assistant Connect&nbsp;ZBT-1 was formerly known as Home Assistant SkyConnect.
   - Despite the new name and look, they have the exact same hardware, capability, and support.
-- You can run 2 different Zigbee solutions in Home Assistant: ZHA and Zigbee2MQTT
+- You can run 2 different Zigbee solutions in Home Assistant: Zigbee Home Automation (ZHA) and Zigbee2MQTT
   - You can run another adapter with a deCONZ or Zigbee2MQTT add-on alongside a Home Assistant Connect&nbsp;ZBT-1 with [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/).
 - You cannot run 2 Home Assistant Connect&nbsp;ZBT-1 adapters with the Zigbee Home Automation integration at once in Home Assistant.
   - The Zigbee Home Automation integration is single instance only.
