@@ -9,7 +9,7 @@ zendesk:
 
 Step-by-step instructions on configuring the Home Assistant Yellow for Thread support when you have previously used it for Zigbee. The Thread adapter allows you to connect Thread-based devices, such as Matter-over-Thread devices, to your network.
 
-This guide is about switching from Zigbee to Thread support on Yellow's built-in radio chip. If your goal is to keep using Zigbee and using Thread in addition, you can use an external adapter for Thread, such as the [Home Assistant Connect ZBT-1](https://www.home-assistant.io/connectzbt1).
+This guide is about switching from Zigbee to Thread support on Yellow's built-in radio chip. If your goal is to keep using Zigbee and using Thread in addition, you can use an external adapter for Thread, such as the [Home Assistant Connect&nbsp;ZBT-1](https://www.home-assistant.io/connectzbt1).
 
 ## Prerequisites
 
@@ -75,7 +75,7 @@ This guide assumes you have the following setup:
 
 ## Related topics
 
-- [Home Assistant Connect ZBT-1](https://www.home-assistant.io/connectzbt1)
+- [Home Assistant Connect&nbsp;ZBT-1](https://www.home-assistant.io/connectzbt1)
 - [Thread integration documentation](https://www.home-assistant.io/integrations/thread/)
 - [About firmware options](/hc/en-us/articles/25616122309405-About-firmware-options)
 - [Disable multiprotocol support](/hc/en-us/articles/25744235797661-Disabling-multiprotocol-support)

@@ -11,7 +11,7 @@ This section has two goals:
 1. List the currently available firmware options for Home Assistant Connect&nbsp;ZBT-1.
 2. List the different add-ons and integrations related to these options and show their relationships.
 
-## Currently available firmware for Home Assistant Connect ZBT-1
+## Currently available firmware for Home Assistant Connect&nbsp;ZBT-1
 
 There are currently two different recommended firmware options available for Home Assistant Connect&nbsp;ZBT-1:
 
@@ -35,6 +35,6 @@ There are currently two different recommended firmware options available for Hom
 
 ## Related topics
 
-- [Firmware updates for Connect ZBT-1](/hc/en-us/articles/26124447269917)
+- [Firmware updates for Connect&nbsp;ZBT-1](/hc/en-us/articles/26124447269917)
 - [Zigbee Home Automation integration documentation](https://www.home-assistant.io/integrations/zha/)
 - [Thread integration documentation](https://www.home-assistant.io/integrations/thread/)
