@@ -20,4 +20,5 @@ Zigbee has 2 device types:
 If you have enough routers, there’s no theoretical limit:
 
 - If you have 0 routers, you can have a max of 32 end-devices (connected directly to the coordinator). Running the Zigbee network without extra router devices is not recommended.
-- If you have a few routers spread throughout all rooms, it's unlikely you'll encounter a limit. However, how many children can connect to a router depends on the router’s firmware. For example, newer Silabs-based router devices generally tend to accept way more end-devices than older TI/CC2531-based router devices.
+- If you have a few routers spread throughout all rooms, it's unlikely you'll encounter a limit. How many children can connect to a router depends on the router’s firmware but each router can usually accept at least five end devices.
+- There is no practical limit to the number of routers on a network.
