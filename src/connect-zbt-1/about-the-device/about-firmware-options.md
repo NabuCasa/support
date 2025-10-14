@@ -4,9 +4,9 @@ zendesk:
   name: About Home Assistant Connect ZBT-1 firmware options
   position: 1
   labels: connect zbt-1, about the device, firmware
+productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
-{% assign productName = "Home Assistant Connect&nbsp;ZBT-1" %}
 {% include "connect-zbt-1/about-the-device/about-connect-zbt-firmware-options.md" %}
 
 ## Related topics
