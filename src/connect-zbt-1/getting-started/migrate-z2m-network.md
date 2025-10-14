@@ -117,7 +117,7 @@ If you no longer have the old adapter, you can [migrate via a Zigbee2MQTT backup
 
 ## Migrating the ZHA network to Connect&nbsp;ZBT-1
 
-{% include 'connect-zbt-1/migrate-zha-only.md' %}
+{% include 'connect-zbt-1/getting-started/migrate-zha-only.md' %}
 
 ## Related topics
 

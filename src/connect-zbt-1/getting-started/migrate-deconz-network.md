@@ -164,7 +164,7 @@ This migration includes the following steps:
 
 ## To migrate the ZHA network to Connect&nbsp;ZBT-1
 
-{% include 'connect-zbt-1/migrate-zha-only.md' %}
+{% include 'connect-zbt-1/getting-started/migrate-zha-only.md' %}
 
 ## Renaming the integration and reconfiguring automations
 
