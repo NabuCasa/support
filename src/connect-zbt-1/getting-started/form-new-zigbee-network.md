@@ -27,7 +27,7 @@ zendesk:
 ## To form a new Zigbee network
 
 {% steps %}
-{% include "connect-zbt-1/plug-in-zbt-1-and-extension-cable.md" %}
+{% include "connect-zbt-1/getting-started/plug-in-zbt-1-and-extension-cable.md" %}
 
 {% step "Locating the Home Assistant Connect&nbsp;ZBT-1 integration" %}
 {% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Locate the Connect ZBT-1 integration" %}
