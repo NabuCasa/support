@@ -63,6 +63,8 @@ If you don't want to use a phone and your Home Assistant has Bluetooth: either o
 
 - Use the USB-C cable to connect the device to a power source.
   - **Info**: You should see a warm white twinkle animation.
+  - If you have previously used this device with another Home Assistant hub, [reset Home Assistant Voice Preview Edition](https://support.nabucasa.com/hc/en-us/articles/25800178374557-Resetting-Home-Assistant-Voice-Preview-Edition).
+    - This is because Home Assistant Voice Preview Edition stores an encryption key tied to the original Home Assistant hub, even if the device is removed from that setup.
 
 {% endstepContent %}
 {% endstep %}
@@ -159,3 +161,4 @@ If you don't want to use a phone and your Home Assistant has Bluetooth: either o
 - [Home Assistant Companion app](https://companion.home-assistant.io/)
 - [Supported voice commands](https://www.home-assistant.io/voice_control/builtin_sentences/)
 - [Exposing devices to Assist](https://www.home-assistant.io/voice_control/voice_remote_expose_devices/)
+- [Resetting Home Assistant Voice Preview Edition](https://support.nabucasa.com/hc/en-us/articles/25800178374557-Resetting-Home-Assistant-Voice-Preview-Edition)
