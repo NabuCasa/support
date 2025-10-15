@@ -8,5 +8,3 @@ productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
 {% include "connect-zbt-1/data-handling/incl-about-stored-data.md" %}
-
-## Related topics
