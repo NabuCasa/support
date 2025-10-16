@@ -362,6 +362,52 @@ export default async function (eleventyConfig) {
     return currentGitSha;
   });
 
+  // Product configuration shortcode
+  eleventyConfig.addShortcode("productName", function (page) {
+    const categoryPath = page.inputPath.split("/");
+    const categoryName = categoryPath[2]; // e.g., "connect-zbt-1"
+
+    // Map category folder names to display names
+    const categoryMap = {
+      "connect-zbt-1": "Home&nbsp;Assistant Connect&nbsp;ZBT-1",
+      "connect-zwa-2": "Home&nbsp;Assistant Connect&nbsp;ZWA-2",
+      green: "Home&nbsp;Assistant&nbsp;Green",
+      yellow: "Home&nbsp;Assistant&nbsp;Yellow",
+      "voice-pe": "Home&nbsp;Assistant Voice&nbsp;PE",
+    };
+
+    const productConfig = this.ctx.productConfig || {};
+    const categoryDisplayName = categoryMap[categoryName];
+    const config = productConfig[categoryDisplayName];
+
+    return config
+      ? config.name
+      : categoryDisplayName || "Home Assistant Device";
+  });
+
+  eleventyConfig.addShortcode("productShortName", function (page) {
+    const categoryPath = page.inputPath.split("/");
+    const categoryName = categoryPath[2];
+
+    const categoryMap = {
+      "connect-zbt-1": "Home&nbsp;Assistant Connect&nbsp;ZBT-1",
+      "connect-zwa-2": "Home&nbsp;Assistant Connect&nbsp;ZWA-2",
+      green: "Home&nbsp;Assistant&nbsp;Green",
+      yellow: "Home&nbsp;Assistant&nbsp;Yellow",
+      "voice-pe": "Home&nbsp;Assistant Voice&nbsp;PE",
+    };
+
+    const productConfig = this.ctx.productConfig || {};
+    const categoryDisplayName = categoryMap[categoryName];
+    const config = productConfig[categoryDisplayName];
+
+    return config
+      ? config.shortName
+      : config
+      ? config.name
+      : categoryDisplayName || "Device";
+  });
+
   if (isPreview) {
     // Additional changes required for preview build
     eleventyConfig.setServerOptions({
