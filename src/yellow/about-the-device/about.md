@@ -6,6 +6,14 @@ zendesk:
   labels: yellow, about the system
 ---
 
+{% callout "important" %}
+
+The Home Assistant Yellow is [no longer manufactured](https://www.home-assistant.io/blog/2025/10/15/yellow-end-of-life/). It will continue to receive the support and software updates for a long time into the future.
+
+If you are looking for a Home Assistant hub with easy setup, check out the [Home Assistant Green](https://www.home-assistant.io/green).
+
+{% endcallout %}
+
 ## The expandable smart home hub for Home Assistant
 
 Home Assistant Yellow is the first smart home hub that was produced specifically for Home Assistant. It can be expanded with additional computing power or storage to grow with your smart home. With Home Assistant Yellow, you can control your lights, thermostat, TV, music, and more. Home Assistant integrates with over 1,000 different devices and services. Home Assistant works with popular brands like Philips Hue and also that odd-ball lightbulb you picked up at a sale.
