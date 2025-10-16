@@ -9,7 +9,7 @@ zendesk:
 
 The Home Assistant Yellow is [no longer manufactured](https://www.home-assistant.io/blog/2025/10/15/yellow-end-of-life/). It will continue to receive the support and software updates for a long time into the future.
 
-If you are looking for a Home Assistant hub with easy setup, but at a lower price point, check out the [Home Assistant Green](https://www.home-assistant.io/green). [Nabu Casa](https://www.nabucasa.com/), the organization that builds and sells official hardware for the [Open Home Foundation](https://www.openhomefoundation.org/), is now exploring what hardware could replace Home Assistant Yellow.
+If you are looking for a Home Assistant hub with easy setup, but at a lower price point, check out the [Home Assistant Green](https://www.home-assistant.io/green). Nabu Casa is now exploring what hardware could replace Home Assistant Yellow.
 
 ## Related topics
 
