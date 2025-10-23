@@ -5,6 +5,7 @@ zendesk:
   position: 2
   labels: connect zbt-1, about the device, firmware
 productName: "Home Assistant Connect&nbsp;ZBT-1"
+firmwareInstallerPage: "https://toolbox.openhomefoundation.org/zbt1/install"
 ---
 
 The {{ productName }} ships with a full-fledged Zigbee firmware. *At this point, there are no known issues with the factory-flashed firmware.*
@@ -35,10 +36,8 @@ Verify the add-on logs to confirm successful flashing.
 If your Home Assistant installation has no add-ons available, you can install the latest firmware version for {{ productName }} directly from your browser over USB. To do this, follow these steps:
 
 1. On your computer, open a Chromium-based browser, such as Google Chrome or Microsoft Edge.
-2. Open [the toolbox website](https://toolbox.openhomefoundation.org/).
-3. Go to **{{ productName }}** > **Install firmware** and select the **Install firmware** button.
-4. Plug in your {{ productName }} to your computer and select the firmware version you want to install.
+2. Open [the toolbox website]({{ firmwareInstallerPage }}) and follow the instructions on installing the firmware.
 
 ## Related topics
 
-- [Open Home Foundation Toolbox](https://toolbox.openhomefoundation.org/zbt1/install)
+- [Open Home Foundation Toolbox](firmwareInstallerPage)
