@@ -17,7 +17,7 @@ There are currently two different recommended firmware options available for {{ 
 
 - This firmware allows the use of {{ productName }} as a dedicated Thread border router when used with the **Open Thread Border Router** add-on.
 - Other terms you may have seen to designate this firmware: OpenThread RCP, RCP OT.
-- If there is a firmware update for {{ productName }} available, Home Assistant will show it in the same location as any other update. You can update the adapter directly from there.
+- Home Assistant supports installing and updating the Thread firmware: You can install the firmware from the {{ productName }} integration page. If there is a firmware update for {{ productName }} available, Home Assistant will show an update notification.
 
 ### Overview of Zigbee and Thread firmware options, add-ons, and integrations in Home Assistant
 
