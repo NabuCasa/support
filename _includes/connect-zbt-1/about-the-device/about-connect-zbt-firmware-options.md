@@ -11,7 +11,7 @@ There are currently two different recommended firmware options available for {{ 
 
 - This is the firmware that runs a Zigbee network. It is preinstalled on {{ productName }}.
 - Other terms you may have seen to designate this firmware: EmberZNet firmware, {% abbr "EZSP" %} firmware, Zigbee EZSP.
-- If there is a firmware update for {{ productName }} available, Home Assistant will show it in the same location as any other update. You can update the adapter directly from there.
+- Home Assistant supports installing and updating the Zigbee firmware: You can install the firmware from the {{ productName }} integration page. If there is a firmware update for {{ productName }} available, Home Assistant will show an update notification.
 
 ### Thread firmware
 
