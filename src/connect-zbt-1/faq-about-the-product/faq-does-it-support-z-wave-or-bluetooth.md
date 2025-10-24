@@ -7,4 +7,4 @@ zendesk:
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
-No, {{ productName }} does not support Z-Wave or Bluetooth. ZBT stands for Zigbee and Thread.
+{% include "connect-zbt-1/faq/does-it-support-z-wave-bluetooth.md" %}
