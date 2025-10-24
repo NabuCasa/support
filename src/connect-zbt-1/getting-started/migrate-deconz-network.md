@@ -65,9 +65,11 @@ This migration includes the following steps:
 
 {% endstepContent %}
 {% endstep %}
+{% endsteps %}
 
 ## To migrate a deCONZ network from the old adapter to ZHA
 
+{% steps %}
 {% step "Stopping the deCONZ add-on" %}
 {% image "/static/img/connect-zbt-1/conbee-migrate-zha-02.png" "Stop the deCONZ add-on" %}
 {% stepContent %}
@@ -161,6 +163,7 @@ This migration includes the following steps:
 
 {% endstepContent %}
 {% endstep %}
+{% endsteps %}
 
 ## To migrate the ZHA network to Connect&nbsp;ZBT-1
 
@@ -168,6 +171,7 @@ This migration includes the following steps:
 
 ## Renaming the integration and reconfiguring automations
 
+{% steps %}
 {% step "Renaming the ZHA integration" %}
 {% image "/static/img/connect-zbt-1/conbee-migrate-zha-new-21.png" "Start renaming ZHA integration" %}
 {% stepContent %}
