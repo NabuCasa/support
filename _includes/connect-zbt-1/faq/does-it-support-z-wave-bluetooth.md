@@ -1,0 +1,1 @@
+No, {{ productName }} does not support Z-Wave or Bluetooth. ZBT stands for Zigbee and Thread.
