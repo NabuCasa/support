@@ -4,6 +4,7 @@ zendesk:
   name:  Is Zigbee Green Power (ZGP) supported by Home Assistant Connect ZBT-1?
   position: 8
   labels: connect zbt-1, faq
+productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
-No. Zigbee Green Power is not supported.
+{% include "connect-zbt-1/faq/is-zgp-supported.md" %}
