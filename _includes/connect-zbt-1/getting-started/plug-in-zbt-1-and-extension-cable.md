@@ -1,4 +1,4 @@
-{% steps %}
+
 {% step "Plugging the extension cable into Home Assistant Connect&nbsp;ZBT-1" %}
 {% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Plug the extension cable into Connect ZBT-1" %}
 {% stepContent %}
@@ -11,4 +11,3 @@
 
 {% endstepContent %}
 {% endstep %}
-{% endsteps %}
