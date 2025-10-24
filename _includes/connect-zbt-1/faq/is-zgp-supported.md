@@ -1,0 +1,1 @@
+No. Zigbee Green Power is not supported by {{ productName }}.
