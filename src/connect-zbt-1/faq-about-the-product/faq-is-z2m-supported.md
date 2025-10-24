@@ -13,7 +13,7 @@ After copying the example below, replace the `<usb-serial-number>` placeholder w
 
 ```yaml
 serial:
-  adapter: ezsp
+  adapter: ember
   port: /dev/serial/by-id/usb-Nabu_Casa_SkyConnect_v1.0_<usb-serial-number>-if00-port0
   baudrate: 115200
   rtscts: true
@@ -21,7 +21,7 @@ serial:
 
 ```yaml
 serial:
-  adapter: ezsp
+  adapter: ember
   port: /dev/serial/by-id/usb-Nabu_Casa_Connect_ZBT-1_v1.0_<usb-serial-number>-if00-port0
   baudrate: 115200
   rtscts: true
