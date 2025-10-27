@@ -13,10 +13,13 @@ This section shows you how to reinstall firmware using a web flasher tool. In mo
 - If you just want install the latest firmware, follow the steps on [Updating firmware](/hc/en-us/articles/26124447269917).
 - If you want to switch firmwares, follow the steps on [switching from Zigbee to Thread](/hc/en-us/articles/26124710072861).
 
-> **Notice**
-> Firmware update through web flasher is only available for Home Assistant SkyConnect devices and {{ productName }} devices purchased after October 20, 2024.
+Reinstalling the firmware using the Open Home Foundation Toolbox is useful if you are running an older Home Assistant version, or want to install a custom firmware version. It allows you to install the latest firmware version for {{ productName }} directly from your browser over USB.
 
-If you are running an older Home Assistant version, or want to install a custom firmware version, you can install the latest firmware version for {{ productName }} directly from your browser over USB. To do this, follow these steps:
+## Prerequisites
+
+- Firmware update through web flasher is only available for Home Assistant SkyConnect devices and {{ productName }} devices purchased after October 20, 2024.
+
+## To reinstall the firmware using the Open Home Foundation Toolbox
 
 1. On your computer, open a Chromium-based browser, such as Google Chrome or Microsoft Edge.
 2. Open [the toolbox website]({{ firmwareInstallerPage }}) and follow the instructions on installing the firmware.
