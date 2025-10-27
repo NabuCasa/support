@@ -11,7 +11,7 @@ haVersion: "Home Assistant 2025.4"
 
 The {{ productName }} ships with a full-fledged Zigbee firmware. *At this point, there are no known issues with the factory-flashed firmware.*
 
-Firmware updates for the {{ productName }} are natively supported in {{ haVersion }} and newer if you are running the {% abbr "ZHA" %} integration or {% abbr "OTBR" %}:
+Firmware updates for the {{ productName }} are natively supported in {{ haVersion }} and newer if you are running the {% abbr "ZHA" %} integration or {% abbr "OTBR" %} integration:
 
 ![Screenshot of update notification](/static/img/connect-zbt-1/connect-zbt-1_firmware_update_notification.png)
 
