@@ -17,7 +17,7 @@ Reinstalling the firmware using the Open Home Foundation Toolbox is useful if yo
 
 ## Prerequisites
 
-- Firmware update through web flasher is only available for Home Assistant SkyConnect devices and {{ productName }} devices purchased after October 20, 2024.
+- The firmware update through web flasher is only available for Home Assistant SkyConnect devices and {{ productName }} devices purchased after October 20, 2024.
 
 ## To reinstall the firmware using the Open Home Foundation Toolbox
 
