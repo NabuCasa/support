@@ -32,7 +32,7 @@ Verify the add-on logs to confirm successful flashing.
 ## Reflash using the Web Flasher
 
 > **Notice**
-> Firmware update through web flasher is only available for Home Assistant SkyConnect devices and Home Assistant Connect&nbsp;ZBT-1 devices purchased after October 20, 2024.
+> Firmware update through web flasher is only available for Home Assistant SkyConnect devices and {{ productName }} devices purchased after October 20, 2024.
 
 If your Home Assistant installation has no add-ons available, you can install the latest firmware version for {{ productName }} directly from your browser over USB. To do this, follow these steps:
 
