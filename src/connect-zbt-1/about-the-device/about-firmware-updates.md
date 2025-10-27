@@ -41,4 +41,4 @@ If your Home Assistant installation has no add-ons available, you can install th
 
 ## Related topics
 
-- [Open Home Foundation Toolbox](firmwareInstallerPage)
+- [Open Home Foundation Toolbox]({{ firmwareInstallerPage }})
