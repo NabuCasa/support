@@ -6,6 +6,7 @@ zendesk:
   labels: connect zbt-1, about the device, firmware
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 firmwareInstallerPage: "https://toolbox.openhomefoundation.org/zbt1/install"
+haVersion: "Home Assistant 2025.4"
 ---
 
 The {{ productName }} ships with a full-fledged Zigbee firmware. *At this point, there are no known issues with the factory-flashed firmware.*
