@@ -19,7 +19,7 @@ Firmware updates for the {{ productName }} are natively supported in {{ haVersio
 
 > **Note:** [Home Assistant SkyConnect](/hc/en-us/articles/26151953609117) and {{ productName }} use the same firmware. You can use the same firmware update process for both devices.
 
-If you must reinstall the firmware on your Home Assistant Connect&nbsp;ZBT-1 today, the following options are available:
+If you must reinstall the firmware on your {{ productName }} today, the following options are available:
 
 - **For Thread:** The [OpenThread Border Router](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_openthread_border_router) add-on flashes the Thread firmware on startup. You can verify the add-on logs to see the output of the firmware check or potential firmware update.
 
