@@ -4,21 +4,16 @@ zendesk:
   name: Is Zigbee2MQTT supported by Home Assistant Connect ZBT-1?
   position: 7
   labels: connect zbt-1, faq
+productName: "Home Assistant Connect&nbsp;ZBT-1 (or Home Assistant SkyConnect, if you have that variant)"
 ---
 
-The Home Assistant team officially supports ZHA (Zigbee Home Automation), the Zigbee stack integrated into [Home Assistant Core](https://www.home-assistant.io/docs/glossary/#home-assistant-core).
-
-The Zigbee2MQTT project has [experimental support](https://www.zigbee2mqtt.io/guide/adapters/#experimental) (in beta stage) for the Silicon Labs radio on Home Assistant Connect&nbsp;ZBT-1 (or Home Assistant SkyConnect, if you have that variant). With this setting, Zigbee2MQTT is known to work on Home Assistant Connect&nbsp;ZBT-1.
-
-**Note:** The Zigbee Home Automation integration is active by default! If you are using Zigbee2MQTT, remember to delete and ignore the discovered Zigbee Home Automation integration to avoid interference.
-
-**Note:** When setting up Zigbee2MQTT with the Home Assistant Connect&nbsp;ZBT-1, you will need to configure the adapter type in Zigbee2MQTT. Make sure the following is present in your Zigbee2MQTT configuration:
+{% include "connect-zbt-1/faq/is-z2m-supported.md" %}
 
 After copying the example below, replace the `<usb-serial-number>` placeholder with the actual serial number.
 
 ```yaml
 serial:
-  adapter: ezsp
+  adapter: ember
   port: /dev/serial/by-id/usb-Nabu_Casa_SkyConnect_v1.0_<usb-serial-number>-if00-port0
   baudrate: 115200
   rtscts: true
@@ -26,7 +21,7 @@ serial:
 
 ```yaml
 serial:
-  adapter: ezsp
+  adapter: ember
   port: /dev/serial/by-id/usb-Nabu_Casa_Connect_ZBT-1_v1.0_<usb-serial-number>-if00-port0
   baudrate: 115200
   rtscts: true
@@ -38,5 +33,5 @@ You can find the port information under [Settings > System > Hardware](https://m
 
 ## Related topics
 
-- [Zigbee2MQTT experimental support](https://www.zigbee2mqtt.io/guide/adapters/#experimental)
+- [Zigbee2MQTT support](https://www.zigbee2mqtt.io/guide/adapters/#recommended)
 - [ZHA integration](https://www.home-assistant.io/integrations/zha/)
