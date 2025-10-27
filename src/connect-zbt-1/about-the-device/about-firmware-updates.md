@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26124447269917
-  name:  Updating firmware for Connect ZBT-1
+  name: Updating firmware for Connect ZBT-1
   position: 2
   labels: connect zbt-1, about the device, firmware
 productName: "Home Assistant Connect&nbsp;ZBT-1"
