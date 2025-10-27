@@ -23,7 +23,7 @@ If you must reinstall the firmware on your {{ productName }} today, the followin
 
 - **For Thread:** The [OpenThread Border Router](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_openthread_border_router) add-on flashes the Thread firmware on startup. You can verify the add-on logs to see the output of the firmware check or potential firmware update.
 
-- **For Zigbee:** You can use the [Silicon Labs Flasher](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_silabs_flasher) add-on. The add-on will flash the Home Assistant Connect&nbsp;ZBT-1 and stop right after. Before starting the add-on:
+- **For Zigbee:** You can use the [Silicon Labs Flasher](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_silabs_flasher) add-on. The add-on will flash the adapter and stop right after. Before starting the add-on:
   - Disable the [Zigbee Home Automation](https://my.home-assistant.io/redirect/integration/?domain=zha) integration or any add-on which might use the {{ productName }} at the point of flashing.
   - Start the add-on.
 
