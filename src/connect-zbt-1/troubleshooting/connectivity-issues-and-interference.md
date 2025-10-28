@@ -11,7 +11,7 @@ Zigbee devices can't communicate reliably if they are too close to other electro
 
 The video below demonstrates this effect: when the adapter is moved closely to a source of interference, the light switch and the light cannot communicate. The video shows a Home Assistant Connect&nbsp;ZBT-1 but the issue applies to any Zigbee adapter.
 
-<iframe width="960" height="540" src="https://www.youtube.com/embed/tHqZhNcFEvA" title="Demo: Zigbee interference caused by USB 3.0 and later and later" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" controls>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/tHqZhNcFEvA" title="Demo: Zigbee interference caused by USB 3.0 and later" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" controls>
 </iframe>
 
 **Technical note**: The built-in IEEE&nbsp;802.15.4 radio (like any Zigbee radio) uses a technique called Clear Channel Assessment (CCA). Before transmitting, the radio listens on the channel it intends to use. If there is traffic on the channel, it prevents the sender from becoming active. This traffic is not limited to the Zigbee protocol. It includes other protocols using the same 2.4&nbsp;GHz band, as well as electromagnetic interference from other devices.
