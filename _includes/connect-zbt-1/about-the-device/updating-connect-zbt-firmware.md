@@ -4,4 +4,4 @@ Firmware updates for the {{ productName }} are natively supported in {{ haVersio
 
 ![Screenshot of update notification](/static/img/connect-zbt-1/connect-zbt-1_firmware_update_notification.png)
 
-If you want to switch from the Zigbee to the Thread firmware, follow the steps on [Switching from Zigbee to Thread](/hc/en-us/articles/26124710072861).
+If you want to switch from the Zigbee to the Thread firmware, follow the steps on Switching from Zigbee to Thread.
