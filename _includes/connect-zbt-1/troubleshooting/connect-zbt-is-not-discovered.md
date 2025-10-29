@@ -13,4 +13,4 @@ You can try the following steps:
 
   ![Screenshot showing the option to show ignored integrations](/static/img/connect-zbt-1/conbee-migrate-zha-23.png)
 
-5. Restart Home Assistant.
+5. Restart Home Assistant to resolve missing USB discoveries.
