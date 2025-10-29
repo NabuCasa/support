@@ -1,1 +1,1 @@
-Yes. For example, you can run an adapter with deCONZ or Zigbee2MQTT alongside {{ productName }} (which uses the [**Zigbee Home Automation**](https://www.home-assistant.io/integrations/zha/) integration).
+Yes. For example, you can run another adapter with deCONZ or Zigbee2MQTT alongside {{ productName }} (which uses the [**Zigbee Home Automation**](https://www.home-assistant.io/integrations/zha/) integration).
