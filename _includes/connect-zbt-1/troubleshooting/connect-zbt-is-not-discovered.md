@@ -1,6 +1,6 @@
 ## Symptom
 
-I plugged in {{ productName }} but the Zigbee Home Automation {{ productNameShort }} integration does not show up on the integration page. It is not under **Discovered**.
+I plugged in {{ productName }} but the {{ productNameShort }} integration does not show up on the integration page. It is not under **Discovered**.
 
 ## Resolution
 
