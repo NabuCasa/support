@@ -5,7 +5,6 @@ zendesk:
   position: 50
   labels: connect zbt-1, troubleshooting
 productName: "Home Assistant Connect&nbsp;ZBT-1"
-productNameShort: "Connect&nbsp;ZBT-1"
 ---
 
 {% include "connect-zbt-1/troubleshooting/connect-zbt-is-not-discovered.md" %}
