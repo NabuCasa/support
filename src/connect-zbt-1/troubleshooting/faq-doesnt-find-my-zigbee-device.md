@@ -6,7 +6,7 @@ zendesk:
   labels: connect zbt-1, troubleshooting
 ---
 
-{% include "connect-zbt-1/troubleshooting/ha-doesnt-find-my-zigbee-device.md" %}
+{% include "connect-zbt-1/troubleshooting/ha-does-not-find-my-zigbee-device.md" %}
 
 ## Related topics
 
