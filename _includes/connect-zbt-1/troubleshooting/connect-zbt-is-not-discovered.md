@@ -1,6 +1,6 @@
 ## Symptom
 
-I plugged in {{ productName }} but the {{ productName }} integration does not show up on the integration page. It is not under **Discovered**.
+I plugged in {{ productName }} but the {{ productName }} integration does not show up on the integration page. It is not in the **Discovered** section.
 
 ## Resolution
 
