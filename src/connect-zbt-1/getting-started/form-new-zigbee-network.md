@@ -36,6 +36,8 @@ zendesk:
 - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
 - Connect ZBT-1 should now have been discovered.
 - Select **Add**.
+- **Troubleshooting**: If the device is not discovered, restart Home Assistant.
+  - If you have previously used the device, removed it and plugged it back in, it might not be discovered again.
 
 {% endstepContent %}
 {% endstep %}

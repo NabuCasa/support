@@ -1,22 +1,11 @@
 ---
 zendesk:
   article_id: 26125510024605
-  name: The Connect ZBT-1 integration is not shown on the integrations page
+  name: The Connect ZBT-1 integration is not shown on the integrations page (not discovered)
   position: 50
   labels: connect zbt-1, troubleshooting
+productName: "Home Assistant Connect&nbsp;ZBT-1"
+productNameShort: "Connect&nbsp;ZBT-1"
 ---
 
-## Symptom
-
-I plugged in Home Assistant Connect&nbsp;ZBT-1 but the Zigbee Home Automation (ZHA) Connect&nbsp;ZBT-1 integration does not show up on the integration page.
-
-## Resolution
-
-You can try the following steps:
-
-1. Wait a bit longer. It can take a while for Home Assistant Connect&nbsp;ZBT-1 to show up.
-2. Try a different USB port.
-3. Refresh your browser page.
-4. Make sure the ZHA integration is not hidden. Select **Show ignored integrations**.
-
-![Screenshot showing the option to show ignored integrations](/static/img/connect-zbt-1/conbee-migrate-zha-23.png)
+{% include "connect-zbt-1/troubleshooting/connect-zbt-is-not-discovered.md" %}
