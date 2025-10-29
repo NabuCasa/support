@@ -4,6 +4,7 @@ zendesk:
   name: Can I run 2 adapters with different Zigbee solutions simultaneously?
   position: 5
   labels: connect zbt-1, faq
+productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
-Yes. For example, you can run an adapter with deCONZ or Zigbee2MQTT alongside Home Assistant Connect&nbsp;ZBT-1 with Zigbee Home Automation.
+{% include "connect-zbt-1/faq/can-i-run-2-zigbee-solutions.md" %}
