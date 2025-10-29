@@ -1,0 +1,1 @@
+Yes. For example, you can run an adapter with deCONZ or Zigbee2MQTT alongside {{ productName }} with the **Zigbee Home Automation** integration.
