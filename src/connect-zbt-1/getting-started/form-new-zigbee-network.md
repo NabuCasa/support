@@ -35,6 +35,7 @@ zendesk:
 
 - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
 - Connect ZBT-1 should now have been discovered.
+  - **Troubleshooting**: If the device is not discovered, [check the troubleshooting steps](/hc/en-us/articles/26125510024605).
 - Select **Add**.
 
 {% endstepContent %}
@@ -91,3 +92,4 @@ zendesk:
 - [Home Assistant Container installation](https://www.home-assistant.io/docs/glossary/#home-assistant-container)
 - [Mapping devices to the container](https://www.home-assistant.io/installation/linux#exposing-devices)
 - [Connectivity issues due to interference](/hc/en-us/articles/26124431414557)
+- [Adapter is not discovered by Home Assistant](/hc/en-us/articles/26125510024605)
