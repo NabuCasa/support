@@ -49,4 +49,4 @@ If the problem persists, try resetting your Home Assistant Cloud data and reques
 If resetting cloud data **did not resolve the issue**, **do not reset it again**. Instead:
 
 1. Download and attach the support file using the 3 dots in the upper right corner of the Home Assistant Cloud page in the HA settings
-2. Use the 'Submit a ticket' button on this page and include the downloaded file with your request. This file will help identify the root cause of your issue.
+2. Use the **Submit a ticket** button on this page and include the downloaded file with your request. This file will help identify the root cause of your issue.
