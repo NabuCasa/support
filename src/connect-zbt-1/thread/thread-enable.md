@@ -1,16 +1,14 @@
 ---
 zendesk:
   article_id: 26124710072861
-  name: Enabling Thread support
+  name: Switching from Zigbee to Thread support on Home Assistant Connect ZBT-1
   position: 1
   labels: connect zbt-1, thread
 ---
 
-This guide outlines the steps for configuring the Home Assistant Connect&nbsp;ZBT-1 for dedicated Thread support. This setup facilitates the connection of Matter-over-Thread devices to your network.
+This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedicated Thread adapter when you have previously used it for Zigbee. The Thread adapter allows you to connect Thread-based devices, such as Matter-over-Thread devices, to your network.
 
 ## Prerequisites
-
-This guide assumes you have the following setup:
 
 {% steps %}
 {% prereq %}
@@ -19,61 +17,57 @@ This guide assumes you have the following setup:
 
 - Connected Home Assistant Connect&nbsp;ZBT-1.
 - [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) installation.
+- You are currently using Home Assistant Connect&nbsp;ZBT-1 as a Zigbee adapter, but want to use it as a Thread adapter from now on.
 - You don't have Multiprotocol enabled. If you do, disable it by following the steps in the procedure on [disabling multiprotocol support](/hc/en-us/articles/26124969612445).
-- **Important:** This guide installs firmware that supports only Thread! If you use your Connect ZBT-1 to control Zigbee devices, you will no longer be able to control them after installing the Thread firmware.
+- **Important:** This guide installs firmware that supports only Thread! You will no longer be able to control your Zigbee devices with this adapter after installing the Thread firmware. Depending on whether you want to keep your Zigbee network (on an other device) or not, follow the steps in one of the following scenarios:
+  - **Scenario 1: You want to keep the Zigbee network**: If you use your existing Connect&nbsp;ZBT-1 to run a Zigbee network, [migrate your Zigbee network](/hc/en-us/articles/26123655295261) to another controller. Otherwise, if you delete the Zigbee network, even if you set it up again, all of your entity customizations will be gone.
+  - **Scenario 2: You no longer need the Zigbee network**: If you use your existing Connect&nbsp;ZBT-1 to run a Zigbee network, and you no longer need a Zigbee network, follow these steps to remove ZHA from the integration list:
+
+    1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
+    2. Select the **Zigbee Home Assistant** integration card.
+    3. Select the three dots menu behind **Home Assistant Connect&nbsp;ZBT-1** and choose **Delete**.
 
 {% endstepContent %}
 {% endprereq %}
 {% endsteps %}
 
-## To enable dedicated Thread support
+## To switch from Zigbee to Thread support
 
 {% steps %}
-{% step "Choosing your scenario" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-zha-delete.png" "Migrate your Zigbee network or delete the ZHA integration" %}
-{% stepContent %}
-
-- **Scenario 1**: If you have a new Connect ZBT-1 or did not set up Zigbee Home Automation (ZHA) yet, skip to Step 2.
-- **Scenario 2**: If you use your existing Connect ZBT-1 to run a Zigbee network, [Migrate your Zigbee network](/hc/en-us/articles/26123655295261) to another controller.
-  - Otherwise, if you delete the Zigbee network, even if you set it up again, all of your entity customizations will be gone.
-- **Scenario 3**: If you are using the Connect ZBT-1 with Zigbee Home Automation (ZHA), and you no longer need a Zigbee network, follow these steps to remove ZHA from the integration list:
-
-  1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-  2. Select the **Zigbee Home Automation** integration card.
-  3. Select the menu behind the **Connect ZBT-1 v1.0** integration and choose **Delete**.
-  4. On the pop-up menu, select **Delete** again to confirm deletion.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Configuring the Home Assistant Connect&nbsp;ZBT-1" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1_configure.png" "Configure the Connect ZBT-1" %}
-{% stepContent %}
-
-1. Go to [**Settings** > **System** > **Hardware**](https://my.home-assistant.io/redirect/hardware/).
-2. Under **Home Assistant Connect ZBT-1**, select **Configure**.
-
-{% endstepContent %}
-{% endstep %}
-
 {% step "Selecting the Thread firmware" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1_pick_firmware.png" "Select the Thread firmware" %}
-{% stepContent %}
-
-1. Select **Use as a Thread border router**.
-   - **Result**: This will install the OpenThread Border Router add-on.
-2. The dialog informs you that Home Assistant Connect&nbsp;ZBT-1 now acts as an OpenThread border router. Select **Submit**.
-3. Then, select **Finish**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Locating the Thread integrations" %}
-{% image "/static/img/connect-zbt-1/otbr_thread_integrations.png" "Locate the Thread integrations" %}
+{% image "/static/img/connect-zbt-1/zbt-switch-to-thread.png" "Select the Thread firmware" %}
 {% stepContent %}
 
 1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-2. You should now see the **OpenThread Border Router** and the **Thread** integrations.
+2. Select the **Home Assistant Connect&nbsp;ZBT-1** integration card.
+3. Select the cog wheel behind **Home Assistant Connect&nbsp;ZBT-1**.
+4. Select **Use as Thread adapter**.
+   - **Result**: This installs the **OpenThread Border Router** add-on which allows you to connect Matter-over-Thread devices.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Adding the adapter to an area" %}
+{% image "/static/img/connect-zbt-1/zbt-thread-add-to-area.png" "Select the Thread firmware" %}
+{% stepContent %}
+
+1. When prompted, add the adapter to an area.
+2. Then, select **Finish**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Viewing the Thread networks" %}
+{% image "/static/img/connect-zbt-1/zbt-thread-network.png" "Locate the Thread integrations" %}
+{% stepContent %}
+
+1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
+   - You should now see the **OpenThread Border Router** and the **Thread** integrations.
+2. Select the **Thread** integration, then select the cogwheel.
+   - You will now see a **Home Assistant OpenThread Border Router**.
+   - You might also see other Thread networks from other border router devices in your home.
+   - Refer to the Thread documentation to learn more [about different Thread networks](https://www.home-assistant.io/integrations/thread/#about-different-thread-networks), or [about Thread border routers](https://www.home-assistant.io/integrations/thread/#about-thread-border-routers).
+   - You can now [add your Thread-based devices to Home Assistant](https://www.home-assistant.io/integrations/thread/#adding-a-thread-based-device-to-home-assistant).
 
 {% endstepContent %}
 {% endstep %}

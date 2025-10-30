@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 28934320761629
-  name: Connecting an external speaker
+  name: Connecting an external speaker to Home Assistant Voice Preview Edition
   position: 11
   labels: voice pe, operation, using the device, external speaker
 ---
@@ -42,5 +42,5 @@ zendesk:
 - [Muting the device](/hc/en-us/articles/25774403768477)
 - [Turning the wake sound on or off](/hc/en-us/articles/25774481113629)
 - [Status colors](/hc/en-us/articles/25764604971421)
-- [Using Home Assistant Voice PE](/hc/en-us/articles/28699323695389)
+- [Using Home Assistant Voice Preview Edition](/hc/en-us/articles/28699323695389)
 - [About Home Assistant Voice Preview Edition](2869/hc/en-us/articles/9323695389)

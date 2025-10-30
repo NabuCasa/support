@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25592268332445
-  name: Which SSDs are not supported?
+  name: Which SSDs are not supported by Home Assistant Yellow?
   position: 3
   labels: yellow, faq, general
 ---

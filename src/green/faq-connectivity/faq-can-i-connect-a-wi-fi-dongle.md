@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25141560076701
-  name: Can I connect a Wi-Fi dongle?
+  name: Can I connect a Wi-Fi dongle to Home Assistant Green?
   position: 5
   labels: green, troubleshooting
 ---

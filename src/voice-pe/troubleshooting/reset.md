@@ -1,12 +1,18 @@
 ---
 zendesk:
   article_id: 25800178374557
-  name: Resetting the device
+  name: Resetting Home Assistant Voice Preview Edition
   position: 2
   labels: voice pe, troubleshooting, reset
 ---
 
-A device reset deletes the Wi-Fi credentials and the light settings from Home Assistant Voice. The device does not store any other user data. After a reset, the device is ready for a new onboarding process. This may be necessary, for example, when you want to give the device to someone else or if you want to use it in a new environment with different Wi-Fi credentials.
+A device reset deletes the following elements from Home Assistant Voice:
+
+- the Wi-Fi credentials
+- the encryption key that is used to encrypt the communication between Home Assistant Voice Preview Edition and your Home Assistant hub
+- the light settings
+
+The device does not store any other user data. After a reset, the device is ready for a new onboarding process. This may be necessary, for example, when you want to give the device to someone else or if you want to use it in a new environment with different Wi-Fi credentials.
 
 ## To reset the device
 

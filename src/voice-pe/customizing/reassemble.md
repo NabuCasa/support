@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25938314528285
-  name: Reassembling the enclosure using 3D-printed parts
+  name: Reassembling the enclosure of Home Assistant Voice Preview Edition using 3D-printed parts
   position: 4
   labels: voice pe, customizing
 ---

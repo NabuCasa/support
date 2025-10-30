@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25774403768477
-  name: Muting the device
+  name: Muting Home Assistant Voice Preview Edition
   position: 3
   labels: voice pe, operation, using the device, mute
 ---
@@ -35,7 +35,7 @@ If you don’t want the device to listen for a while, you can mute the microphon
 {% stepContent %}
 
 1. The red status light indicates the device is muted.
-   - If you muted the device, the LEDs closest to the speaker turn red to indicate that the microphones are off.
+   - If you muted the device, the LEDs closest to the microphones turn red to indicate that the device is muted.
 
 {% endstepContent %}
 {% endstep %}

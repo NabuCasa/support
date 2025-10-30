@@ -1,30 +1,44 @@
 ---
 zendesk:
   article_id: 26124035750173
-  name: Migrating a deCONZ network using Zigbee Home Automation (ZHA)
+  name: Migrating a deCONZ network to Home Assistant Connect ZBT-1 using Zigbee Home Automation (ZHA)
   position: 4
   labels: connect zbt-1, getting started, migrate, migration
 ---
 
-Follow this guide if you have a deCONZ network running with a ConBee II or RaspBee II and want to migrate to Connect ZBT-1 and {% abbr "ZHA" %}.
+Follow this guide if you have a deCONZ network running with a ConBee II or RaspBee II and want to migrate to Connect&nbsp;ZBT-1 and {% abbr "ZHA" %}.
 
 {% callout "note" %}
 
 **Not possible to migrate all settings and devices**
 
-This procedure only helps migrate basic network settings to Home Assistant Connect ZBT-1.
+This procedure only helps migrate basic network settings to Home Assistant Connect&nbsp;ZBT-1.
 
 - Customizations like device names will be lost and automations will need to be updated.
-- Most powered devices like lightbulbs will be re-discovered over time (you can speed this up by rebooting the device) but your battery-powered devices may need to be re-joined to the network for the migration to complete.
+- Most powered devices like light bulbs will be re-discovered over time (you can speed this up by rebooting the device) but your battery-powered devices may need to be re-joined to the network for the migration to complete.
 - There is currently no migration path to migrate all settings and devices.
 
 {% endcallout %}
 
-## To migrate a deCONZ network to Connect ZBT-1 using ZHA
+This migration includes the following steps:
+
+1. [Prerequisites](#prerequisites).
+2. [Migrating the deCONZ network from the old adapter to ZHA](#to-migrate-a-deconz-network-from-the-old-adapter-to-zha).
+3. [Migrating this ZHA network to Connect&nbsp;ZBT-1](#to-migrate-the-zha-network-to-connectzbt-1).
+4. [Renaming the integration and reconfiguring automations](#renaming-the-integration-and-reconfiguring-automations).
+
+## Prerequisites
+
+- a deCONZ network running with a ConBee II or RaspBee II.
+- Home Assistant version 2025.10.1 or later.
+- firmware version 26720700 or later on the Conbee/Raspbee adapter.
+  - Check the steps below to see how to [check the version or update the deCONZ adapter](#updating-the-deconz-adapter).
+
+### Updating the deCONZ adapter
 
 {% steps %}
-{% step "Viewing the firmware version of the stick" %}
-{% image "/static/img/connect-zbt-1/conbee-update-05.png" "View the firmware version of the stick" %}
+{% step "Viewing the firmware version of the adapter" %}
+{% image "/static/img/connect-zbt-1/conbee-update-05.png" "View the firmware version of the adapter" %}
 {% stepContent %}
 
 - In the deCONZ app, under **Settings** > **Gateway**, check the firmware version. It should be version 26720700 or newer.
@@ -51,7 +65,11 @@ This procedure only helps migrate basic network settings to Home Assistant Conne
 
 {% endstepContent %}
 {% endstep %}
+{% endsteps %}
 
+## To migrate a deCONZ network from the old adapter to ZHA
+
+{% steps %}
 {% step "Stopping the deCONZ add-on" %}
 {% image "/static/img/connect-zbt-1/conbee-migrate-zha-02.png" "Stop the deCONZ add-on" %}
 {% stepContent %}
@@ -83,11 +101,11 @@ This procedure only helps migrate basic network settings to Home Assistant Conne
 {% endstepContent %}
 {% endstep %}
 
-{% step "Select Configure" %}
+{% step "Add the Zigbee Home Automation integration" %}
 {% image "/static/img/connect-zbt-1/conbee-migrate-zha-04.png" "Configure the new ZHA integration" %}
 {% stepContent %}
 
-- Once the ZHA integration has detected ConBee II, select **Configure**.
+- Once the ZHA integration has detected ConBee II, select **Add**.
 
 {% endstepContent %}
 {% endstep %}
@@ -96,50 +114,45 @@ This procedure only helps migrate basic network settings to Home Assistant Conne
 {% image "/static/img/connect-zbt-1/conbee-migrate-zha-05.png" "Set up ConBee II as ZHA integration" %}
 {% stepContent %}
 
-- To setting up ConBee II as ZHA integration, select **Submit**.
+- To set up ConBee II as ZHA integration, select **Submit**.
 
 {% endstepContent %}
 {% endstep %}
 
-{% step "Choosing the serial port" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-24.png" "Choose the serial port" %}
+{% step "Choosing the Zigbee setup" %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-21.png" "Choose the network settings for your radio" %}
 {% stepContent %}
 
-- Choose the serial port and select **Submit**.
+- Select **Advanced setup**.
 
 {% endstepContent %}
 {% endstep %}
 
-{% step "Choosing the network settings for the radio" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-06.png" "Choose the network settings for the radio" %}
+{% step "Choosing the network settings for your radio" %}
+{% image "/static/img/connect-zbt-1/conbee-migrate-zha-51.png" "Choose the network settings for your radio" %}
 {% stepContent %}
 
-- Select **Keep radio network settings**.
+- Select **Keep adapter network settings**.
+  - This lets Zigbee Home Automation (ZHA) import settings from another device that was used with software other than ZHA.
+  - This way, some of the network settings can be migrated automatically.
+
+- {% stepResult "You can now start migrating the ZHA network as described below." %}
 
 {% endstepContent %}
 {% endstep %}
 
 {% step "Wait" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-07.png" "Wait" %}
+{% image "/static/img/connect-zbt-1/conbee-migrate-zha-09.png" "Wait" %}
 {% stepContent %}
 
 - Wait for the settings to be loaded.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Adding deCONZ to area" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-09.png" "Add the Zigbee coordinator to your area" %}
-{% stepContent %}
-
-- Once deCONZ has been recognized as your Zigbee coordinator, add it to your area.
-  - Select **Finish**.
+- Once the Conbee/Raspbee adapter has been recognized as your Zigbee coordinator, select **Finish**.
 
 {% endstepContent %}
 {% endstep %}
 
 {% step "Wait" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-42.png" "Wait for the devices to rejoin the network" %}
+{% image "/static/img/connect-zbt-1/z2m-backup-restore-05.png" "Wait for the devices to rejoin the network" %}
 {% stepContent %}
 
 - Wait for the devices to rejoin the network
@@ -150,170 +163,21 @@ This procedure only helps migrate basic network settings to Home Assistant Conne
 
 {% endstepContent %}
 {% endstep %}
+{% endsteps %}
 
-{% step "Configuring settings" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-41.png" "Open the network settings" %}
-{% stepContent %}
+## To migrate the ZHA network to Connect&nbsp;ZBT-1
 
-- To open the network settings, under **Integration entries**, select **Configure**.
+{% include 'connect-zbt-1/getting-started/migrate-zha-only.md' %}
 
-{% endstepContent %}
-{% endstep %}
+## Renaming the integration and reconfiguring automations
 
-{% step "" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-11.png" "Migrate the network settings" %}
-{% stepContent %}
-
-- Under **Network Settings**, select **Migrate radio**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Reconfigure ZHA" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-12.png" "Reconfigure ZHA" %}
-{% stepContent %}
-
-- **Reconfigure ZHA**:  Select **Submit**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Migrating to a new radio" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-13.png" "Migrate to a new radio" %}
-{% stepContent %}
-
-- Select **Migrate to a new radio**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Starting the automatic backup" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-14.png" "Start the automatic backup" %}
-{% stepContent %}
-
-- Start the automatic backup.
-  1. Make sure the ConBee firmware is running firmware version 26720700.
-  2. When it is up-to-date, select **Submit**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step " Unplugging your old radio" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-06.png" "Unplug your old radio" %}
-{% stepContent %}
-
-1. If you no longer need the old radio stick, you can now remove it.
-2. Before selecting **Submit**, connect Connect ZBT-1, as described in the following step.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Adding the extension cable" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Plug the extension cable into Connect ZBT-1" %}
-{% stepContent %}
-
-{% include "fragments/notice-interference.md" %}
-
-- Plug the Home Assistant Connect ZBT-1 into the USB extension cable
-  - Plug the extension cable into your Home Assistant instance.
-  - If you are using the standalone Home Assistant Container installation method, make sure Connect ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Submit" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-06.png" "Confirm that Connect ZBT-1 is plugged in" %}
-{% stepContent %}
-
-- Now that Connect ZBT-1 is plugged in, select **Submit**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-15.png" "Select the serial port" %}
-{% stepContent %}
-
-- Select the serial port for Connect ZBT-1, then select **Submit**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Restore automatic backup" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-08.png" "Start the backup restore process" %}
-{% stepContent %}
-
-- Select **Restore an automatic backup**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Choosing the backup" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-09.png" "Select the backup" %}
-{% stepContent %}
-
-- Choose the latest backup and select **Submit**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Overwriting radio IEEE address" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-10.png" "Overwrite radio IEEE address" %}
-{% stepContent %}
-
-- Overwrite radio IEEE address.
-  - Select the **Permanently replace the radio IEEE address** and select **Submit**.
-  - **Info**: This means that your old stick and your new stick will have the same IEEE address.
-    - This is required for the migration process to complete successfully.
-    - From this point onwards, you should not operate the old stick in the same area.
-    - If you do not migrate the IEEE address from your old stick, you'll have to repair many of your devices in order to keep them working.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Wait" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-11.png" "Wait" %}
-{% stepContent %}
-
-- **Wait**
-- Overwriting the IEEE address may take a while. Wait.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Checking the Connect ZBT-1 ZHA integration" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-new-18.png" "Check the Connect ZBT-1 ZHA integration" %}
-{% stepContent %}
-
-- Connect ZBT-1 is now set up in the ZHA integration.
-- To check whether the migration was successful, select the integration.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Checking the radio type" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-19.png" "Check the radio type" %}
-{% stepContent %}
-
-- Under **Network Settings**, check the **Radio type**. It should say **ezsp**.
-
-{% endstepContent %}
-{% endstep %}
-
+{% steps %}
 {% step "Renaming the ZHA integration" %}
 {% image "/static/img/connect-zbt-1/conbee-migrate-zha-new-21.png" "Start renaming ZHA integration" %}
 {% stepContent %}
 
 - To avoid confusion, rename the ZHA integration.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Changing the ZHA integration name" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-21.png" "Change the name to Connect ZBT-1" %}
-{% stepContent %}
-
-- Change the ZHA integration name to **Connect ZBT-1** and select **OK**.
+- Change the ZHA integration name to **Connect ZBT-1**.
 
 {% endstepContent %}
 {% endstep %}

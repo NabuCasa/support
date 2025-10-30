@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25454972435357
-  name: Using the serial console for debugging (Linux/macOS)
+  name: Using the serial console on Home Assistant Yellow for debugging (Linux/macOS)
   position: 2
   labels: yellow, troubleshooting
 ---

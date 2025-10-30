@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25774498553629
-  name: Stopping the current process
+  name: Stopping the current process on Home Assistant Voice Preview Edition
   position: 5
   labels: voice pe, operation, using the device, stop
 ---

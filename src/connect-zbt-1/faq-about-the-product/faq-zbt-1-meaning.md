@@ -4,6 +4,7 @@ zendesk:
   name: What does ZBT in Home Assistant Connect ZBT-1 stand for?
   position: 2
   labels: connect zbt-1, faq
+productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
-ZBT stands for Zigbee and Thread. You can use it with either Zigbee or Thread. Running Zigbee and Thread at the same time on one stick is not supported.
+{% include "connect-zbt-1/faq/zbt-meaning.md" %}

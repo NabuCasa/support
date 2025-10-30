@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 25153288092829
-  name: Using the console on the HDMI display
+  name: Connecting to Home Assistant Green via console
   position: 10
   labels: green, troubleshooting
 ---

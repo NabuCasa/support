@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 28698298655005
-  name: Can I disable the Ethernet status lights / Ethernet LEDs on Green?
+  name: Can I disable the Ethernet status lights / Ethernet LEDs on Home Assistant Green?
   position: 1
   labels: green, troubleshooting
 ---
