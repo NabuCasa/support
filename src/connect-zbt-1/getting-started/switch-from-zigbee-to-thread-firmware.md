@@ -42,6 +42,7 @@ This guide shows you how to use the {{ productName }} as a dedicated Zigbee adap
 2. Select the **{{ productName }}** integration card.
 3. Select the cog wheel behind **{{ productName }}**.
 4. Select **Use as Zigbee adapter**.
+   - Then, select **Recommended installation**.
 
 {% endstepContent %}
 {% endstep %}
@@ -56,7 +57,7 @@ This guide shows you how to use the {{ productName }} as a dedicated Zigbee adap
 {% endstepContent %}
 {% endstep %}
 
-{% step "Viewing the Zigbee networks" %}
+{% step "Viewing the Zigbee integration" %}
 {% image "/static/img/connect-zbt-1/zbt-1-zha-discovered.png" "Locate the Zigbee integrations" %}
 {% stepContent %}
 
