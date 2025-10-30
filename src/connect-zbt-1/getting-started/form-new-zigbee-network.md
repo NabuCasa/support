@@ -80,7 +80,7 @@ zendesk:
 {% include "fragments/notice-interference.md" %}
 
 - You can now add your Zigbee devices to the Zigbee network.
-  - Select **1 device** and select **Add devices via this device**. ZHA will now search for Zigbee devices in pairing mode.
+  - Select **1 device** and select **Add devices via this device**. The **Zigbee Home Automation** integration will now search for Zigbee devices in pairing mode.
   - Put your Zigbee device into pairing mode.
 
 {% endstepContent %}

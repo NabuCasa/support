@@ -25,7 +25,7 @@ This guide assumes you have the following setup:
 - Multiprotocol support disabled: Refer to the [Disable multiprotocol support](/hc/en-us/articles/25744235797661-Disabling-multiprotocol-support) procedure.
 - **Important:** This guide installs firmware that supports only Thread! You will no longer be able to control your Zigbee devices with this adapter after installing the Thread firmware. Depending on whether you want to keep your Zigbee network (on another device) or not, follow the steps in one of the following scenarios:
   - **Scenario 1: You want to keep the Zigbee network**: If you use your Yellow to run a Zigbee network, [migrate your Zigbee network](https://www.home-assistant.io/integrations/zha/#migrating-to-a-new-zigbee-coordinator-adapter-inside-zha) to another adapter. Otherwise, if you delete the Zigbee network, even if you set it up again, all of your entity customizations will be gone.
-  - **Scenario 2: You no longer need the Zigbee network**: If you use your Yellow to run a Zigbee network, and you no longer need a Zigbee network, follow these steps to remove ZHA from the integration list:
+  - **Scenario 2: You no longer need the Zigbee network**: If you use your Yellow to run a Zigbee network, and you no longer need a Zigbee network, follow these steps to remove the **Zigbee Home Automation** integration from the integration list:
 
     1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
     2. Select the **Zigbee Home Assistant** integration card.

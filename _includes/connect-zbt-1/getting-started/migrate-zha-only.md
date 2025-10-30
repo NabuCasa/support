@@ -5,7 +5,7 @@
 {% image "/static/img/connect-zbt-1/connect-zbt-migrate-radio.png" "Screenshot showing the migrate radio button on the Network settings dialog" %}
 {% stepContent %}
 
-1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the ZHA integration, then select the cog wheel.
+1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the **Zigbee Home Automation** integration, then select the cog wheel.
 2. Under **Network settings** add-on, select **Migrate radio**.
 
 {% endstepContent %}
@@ -24,11 +24,11 @@
 {% endstepContent %}
 {% endstep %}
 
-{% step "Reconfiguring ZHA" %}
+{% step "Reconfiguring Zigbee Home Automation integration" %}
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-03.png" "Screenshot showing the Reconfigure ZHA dialog" %}
 {% stepContent %}
 
-- To reconfigure ZHA, select **Submit**.
+- To reconfigure the **Zigbee Home Automation** integration, select **Submit**.
 
 {% endstepContent %}
 {% endstep %}

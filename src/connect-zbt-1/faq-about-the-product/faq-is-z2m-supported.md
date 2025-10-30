@@ -34,4 +34,4 @@ You can find the port information under [Settings > System > Hardware](https://m
 ## Related topics
 
 - [Zigbee2MQTT support](https://www.zigbee2mqtt.io/guide/adapters/#recommended)
-- [ZHA integration](https://www.home-assistant.io/integrations/zha/)
+- [Zigbee Home Automation integration](https://www.home-assistant.io/integrations/zha/)

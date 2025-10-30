@@ -10,8 +10,8 @@ Follow this guide if you have a Zigbee2MQTT network running and want to migrate 
 
 This migration is done in 2 steps:
 
-1. [Migrating the Zigbee2MQTT network to ZHA using the old adapter](#migrating-a-zigbee-network-from-zigbee2mqtt-to-zha-using-the-old-adapter).
-2. [Migrating this ZHA network to Connect&nbsp;ZBT-1](#migrating-the-zha-network-to-connect-zbt-1)
+1. [Migrating the Zigbee2MQTT network to the Zigbee Home Automation integration using the old adapter](#migrating-a-zigbee-network-from-zigbee2mqtt-to-zha-using-the-old-adapter).
+2. [Migrating this Zigbee Home Automation network to Connect&nbsp;ZBT-1](#migrating-the-zha-network-to-connect-zbt-1)
 
 {% callout "note" %}
 
@@ -27,7 +27,7 @@ This procedure only helps migrate basic network settings to Home Assistant Conne
 
 If you no longer have the old adapter, you can [migrate via a Zigbee2MQTT backup](/hc/en-us/articles/26700478689949).
 
-## Migrating a Zigbee network from Zigbee2MQTT to ZHA using the old adapter
+## Migrating a Zigbee network from Zigbee2MQTT to the Zigbee Home Automation integration using the old adapter
 
 {% steps %}
 {% step "Stopping the Zigbee2MQTT add-on" %}
@@ -63,17 +63,17 @@ If you no longer have the old adapter, you can [migrate via a Zigbee2MQTT backup
 {% endstepContent %}
 {% endstep %}
 
-{% step "Adding the ZHA integration (1)" %}
+{% step "Adding the Zigbee Home Automation integration (1)" %}
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-15.png" "Add ZHA integration (1)" %}
 {% stepContent %}
 
-1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), if you do not see the ZHA integration, select the **Add integration** button.
+1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), if you do not see the **Zigbee Home Automation** integration, select the **Add integration** button.
 2. From the dropdown list, select **Add Zigbee device**.
 
 {% endstepContent %}
 {% endstep %}
 
-{% step "Adding the ZHA integration (2)." %}
+{% step "Adding the Zigbee Home Automation integration (2)." %}
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-13.png" "Add ZHA integration (2)" %}
 {% stepContent %}
 
@@ -83,7 +83,7 @@ If you no longer have the old adapter, you can [migrate via a Zigbee2MQTT backup
 {% endstepContent %}
 {% endstep %}
 
-{% step "Adding the ZHA integration (3)" %}
+{% step "Adding the Zigbee Home Automation integration (3)" %}
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-14.png" "Add ZHA integration (3)" %}
 {% stepContent %}
 
@@ -109,13 +109,13 @@ If you no longer have the old adapter, you can [migrate via a Zigbee2MQTT backup
   - This lets Zigbee Home Automation (ZHA) import settings from another device that was used with software other than ZHA.
   - This way, some of the network settings can be migrated automatically.
 
-- {% stepResult "You can now start migrating the ZHA network as described below." %}
+- {% stepResult "You can now start migrating the Zigbee Home Automation network as described below." %}
 
 {% endstepContent %}
 {% endstep %}
 {% endsteps %}
 
-## Migrating the ZHA network to Connect&nbsp;ZBT-1
+## Migrating the Zigbee Home Automation network to Connect&nbsp;ZBT-1
 
 {% include 'connect-zbt-1/getting-started/migrate-zha-only.md' %}
 

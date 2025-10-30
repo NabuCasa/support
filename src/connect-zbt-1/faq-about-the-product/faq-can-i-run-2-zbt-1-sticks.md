@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26152239385629
-  name: Can I run 2 adapters with ZHA simultaneously?
+  name: Can I run 2 adapters with Zigbee Home Automation (ZHA) simultaneously?
   position: 4
   labels: connect zbt-1, faq
 productName: "Home Assistant Connect&nbsp;ZBT-1"

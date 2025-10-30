@@ -6,7 +6,7 @@ zendesk:
   labels: connect zbt-1, getting started, migrate, migration
 ---
 
-Follow this guide if you have a deCONZ network running with a ConBee II or RaspBee II and want to migrate to Connect&nbsp;ZBT-1 and {% abbr "ZHA" %}.
+Follow this guide if you have a deCONZ network running with a ConBee II or RaspBee II and want to migrate to Connect&nbsp;ZBT-1 using the **Zigbee Home Automation** integration.
 
 {% callout "note" %}
 
@@ -23,8 +23,8 @@ This procedure only helps migrate basic network settings to Home Assistant Conne
 This migration includes the following steps:
 
 1. [Prerequisites](#prerequisites).
-2. [Migrating the deCONZ network from the old adapter to ZHA](#to-migrate-a-deconz-network-from-the-old-adapter-to-zha).
-3. [Migrating this ZHA network to Connect&nbsp;ZBT-1](#to-migrate-the-zha-network-to-connectzbt-1).
+2. [Migrating the deCONZ network from the old adapter to the Zigbee Home Automation integration](#to-migrate-a-deconz-network-from-the-old-adapter-to-zha).
+3. [Migrating this Zigbee Home Automation network to Connect&nbsp;ZBT-1](#to-migrate-the-zha-network-to-connectzbt-1).
 4. [Renaming the integration and reconfiguring automations](#renaming-the-integration-and-reconfiguring-automations).
 
 ## Prerequisites
@@ -90,13 +90,13 @@ This migration includes the following steps:
 {% endstepContent %}
 {% endstep %}
 
-{% step "Adding a new ZHA integration" %}
+{% step "Adding a new Zigbee Home Automation integration" %}
 {% image "/static/img/connect-zbt-1/conbee-migrate-zha-23.png" "Add a new ZHA integration" %}
 {% stepContent %}
 
 1. In the top-right corner, make sure the checkboxes **Show ignored integrations** and **Show disabled integrations** are selected.
-2. Check if the ZHA integration shows up.
-   - If the ZHA integration does not show up, select **Add integration**, then select **ZHA** from the list.
+2. Check if the **Zigbee Home Automation** integration shows up.
+   - If the **Zigbee Home Automation** integration does not show up, select **Add integration**, then select **ZHA** from the list.
 
 {% endstepContent %}
 {% endstep %}
@@ -105,7 +105,7 @@ This migration includes the following steps:
 {% image "/static/img/connect-zbt-1/conbee-migrate-zha-04.png" "Configure the new ZHA integration" %}
 {% stepContent %}
 
-- Once the ZHA integration has detected ConBee II, select **Add**.
+- Once the **Zigbee Home Automation** integration has detected ConBee II, select **Add**.
 
 {% endstepContent %}
 {% endstep %}
@@ -114,7 +114,7 @@ This migration includes the following steps:
 {% image "/static/img/connect-zbt-1/conbee-migrate-zha-05.png" "Set up ConBee II as ZHA integration" %}
 {% stepContent %}
 
-- To set up ConBee II as ZHA integration, select **Submit**.
+- To set up ConBee II as **Zigbee Home Automation** integration, select **Submit**.
 
 {% endstepContent %}
 {% endstep %}
@@ -172,12 +172,12 @@ This migration includes the following steps:
 ## Renaming the integration and reconfiguring automations
 
 {% steps %}
-{% step "Renaming the ZHA integration" %}
+{% step "Renaming the Zigbee Home Automation integration" %}
 {% image "/static/img/connect-zbt-1/conbee-migrate-zha-new-21.png" "Start renaming ZHA integration" %}
 {% stepContent %}
 
-- To avoid confusion, rename the ZHA integration.
-- Change the ZHA integration name to **Connect ZBT-1**.
+- To avoid confusion, rename the **Zigbee Home Automation** integration.
+- Change the **Zigbee Home Automation** integration name to **Connect ZBT-1**.
 
 {% endstepContent %}
 {% endstep %}
