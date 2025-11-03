@@ -18,7 +18,14 @@ This message indicates that there is an issue generating the SSL certificate tha
 
 ## Resolution
 
-Depending on what is causing this issue, there are different steps you can try to resolve this.
+Before anything else, reboot your Home Assistant host system (not just Home Assistant itself).
+This ensures all networking components such as ethernet interfaces, DNS resolution, and Supervisor-managed services, are fully restarted.
+
+- From the UI: go to Settings → 3 dots in the upper right corner → Restart Home Assistant → Expand Advanced Options → Reboot system.
+- Wait a few minutes for the system to come back online and reconnect to the Nabu Casa Cloud.
+
+
+If the status remains the same after a reboot, there are different steps you can try to resolve this.
 
 1. Wait for 5 minutes. It may take a while to generate the certificate.
 2. Check if there is a general network issue.
