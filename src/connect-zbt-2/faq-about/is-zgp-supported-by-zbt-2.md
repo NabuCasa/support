@@ -4,5 +4,7 @@ zendesk:
   name: Is Zigbee Green Power (ZGP) supported by Home Assistant Connect ZBT-2?
   position: 20
   labels: faq
+productName: "Home Assistant Connect&nbsp;ZBT-2"
 ---
 
+{% include "connect-zbt-1/faq/is-zgp-supported.md" %}
