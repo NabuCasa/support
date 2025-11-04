@@ -6,3 +6,4 @@ zendesk:
   labels: faq
 ---
 
+{% include "connect-zbt-1/faq/how-many-zigbee-devices.md" %}
