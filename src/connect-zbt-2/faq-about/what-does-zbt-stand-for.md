@@ -4,5 +4,7 @@ zendesk:
   name: What does ZBT in Home Assistant Connect ZBT-2 stand for?
   position: 80
   labels: faq
+productName: "Home Assistant Connect&nbsp;ZBT-2"
 ---
 
+{% include "connect-zbt-1/faq/zbt-meaning.md" %}
