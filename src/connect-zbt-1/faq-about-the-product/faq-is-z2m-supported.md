@@ -19,14 +19,6 @@ serial:
   rtscts: true
 ```
 
-```yaml
-serial:
-  adapter: ember
-  port: /dev/serial/by-id/usb-Nabu_Casa_Connect_ZBT-1_v1.0_<usb-serial-number>-if00-port0
-  baudrate: 115200
-  rtscts: true
-```
-
 You can find the port information under [Settings > System > Hardware](https://my.home-assistant.io/redirect/hardware/), then on the menu button, select **All Hardware** and search for **Connect**.
 
 ![Connect ZBT-1 Identification](/static/img/connect-zbt-1/connect-zbt-1-id.png)
