@@ -1,12 +1,3 @@
----
-zendesk:
-  article_id: 26124431414557
-  name: Connectivity issues due to interference
-  position: 5
-  labels: connect zbt-1, about the device, interference, connectivity issues
-productName: "Home Assistant Connect&nbsp;ZBT-1"
----
-
 Zigbee devices can't communicate reliably if they are too close to other electronics or objects which cause interference. Especially USB 3.0 devices are known to interfere with the 2.4&nbsp;GHz based protocols such as Zigbee or Thread.
 
 The video below demonstrates this effect: when the adapter is moved closely to a source of interference, the light switch and the light cannot communicate. The video shows a Home Assistant Connect&nbsp;ZBT-1 but the issue applies to any Zigbee adapter.
@@ -31,7 +22,3 @@ In some cases, the extension cable delivered with {{ productName }} may not be s
    - thick walls
    - wire mesh or metal (such as server rack housings or wall mounting brackets)
    - body of water, such as an aquarium
-
-## Related topics
-
-- [USB 3.0* Radio Frequency Interference Impact on 2.4&nbsp;GHz Wireless Devices](https://www.usb.org/sites/default/files/327216.pdf)
