@@ -4,6 +4,7 @@ zendesk:
   name: Forming a new Zigbee network with Home Assistant Connect ZBT-1
   position: 1
   labels: connect zbt-1, getting started
+productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
 ## Prerequisites

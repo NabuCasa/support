@@ -4,6 +4,7 @@ zendesk:
   name: Migrate a Zigbee2MQTT network to Home Assistant Connect ZBT-1 using Zigbee Home Automation (ZHA)
   position: 3
   labels: connect zbt-1, getting started, migrate, migration
+productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
 Follow this guide if you have a Zigbee2MQTT network running and want to migrate to Home Assistant Connect&nbsp;ZBT-1 and Zigbee Home Automation (ZHA).
