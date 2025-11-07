@@ -3,7 +3,7 @@ zendesk:
   article_id: 31346908697757
   name: Can I run 2 adapters with the Zigbee Home Automation integration simultaneously?
   position: 50
-  labels: faq
+  labels: connect-zbt-2, faq
 productName: "Home Assistant Connect&nbsp;ZBT-2"
 ---
 

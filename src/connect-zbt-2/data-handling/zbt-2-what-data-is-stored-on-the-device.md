@@ -3,7 +3,7 @@ zendesk:
   article_id: 31347054283165
   name: What data is stored on Home Assistant Connect ZBT-2?
   position: 10
-  labels: zbt-2, data-handling
+  labels: connect-zbt-2, data-handling
 productName: "Home Assistant Connect&nbsp;ZBT-2"
 ---
 
