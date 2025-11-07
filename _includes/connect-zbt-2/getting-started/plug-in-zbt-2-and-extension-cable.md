@@ -3,7 +3,7 @@
 {% image "/static/img/connect-zbt-2/zbt-2-connect-to-ha-green.png" "Plug the extension cable into Connect ZBT-2" %}
 {% stepContent %}
 
-{% include "fragments/notice-interference.md" %}
+{% include "fragments/zbt-2-notice-interference.md" %}
 
 - Plug the Home Assistant Connect&nbsp;ZBT-2 into the USB extension cable.
 - Plug the extension cable into your Home Assistant instance.

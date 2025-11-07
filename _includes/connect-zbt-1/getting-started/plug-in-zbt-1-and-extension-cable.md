@@ -3,7 +3,7 @@
 {% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Plug the extension cable into Connect ZBT-1" %}
 {% stepContent %}
 
-{% include "fragments/notice-interference.md" %}
+{% include "fragments/zbt-1-notice-interference.md" %}
 
 - Plug the Home Assistant Connect&nbsp;ZBT-1 into the USB extension cable.
 - Plug the extension cable into your Home Assistant instance.

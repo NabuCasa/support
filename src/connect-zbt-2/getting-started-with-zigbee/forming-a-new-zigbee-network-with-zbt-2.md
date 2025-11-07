@@ -81,7 +81,7 @@ productName: "Home Assistant Connect&nbsp;ZBT-2"
 {% image "/static/img/connect-zbt-2/zbt-2-zha-add-device.png" "Add Zigbee devices" %}
 {% stepContent %}
 
-{% include "fragments/notice-interference.md" %}
+{% include "fragments/zbt-2-notice-interference.md" %}
 
 - You can now add your Zigbee devices to the Zigbee network.
   - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/) and select the **Zigbee Home Automation** integration.

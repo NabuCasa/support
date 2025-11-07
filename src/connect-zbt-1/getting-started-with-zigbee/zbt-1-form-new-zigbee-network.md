@@ -78,7 +78,7 @@ productName: "Home Assistant Connect&nbsp;ZBT-1"
 {% image "/static/img/connect-zbt-1/connect-zbt-1-discovered-05.png" "Add Zigbee devices" %}
 {% stepContent %}
 
-{% include "fragments/notice-interference.md" %}
+{% include "fragments/zbt-1-notice-interference.md" %}
 
 - You can now add your Zigbee devices to the Zigbee network.
   - Select **1 device** and select **Add devices via this device**. ZHA will now search for Zigbee devices in pairing mode.

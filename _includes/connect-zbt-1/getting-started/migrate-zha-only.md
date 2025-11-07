@@ -15,7 +15,7 @@
 {% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Home Assistant Connect&nbsp;ZBT-1 connected to a Raspberry Pi via extension cable" %}
 {% stepContent %}
 
-{% include "fragments/notice-interference.md" %}
+{% include "fragments/zbt-1-notice-interference.md" %}
 
 - Plug the Home Assistant Connect&nbsp;ZBT-1 into the USB extension cable.
 - Plug the extension cable into your Home Assistant instance.
