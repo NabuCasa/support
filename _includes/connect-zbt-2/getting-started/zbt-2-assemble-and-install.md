@@ -9,7 +9,7 @@
   - thick walls
   - wire mesh
   - metal (such as server rack housings or wall mounting brackets)
-  - other transmitters (such as computers, routers, USB 3.0 ports)
+  - other transmitters (such as computers, routers, USB 3.0 ports, or SSDs)
   - an aquarium.
 
 {% endstepContent %}
