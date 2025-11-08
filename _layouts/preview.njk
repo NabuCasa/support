@@ -3,6 +3,7 @@ eleventyComputed:
   zendeskCategoryId: "{% zendeskCategoryId page %}"
   zendeskSectionId: "{% zendeskSectionId page %}"
   zendeskArticleId: "{{zendesk.article_id}}"
+  productName: "{% productDetails page 'name' %}"
 ---
 
 {% zendeskData zendesk %}

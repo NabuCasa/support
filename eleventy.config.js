@@ -30,6 +30,10 @@ const currentGitSha = childProcess
   .toString()
   .trim();
 
+const products = yamlLoad(
+  fs.readFileSync(path.resolve(__dirname, "_data/products.yml"), "utf8")
+);
+
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
   eleventyConfig.setLayoutsDirectory("../_layouts");
@@ -360,6 +364,13 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addShortcode("currentGitSha", function () {
     return currentGitSha;
+  });
+
+  eleventyConfig.addShortcode("productDetails", (page, key) => {
+    const product = page?.filePathStem?.split("/")[1];
+    if (products[product]) {
+      return products[product][key];
+    }
   });
 
   if (isPreview) {
