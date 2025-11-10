@@ -7,7 +7,7 @@ products:
     name: "Home Assistant Connect&nbsp;ZWA-2"
   green:
     name: "Home Assistant Green"
-  "voice-pe":
+  voice-pe:
     name: "Home Assistant Voice&nbsp;Preview&nbsp;Edition"
   yellow:
     name: "Home Assistant Yellow"
