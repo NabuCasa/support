@@ -1,0 +1,19 @@
+products:
+  cloud:
+    name: "Home Assistant Cloud"
+  connect-zbt-1:
+    name: "Home Assistant Connect&nbsp;ZBT-1"
+  connect-zwa-2:
+    name: "Home Assistant Connect&nbsp;ZWA-2"
+  green:
+    name: "Home Assistant Green"
+  "voice-pe":
+    name: "Home Assistant Voice&nbsp;Preview&nbsp;Edition"
+  yellow:
+    name: "Home Assistant Yellow"
+
+abbr:
+  EZSP: EmberZnet serial protocol
+  MFA: Multi-factor authentication
+  OTBR: OpenThread Border Router
+  ZHA: Zigbee Home Automation
