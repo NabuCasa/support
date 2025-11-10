@@ -6,7 +6,7 @@ zendesk:
   labels: connect zwa-2
 ---
 
-Before connecting Home Assistant Connect ZWA-2 to Home Assistant, assemble it and install it [in the location you want it to be](/hc/en-us/articles/28670284336925).
+Before connecting Home Assistant Connect ZWA-2 to Home Assistant, assemble it and install it [in a suitable location](/hc/en-us/articles/28670284336925).
 
 ![Image showing how to screw the antenna onto the base](/static/img/connect-zwa-2/zwa-2-install.png)
 
