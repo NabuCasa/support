@@ -54,7 +54,7 @@ This guide shows you how to use the {{ productName }} as a dedicated Zigbee adap
 
 1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
 2. In the **Discovered** section, find the **Zigbee Home Automation** integration and select **Add**.
-2. You can now [add your Zigbee devices to Home Assistant](https://www.home-assistant.io/integrations/zha/#adding-devices).
+3. You can now [add your Zigbee devices to Home Assistant](https://www.home-assistant.io/integrations/zha/#adding-devices).
 
 {% endstepContent %}
 {% endstep %}
