@@ -11,6 +11,8 @@ productName: "Home Assistant Connect&nbsp;ZBT-2"
 
 After copying the example below, replace the `<usb-serial-number>` placeholder with the actual serial number.
 
+You can find the port information under [Settings > System > Hardware](https://my.home-assistant.io/redirect/hardware/), then on the menu button, select **All Hardware** and search for `zbt`.
+
 ```yaml
 serial:
   adapter: ember
@@ -18,8 +20,6 @@ serial:
   baudrate: 460800
   rtscts: true
 ```
-
-You can find the port information under [Settings > System > Hardware](https://my.home-assistant.io/redirect/hardware/), then on the menu button, select **All Hardware** and search for `zbt`.
 
 ![Connect ZBT-2 Identification](/static/img/connect-zbt-2/connect-zbt-2-id.png)
 
