@@ -6,7 +6,7 @@ zendesk:
   labels: green, getting started
 ---
 
-Follow these steps if you want to shut down Home Assistant Green.
+Follow these steps if you want to shut down {{ product.name }}.
 
 ## To shut down Home Assistant Green
 
