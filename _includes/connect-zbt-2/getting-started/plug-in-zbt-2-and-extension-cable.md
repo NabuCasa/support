@@ -5,9 +5,9 @@
 
 {% include "fragments/zbt-2-notice-interference.md" %}
 
-- Plug the Home Assistant Connect&nbsp;ZBT-2 into the USB extension cable.
-- Plug the extension cable into your Home Assistant instance.
-- If you are using the standalone [Home Assistant Container](https://www.home-assistant.io/docs/glossary/#home-assistant-container) installation method, make sure Connect ZBT-2 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
+1. Plug the Home Assistant Connect&nbsp;ZBT-2 into the USB extension cable.
+2. Plug the extension cable into your Home Assistant instance.
+3. If you are using the standalone [Home Assistant Container](https://www.home-assistant.io/docs/glossary/#home-assistant-container) installation method, make sure Connect ZBT-2 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
 
 {% endstepContent %}
 {% endstep %}

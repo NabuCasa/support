@@ -7,14 +7,14 @@ zendesk:
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
-Follow this guide if you already have a running Zigbee Home Assistant (ZHA) network and want to migrate to Home Assistant Connect&nbsp;ZBT-1.
+Follow this guide if you already have a running Zigbee Home Assistant (ZHA) network and want to migrate to {{ productName }}.
 
 ## Prerequisites
 
-- Home Assistant 2025.11 or newer
-- a running Zigbee Home Assistant (ZHA) network with a Zigbee adapter
-- a new Zigbee adapter you want to migrate your network to
-- a free USB port for your new adapter. If you don't have a free port, you can use a USB hub.
+- Home Assistant Core 2025.11 or newer.
+- A running Zigbee Home Assistant (ZHA) network with a Zigbee adapter.
+- A {{ productName }}.
+- A free USB port for your new adapter. If you don't have a free port, you can use a USB hub.
 
 ## To migrate an existing ZHA network to Connect&nbsp;ZBT-1
 
@@ -48,9 +48,9 @@ Follow this guide if you already have a running Zigbee Home Assistant (ZHA) netw
 {% stepContent %}
 
 - **Option 1**: If you just want to migrate, select **Recommended installation**.
-  - This adds the device to Home Assistant, backups up your old adapter and moves those network settings to the Connect ZBT-1.
-- **Option 2**: If you have your own controller, for example Zigbee2MQTT, select **Custom**.
-  - This adds the device to Home Assistant, but you will need to manually install the controller of your choice on your own.
+  - This adds the device to Home Assistant, backs up your old adapter and moves those network settings to the Connect ZBT-1.
+- **Option 2**: If you run a different Zigbee solution, for example Zigbee2MQTT, select **Custom**.
+  - This adds the device to Home Assistant, but you will need to manually configure the software of your choice on your own.
   - Those custom steps are not covered in this documentation.
 
 {% endstepContent %}
