@@ -5,7 +5,7 @@ zendesk:
   position: 80
   labels: connect zbt-1
 productName: "Home Assistant Connect&nbsp;ZBT-1"
-firmwareInstallerPage: "https://toolbox.openhomefoundation.org/zbt1/install"
+firmwareInstallerPage: "https://toolbox.openhomefoundation.org/home-assistant-connect-zbt-1/install/"
 ---
 
 This section shows you how to reinstall firmware using a web flasher tool. In most cases, this should not be needed.
