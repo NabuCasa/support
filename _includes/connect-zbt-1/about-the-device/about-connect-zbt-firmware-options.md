@@ -1,11 +1,11 @@
-This section has two goals:
+This section has 2 goals:
 
 1. List the currently available firmware options for {{ productName }}.
 2. List the different add-ons and integrations related to these options and show their relationships.
 
 ## Currently available firmware for {{ productName }}
 
-There are currently two different recommended firmware options available for {{ productName }}:
+There are currently 2 different recommended firmware options available for {{ productName }}:
 
 ### Zigbee firmware
 

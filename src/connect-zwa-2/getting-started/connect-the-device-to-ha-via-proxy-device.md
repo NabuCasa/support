@@ -16,7 +16,7 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
   - has an Ethernet connection (Wi-Fi will be less reliable) to your network.
   - has a free USB-A port.
   - can run containers (for instance, a Raspberry Pi system with Docker installed).
-  - is located in a place where there is space to place Connect ZWA-2 in a vertical position.
+  - is located in a place where there is space to place Connect ZWA-2 so that the antenna is in a vertical position.
 - A Home Assistant smart home hub, for example, a Home Assistant Green.
   - If you do not have Home Assistant installed on the hub yet, [follow these steps](https://www.home-assistant.io/installation/).
 - Home Assistant 2025.8 or newer installed on your smart home hub.
