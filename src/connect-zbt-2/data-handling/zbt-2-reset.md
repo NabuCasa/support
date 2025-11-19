@@ -20,16 +20,26 @@ If you are running Thread on {{ productName }}, you cannot reset the device, as 
 ## To reset your {{ productName }}
 
 {% steps %}
-{% step "Pressing the reset button" "Step" %}
-{% image "/static/img/connect-zbt-2/zbt-2-device-reset-press-button.png" "Select use as Zigbee adapter" %}
+{% step "Pressing the reset button" %}
+{% image "/static/img/connect-zbt-2/zbt2-reset-01.png" "Select use as Zigbee adapter" %}
 {% stepContent %}
 
 1. To reset the device, press and hold the button.
    - The device LED starts blinking orange 4 times.
-      - If you stop pressing during that time, the reset is not started.
-2. When the LED starts blinking red, the firmware is being reset.
-   - After reset, the device automatically reboots.
-   - The blue pulsing light shows that its rebooting and ready to connect to a hub again.
+   - If you stop pressing during that time, the reset is not started.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Wait for the light to start blinking blue" %}
+{% image "/static/img/connect-zbt-2/zbt2-reset-02.png" "Select use as Zigbee adapter" %}
+{% stepContent %}
+
+1. Wait.
+   - When the LED starts blinking red, the firmware is being reset.
+   - After resetting, the device automatically reboots.
+2. Wait for the light to blink blue.
+   - The blue pulsing light shows that it's rebooting and ready to connect to a hub again.
 
 {% endstepContent %}
 {% endstep %}
