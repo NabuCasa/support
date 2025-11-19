@@ -1,4 +1,4 @@
-<!---steps on migrating an existing ZHA network to a Home Assistant Connect ZBT-1 stick. -->
+<!---steps on migrating an existing ZHA network to a Home Assistant Connect ZBT-2 adapter. -->
 
 {% steps %}
 {% step "Starting migration" %}
@@ -11,18 +11,7 @@
 {% endstepContent %}
 {% endstep %}
 
-{% step "Adding an extension cable and the adapter" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Home Assistant Connect&nbsp;ZBT-1 connected to a Raspberry Pi via extension cable" %}
-{% stepContent %}
-
-{% include "fragments/zbt-1-notice-interference.md" %}
-
-1. Plug the Home Assistant Connect&nbsp;ZBT-1 into the USB extension cable.
-2. Plug the extension cable into your Home Assistant instance.
-3. If you are using the standalone [Home Assistant Container](https://www.home-assistant.io/docs/glossary/#home-assistant-container) installation method, make sure Connect&nbsp;ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
-
-{% endstepContent %}
-{% endstep %}
+{% include "connect-zbt-2/getting-started/plug-in-zbt-2-and-extension-cable.md" %}
 
 {% step "Reconfiguring ZHA" %}
 {% image "/static/img/connect-zbt-1/z2m-migrate-zha-03.png" "Screenshot showing the Reconfigure ZHA dialog" %}
@@ -43,7 +32,7 @@
 {% endstep %}
 
 {% step "Choosing the port for the new adapter" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-migrate-zha-select-port.png" "Screenshot showing the Select a serial port dialog" %}
+{% image "/static/img/connect-zbt-2/z2m-migrate-zha-to-new-adapter.png" "Screenshot showing the Select a serial port dialog" %}
 {% stepContent %}
 
 - Choose the serial port showing your new adapter and select **Submit**.

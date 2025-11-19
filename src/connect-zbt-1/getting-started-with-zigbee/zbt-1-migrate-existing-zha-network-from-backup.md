@@ -82,7 +82,7 @@ Please note that not all settings can be migrated in this case:
 
 1. Plug the Home Assistant Connect&nbsp;ZBT-1 into the USB extension cable.
 2. Plug the extension cable into your Home Assistant instance.
-3. If you are using the standalone Home Assistant Container installation method, make sure Connect&nbsp;ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
+3. If you are using the standalone [Home Assistant Container](https://www.home-assistant.io/docs/glossary/#home-assistant-container) installation method, make sure Connect&nbsp;ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
 
 {% endstepContent %}
 {% endstep %}
