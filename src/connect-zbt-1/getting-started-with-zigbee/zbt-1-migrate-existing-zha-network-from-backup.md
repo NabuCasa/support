@@ -10,11 +10,11 @@ productName: "Home Assistant Connect&nbsp;ZBT-1"
 
 Follow these instructions if you are in the following situation:
 
-- You have a Zigbee2MQTT network running, you no longer have the original adapter, and you want to migrate to Connect&nbsp;ZBT-1.
+- You have a Zigbee2MQTT network running, you no longer have the original adapter, and you want to migrate to {{ productName }}.
 
 Please note that not all settings can be migrated in this case:
 
-- These steps help migrate the network, meaning you won't have to pair all your devices again with Home Assistant Connect&nbsp;ZBT-1.
+- These steps help migrate the network, meaning you won't have to pair all your devices again with {{ productName }}.
 - However, some higher-level settings cannot be migrated. Elements such as device names may be lost. There is currently no migration path to transfer all settings.
 
 ## To migrate an existing Zigbee Home Automation (ZHA) network via Zigbee2MQTT backup
@@ -56,9 +56,10 @@ Please note that not all settings can be migrated in this case:
 {% image "/static/img/connect-zbt-1/z2m-mqq-integration-new-01.png" "Removing Zigbee2MQTT devices (option 1)" %}
 {% stepContent %}
 
-- If you don't use MQTT outside of z2m, you can delete the Mosquito Broker integration.
-- Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the **Mosquitto broker** integration.
-- Select the three dots and in the dropdown menu, select **Delete**.
+If you don't use MQTT outside of Zigbee2MQTT, you can delete the **MQTT** integration.
+
+1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the **Mosquitto broker** integration.
+2. Select the three dots and in the dropdown menu, select **Delete**.
 
 {% endstepContent %}
 {% endstep %}
@@ -67,32 +68,22 @@ Please note that not all settings can be migrated in this case:
 {% image "/static/img/connect-zbt-1/z2m-mqtt-dereg-device-01.png" "Removing Zigbee2MQTT devices (option 2)" %}
 {% stepContent %}
 
-1. If you don't want to delete the Mosquito Broker integration, you can remove the devices from the MQTT network.
-2. In the integration card, select **Devices**, under **Device info**, select **Delete**.
-3. Repeat this for every device.
+If you don't want to delete the **MQTT** integration, you can remove the devices from the MQTT network.
+
+1. In the integration card, select **Devices**, under **Device info**, select **Delete**.
+2. Repeat this for every device.
 
 {% endstepContent %}
 {% endstep %}
 
-{% step "Plugging the extension cable into Connect&nbsp;ZBT-1" %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Plugging the extension cable into Connect&nbsp;ZBT-1" %}
-{% stepContent %}
+{% include "connect-zbt-1/getting-started/plug-in-zbt-1-and-extension-cable.md" %}
 
-{% include "fragments/zbt-1-notice-interference.md" %}
-
-1. Plug the Home Assistant Connect&nbsp;ZBT-1 into the USB extension cable.
-2. Plug the extension cable into your Home Assistant instance.
-3. If you are using the standalone [Home Assistant Container](https://www.home-assistant.io/docs/glossary/#home-assistant-container) installation method, make sure Connect&nbsp;ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Adding the Connect&nbsp;ZBT-1 integration" %}
+{% step "Adding the adapter's integration" %}
 {% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Locating the Connect ZBT-1 integration" %}
 {% stepContent %}
 
 1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-2. Home Assistant Connect&nbsp;ZBT-1 should now have been discovered.
+2. The **{{ productName }}** integration should now have been discovered.
 3. Select **Add**.
 
 {% endstepContent %}

@@ -14,9 +14,10 @@
 {% image "/static/img/connect-zbt-1/z2m-mqq-integration-new-01.png" "Remove Zigbee2MQTT devices (option 1)" %}
 {% stepContent %}
 
-- If you don't use MQTT outside of Zigbee2MQTT, you can delete the **MQTT** integration.
-  1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the **MQTT** integration.
-  2. Select the three dots and in the dropdown menu, select **Delete**.
+If you don't use MQTT outside of Zigbee2MQTT, you can delete the **MQTT** integration.
+
+1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the **MQTT** integration.
+2. Select the three dots and in the dropdown menu, select **Delete**.
 
 {% endstepContent %}
 {% endstep %}
@@ -25,9 +26,10 @@
 {% image "/static/img/connect-zbt-1/z2m-mqtt-dereg-device-01.png" "Remove Zigbee2MQTT devices (option 2)" %}
 {% stepContent %}
 
-- If you don't want to delete the **MQTT** integration, you can remove the individual devices provided by the MQTT integration.
-  1. In the integration card, select **Devices**, under **Device info**, select **Delete**.
-  2. Repeat this for every device.
+If you don't want to delete the **MQTT** integration, you can remove the individual devices provided by the MQTT integration.
+
+1. In the integration card, select **Devices**, under **Device info**, select **Delete**.
+2. Repeat this for every device.
 
 {% endstepContent %}
 {% endstep %}
