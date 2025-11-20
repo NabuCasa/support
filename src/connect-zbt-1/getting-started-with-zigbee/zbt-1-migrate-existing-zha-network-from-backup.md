@@ -131,7 +131,7 @@ If you don't want to delete the **MQTT** integration, you can remove the devices
 {% image "/static/img/connect-zbt-1/z2m-backup-restore-03.png" "Submit the backup json file" %}
 {% stepContent %}
 
-- Make sure the **coordinator_backup.json** file is selected and select **submit**.
+- Make sure the **coordinator_backup.json** file is selected and select **Submit**.
 
 {% endstepContent %}
 {% endstep %}
