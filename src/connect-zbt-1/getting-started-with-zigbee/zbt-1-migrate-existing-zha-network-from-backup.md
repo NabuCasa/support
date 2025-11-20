@@ -58,7 +58,7 @@ Please note that not all settings can be migrated in this case:
 
 If you don't use MQTT outside of Zigbee2MQTT, you can delete the **MQTT** integration.
 
-1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the **Mosquitto broker** integration.
+1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select  **MQTT** integration.
 2. Select the three dots and in the dropdown menu, select **Delete**.
 
 {% endstepContent %}
