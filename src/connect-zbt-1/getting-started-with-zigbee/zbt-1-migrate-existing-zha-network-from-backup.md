@@ -118,7 +118,7 @@ If you don't want to delete the **MQTT** integration, you can remove the devices
 {% endstepContent %}
 {% endstep %}
 
-{% step "" %}
+{% step "Select the backup file" %}
 {% image "/static/img/connect-zbt-1/z2m-backup-restore-02.png" "Selecting the backup file" %}
 {% stepContent %}
 
