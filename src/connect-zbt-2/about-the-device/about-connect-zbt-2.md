@@ -44,11 +44,16 @@ A few device characteristics are listed below:
 
 ## Differences to Home Assistant Connect&nbsp;ZBT-1
 
-- The {{ productName }} has an optimized, larger antenna, providing the best possible connection to Zigbee or Thread devices.
-- 4-times faster than Home Assistant Connect&nbsp;ZBT-1.
-- Improved device responsiveness.
-- Updated Zigbee and Thread processor (MG24) for better performance.
-- The new form-factor not only provides a larger, more powerful antenna, but also makes it easier to open and tinker, with accessible pads and pins.
+Home Assistant Connect&nbsp;ZBT-1 (formerly known as SkyConnect) was Nabu Casa's first Zigbee/Thread adapter released in 2022. It is now discontinued and replaced with Connect ZBT-2. Here is a short comparison between the two generations of devices.
+
+| Feature            | Connect ZBT-1 </br> (First-generation Connect platform) | Connect ZBT-2 </br> (Second-generation Connect platform)                          |
+| :----------------- | :------------------------------------------------------ | :-------------------------------------------------------------------------------- |
+| Antenna            | Small and internal                                      | Highly optimized antenna and base                                                 |
+| Transmit           | Maximized for the protocol                              | Maximized for the protocol                                                        |
+| Speed (Baudrate)   | 115200                                                  | 460800 - consistently improves device responsiveness                              |
+| Zigbee/Thread Chip | Silicon Labs MG21                                       | Silicon Labs MG24 - faster operation and sensitivity for weak signals             |
+| USB chip           | Silicon Labs CP2102N - great for USB                    | ESP32-S3 - great for USB and expandable                                           |
+| Ease of modding    | Hard to open, easy to flash firmware                    | Easy to open (no clips or glue, exposed pins and pads) and easy to flash firmware |
 
 ## Related topics
 
