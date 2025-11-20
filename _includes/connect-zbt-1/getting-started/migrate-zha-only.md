@@ -6,7 +6,7 @@
 {% stepContent %}
 
 1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the ZHA integration, then select the cog wheel.
-2. Under **Network settings** add-on, select **Migrate radio**.
+2. Under **Network settings** add-on, select **Migrate adapter**.
 
 {% endstepContent %}
 {% endstep %}
@@ -15,11 +15,11 @@
 {% image "/static/img/connect-zbt-1/connect-zbt-1-raspi-01.jpg" "Home Assistant Connect&nbsp;ZBT-1 connected to a Raspberry Pi via extension cable" %}
 {% stepContent %}
 
-{% include "fragments/notice-interference.md" %}
+{% include "fragments/zbt-1-notice-interference.md" %}
 
-- Plug the Home Assistant Connect&nbsp;ZBT-1 into the USB extension cable.
-- Plug the extension cable into your Home Assistant instance.
-- If you are using the standalone Home Assistant Container installation method, make sure Connect&nbsp;ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
+1. Plug the Home Assistant Connect&nbsp;ZBT-1 into the USB extension cable.
+2. Plug the extension cable into your Home Assistant instance.
+3. If you are using the standalone [Home Assistant Container](https://www.home-assistant.io/docs/glossary/#home-assistant-container) installation method, make sure Connect&nbsp;ZBT-1 is [mapped to the container](https://www.home-assistant.io/installation/linux#exposing-devices).
 
 {% endstepContent %}
 {% endstep %}

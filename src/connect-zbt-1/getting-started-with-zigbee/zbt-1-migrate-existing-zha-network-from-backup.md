@@ -1,0 +1,158 @@
+---
+zendesk:
+  article_id: 26700478689949
+  name: Migrating an existing Zigbee network to Home Assistant Connect ZBT-1 via Zigbee2MQTT backup
+  position: 8
+  labels: connect zbt1, getting started, migrate, migration
+productName: "Home Assistant Connect&nbsp;ZBT-1"
+---
+
+
+Follow these instructions if you are in the following situation:
+
+- You have a Zigbee2MQTT network running, you no longer have the original adapter, and you want to migrate to {{ productName }}.
+
+Please note that not all settings can be migrated in this case:
+
+- These steps help migrate the network, meaning you won't have to pair all your devices again with {{ productName }}.
+- However, some higher-level settings cannot be migrated. Elements such as device names may be lost. There is currently no migration path to transfer all settings.
+
+## To migrate an existing Zigbee Home Automation (ZHA) network via Zigbee2MQTT backup
+
+{% steps %}
+{% step "Creating a Zigbee2MQTT backup" %}
+{% image "/static/img/connect-zbt-1/z2m-backup-01.png" "Creating a Zigbee2MQTT backup" %}
+{% stepContent %}
+
+1. Under **Settings** > **Add-ons**, open the **Zigbee2MQTT** add-on and select **Open Web UI**.
+2. In the Zigbee2MQTT UI, go to **Settings** > **Tools** and select **Request z2m backup**.
+   - {% stepResult "A zip file should now be downloaded into your **Downloads** folder." %}
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Unzipping the backup folder" %}
+{% image "/static/img/connect-zbt-1/z2m-backup-restore-01.png" "Unzipping the backup folder" %}
+{% stepContent %}
+
+- In your **Downloads** folder, unzip the **z2m-backup** file.
+  - **Info**: It should contain a **coordinator_backup.json** file.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Stopping the Zigbee2MQTT add-on" %}
+{% image "/static/img/connect-zbt-1/z2m-delete-add-on.png" "Stopping the Zigbee2MQTT add-on" %}
+{% stepContent %}
+
+- Under **Settings** > **Add-ons**, in the **Zigbee2MQTT** add-on, select **Stop**.
+- Zigbee2MQTT uses the MQTT discovery feature to make the Zigbee devices available in Home Assistant. After removing the Zigbee2MQTT add-on, the devices are still present in Home Assistant since the MQTT broker is still holding on to the MQTT discovery messages.
+- It is recommended to remove these stale devices from the MQTT broker (see next steps).
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Removing Zigbee2MQTT devices (option 1)" %}
+{% image "/static/img/connect-zbt-1/z2m-mqq-integration-new-01.png" "Removing Zigbee2MQTT devices (option 1)" %}
+{% stepContent %}
+
+If you don't use MQTT outside of Zigbee2MQTT, you can delete the **MQTT** integration.
+
+1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select  **MQTT** integration.
+2. Select the three dots and in the dropdown menu, select **Delete**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Removing Zigbee2MQTT devices (option 2)" %}
+{% image "/static/img/connect-zbt-1/z2m-mqtt-dereg-device-01.png" "Removing Zigbee2MQTT devices (option 2)" %}
+{% stepContent %}
+
+If you don't want to delete the complete **MQTT** integration, you can remove individual devices from the MQTT integration.
+
+1. In the integration card, select **Devices**, under **Device info**, select **Delete**.
+2. Repeat this for every Zigbee device.
+
+{% endstepContent %}
+{% endstep %}
+
+{% include "connect-zbt-1/getting-started/plug-in-zbt-1-and-extension-cable.md" %}
+
+{% step "Adding the adapter's integration" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Locating the Connect ZBT-1 integration" %}
+{% stepContent %}
+
+1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
+2. The **{{ productName }}** integration should now have been discovered.
+3. Select **Add**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Picking your protocol" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1_pick_firmware.png" "Pick your firmware" %}
+{% stepContent %}
+
+- In the dialog, select **Use as Zigbee adapter**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Select installation type" %}
+{% image "/static/img/connect-zbt-1/zbt-select-installation-method-custom.png" "Pick your firmware" %}
+{% stepContent %}
+
+1. In the dialog, select **Custom**.
+2. When asked to select the Zigbee method, select **Zigbee Home Automation**.
+3. Then, select **Submit**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Uploading a manual backup" %}
+{% image "/static/img/connect-zbt-1/z2m-backup-04.png" "Uploading a manual backup" %}
+{% stepContent %}
+
+- In the **Network Formation** dialog, select **Upload a manual backup**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Select the backup file" %}
+{% image "/static/img/connect-zbt-1/z2m-backup-restore-02.png" "Selecting the backup file" %}
+{% stepContent %}
+
+- In your **Downloads** folder, select the **coordinator_backup.json** file.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Submit the backup json file" %}
+{% image "/static/img/connect-zbt-1/z2m-backup-restore-03.png" "Submit the backup json file" %}
+{% stepContent %}
+
+- Make sure the **coordinator_backup.json** file is selected and select **Submit**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Assigning coordinator to area" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-discovered-04.png" "Assigning coordinator to area" %}
+{% stepContent %}
+
+- Assign the coordinator to an area and select **Finish**.
+- **Info**: You won't be able to control the devices until they rejoin the network. Normally, they join within one hour. You may be able to accelerate that process by power-cycling the device."
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Reconfiguring automations and dashboards" %}
+{% image "/static/img/connect-zbt-1/z2m-backup-restore-05.png" "Reconfiguring automations and dashboards" %}
+{% stepContent %}
+
+- **Info**: All migrated devices have new entity IDs. This means you will need to manually reconfigure automations and dashboard cards.
+- **Info**: The names that you manually assigned to your devices won't have been migrated. You will have to rename the devices again.
+
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
