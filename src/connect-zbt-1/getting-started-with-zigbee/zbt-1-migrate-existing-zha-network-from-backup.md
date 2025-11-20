@@ -71,7 +71,7 @@ If you don't use MQTT outside of Zigbee2MQTT, you can delete the **MQTT** integr
 If you don't want to delete the complete **MQTT** integration, you can remove individual devices from the MQTT integration.
 
 1. In the integration card, select **Devices**, under **Device info**, select **Delete**.
-2. Repeat this for every device.
+2. Repeat this for every Zigbee device.
 
 {% endstepContent %}
 {% endstep %}
