@@ -46,14 +46,7 @@ A few device characteristics are listed below:
 
 Home Assistant Connect&nbsp;ZBT-1 (formerly known as SkyConnect) was Nabu Casa's first Zigbee/Thread adapter released in 2022. It is now discontinued and replaced with Connect ZBT-2. Here is a short comparison between the two generations of devices.
 
-| Feature            | Connect ZBT-1 </br> (First-generation Connect platform) | Connect ZBT-2 </br> (Second-generation Connect platform)                          |
-| :----------------- | :------------------------------------------------------ | :-------------------------------------------------------------------------------- |
-| Antenna            | Small and internal                                      | Highly optimized antenna and base                                                 |
-| Transmit           | Maximized for the protocol                              | Maximized for the protocol                                                        |
-| Speed (Baudrate)   | 115200                                                  | 460800 - consistently improves device responsiveness                              |
-| Zigbee/Thread Chip | Silicon Labs MG21                                       | Silicon Labs MG24 - faster operation and sensitivity for weak signals             |
-| USB chip           | Silicon Labs CP2102N - great for USB                    | ESP32-S3 - great for USB and expandable                                           |
-| Ease of modding    | Hard to open, easy to flash firmware                    | Easy to open (no clips or glue, exposed pins and pads) and easy to flash firmware |
+![comparison table contrasting the features between the 2 product generations](/static/img/connect-zbt-2/zbt1-2-difference-between.png)
 
 ## Related topics
 
