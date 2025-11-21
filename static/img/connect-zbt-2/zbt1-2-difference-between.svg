@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="894.60205"
+   width="991.29993"
    height="223.496"
    version="1.1"
    id="svg21"
    sodipodi:docname="zbt1-2-difference-between.svg"
-   viewBox="0 0 1037.5074 259.19766"
-   inkscape:export-filename="zbt1-2-difference-between.png"
+   viewBox="0 0 1149.652 259.19766"
+   inkscape:export-filename="zbt1-2-difference-between.svg"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
@@ -55,92 +55,93 @@ text {
 .bold { font-weight:700; }
 ]]></style>
   </defs>
+  <rect x="0" y="0" width="1300" height="360" fill="white"/>
   <text
-     x="185.97391"
+     x="238.62619"
      y="21.733416"
      class="bold"
      id="text2">Connect ZBT-1</text>
   <text
-     x="469.97375"
+     x="522.62604"
      y="21.733416"
      class="bold"
      id="text3">Connect ZBT-2</text>
   <text
-     x="9.9737854"
+     x="62.626068"
      y="51.733425"
      class="bold"
      id="text4">Antenna</text>
   <text
-     x="185.97391"
+     x="238.62619"
      y="51.733425"
      id="text5">Small and internal</text>
   <text
-     x="469.97375"
+     x="522.62604"
      y="51.733425"
      id="text6">Highly optimized antenna and base</text>
   <text
-     x="9.9737854"
+     x="62.626068"
      y="87.733406"
      class="bold"
      id="text7">Transmit</text>
   <text
-     x="185.97391"
+     x="238.62619"
      y="87.733406"
      id="text8">Maximized for the protocol</text>
   <text
-     x="469.97375"
+     x="522.62604"
      y="87.733406"
      id="text9">Maximized for the protocol</text>
   <text
-     x="9.9737854"
+     x="62.626068"
      y="123.7334"
      class="bold"
      id="text10">Speed (Baudrate)</text>
   <text
-     x="185.97391"
+     x="238.62619"
      y="123.7334"
      id="text11">115200</text>
   <text
-     x="469.97375"
+     x="522.62604"
      y="123.7334"
      id="text12">460800 - consistently improves device responsiveness</text>
   <text
-     x="9.9737854"
+     x="62.626068"
      y="159.73344"
      class="bold"
      id="text13">Zigbee/Thread Chip</text>
   <text
-     x="185.97391"
+     x="238.62619"
      y="159.73344"
      id="text14">Silicon Labs MG21</text>
   <text
-     x="469.97375"
+     x="522.62604"
      y="159.73344"
      id="text15">Silicon Labs MG24 - faster operation and sensitivity for weak signals</text>
   <text
-     x="9.9737854"
+     x="62.626068"
      y="195.73344"
      class="bold"
      id="text16">USB chip</text>
   <text
-     x="185.97391"
+     x="238.62619"
      y="195.73344"
      id="text17">Silicon Labs CP2102N - great for USB</text>
   <text
-     x="469.97375"
+     x="522.62604"
      y="195.73344"
      id="text18">ESP32-S3 - great for USB and expandable</text>
   <text
-     x="9.9737854"
+     x="62.626068"
      y="231.73344"
      class="bold"
      id="text19">Ease of modding</text>
   <text
-     x="185.97391"
+     x="238.62619"
      y="231.73344"
      id="text20">Hard to open, easy to flash firmware</text>
   <text
-     x="469.97375"
+     x="522.62604"
      y="231.73344"
      id="text21">Easy to open (no clips or glue, exposed pins and pads) and easy to flash firmware</text>
 </svg>
