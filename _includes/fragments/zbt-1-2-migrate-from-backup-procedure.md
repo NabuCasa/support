@@ -141,7 +141,7 @@ If you don't want to delete the complete **MQTT** integration, you can remove in
 {% stepContent %}
 
 - Assign the coordinator to an area and select **Finish**.
-- **Info**: You won't be able to control the devices until they rejoin the network. Normally, they join within one hour. You may be able to accelerate that process by power-cycling the device."
+- **Info**: You won't be able to control the devices until they rejoin the network. Normally, they join within one hour. You may be able to accelerate that process by power-cycling the devices.
 
 {% endstepContent %}
 {% endstep %}
