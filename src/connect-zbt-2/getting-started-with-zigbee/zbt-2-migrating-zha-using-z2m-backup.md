@@ -11,7 +11,7 @@ type: "zbt2"
 
 {% include "fragments/zbt-1-2-migrate-from-backup-intro.md" %}
 
-## To migrate an existing Zigbee Home Automation (ZHA) network via Zigbee2MQTT backup
+## To migrate a Zigbee network from a Zigbee2MQTT backup
 
 {% steps %}
 {% include "fragments/zbt-1-2-migrate-from-backup-procedure.md" %}
