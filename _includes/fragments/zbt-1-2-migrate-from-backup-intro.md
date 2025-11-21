@@ -5,4 +5,4 @@ Follow these instructions if you are in the following situation:
 Please note that not all settings can be migrated:
 
 - These steps help migrate the network, meaning you won't have to pair all your devices again with {{ productName }}.
-- However, some higher-level settings cannot be migrated. Elements such as device names may be lost. There is currently no migration path to transfer all settings.
+- However, some higher-level settings cannot be migrated. Elements such as device names will be lost. There is currently no migration path to transfer all settings.
