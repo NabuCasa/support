@@ -44,11 +44,9 @@ A few device characteristics are listed below:
 
 ## Differences to Home Assistant Connect&nbsp;ZBT-1
 
-- The {{ productName }} has an optimized, larger antenna, providing the best possible connection to Zigbee or Thread devices.
-- 4-times faster than Home Assistant Connect&nbsp;ZBT-1.
-- Improved device responsiveness.
-- Updated Zigbee and Thread processor (MG24) for better performance.
-- The new form-factor not only provides a larger, more powerful antenna, but also makes it easier to open and tinker, with accessible pads and pins.
+Home Assistant Connect&nbsp;ZBT-1 (formerly known as SkyConnect) was Nabu Casa's first Zigbee/Thread adapter released in 2022. It is now discontinued and replaced with Connect ZBT-2. Here is a short comparison between the two generations of devices.
+
+![comparison table contrasting the features between the 2 product generations](/static/img/connect-zbt-2/zbt1-2-difference-between.svg)
 
 ## Related topics
 
