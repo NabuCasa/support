@@ -4,7 +4,7 @@
 {% stepContent %}
 
 1. Under **Settings** > **Add-ons**, open the **Zigbee2MQTT** add-on and select **Open Web UI**.
-2. In the Zigbee2MQTT UI, go to **Settings** > **Tools** and select **Request z2m backup**.
+2. In the Zigbee2MQTT UI, go to **Settings** > **Tools** and select **Request Z2M backup**.
    - Select **Download Zigbee2MQTT backup**.
    - {% stepResult "A zip file should now be downloaded into your **Downloads** folder." %}
 
