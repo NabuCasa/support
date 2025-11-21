@@ -46,7 +46,7 @@ A few device characteristics are listed below:
 
 Home Assistant Connect&nbsp;ZBT-1 (formerly known as SkyConnect) was Nabu Casa's first Zigbee/Thread adapter released in 2022. It is now discontinued and replaced with Connect ZBT-2. Here is a short comparison between the two generations of devices.
 
-![comparison table contrasting the features between the 2 product generations](/static/img/connect-zbt-2/zbt1-2-difference-between.png)
+![comparison table contrasting the features between the 2 product generations](/static/img/connect-zbt-2/zbt1-2-difference-between.svg)
 
 ## Related topics
 
