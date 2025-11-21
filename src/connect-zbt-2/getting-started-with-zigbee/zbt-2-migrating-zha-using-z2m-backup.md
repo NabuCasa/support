@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 29400771412893
-  name: Migrating an existing Zigbee Home Automation (ZHA) network via Zigbee2MQTT backup
+  name: Migrating a Zigbee2MQTT network from a backup file to Home Assistant Connect ZBT-2 using Zigbee Home Automation (ZHA)
   position: 50
   labels: connect-zbt-2, getting-started
 productName: "Home Assistant Connect&nbsp;ZBT-2"
