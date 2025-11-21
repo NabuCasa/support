@@ -57,24 +57,23 @@ If you don't want to delete the complete **MQTT** integration, you can remove in
 {% endstep %}
 
 {% if type == "zbt1" %}
-
 {% include "connect-zbt-1/getting-started/plug-in-zbt-1-and-extension-cable.md" %}
-
 {% endif %}
 
 {% if type == "zbt2" %}
-
 {% include "connect-zbt-2/getting-started/plug-in-zbt-2-and-extension-cable.md" %}
-
 {% endif %}
 
 {% step "Adding the adapter's integration" %}
+
 {% if type == "zbt1" %}
 {% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Adding the Connect ZBT-1 integration" %}
 {% endif %}
+
 {% if type == "zbt2" %}
 {% image "/static/img/connect-zbt-2/connect-zbt-2-add.png" "Adding the Connect ZBT-2 integration" %}
 {% endif %}
+
 {% stepContent %}
 
 1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
@@ -132,12 +131,15 @@ If you don't want to delete the complete **MQTT** integration, you can remove in
 {% endstep %}
 
 {% step "Assigning coordinator to area" %}
+
 {% if type == "zbt1" %}
 {% image "/static/img/connect-zbt-1/connect-zbt-1-discovered-04.png" "Assigning coordinator to area" %}
 {% endif %}
+
 {% if type == "zbt2" %}
 {% image "/static/img/connect-zbt-2/connect-zbt-2-assign-to-area.png" "Assigning coordinator to area" %}
 {% endif %}
+
 {% stepContent %}
 
 - Assign the coordinator to an area and select **Finish**.
