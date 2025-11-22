@@ -17,7 +17,7 @@ Connecting to Yellow via serial console can be helpful for troubleshooting. For 
 3. List the USB port numbers:
    - On Linux, use `ls /dev/ttyUSB*`
    - On macOS, use `ls /dev/cu.*`. If the Silicon Labs CP2102N driver is installed, you will see both `/dev/cu.SLAB_USBtoUART` and `/dev/cu.usbserial-110` (`/dev/cu.usbserial-210`, depending on which port the Yellow is plugged in to).
-4. Connect the Yellow with USB C to your computer.
+4. While the Yellow is powered off, connect it with USB C to your computer.
 
    **Note:** If Yellow is not powered on yet, it is normal for no lights to be on.
 5. List the USB port numbers again (see step above on Listing the USB port numbers). The new entry is for Yellow.
