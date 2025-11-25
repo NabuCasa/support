@@ -22,8 +22,9 @@ Connecting to Yellow via serial console can be helpful for troubleshooting. For 
    **Note:** If Yellow is not powered on yet, it is normal for no lights to be on.
 5. List the USB port numbers again (see step above on Listing the USB port numbers). The new entry is for Yellow.
 
-   **Troubleshooting:** In case no new entry appears, make sure JP1 is at the right position (UART) and your USB-C cable supports at least USB 2.0 signals (try using a different USB-C cable if in doubt).
-6. Start GNU Screen and point it to this USB port. E.g.:
+   **Troubleshooting**: In case no new entry appears, make sure JP1 is at the right position (UART) and your USB-C cable supports at least USB 2.0 signals (try using a different USB-C cable if in doubt).
+      - If still no entry appears, power off your Yellow before connecting to your computer.
+6. Start GNU Screen and point it to this USB port. For example:
 
    ```sh
    screen /dev/ttyUSB0 115200
