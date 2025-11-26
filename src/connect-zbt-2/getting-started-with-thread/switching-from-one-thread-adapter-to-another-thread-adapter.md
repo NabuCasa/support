@@ -9,15 +9,6 @@ productName: "Home Assistant Connect&nbsp;ZBT-2"
 
 If you already have a Thread adapter running but want to switch to a {{ productName }}, follow these steps:
 
-1. In your Home Assistant hub, plug in the {{ productName }}.
-2. Add the integration for your new adapter.
-   - In Home Assistant, go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), find the new adapter under **Discovered**, and select **Add**.
-3. In the **Pick your protocol** dialog, select **Migrate Thread to a new adapter**.
-4. If you no longer want to use the old adapter, you can remove the old hardware integration.
-   - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/) and select the integration.
-   - Select the three dots menu and select **Delete**.
-5. You can now unplug the old adapter.
-
 ## Prerequisites
 
 {% steps %}
