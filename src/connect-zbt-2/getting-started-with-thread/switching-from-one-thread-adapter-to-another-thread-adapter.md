@@ -1,10 +1,81 @@
 ---
 zendesk:
   article_id: 32087461954589
-  name: Migrating from one Thread adapter to another Thread adapter
+  name: Switching from one Thread adapter to another Thread adapter
   position: 30
   labels: connect-zbt-2, getting-started
 productName: "Home Assistant Connect&nbsp;ZBT-2"
 ---
 
-If you are already running a Thread network and want to switch to {{ productName }}, follow the steps in the Thread documentation under [migrating to a new Thread adapter](https://www.home-assistant.io/integrations/thread/#migrating-to-a-new-thread-adapter).
+If you already have a Thread adapter running but want to switch to a {{ productName }}, follow these steps:
+
+1. In your Home Assistant hub, plug in the {{ productName }}.
+2. Add the integration for your new adapter.
+   - In Home Assistant, go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), find the new adapter under **Discovered**, and select **Add**.
+3. In the **Pick your protocol** dialog, select **Migrate Thread to a new adapter**.
+4. If you no longer want to use the old adapter, you can remove the old hardware integration.
+   - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/) and select the integration.
+   - Select the three dots menu and select **Delete**.
+5. You can now unplug the old adapter.
+
+## Prerequisites
+
+{% steps %}
+{% prereq %}
+{% image "/static/img/connect-zbt-2/connect-zbt-2-unboxed-02.png" "{{ productName }} with USB extension cable in packaging" %}
+{% stepContent %}
+
+- [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) installed on your smart home hub. For example:
+  - on a Home Assistant Green, where Home Assistant OS is preinstalled
+  - on a Home Assistant Yellow or on a Raspberry Pi
+- A Thread network and a Thread adapter connected to your Home Assistant hub
+- Latest updates installed
+- {{ productName }} adapter and a USB extension cable
+- Thread devices
+
+{% endstepContent %}
+{% endprereq %}
+{% endsteps %}
+
+## To enable dedicated Thread support
+
+{% steps %}
+
+{% include 'connect-zbt-2/getting-started/zbt-2-assemble-and-install.md' %}
+
+{% include "connect-zbt-2/getting-started/plug-in-zbt-2-and-extension-cable.md" %}
+
+{% step "Adding the Home Assistant Connect ZBT-2 integration" %}
+{% image "/static/img/connect-zbt-2/connect-zbt-2-add.png" "adding the Home Assistant Connect ZBT-2 integration" %}
+{% stepContent %}
+
+- Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
+- {{ productName }} should now be discovered.
+- Select **Add**.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Migrating to a new adapter" %}
+{% image "/static/img/connect-zbt-2/migrate-thread-to-new-adapter.png" "Select the Thread firmware" %}
+{% stepContent %}
+
+- Select **Migrate Thread to a new adapter**.
+  - **Result**: Your Thread network is managed by Home Assistant. Migrating the adapter means that Home Assistant will start to use the radio from {{ productName }} instead of the old one.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Removing the integration" %}
+{% image "/static/img/connect-zbt-2/zbt-1-delete.png" "Select the Thread firmware" %}
+{% stepContent %}
+
+If you no longer want to use the old adapter, you can remove the old hardware integration.
+
+1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/) and select the integration.
+2. Select the three dots menu and select **Delete**.
+3. You can now unplug the old adapter.
+
+{% endstepContent %}
+{% endstep %}
+{% endsteps %}
