@@ -52,7 +52,7 @@ If you already have a Thread adapter running but want to switch to a {{ productN
 {% stepContent %}
 
 - Select **Migrate Thread to a new adapter**.
-  - **Result**: Your Thread network is managed by Home Assistant. Migrating the adapter means that Home Assistant will start to use the radio from {{ productName }} instead of the old one.
+  - **Info**: Your Thread network is managed by Home Assistant. It is not stored on the adapter.Migrating the adapter means that Home Assistant will start to use the radio from {{ productName }} instead of the old one.
 
 {% endstepContent %}
 {% endstep %}
