@@ -57,7 +57,7 @@ If you already have a Thread adapter running but want to switch to a {{ productN
 {% endstepContent %}
 {% endstep %}
 
-{% step "Removing the integration" %}
+{% step "Removing the old integration" %}
 {% image "/static/img/connect-zbt-2/zbt-1-delete.png" "Select the Thread firmware" %}
 {% stepContent %}
 
