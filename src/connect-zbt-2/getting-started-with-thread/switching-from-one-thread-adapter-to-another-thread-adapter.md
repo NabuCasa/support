@@ -19,7 +19,7 @@ If you already have a Thread adapter running but want to switch to a {{ productN
 - [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) installed on your smart home hub. For example:
   - on a Home Assistant Green, where Home Assistant OS is preinstalled
   - on a Home Assistant Yellow or on a Raspberry Pi
-- A Thread network and a Thread adapter connected to your Home Assistant hub
+- Existing Thread adapter connected to your Home Assistant hub
 - Latest updates installed
 - {{ productName }} adapter and a USB extension cable
 - Thread devices
