@@ -65,3 +65,9 @@ This guide shows you how to use the {{ productName }} as a dedicated Thread adap
 {% endstep %}
 {% endsteps %}
 
+## Related topics
+
+- [Add your Thread-based devices to Home Assistant](https://www.home-assistant.io/integrations/thread/#adding-a-thread-based-device-to-home-assistant)
+- [About different Thread networks](https://www.home-assistant.io/integrations/thread/#about-different-thread-networks)
+- [About Thread border routers](https://www.home-assistant.io/integrations/thread/#about-thread-border-routers)
+- [Making Home Assistant your first Thread network](https://www.home-assistant.io/integrations/thread/#to-make-home-assistant-your-first-thread-network)
