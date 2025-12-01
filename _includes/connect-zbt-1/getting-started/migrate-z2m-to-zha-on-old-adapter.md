@@ -79,7 +79,7 @@ If you don't want to delete the **MQTT** integration, you can remove the individ
 - Select **Keep adapter network settings**.
   - This lets Zigbee Home Automation (ZHA) import settings from another device that was used with software other than ZHA.
   - This way, some of the network settings can be migrated automatically.
-  - **Troubleshooting**: If you are seeing a repair issue **Zigbee network settings have changed**, and the text **network settings are inconsistent with the most recent adapter**, select **Keep the new settings**.
+  - **Troubleshooting**: If you are seeing a repair issue **Zigbee network settings have changed**, and the text **network settings are inconsistent with the most recent adapter**, select the option **Keep the new settings**.
 
 - {% stepResult "You can now start migrating the ZHA network as described below." %}
 
