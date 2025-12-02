@@ -1,9 +1,10 @@
 ---
 zendesk:
   article_id: 25918770371229
-  name: Getting started with Home Assistant Preview Edition
+  name: Getting started with Home Assistant Voice Preview Edition
   position: 1
   labels: voice pe, getting started
+productName: "Home Assistant Voice Preview Edition"
 ---
 
 <div class='videoWrapper'>
@@ -16,10 +17,10 @@ zendesk:
 {% prereq %}
 {% stepContent %}
 
-- Home Assistant Voice Preview Edition
+- {{ productName }}
 - USB-C cable and USB power supply (these are not included in the box)
 - Home Assistant server.
-  - The Home Assistant Voice Preview Edition is not a standalone device. For it to work, it needs to connect to Home Assistant, which is installed on a device to act as a server, for example on a [Home Assistant Green](https://www.home-assistant.io/green/).
+  - The {{ productName }} is not a standalone device. For it to work, it needs to connect to Home Assistant, which is installed on a device to act as a server, for example on a [Home Assistant Green](https://www.home-assistant.io/green/).
   - If you do not have Home Assistant installed yet, refer to the [installation documentation](https://www.home-assistant.io/installation/) for instructions.
   - If you already have Home Assistant, make sure to [update to the most recent version](https://www.home-assistant.io/common-tasks/os/#updating-home-assistant).
   - In the Home Assistant UI, you are logged in with a user that has Administrator rights on Home Assistant.
@@ -32,7 +33,7 @@ zendesk:
 
 ### Onboarding via phone
 
-Using your iPhone/Android is the easiest way to connect your Home Assistant Voice Preview Edition to your Wi-Fi network.
+Using your iPhone/Android is the easiest way to connect your {{ productName }} to your Wi-Fi network.
 
 - Have the [Home Assistant Companion app](https://companion.home-assistant.io/) installed on your iPhone or Android and configured to connect to your Home Assistant server.
   - The Home Assistant Companion app is a client software. This means it allows you to access and use your Home Assistant server from a mobile device.
@@ -63,8 +64,8 @@ If you don't want to use a phone and your Home Assistant has Bluetooth: either o
 
 - Use the USB-C cable to connect the device to a power source.
   - **Result**: You should see a warm white twinkle animation.
-  - If you have previously used this device with another Home Assistant hub, [reset Home Assistant Voice Preview Edition](https://support.nabucasa.com/hc/en-us/articles/25800178374557-Resetting-Home-Assistant-Voice-Preview-Edition).
-    - Home Assistant Voice Preview Edition stores an encryption key tied to the original Home Assistant hub, even if the device is removed from that hub. The reset deletes that key and a new key will be generated during setup.
+  - If you have previously used this device with another Home Assistant hub, [reset {{ productName }}](https://support.nabucasa.com/hc/en-us/articles/25800178374557-Resetting-Home-Assistant-Voice-Preview-Edition).
+    - {{ productName }} stores an encryption key tied to the original Home Assistant hub, even if the device is removed from that hub. The reset deletes that key and a new key will be generated during setup.
 
 {% endstepContent %}
 {% endstep %}
@@ -161,4 +162,4 @@ If you don't want to use a phone and your Home Assistant has Bluetooth: either o
 - [Home Assistant Companion app](https://companion.home-assistant.io/)
 - [Supported voice commands](https://www.home-assistant.io/voice_control/builtin_sentences/)
 - [Exposing devices to Assist](https://www.home-assistant.io/voice_control/voice_remote_expose_devices/)
-- [Resetting Home Assistant Voice Preview Edition](https://support.nabucasa.com/hc/en-us/articles/25800178374557-Resetting-Home-Assistant-Voice-Preview-Edition)
+- [Resetting {{ productName }}](https://support.nabucasa.com/hc/en-us/articles/25800178374557-Resetting-Home-Assistant-Voice-Preview-Edition)
