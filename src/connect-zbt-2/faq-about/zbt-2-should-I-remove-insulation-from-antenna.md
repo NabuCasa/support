@@ -16,4 +16,4 @@ Removing it will not improve the performance of the antenna. The white foam is t
 ## Related topics
 
 - [{{ productName }} device overview](/hc/en-us/articles/31369010717213)
-- [About the device](/hc/en-us/articles/31313065259421)
+- [About {{ productName }}](/hc/en-us/articles/31313065259421)
