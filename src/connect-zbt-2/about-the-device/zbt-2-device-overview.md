@@ -13,3 +13,4 @@ zendesk:
 - [About the device](/hc/en-us/articles/31313065259421)
 - [Status colors (LED)](/hc/en-us/articles/31368700350109)
 - [Datasheet](/hc/en-us/articles/31260229217821)
+- [Don't remove padding inside the antenna](/hc/en-us/articles/32411793846173)
