@@ -27,7 +27,6 @@ This migration includes the following steps:
 1. [Prerequisites](#prerequisites).
 2. [Migrating the deCONZ network from the old adapter to ZHA](#to-migrate-a-deconz-network-from-the-old-adapter-to-zha).
 3. [Migrating this ZHA network to {{ productName }}](#to-migrate-the-zha-network-to-connectzbt-1).
-4. [Renaming the integration and reconfiguring automations](#renaming-the-integration-and-reconfiguring-automations).
 
 ## Prerequisites
 
