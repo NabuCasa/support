@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 29400714818973
-  name:  Migrating a deCONZ network using Zigbee Home Automation (ZHA)
+  name:  Migrating a deCONZ network to Home Assistant Connect ZBT-2 using Zigbee Home Automation (ZHA)
   position: 40
   labels: connect-zbt-2, getting-started
 productName: "Home Assistant Connect&nbsp;ZBT-2"
@@ -24,10 +24,7 @@ This migration includes the following steps:
 
 ## Prerequisites
 
-- a deCONZ network running with a ConBee III, a ConBee II, or a RaspBee II.
-- Home Assistant version 2025.10.1 or later.
-- have the latest firmware installed on the ConBee/RaspBee adapter
-  - check the steps below to see how to [check the version or update the deCONZ adapter](#updating-the-deconz-adapter).
+{% include "fragments/zbt-1-2-migrate-deconz-prereqs.md" %}
 
 ### Updating the deCONZ adapter
 
