@@ -75,7 +75,7 @@
 {% stepContent %}
 
 - Wait for the settings to be loaded.
-- Once the Conbee/Raspbee adapter has been recognized as your Zigbee coordinator, select **Finish**.
+- Once the ConBee/RaspBee adapter has been recognized as your Zigbee coordinator, select **Finish**.
 
 {% endstepContent %}
 {% endstep %}

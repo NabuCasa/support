@@ -26,7 +26,7 @@ This migration includes the following steps:
 
 - a deCONZ network running with a ConBee II or RaspBee II.
 - Home Assistant version 2025.10.1 or later.
-- firmware version 26720700 or later on the Conbee/Raspbee adapter.
+- firmware version 26720700 or later on the ConBee/RaspBee adapter.
   - Check the steps below to see how to [check the version or update the deCONZ adapter](#updating-the-deconz-adapter).
 
 ### Updating the deCONZ adapter
