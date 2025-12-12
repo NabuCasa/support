@@ -44,9 +44,9 @@ This migration includes the following steps:
 {% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Locate the Connect ZBT-1 integration" %}
 {% stepContent %}
 
-- Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-- The {{ productName }} should now be discovered.
-- Select **Add**.
+1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
+   - {{ productName }} should now be discovered.
+2. Select **Add**.
 
 {% endstepContent %}
 {% endstep %}
