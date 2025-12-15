@@ -8,7 +8,7 @@ productName: "Home Assistant Connect&nbsp;ZBT-2"
 type: "zbt2"
 ---
 
-Follow this guide if you have a deCONZ network running with a ConBee III, a ConBee II or RaspBee II and want to migrate to {{ productName }} and the **Zigbee Home Automation** integration.
+Follow this guide if you have a deCONZ network running with a ConBee III, a ConBee II, or a RaspBee II and want to migrate to {{ productName }} and the **Zigbee Home Automation** integration.
 
 {% callout "note" %}
 
