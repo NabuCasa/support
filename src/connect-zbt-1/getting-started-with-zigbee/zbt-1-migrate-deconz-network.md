@@ -5,9 +5,10 @@ zendesk:
   position: 4
   labels: connect zbt-1, getting started, migrate, migration
 productName: "Home Assistant Connect&nbsp;ZBT-1"
+type: "zbt1"
 ---
 
-Follow this guide if you have a deCONZ network running with a ConBee II or RaspBee II and want to migrate to Connect&nbsp;ZBT-1 and {% abbr "ZHA" %}.
+Follow this guide if you have a deCONZ network running with a ConBee II or RaspBee II and want to migrate to {{ productName }} and the **Zigbee Home Automation** integration.
 
 {% callout "note" %}
 
@@ -19,170 +20,66 @@ This migration includes the following steps:
 
 1. [Prerequisites](#prerequisites).
 2. [Migrating the deCONZ network from the old adapter to ZHA](#to-migrate-a-deconz-network-from-the-old-adapter-to-zha).
-3. [Migrating this ZHA network to Connect&nbsp;ZBT-1](#to-migrate-the-zha-network-to-connectzbt-1).
-4. [Renaming the integration and reconfiguring automations](#renaming-the-integration-and-reconfiguring-automations).
+3. [Migrating this ZHA network to {{ productName }}](#to-migrate-the-zha-network-to-connectzbt-1).
 
 ## Prerequisites
 
-- a deCONZ network running with a ConBee II or RaspBee II.
-- Home Assistant version 2025.10.1 or later.
-- firmware version 26720700 or later on the Conbee/Raspbee adapter.
-  - Check the steps below to see how to [check the version or update the deCONZ adapter](#updating-the-deconz-adapter).
+{% include "fragments/zbt-1-2-migrate-deconz-prereqs.md" %}
 
 ### Updating the deCONZ adapter
 
-{% steps %}
-{% step "Viewing the firmware version of the adapter" %}
-{% image "/static/img/connect-zbt-1/conbee-update-05.png" "View the firmware version of the adapter" %}
-{% stepContent %}
-
-- In the deCONZ app, under **Settings** > **Gateway**, check the firmware version. It should be version 26720700 or newer.
-  - If the version is recent enough, skip the next two steps and continue with Step 4 (Stop the deCONZ add-on).
-  - If the version is not up-to-date, select **Update to 26720700**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Following the wizard" %}
-{% image "/static/img/connect-zbt-1/conbee-update-06.png" "Follow the wizard" %}
-{% stepContent %}
-
-- Select **Create backup** and let the wizard guide you through the update process.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Updating complete" %}
-{% image "/static/img/connect-zbt-1/conbee-update-14.png" "Update complete" %}
-{% stepContent %}
-
-- Once the update is complete, you will see the new firmware version.
-
-{% endstepContent %}
-{% endstep %}
-{% endsteps %}
+{% include "connect-zbt-1/getting-started/zbt1-2-updating-deconz-adapter.md" %}
 
 ## To migrate a deCONZ network from the old adapter to ZHA
 
-{% steps %}
-{% step "Stopping the deCONZ add-on" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-02.png" "Stop the deCONZ add-on" %}
-{% stepContent %}
-
-1. In the [deCONZ add-on](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_deconz), make sure the **Start on boot** option is disabled.
-2. Select **Stop**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Removing the deCONZ integration" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-33.png" "Remove the deCONZ integration" %}
-{% stepContent %}
-
-1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the deCONZ integration.
-2. Select the three dots menu and select **Delete**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Adding a new ZHA integration" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-23.png" "Add a new ZHA integration" %}
-{% stepContent %}
-
-1. In the top-right corner, make sure the checkboxes **Show ignored integrations** and **Show disabled integrations** are selected.
-2. Check if the ZHA integration shows up.
-   - If the ZHA integration does not show up, select **Add integration**, then select **ZHA** from the list.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Add the Zigbee Home Automation integration" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-04.png" "Configure the new ZHA integration" %}
-{% stepContent %}
-
-- Once the ZHA integration has detected ConBee II, select **Add**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Submit" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-05.png" "Set up ConBee II as ZHA integration" %}
-{% stepContent %}
-
-- To set up ConBee II as ZHA integration, select **Submit**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Choosing the Zigbee setup" %}
-{% image "/static/img/connect-zbt-1/z2m-migrate-zha-21.png" "Choose the network settings for your radio" %}
-{% stepContent %}
-
-- Select **Advanced setup**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Choosing the network settings for your radio" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-51.png" "Choose the network settings for your radio" %}
-{% stepContent %}
-
-- Select **Keep adapter network settings**.
-  - This lets Zigbee Home Automation (ZHA) import settings from another device that was used with software other than ZHA.
-  - This way, some of the network settings can be migrated automatically.
-
-- {% stepResult "You can now start migrating the ZHA network as described below." %}
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Wait" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-09.png" "Wait" %}
-{% stepContent %}
-
-- Wait for the settings to be loaded.
-- Once the Conbee/Raspbee adapter has been recognized as your Zigbee coordinator, select **Finish**.
-
-{% endstepContent %}
-{% endstep %}
-
-{% step "Wait" %}
-{% image "/static/img/connect-zbt-1/z2m-backup-restore-05.png" "Wait for the devices to rejoin the network" %}
-{% stepContent %}
-
-- Wait for the devices to rejoin the network
-  - Normally, powered devices rejoin within one hour.
-  - You may be able to accelerate that process by power-cycling devices.
-  - Your battery-powered devices may need to be re-joined to the network manually.
-  - Once the devices show up in the integration, select the integration.
-
-{% endstepContent %}
-{% endstep %}
-{% endsteps %}
+{% include "connect-zbt-1/getting-started/zbt-1-2-migrate-deconz-to-zha.md" %}
 
 ## To migrate the ZHA network to Connect&nbsp;ZBT-1
 
-{% include 'connect-zbt-1/getting-started/migrate-zha-only.md' %}
-
-## Renaming the integration and reconfiguring automations
-
 {% steps %}
-{% step "Renaming the ZHA integration" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-new-21.png" "Start renaming ZHA integration" %}
+
+{% include "connect-zbt-1/getting-started/plug-in-zbt-1-and-extension-cable.md" %}
+
+{% step "Locating the Home Assistant Connect&nbsp;ZBT-1 integration" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-add.png" "Locate the Connect ZBT-1 integration" %}
 {% stepContent %}
 
-- To avoid confusion, rename the ZHA integration.
-- Change the ZHA integration name to **Connect ZBT-1**.
+1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
+   - {{ productName }} should now be discovered.
+2. Select **Add**.
 
 {% endstepContent %}
 {% endstep %}
 
-{% step "Reconfiguring automations and dashboards" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-new-22.png" "Reconfigure automations and dashboards" %}
+{% step "Picking your protocol" %}
+{% image "/static/img/connect-zbt-1/zbt-migrate-zigbee-to-new-adapter.png" "Pick your firmware" %}
 {% stepContent %}
 
-- **Info**: All migrated devices have new entity IDs. This means you will need to manually reconfigure automations and dashboard cards.
-- **Info**: The names that you manually assigned to your devices won't have been migrated. You will have to rename the devices again.
+- In the dialog, select **Migrate Zigbee to a new adapter**.
+- This will move the Zigbee network to your new adapter.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Select installation type" %}
+{% image "/static/img/connect-zbt-1/zbt-select-installation-method.png" "Pick your firmware" %}
+{% stepContent %}
+
+- Select **Recommended installation**.
+  - This adds the device to Home Assistant, backs up your old adapter and moves those network settings to {{ productName }}.
+
+{% endstepContent %}
+{% endstep %}
+
+{% step "Migration complete!" %}
+{% image "/static/img/connect-zbt-1/z2m-migrate-zha-12.png" "Screenshot showing the Success dialog" %}
+{% stepContent %}
+
+- The migration process is now complete.
+- **Info** You won't be able to control the devices until they rejoin the network.
+  - Normally, they rejoin within one hour.
+  - You may be able to accelerate that process by power-cycling devices.
+- You can now remove the old Zigbee adapter.
 
 {% endstepContent %}
 {% endstep %}
