@@ -6,7 +6,7 @@ zendesk:
   labels: green, troubleshooting
 ---
 
-Perform this procedure if you want to perform a factory reset on your device.
+Performing a factory reset of your device is an extreme measure that should not usually be required and should be done with caution.
 
 ## Considerations before starting a reset
 
@@ -21,6 +21,7 @@ The reset process requires a working internet connection.
 
 If you're unsure what's causing your issue, consider asking the [Home Assistant Community](https://community.home-assistant.io/) before resetting your device.
 
+Perform this procedure if you want to perform a factory reset on your device.
 
 ## Prerequisites
 
