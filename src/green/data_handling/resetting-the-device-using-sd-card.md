@@ -8,17 +8,18 @@ zendesk:
 
 Perform this procedure if you want to perform a factory reset on your device.
 
-## Before you reset
+## Considerations before starting a reset
 
-**This process requires a working internet connection.** If your Green can't reach the internet the reset may fail, leaving you worse off than when you started.
+The reset process requires a working internet connection.
+- If your Green can't reach the internet, the reset will fail, leaving you worse off than when you started.
 
-**Common issues that don't require a reset:**
+### Common issues that don't require a reset
 
-- Can't remember your password - [Reset your owner password](https://www.home-assistant.io/docs/locked_out/)
-- Can't find your device on the network - Check your router's device list for the current IP address
-- Device seems unresponsive - Power cycle and wait 5 minutes for a full boot
+- Can't remember your password: [Reset your owner password](https://www.home-assistant.io/docs/locked_out/).
+- Can't find your device on the network: Check your router's device list for the current IP address.
+- Device seems unresponsive: Power cycle and wait 5 minutes for a full boot.
 
-If you're unsure what's causing your issue, consider asking the [Home Assistant Community](https://community.home-assistant.io/) before proceeding.
+If you're unsure what's causing your issue, consider asking the [Home Assistant Community](https://community.home-assistant.io/) before resetting your device.
 
 
 ## Prerequisites
