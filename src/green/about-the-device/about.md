@@ -3,7 +3,7 @@ zendesk:
   article_id: 25212448491165
   name: About Home Assistant Green
   position: 1
-  labels: green, about the system
+  labels: green, about-the-device
 ---
 
 ## Smart home hub for Home Assistant

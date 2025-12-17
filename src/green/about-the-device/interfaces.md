@@ -3,7 +3,7 @@ zendesk:
   article_id: 25212058857373
   name: Interfaces of Home Assistant Green
   position: 3
-  labels: green, about the system
+  labels: green, about-the-device
 ---
 
 Home Assistant Green provides the following interfaces:

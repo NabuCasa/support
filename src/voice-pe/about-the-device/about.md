@@ -3,7 +3,7 @@ zendesk:
   article_id: 25764286546717
   name: About Home Assistant Voice Preview Edition
   position: 1
-  labels: voice pe, about the system
+  labels: voice pe, about-the-device
 ---
 
 ## Voice assistant built to integrate with Home Assistant

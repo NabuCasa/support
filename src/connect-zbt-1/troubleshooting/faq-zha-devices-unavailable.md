@@ -3,7 +3,7 @@ zendesk:
   article_id: 26125387134877
   name: Some of my Zigbee Home Automation (ZHA) devices are unavailable
   position: 40
-  labels: connect zbt-1, troubleshooting
+  labels: connect-zbt-1, troubleshooting
 ---
 
 {% include "connect-zbt-1/troubleshooting/zigbee-devices-unavailable.md" %}

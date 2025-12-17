@@ -3,7 +3,7 @@ zendesk:
   article_id: 28604867573277
   name: Enabling the status lights (LEDs) of Home Assistant Green
   position: 7
-  labels: green, about the system, status
+  labels: green, about-the-device, status
 ---
 
 {% include 'enable-leds.md' %}

@@ -3,7 +3,7 @@ zendesk:
   article_id: 26125034371357
   name: Connect ZBT-1 error message "Connection failed"
   position: 20
-  labels: connect zbt-1, troubleshooting
+  labels: connect-zbt-1, troubleshooting
 ---
 
 ## Symptom
