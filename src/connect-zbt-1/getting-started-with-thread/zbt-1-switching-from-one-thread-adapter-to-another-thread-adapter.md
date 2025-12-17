@@ -46,7 +46,7 @@ If you already have a Thread adapter running but want to switch to a {{ productN
 {% endstep %}
 
 {% step "Migrating to a new adapter" %}
-{% image "/static/img/connect-zbt-2/migrate-thread-to-new-adapter.png" "Select the Thread firmware" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-pick-thread-firmware.png" "Select the Thread firmware" %}
 {% stepContent %}
 
 1. Select **Migrate Thread to a new adapter**.
