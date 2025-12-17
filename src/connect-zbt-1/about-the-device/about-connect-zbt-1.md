@@ -3,7 +3,7 @@ zendesk:
   article_id: 30878291112349
   name: About Home Assistant Connect ZBT-1
   position: 1
-  labels: Connect ZBT-1, about the device
+  labels: connect-zbt-1, about-the-device
 ---
 
 [Home Assistant Connect&nbsp;ZBT-1](https://www.home-assistant.io/connectzbt1) is a Zigbee or Thread adapter. It was designed specifically to work with Home Assistant. It connects to your Home Assistant system via USB, allowing it to build either a Zigbee or a Thread network via Home Assistant's built-in Zigbee or Thread integrations.

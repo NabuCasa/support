@@ -3,7 +3,7 @@ zendesk:
   article_id: 30589636469533
   name: Forming a new Thread network with Home Assistant Connect ZBT-1
   position: 10
-  labels: connect zbt-1, thread
+  labels: connect-zbt-1, thread
 ---
 
 This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedicated Thread adapter. The Thread adapter allows you to connect Thread-based devices, such as Matter-over-Thread devices, to your network.

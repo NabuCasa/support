@@ -3,7 +3,7 @@ zendesk:
   article_id: 26124710072861
   name: Switching from Zigbee to Thread support on Home Assistant Connect ZBT-1
   position: 1
-  labels: connect zbt-1, thread
+  labels: connect-zbt-1, thread
 ---
 
 This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedicated Thread adapter when you have previously used it for Zigbee. The Thread adapter allows you to connect Thread-based devices, such as Matter-over-Thread devices, to your network.

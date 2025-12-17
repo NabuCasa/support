@@ -3,7 +3,7 @@ zendesk:
   article_id: 25764488568605
   name: Home Assistant Voice Preview Edition device overview
   position: 3
-  labels: voice pe, about the system, device overview
+  labels: voice pe, about-the-device, device overview
 ---
 
 Overview of the device interfaces.
