@@ -6,7 +6,25 @@ zendesk:
   labels: green, troubleshooting
 ---
 
-Perform this procedure if you have Home Assistant 13.1 or later and you want to do a factory reset. If you have a new device, you likely have an older version of Home Assistant Operating System (older than 13.1). In this case, [reset the device using an SD card](/hc/en-us/articles/25162566451485). To see which version you have, go to [**Settings** > **About**](https://my.home-assistant.io/redirect/info/).
+Perform this procedure if you have Home Assistant 13.1 or later and you want to do a factory reset.
+
+If you have a new device, you likely have an older version of Home Assistant Operating System (older than 13.1). In this case, [reset the device using an SD card](/hc/en-us/articles/25162566451485). To see which version you have, go to [**Settings** > **About**](https://my.home-assistant.io/redirect/info/).
+
+Performing a factory reset of your device is an extreme measure that should not usually be required and should be done with caution.
+
+## Considerations before starting a reset
+
+The reset process requires a working internet connection.
+
+- If your Green can't reach the internet, the reset will fail, leaving you worse off than when you started.
+
+### Common issues that don't require a reset
+
+- Can't remember your password: [Reset your owner password](https://www.home-assistant.io/docs/locked_out/).
+- Can't find your device on the network: Check your router's device list for the current IP address.
+- Device seems unresponsive: Power cycle and wait 5 minutes for a full boot.
+
+If you're unsure what's causing your issue, consider asking the [Home Assistant Community](https://community.home-assistant.io/) before resetting your device.
 
 ## Prerequisites
 
