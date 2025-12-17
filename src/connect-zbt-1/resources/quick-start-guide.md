@@ -4,6 +4,7 @@ zendesk:
   name: Home Assistant Connect ZBT-1 - Quick Start Guide
   position: 1
   labels: connect-zbt-1, downloads, resources
+productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
-- [Quick Start Guide](/static/docs/connect-zbt-1/Home-Assistant-Connect-ZBT-1_Quick-Start-Guide_V2.pdf)
+- [{{ productName }}: Quick Start Guide](/static/docs/connect-zbt-1/Home-Assistant-Connect-ZBT-1_Quick-Start-Guide_V2.pdf)

@@ -4,6 +4,7 @@ zendesk:
   name: Home Assistant Connect ZBT-1 - Datasheet
   position: 4
   labels: connect-zbt-1, downloads, resources
+productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
-- [Datasheet](/static/docs/connect-zbt-1/Home-Assistant-Connect-ZBT-1_Datasheet_v2_0.pdf)
+- [{{ productName }}: Datasheet](/static/docs/connect-zbt-1/Home-Assistant-Connect-ZBT-1_Datasheet_v2_0.pdf)
