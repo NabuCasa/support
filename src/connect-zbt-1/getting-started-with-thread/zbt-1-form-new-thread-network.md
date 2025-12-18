@@ -4,9 +4,10 @@ zendesk:
   name: Forming a new Thread network with Home Assistant Connect ZBT-1
   position: 10
   labels: connect-zbt-1, thread
+productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
-This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedicated Thread adapter. The Thread adapter allows you to connect Thread-based devices, such as Matter-over-Thread devices, to your network.
+This guide shows you how to use the {{ productName }} as a dedicated Thread adapter. The Thread adapter allows you to connect Thread-based devices, such as Matter-over-Thread devices, to your network.
 
 ## Prerequisites
 
@@ -19,7 +20,7 @@ This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedic
   - on a Home Assistant Green, where Home Assistant OS is preinstalled
   - on a Home Assistant Yellow or on a Raspberry Pi
 - Latest updates installed
-- Home Assistant Connect&nbsp;ZBT-1 adapter and a USB extension cable
+- {{ productName }} adapter and a USB extension cable
 - Thread devices
 
 {% endstepContent %}
@@ -37,7 +38,7 @@ This guide shows you how to use the Home Assistant Connect&nbsp;ZBT-1 as a dedic
 {% stepContent %}
 
 - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-- The Connect ZBT-1 should now be discovered.
+- {{ productName }} should now be discovered.
 - Select **Add**.
 
 {% endstepContent %}

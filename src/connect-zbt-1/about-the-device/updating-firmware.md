@@ -16,6 +16,6 @@ If you want to switch from the Zigbee to the Thread firmware, follow the steps o
 
 ## Related topics
 
-- [Connect ZBT-1: Switching from Zigbee to Thread](/hc/en-us/articles/26124710072861)
+- [{{ productName }}: Switching from Zigbee to Thread](/hc/en-us/articles/26124710072861)
 - [Switching from Zigbee to Thread](/hc/en-us/articles/26124710072861)
 - [Reinstalling the firmware using the Open Home Foundation Toolbox](/hc/en-us/articles/31321042429597)
