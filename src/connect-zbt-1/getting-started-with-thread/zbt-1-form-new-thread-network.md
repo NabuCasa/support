@@ -13,7 +13,7 @@ This guide shows you how to use the {{ productName }} as a dedicated Thread adap
 
 {% steps %}
 {% prereq %}
-{% image "/static/img/connect-zbt-1/connect-zbt-1-boxed-01.jpg" "{{ productName }} with USB extension cable in packaging" %}
+{% image "/static/img/connect-zbt-1/connect-zbt-1-boxed-01.jpg" "Home Assistant Connect ZBT-1 with USB extension cable in packaging" %}
 {% stepContent %}
 
 - [Home Assistant Operating System](https://www.home-assistant.io/docs/glossary/#home-assistant-operating-system) installed on your smart home hub. For example:
