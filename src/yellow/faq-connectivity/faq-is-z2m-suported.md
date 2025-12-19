@@ -10,7 +10,7 @@ zendesk:
 
 ```yaml
 serial:
-  adapter: ezsp
+  adapter: ember
   port: /dev/ttyAMA1
   baudrate: 115200
   rtscts: true
