@@ -16,7 +16,7 @@ I can login to my [Nabu Casa Cloud account](https://account.nabucasa.com/) using
 Your Home Assistant server login credentials are not the same as your Nabu Casa Cloud account credentials. The accounts have different functions.
 
 - The Home Assistant login gives you access to your own, local Home Assistant server, such as a [Home Assistant Green](https://www.home-assistant.io/green/).
-- Home Assistant Cloud gives allows you to safely access your Home Assistant server from a remote location, outside your network.
+- Home Assistant Cloud allows you to safely access your Home Assistant server from a remote location, outside your network.
   - For more information on Home Assistant Cloud, refer to the ([list of Home Assistant Cloud features](/hc/en-us/articles/26260474250269)).
 
 ## Resolution
