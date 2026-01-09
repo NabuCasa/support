@@ -27,7 +27,7 @@ To login to Home Assistant, enter your Home Assistant username (and not your ema
 
 ![Home Assistant Login fails because email address is used instead of user name](/static/img/cloud/login-home-assistant.png)
 
-- If you are the administrator and forgot your Home Assistant username, follow the steps under [forgot username](https://www.home-assistant.io/docs/locked_out/#forgot-username).
+- If you forgot your Home Assistant username, follow the steps under [forgot username](https://www.home-assistant.io/docs/locked_out/#forgot-username).
 - If you know your Home Assistant username but forgot the password, follow the steps under [forgot password](https://www.home-assistant.io/docs/locked_out/#forgot-password).
 
 ## Related topics
