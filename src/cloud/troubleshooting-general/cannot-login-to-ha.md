@@ -9,9 +9,9 @@ zendesk:
 
 ## Symptom
 
-I can login to my [Nabu Casa Cloud account](https://account.nabucasa.com/) using my email address and password, but I cannot log in directly to Home Assistant.
+I can login to my [Nabu Casa Cloud account](https://account.nabucasa.com/) using my email address and password, but I cannot log in to Home Assistant.
 
-![Home Assistant Login dialog](/static/img/cloud/cannot-login-to-home-assistant.png)
+![Home Assistant Login fails because email address is used instead of user name](/static/img/cloud/cannot-login-to-home-assistant.png)
 
 ## Cause
 
@@ -23,10 +23,12 @@ Your Home Assistant login credentials are not the same as your Nabu Casa Cloud a
 
 ## Resolution
 
-To login to Home Assistant, follow these steps:
+To login to Home Assistant, enter your Home Assistant username (and not your email).
 
-- If you are the administrator and forgot your Home Assistant user name, follow the steps under [forgot username](https://www.home-assistant.io/docs/locked_out/#forgot-username).
-- If you know your Home Assistant user name but forgot the password, follow the steps under [forgot password](https://www.home-assistant.io/docs/locked_out/#forgot-password).
+![Home Assistant Login fails because email address is used instead of user name](/static/img/cloud/login-home-assistant.png)
+
+- If you are the administrator and forgot your Home Assistant username, follow the steps under [forgot username](https://www.home-assistant.io/docs/locked_out/#forgot-username).
+- If you know your Home Assistant username but forgot the password, follow the steps under [forgot password](https://www.home-assistant.io/docs/locked_out/#forgot-password).
 
 ## Related topics
 
