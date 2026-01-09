@@ -45,6 +45,7 @@ Using your iPhone/Android is the easiest way to connect your {{ productName }} t
   - **On iPhone**, go to **Settings** > **Privacy & Security** and enable Bluetooth for Home Assistant.
   - **On Android**: make sure you’ve enabled precise location service permissions for Home Assistant. It is used for onboarding only. You can disable it again afterward.
     - Go to **Settings** > **Apps** > **Home Assistant** > **Permissions** and enable Location, **Allow all the time and Use precise location**.
+    - You might also need to enable permissions for **Nearby devices** in the App permissions. Go to **Settings** > **Apps** > **Home Assistant** > **Permissions** and enable Nearby devices by selecting **Allow**
 
 ### Onboarding via Bluetooth
 
