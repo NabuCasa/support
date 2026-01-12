@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25620430846493
   name: Checking the logs and system information
-  position: 1
+  position: 10
   labels: cloud
 ---
 
