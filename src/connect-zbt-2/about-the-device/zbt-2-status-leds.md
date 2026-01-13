@@ -8,8 +8,6 @@ zendesk:
 
 The following status light patterns are used to indicate a status on Home Assistant Connect ZBT-2:
 
-Most of the time, the status light is off. It means the device is in normal operation.
-
 {% steps %}
 
 {% step "Off" "Status" %}
