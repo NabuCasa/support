@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25484982657309
   name: Reinstall the Home Assistant Operating System on Raspberry Pi CM4
-  position: 4
+  position: 60
   labels: yellow, troubleshooting
 ---
 

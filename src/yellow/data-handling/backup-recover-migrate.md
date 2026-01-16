@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25454643790237
   name: Restoring or migrating Home Assistant Yellow from a backup
-  position: 1
+  position: 20
   labels: yellow, handling data
 ---
 

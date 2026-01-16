@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25598721072029
   name: How do I find a Raspberry Pi Compute Module 4 or 5 for Home Assistant Yellow?
-  position: 8
+  position: 80
   labels: yellow, faq, general
 ---
 

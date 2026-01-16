@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25616122309405
   name: About firmware options of Home Assistant Yellow
-  position: 3
+  position: 40
   labels: yellow, about, Zigbee, Thread, multiprotocol
 productName: "Home Assistant Yellow"
 ---

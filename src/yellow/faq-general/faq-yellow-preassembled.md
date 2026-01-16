@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25598592004509
   name: Can I buy the Home Assistant Yellow pre-assembled?
-  position: 6
+  position: 60
   labels: yellow, faq, general
 ---
 
