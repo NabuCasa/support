@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 31369193447325
-  name: Resetting your Home Assistant Connect ZBT-2
+  name: Resetting Home Assistant Connect ZBT-2
   position: 20
   labels: connect-zbt-2, data-handling
 productName: "Home Assistant Connect&nbsp;ZBT-2"
