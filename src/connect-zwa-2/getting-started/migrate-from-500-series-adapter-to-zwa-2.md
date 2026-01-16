@@ -2,7 +2,7 @@
 zendesk:
   article_id: 29689016023069
   name: Migrating from a 500 series adapter to Home Assistant Connect ZWA-2
-  position: 41
+  position: 50
   labels: connect zwa-2
 ---
 

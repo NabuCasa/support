@@ -2,7 +2,7 @@
 zendesk:
   article_id: 30248838949405
   name: Running the adapter recovery tool on Home Assistant Connect ZWA-2
-  position: 70
+  position: 80
   labels: connect-zwa-2
 ---
 

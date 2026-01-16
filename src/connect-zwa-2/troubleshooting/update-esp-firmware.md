@@ -2,7 +2,7 @@
 zendesk:
   article_id: 30226941357341
   name: Updating ESP32-S3 firmware on Home Assistant Connect ZWA-2
-  position: 50
+  position: 60
   labels: connect-zwa-2
 ---
 

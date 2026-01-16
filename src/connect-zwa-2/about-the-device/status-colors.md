@@ -2,7 +2,7 @@
 zendesk:
   article_id: 28670086157853
   name: Home Assistant Connect ZWA-2 Status colors (status LED)
-  position: 40
+  position: 50
   labels: connect-zwa-2
 ---
 

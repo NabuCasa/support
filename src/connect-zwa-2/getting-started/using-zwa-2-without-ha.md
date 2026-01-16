@@ -2,7 +2,7 @@
 zendesk:
   article_id: 29447110878493
   name: Using Home Assistant Connect ZWA-2 without Home Assistant
-  position: 50
+  position: 90
   labels: connect zwa-2, getting started
 ---
 

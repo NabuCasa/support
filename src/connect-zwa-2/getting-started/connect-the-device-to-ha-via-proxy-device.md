@@ -2,7 +2,7 @@
 zendesk:
   article_id: 29751691427741
   name: Using a proxy device to connect Home Assistant Connect ZWA-2
-  position: 49
+  position: 80
   labels: connect-zwa-2
 ---
 
