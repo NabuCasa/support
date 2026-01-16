@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25210352599197
   name: About the status lights (LEDs) on Home Assistant Green
-  position: 2
+  position: 20
   labels: green, about-the-device, status
 ---
 

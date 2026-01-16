@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25153288092829
   name: Connecting to Home Assistant Green via console
-  position: 10
+  position: 100
   labels: green, troubleshooting
 ---
 

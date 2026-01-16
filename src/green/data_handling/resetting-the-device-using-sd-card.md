@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25162566451485
   name: Resetting Home Assistant Green using an SD card
-  position: 4
+  position: 40
   labels: green, troubleshooting
 ---
 

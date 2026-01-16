@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25144236984093
   name: Can I connect a Z-Wave or Zigbee USB dongle to Home Assistant Green?
-  position: 6
+  position: 70
   labels: green, troubleshooting
 ---
 

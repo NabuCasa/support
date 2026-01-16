@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25212058857373
   name: Interfaces of Home Assistant Green
-  position: 3
+  position: 30
   labels: green, about-the-device
 ---
 
