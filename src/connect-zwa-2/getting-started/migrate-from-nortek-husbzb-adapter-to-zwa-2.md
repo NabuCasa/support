@@ -2,7 +2,7 @@
 zendesk:
   article_id: 29688968436765
   name: Migrating from a Nortek HUSBZB-1 adapter to Home Assistant Connect ZWA-2
-  position: 42
+  position: 60
   labels: connect zwa-2
 ---
 

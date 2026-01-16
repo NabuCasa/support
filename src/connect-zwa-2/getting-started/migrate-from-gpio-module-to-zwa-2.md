@@ -2,7 +2,7 @@
 zendesk:
   article_id: 29755187041565
   name: Migrating from a Z-Wave hat to Home Assistant Connect ZWA-2
-  position: 43
+  position: 70
   labels: connect zwa-2
 ---
 
