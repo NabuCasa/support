@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26195183130525
-  name: Home Assistant Voice Preview Edition - Circuit diagram / schematic
+  name: Home Assistant Voice Preview Edition Circuit diagram / schematic
   position: 90
   labels: voice pe, downloads, resources
 ---

@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 29569243841949
-  name: Home Assistant Connect ZWA-2 - Firmware repositories
+  name: Home Assistant Connect ZWA-2 Firmware repositories
   position: 60
   labels: connect zwa-2, downloads, resources
 ---

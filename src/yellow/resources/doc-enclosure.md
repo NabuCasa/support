@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26537708322333
-  name: Home Assistant Yellow - Enclosure
+  name: Home Assistant Yellow Enclosure
   position: 80
   labels: yellow, downloads, resources
 ---
