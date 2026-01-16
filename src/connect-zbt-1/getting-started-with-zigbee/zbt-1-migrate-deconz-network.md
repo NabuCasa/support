@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26124035750173
   name: Migrating a deCONZ network to Home Assistant Connect ZBT-1 using Zigbee Home Automation (ZHA)
-  position: 4
+  position: 40
   labels: connect-zbt-1, getting started, migrate, migration
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 type: "zbt1"

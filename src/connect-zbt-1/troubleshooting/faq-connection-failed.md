@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26125034371357
   name: Home Assistant Connect ZBT-1 error message "Connection failed"
-  position: 20
+  position: 30
   labels: connect-zbt-1, troubleshooting
 ---
 

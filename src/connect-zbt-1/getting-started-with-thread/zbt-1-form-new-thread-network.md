@@ -2,7 +2,7 @@
 zendesk:
   article_id: 30589636469533
   name: Forming a new Thread network with Home Assistant Connect ZBT-1
-  position: 10
+  position: 20
   labels: connect-zbt-1, thread
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---

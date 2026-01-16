@@ -2,7 +2,7 @@
 zendesk:
   article_id: 30878291112349
   name: About Home Assistant Connect ZBT-1
-  position: 1
+  position: 10
   labels: connect-zbt-1, about-the-device
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
