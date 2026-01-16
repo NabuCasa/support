@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26537157631133
-  name: Home Assistant Yellow - Declaration of Conformity for EU
+  name: Home Assistant Yellow Declaration of Conformity for EU
   position: 40
   labels: yellow, downloads, resources
 ---

@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26195279589277
-  name: Home Assistant Voice Preview Edition - PCB design files
+  name: Home Assistant Voice Preview Edition PCB design files
   position: 80
   labels: voice pe, downloads, resources
 ---
