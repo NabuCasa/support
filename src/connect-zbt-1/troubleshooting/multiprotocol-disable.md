@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26124969612445
   name: Disabling multiprotocol support
-  position: 10
+  position: 20
   labels: connect-zbt-1, thread, troubleshooting
 ---
 

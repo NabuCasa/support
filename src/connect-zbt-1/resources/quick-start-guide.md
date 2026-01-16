@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26539535048093
   name: Home Assistant Connect ZBT-1 Quick Start Guide
-  position: 1
+  position: 10
   labels: connect-zbt-1, downloads, resources
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---

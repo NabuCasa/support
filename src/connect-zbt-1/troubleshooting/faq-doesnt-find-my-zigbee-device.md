@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26125119364381
   name: Home Assistant does not find my Zigbee device
-  position: 30
+  position: 40
   labels: connect-zbt-1, troubleshooting
 ---
 

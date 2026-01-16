@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26123655295261
   name: Migrating an existing Zigbee Home Automation (ZHA) network to Home Assistant Connect ZBT-1
-  position: 1
+  position: 20
   labels: connect-zbt-1, getting started, migrate, migration
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---

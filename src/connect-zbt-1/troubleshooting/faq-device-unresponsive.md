@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26125541118365
   name: Home Assistant Connect ZBT-1 is unresponsive
-  position: 60
+  position: 70
   labels: connect-zbt-1, troubleshooting
 ---
 
