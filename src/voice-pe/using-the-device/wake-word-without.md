@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25775805328029
   name: Conversing without a wake word with Home Assistant Voice Preview Edition
-  position: 9
+  position: 90
   labels: voice pe, operation, using the device, without wake word, no wake word
 ---
 

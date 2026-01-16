@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26195164741533
   name: Home Assistant Voice Preview Edition Datasheet
-  position: 2
+  position: 20
   labels: voice pe, downloads, resources
 ---
 

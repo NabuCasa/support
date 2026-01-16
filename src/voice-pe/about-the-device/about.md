@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25764286546717
   name: About Home Assistant Voice Preview Edition
-  position: 1
+  position: 10
   labels: voice pe, about-the-device
 ---
 

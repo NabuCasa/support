@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25774619221661
   name: Using the center button on Home Assistant Voice Preview Edition to trigger automations
-  position: 7
+  position: 70
   labels: voice pe, operation, using the device, color change, led
 ---
 

@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25938306296605
   name: Disassembling the enclosure of Home Assistant Voice Preview Edition
-  position: 3
+  position: 30
   labels: voice pe, customizing
 ---
 

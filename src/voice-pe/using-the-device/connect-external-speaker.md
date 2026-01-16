@@ -2,7 +2,7 @@
 zendesk:
   article_id: 28934320761629
   name: Connecting an external speaker to Home Assistant Voice Preview Edition
-  position: 11
+  position: 110
   labels: voice pe, operation, using the device, external speaker
 ---
 
