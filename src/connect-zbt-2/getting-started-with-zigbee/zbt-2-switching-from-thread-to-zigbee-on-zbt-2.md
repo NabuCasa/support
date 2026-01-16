@@ -2,7 +2,7 @@
 zendesk:
   article_id: 31494482596125
   name: Switching from Thread to Zigbee support on Home Assistant Connect ZBT-2
-  position: 60
+  position: 50
   labels: connect-zbt-2, getting-started
 productName: Home Assistant Connect&nbsp;ZBT-2
 ---
