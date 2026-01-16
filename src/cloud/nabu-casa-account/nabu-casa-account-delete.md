@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26167476727581
   name: Cancelling the subscription and deleting the account
-  position: 6
+  position: 60
   labels: cloud, account
 ---
 

@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26294320337181
   name: Enabling a cloud backup
-  position: 11
+  position: 20
   labels: cloud
 ---
 

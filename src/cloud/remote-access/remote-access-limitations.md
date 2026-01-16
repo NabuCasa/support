@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26523862491165
   name: Remote access - Limitations
-  position: 14
+  position: 60
   labels: cloud
 ---
 

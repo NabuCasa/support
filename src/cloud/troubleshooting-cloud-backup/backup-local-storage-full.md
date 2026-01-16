@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26323082445085
   name: Backup - Local storage is full
-  position: 6
+  position: 20
   labels: cloud
 ---
 

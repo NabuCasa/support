@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26294412868381
   name: Deleting the backup stored on Home Assistant Cloud
-  position: 15
+  position: 60
   labels: cloud
 ---
 

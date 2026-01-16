@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25619386304541
   name: Text-to-speech (TTS)
-  position: 4
+  position: 10
   labels: cloud
 ---
 
