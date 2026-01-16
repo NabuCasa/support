@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26179711177501
   name: Which payment methods are accepted?
-  position: 2
+  position: 20
   labels: cloud, payments
 ---
 

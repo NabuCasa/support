@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26166924647453
   name: Transferring the Nabu Casa subscription to another person
-  position: 5
+  position: 50
   labels: cloud, transfer subscription, faq
 ---
 

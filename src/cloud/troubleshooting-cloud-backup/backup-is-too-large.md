@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26323079049245
   name: Backup is too large
-  position: 3
+  position: 10
   labels: cloud
 ---
 

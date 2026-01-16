@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25619427296413
   name: Assist
-  position: 1
+  position: 10
   labels: cloud
 ---
 

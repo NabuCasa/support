@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26508882007581
   name: Remote access - Security aspects
-  position: 8
+  position: 50
   labels: cloud
 ---
 
