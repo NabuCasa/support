@@ -3,7 +3,7 @@ zendesk:
   article_id: 25298668266269
   name: Home Assistant Yellow Kit with CM4 and optional NVMe
   description: Home Assistant Yellow Kit with a Raspberry Pi Compute Module 4, and NVMe.
-  position: 3
+  position: 20
   labels: yellow, getting started, kit, CM4, NVMe
 ---
 

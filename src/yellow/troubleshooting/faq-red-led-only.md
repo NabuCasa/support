@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25455225584541
   name: My Home Assistant Yellow lights up the red LED only.
-  position: 15
+  position: 160
   labels: yellow, troubleshooting
 ---
 

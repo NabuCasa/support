@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26537180423709
   name: Home Assistant Yellow Quick Start Guide
-  position: 1
+  position: 10
   labels: yellow, downloads, resources
 ---
 

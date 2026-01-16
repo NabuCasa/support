@@ -3,7 +3,7 @@ zendesk:
   article_id: 25294047501341
   name: Home Assistant Yellow Standard (with CM4 pre-installed)
   description: Home Assistant Yellow Standard with a Raspberry Pi Compute Module 4 preinstalled. This variant is no longer manufactured.
-  position: 10
+  position: 30
   labels: yellow, getting started, standard, CM4 pre-installed, CM4
 ---
 

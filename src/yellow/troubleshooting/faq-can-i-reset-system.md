@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25455253040797
   name: Can I reset Home Assistant Yellow?
-  position: 3
+  position: 50
   labels: yellow, troubleshooting, faq
 ---
 

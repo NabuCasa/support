@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25405433080093
   name: About Home Assistant Yellow
-  position: 1
+  position: 10
   labels: yellow, about-the-device
 productName: Home Assistant&nbsp;Yellow
 ---

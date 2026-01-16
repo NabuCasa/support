@@ -3,7 +3,7 @@ zendesk:
   article_id: 25742476767517
   name: Switching from Zigbee to Thread support
   description: How to switch from Zigbee to Thread on Home Assistant Yellow
-  position: 4
+  position: 40
   labels: yellow, setup, Thread
 ---
 

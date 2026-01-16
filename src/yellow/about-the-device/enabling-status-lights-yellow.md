@@ -2,7 +2,7 @@
 zendesk:
   article_id: 28604934687261
   name: Enabling the status lights (LEDs) of Home Assistant Yellow
-  position: 7
+  position: 70
   labels: yellow, about-the-device, status
 ---
 
