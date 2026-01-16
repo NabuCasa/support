@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25143653817501
   name: Does Home Assistant Green have Zigbee, Thread, Wi-Fi, or Bluetooth?
-  position: 4
+  position: 40
   labels: green, troubleshooting
 ---
 
