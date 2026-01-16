@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26195267449501
   name: Home Assistant Voice Preview Edition - Enclosure design files
-  position: 4
+  position: 40
   labels: voice pe, downloads, resources
 ---
 

@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25775743017629
   name: Changing the wake word for Home Assistant Voice Preview Edition
-  position: 8
+  position: 80
   labels: voice pe, operation, using the device, change wake word
 ---
 

@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26195222499101
   name: Home Assistant Voice Preview Edition - Enclosure on Makerworld
-  position: 6
+  position: 60
   labels: voice pe, downloads, resources
 ---
 

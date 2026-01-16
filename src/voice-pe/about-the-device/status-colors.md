@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25764604971421
   name: Status colors of the LEDs (status LEDs) on Home Assistant Voice Preview Edition
-  position: 2
+  position: 20
   labels: voice pe, about-the-device, status colors
 ---
 

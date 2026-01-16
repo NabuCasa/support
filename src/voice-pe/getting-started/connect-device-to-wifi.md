@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25918770371229
   name: Getting started with Home Assistant Voice Preview Edition
-  position: 1
+  position: 10
   labels: voice pe, getting started
 productName: "Home Assistant Voice Preview Edition"
 ---
