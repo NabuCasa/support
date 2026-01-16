@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 28670192316189
-  name: Home Assistant Connect ZWA-2 - Device overview
+  name: Home Assistant Connect ZWA-2 device overview
   position: 10
   labels: connect zwa-2
 ---

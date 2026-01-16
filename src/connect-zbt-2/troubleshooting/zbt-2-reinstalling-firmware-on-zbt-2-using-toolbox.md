@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 31494351885725
-  name: Reinstalling the firmware using the Open Home Foundation Toolbox
+  name: Reinstalling firmware on Home Assistant Connect ZBT-2 using the Open Home Foundation Toolbox
   position: 50
   labels: connect-zbt-2, troubleshooting
 productName: "Home Assistant Connect&nbsp;ZBT-2"
