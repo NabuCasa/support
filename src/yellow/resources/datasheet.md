@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26537153454109
-  name: Home Assistant Yellow Datasheet
+  name: Home Assistant Yellow - Datasheet
   position: 30
   labels: yellow, downloads, resources
 ---

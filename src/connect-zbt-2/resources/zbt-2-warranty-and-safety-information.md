@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 31260200237341
-  name: Home Assistant Connect ZBT-2 Warranty and Safety Information
+  name: Home Assistant Connect ZBT-2 - Warranty and Safety Information
   position: 20
   labels: resources
 ---
