@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26294322128669
   name: Disabling Home Assistant Cloud backup
-  position: 14
+  position: 50
   labels: cloud
 ---
 

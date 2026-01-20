@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26497540527517
   name: Using remote access with a custom domain for Home Assistant
-  position: 5
+  position: 40
   labels: cloud
 ---
 

@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25620473014685
   name: Troubleshooting webhook response codes
-  position: 50
+  position: 40
   labels: cloud
 ---
 

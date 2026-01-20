@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25619268678557
   name: Remote access - Deep dive
-  position: 3
+  position: 30
   labels: cloud
 ---
 

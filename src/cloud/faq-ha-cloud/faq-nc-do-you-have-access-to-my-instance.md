@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26177731023261
   name: Do you have access to my Home Assistant instance?
-  position: 2
+  position: 20
   labels: cloud
 ---
 

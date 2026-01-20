@@ -2,7 +2,7 @@
 zendesk:
   article_id: 33070434152221
   name: Cannot login to Home Assistant
-  position: 90
+  position: 70
   labels: cloud, troubleshooting
 ---
 

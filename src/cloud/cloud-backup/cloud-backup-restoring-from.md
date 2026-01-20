@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26294419665181
   name: Restoring Home Assistant from a backup stored on Cloud
-  position: 13
+  position: 40
   labels: cloud
 ---
 

@@ -2,7 +2,7 @@
 zendesk:
   article_id: 29718084245149
   name: Speech-to-text (STT)
-  position: 5
+  position: 20
   labels: cloud
 ---
 

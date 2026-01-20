@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26469707849629
   name: About Home Assistant remote access
-  position: 1
+  position: 10
   labels: cloud
 ---
 

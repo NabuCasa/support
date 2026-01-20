@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25620466293533
   name: Remote access - Problems validating custom domain
-  position: 31
+  position: 10
   labels: cloud
 ---
 
