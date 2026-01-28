@@ -21,6 +21,6 @@ There are currently 2 different recommended firmware options available for {{ pr
 
 ### Overview of Zigbee and Thread firmware options, apps, and integrations in Home Assistant
 
-![Chart illustrating the relationships between Zigbee and Thread firmware options, apps, and integrations in Home Assistant.](/static/img/connect-zbt-1/firmware-options-no-multiprotocol.svg)
+![Chart illustrating the relationships between Zigbee and Thread firmware options, apps, and integrations in Home Assistant.](/static/img/connect-zbt-1/firmware-options-no-multiprotocol-2.svg)
 
 *Chart illustrating the relationships between Zigbee and Thread firmware options, apps, and integrations in Home Assistant.*
