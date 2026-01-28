@@ -1,5 +1,5 @@
 {% steps %}
-{% step "Stopping the Zigbee2MQTT add-on" %}
+{% step "Stopping the Zigbee2MQTT app" %}
 {% image "/static/img/connect-zbt-1/z2m-delete-add-on.png" "Stop the Zigbee2MQTT add-on" %}
 {% stepContent %}
 
