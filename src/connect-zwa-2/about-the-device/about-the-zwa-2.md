@@ -13,7 +13,7 @@ Home Assistant Connect ZWA-2 is a Z-Wave adapter that connects to your Home Assi
 
 Home Assistant Connect ZWA-2 is not a standalone product.
 
-- It was designed to run with Home Assistant running on a smart home hub (such as [Home Assistant Green](https://www.home-assistant.io/green/)) and the **Z-Wave JS** add-on.
+- It was designed to run with Home Assistant running on a smart home hub (such as [Home Assistant Green](https://www.home-assistant.io/green/)) and the **Z-Wave JS** app.
   - You can run it without Home Assistant, in this case [extra steps are required](/hc/en-us/articles/29059418289821).
 - One or more Z-Wave devices, such as switches, dimmers, or locks.
 - **Optional**: [Home Assistant Companion app](https://companion.home-assistant.io/) installed on your smart phone.
