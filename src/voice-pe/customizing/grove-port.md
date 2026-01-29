@@ -170,6 +170,45 @@ Configuration for the [M5Stack BH1750](https://shop.m5stack.com/products/dlight-
       name: "Light Intensity"
   ```
 
+### Example 4: RFID 2 Unit (WS1850S)
+
+Configuration for the [M5Stack WS1850S](https://shop.m5stack.com/products/rfid-unit-2-ws1850s?variant=40753463885996) RFID 2 Unit.
+
+```yaml
+substitutions:
+  name: home-assistant-voice
+  friendly_name: home-assistant-voice
+packages:
+  Nabu Casa.Home Assistant Voice PE: github://esphome/home-assistant-voice-pe/home-assistant-voice.yaml
+  grove-i2c: github://esphome/home-assistant-voice-pe/modules/grove-i2c.yaml
+
+rc522_i2c:
+  i2c_id: grove_i2c
+  address: 0x28
+  on_tag:
+    then:
+      - homeassistant.tag_scanned: !lambda 'return x;'
+
+# Link the RFID reader to binary sensor
+binary_sensor:
+  - platform: rc522
+    uid: 83-08-60-1A
+    name: "NFC"
+
+esphome:
+  name: ${name}
+  name_add_mac_suffix: false
+  friendly_name: ${friendly_name}
+api:
+  encryption:
+    key: ...redacted...
+
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+```
+
 ## Related topics
 
 - [M5Stack SHT40-BMP280](https://shop.m5stack.com/products/env-iv-unit-with-temperature-humidity-air-pressure-sensor-sht40-bmp280) temperature, humidity, air pressure sensor
