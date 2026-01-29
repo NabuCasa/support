@@ -42,7 +42,7 @@ This guide shows you how to use the {{ productName }} as a dedicated Thread adap
 2. Select the **{{ productName }}** integration card.
 3. Select the cog wheel behind **{{ productName }}**.
 4. Select **Use as Thread adapter**.
-   - **Result**: This installs the **OpenThread Border Router** add-on which allows you to connect Matter-over-Thread devices.
+   - **Result**: This installs the **OpenThread Border Router** app which allows you to connect Matter-over-Thread devices.
 5. When prompted, select **Finish**.
    - The firmware installation is now complete.
 
