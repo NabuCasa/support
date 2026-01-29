@@ -6,7 +6,7 @@
 {% stepContent %}
 
 1. Under [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/), select the ZHA integration, then select the cog wheel.
-2. Under **Network settings** add-on, select **Migrate adapter**.
+2. Under **Network settings** app, select **Migrate adapter**.
 
 {% endstepContent %}
 {% endstep %}

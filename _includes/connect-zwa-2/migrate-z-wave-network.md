@@ -5,25 +5,25 @@
 {% include 'connect-zwa-2/assemble-and-install.md' %}
 
 
-{% step "You have the Z-Wave JS add-on" "Scenario 1" %}
-{% image "/static/img/connect-zwa-2/zwa-2-z-wave-js-add-on.png" "Screenshot of Z-Wave JS add-on" %}
+{% step "You have the Z-Wave JS app" "Scenario 1" %}
+{% image "/static/img/connect-zwa-2/zwa-2-z-wave-js-add-on.png" "Screenshot of Z-Wave JS app" %}
 {% stepContent %}
 
-**Scenario 1**: You already have a Z-Wave network running with the **Z-Wave JS** add-on:
+**Scenario 1**: You already have a Z-Wave network running with the **Z-Wave JS** app:
 
 - Follow the [steps in the Z-Wave integration documentation on migrating your Z-Wave network to Home Assistant Connect ZWA-2](https://www.home-assistant.io/integrations/zwave_js/#migrating-a-z-wave-network-to-a-new-adapter).
-- **Troubleshooting**: If you don't know whether you use the **Z-Wave JS** add-on:
-  - Go to [**Settings** > **Add-ons**](https://my.home-assistant.io/redirect/supervisor/) and look for the [**Z-Wave JS**](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_zwave_js) add-on.
+- **Troubleshooting**: If you don't know whether you use the **Z-Wave JS** app:
+  - Go to [**Settings** > **Apps**](https://my.home-assistant.io/redirect/supervisor/) and look for the [**Z-Wave JS**](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_zwave_js) app.
   - In the top right corner, it will be a green "play" icon if you have it installed and running.
 
 {% endstepContent %}
 {% endstep %}
 
-{% step "You have the Z-Wave JS UI add-on" "Scenario 2" %}
+{% step "You have the Z-Wave JS UI app" "Scenario 2" %}
 {% image "/static/img/connect-zwa-2/zwa-2-z-wave-js-ui-add-on.png" "Screenshot showing the Reconfigure ZHA dialog" %}
 {% stepContent %}
 
-**Scenario 2**: You are using the **Z-Wave JS UI** add-on (and not the default **Z-Wave JS** add-on):
+**Scenario 2**: You are using the **Z-Wave JS UI** app (and not the default **Z-Wave JS** app):
 
 1. Before starting migration, disable the Z-Wave JS integration:
    - Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/) and select the **Z-Wave** integration.
