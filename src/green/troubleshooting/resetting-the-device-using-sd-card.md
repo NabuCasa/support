@@ -6,11 +6,14 @@ zendesk:
   labels: green, troubleshooting
 ---
 
+The reset procedure clears the data disk on your device. Unless you created a backup, you will lose all data and configuration settings.
+
 Performing a factory reset of your device is an extreme measure that should not usually be required and should be done with caution.
 
 ## Considerations before starting a reset
 
 The reset process requires a working internet connection.
+
 - If your Green can't reach the internet, the reset will fail, leaving you worse off than when you started.
 
 ### Common issues that don't require a reset
