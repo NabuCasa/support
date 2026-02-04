@@ -6,7 +6,7 @@ zendesk:
   labels: green, troubleshooting
 ---
 
-The reset procedure clears the data disk on your device. Unless you create a backup, you will lose all data and configuration settings.
+The reset procedure clears the data disk on your device. Unless you created a backup, you will lose all data and configuration settings.
 
 Performing a factory reset of your device is an extreme measure that should not usually be required and should be done with caution.
 
