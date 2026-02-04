@@ -6,7 +6,7 @@
 - **CM4 or CM5 Lite**: If you have a Raspberry Compute Module 4 Lite: As there is no eMMC flash, you can skip this and the following steps.
 - **Regular CM4 or CM5 modules**: This *moving your data* procedure is required for making use of your SSD, even if your module is new.
 
-- In Home Assistant, go to [**Configuration > System > Storage**](https://my.home-assistant.io/redirect/storage/)
+- In Home Assistant, go to [**Settings** > **System** > **Storage**](https://my.home-assistant.io/redirect/storage/)
 
 {% endstepContent %}
 {% endstep %}
