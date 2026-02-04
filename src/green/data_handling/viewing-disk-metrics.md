@@ -10,7 +10,7 @@ zendesk:
 
 ![View disk metrics](/static/img/green/disk-metrics-01.png)
 
-- If the eMMC lifetime is reached or you need additional storage, you can connect an external USB drive.
+- If the eMMC lifetime is reached or you need additional storage, you can connect an external USB data disk.
   - You cannot replace the internal eMMC storage on Home Assistant Green.
 
 ## Related topics
