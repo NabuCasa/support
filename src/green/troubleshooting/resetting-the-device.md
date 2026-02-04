@@ -6,7 +6,7 @@ zendesk:
   labels: green, troubleshooting
 ---
 
-The reset procedure clears the data disk on your device. Unless you create a backup, you will lose all data and configuration settings.
+The reset procedure clears the data disk on your device. Unless you created a backup, you will lose all data and configuration settings.
 
 Perform this procedure if you have Home Assistant 13.1 or later and you want to do a factory reset.
 
