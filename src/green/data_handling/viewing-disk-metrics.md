@@ -6,9 +6,12 @@ zendesk:
   labels: green, data
 ---
 
-To view the disk metrics such as available space, and remaining eMMC lifetime on Home Assistant Green, in Home Assistant, go to [**Settings** > **System** > **Storage**](https://my.home-assistant.io/redirect/storage/).
+- To view the disk metrics such as available space, and remaining eMMC lifetime on Home Assistant Green, in Home Assistant, go to [**Settings** > **System** > **Storage**](https://my.home-assistant.io/redirect/storage/).
 
 ![View disk metrics](/static/img/green/disk-metrics-01.png)
+
+- If the eMMC lifetime is reached or you need additional storage, you can connect an external USB drive.
+  - You cannot replace the internal eMMC storage on Home Assistant Green.
 
 ## Related topics
 
