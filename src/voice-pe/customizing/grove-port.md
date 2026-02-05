@@ -42,12 +42,12 @@ The [Grove port](https://wiki.seeedstudio.com/Grove_System/) provides an easy wa
 ## To connect a sensor to the grove port
 
 {% steps %}
-{% step "Taking control of the device in the ESPHome add-on" %}
-{% image "/static/img/voice-pe/voice_esphome_take_control.png" "Screenshot showing the ESPHome add-on UI" %}
+{% step "Taking control of the device in the ESPHome app" %}
+{% image "/static/img/voice-pe/voice_esphome_take_control.png" "Screenshot showing the ESPHome app UI" %}
 {% stepContent %}
 
-1. Go to [**Settings** > **Add-ons**](https://my.home-assistant.io/redirect/supervisor_addon/?addon=5c53de3b_esphome) and install the **ESPHome Device Builder** add-on.
-2. Start the add-on and select **Open web UI**.
+1. Go to [**Settings** > **Apps**](https://my.home-assistant.io/redirect/supervisor_addon/?addon=5c53de3b_esphome) and install the **ESPHome Device Builder** app.
+2. Start the app and select **Open web UI**.
 3. On the **Home Assistant Voice** card, select **Take control**, and follow the steps of the installer.
 
 {% endstepContent %}
