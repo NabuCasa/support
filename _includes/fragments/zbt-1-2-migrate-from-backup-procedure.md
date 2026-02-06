@@ -3,7 +3,7 @@
 {% image "/static/img/connect-zbt-1/z2m-backup-01.png" "Creating a Zigbee2MQTT backup" %}
 {% stepContent %}
 
-1. Under **Settings** > **Add-ons**, open the **Zigbee2MQTT** add-on and select **Open Web UI**.
+1. Under **Settings** > **Apps**, open the **Zigbee2MQTT** app and select **Open Web UI**.
 2. In the Zigbee2MQTT UI, go to **Settings** > **Tools** and select **Request Z2M backup**.
    - Select **Download Zigbee2MQTT backup**.
    - {% stepResult "A zip file should now be downloaded into your **Downloads** folder." %}
@@ -21,12 +21,12 @@
 {% endstepContent %}
 {% endstep %}
 
-{% step "Stopping the Zigbee2MQTT add-on" %}
-{% image "/static/img/connect-zbt-1/z2m-delete-add-on.png" "Stopping the Zigbee2MQTT add-on" %}
+{% step "Stopping the Zigbee2MQTT app" %}
+{% image "/static/img/connect-zbt-1/z2m-delete-add-on.png" "Stopping the Zigbee2MQTT app" %}
 {% stepContent %}
 
-- Under **Settings** > **Add-ons**, in the **Zigbee2MQTT** add-on, select **Stop**.
-- Zigbee2MQTT uses the MQTT discovery feature to make the Zigbee devices available in Home Assistant. After removing the Zigbee2MQTT add-on, the devices are still present in Home Assistant since the MQTT broker is still holding on to the MQTT discovery messages.
+- Under **Settings** > **Apps**, in the **Zigbee2MQTT** app, select **Stop**.
+- Zigbee2MQTT uses the MQTT discovery feature to make the Zigbee devices available in Home Assistant. After removing the Zigbee2MQTT app, the devices are still present in Home Assistant since the MQTT broker is still holding on to the MQTT discovery messages.
 - It is recommended to remove these stale devices from the MQTT broker (see next steps).
 
 {% endstepContent %}

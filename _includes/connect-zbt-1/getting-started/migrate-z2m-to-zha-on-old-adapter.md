@@ -1,10 +1,10 @@
 {% steps %}
-{% step "Stopping the Zigbee2MQTT add-on" %}
-{% image "/static/img/connect-zbt-1/z2m-delete-add-on.png" "Stop the Zigbee2MQTT add-on" %}
+{% step "Stopping the Zigbee2MQTT app" %}
+{% image "/static/img/connect-zbt-1/z2m-delete-add-on.png" "Stop the Zigbee2MQTT app" %}
 {% stepContent %}
 
-   - Under **Settings** > **Add-ons**, in the **Zigbee2MQTT** add-on, select **Stop**.
-   - Zigbee2MQTT uses the MQTT discovery feature to make the Zigbee devices available in Home Assistant. After removing the Zigbee2MQTT add-on, the devices are still present in Home Assistant since the MQTT broker is still holding on to the MQTT discovery messages.
+   - Under **Settings** > **Apps**, in the **Zigbee2MQTT** app, select **Stop**.
+   - Zigbee2MQTT uses the MQTT discovery feature to make the Zigbee devices available in Home Assistant. After removing the Zigbee2MQTT app, the devices are still present in Home Assistant since the MQTT broker is still holding on to the MQTT discovery messages.
    - It is recommended to remove these stale devices from the MQTT broker (see next steps).
 
 {% endstepContent %}

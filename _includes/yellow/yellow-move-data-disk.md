@@ -25,7 +25,7 @@
 {% stepContent %}
 
 - Select your NVMe drive. If it does not show the full name of your disk, select **nvme0n1** and select **MOVE**.
-- **Info**: For a small instance of 5 GB (incl. 6 add-ons) this takes about 5 minutes.
+- **Info**: For a small instance of 5 GB (incl. 6 apps (formerly known as Home Assistant add-ons)) this takes about 5 minutes.
   - Depending on the size of your instance, this may take 30 minutes or longer.
 
 {% endstepContent %}
