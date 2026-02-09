@@ -49,7 +49,7 @@ This guide shows you how to use the {{ productName }} as a dedicated Thread adap
 {% stepContent %}
 
 - Select **Use as Thread adapter**.
-  - **Result**: This installs the **OpenThread Border Router** add-on which allows you to connect Matter-over-Thread devices.
+  - **Result**: This installs the **OpenThread Border Router** app which allows you to connect Matter-over-Thread devices.
 
 {% endstepContent %}
 {% endstep %}
