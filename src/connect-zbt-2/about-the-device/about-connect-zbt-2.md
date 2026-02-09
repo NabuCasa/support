@@ -38,7 +38,7 @@ A few device characteristics are listed below:
 - Home Assistant supports 2 Zigbee solutions:
   - [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/)
   - [Zigbee2MQTT](https://www.zigbee2mqtt.io/)
-- You can run another adapter with the deCONZ or Zigbee2MQTT add-on alongside a {{ productName }} with Zigbee Home Automation.
+- You can run another adapter with the deCONZ or Zigbee2MQTT app alongside a {{ productName }} with Zigbee Home Automation.
 - You cannot run 2 {{ productName }} adapters with the Zigbee Home Automation integration at once in Home Assistant.
   - The Zigbee Home Automation integration is single instance only.
 
