@@ -8,7 +8,7 @@ zendesk:
 
 ## Symptom
 
-You were running a firmware update on Home Assistant Connect ZWA-2 and are now getting a message from the Z-Wave JS or Z-Wave JS UI add-on that the device failed to recover from bootloader.
+You were running a firmware update on Home Assistant Connect ZWA-2 and are now getting a message from the **Z-Wave JS** or the **Z-Wave JS UI** app that the device failed to recover from bootloader.
 
 ## Cause
 
