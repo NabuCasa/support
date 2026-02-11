@@ -6,7 +6,7 @@
 
 
 {% step "You have the Z-Wave JS app" "Scenario 1" %}
-{% image "/static/img/connect-zwa-2/zwa-2-z-wave-js-add-on.png" "Screenshot of Z-Wave JS app" %}
+{% image "/static/img/connect-zwa-2/zwa-2-z-wave-js-app.png" "Screenshot of Z-Wave JS app" %}
 {% stepContent %}
 
 **Scenario 1**: You already have a Z-Wave network running with the **Z-Wave JS** app:
@@ -20,7 +20,7 @@
 {% endstep %}
 
 {% step "You have the Z-Wave JS UI app" "Scenario 2" %}
-{% image "/static/img/connect-zwa-2/zwa-2-z-wave-js-ui-add-on.png" "Screenshot showing the Reconfigure ZHA dialog" %}
+{% image "/static/img/connect-zwa-2/zwa-2-z-wave-js-ui-app.png" "Screenshot showing the Reconfigure ZHA dialog" %}
 {% stepContent %}
 
 **Scenario 2**: You are using the **Z-Wave JS UI** app (and not the default **Z-Wave JS** app):

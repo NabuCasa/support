@@ -22,7 +22,7 @@
 {% endstep %}
 
 {% step "Stopping the Zigbee2MQTT app" %}
-{% image "/static/img/connect-zbt-1/z2m-delete-add-on.png" "Stopping the Zigbee2MQTT app" %}
+{% image "/static/img/connect-zbt-1/z2m-delete-app.png" "Stopping the Zigbee2MQTT app" %}
 {% stepContent %}
 
 - Under **Settings** > **Apps**, in the **Zigbee2MQTT** app, select **Stop**.
