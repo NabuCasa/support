@@ -27,15 +27,4 @@ The following status light patterns are used to indicate a status on Home Assist
 
 {% endstepContent %}
 {% endstep %}
-
-{% step "Blinking fast" "Status" %}
-{% stepContent %}
-
-**Suboptimal antenna orientation**
-- If the status light is blinking fast, the device is not mounted correctly.<br>
-- Remount the device so that the antenna is in a vertical position.
-
-{% endstepContent %}
-{% endstep %}
-
 {% endsteps %}
