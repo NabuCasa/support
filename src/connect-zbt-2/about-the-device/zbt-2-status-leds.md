@@ -38,11 +38,4 @@ The following status light patterns are used to indicate a status on Home Assist
 
 {% endstepContent %}
 {% endstep %}
-
-{% step "Blinking in heartbeat pattern" "Status" %}
-{% stepContent %}
-
-{% endstepContent %}
-{% endstep %}
-
 {% endsteps %}
