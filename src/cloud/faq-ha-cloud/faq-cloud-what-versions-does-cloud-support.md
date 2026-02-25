@@ -1,8 +1,8 @@
 ---
 zendesk:
-  article_id:
+  article_id: 34227199207965
   name: What versions of Home Assistant does Cloud support?
-  position: 6
+  position: 60
   labels: cloud
 ---
 
@@ -49,3 +49,4 @@ For more information, refer to the [Home Assistant update documentation](https:/
 - [List of Home Assistant Cloud features](/hc/en-us/articles/26260474250269)
 - [Enabling Home Assistant Cloud in Home Assistant](/hc/en-us/articles/25649130769949)
 - [About the remote access connection to Home Assistant](/hc/en-us/articles/26469707849629/)
+
