@@ -26,7 +26,6 @@ Some Cloud features have specific minimum version requirements:
 |---------|----------------|
 | Remote access with a custom domain | Home Assistant 2023.9 |
 | Cloud backup | Home Assistant 2025.1 |
-| Multi-factor authentication (Cloud account) | Home Assistant 2025.1 |
 
 Running a version older than the listed minimum may result in that feature not functioning correctly.
 
