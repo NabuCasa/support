@@ -1,6 +1,6 @@
 ---
 zendesk:
-  article_id: XXXXXXXXXXXXX
+  article_id: 34732471944605
   name: How to audit your Home Assistant security certificates
   position: 50
   labels: cloud
