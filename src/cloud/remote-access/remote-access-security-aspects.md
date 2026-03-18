@@ -8,7 +8,7 @@ zendesk:
 
 Remote access is secured with end-to-end encryption; your data stays encrypted from your Home Assistant instance to your device, even when passing through our servers. This prevents us or other parties from seeing your data. 
 
-We also delegate the generation of the key that secures your encryption to a trusted third party. This secure certificate is issued by [Let's Encrypt](https://letsencrypt.org/about/) and is only shared with you. This private key is only stored on your Home Assistant system. Because of this, if you ever lose access, not even Nabu Casa can restore access to your system (see our tips on [regaining access to your system](/hc/en-us/articles/33070434152221)).
+Home Assistant uses an automated process to request security certificates from a trusted third party. This secure certificate is issued by [Let's Encrypt](https://letsencrypt.org/about/) and is only shared with you. This private key is only stored on your Home Assistant system. Because of this, if you ever lose access, not even Nabu Casa can restore access to your system (see our tips on [regaining access to your system](/hc/en-us/articles/33070434152221)).
 
 You don't have to take our word on this; our certificate requesting code that obtains the certificate is open-source, and certificate transparency services allow for independent third-party auditing that no one else has been issued a certificate for your remote access URL.
 
