@@ -6,7 +6,7 @@ zendesk:
   labels: cloud
 ---
 
-You can validate that there are no [man-in-the-middle attacks (MITM)](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) happening to your Home Assistant Cloud connection by doing the following:
+Home Assistant Cloud uses certificate transparency. This allows for independent third-party auditing to verify that no one else has been issued a certificate for your remote access URL. You can [learn more about our security here](/hc/en-us/articles/26508882007581/). Here are the steps you can take to verify your own Home Assistant certificates:
 
 1. Visit the [Home Assistant Cloud page](https://my.home-assistant.io/create-link/?redirect=cloud) on your Home Assistant system
 3. In the Remote Access section, expand the “Security Options” and view the “Certificate Information”  
