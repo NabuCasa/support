@@ -8,7 +8,7 @@ zendesk:
 
 Remote access is secured with end-to-end encryption; your data stays encrypted from your Home Assistant instance to your device, even when passing through our servers. This prevents us or other parties from seeing your data. 
 
-We also delegate the generation of the key that secures your encryption to a trusted third party. This secure certificate is issued by [Let's Encrypt](https://letsencrypt.org/about/) and is only shared with you. This private key is only stored on your Home Assistant system. Because of this, if you ever lose access, not even Nabu Casa can restore access to your system (see our tips on [regaining access to your system](https://support.nabucasa.com/hc/en-us/articles/33070434152221-Cannot-login-to-Home-Assistant)).
+We also delegate the generation of the key that secures your encryption to a trusted third party. This secure certificate is issued by [Let's Encrypt](https://letsencrypt.org/about/) and is only shared with you. This private key is only stored on your Home Assistant system. Because of this, if you ever lose access, not even Nabu Casa can restore access to your system (see our tips on [regaining access to your system](/hc/en-us/articles/33070434152221)).
 
 You don't have to take our word on this; our certificate requesting code that obtains the certificate is open-source, and certificate transparency services allow for independent third-party auditing that no one else has been issued a certificate for your remote access URL.
 
@@ -41,7 +41,7 @@ Please note that such a block only affects the remote access feature. All other 
 
 If this protection has been manually disabled and the Home Assistant Team has identified a new insecure version, it will automatically re-enable the protection. This ensures you are protected if new security issues are found in the future, as quickly as possible.
 
-We always recommend keeping your Home Assistant system up-to-date. Also, it's important to note that if your system is using a version of Home Assistant over 2 years old, it may still work, [but it is no longer supported](https://support.nabucasa.com/hc/en-us/articles/34227199207965-What-versions-of-Home-Assistant-does-Cloud-support).
+We always recommend keeping your Home Assistant system up-to-date. Also, it's important to note that if your system is using a version of Home Assistant over 2 years old, it may still work, [but it is no longer supported](/hc/en-us/articles/34227199207965).
 
 **Currently blocked versions of Home Assistant:**
 
