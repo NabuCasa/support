@@ -16,3 +16,4 @@ For more advanced users, you can use Nabu Casa's [universal-silabs-flasher](http
 ## Related topics
 
 - [Connect ZBT-2: Switching from Zigbee to Thread](/hc/en-us/articles/31347057208989)
+- [Connect ZBT-2: Reinstalling firmware using the Open Home Foundation Toolbox](/hc/en-us/articles/31494351885725)
