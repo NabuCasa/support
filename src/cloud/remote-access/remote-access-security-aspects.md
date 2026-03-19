@@ -28,7 +28,7 @@ When you use Home Assistant Cloud, your Home Assistant system is open to the wid
 
 Two tips can make brute forcing practically impossible: 
 
-1. **Use a strong password** filled with mixed characters and symbols (you can [generate one on this website](https://1password.com/password-generator)).   
+1. **Use a strong password** filled with mixed characters and symbols (you can [generate one on this website](https://bitwarden.com/password-generator/#password-generator)).   
 2. **Set up [two-factor authentication](https://my.home-assistant.io/create-link/?redirect=profile_security)** in Home Assistant for all user accounts.
 
 ## Insecure versions
