@@ -12,8 +12,7 @@ haVersion: "Home Assistant 2025.11"
 
 If you want to switch from the Zigbee to the Thread firmware, follow the steps on [Switching from Zigbee to Thread](/hc/en-us/articles/31347057208989).
 
-For more advanced users, you can use NabuCasa's  [universal-sibals-flasher](http://github.com/NabuCasa/universal-silabs-flasher)
-
+For more advanced users, you can use Nabu Casa's [universal-silabs-flasher](https://github.com/NabuCasa/universal-silabs-flasher).
 ## Related topics
 
 - [Connect ZBT-2: Switching from Zigbee to Thread](/hc/en-us/articles/31347057208989)
