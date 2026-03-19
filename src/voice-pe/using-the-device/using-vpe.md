@@ -2,7 +2,7 @@
 zendesk:
   article_id: 28699323695389
   name: Using Home Assistant Voice Preview Edition
-  position: 1
+  position: 10
   labels: voice pe, operation, using the device
 ---
 

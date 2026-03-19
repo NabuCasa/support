@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25455132549661
   name: Re-seating the Raspberry Pi Compute Module 5 on Home Assistant Yellow
-  position: 7
+  position: 120
   labels: yellow, troubleshooting
 ---
 

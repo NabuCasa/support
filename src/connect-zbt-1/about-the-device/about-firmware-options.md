@@ -2,8 +2,8 @@
 zendesk:
   article_id: 26124493529117
   name: About Home Assistant Connect ZBT-1 firmware options
-  position: 1
-  labels: connect zbt-1, about the device, firmware
+  position: 20
+  labels: connect-zbt-1, about-the-device, firmware
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
@@ -11,6 +11,6 @@ productName: "Home Assistant Connect&nbsp;ZBT-1"
 
 ## Related topics
 
-- [Firmware updates for Connect&nbsp;ZBT-1](/hc/en-us/articles/26124447269917)
+- [Firmware updates for {{ productName }}](/hc/en-us/articles/26124447269917)
 - [Zigbee Home Automation integration documentation](https://www.home-assistant.io/integrations/zha/)
 - [Thread integration documentation](https://www.home-assistant.io/integrations/thread/)

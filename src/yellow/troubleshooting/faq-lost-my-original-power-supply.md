@@ -2,7 +2,7 @@
 zendesk:
   article_id: 30540501919901
   name: I lost the original power supply of Home Assistant Yellow. What type do I need to get?
-  position: 7
+  position: 110
   labels: yellow, troubleshooting
 ---
 

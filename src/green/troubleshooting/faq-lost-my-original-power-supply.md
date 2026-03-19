@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25152018945821
   name: I lost the original power supply of Home Assistant Green. What type do I need to get?
-  position: 7
+  position: 70
   labels: green, troubleshooting
 ---
 

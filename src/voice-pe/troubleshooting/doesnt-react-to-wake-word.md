@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25800629550493
   name: The Home Assistant Voice Preview Edition doesn’t react to my wake word.
-  position: 10
+  position: 100
   labels: voice pe, troubleshooting
 ---
 

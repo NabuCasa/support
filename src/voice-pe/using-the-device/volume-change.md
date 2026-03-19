@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25773395022237
   name: Changing the volume of Home Assistant Voice Preview Edition
-  position: 2
+  position: 20
   labels: voice pe, operation, using the device, volume
 ---
 

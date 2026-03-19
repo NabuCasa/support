@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 32087461954589
-  name: Migrating from one Thread adapter to another Thread adapter
+  name: Migrating from another Thread adapter to Home Assistant Connect ZBT-2
   position: 30
   labels: connect-zbt-2, getting-started
 productName: "Home Assistant Connect&nbsp;ZBT-2"

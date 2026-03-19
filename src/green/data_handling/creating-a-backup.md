@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25154828325917
   name: Creating a backup of Home Assistant Green
-  position: 1
+  position: 10
   labels: green, data
 ---
 

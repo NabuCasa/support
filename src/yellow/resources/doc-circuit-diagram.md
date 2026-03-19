@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26537665463581
   name: Home Assistant Yellow - Circuit diagram / schematic
-  position: 6
+  position: 60
   labels: yellow, downloads, resources
 ---
 

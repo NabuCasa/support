@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25141580918941
   name: Why is there an optional CR2032 battery on Home Assistant Green? Do I need to add one?
-  position: 1
+  position: 20
   labels: green, troubleshooting
 ---
 

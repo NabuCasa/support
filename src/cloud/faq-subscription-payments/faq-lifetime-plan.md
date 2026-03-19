@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26179725282461
   name: Do you offer a lifetime subscription or a one time fee?
-  position: 3
+  position: 30
   labels: cloud, pricing
 ---
 

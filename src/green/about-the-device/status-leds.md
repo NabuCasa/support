@@ -2,8 +2,8 @@
 zendesk:
   article_id: 25210352599197
   name: About the status lights (LEDs) on Home Assistant Green
-  position: 2
-  labels: green, about the system, status
+  position: 20
+  labels: green, about-the-device, status
 ---
 
 Home Assistant Green has 3 LEDs.

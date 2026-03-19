@@ -2,8 +2,8 @@
 zendesk:
   article_id: 25410366475165
   name: About the LEDs on Home Assistant Yellow
-  position: 2
-  labels: yellow, about the system, status
+  position: 20
+  labels: yellow, about-the-device, status
 ---
 
 Home Assistant Yellow has 4 LEDs:

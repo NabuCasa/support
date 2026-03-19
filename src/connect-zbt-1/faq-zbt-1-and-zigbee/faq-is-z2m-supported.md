@@ -2,8 +2,8 @@
 zendesk:
   article_id: 26152555195933
   name: Is Zigbee2MQTT supported by Home Assistant Connect ZBT-1?
-  position: 7
-  labels: connect zbt-1, faq
+  position: 70
+  labels: connect-zbt-1, faq
 productName: "Home Assistant Connect&nbsp;ZBT-1 (or Home Assistant SkyConnect, if you have that variant)"
 ---
 

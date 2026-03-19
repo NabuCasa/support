@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26179807663517
   name: Why has my subscription been cancelled?
-  position: 7
+  position: 70
   labels: cloud, pricing, subscription
 ---
 

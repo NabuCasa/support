@@ -1,0 +1,4 @@
+- A deCONZ network running with a ConBee III, a ConBee II, or a RaspBee II.
+- Home Assistant version 2025.10.1 or later.
+- Have the latest firmware installed on the ConBee/RaspBee adapter
+  - Check the steps below to see how to [check the version or update the deCONZ adapter](#updating-the-deconz-adapter).

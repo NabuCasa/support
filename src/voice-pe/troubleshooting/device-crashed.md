@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25800368623773
   name: My Home Assistant Voice Preview Edition crashed
-  position: 5
+  position: 50
   labels: voice pe, troubleshooting, device crash
 ---
 

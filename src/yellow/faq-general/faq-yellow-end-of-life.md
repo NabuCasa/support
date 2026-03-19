@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25598677797021
   name: Now that Home Assistant Yellow is no longer manufactured (end of life, EOL), will it still be supported?
-  position: 7
+  position: 90
   labels: yellow, faq, general
 productName: Home&nbsp;Assistant&nbsp;Yellow
 ---

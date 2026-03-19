@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26474279202973
   name: Enabling remote access to Home Assistant
-  position: 2
+  position: 20
   labels: cloud
 ---
 

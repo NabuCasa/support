@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 28689762313373
-  name: Updating the Home Assistant Connect ZWA-2 firmware
+  name: Updating Home Assistant Connect ZWA-2 firmware
   position: 40
   labels: connect zwa-2
 ---

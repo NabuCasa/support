@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25800241218717
   name: Reinstalling the firmware on Home Assistant Voice Preview Edition
-  position: 3
+  position: 30
   labels: voice pe, troubleshooting, reinstall
 ---
 

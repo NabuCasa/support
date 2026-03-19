@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25207565119133
   name: Shutting down Home Assistant Green
-  position: 10
+  position: 30
   labels: green, getting started
 ---
 

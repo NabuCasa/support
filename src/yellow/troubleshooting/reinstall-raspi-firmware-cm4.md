@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25455063533853
   name: Green LED on Home Assistant Yellow flashes 4 times short and 5 times long
-  position: 1
+  position: 20
   labels: yellow, troubleshooting
 ---
 

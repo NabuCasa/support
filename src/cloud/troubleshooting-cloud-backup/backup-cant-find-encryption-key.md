@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26323093151901
   name: Backup - Can't find encryption key
-  position: 16
+  position: 30
   labels: cloud
 ---
 

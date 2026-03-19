@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25774403768477
   name: Muting Home Assistant Voice Preview Edition
-  position: 3
+  position: 30
   labels: voice pe, operation, using the device, mute
 ---
 

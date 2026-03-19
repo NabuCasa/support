@@ -1,8 +1,8 @@
 ---
 zendesk:
   article_id: 31494346582557
-  name:  Updating firmware for Connect ZBT-2
-  position: 60
+  name:  Updating firmware on Home Assistant Connect ZBT-2
+  position: 50
   labels: connect-zbt-2, about-the-device
 productName: "Home Assistant Connect&nbsp;ZBT-2"
 haVersion: "Home Assistant 2025.11"

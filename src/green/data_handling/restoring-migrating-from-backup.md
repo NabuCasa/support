@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25160431579165
   name: Restoring or migrating Home Assistant Green from a backup
-  position: 2
+  position: 20
   labels: green, data
 ---
 

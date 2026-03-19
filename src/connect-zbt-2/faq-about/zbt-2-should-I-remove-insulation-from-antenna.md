@@ -2,7 +2,7 @@
 zendesk:
   article_id: 32411793846173
   name: Should I remove the padding inside the antenna of Home Assistant Connect ZBT-2?
-  position: 100
+  position: 30
   labels: connect-zbt-2, faq
 productName: "Home Assistant Connect&nbsp;ZBT-2"
 ---

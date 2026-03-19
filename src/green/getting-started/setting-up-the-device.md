@@ -2,7 +2,7 @@
 zendesk:
   article_id: 24737667232413
   name: Getting started with Home Assistant Green
-  position: 1
+  position: 20
 ---
 
 This sections shows you how to setup your device and get started with Home Assistant

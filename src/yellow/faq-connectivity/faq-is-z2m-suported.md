@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25590244122269
   name: Is Zigbee2MQTT supported by the on-board radio of Home Assistant Yellow?
-  position: 1
+  position: 10
   labels: yellow, faq, connectivity
 ---
 
@@ -10,7 +10,7 @@ zendesk:
 
 ```yaml
 serial:
-  adapter: ezsp
+  adapter: ember
   port: /dev/ttyAMA1
   baudrate: 115200
   rtscts: true

@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 31260220386077
-  name: Home Assistant Connect ZBT-2 Declaration of Conformity for EU
+  name: Home Assistant Connect ZBT-2 - Declaration of Conformity for EU
   position: 30
   labels: resources
 ---

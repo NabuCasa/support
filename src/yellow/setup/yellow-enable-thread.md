@@ -3,7 +3,7 @@ zendesk:
   article_id: 25742476767517
   name: Switching from Zigbee to Thread support
   description: How to switch from Zigbee to Thread on Home Assistant Yellow
-  position: 4
+  position: 40
   labels: yellow, setup, Thread
 ---
 
@@ -55,7 +55,7 @@ This guide assumes you have the following setup:
 {% stepContent %}
 
 1. Under **Pick your protocol**, select **Use as Thread adapter**.
-   - **Result**: **The OpenThread Border Router** add-on is installed.
+   - **Result**: **The OpenThread Border Router** app is installed.
    - The dialog informs you that your Yellow now acts as an OpenThread border router. Select **Submit**.
 2. Then, select **Finish**.
 

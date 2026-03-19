@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25800178374557
   name: Resetting Home Assistant Voice Preview Edition
-  position: 2
+  position: 20
   labels: voice pe, troubleshooting, reset
 ---
 

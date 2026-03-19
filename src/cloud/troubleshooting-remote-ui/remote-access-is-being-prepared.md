@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26205061961373
   name: Remote access is being prepared
-  position: 32
+  position: 20
   labels: cloud
 ---
 

@@ -2,8 +2,8 @@
 zendesk:
   article_id: 26124431414557
   name: Connectivity issues due to interference
-  position: 5
-  labels: connect zbt-1, about the device, interference, connectivity issues
+  position: 10
+  labels: connect-zbt-1, about-the-device, interference, connectivity issues
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 

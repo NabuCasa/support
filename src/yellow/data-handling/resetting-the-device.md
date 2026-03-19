@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25463622043165
   name: Resetting Home Assistant Yellow
-  position: 1
+  position: 30
   labels: yellow, handling data
 ---
 

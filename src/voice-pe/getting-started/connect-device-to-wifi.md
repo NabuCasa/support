@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25918770371229
   name: Getting started with Home Assistant Voice Preview Edition
-  position: 1
+  position: 10
   labels: voice pe, getting started
 productName: "Home Assistant Voice Preview Edition"
 ---
@@ -45,6 +45,7 @@ Using your iPhone/Android is the easiest way to connect your {{ productName }} t
   - **On iPhone**, go to **Settings** > **Privacy & Security** and enable Bluetooth for Home Assistant.
   - **On Android**: make sure you’ve enabled precise location service permissions for Home Assistant. It is used for onboarding only. You can disable it again afterward.
     - Go to **Settings** > **Apps** > **Home Assistant** > **Permissions** and enable Location, **Allow all the time and Use precise location**.
+    - You might also need to enable permissions for **Nearby devices** in the App permissions. Go to **Settings** > **Apps** > **Home Assistant** > **Permissions** and enable Nearby devices by selecting **Allow**
 
 ### Onboarding via Bluetooth
 
@@ -136,8 +137,8 @@ If you don't want to use a phone and your Home Assistant has Bluetooth: either o
         - For more information, refer to the guide on [Getting started with Home Assistant Cloud](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/).
       - **Option 2**: If you choose **Do it yourself**:
         - **Info**: If you have lower-power hardware, this option is not recommended. Weaker Home Assistant hardware can lead to slow speech processing.
-        - Select **Setup with add-ons**.
-        - **Result**: The required add-ons are being installed: **Whisper**, **Piper**.
+        - Select **Setup with apps**.
+        - **Result**: The required apps are being installed: **Whisper**, **Piper**.
    4. On the integrations page, under **Discovered**, **Add** the **Whisper** and **Piper** integrations.
 
 {% endstepContent %}

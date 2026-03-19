@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26179687501341
   name: How much does a Home Assistant Cloud subscription cost?
-  position: 1
+  position: 10
   labels: cloud, payments, billing, subscription
 ---
 

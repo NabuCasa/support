@@ -1,6 +1,7 @@
 ---
 zendesk:
   article_id: 28685765309853
+  position: 30
   name: Forming a new Z-Wave network with Home Assistant Connect ZWA-2
   labels: connect zwa-2
 ---

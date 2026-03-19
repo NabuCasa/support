@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25938342327581
   name: About the internal GPIO pins on Home Assistant Voice Preview Edition
-  position: 5
+  position: 50
   labels: voice pe, customizing
 ---
 

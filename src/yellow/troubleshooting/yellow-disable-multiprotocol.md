@@ -3,8 +3,8 @@ zendesk:
   article_id: 25744235797661
   name: Disabling multiprotocol support
   description: How to disable multiprotocol support on Home Assistant Yellow
-  position: 4
-  labels: yellow, setup, Thread, Zigbee
+  position: 70
+  labels: yellow, setup, thread, zigbee
 ---
 
 Step-by-step instructions on disabling multiprotocol support on Home Assistant Yellow.
