@@ -12,23 +12,22 @@
 {% endstep %}
 
 {% step "Opening Raspberry Pi Imager" %}
-{% image "/static/img/yellow/yellow_rpi-imager_select_device_cm5.png" "Open Raspberry Pi Imager" %}
+{% image "/static/img/yellow/rpi_imager_start.png" "Open Raspberry Pi Imager" %}
 {% stepContent %}
 
-- Under **Raspberry Pi Device**, select **Raspberry Pi&nbsp;5**.
+- Under **Setup steps**, select **OS**.
 
 {% endstepContent %}
 {% endstep %}
 
 {% step "Choosing the operating system" %}
-{% image "/static/img/yellow/yellow_rpi-imager_cm5_module_image.webp" "Choosing the operating system" %}
+{% image "/static/img/yellow/installation-rpi-yellow.webp" "Choosing the operating system" %}
 {% stepContent %}
 
 Choose the operating system:
 
-- Select **Choose OS**.
 - Choose **Other specific-purpose OS**.
-- Choose **Home assistants and home automation**.
+- Choose **Home automation**.
 - Choose **Home Assistant**.
 - Choose **Home Assistant OS x.y (Yellow)**.
 
@@ -39,16 +38,17 @@ Choose the operating system:
 {% image "/static/img/yellow/rpi_choose_storage_cm5.png" "Choosing storage" %}
 {% stepContent %}
 
-- Select **Choose storage** and from the dropdown menu, select your Raspberry Pi module.
+- Under **Storage**, select your Raspberry Pi module.
+- Select **Next**.
 
 {% endstepContent %}
 {% endstep %}
 
 {% step "Writing the installer onto the drive" %}
-{% image "/static/img/yellow/rpi_choose_next.png" "Writing the installer onto the drive" %}
+{% image "/static/img/yellow/rpi_write_installer.png" "Writing the installer onto the drive" %}
 {% stepContent %}
 
-1. Select the **Next** button to start the process.
+1. Select **Write** to start the process.
 2. Wait for the Home Assistant OS Installer to be written to the internal eMMC storage on your module.
 3. Follow the wizard.
 4. When the steps are complete, close the rpi-installer.

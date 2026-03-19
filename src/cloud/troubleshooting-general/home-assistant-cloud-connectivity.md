@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25620486925085
   name: Unable to reach Home Assistant Cloud
-  position: 30
+  position: 20
   labels: cloud
 ---
 

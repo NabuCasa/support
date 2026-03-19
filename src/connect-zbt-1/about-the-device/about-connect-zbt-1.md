@@ -28,7 +28,7 @@ A few device characteristics are listed below:
 - {{ productName }} was formerly known as Home Assistant SkyConnect.
   - Despite the new name and look, they have the exact same hardware, capability, and support.
 - You can run 2 different Zigbee solutions in Home Assistant: Zigbee Home Automation (ZHA) and Zigbee2MQTT
-  - You can run another adapter with a deCONZ or Zigbee2MQTT add-on alongside a {{ productName }} with [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/).
+  - You can run another adapter with a deCONZ or Zigbee2MQTT app alongside a {{ productName }} with [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/).
 - You cannot run 2 {{ productName }} adapters with the Zigbee Home Automation integration at once in Home Assistant.
   - The Zigbee Home Automation integration is single instance only.
 - {{ productName }} does not support Bluetooth or Z-Wave.

@@ -6,11 +6,14 @@ zendesk:
   labels: green, troubleshooting
 ---
 
+The reset procedure clears the data disk on your device. Unless you created a backup, you will lose all data and configuration settings.
+
 Performing a factory reset of your device is an extreme measure that should not usually be required and should be done with caution.
 
 ## Considerations before starting a reset
 
 The reset process requires a working internet connection.
+
 - If your Green can't reach the internet, the reset will fail, leaving you worse off than when you started.
 
 ### Common issues that don't require a reset
@@ -46,7 +49,7 @@ Perform this procedure if you want to perform a factory reset on your device.
 
 This process clears the data disk on your Green. Unless you [create a backup](https://www.home-assistant.io/common-tasks/general/#backups), you will lose all data and configuration settings.
 
-- A device reset wipes the data partition of your device. It removes all user data as well as Home Assistant Core, Supervisor, and any installed add-ons. The Home Assistant Operating System stays on the system.
+- A device reset wipes the data partition of your device. It removes all user data as well as Home Assistant Core, Supervisor, and any installed apps. The Home Assistant Operating System stays on the system.
 - Once a device wipe is initiated, the data partition is marked as to be cleared on boot. Then, the system reinstalls the latest version of all Home Assistant components.
 - To avoid losing data and configuration settings, [create a backup](https://www.home-assistant.io/common-tasks/general/#backups) and [define a backup location](https://www.home-assistant.io/common-tasks/general/#defining-backup-locations) outside of your Home Assistant.
 

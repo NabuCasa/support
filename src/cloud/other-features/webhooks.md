@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25619382358685
   name: Triggering an automation with a webhook trigger
-  position: 20
+  position: 30
   labels: cloud
 ---
 

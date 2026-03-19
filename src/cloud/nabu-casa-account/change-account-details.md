@@ -2,7 +2,7 @@
 zendesk:
   article_id: 25651116591901
   name: Changing your Nabu Casa account information
-  position: 1
+  position: 10
   labels: cloud
 ---
 

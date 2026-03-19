@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26178633145885
   name: Can I use a single account for multiple Home Assistant installations?
-  position: 3
+  position: 30
   labels: cloud
 ---
 

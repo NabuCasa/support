@@ -137,8 +137,8 @@ If you don't want to use a phone and your Home Assistant has Bluetooth: either o
         - For more information, refer to the guide on [Getting started with Home Assistant Cloud](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/).
       - **Option 2**: If you choose **Do it yourself**:
         - **Info**: If you have lower-power hardware, this option is not recommended. Weaker Home Assistant hardware can lead to slow speech processing.
-        - Select **Setup with add-ons**.
-        - **Result**: The required add-ons are being installed: **Whisper**, **Piper**.
+        - Select **Setup with apps**.
+        - **Result**: The required apps are being installed: **Whisper**, **Piper**.
    4. On the integrations page, under **Discovered**, **Add** the **Whisper** and **Piper** integrations.
 
 {% endstepContent %}

@@ -36,7 +36,7 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
    - **Troubleshooting**:  If it is not discovered, you can configure it manually.
      - On your Home Assistant system, go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/)
      - Add a Z-Wave hub using a **Custom installation method**.
-     - Make sure to *uncheck* the **Use the Z-Wave Supervisor add-on** option.
+     - Make sure to *uncheck* the **Use the Z-Wave Supervisor app** option.
      - Fill in the IP address of the Z-Wave JS UI system (for example `ws://IP-ADDRESS:3000`).
 
 ## Related topics

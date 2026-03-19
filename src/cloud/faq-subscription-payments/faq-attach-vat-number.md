@@ -2,7 +2,7 @@
 zendesk:
   article_id: 26179753444381
   name: Adding VAT ID or tax information to invoices
-  position: 6
+  position: 60
   labels: cloud, billing, pricing
 ---
 

@@ -6,6 +6,8 @@ zendesk:
   labels: green, troubleshooting
 ---
 
+The reset procedure clears the data disk on your device. Unless you created a backup, you will lose all data and configuration settings.
+
 Perform this procedure if you have Home Assistant 13.1 or later and you want to do a factory reset.
 
 If you have a new device, you likely have an older version of Home Assistant Operating System (older than 13.1). In this case, [reset the device using an SD card](/hc/en-us/articles/25162566451485). To see which version you have, go to [**Settings** > **About**](https://my.home-assistant.io/redirect/info/).

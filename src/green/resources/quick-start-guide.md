@@ -1,7 +1,7 @@
 ---
 zendesk:
   article_id: 26536395793053
-  name: Home Assistant Green Quick Start Guide
+  name: Home Assistant Green - Quick Start Guide
   position: 10
   labels: green, downloads, resources
 ---

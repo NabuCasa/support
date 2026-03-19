@@ -14,9 +14,9 @@ Both the radio frequency and the radio transmit power level used by Z-Wave devic
 
 ## About transmit power levels
 
-If you use Home Assistant with the **Z-Wave JS** add-on, the radio frequency region and transmit power levels are configured automatically. You do not need to do anything.
+If you use Home Assistant with the **Z-Wave JS** app, the radio frequency region and transmit power levels are configured automatically. You do not need to do anything.
 
-If you use another hub (not Home Assistant), or you use the **Z-Wave JS UI** add-on (instead of the **Z-Wave JS** add-on) you may need to change the radio frequency region and transmit power levels. The location of the settings depends on your hub.
+If you use another hub (not Home Assistant), or you use the **Z-Wave JS UI** app (instead of the **Z-Wave JS** app) you may need to change the radio frequency region and transmit power levels. The location of the settings depends on your hub.
 
 There are 3 transmit power values that can be set:
 

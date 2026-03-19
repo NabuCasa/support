@@ -1,9 +1,9 @@
 {% steps %}
-{% step "Stopping the deCONZ add-on" %}
-{% image "/static/img/connect-zbt-1/conbee-migrate-zha-02.png" "Stop the deCONZ add-on" %}
+{% step "Stopping the deCONZ app" %}
+{% image "/static/img/connect-zbt-1/conbee-migrate-zha-02.png" "Stop the deCONZ app" %}
 {% stepContent %}
 
-1. In the [deCONZ add-on](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_deconz), make sure the **Start on boot** option is disabled.
+1. In the [deCONZ app](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_deconz), make sure the **Start on boot** option is disabled.
 2. Select **Stop**.
 
 {% endstepContent %}
