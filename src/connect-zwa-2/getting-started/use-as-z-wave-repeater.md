@@ -10,7 +10,7 @@ If you need to strengthen the Z-Wave mesh connection to far-away nodes in your s
 
 **Important Note:** If you are currently using your Connect ZWA-2 as your primary Z-Wave Controller (the interface connected to your Home Assistant or smart home hub), do not use this firmware. If you are looking to use your Connect ZWA-2 as a coordinator but placed away from your Home Assistant system, please [read more about Portable Z-Wave](https://www.home-assistant.io/blog/2025/10/13/portable-z-wave-with-wifi-and-poe/). Once converted into a repeater, the device will no longer function as a controller until it is reflashed with the original firmware via the [Open Home Foundation’s Toolbox](https://toolbox.openhomefoundation.org/) website.
 
-### **Steps to flash the Repeater (Range Extender) firmware**
+## Steps to flash the Repeater (Range Extender) firmware
 
 1. Using a PC, Mac, or Linux device and a modern web browser (Chrome is recommended for the best serial communication support), navigate to the [Open Home Foundation’s Connect ZWA-2 Toolbox](https://toolbox.openhomefoundation.org/home-assistant-connect-zwa-2/) page.  
 2. Plug the Connect ZWA-2 into your computer using the included USB cable.  
@@ -21,7 +21,7 @@ If you need to strengthen the Z-Wave mesh connection to far-away nodes in your s
 7. Once complete, unplug the device and move it to the location where you need to extend your range. Use a standard USB power adapter (supplying 5V 1A or more) to power the Connect ZWA-2.  
 8. Your Z-Wave controller (e.g., Home Assistant) should discover the new node. If it is not automatically discovered, you can initiate Inclusion Mode on your controller and then use a SIM card eject tool to press the reset button on the ZWA-2 to put it into pairing mode.
 
-### **Understanding Repeater Mode**
+### Understanding Repeater Mode
 
 When in repeater mode, the Connect ZWA-2 functions as a routing node. It does not require Wi-Fi or any other network connection to your Home Assistant; it only needs a Z-Wave mesh connection to your controller and a USB power source. This allows you to bridge gaps in your network coverage and add more distant devices to your Z-Wave network through this repeater.
 
