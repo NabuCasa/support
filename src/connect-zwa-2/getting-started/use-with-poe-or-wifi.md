@@ -18,8 +18,8 @@ Portable Z-Wave is designed to be highly compatible and interference-free. Becau
 
 You can deploy Portable Z-Wave in two ways:
 
-* **Wi-Fi Mode:** The ZWA-2 uses its internal Wi-Fi chip. You only need a USB power source (5V 1A).  
-* **PoE Mode:** The ZWA-2 is plugged into an external development board (such as the Waveshare ESP32-S3-ETH) that supports Power-over-Ethernet.
+- **Wi-Fi Mode:** The ZWA-2 uses its internal Wi-Fi chip. You only need a USB power source (5V 1A).  
+- **PoE Mode:** The ZWA-2 is plugged into an external development board (such as the Waveshare ESP32-S3-ETH) that supports Power-over-Ethernet.
 
 ## **Installation Steps**
 
@@ -28,8 +28,8 @@ You can deploy Portable Z-Wave in two ways:
 3. Select the Portable Z-Wave installation option. The toolbox’s wizard will guide you through connecting the device to your network.  
 4. Once flashed and connected, Home Assistant should automatically discover the device via the ESPHome and Z-Wave integrations.  
 5. Final Placement:    
-   * **For Wi-Fi**: Move the ZWA-2 to its permanent location and plug it into a USB power adapter.  
-   * **For PoE:** Connect the ZWA-2 to your PoE-capable development board and plug in the Ethernet cable.
+   - **For Wi-Fi**: Move the ZWA-2 to its permanent location and plug it into a USB power adapter.  
+   - **For PoE:** Connect the ZWA-2 to your PoE-capable development board and plug in the Ethernet cable.
 
 **Using this with other systems**
 
