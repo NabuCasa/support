@@ -8,20 +8,20 @@ zendesk:
 
 This guide explains how to use the **Portable Z-Wave** feature for the **Home Assistant Connect ZWA-2**. This experimental firmware allows you to place your Z-Wave adapter anywhere in your home — far-away from your Home Assistant server—by communicating over Wi-Fi or Ethernet (PoE).
 
-## **Overview**
+## Overview
 
 Standard Z-Wave adapters must be plugged directly into the USB port of your hub. Portable Z-Wave breaks this limitation by using the built-in ESP32-S3 chip inside the ZWA-2 to handle latency-sensitive communication, forwarding the rest of the data over your local network via ESPHome.
 
 Portable Z-Wave is designed to be highly compatible and interference-free. Because Z-Wave and Wi-Fi operate on entirely different radio frequencies, using the ZWA-2 over Wi-Fi will not cause wireless interference. 
 
-## **Configuration Options**
+## Configuration Options
 
 You can deploy Portable Z-Wave in two ways:
 
 - **Wi-Fi Mode:** The ZWA-2 uses its internal Wi-Fi chip. You only need a USB power source (5V 1A).  
 - **PoE Mode:** The ZWA-2 is plugged into an external development board (such as the Waveshare ESP32-S3-ETH) that supports Power-over-Ethernet.
 
-## **Installation Steps**
+## Installation Steps
 
 1. Visit the [Open Home Foundation’s Connect ZWA-2 Toolbox website](https://toolbox.openhomefoundation.org/home-assistant-connect-zwa-2/).  
 2. Plug the adapter into your computer using the included USB cable.  
