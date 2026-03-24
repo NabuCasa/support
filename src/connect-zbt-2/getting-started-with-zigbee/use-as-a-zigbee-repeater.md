@@ -1,6 +1,6 @@
 ---
 zendesk:
-  article_id: 20902849390493
+  article_id: 34864625886493
   name: How to use your Connect ZBT-2 as a Zigbee repeater (router)
   position: 50
   labels: connect-zbt-2, getting-started
