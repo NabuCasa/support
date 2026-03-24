@@ -11,9 +11,9 @@ productName: "Home Assistant Connect&nbsp;ZBT-2"
 
 **Repeater (Router) firmware \- Experimental**
 
-* This firmware lets you use the Connect ZBT-2 like a Zigbee device and helps strengthen your Zigbee mesh. It operates away from your Home Assistant system and cannot be selected when you connect this device to your Home Assistant system for the first time.  
-* This firmware requires more testing, and if you require the utmost stability, do not use this firmware.  
-* This firmware can be flashed using the following instructions.
+- This firmware lets you use the Connect ZBT-2 like a Zigbee device and helps strengthen your Zigbee mesh. It operates away from your Home Assistant system and cannot be selected when you connect this device to your Home Assistant system for the first time.  
+- This firmware requires more testing, and if you require the utmost stability, do not use this firmware.  
+- This firmware can be flashed using the following instructions.
 
 ## Related topics
 
