@@ -1,6 +1,6 @@
 ---
 zendesk:
-  article_id: 20902849390493
+  article_id: 34864561522845
   name: How to use your Connect ZWA-2 as a Z-Wave repeater
   position: 90
   labels: connect zwa-2, getting started
