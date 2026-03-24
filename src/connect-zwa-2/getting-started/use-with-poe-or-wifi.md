@@ -1,6 +1,6 @@
 ---
 zendesk:
-  article_id: 28670213533213
+  article_id: 34864630493469
   name: Use your Connect ZWA-2 over Wi-Fi or PoE
   position: 90
   labels: connect zwa-2, getting started
