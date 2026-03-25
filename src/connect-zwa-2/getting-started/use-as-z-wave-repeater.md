@@ -14,7 +14,7 @@ If you need to strengthen the Z-Wave mesh connection to far-away nodes in your s
 
 1. Using a PC, Mac, or Linux device and a modern web browser (Chrome is recommended for the best serial communication support), navigate to the [Open Home Foundation’s Connect ZWA-2 Toolbox](https://toolbox.openhomefoundation.org/home-assistant-connect-zwa-2/) page.  
 2. Plug the Connect ZWA-2 into your computer using the included USB cable.  
-3. Select “Install Firmware” and then click the “Install Firmware” button.  
+3. Select “Install Repeater Firmware” and follow the wizard.
 4. A pop-up will appear asking you to select a serial device. Choose the entry corresponding to your Connect ZWA-2 device.  
 5. In the next dialogue, select the “Repeater” firmware (marked as experimental).  
 6. Wait for the flashing process to complete. Do not disconnect the device until the browser indicates the process is finished.  
