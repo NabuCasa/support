@@ -6,7 +6,7 @@ zendesk:
   labels: connect zwa-2, getting started
 ---
 
-If you need to strengthen the Z-Wave mesh connection to far-away nodes in your smart home, you can use experimental firmware to turn a Connect ZWA-2 into a dedicated Z-Wave Repeater.
+If you need to strengthen the Z-Wave mesh connection to far-away nodes in your smart home, you can use the experimental firmware to turn a Connect ZWA-2 into a dedicated Z-Wave Repeater.
 
 **Important Note:** If you are currently using your Connect ZWA-2 as your primary Z-Wave Controller (the interface connected to your Home Assistant or smart home hub), do not use this firmware. If you are looking to use your Connect ZWA-2 as a coordinator but placed away from your Home Assistant system, please [read more about Portable Z-Wave](https://www.home-assistant.io/blog/2025/10/13/portable-z-wave-with-wifi-and-poe/). Once converted into a repeater, the device will no longer function as a controller until it is reflashed with the original firmware via the [Open Home Foundation’s Toolbox](https://toolbox.openhomefoundation.org/) website.
 
