@@ -20,8 +20,8 @@ If you are looking for a way to strengthen the connection to far-away devices in
 5. In the next dialogue, choose “Repeater (router)” firmware marked as experimental.  
 6. Wait for the flashing process to complete, and do not disconnect the device until prompted to.  
 7. Once complete, situate the device where you would like to use it. Then use a USB charger (supplying 5V 1A or more) to power the Connect ZBT-2.  
-8. Home Assistant should discover it immediately. If it is not discovered, you can initiate pairing by using a SIM card eject tool to press down the [reset button](/hc/en-us/articles/31369010717213).
+8. Home Assistant should [discover it immediately](https://www.home-assistant.io/integrations/zha/#adding-devices). If it is not discovered, you can initiate pairing by using a SIM card eject tool to press down the [reset button](/hc/en-us/articles/31369010717213).
 
 ### Understanding Repeater Mode
 
-When in repeater mode, the Connect ZBT-2 functions as a Zigbee router device. It does not require Wi-Fi or any other network connection to your Home Assistant; it only needs a Zigbee mesh connection to your controller and a USB power source. This allows you to bridge gaps in your network coverage and add more distant devices to your Zigbee network through this repeater. It is possible to add devices via the repeater [following these steps](https://www.home-assistant.io/integrations/zha/#using-router-devices-to-add-more-devices).
+When in repeater mode, the Connect ZBT-2 functions as a Zigbee router device. It does not require Wi-Fi or any other network connection to your Home Assistant; it only needs a Zigbee mesh connection to your controller and a USB power source. Connect ZBT-2 can work with any brand of Zigbee coordinator and operates as a standard Zigbee device. This allows you to bridge gaps in your network coverage and add more distant devices to your Zigbee network through this repeater. It is possible to add devices via the repeater [following these steps](https://www.home-assistant.io/integrations/zha/#using-router-devices-to-add-more-devices).
