@@ -20,7 +20,7 @@ If you are looking for a way to strengthen the connection to far-away devices in
 5. In the next dialogue, choose “Repeater (router)” firmware marked as experimental.  
 6. Wait for the flashing process to complete, and do not disconnect the device until prompted to.  
 7. Once complete, situate the device where you would like to use it. Then use a USB charger (supplying 5V 1A or more) to power the Connect ZBT-2.  
-8. Home Assistant should [discover it immediately](https://www.home-assistant.io/integrations/zha/#adding-devices). If it is not discovered, you can initiate pairing by using a SIM card eject tool to press down the [reset button](/hc/en-us/articles/31369010717213).
+8. Home Assistant should discover it immediately [when you scan for new devices](https://www.home-assistant.io/integrations/zha/#adding-devices). If it is not discovered, you can initiate pairing by using a SIM card eject tool to press down the [reset button](/hc/en-us/articles/31369010717213).
 
 ### Understanding Repeater Mode
 
