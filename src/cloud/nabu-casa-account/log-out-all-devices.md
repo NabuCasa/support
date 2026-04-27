@@ -19,7 +19,7 @@ You can log out all devices that are currently logged in to Home Assistant Cloud
 
 ## To log out all devices from Home Assistant Cloud
 
-1. Log in to your [Nabu Casa account](https://account.nabucasa.com/) and select **Manage account**.
+1. Log in to your [Nabu Casa account](https://account.nabucasa.com/) and select **Account settings**.
 2. To log out all devices, select **Log out from all devices**.
    - **Result**: You may not see an immediate change.
    - It can take up to an hour before all devices are logged out.
