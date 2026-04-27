@@ -19,15 +19,15 @@ In May 2026, we updated the Nabu Casa account management portal at [account.nabu
 
 As part of this update, billing will be paused for a scheduled maintenance window. Any payments due during this window will be temporarily delayed and processed automatically once the maintenance window ends. No action is required on your part.
 
-The maintenance window runs from **May 4, 2026 at 07:00 to May 5, 2026 at 07:00**, Central European Summer Time (CEST).
+The maintenance window runs from **May 4, 2026 at 05:00 to May 5, 2026 at 09:00**, Central European Summer Time (CEST).
 
 | Time zone | Start | End |
 |---|---|---|
-| CEST — Central Europe | May 4 at 07:00 | May 5 at 07:00 |
-| UTC | May 4 at 05:00 | May 5 at 05:00 |
-| BST — UK / Ireland | May 4 at 06:00 | May 5 at 06:00 |
-| EDT — US East Coast | May 4 at 01:00 | May 5 at 01:00 |
-| PDT — US West Coast | May 3 at 22:00 | May 4 at 22:00 |
+| CEST — Central Europe | May 4 at 05:00 | May 5 at 09:00 |
+| UTC | May 4 at 03:00 | May 5 at 07:00 |
+| BST — UK / Ireland | May 4 at 04:00 | May 5 at 08:00 |
+| EDT — US East Coast | May 3 at 23:00 | May 5 at 03:00 |
+| PDT — US West Coast | May 3 at 20:00 | May 5 at 00:00 |
 
 {% callout "important" %}
 If your payment is due during the maintenance window, it will not be lost or cancelled. It will be processed as soon as billing resumes.
