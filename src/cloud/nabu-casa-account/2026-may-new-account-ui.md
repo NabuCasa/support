@@ -13,6 +13,7 @@ In May 2026, we updated the Nabu Casa account management portal at [account.nabu
 - Account information is easier to navigate and access at a glance.
 - Subscription features are more clearly presented so you can see what is included in your plan.
 - Underlying billing infrastructure has been updated to support future improvements.
+- Going forward, the payment reference shown on your bank or financial institution statement may look slightly different depending on the payment method you have selected.
 
 ## Billing maintenance window
 
