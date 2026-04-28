@@ -74,13 +74,21 @@ If you prefer to add domains individually, the following domains are required:
 
 | Domain | Purpose |
 |---|---|
+| `api.nabucasa.com` | Nabu Casa API |
+| `cloud.nabucasa.com` | Nabu Casa Cloud API |
+| `cognito-idp.us-east-1.amazonaws.com` | Authentication |
+| `remotestate.nabucasa.com` | Google Assistant integration |
+| `nc-user-files-weur.161122e6f55854edd16b585ba68d4972.r2.cloudflarestorage.com` | Cloud backup storage |
+| `acme-v02.api.letsencrypt.org` | Remote access certificate renewal |
+| `*.ui.nabu.casa` | Home Assistant remote UI |
+| `account-link.nabucasa.com` | Account linking for integrations |
+| `support.nabucasa.com` | Support site |
+| `nabucasa.zendesk.com` | Support site |
+| `status.nabucasa.com` | Service status |
+| `account.nabucasa.com` | Account management |
 | `js.recurly.com` | Subscription payment form |
 | `api.recurly.com` | Payment processing |
 | `nabucasa.com` | Nabu Casa main domain |
-| `account.nabucasa.com` | Account management |
-| `status.nabucasa.com` | Service status |
-| `assets.nabucasa.com` | Static assets |
-| `*.ui.nabu.casa` | Home Assistant remote UI |
 
 ## Related topics
 
