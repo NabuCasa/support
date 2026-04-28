@@ -45,32 +45,7 @@ If your payment is scheduled during the maintenance window, it will be held and 
 
 If you use a network-level DNS blocker such as Pi-hole or AdGuard Home, some Nabu Casa and payment domains may be incorrectly flagged by community blocklists, including the SNAFU list from Firebog.net. This can prevent the account or subscription page from loading correctly.
 
-We publish an allowlist file you can import directly into your DNS blocker:
-
-`https://assets.nabucasa.com/dns-allowlist.txt`
-
-#### AdGuard Home
-
-1. Go to **Filters** > **DNS Allowlists**.
-2. Select **Add allowlist**.
-3. Paste the URL above and save.
-   - **Result**: AdGuard Home syncs the list automatically.
-
-#### Pi-hole
-
-1. Go to **Group Management** > **Adlists**.
-2. Paste the URL above into the **Address** field, set the type to **Allow**, and select **Add**.
-3. Go to **Tools** > **Update Gravity** to apply the list.
-
-{% callout "important" %}
-The domain `*.ui.nabu.casa`, used for Home Assistant remote access, requires a separate regex allowlist entry in Pi-hole. Go to **Whitelist** > **RegEx filter** and add:
-
-`(^|\.)ui\.nabu\.casa$`
-{% endcallout %}
-
-#### Manual allowlist
-
-If you prefer to add domains individually, the following domains are required:
+To resolve this, add the following domains to your DNS blocker's allowlist:
 
 | Domain | Purpose |
 |---|---|
@@ -89,6 +64,12 @@ If you prefer to add domains individually, the following domains are required:
 | `js.recurly.com` | Subscription payment form |
 | `api.recurly.com` | Payment processing |
 | `nabucasa.com` | Nabu Casa main domain |
+
+{% callout "important" %}
+The domain `*.ui.nabu.casa`, used for Home Assistant remote access, requires a separate regex allowlist entry in Pi-hole. Go to **Whitelist** > **RegEx filter** and add:
+
+`(^|\.)ui\.nabu\.casa$`
+{% endcallout %}
 
 ## Related topics
 
