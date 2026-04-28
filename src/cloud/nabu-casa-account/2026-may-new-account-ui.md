@@ -53,7 +53,7 @@ To resolve this, add the following domains to your DNS blocker's allowlist:
 | `cloud.nabucasa.com` | Nabu Casa Cloud API |
 | `cognito-idp.us-east-1.amazonaws.com` | Authentication |
 | `remotestate.nabucasa.com` | Google Assistant integration |
-| `nc-user-files-weur.161122e6f55854edd16b585ba68d4972.r2.cloudflarestorage.com` | Cloud backup storage |
+| <code>nc-user-files-weur.<wbr>161122e6f55854edd16b585ba68d4972.<wbr>r2.cloudflarestorage.com</code> | Cloud backup storage |
 | `acme-v02.api.letsencrypt.org` | Remote access certificate renewal |
 | `*.ui.nabu.casa` | Home Assistant remote UI |
 | `account-link.nabucasa.com` | Account linking for integrations |
