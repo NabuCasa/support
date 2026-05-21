@@ -170,10 +170,33 @@ Configuration for the [M5Stack BH1750](https://shop.m5stack.com/products/dlight-
       name: "Light Intensity"
   ```
 
+### Example 4: RFID 2 Unit (WS1850S)
+
+Configuration for the [M5Stack WS1850S](https://shop.m5stack.com/products/rfid-unit-2-ws1850s?variant=40753463885996) RFID 2 Unit.
+
+```yaml
+packages:
+  grove-i2c: github://esphome/home-assistant-voice-pe/modules/grove-i2c.yaml
+
+rc522_i2c:
+  i2c_id: grove_i2c
+  address: 0x28
+  on_tag:
+    then:
+      - homeassistant.tag_scanned: !lambda 'return x;'
+
+# Link the RFID reader to binary sensor
+binary_sensor:
+  - platform: rc522
+    uid: 83-08-60-1A
+    name: "NFC"
+```
+
 ## Related topics
 
 - [M5Stack SHT40-BMP280](https://shop.m5stack.com/products/env-iv-unit-with-temperature-humidity-air-pressure-sensor-sht40-bmp280) temperature, humidity, air pressure sensor
 - [M5Stack PIR](https://shop.m5stack.com/products/pir-module) motion sensor
 - [M5Stack SGP30](https://shop.m5stack.com/products/tvoc-eco2-gas-unit-sgp30) TVOC, eCO2 gas sensor
 - [M5Stack BH1750](https://shop.m5stack.com/products/dlight-unit-ambient-light-sensor-bh1750fvi-tr) ambient light sensor-
+- [M5Stack RFID 2](https://shop.m5stack.com/products/rfid-unit-2-ws1850s?variant=40753463885996) RFID read/write unit
 - [What is the Grove ecosystem by Seeed](https://wiki.seeedstudio.com/Grove_System/)
