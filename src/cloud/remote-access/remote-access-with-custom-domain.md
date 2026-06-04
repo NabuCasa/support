@@ -41,7 +41,7 @@ If you own your own domain (like `example.com`), you might want to use a subdoma
 
 If you've previously configured a custom domain and need to verify or recreate your DNS records, the values are derived directly from your Nabu Casa remote URL.
 
-Find your remote URL on the [Nabu Casa account page](https://account.nabucasa.com) under Remote access. It looks like `https://abcd1234-ef56-7890-abcd-ef1234567890.ui.nabu.casa`. Your two CNAME records use that URL — without the `https://` prefix — as follows:
+Find your remote URL on the [Nabu Casa account page](https://account.nabucasa.com) under **Services**. It looks like `https://abcd1234-ef56-7890-abcd-ef1234567890.ui.nabu.casa`. Your two CNAME records use that URL — without the `https://` prefix — as follows:
 
 | Name / Host | Type | Value / Target |
 |---|---|---|
