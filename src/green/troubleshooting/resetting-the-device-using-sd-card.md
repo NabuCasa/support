@@ -62,14 +62,9 @@ This process clears the data disk on your Green. Unless you [create a backup](ht
 {% image "/static/img/green/download-circle-outline.svg" "Downloading the required software" %}
 {% stepContent %}
 
-1. To download the Home Assistant Green OS installer, paste this into your browser.
-
-    ```text
-    https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410
-    ```
-
-2. To start the download, select the file *green-installer-20240410.img.xz*.
-3. Download and start [Balena Etcher](https://www.balena.io/etcher).
+1. Download the Home Assistant Green OS installer: [green-installer-20240410.img.xz](https://github.com/NabuCasa/buildroot-installer/releases/download/green-installer-20240410/green-installer-20240410.img.xz)
+   - This file is hosted on the [NabuCasa buildroot-installer releases page](https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410) on GitHub.
+2. Download and start [Balena Etcher](https://www.balena.io/etcher).
    - You may need to run it with administrator privileges on Windows.
 
 {% endstepContent %}
@@ -136,7 +131,7 @@ This process clears the data disk on your Green. Unless you [create a backup](ht
 {% image "/static/img/green/green_reset_insert_sd.webp" "Inserting the SD card" %}
 {% stepContent %}
 
-- Insert the SD card with the Home Assistant Green OS installer.
+- Insert the SD card with the Home Assistant Green OS installer. Push it in until you hear a click — the slot is spring-loaded and the card must be fully seated.
 - Make sure the Home Assistant Green is connected to the Internet.
 
 {% endstepContent %}
