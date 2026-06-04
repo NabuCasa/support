@@ -1,12 +1,12 @@
 ---
 zendesk:
   article_id: 35617635812893
-  name: May 2026 - New Nabu Casa account management experience
+  name: June 2026 - New Nabu Casa account management experience
   position: 1
   labels: cloud
 ---
 
-In May 2026, we updated the Nabu Casa account management portal at [account.nabucasa.com](https://account.nabucasa.com). The redesign makes account information easier to find, better surfaces the features included in your subscription, and brings improvements to our billing systems that lay the groundwork for future changes to both account management and billing.
+In June 2026, we updated the Nabu Casa account management portal at [account.nabucasa.com](https://account.nabucasa.com). The redesign makes account information easier to find, better surfaces the features included in your subscription, and brings improvements to our billing systems that lay the groundwork for future changes to both account management and billing.
 
 ## What's changing
 
@@ -19,15 +19,15 @@ In May 2026, we updated the Nabu Casa account management portal at [account.nabu
 
 As part of this update, billing will be paused for a scheduled maintenance window. Any payments due during this window will be temporarily delayed and processed automatically once the maintenance window ends. No action is required on your part.
 
-The maintenance window runs from **May 4, 2026 at 05:00 to May 5, 2026 at 09:00**, Central European Summer Time (CEST).
+The maintenance window runs from **June 10, 2026 at 07:00 to June 11, 2026 at 07:00**, Central European Summer Time (CEST).
 
 | Time zone | Start | End |
 |---|---|---|
-| CEST — Central Europe | May 4 at 05:00 | May 5 at 09:00 |
-| UTC | May 4 at 03:00 | May 5 at 07:00 |
-| BST — UK / Ireland | May 4 at 04:00 | May 5 at 08:00 |
-| EDT — US East Coast | May 3 at 23:00 | May 5 at 03:00 |
-| PDT — US West Coast | May 3 at 20:00 | May 5 at 00:00 |
+| CEST — Central Europe | June 10 at 07:00 | June 11 at 07:00 |
+| UTC | June 10 at 05:00 | June 11 at 05:00 |
+| BST — UK / Ireland | June 10 at 06:00 | June 11 at 06:00 |
+| EDT — US East Coast | June 10 at 01:00 | June 11 at 01:00 |
+| PDT — US West Coast | June 9 at 22:00 | June 10 at 22:00 |
 
 {% callout "important" %}
 If your payment is due during the maintenance window, it will not be lost or cancelled. It will be processed as soon as billing resumes.
@@ -75,4 +75,4 @@ The domain `*.ui.nabu.casa`, used for Home Assistant remote access, requires a s
 
 - [Nabu Casa account page](https://account.nabucasa.com)
 - [Nabu Casa status page](https://status.nabucasa.com)
-- [May 2026 billing maintenance window](https://status.nabucasa.com/incidents/t56zhmmz4jkz)
+- [June 2026 billing maintenance window](https://status.nabucasa.com/incidents/t56zhmmz4jkz)
