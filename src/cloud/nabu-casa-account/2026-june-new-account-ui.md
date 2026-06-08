@@ -50,14 +50,6 @@ To resolve this, add the following domains to your DNS blocker's allowlist:
 | Domain | Purpose |
 |---|---|
 | `api.nabucasa.com` | Nabu Casa API |
-| `cloud.nabucasa.com` | Nabu Casa Cloud API |
-| `cognito-idp.us-east-1.amazonaws.com` | Authentication |
-| `remotestate.nabucasa.com` | Google Assistant integration |
-| <code>nc-user-files-weur.<wbr>161122e6f55854edd16b585ba68d4972.<wbr>r2.cloudflarestorage.com</code> | Cloud backup storage |
-| `acme-v02.api.letsencrypt.org` | Remote access certificate renewal |
-| `*.ui.nabu.casa` | Home Assistant remote UI |
-| `account-link.nabucasa.com` | Account linking for integrations |
-| `support.nabucasa.com` | Support site |
 | `nabucasa.zendesk.com` | Support site |
 | `status.nabucasa.com` | Service status |
 | `account.nabucasa.com` | Account management |
@@ -65,11 +57,6 @@ To resolve this, add the following domains to your DNS blocker's allowlist:
 | `api.recurly.com` | Payment processing |
 | `nabucasa.com` | Nabu Casa main domain |
 
-{% callout "important" %}
-The domain `*.ui.nabu.casa`, used for Home Assistant remote access, requires a separate regex allowlist entry in Pi-hole. Go to **Whitelist** > **RegEx filter** and add:
-
-`(^|\.)ui\.nabu\.casa$`
-{% endcallout %}
 
 ## Related topics
 
