@@ -12,7 +12,7 @@ If you want to delete your Nabu Casa account, you need to cancel your subscripti
 
 1. Cancelling your Home Assistant Cloud subscription.
    - If you are currently subscribed to Home Assistant Cloud, you need to cancel your subscription before deleting your account.
-   - Log in to your [Nabu Casa account](https://account.nabucasa.com/), and under **Plan Management**, select **Cancel plan**.
+   - Log in to your [Nabu Casa account](https://account.nabucasa.com/), and under **Plan management**, select **Cancel plan**.
    - **Result**: the page shows the date when the Home Assistant Cloud account subscription will end.
      - The end date depends on your subscription type (monthly or yearly).
      - After this period, you will lose access to the following functionality:
