@@ -45,9 +45,9 @@ Activating remote access from outside your network only works if under [**Settin
 
 1. Log in to your [Nabu Casa account page](https://account.nabucasa.com).
    - If your instance is not connected, the **Status** under **Remote access** is shown as **Not connected**.
-2. To connect remotely, select **Connect**.
+2. To connect remotely, select **Open Home Assistant**.
 
-   <img src="/static/img/cloud/ha-remote-access-connect.png" alt='Screenshot of the remote access section with the Connect button.' class='img-fluid'>
+   <img src="/static/img/cloud/ha-remote-access-connect-2026.png" alt='Screenshot of the remote access section with the Open Home Assistant button.' class='img-fluid'>
 
 3. You can now connect to your Home Assistant using the **Remote address** URL.
 

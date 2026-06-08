@@ -6,6 +6,14 @@ zendesk:
   labels: cloud
 ---
 
+{% hazard "notice" %}
+
+**Temporarily unavailable**
+
+Please note, disabling MFA is temporarily unavailable while we complete the upgrade process to the new Account Management experience. [Learn more about this new experience here](/hc/en-us/articles/35617635812893).
+
+{% endhazard %}
+
 Follow these steps to disable multi-factor authentication (MFA) for your Home Assistant Cloud account.
 
 - Note that once you have disabled multi-factor authentication (MFA), you can not enable it again. The function to [enable multi-factor authentication (MFA)](/hc/en-us/articles/25807025727005) it is not currently available.
