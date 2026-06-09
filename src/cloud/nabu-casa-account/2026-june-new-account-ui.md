@@ -23,11 +23,11 @@ The maintenance window is scheduled to run from **June 10, 2026 at 07:00 to June
 
 | Time zone | Start | End |
 |---|---|---|
-| CEST — Central Europe | June 10 at 07:00 | June 11 at 07:00 |
-| UTC | June 10 at 05:00 | June 11 at 05:00 |
-| BST — UK / Ireland | June 10 at 06:00 | June 11 at 06:00 |
-| EDT — US East Coast | June 10 at 01:00 | June 11 at 01:00 |
-| PDT — US West Coast | June 9 at 22:00 | June 10 at 22:00 |
+| CEST — Central Europe | June 10 at 05:00 | June 11 at 07:00 |
+| UTC | June 10 at 03:00 | June 11 at 05:00 |
+| BST — UK / Ireland | June 10 at 04:00 | June 11 at 06:00 |
+| EDT — US East Coast | June 9 at 23:00 | June 11 at 01:00 |
+| PDT — US West Coast | June 9 at 20:00 | June 10 at 22:00 |
 
 {% callout "important" %}
 If your payment is due during the maintenance window, it will not be lost or cancelled. It will be processed as soon as billing resumes.
