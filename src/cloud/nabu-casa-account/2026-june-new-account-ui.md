@@ -37,6 +37,19 @@ For the most up-to-date information, including any changes to the schedule, chec
 
 ## FAQs
 
+### I received an unexpected email about a charge, a new account, or an invoice. Should I be worried?
+
+No, you can safely disregard these emails. While we moved subscriptions to the updated billing system on June 10, 2026, some customers received one or more automated emails, such as a new account confirmation, a subscription confirmation, or a receipt/invoice. These were sent automatically as your existing subscription was transferred to the new system. They do not reflect any new charge or any change to your account.
+
+- **You have not been charged again.** Any receipt or invoice from this notification shows an amount due of €0 / $0.00, and no payment was taken.
+- **Your subscription is unchanged.** Your plan, billing cycle, and renewal date all remain exactly as they were.
+- **These emails are genuine.** They were sent by Nabu Casa as part of the migration and are not phishing, nor a sign that your account has been accessed by anyone else. You can always confirm your subscription status directly at [account.nabucasa.com](https://account.nabucasa.com).
+- **You may have received more than one email.** The migration could generate a few separate notifications for a single account. This is expected.
+
+{% callout "important" %}
+No action is required on your part. We're sorry for the confusion. An unexpected billing email is understandably alarming, but nothing has changed with your subscription and no charge was made.
+{% endcallout %}
+
 ### What if I'm billed during the maintenance window?
 
 If your payment is scheduled during the maintenance window, it will be held and processed automatically once billing resumes. You will not be charged twice and your subscription will not be cancelled. No action is required.
