@@ -41,8 +41,8 @@ For the most up-to-date information, including any changes to the schedule, chec
 
 No, you can safely disregard these emails. While we moved subscriptions to the updated billing system on June 10, 2026, some customers received one or more automated emails, such as a new account confirmation, a subscription confirmation, or a receipt/invoice. These were sent automatically as your existing subscription was transferred to the new system. They do not reflect any new charge or any change to your account.
 
-- **You have not been charged again.** Any receipt or invoice from this notification shows an amount due of €0 / $0.00, and no payment was taken.
-- **Your subscription is unchanged.** Your plan, billing cycle, and renewal date all remain exactly as they were.
+- **You have not been charged again.** Any receipt or invoice from these emails is not a real charge. The amount shown may be €0 / $0.00, or it may not match your usual subscription price. In either case the amount is incorrect, you will not be charged it, and no payment was taken.
+- **Your subscription and price are unchanged.** Your plan, price, billing cycle, and renewal date all remain exactly as they were. The next time you are billed, the amount will match the regular price you are used to seeing.
 - **These emails are genuine.** They were sent by Nabu Casa as part of the migration and are not phishing, nor a sign that your account has been accessed by anyone else. You can always confirm your subscription status directly at [account.nabucasa.com](https://account.nabucasa.com).
 - **You may have received more than one email.** The migration could generate a few separate notifications for a single account. This is expected.
 
