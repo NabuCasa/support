@@ -50,9 +50,17 @@ No, you can safely disregard these emails. While we moved subscriptions to the u
 No action is required on your part. We're sorry for the confusion. An unexpected billing email is understandably alarming, but nothing has changed with your subscription and no charge was made.
 {% endcallout %}
 
-### What if I'm billed during the maintenance window?
+### My renewal was due during the maintenance window. What happened?
 
-If your payment is scheduled during the maintenance window, it will be held and processed automatically once billing resumes. You will not be charged twice and your subscription will not be cancelled. No action is required.
+If your subscription was scheduled to renew during the maintenance window, we moved your renewal date forward by a few days so that no payment was attempted while billing was paused. To do this, your subscription was given a short free trial period (up to 7 days) that bridges the gap until your renewal resumes.
+
+As a result, you may have received a "Welcome to your Home Assistant Cloud Trial!" email, or you may see a trial with a €0 / $0.00 invoice on your account. This does not mean your paid subscription has changed in any way:
+
+- **You keep your subscription and access.** The trial is only a short buffer to delay your renewal until after the maintenance window. Your plan and features are unchanged.
+- **You will not be charged twice, and your subscription will not be cancelled.** The free trial period is not a charge.
+- **Your renewal resumes as normal.** At the end of the short trial buffer, your subscription renews at your regular price and billing continues as usual.
+
+No action is required on your part.
 
 ### My account page isn't loading — I use a DNS ad blocker (Pi-hole / AdGuard Home)
 
