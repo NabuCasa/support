@@ -33,7 +33,7 @@ There are 2 different start up procedures, depending on the current state of you
 
 {% steps %}
 {% step "Powering up the system" %}
-{% image "/static/img/green/green_connect_ethernet.webp" "Clip showing how to plug i the Ethernet cable" %}
+{% image "/static/img/green/green_reset_power-up_heartbeat.webp" "Clip showing the where to press the button on the device" %}
 {% stepContent %}
 
  - Press the power button.
@@ -60,7 +60,7 @@ Follow these steps if you want to start up the system after it has been powered 
 
 {% steps %}
 {% step "Connecting the device to the Internet" %}
-{% image "/static/img/green/green_reset_power-up_heartbeat.webp" "Clip showing the where to press the button on the device" %}
+{% image "/static/img/green/green_connect_ethernet.webp" "Clip showing how to plug in the Ethernet cable" %}
 {% stepContent %}
 
    - Plug in your Ethernet cable and make sure it is locked into place.
