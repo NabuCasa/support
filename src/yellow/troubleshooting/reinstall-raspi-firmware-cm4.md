@@ -22,10 +22,10 @@ To resolve this issue, you need to reinstall the Raspberry Pi bootloader onto th
 
 1. Open the procedure on [re-installing the operating system on CM4](/hc/en-us/articles/25484982657309).
 2. Follow steps 1–7 of the section **Option 2: Reinstall Home Assistant OS using rpiboot**.
-3. From the RaspberryPi code, download and extract the recovery folder:
-   - Go to `https://github.com/raspberrypi/usbboot` and select the green **Code** button.
+3. From the Raspberry Pi usboot source code, download and extract the recovery folder:
+   - Go to [https://github.com/raspberrypi/usbboot](https://github.com/raspberrypi/usbboot) and select the green **Code** button.
    - Select **Download zip**.
-   - Extract the zip file and move the subfolder `recovery` to `C:\Program Files (x86)`.
+   - Extract the zip file and move the subfolder `recovery` to `C:\Program Files (x86)\Raspberry Pi`.
 4. On Windows, open the Command Prompt window (cmd).
 5. Run the following commands:
 
