@@ -22,8 +22,12 @@ To resolve this issue, you need to reinstall the Raspberry Pi bootloader onto th
 
 1. Open the procedure on [re-installing the operating system on CM4](/hc/en-us/articles/25484982657309).
 2. Follow steps 1–7 of the section **Option 2: Reinstall Home Assistant OS using rpiboot**.
-3. On Windows, open the Command Prompt window (cmd).
-4. Run the following commands:
+3. From the Raspberry Pi usboot source code, download and extract the recovery folder:
+   - Go to [https://github.com/raspberrypi/usbboot](https://github.com/raspberrypi/usbboot) and select the green **Code** button.
+   - Select **Download zip**.
+   - Extract the zip file and move the subfolder `recovery` to `C:\Program Files (x86)\Raspberry Pi`.
+4. On Windows, open the Command Prompt window (cmd).
+5. Run the following commands:
 
     ```text
     cd \
@@ -34,10 +38,10 @@ To resolve this issue, you need to reinstall the Raspberry Pi bootloader onto th
 
     **Result**: The green LED lights up solid, then starts flashing.
 
-5. Wait for about 1 minute.
-6. Then, from Home Assistant Yellow, unplug the power cable.
-7. Ensure JP1 is set to UART.
-8. On Home Assistant Yellow, connect the power cable.
+6. Wait for about 1 minute.
+7. Then, from Home Assistant Yellow, unplug the power cable.
+8. Ensure JP1 is set to UART.
+9.  On Home Assistant Yellow, connect the power cable.
    - **Result**: The error blink pattern should no longer occur.
      - The LED pattern depends on what is already installed on Yellow.
      - Typically, the system should boot now.
