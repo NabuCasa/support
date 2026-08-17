@@ -47,8 +47,10 @@ There are 2 different start up procedures, depending on the current state of you
 {% stepContent %}
 
    - Select your Home Assistant server:
-      - **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196:8123`
-      - **Desktop**: Visit [http://homeassistant.local:8123](http://homeassistant.local:8123) to access the Home Assistant user interface.
+      - **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196`
+      - **Desktop**: Visit [http://homeassistant.local](http://homeassistant.local) to access the Home Assistant user interface.
+
+      - **Info**: If that address doesn't load, add `:8123` to the end of either address. Home Assistant uses one of these two ports depending on how and when it was installed.
 
 {% endstepContent %}
 {% endstep %}
@@ -83,8 +85,10 @@ Follow these steps if you want to start up the system after it has been powered 
 {% stepContent %}
 
    - Select your Home Assistant server:
-      - **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196:8123`.
-      - **Desktop**: Visit [http://homeassistant.local:8123](http://homeassistant.local:8123) to access the Home Assistant user interface.
+      - **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196`.
+      - **Desktop**: Visit [http://homeassistant.local](http://homeassistant.local) to access the Home Assistant user interface.
+
+      - **Info**: If that address doesn't load, add `:8123` to the end of either address. Home Assistant uses one of these two ports depending on how and when it was installed.
 
 {% endstepContent %}
 {% endstep %}
