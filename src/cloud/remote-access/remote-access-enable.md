@@ -6,7 +6,7 @@ zendesk:
   labels: cloud
 ---
 
-Remote access allows you to connect to your Home Assistant instance from outside of your home network. So that you can start the vacuum cleaner from your phone while you are on the train for your daily commute, for example.
+Remote access allows you to connect to your Home Assistant instance from outside of your home network. For example, it could allow you to start the vacuum cleaner from your phone while on the train for your daily commute.
 
 By default, remote access is not enabled. To enable it, you can use one of the following methods:
 
@@ -14,7 +14,7 @@ By default, remote access is not enabled. To enable it, you can use one of the f
 - [Enabling remote access from outside of your network](#to-activate-remote-access-from-outside-your-network)
 - [Using an automation to enable or disable remote connection](#using-an-automation-to-enable-and-disable-the-remote-connection)
 
-## To enable remote access to Home Assistant while your inside the network
+## To activate remote access from inside your network
 
 1. In Home Assistant, go to [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
 2. Make sure you are logged in to Home Assistant Cloud.
