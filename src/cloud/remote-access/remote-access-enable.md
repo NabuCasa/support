@@ -10,7 +10,7 @@ Remote access allows you to connect to your Home Assistant instance from outside
 
 By default, remote access is not enabled. To enable it, you can use one of the following methods:
 
-- [Enabling remote access from within your network](#to-enable-remote-access-to-home-assistant)
+- [Enabling remote access from within your network](#to-activate-remote-access-from-inside-your-network)
 - [Enabling remote access from outside of your network](#to-activate-remote-access-from-outside-your-network)
 - [Using an automation to enable or disable remote connection](#using-an-automation-to-enable-and-disable-the-remote-connection)
 
