@@ -20,14 +20,14 @@ To configure IP banning, in Home Assistant, go to [**Settings** > **System** > *
 
 **Login attempts before ban** controls how many failed attempts an IP address can make before it is banned. It is set to `-1` by default, which means no address is ever banned automatically.
 
-We recommend setting it to **5**, and not lower than **3**. If several people in your household use Home Assistant, or you have a lot of devices and scripts talking to the API, **10** is a safer choice.
+Allow more attempts than feels intuitive. A very low threshold sounds stricter, but in practice it is far more likely to lock you out than to stop an attacker:
 
-A threshold of `1` or `2` sounds stricter, but in practice it is far more likely to lock you out than to stop an attacker:
-
-- **The count has no time limit.** Home Assistant counts failed attempts per IP address until the next successful login from that address, or until Home Assistant restarts. It is not "3 attempts in 10 minutes" - a typo from last week still counts towards today's total.
+- **The count has no time limit.** Home Assistant counts failed attempts per IP address until the next successful login from that address, or until Home Assistant restarts. It is not a sliding window such as "a few attempts within ten minutes" - a typo from last week still counts towards today's total.
 - **More than just wrong passwords count.** Any request that reaches Home Assistant with invalid authentication increases the count. An expired or revoked long-lived access token, an old app installation on a spare phone, or a script still using deleted credentials can all use up your attempts without anyone typing a password.
 - **Bans do not expire.** Removing one means editing a file on your Home Assistant system and restarting.
-- **A higher threshold costs you almost nothing.** Guessing a strong password takes many thousands of attempts, so the difference between banning after 3 attempts and after 10 is not meaningful to an attacker. The difference to you is significant.
+- **Raising the threshold costs you very little.** Guessing a strong password takes many thousands of attempts, so a few more allowed attempts makes no practical difference to an attacker. Being locked out of your own system makes a significant difference to you.
+
+If several people in your household use Home Assistant, or you have a lot of devices and scripts talking to the API, allow more attempts rather than fewer.
 
 ### Before you enable IP banning
 
