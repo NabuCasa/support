@@ -21,3 +21,16 @@ import json
 from hass_nabucasa.voice import STT_LANGUAGES
 print(json.dumps(STT_LANGUAGES, indent=2))
 ' > _data/sttLanguages.json
+
+# The v2 (Soniox) speech-to-text service was added in hass-nabucasa 2.6.0.
+# Until a Home Assistant release ships with it, the pinned version has no
+# stt_v2 module, so leave the committed data in place rather than emptying it.
+if python3 -c "import hass_nabucasa.stt_v2" 2>/dev/null; then
+  python3 -c '
+import json
+from hass_nabucasa.stt_v2 import LANGUAGE_ALIASES, STT_V2_LANGUAGES
+print(json.dumps({"languages": STT_V2_LANGUAGES, "aliases": LANGUAGE_ALIASES}, indent=2))
+' > _data/sttV2Languages.json
+else
+  echo "hass_nabucasa.stt_v2 not available, keeping existing _data/sttV2Languages.json" >&2
+fi

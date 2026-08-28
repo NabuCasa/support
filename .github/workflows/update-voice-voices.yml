@@ -37,6 +37,7 @@ jobs:
           name: voiceLanguages
           path: |
             ./_data/sttLanguages.json
+            ./_data/sttV2Languages.json
             ./_data/ttsLanguages.json
           if-no-files-found: error
           retention-days: 1
@@ -76,3 +77,4 @@ jobs:
           add-paths: |
             _data/ttsLanguages.json
             _data/sttLanguages.json
+            _data/sttV2Languages.json
