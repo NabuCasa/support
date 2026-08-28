@@ -8,6 +8,8 @@ zendesk:
 
 We support two payment options: Stripe (Credit cards, Google Pay, Apple Pay) and PayPal.
 
+The payment reference shown on your bank or financial institution statement may look slightly different, depending on the payment method you use.
+
 ## Related topics
 
 - [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/)
