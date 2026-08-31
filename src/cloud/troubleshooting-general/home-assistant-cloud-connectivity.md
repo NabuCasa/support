@@ -36,6 +36,7 @@ This error indicates a network issue. It often occurs when the Home Assistant ho
 
 
 
-## Related topic
+## Related topics
 
 - [403 Forbidden](/hc/en-us/articles/26203603012509)
+- [Account page not loading when using a DNS ad blocker](/hc/en-us/articles/38777761100061)

@@ -47,3 +47,4 @@ No action is required on your part.
 
 - [Nabu Casa account page](https://account.nabucasa.com)
 - [Nabu Casa status page](https://status.nabucasa.com)
+- [Account page not loading when using a DNS ad blocker](/hc/en-us/articles/38777761100061)
