@@ -20,8 +20,8 @@ _403 Forbidden_ indicates that IP banning is enabled on your Home Assistant syst
 
 Which address was banned depends on your Home Assistant version:
 
-- **Home Assistant 2026.9 or newer**: remote access forwards the real IP address of the incoming request, so the banned entry is the address you were connecting from at the time. If you were on mobile data, this is an address belonging to your mobile provider.
-- **Home Assistant 2026.8 or older**: remote access did not forward the IP address of the incoming request. All remote visitors appeared as `127.0.0.1`, so a single failed login from anywhere banned every remote connection at once. If you see this, we recommend updating to Home Assistant 2026.9 or newer.
+- **Home Assistant 2026.9 or newer**: Home Assistant Cloud remote access forwards the real IP address of the incoming request, so the banned entry is the address you were connecting from at the time. If you were on mobile data, this is an address belonging to your mobile provider.
+- **Home Assistant 2026.8 or older**: Home Assistant Cloud remote access did not forward the IP address of the incoming request. Every visitor arriving through the Cloud tunnel appeared as `127.0.0.1`, so a single failed login from anywhere banned every remote connection at once. If you see this, we recommend updating to Home Assistant 2026.9 or newer.
 
 ### Resolution
 
