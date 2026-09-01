@@ -32,7 +32,7 @@ You need access to your configuration folder to remove a ban. If you cannot reac
 
    ```yaml
    198.51.100.24:
-     banned_at: "2026-08-17T14:20:03"
+     banned_at: '2026-08-17T14:20:03.000000+00:00'
    ```
 
    - To clear all bans, delete the whole file. Home Assistant recreates it the next time an address is banned.
