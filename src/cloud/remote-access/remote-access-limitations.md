@@ -6,7 +6,7 @@ zendesk:
   labels: cloud
 ---
 
-Until Home Assistant 2026.9, the IP address of the incoming request was not forwarded to Home Assistant. Every remote visitor appeared to come from `127.0.0.1`, which is why we advised against combining remote access with IP banning.
+Prior to Home Assistant 2026.9, the IP address of the incoming request was not forwarded to Home Assistant. Every remote visitor appeared to come from `127.0.0.1`, which is why we advised against combining remote access with IP banning.
 
 Starting with Home Assistant 2026.9, Home Assistant sees the real IP address of each remote visitor. This means you can now use IP banning and remote access at the same time.
 
