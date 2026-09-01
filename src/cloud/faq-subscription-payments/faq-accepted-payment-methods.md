@@ -6,7 +6,7 @@ zendesk:
   labels: cloud, payments
 ---
 
-We support two payment options: Stripe (Credit cards, Google Pay, Apple Pay) and PayPal.
+We support four payment options: Credit/debit cards, Google Pay, Apple Pay, and PayPal.
 
 The payment reference shown on your bank or financial institution statement may look slightly different, depending on the payment method you use.
 
