@@ -71,7 +71,9 @@ This guide shows you how to use the {{ productName }} as a dedicated Thread adap
 {% stepContent %}
 
 1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
-   - You now see the **OpenThread Border Router** and the **Thread** integrations.
+   - You should now see the **OpenThread Border Router** and the **Thread** integrations.
+     
+       If you don't see the **OpenThread Border Router** integration, please restart Home Assistant and try again.
 2. Select the **Thread** integration, then select the cogwheel.
    - You will now see a **Home Assistant OpenThread Border Router**.
    - You might also see other Thread networks from other border router devices in your home.
