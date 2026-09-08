@@ -14,7 +14,7 @@ By default, remote access is not enabled. To enable it, you can use one of the f
 - [Enabling remote access from outside of your network](#to-activate-remote-access-from-outside-your-network)
 - [Using an automation to enable or disable remote connection](#using-an-automation-to-enable-and-disable-the-remote-connection)
 
-## To enable remote access to Home Assistant while your inside the network
+## To enable remote access to Home Assistant while you're inside the network
 
 1. In Home Assistant, go to [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
 2. Make sure you are logged in to Home Assistant Cloud.
