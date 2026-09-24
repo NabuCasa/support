@@ -72,7 +72,7 @@ The measurements are not shown in the Home Assistant interface. If you want to s
 DEBUG (MainThread) [hass_nabucasa.remote] Latency results by location: {'Johannesburg': {'avg': 307.287}, 'Frankfurt': {'avg': 54.966}, 'Amsterdam': {'avg': 45.833}, 'Strasbourg': {'avg': 50.691}, 'Paris': {'avg': 43.964}, 'London': {'avg': 40.386}, 'Warsaw': {'avg': 219.189}, 'Virginia': {'avg': 249.862}, 'Illinois': {'avg': 251.7}, 'Colorado': {'avg': 269.419}, 'Oregon': {'avg': 305.693}, 'Sydney': {'avg': 398.829}, 'São Paulo': {'avg': 343.975}}
 ```
 
-The values are the average round-trip time in milliseconds. The two Sydney addresses share a location name, so they appear as a single Sydney entry in this line even though both were measured. An address that did not respond is shown with an average of `None`.
+The values are the average round-trip time in milliseconds. An address that did not respond is shown with an average of `None`.
 
 The results are also included in your support package, which is useful if you are working with our support team on a connection speed problem.
 
