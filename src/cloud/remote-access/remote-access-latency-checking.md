@@ -23,9 +23,11 @@ The check runs when Home Assistant starts up and sets up your remote access conn
 1. **Home Assistant asks for the list of targets.** Your instance requests the current list of measurement addresses from Home Assistant Cloud, along with the settings for the test.
 2. **Home Assistant measures each target.** Your instance sends a small number of ICMP echo requests (pings) to each address and records the round-trip time. By default, each address is pinged 3 times, and any address that does not answer within 1000 ms is treated as unreachable.
 3. **The results are sent back to us.** Your instance reports the average, minimum, and maximum round-trip time for each address, and whether the address responded at all.
-4. **We choose the server.** Home Assistant Cloud ranks the locations using your measurements and assigns your instance to the best-performing remote access server.
+4. **We choose the server.** Home Assistant Cloud ranks the locations using your measurements and assigns your instance to a remote access server.
 
-The ranking is done on our side rather than in Home Assistant. This means we can adjust how servers are chosen, such as balancing load across a busy region, without needing you to update Home Assistant.
+Your measurements are the largest factor in that decision, but they are not the only one. We also weigh each location against how much capacity it has available, so you may be assigned a server that was not the very lowest latency in your results when a close alternative has more headroom. A server that fills up slows down everyone connected to it, so spreading instances out generally gives a better connection than sending everyone to the same fastest server.
+
+The ranking is done on our side rather than in Home Assistant. This means we can adjust how servers are chosen without needing you to update Home Assistant.
 
 ### Measurement addresses
 
