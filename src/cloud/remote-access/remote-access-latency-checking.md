@@ -68,15 +68,14 @@ You do not need to change your firewall for this feature. If you want the best p
 
 ## Seeing the results
 
-The measurements are not shown in the Home Assistant interface. If you want to see them, you can [enable debug logging](/hc/en-us/articles/25620430846493/) for the cloud integration. The results appear in the log as a single line:
+The measurements are not shown in the Home Assistant interface. If you want to see them, you can [enable debug logging](/hc/en-us/articles/25620430846493/) for the cloud integration. Look for a `DEBUG` line from `hass_nabucasa.remote`:
 
 ```text
-DEBUG (MainThread) [hass_nabucasa.remote] Latency results by location:
+Latency results by location:
 {'Johannesburg': {'avg': 307.287},
  'Frankfurt': {'avg': 54.966},
  'Amsterdam': {'avg': 45.833},
  'London': {'avg': 40.386},
- 'Sydney': {'avg': 398.829},
  ...}
 ```
 
