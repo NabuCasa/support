@@ -71,8 +71,16 @@ You do not need to change your firewall for this feature. If you want the best p
 The measurements are not shown in the Home Assistant interface. If you want to see them, you can [enable debug logging](/hc/en-us/articles/25620430846493/) for the cloud integration. The results appear in the log as a single line:
 
 ```text
-DEBUG (MainThread) [hass_nabucasa.remote] Latency results by location: {'Johannesburg': {'avg': 307.287}, 'Frankfurt': {'avg': 54.966}, 'Amsterdam': {'avg': 45.833}, 'Strasbourg': {'avg': 50.691}, 'Paris': {'avg': 43.964}, 'London': {'avg': 40.386}, 'Warsaw': {'avg': 219.189}, 'Virginia': {'avg': 249.862}, 'Illinois': {'avg': 251.7}, 'Colorado': {'avg': 269.419}, 'Oregon': {'avg': 305.693}, 'Sydney': {'avg': 398.829}, 'São Paulo': {'avg': 343.975}}
+DEBUG (MainThread) [hass_nabucasa.remote] Latency results by location:
+{'Johannesburg': {'avg': 307.287},
+ 'Frankfurt': {'avg': 54.966},
+ 'Amsterdam': {'avg': 45.833},
+ 'London': {'avg': 40.386},
+ 'Sydney': {'avg': 398.829},
+ ...}
 ```
+
+Home Assistant writes this as a single line covering every location. It is shown here wrapped and shortened so that it fits on the page.
 
 The values are the average round-trip time in milliseconds. An address that did not respond is shown with an average of `None`.
 
