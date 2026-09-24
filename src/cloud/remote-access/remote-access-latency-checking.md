@@ -1,6 +1,6 @@
 ---
 zendesk:
-  article_id: REPLACE_WITH_ZENDESK_ARTICLE_ID
+  article_id: 39385482184733
   name: Remote access - Latency checking
   position: 35
   labels: cloud
