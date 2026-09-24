@@ -34,7 +34,6 @@ These are the addresses your instance pings. They are dedicated measurement host
 | Location | Region | Provider | IP address |
 | --- | --- | --- | --- |
 | Johannesburg | Africa | DataPacket | 152.233.63.37 |
-| Singapore | Asia | AWS | 13.229.40.27 |
 | Frankfurt | Europe | OVHcloud | 57.129.54.3 |
 | Amsterdam | Europe | Scaleway | 51.158.253.232 |
 | Strasbourg | Europe | OVHcloud | 91.134.22.133 |
@@ -70,8 +69,10 @@ You do not need to change your firewall for this feature. If you want the best p
 The measurements are not shown in the Home Assistant interface. If you want to see them, you can [enable debug logging](/hc/en-us/articles/25620430846493/) for the cloud integration. The results appear in the log as a single line:
 
 ```text
-DEBUG (MainThread) [hass_nabucasa.remote] Latency results by location: {'France': {'avg': 33.705}, 'Boston': {'avg': 116.962}, 'Elsewhere': {'avg': 15.296}}
+DEBUG (MainThread) [hass_nabucasa.remote] Latency results by location: {'Johannesburg': {'avg': 307.287}, 'Frankfurt': {'avg': 54.966}, 'Amsterdam': {'avg': 45.833}, 'Strasbourg': {'avg': 50.691}, 'Paris': {'avg': 43.964}, 'London': {'avg': 40.386}, 'Warsaw': {'avg': 219.189}, 'Virginia': {'avg': 249.862}, 'Illinois': {'avg': 251.7}, 'Colorado': {'avg': 269.419}, 'Oregon': {'avg': 305.693}, 'Sydney': {'avg': 398.829}, 'São Paulo': {'avg': 343.975}}
 ```
+
+The values are the average round-trip time in milliseconds. The two Sydney addresses share a location name, so they appear as a single Sydney entry in this line even though both were measured. An address that did not respond is shown with an average of `None`.
 
 The results are also included in your support package, which is useful if you are working with our support team on a connection speed problem.
 
