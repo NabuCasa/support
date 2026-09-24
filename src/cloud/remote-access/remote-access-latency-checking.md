@@ -31,22 +31,22 @@ The ranking is done on our side rather than in Home Assistant. This means we can
 
 These are the addresses your instance pings. They are dedicated measurement hosts: they only answer pings, and they do not carry any of your Home Assistant traffic. Your actual remote access connection goes to a separate server.
 
-| Location | Region | Provider | IP address |
-| --- | --- | --- | --- |
-| Johannesburg | Africa | DataPacket | 152.233.63.37 |
-| Frankfurt | Europe | OVHcloud | 57.129.54.3 |
-| Amsterdam | Europe | Scaleway | 51.158.253.232 |
-| Strasbourg | Europe | OVHcloud | 91.134.22.133 |
-| Paris | Europe | Scaleway | 51.159.202.222 |
-| London | Europe | OVHcloud | 57.129.148.54 |
-| Warsaw | Europe | Scaleway | 151.115.97.71 |
-| Virginia | North America | OVHcloud | 40.160.72.112 |
-| Illinois | North America | DataPacket | 212.102.58.139 |
-| Colorado | North America | DataPacket | 121.127.44.46 |
-| Oregon | North America | OVHcloud | 40.160.129.164 |
-| Sydney | Oceania | OVHcloud | 51.161.218.153 |
-| Sydney | Oceania | OVHcloud | 51.161.218.156 |
-| São Paulo | South America | DataPacket | 169.150.220.131 |
+| Location | Region | IP address |
+| --- | --- | --- |
+| Johannesburg | Africa | 152.233.63.37 |
+| Frankfurt | Europe | 57.129.54.3 |
+| Amsterdam | Europe | 51.158.253.232 |
+| Strasbourg | Europe | 91.134.22.133 |
+| Paris | Europe | 51.159.202.222 |
+| London | Europe | 57.129.148.54 |
+| Warsaw | Europe | 151.115.97.71 |
+| Virginia | North America | 40.160.72.112 |
+| Illinois | North America | 212.102.58.139 |
+| Colorado | North America | 121.127.44.46 |
+| Oregon | North America | 40.160.129.164 |
+| Sydney | Oceania | 51.161.218.153 |
+| Sydney | Oceania | 51.161.218.156 |
+| São Paulo | South America | 169.150.220.131 |
 
 This list changes as we add or retire locations. Your instance always fetches the current list from us before measuring, so it never relies on a list stored locally. We expect to change it only a small number of times per year.
 
