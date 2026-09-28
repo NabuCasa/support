@@ -31,7 +31,7 @@ The ranking is done on our side rather than in Home Assistant. This means we can
 
 ### Measurement addresses
 
-These are the addresses your instance pings. They are our remote access servers themselves, so the one your instance is assigned to also carries your remote access connection.
+These are the addresses your instance pings. They are our remote access servers themselves, so your instance measures the actual servers it could connect through and is assigned to the one that works best for you.
 
 | Location | Region | IP address |
 | --- | --- | --- |
