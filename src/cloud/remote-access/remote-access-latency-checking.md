@@ -31,7 +31,7 @@ The ranking is done on our side rather than in Home Assistant. This means we can
 
 ### Measurement addresses
 
-These are the addresses your instance pings. They are dedicated measurement hosts: they only answer pings, and they do not carry any of your Home Assistant traffic. Your actual remote access connection goes to a separate server.
+These are the addresses your instance pings. They are our remote access servers themselves, so your instance measures the actual servers it could connect through and is assigned to the one that works best for you.
 
 | Location | Region | IP address |
 | --- | --- | --- |
