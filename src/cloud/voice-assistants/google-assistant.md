@@ -40,6 +40,8 @@ To control Home Assistant entities from Google Home, follow these steps:
      - There you can add **Home Assistant Cloud by Nabu Casa** using the **Add devices** option.
    - Troubleshooting: If after adding **Home Assistant Cloud by Nabu Casa**, the message _No compatible devices were found in your Home Assistant Cloud by Nabu Casa_ appears: This means no entity was exposed to Google Assistant. Repeat the step on exposing entities.
 
+Note that Home Assistant Cloud's Google Assistant integration does not also require you to enable Remote Access.
+
 ## Available domains
 
 Currently, the following domains are available to be used with Google Assistant. They are listed with their default types:
