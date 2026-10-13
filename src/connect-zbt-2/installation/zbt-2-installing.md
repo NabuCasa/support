@@ -14,4 +14,4 @@ Before connecting {{ productName }} to Home Assistant, assemble it and install i
 ## Related topics
 
 - [Device overview](/hc/en-us/articles/31369010717213)
-- [Finding and installation location for {{ productName }}](/hc/en-us/articles/31592008763293).
+- [Finding an installation location for {{ productName }}](/hc/en-us/articles/31592008763293)
