@@ -13,7 +13,7 @@ To control Home Assistant entities from Google Home, follow these steps:
 1. [Set up Home Assistant Cloud](/hc/en-us/articles/25649130769949)
 1. Under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/), enable **Google Assistant**.
    <img src="/static/img/cloud/google-assistant-enable.png" alt="Enable Google Assistant">
-1. On the **Expose** tab, expose at least one entity to Google.
+1. On the **Expose** tab, expose at least one entity to Google. For the first link, start with a small number, such as a few lights. You can expose more afterwards and say "Hey Google, sync my devices" to add them.
 
    - Open the **Expose** tab.
 
@@ -31,15 +31,12 @@ To control Home Assistant entities from Google Home, follow these steps:
 
         <img src="/static/img/cloud/assistant-expose-08.png" alt="Expose entities: Google Assistant icon is now visible">
 
-1. Activate the Home Assistant Smart Home skill for Google Assistant.
-   - If you have a Google Home device, use the Google Home app.
-     - Select the plus icon in the upper left corner, and then **Set up device**, and **Works with Google**.
-     - Search for **Home Assistant Cloud by Nabu Casa** and add it.
-   - If you only have a mobile phone, launch Google Assistant, select the three dots menu.
-     - Under **Settings**, you'll find **Home Control**.
-     - There you can add **Home Assistant Cloud by Nabu Casa** using the **Add devices** option.
-   - Troubleshooting: If after adding **Home Assistant Cloud by Nabu Casa**, the message _No compatible devices were found in your Home Assistant Cloud by Nabu Casa_ appears: This means no entity was exposed to Google Assistant. Repeat the step on exposing entities.
-
+1. Link Home Assistant Cloud in the Google Home app.
+   - In the Google Home app, select **Add**, then **Link app or service**, and then **Works with Google**.
+   - Search for **Home Assistant Cloud by Nabu Casa**, select it, and sign in with your Home Assistant Cloud account.
+   - Troubleshooting:
+     - If the message _No compatible devices were found in your Home Assistant Cloud by Nabu Casa_ appears, no entity was exposed to Google Assistant. Repeat the step on exposing entities.
+     - If the message _Could not reach Home Assistant Cloud by Nabu Casa_ appears, expose only 1 to 5 entities, try linking again, and add the rest in batches once linking works. Exposing many entities at one time can cause linking to fail.
 ## Available domains
 
 Currently, the following domains are available to be used with Google Assistant. They are listed with their default types:
