@@ -62,8 +62,8 @@ This process clears the data disk on your Green. Unless you [create a backup](ht
 {% image "/static/img/green/download-circle-outline.svg" "Downloading the required software" %}
 {% stepContent %}
 
-1. Download the Home Assistant Green OS installer: [green-installer-20240410.img.xz](https://github.com/NabuCasa/buildroot-installer/releases/download/green-installer-20240410/green-installer-20240410.img.xz)
-   - This file is hosted on the [NabuCasa buildroot-installer releases page](https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410) on GitHub.
+1. Download the Home Assistant Green OS installer: [green_installer-20261015.img.xz](https://github.com/NabuCasa/buildroot-installer/releases/download/release-20261015/green_installer-20261015.img.xz)
+   - This file is hosted on the [NabuCasa buildroot-installer releases page](https://github.com/NabuCasa/buildroot-installer/releases/tag/release-20261015) on GitHub.
 2. Download and start [Balena Etcher](https://www.balena.io/etcher).
    - You may need to run it with administrator privileges on Windows.
 
