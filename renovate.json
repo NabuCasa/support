@@ -9,5 +9,12 @@
     "dependencies"
   ],
   "schedule": ["before 6am on friday"],
-  "prConcurrentLimit": 10
+  "prConcurrentLimit": 10,
+  "packageRules": [
+    {
+      "description": "Update the artifact actions together; artifacts uploaded with one major version may not be readable by another",
+      "matchDepNames": ["actions/download-artifact", "actions/upload-artifact"],
+      "groupName": "artifact actions"
+    }
+  ]
 }
