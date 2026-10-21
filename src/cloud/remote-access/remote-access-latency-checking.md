@@ -36,7 +36,7 @@ These are the addresses your instance pings. They are our remote access servers 
 | Location | Region | IP address |
 | --- | --- | --- |
 | Johannesburg | Africa | 152.233.63.37 |
-| Singapore | Asia | 152.233.68.160 |
+| Singapore | Asia | 152.233.68.160 |
 | Hong Kong | Asia | 95.173.197.194 |
 | Frankfurt | Europe | 57.129.54.3 |
 | Amsterdam | Europe | 51.158.253.232 |
