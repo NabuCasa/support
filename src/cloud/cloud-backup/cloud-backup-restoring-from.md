@@ -1,17 +1,17 @@
 ---
 zendesk:
   article_id: 26294419665181
-  name: Restoring Home Assistant from a backup stored on Cloud
+  name: Restoring Home Assistant from your off-site backup
   position: 40
-  labels: cloud
+  labels: cloud, link
 ---
 
 ## Prerequisites
 
 - You have administrator rights in Home Assistant
-- You have [enabled Home Assistant Cloud backups](/hc/en-us/articles/26294320337181/)
+- You have [enabled the off-site backup](/hc/en-us/articles/26294320337181/)
 - You have [downloaded the backup](/hc/en-us/articles/26294370569245/) you want to restore from
-  - Note that only your most recent backup is available on Home Assistant Cloud.
+  - Note that only your most recent backup is stored off-site.
 
 ## To restore Home Assistant from backup
 
@@ -19,5 +19,5 @@ Follow the steps on [restoring your Home Assistant installation](https://www.hom
 
 ## Related topics
 
-- [Enabling Home Assistant Cloud backups](/hc/en-us/articles/26294320337181/)
+- [Enabling the off-site backup](/hc/en-us/articles/26294320337181/)
 - [Downloading a backup](/hc/en-us/articles/26294370569245/)
