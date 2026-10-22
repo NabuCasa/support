@@ -6,7 +6,7 @@ zendesk:
   labels: voice pe, operation, using the device, change wake word, nabu
 ---
 
-Nabu™ is the private voice assistant for your Home Assistant smart home. It's local-first and runs the entire pipeline, from the wake word to the action in your home. Assist processes your commands on your Home Assistant system. Speech-to-text and text-to-speech can run locally or use cloud-accelerated speech processing from Home Assistant Cloud.
+A wake word is the technology that "wakes" your voice assistant and prompts it to begin listening to your voice commands. Our voice assistant technology, called Nabu, provides you with a great wake word trained on open-source voice samples provided by the Home Assistant community.
 
 "Okay Nabu" is the Nabu wake word, and it runs entirely on-device. Home Assistant Voice Preview Edition can listen for "Okay Nabu" or for one of the other wake words below.
 
