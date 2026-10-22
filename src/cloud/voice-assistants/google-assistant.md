@@ -3,14 +3,14 @@ zendesk:
   article_id: 25619376817053
   name: Google Assistant
   position: 20
-  labels: cloud
+  labels: cloud, link
 ---
 
 The Google Assistant integration allows users to control Home Assistant entities from Google Home. You can then say things like "Ok Google, turn on the kitchen light" to control your local Home Assistant.
 
 To control Home Assistant entities from Google Home, follow these steps:
 
-1. [Set up Home Assistant Cloud](/hc/en-us/articles/25649130769949)
+1. [Set up Home Assistant Link](/hc/en-us/articles/25649130769949)
 1. Under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/), enable **Google Assistant**.
    <img src="/static/img/cloud/google-assistant-enable.png" alt="Enable Google Assistant">
 1. On the **Expose** tab, expose at least one entity to Google. For the first link, start with a small number, such as a few lights. You can expose more afterwards and say "Hey Google, sync my devices" to add them.
@@ -31,9 +31,9 @@ To control Home Assistant entities from Google Home, follow these steps:
 
         <img src="/static/img/cloud/assistant-expose-08.png" alt="Expose entities: Google Assistant icon is now visible">
 
-1. Link Home Assistant Cloud in the Google Home app.
+1. Connect Home Assistant in the Google Home app.
    - In the Google Home app, select **Add**, then **Link app or service**, and then **Works with Google**.
-   - Search for **Home Assistant Cloud by Nabu Casa**, select it, and sign in with your Home Assistant Cloud account.
+   - Search for **Home Assistant Cloud by Nabu Casa**, select it, and sign in with your Nabu Casa account.
    - Troubleshooting:
      - If the message _No compatible devices were found in your Home Assistant Cloud by Nabu Casa_ appears, no entity was exposed to Google Assistant. Repeat the step on exposing entities.
      - If the message _Could not reach Home Assistant Cloud by Nabu Casa_ appears, expose only 1 to 5 entities, try linking again, and add the rest in batches once linking works. Exposing many entities at one time can cause linking to fail.
@@ -101,7 +101,7 @@ Here are the modes that are currently available:
 - eco
 - auto
 
-After setting up the cloud, if you make any device changes such as changing the name or adding a new device simply say "Ok Google, sync my devices" to get the changes to show up.
+After setting up Home Assistant Link, if you make any device changes such as changing the name or adding a new device simply say "Ok Google, sync my devices" to get the changes to show up.
 
 ## Local communication
 
@@ -113,7 +113,7 @@ Your Home Assistant instance needs to be connected to the same network as the Go
 
 Your Home Assistant instance should not have the HTTP integration configured to use an SSL certificate ([documentation](https://www.home-assistant.io/integrations/http/)). This is necessary because the Google device will connect directly to the IP of your Home Assistant installation and will fail if it encounters an invalid SSL certificate.
 
-The Google device still needs to be connected to the internet to be able to sync entities via Home Assistant Cloud, get credentials to establish a local connection and as a fallback for secure devices or if your Home Assistant instance cannot be reached.
+The Google device still needs to be connected to the internet to be able to sync entities via Home Assistant Link, get credentials to establish a local connection and as a fallback for secure devices or if your Home Assistant instance cannot be reached.
 
 ## Manual configuration
 

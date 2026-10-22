@@ -3,23 +3,23 @@ zendesk:
   article_id: 29718084245149
   name: Speech-to-text (STT)
   position: 20
-  labels: cloud
+  labels: cloud, link
 ---
 
-The Home Assistant Cloud speech-to-text (STT) service allows Home Assistant to convert your speech into text. This can then be used, for example, to [control your devices by speaking to Assist or ask it questions](https://www.home-assistant.io/voice_control/builtin_sentences/).
+The Home Assistant Link speech-to-text (STT) service allows Home Assistant to convert your speech into text. This can then be used, for example, to [control your devices by speaking to Assist or ask it questions](https://www.home-assistant.io/voice_control/builtin_sentences/).
 
-STT is automatically enabled when you are signed in to your Home Assistant Cloud account.
+STT is automatically enabled when you are signed in to Home Assistant Link.
 
 ## Trying the new speech-to-text engine
 
-We are testing a new speech-to-text engine for Home Assistant Cloud. In our testing, it copes better with the three things we hear break most often: accents, background noise, and languages other than English.
+We are testing a new speech-to-text engine for Home Assistant Link. In our testing, it copes better with the three things we hear break most often: accents, background noise, and languages other than English.
 
 The new engine is available as a preview feature in [Labs](https://my.home-assistant.io/redirect/labs/), so it is opt-in while we gather feedback. Like every preview feature, it may still change, or be replaced by a different approach, before it becomes the default.
 
 To try it, you need:
 
 - Home Assistant 2026.9 or later.
-- An active Home Assistant Cloud subscription, or a Home Assistant Cloud trial.
+- An active Home Assistant Link subscription, or a Home Assistant Link trial.
 
 ### Turning on the new engine
 
@@ -45,7 +45,7 @@ Feedback is what decides whether this becomes the default for everyone, so pleas
 
 ## Selecting the STT language
 
-You can define the language you speak to Assist when you [set up a Home Assistant Cloud voice assistant](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/).
+You can define the language you speak to Assist when you [set up a Home Assistant Link voice assistant](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/).
 
 If you want to speak to Assist in different languages, set up an assistant for each language.
 
@@ -72,5 +72,5 @@ Every language below works with Azure, the current engine. Soniox, the new engin
 ## Related topics
 
 - [Assist: supported sentences](https://www.home-assistant.io/voice_control/builtin_sentences/)
-- [Setting up a Home Assistant Cloud voice assistant](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/)
-- [Home Assistant Cloud text-to-speech (TTS)](/hc/en-us/articles/25619386304541)
+- [Setting up a Home Assistant Link voice assistant](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/)
+- [Home Assistant Link text-to-speech (TTS)](/hc/en-us/articles/25619386304541)

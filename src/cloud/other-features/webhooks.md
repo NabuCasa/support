@@ -3,10 +3,10 @@ zendesk:
   article_id: 25619382358685
   name: Triggering an automation with a webhook trigger
   position: 30
-  labels: cloud
+  labels: cloud, link
 ---
 
-Webhooks allow you to send data to your Home Assistant instance via Home Assistant Cloud. You can use these webhooks for example to trigger automations.
+Webhooks allow you to send data to your Home Assistant instance via Home Assistant Link. You can use these webhooks for example to trigger automations.
 
 ## Triggering an automation with a webhook trigger
 
@@ -20,8 +20,8 @@ This tutorial will show you the following:
 
 - [Home Assistant installed](https://www.home-assistant.io/installation/) and up and running
 - Have administrator rights on Home Assistant
-- Have a Home Assistant Cloud subscription
-- [Have Home Assistant Cloud enabled in Home Assistant](/hc/en-us/articles/25649130769949)
+- Have a Home Assistant Link subscription
+- [Have Home Assistant Link enabled in Home Assistant](/hc/en-us/articles/25649130769949)
 
 ### To create a webhook trigger and use it in an automation
 

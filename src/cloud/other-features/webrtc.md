@@ -3,14 +3,14 @@ zendesk:
   article_id: 25619464018461
   name: Improved camera streaming with WebRTC
   position: 40
-  labels: cloud
+  labels: cloud, link
 ---
 
 WebRTC provides better, more responsive camera streaming in Home Assistant while you are away from home.
 
 ## Enabling the WebRTC relay server connection for improved camera streaming
 
-If you are [logged into Home Assistant Cloud in Home Assistant](/hc/en-us/articles/25649130769949), WebRTC connections via our relay servers are enabled by default.
+If you are [logged into Home Assistant Link in Home Assistant](/hc/en-us/articles/25649130769949), WebRTC connections via our relay servers are enabled by default.
 
 If you've disabled it, follow these steps to enable it.
 
@@ -25,11 +25,11 @@ If you've disabled it, follow these steps to enable it.
 
 [WebRTC is a standard](https://webrtc.org/) that makes a peer-to-peer connection for lower-latency audio and video streaming. It is widely used across the internet for video calling. Home Assistant uses WebRTC to provide more responsive and less delayed camera streaming. When you’re away from home, WebRTC will try to find the fastest and most direct path between your Home Assistant instance and the camera you are trying to view.
 
-## How is it different for Cloud and non-Cloud users?
+## How is it different with and without Home Assistant Link?
 
-TL;DR: As part of your Home Assistant Cloud subscription, you get access to a relay server that allows you to watch your cameras with the lowest latency possible, no matter where you are.
+TL;DR: As part of your Home Assistant Link subscription, you get access to a relay server that allows you to watch your cameras with the lowest latency possible, no matter where you are.
 
-All Home Assistant users can use WebRTC connections, even if they do not have a Home Assistant Cloud subscription. This is facilitated by the [Open Home Foundation](https://www.openhomefoundation.org/), which is hosting the negotiating network infrastructure ([STUN servers](https://en.wikipedia.org/wiki/STUN)). However, sometimes a direct connection between the client (like your browser or mobile app) and the camera is not possible. In these situations, the camera stream needs to be relayed by an external server. Your [Home Assistant Cloud](https://www.home-assistant.io/cloud/) subscription provides this relay server ([TURN server](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT)), allowing you to connect to your cameras in the best possible way in more situations.
+All Home Assistant users can use WebRTC connections, even if they do not have a Home Assistant Link subscription. This is facilitated by the [Open Home Foundation](https://www.openhomefoundation.org/), which is hosting the negotiating network infrastructure ([STUN servers](https://en.wikipedia.org/wiki/STUN)). However, sometimes a direct connection between the client (like your browser or mobile app) and the camera is not possible. In these situations, the camera stream needs to be relayed by an external server. Your [Home Assistant Link](https://www.home-assistant.io/cloud/) subscription provides this relay server ([TURN server](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT)), allowing you to connect to your cameras in the best possible way in more situations.
 
 ## Disabling WebRTC relay server connection
 
