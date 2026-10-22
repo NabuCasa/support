@@ -3,7 +3,7 @@ zendesk:
   article_id: 26474279202973
   name: Enabling remote access to Home Assistant
   position: 20
-  labels: cloud
+  labels: cloud, link
 ---
 
 Remote access allows you to connect to your Home Assistant instance from outside of your home network. So that you can start the vacuum cleaner from your phone while you are on the train for your daily commute, for example.
@@ -17,12 +17,12 @@ By default, remote access is not enabled. To enable it, you can use one of the f
 ## To enable remote access to Home Assistant while you're inside the network
 
 1. In Home Assistant, go to [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
-2. Make sure you are logged in to Home Assistant Cloud.
+2. Make sure you are logged in to Home Assistant Link.
    - If you only just logged in for the first time, you might see a message _"Remote access is being prepared. We will notify you when it's ready."_.
    - In this case, wait a few minutes and refresh the page.
 3. Under **Remote access**, enable the toggle.
 
-   - The first time you enable it, Home Assistant Cloud will have to generate and validate the certificate. This can take up to 60 seconds.
+   - The first time you enable it, Home Assistant Link will have to generate and validate the certificate. This can take up to 60 seconds.
    - The link shown here is the link that you need to use when connecting remotely to your instance.
 
 4. This URL is only accessible if your local instance is connected to the remote access server.

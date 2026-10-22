@@ -3,7 +3,7 @@ zendesk:
   article_id: 26510075061021
   name: Remote access - Source code on GitHub
   position: 70
-  labels: cloud
+  labels: cloud, link
 ---
 
 The source code for remote access is available on GitHub:
