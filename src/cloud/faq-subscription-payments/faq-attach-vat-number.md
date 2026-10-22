@@ -3,7 +3,7 @@ zendesk:
   article_id: 26179753444381
   name: Adding VAT ID or tax information to invoices
   position: 60
-  labels: cloud, billing, pricing
+  labels: cloud, billing, pricing, link
 ---
 
 We strictly operate as a business-to-consumer provider. As such, we cannot include your VAT number on the invoice.
@@ -16,8 +16,8 @@ Changes apply to future invoices only. We cannot reissue or modify past invoices
 
 ## Business expense reporting
 
-Home Assistant Cloud is sold as a consumer service. Even with updated billing information, invoices remain business-to-consumer transactions and do not support VAT reclaim or business tax treatment. If you need business-grade invoicing, please consult your accounting department about expense policies for consumer services.
+Home Assistant Link is sold as a consumer service. Even with updated billing information, invoices remain business-to-consumer transactions and do not support VAT reclaim or business tax treatment. If you need business-grade invoicing, please consult your accounting department about expense policies for consumer services.
 
 ## Related topics
 
-- [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/)
+- [Home Assistant Link pricing](https://www.nabucasa.com/pricing/)
