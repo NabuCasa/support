@@ -3,14 +3,14 @@ zendesk:
   article_id: 26523862491165
   name: Remote access - Limitations
   position: 60
-  labels: cloud
+  labels: cloud, link
 ---
 
-Prior to Home Assistant 2026.9, Home Assistant Cloud remote access did not forward the IP address of the incoming request. Every visitor arriving through the Cloud tunnel appeared to come from `127.0.0.1`, which is why we advised against combining it with IP banning.
+Prior to Home Assistant 2026.9, Home Assistant Link remote access did not forward the IP address of the incoming request. Every visitor arriving through the remote access tunnel appeared to come from `127.0.0.1`, which is why we advised against combining it with IP banning.
 
 Starting with Home Assistant 2026.9, Home Assistant sees the real IP address of each visitor arriving through remote access. This means you can now use IP banning and remote access at the same time.
 
-This only ever affected Home Assistant Cloud remote access. If you reach Home Assistant another way, such as port forwarding, a VPN, or your own reverse proxy, IP banning has always seen the visitor's real address.
+This only ever affected Home Assistant Link remote access. If you reach Home Assistant another way, such as port forwarding, a VPN, or your own reverse proxy, IP banning has always seen the visitor's real address.
 
 ## Using IP banning with remote access
 

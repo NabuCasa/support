@@ -3,7 +3,7 @@ zendesk:
   article_id: 26205125179549
   name: Remote access - Computer not allowed
   position: 30
-  labels: cloud
+  labels: cloud, link
 ---
 
 ## Logging in with trusted networks: Your computer is not allowed
