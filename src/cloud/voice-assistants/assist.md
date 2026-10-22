@@ -3,12 +3,17 @@ zendesk:
   article_id: 25619427296413
   name: Assist
   position: 10
-  labels: cloud
+  labels: cloud, nabu
 ---
 
 <img src="/static/img/logos/assist-logo.png" class='no-shadow' alt='Assist logo' style='width: 150px; float: right'>
 
 [Assist](https://www.home-assistant.io/voice_control/) is our voice assistant that allows you to control Home Assistant using natural language.
+
+Home Assistant has the capability to build your own private voice assistant using its Assist technology. Home Assistant Cloud provides some great tools to improve Assist, we call it Nabu. Nabu supports almost every part of the Home Assistant voice pipeline, from our "Okay Nabu" wake word to our accurate and responsive online-powered speech-to-text and text-to-speech.
+```>
+
+To set up Nabu, go to [**Settings** > **Voice assistants**](https://my.home-assistant.io/redirect/voice_assistants/). [Learn more about Nabu](https://www.nabucasa.com/nabu/).
 
 <div class='videoWrapper'>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HqYbhk6vq9E" videotitle="This 70s Walkie Talkie controls your smart home" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
