@@ -24,7 +24,7 @@ You can use the off-site backup as part of your [3-2-1 backup strategy](https://
 
 ### A backup that survives your hardware
 
-Storing your latest [Home Assistant backup](https://www.home-assistant.io/common-tasks/general/#backups) off-site allows you to recover your system from hardware failures, data corruption, and unexpected disasters affecting your local system. As it is stored outside your system, and off-site, this Home Assistant backup will still be available even if your local Home Assistant system is affected.
+Storing your latest [Home Assistant backup](https://www.home-assistant.io/common-tasks/general/#backups) off-site allows you to recover your system from hardware failures, data corruption, and unexpected disasters. Because it is kept away from your home, it is still available even if your local system is lost.
 
 ### Encrypted and private
 
