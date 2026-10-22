@@ -3,8 +3,14 @@ zendesk:
   article_id: 25775743017629
   name: Changing the wake word for Home Assistant Voice Preview Edition
   position: 80
-  labels: voice pe, operation, using the device, change wake word
+  labels: voice pe, operation, using the device, change wake word, nabu
 ---
+
+Nabu™ is the private voice assistant for your Home Assistant smart home. It's local-first and runs the entire pipeline, from the wake word to the action in your home. Assist processes your commands on your Home Assistant system. Speech-to-text and text-to-speech can run locally or use cloud-accelerated speech processing from Home Assistant Cloud.
+
+"Okay Nabu" is the Nabu wake word, and it runs entirely on-device. Home Assistant Voice Preview Edition can listen for "Okay Nabu" or for one of the other wake words below.
+
+To get Nabu, [install Home Assistant](https://www.home-assistant.io/installation/), then set up Nabu under [**Settings** > **Voice assistants**](https://my.home-assistant.io/redirect/voice_assistants/). Learn more on the [Nabu page](https://www.nabucasa.com/nabu/) and in [Assist](/hc/en-us/articles/25619427296413).
 
 {% steps %}
 {% step "Open the integration page" %}
