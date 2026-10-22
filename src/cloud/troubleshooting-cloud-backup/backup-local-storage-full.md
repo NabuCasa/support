@@ -3,12 +3,12 @@ zendesk:
   article_id: 26323082445085
   name: Backup - Local storage is full
   position: 20
-  labels: cloud
+  labels: cloud, link
 ---
 
 ## Symptom
 
-You have [Home Assistant Cloud backup enabled](/hc/en-us/articles/26294320337181) in Home Assistant. You see a message stating that the **Local storage is full**.
+You have the [off-site backup enabled](/hc/en-us/articles/26294320337181) in Home Assistant. You see a message stating that the **Local storage is full**.
 
 ## Cause
 
