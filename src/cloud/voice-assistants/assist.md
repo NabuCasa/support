@@ -39,6 +39,13 @@ Currently, over 50 languages are supported. To check if yours is there, go to [*
 
 <img src="/static/img/cloud/assist_home-assistant-cloud_languages.png" alt="Languages supported by Home Assistant Cloud">
 
+If **Home Assistant Cloud** is not offered as a **Conversation agent**, its entity may be disabled. Disabled entities are hidden from the entity list by default, so the steps below include showing them.
+
+1. In Home Assistant, go to [**Settings** > **Devices & services** > **Entities**](https://my.home-assistant.io/redirect/entities/).
+2. In the **Filters** panel, expand **Status**. Select **Disabled** and clear **Enabled**, so that only disabled entities are listed.
+3. Search for `home_assistant_cloud`.
+4. Select each entity in the list, open its settings, and turn on **Enabled**.
+
 ## Make an announcement
 
 You can [use Assist in automations](https://www.home-assistant.io/voice_control/using_tts_in_automation/) to make an announcement. For example, it could tell you that your coffee is ready. Or use the upstairs speaker to tell your kids that dinner is ready.
