@@ -60,4 +60,4 @@ This tutorial will show you the following:
 - [Webhook integration documentation](https://www.home-assistant.io/docs/automation/trigger/#webhook-trigger)
 - [Nabu Casa account pricing](https://www.nabucasa.com/pricing/)
 - [Nabu Casa account log in page](https://account.nabucasa.com/)
-- [Enabling Home Assistant Cloud in Home Assistant](/hc/en-us/articles/25649130769949)
+- [Enabling Home Assistant Link](/hc/en-us/articles/25649130769949)

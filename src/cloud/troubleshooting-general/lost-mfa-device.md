@@ -3,13 +3,13 @@ zendesk:
   article_id: 25806000298397
   name: I lost the device that I use to generate the MFA token
   position: 50
-  labels: cloud, troubleshooting
+  labels: cloud, troubleshooting, link
 ---
 
 
 ## Symptom
 
-You have multi-factor authentication enabled to log in to Home Assistant Cloud. Now, you lost the device that is used to generate the multi-factor authentication token. For example, you lost the phone that has the authenticator app installed.
+You have multi-factor authentication enabled to log in to your Nabu Casa account. Now, you lost the device that is used to generate the multi-factor authentication token. For example, you lost the phone that has the authenticator app installed.
 
 ## Resolution
 
