@@ -28,7 +28,7 @@ To get Nabu, [install Home Assistant](https://www.home-assistant.io/installation
 {% stepContent %}
 
    - On the device page, under **Configuration**, select your wake word.
-      - The default options are `Hey Jarvis`, `Hey Mycroft`, and `Okay Nabu`.
+      - The available options are `Okay Nabu`, `Hey Jarvis`, and `Hey Mycroft`.
 
 {% endstepContent %}
 {% endstep %}
