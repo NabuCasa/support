@@ -6,11 +6,11 @@ zendesk:
   labels: voice pe, operation, using the device, change wake word, nabu
 ---
 
-A wake word is the phrase that wakes your voice assistant so it starts listening for a command. Nabu, the private voice assistant for your Home Assistant smart home, has a wake word trained on open-source voice samples from the Home Assistant community.
+A wake word is the phrase that activates your voice assistant so it starts listening for a command. To improve the voice assistant experience in Home Assistant, Nabu Casa built Nabu: technology designed to enhance Assist, powering features like the dedicated "Okay Nabu" wake word.
 
-"Okay Nabu" is the Nabu wake word, and it runs entirely on-device. Home Assistant Voice Preview Edition can listen for "Okay Nabu" or for one of the other wake words below.
+Trained on open-source voice samples contributed directly by the Home Assistant community, "Okay Nabu" runs entirely on-device for fast, private detection. Home Assistant Voice Preview Edition can listen for "Okay Nabu" or any of the other supported wake words listed below.
 
-To get Nabu, [install Home Assistant](https://www.home-assistant.io/installation/), then set up Nabu under [**Settings** > **Voice assistants**](https://my.home-assistant.io/redirect/voice_assistants/). Learn more on the [Nabu page](https://www.nabucasa.com/nabu/) and in [Assist](/hc/en-us/articles/25619427296413).
+To use the "Okay Nabu" wake word with Assist, [install Home Assistant](https://www.home-assistant.io/installation/) and set up Assist under [**Settings** > **Voice assistants**](https://my.home-assistant.io/redirect/voice_assistants/). Learn more on the [Nabu page](https://www.nabucasa.com/nabu/) and in our [guide to Assist](/hc/en-us/articles/25619427296413).
 
 {% steps %}
 {% step "Open the integration page" %}
