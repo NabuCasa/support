@@ -65,3 +65,4 @@ That way you can turn on the remote connection only when you leave the house and
 - [About the remote access connection to Home Assistant](/hc/en-us/articles/26469707849629/)
 - [Using remote access with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)
 - [Troubleshooting remote access](/hc/en-us/sections/26315762664861)
+- [Connect an AI agent to Home Assistant with Home Assistant Cloud](/hc/en-us/articles/40241458926365/)

@@ -34,3 +34,4 @@ This flow ensures that all communication is encrypted and secure.
 - [Remote access - How it works - deep dive](/hc/en-us/articles/25619268678557/)
 - [Remote access - security aspects](/hc/en-us/articles/26508882007581/)
 - [Remote access source code on GitHub](/hc/en-us/articles/26510075061021)
+- [Connect an AI agent to Home Assistant with Home Assistant Cloud](/hc/en-us/articles/40241458926365/)
