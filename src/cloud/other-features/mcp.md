@@ -3,7 +3,7 @@ zendesk:
   article_id: 40241458926365
   name: Connect an AI agent to Home Assistant with Home Assistant Cloud
   position: 50
-  labels: cloud
+  labels: cloud, mcp, model context protocol, ai, ai agent, remote access, setup
 ---
 
 # Connect an AI agent to Home Assistant with Home Assistant Cloud
