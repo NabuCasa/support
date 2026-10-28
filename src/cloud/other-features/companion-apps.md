@@ -6,7 +6,11 @@ zendesk:
   labels: cloud, companion app, mobile app, ios, android, remote access, webhook, location tracking, notifications, troubleshooting
 ---
 
-The Home Assistant companion apps for iOS and Android use Home Assistant Cloud for two things: reaching Home Assistant when you are away from home, and sending location and sensor updates. For the app's own settings, refer to the [companion app documentation](https://companion.home-assistant.io).
+To reach Home Assistant when you are away from home, the Home Assistant companion apps for iOS and Android use your Home Assistant Cloud remote address. When you set the app to use Home Assistant Cloud, it gets the address from Home Assistant and keeps it up to date.
+
+If your remote address changed and the new address opens in a browser, but the app still cannot connect, the app is still using the old address. To fix this, see [When the remote address changes](#when-the-remote-address-changes).
+
+The app also uses Home Assistant Cloud to send location and sensor updates. For the app's own settings, refer to the [companion app documentation](https://companion.home-assistant.io).
 
 ## Reaching Home Assistant away from home
 
@@ -25,7 +29,7 @@ The app gets the remote address only for Home Assistant users who can log in fro
 
 The app asks Home Assistant for the current remote address each time it opens, and stores it. After an address change, open the app once. This works on mobile data as well as on your home network.
 
-If the app uses a typed address instead of Home Assistant Cloud, it keeps using the typed address. Update the address by hand in **External URL** (iOS) or **Home Assistant URL** (Android), or turn on Home Assistant Cloud.
+If the app uses a typed address instead of Home Assistant Cloud, it keeps using the typed address. Update the address manually in **External URL** (iOS) or **Home Assistant URL** (Android), or turn on Home Assistant Cloud.
 
 ## Location and sensor updates
 
