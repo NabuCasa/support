@@ -3,7 +3,7 @@ zendesk:
   article_id: 40244529243037
   name: How the companion apps use Home Assistant Cloud
   position: 60
-  labels: cloud
+  labels: cloud, companion app, mobile app, ios, android, remote access, webhook, location tracking, notifications, troubleshooting
 ---
 
 The Home Assistant companion apps for iOS and Android use Home Assistant Cloud for two things: reaching Home Assistant when you are away from home, and sending location and sensor updates. For the app's own settings, refer to the [companion app documentation](https://companion.home-assistant.io).
