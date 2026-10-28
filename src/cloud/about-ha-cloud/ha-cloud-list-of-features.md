@@ -14,6 +14,7 @@ Home Assistant Cloud provides the following features:
 - [Cloud storage of your latest Home Assistant backup](/hc/en-us/articles/25619338169501)
 - [Webhooks](/hc/en-us/articles/25619382358685), for example to trigger automations.
 - [Improved camera streaming with WebRTC](/hc/en-us/articles/25619464018461-Improved-camera-streaming-with-WebRTC)
+- [Connect an AI agent](/hc/en-us/articles/40241458926365), such as Claude or ChatGPT, to Home Assistant over MCP
 
 To make use of these features, follow these steps:
 
