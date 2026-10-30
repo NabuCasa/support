@@ -10,7 +10,7 @@ zendesk:
 
 [Assist](https://www.home-assistant.io/voice_control/) is the private voice assistant built into your Home Assistant smart home. Nabu is technology built by Nabu Casa to improve Assist and deliver a better voice experience. Nabu powers enhanced speech-to-text (STT), text-to-speech (TTS), and the on-device "Okay Nabu" wake word.
 
-While Assist processes your commands, Nabu-powered STT and TTS can run locally on your system or use cloud-accelerated speech processing through Home Assistant Cloud. For details on your speech processing options, see [Other Home Assistant Cloud features](/hc/en-us/sections/24979949352861).
+While Assist processes your commands, Nabu-powered STT and TTS can run locally on your system or use cloud-accelerated speech processing through Home Assistant Link. For details on your speech processing options, see [Other Home Assistant Cloud features](/hc/en-us/sections/24979949352861).
 
 To configure Assist and set up your voice pipeline, go to [**Settings** > **Voice assistants**](https://my.home-assistant.io/redirect/voice_assistants/). [Learn more about Nabu](https://www.nabucasa.com/nabu/).
 

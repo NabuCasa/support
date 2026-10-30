@@ -1,45 +1,45 @@
 ---
 zendesk:
   article_id: 40244529243037
-  name: How the companion apps use Home Assistant Cloud
+  name: How the companion apps use Home Assistant Link
   position: 60
-  labels: cloud, companion app, mobile app, ios, android, remote access, webhook, location tracking, notifications, troubleshooting
+  labels: cloud, link, companion app, mobile app, ios, android, remote access, webhook, location tracking, notifications, troubleshooting
 ---
 
-To reach Home Assistant when you are away from home, the Home Assistant Companion apps for iOS and Android use your Home Assistant Cloud remote address. When you set the app to use Home Assistant Cloud, it gets the address from Home Assistant and keeps it up to date.
+To reach Home Assistant when you are away from home, the Home Assistant Companion apps for iOS and Android use your Home Assistant Link remote address. When you set the app to use Home Assistant Link, it gets the address from Home Assistant and keeps it up to date.
 
 If your remote address changed and the new address opens in a browser, but the app still cannot connect, the app is still using the old address. To fix this, see [When the remote address changes](#when-the-remote-address-changes).
 
-The app also uses Home Assistant Cloud to send location and sensor updates. For the app's own settings, refer to the [companion app documentation](https://companion.home-assistant.io).
+The app also uses Home Assistant Link to send location and sensor updates. For the app's own settings, refer to the [companion app documentation](https://companion.home-assistant.io).
 
 ## Reaching Home Assistant away from home
 
 On your home network, the app connects to Home Assistant through its internal URL. Away from home, it connects through your remote address. To find your remote address, go to **Settings** > **Home Assistant Cloud**, and under **Cloud features**, select **Remote access**.
 
-Set the app to connect through Home Assistant Cloud:
+Set the app to connect through Home Assistant Link:
 
 - **iOS**: In the connection settings, turn on **Home Assistant Cloud**. While it is on, the app does not use the **External URL**.
 - **Android**: Under **Connection information**, open **Home Assistant URL** and select **Use Home Assistant Cloud**.
 
 The app then takes the remote address from Home Assistant and follows it when it changes, so you do not need to type it.
 
-The app gets the remote address only for Home Assistant users who can log in from outside the local network. If your user is set to local access only, the app cannot use Home Assistant Cloud.
+The app gets the remote address only for Home Assistant users who can log in from outside the local network. If your user is set to local access only, the app cannot use Home Assistant Link.
 
 ## When the remote address changes
 
 The app asks Home Assistant for the current remote address each time it opens, and stores it. After an address change, open the app once. This works on mobile data as well as on your home network.
 
-If the app uses a typed address instead of Home Assistant Cloud, it keeps using the typed address. Update the address manually in **External URL** (iOS) or **Home Assistant URL** (Android), or turn on Home Assistant Cloud.
+If the app uses a typed address instead of Home Assistant Link, it keeps using the typed address. Update the address manually in **External URL** (iOS) or **Home Assistant URL** (Android), or turn on Home Assistant Cloud.
 
 ## Location and sensor updates
 
-Away from your home network, the app sends location, zone, and sensor updates to a Home Assistant Cloud webhook. This webhook has its own address, separate from your remote address. Location tracking keeps working when the remote address is unreachable, and when remote access is turned off.
+Away from your home network, the app sends location, zone, and sensor updates to a Home Assistant Link webhook. This webhook has its own address, separate from your remote address. Location tracking keeps working when the remote address is unreachable, and when remote access is turned off.
 
 On your home network, the app sends updates to the internal URL. Without an active subscription, the app sends updates from outside your home network to the typed external address. For how the app collects location, refer to [Location](https://companion.home-assistant.io/docs/core/location).
 
 ## What works without a subscription
 
-The app and push notifications work without a Home Assistant Cloud subscription. Notifications go through a push service run for the companion apps, with a daily limit per device. For details, refer to [Notifications](https://companion.home-assistant.io/docs/notifications/notifications-basic).
+The app and push notifications work without a Home Assistant Link subscription. Notifications go through a push service run for the companion apps, with a daily limit per device. For details, refer to [Notifications](https://companion.home-assistant.io/docs/notifications/notifications-basic).
 
 ## If the app cannot connect away from home
 
@@ -56,7 +56,7 @@ For other connection problems, refer to [Networking troubleshooting](https://com
 
 ## Getting help with the app
 
-For app behavior outside Home Assistant Cloud, contact the app projects. Report issues on GitHub for [iOS](https://github.com/home-assistant/iOS/issues) or [Android](https://github.com/home-assistant/android/issues), or ask in the mobile app channels on the [Home Assistant Discord](https://www.home-assistant.io/join-chat).
+For app behavior outside Home Assistant Link, contact the app projects. Report issues on GitHub for [iOS](https://github.com/home-assistant/iOS/issues) or [Android](https://github.com/home-assistant/android/issues), or ask in the mobile app channels on the [Home Assistant Discord](https://www.home-assistant.io/join-chat).
 
 ## Related topics
 
