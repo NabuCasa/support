@@ -3,7 +3,7 @@ zendesk:
   article_id: 26205061961373
   name: Remote access is being prepared
   position: 20
-  labels: cloud
+  labels: cloud, link
 ---
 
 ## Symptom
@@ -14,7 +14,7 @@ Under [**System** > **Home Assistant Cloud**](https://my.home-assistant.io/redir
 
 ## Description
 
-This message indicates that there is an issue generating the SSL certificate that is used to create an encrypted connection between your Home Assistant instance and Nabu&nbsp;Casa&nbsp;Cloud.
+This message indicates that there is an issue generating the SSL certificate that is used to create an encrypted connection between your Home Assistant instance and Home&nbsp;Assistant&nbsp;Link.
 
 ## Resolution
 
@@ -22,7 +22,7 @@ Before anything else, reboot your Home Assistant host system (not just Home Assi
 This ensures all networking components such as ethernet interfaces, DNS resolution, and Supervisor-managed services, are fully restarted.
 
 - From the UI: go to Settings → 3 dots in the upper right corner → Restart Home Assistant → Expand Advanced Options → Reboot system.
-- Wait a few minutes for the system to come back online and reconnect to the Nabu Casa Cloud.
+- Wait a few minutes for the system to come back online and reconnect to Home Assistant Link.
 
 
 If the status remains the same after a reboot, there are different steps you can try to resolve this.
@@ -41,7 +41,7 @@ Thread and Matter devices need IPv6 on your local network, so leaving it disable
 
 If Home Assistant runs on a virtual machine, the interface's IPv6 configuration comes from the hypervisor rather than from Home Assistant, so the change has to be made there.
 
-If the problem persists, try resetting your Home Assistant Cloud data and requesting a new certificate:
+If the problem persists, try resetting the cloud data and requesting a new certificate:
 
 1. Open [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
 2. Select the **three dots menu** (⋮) in the upper-right corner.

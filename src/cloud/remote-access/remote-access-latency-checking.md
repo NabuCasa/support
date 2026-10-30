@@ -3,10 +3,10 @@ zendesk:
   article_id: 39385482184733
   name: Remote access - Latency checking
   position: 35
-  labels: cloud
+  labels: cloud, link
 ---
 
-Home Assistant Cloud runs remote access servers in several locations around the world. To give you the fastest possible remote connection, Home Assistant measures the network latency to each of those locations and reports the results back to us, so that we can place your instance on the server that actually performs best for your connection.
+Home Assistant Link runs remote access servers in several locations around the world. To give you the fastest possible remote connection, Home Assistant measures the network latency to each of those locations and reports the results back to us, so that we can place your instance on the server that actually performs best for your connection.
 
 This topic explains how that measurement works, which addresses are involved, and what you can expect to see.
 
@@ -18,12 +18,12 @@ Latency checking replaces that guess with a measurement.
 
 ## How it works
 
-The check runs when Home Assistant starts up and sets up your remote access connection. It only runs if you are signed in to Home Assistant Cloud. If you are not signed in, Home Assistant does not contact any of these addresses.
+The check runs when Home Assistant starts up and sets up your remote access connection. It only runs if you are signed in to Home Assistant Link. If you are not signed in, Home Assistant does not contact any of these addresses.
 
-1. **Home Assistant asks for the list of targets.** Your instance requests the current list of measurement addresses from Home Assistant Cloud, along with the settings for the test.
+1. **Home Assistant asks for the list of targets.** Your instance requests the current list of measurement addresses from Home Assistant Link, along with the settings for the test.
 2. **Home Assistant measures each target.** Your instance sends a small number of ICMP echo requests (pings) to each address and records the round-trip time. By default, each address is pinged 3 times, and any address that does not answer within 1000 ms is treated as unreachable.
 3. **The results are sent back to us.** Your instance reports the average, minimum, and maximum round-trip time for each address, and whether the address responded at all.
-4. **We choose the server.** Home Assistant Cloud ranks the locations using your measurements and assigns your instance to a remote access server.
+4. **We choose the server.** Home Assistant Link ranks the locations using your measurements and assigns your instance to a remote access server.
 
 Your measurements are the largest factor in that decision, but they are not the only one. We also weigh each location against how much capacity it has available, so you may be assigned a server that was not the very lowest latency in your results when a close alternative has more headroom. A server that fills up slows down everyone connected to it, so spreading instances out generally gives a better connection than sending everyone to the same fastest server.
 
@@ -94,7 +94,7 @@ When your instance is moved to a different server, the DNS record for your remot
 
 The only information sent to us is the round-trip time to each measurement address and whether it responded. No traffic from your Home Assistant instance is sent to these addresses, and the measurement does not reveal anything about your devices, your automations, or what you do in Home Assistant.
 
-The check is part of Home Assistant Cloud. It only runs while you are signed in to Home Assistant Cloud, and an instance that is not signed in never contacts these addresses.
+The check is part of Home Assistant Link. It only runs while you are signed in to Home Assistant Link, and an instance that is not signed in never contacts these addresses.
 
 ## Related topics
 
