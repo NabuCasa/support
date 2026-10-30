@@ -31,7 +31,7 @@ This flow ensures that all communication is encrypted and secure.
 
 - [Enabling remote access to Home Assistant](/hc/en-us/articles/26474279202973/)
 - [Using remote access with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)
-- [How the companion apps use Home Assistant Cloud](/hc/en-us/articles/40244529243037)
+- [How the companion apps use Home Assistant Link](/hc/en-us/articles/40244529243037)
 - [Remote access - How it works - deep dive](/hc/en-us/articles/25619268678557/)
 - [Remote access - security aspects](/hc/en-us/articles/26508882007581/)
 - [Remote access source code on GitHub](/hc/en-us/articles/26510075061021)
