@@ -3,14 +3,14 @@ zendesk:
   article_id: 25619427296413
   name: Assist
   position: 10
-  labels: cloud, nabu
+  labels: cloud, nabu, link
 ---
 
 <img src="/static/img/logos/assist-logo.png" class='no-shadow' alt='Assist logo' style='width: 150px; float: right'>
 
 [Assist](https://www.home-assistant.io/voice_control/) is the private voice assistant built into your Home Assistant smart home. Nabu is technology built by Nabu Casa to improve Assist and deliver a better voice experience. Nabu powers enhanced speech-to-text (STT), text-to-speech (TTS), and the on-device "Okay Nabu" wake word.
 
-While Assist processes your commands, Nabu-powered STT and TTS can run locally on your system or use cloud-accelerated speech processing through Home Assistant Cloud. For details on your speech processing options, see [Other Home Assistant Cloud features](/hc/en-us/sections/24979949352861).
+While Assist processes your commands, Nabu-powered STT and TTS can run locally on your system or use cloud-accelerated speech processing through Home Assistant Link. For details on your speech processing options, see [Other Home Assistant Link features](/hc/en-us/sections/24979949352861).
 
 To configure Assist and set up your voice pipeline, go to [**Settings** > **Voice assistants**](https://my.home-assistant.io/redirect/voice_assistants/). [Learn more about Nabu](https://www.nabucasa.com/nabu/).
 
@@ -74,8 +74,8 @@ We are hard at work to improve the voice assistant experience. We are currently 
 
 The video showcases different ways to talk to Home Assistant.
 
-- [Google Assistant via Home Assistant Cloud](/hc/en-us/articles/25619376817053-Google-Assistant)
-- [Alexa via Home Assistant Cloud](/hc/en-us/articles/25619363899677)
+- [Google Assistant via Home Assistant Link](/hc/en-us/articles/25619376817053-Google-Assistant)
+- [Alexa via Home Assistant Link](/hc/en-us/articles/25619363899677)
 - [Android Assist native integration](https://www.home-assistant.io/voice_control/android/)
 - [ESP32 S3-BOX-3](https://www.home-assistant.io/voice_control/s3_box_voice_assistant/)
 - [ESPhome-based voice assistant via Assist - using an M5Stack ATOM Echo](https://www.home-assistant.io/voice_control/thirteen-usd-voice-remote/)
