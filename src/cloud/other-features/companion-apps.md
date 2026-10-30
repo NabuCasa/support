@@ -47,10 +47,11 @@ Turn off Wi-Fi on your phone and open your remote address in the phone's browser
 
 - If the page loads and the app still cannot connect, the address stored in the app is the problem. Turn on Home Assistant Cloud in the app's server settings, or check the typed address.
 - If the page does not load, check that remote access is turned on in Home Assistant under **Settings** > **Home Assistant Cloud**.
-If remote access is on and the page still does not load:
+- If remote access is on and the page still does not load:
 
-1. Download the support package using the 3 dots in the upper right corner of the Home Assistant Cloud page ([**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/)).
-2. Use the **Submit a ticket** button at the top of this page and attach the downloaded file to your request.
+   1. Download the support package using the 3 dots in the upper right corner of the Home Assistant Cloud page ([**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/)).
+   2. Use the **Submit a ticket** button at the top of this page and attach the downloaded file to your request.
+   
 For other connection problems, refer to [Networking troubleshooting](https://companion.home-assistant.io/docs/troubleshooting/networking).
 
 ## Getting help with the app
