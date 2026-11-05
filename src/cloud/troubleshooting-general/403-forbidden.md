@@ -1,12 +1,12 @@
 ---
 zendesk:
   article_id: 26203603012509
-  name: Unable to reach Home Assistant Cloud - 403 forbidden
+  name: Unable to reach Home Assistant Link - 403 forbidden
   position: 30
-  labels: cloud
+  labels: cloud, link
 ---
 
-There are multiple reasons Home Assistant Cloud cannot be reached. This page provides instructions how to troubleshoot when you see the "403 Forbidden" message.
+There are multiple reasons Home Assistant Link cannot be reached. This page provides instructions how to troubleshoot when you see the "403 Forbidden" message.
 
 ## Message: 403 Forbidden
 
@@ -20,8 +20,8 @@ _403 Forbidden_ indicates that IP banning is enabled on your Home Assistant syst
 
 Which address was banned depends on your Home Assistant version:
 
-- **Home Assistant 2026.9 or newer**: Home Assistant Cloud remote access forwards the real IP address of the incoming request, so the banned entry is the address you were connecting from at the time. If you were on mobile data, this is an address belonging to your mobile provider.
-- **Home Assistant 2026.8 or older**: Home Assistant Cloud remote access did not forward the IP address of the incoming request. Every visitor arriving through the Cloud tunnel appeared as `127.0.0.1`, so a single failed login from anywhere banned every remote connection at once. If you see this, we recommend updating to Home Assistant 2026.9 or newer.
+- **Home Assistant 2026.9 or newer**: Home Assistant Link remote access forwards the real IP address of the incoming request, so the banned entry is the address you were connecting from at the time. If you were on mobile data, this is an address belonging to your mobile provider.
+- **Home Assistant 2026.8 or older**: Home Assistant Link remote access did not forward the IP address of the incoming request. Every visitor arriving through the remote access tunnel appeared as `127.0.0.1`, so a single failed login from anywhere banned every remote connection at once. If you see this, we recommend updating to Home Assistant 2026.9 or newer.
 
 ### Resolution
 

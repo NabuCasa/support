@@ -3,7 +3,7 @@ zendesk:
   article_id: 26179807663517
   name: Why has my subscription been cancelled?
   position: 70
-  labels: cloud, pricing, subscription
+  labels: cloud, pricing, subscription, link
 ---
 
 If several payment attempts fail, PayPal will eventually mark your subscription as suspended. Unfortunately, once this happens, we can’t reactivate the existing agreement and a new subscription must be created through [account.nabucasa.com](https://account.nabucasa.com).
@@ -14,4 +14,4 @@ If you’re unsure why your payment failed, it’s best to check directly with y
 
 ## Related topics
 
-- [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/)
+- [Home Assistant Link pricing](https://www.nabucasa.com/pricing/)

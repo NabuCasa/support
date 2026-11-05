@@ -42,7 +42,7 @@ All Home Assistant users can use WebRTC connections, even if they do not have a 
 ## Related topics
 
 - [Nabu Casa account log in page](https://account.nabucasa.com/)
-- [Enabling Home Assistant Cloud in Home Assistant](/hc/en-us/articles/25649130769949)
+- [Enabling Home Assistant Link](/hc/en-us/articles/25649130769949)
 - [Nabu Casa account pricing](https://www.nabucasa.com/pricing/)
 - [WebRTC is a standard](https://webrtc.org/)
 - [Open Home Foundation](https://www.openhomefoundation.org/)

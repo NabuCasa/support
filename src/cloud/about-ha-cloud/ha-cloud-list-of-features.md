@@ -24,4 +24,4 @@ To make use of these features, follow these steps:
 
 - [Nabu Casa account pricing](https://www.nabucasa.com/pricing/)
 - [Nabu Casa account log in page](https://account.nabucasa.com/)
-- [Enabling Home Assistant Cloud in Home Assistant](/hc/en-us/articles/25649130769949)
+- [Enabling Home Assistant Link](/hc/en-us/articles/25649130769949)

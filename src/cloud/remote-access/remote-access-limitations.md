@@ -42,7 +42,7 @@ If several people in your household use Home Assistant, or you have a lot of dev
 
 Bans behave differently after the upgrade. Previously, a ban either did nothing or shut out all remote access at once. From Home Assistant 2026.9, a ban permanently blocks one real address - possibly the address you rely on to reach your system while you are away. Review your **Login attempts before ban** setting against the guidance above before you next travel.
 
-Your `ip_bans.yaml` file may also still hold a `127.0.0.1` entry from an earlier remote login failure. It no longer refers to remote visitors and on most systems now blocks nothing, but it is worth clearing out. See [Unable to reach Home Assistant Cloud - 403 forbidden](/hc/en-us/articles/26203603012509).
+Your `ip_bans.yaml` file may also still hold a `127.0.0.1` entry from an earlier remote login failure. It no longer refers to remote visitors and on most systems now blocks nothing, but it is worth clearing out. See [Unable to reach Home Assistant Link - 403 forbidden](/hc/en-us/articles/26203603012509).
 
 ## Remaining limitations
 
@@ -50,7 +50,7 @@ Your `ip_bans.yaml` file may also still hold a `127.0.0.1` entry from an earlier
 
 ## Related topics
 
-- [Unable to reach Home Assistant Cloud - 403 forbidden](/hc/en-us/articles/26203603012509)
+- [Unable to reach Home Assistant Link - 403 forbidden](/hc/en-us/articles/26203603012509)
 - [Enabling remote access to Home Assistant](/hc/en-us/articles/26474279202973/)
 - [About the remote access connection to Home Assistant (high level explainer)](/hc/en-us/articles/26469707849629/)
 - [Remote access - deep dive](/hc/en-us/articles/25619268678557/)
