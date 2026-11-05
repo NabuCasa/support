@@ -1,23 +1,23 @@
 ---
 zendesk:
   article_id: 26294370569245
-  name: Downloading a backup from Home Assistant Cloud
+  name: Downloading your off-site backup
   position: 30
-  labels: cloud
+  labels: cloud, link
 ---
 
 ## Prerequisites
 
-- You have [enabled Home Assistant Cloud backups](/hc/en-us/articles/26294320337181/)
+- You have [enabled the off-site backup](/hc/en-us/articles/26294320337181/)
 
-## To download a backup from Home Assistant Cloud
+## To download your off-site backup
 
-To download a backup from Home Assistant Cloud, follow the steps on [downloading a backup](https://www.home-assistant.io/common-tasks/general/#downloading-a-backup-from-home-assistant-cloud) in the Home Assistant documentation.
+To download your off-site backup, follow the steps on [downloading a backup](https://www.home-assistant.io/common-tasks/general/#downloading-a-backup-from-home-assistant-cloud) in the Home Assistant documentation.
 
-- Note that only your most recent backup is available on Home Assistant Cloud.
+- Note that only your most recent backup is stored off-site.
 
 ## Related topics
 
 - [Downloading a backup](https://www.home-assistant.io/common-tasks/general/#downloading-a-backup-from-home-assistant-cloud)
-- [Enabling Home Assistant Cloud backups](/hc/en-us/articles/26294320337181/)
+- [Enabling the off-site backup](/hc/en-us/articles/26294320337181/)
 - [Nabu Casa account page](https://account.nabucasa.com/)
