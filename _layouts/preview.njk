@@ -344,12 +344,29 @@ eleventyComputed:
 
   <script>
     // Same as the theme's category_page.hbs: make article pills inside section cards clickable
+    function getSafeHref(rawHref, fallbackHref) {
+      if (!rawHref) {
+        return fallbackHref;
+      }
+
+      try {
+        const parsed = new URL(rawHref, window.location.origin);
+        if (parsed.protocol === 'http:' || parsed.protocol === 'https:') {
+          return parsed.href;
+        }
+      } catch (e) {
+        // Ignore parse errors and use fallback.
+      }
+
+      return fallbackHref;
+    }
+
     document.querySelectorAll('.item-card').forEach(function (card) {
       let defaultHref = card.getAttribute('href');
       card.querySelectorAll('.item-card-pill').forEach(function (pill) {
         pill.addEventListener('mouseenter', function () {
           defaultHref = card.getAttribute('href');
-          card.setAttribute('href', pill.getAttribute('data-url'));
+          card.setAttribute('href', getSafeHref(pill.getAttribute('data-url'), defaultHref));
         });
         pill.addEventListener('mouseleave', function () {
           card.setAttribute('href', defaultHref);
