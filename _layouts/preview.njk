@@ -6,89 +6,155 @@ eleventyComputed:
 ---
 
 {% zendeskData zendesk %}
+{# Mirrors NabuCasa/zendesk-theme master (6e3f139). CSS and JS load from the live theme. #}
+{% set themeBase = "https://support.nabucasa.com/hc/theming_assets/21891975/20902849390493" %}
+{% set assetBase = "https://support.nabucasa.com/hc/theming_assets" %}
+{% set isHome = not (zendeskArticleId or zendeskSectionId or zendeskCategoryId) %}
+{% macro helpCards() %}
+            <div class="item-card primary">
+              <div class="item-card-details">
+                <div class="item-card-content">
+                  <span class="item-card-title">Still need help?</span>
+                  <span class="item-card-description">Feel free to open a ticket and talk with our Customer Service team</span>
+                  <a class="item-card-button btn btn-primary" href="/hc/en-us/requests/new">Submit a ticket</a>
+                </div>
+              </div>
+            </div>
+            <div class="item-card">
+              <div class="item-card-details">
+                <div class="item-card-content">
+                  <span class="item-card-title">Our community</span>
+                  <span class="item-card-description">The community is happy to be of help, just visit the forums or join our Discord server</span>
+                  <div class="item-card-buttons">
+                    <a href="https://community.home-assistant.io" class="item-card-button btn btn-primary external-link" target="_blank" rel="noopener">Community forum</a>
+                    <a href="https://www.home-assistant.io/join-chat/" class="item-card-button btn btn-primary external-link" target="_blank" rel="noopener">Discord chat server</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endmacro %}
 <html dir="ltr" lang="en-US">
 
 <head>
   <meta charset="utf-8">
   {% if zendesk.name %}
-  <title>{{zendesk.name}} - Nabu Casa</title>
+  <title>{{zendesk.name}} - Nabu Casa Support</title>
   {% else %}
-  <title>Nabu Casa</title>
+  <title>Nabu Casa Support</title>
   {% endif %}
-  <link rel="stylesheet" type="text/css"
-    href="https://support.nabucasa.com/hc/theming_assets/21891975/20902849390493/style.css?digest={%currentGitSha%}">
-  <link rel="icon" type="image/x-icon" href="https://support.nabucasa.com/hc/theming_assets/01JQE68WEEMX8ASYPWC4A1WY4K">
+  <link rel="stylesheet" type="text/css" href="{{themeBase}}/style.css?digest={%currentGitSha%}">
+  <link rel="icon" type="image/x-icon" href="{{assetBase}}/01M4VSA3721AQ7XQD9DV87AE5F">
+  <link rel="icon" type="image/png" href="{{assetBase}}/01M4VSA289HBRJ7PY3ZAX1XCPB" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="{{assetBase}}/01M3WJDW19QYQ389QP0XPG9Y0X">
+  <link rel="shortcut icon" href="{{assetBase}}/01M4VSA2DJKA87W18M4M0NF5DA">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{assetBase}}/01M4VSA253YJ3H1B59KDDXFY08">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="robots" content="noindex">
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;family=Source+Serif+4:opsz,wght@8..60,300&amp;display=swap"
     rel="stylesheet">
+  <script>window.searchClearButtonLabelLocalized = "Clear search";</script>
 </head>
 
 <body>
+  <a class="skip-navigation" tabindex="1" href="#main-content">Skip to main content</a>
+
   <header class="header">
     <div class="container">
       <div class="header-inner">
         <div class="logo">
           <a title="Home" href="/">
-            <img src="https://support.nabucasa.com/hc/theming_assets/01JKBQ34YR6TKF5XS5935MMEH6"
-              alt="Nabu Casa Help Center home page" height="44">
+            <img src="{{assetBase}}/01M4VN30W8V1XA0N6YEGEK4XMG" alt="Nabu Casa Support home page" height="44">
           </a>
         </div>
         <h2 style="color:white;margin:0 0 0 24px">PREVIEW!</h2>
         <div class="nav-wrapper-desktop">
           <nav class="user-nav" id="user-nav" aria-label="User navigation">
             <ul class="user-nav-list">
-              <li><a href="https://community.home-assistant.io" target="_blank" rel="noopener"
-                  class="btn btn-text btn-text-light external-link">Community</a></li>
-              <li><a class="submit-a-request btn btn-white"
-                  href="https://support.nabucasa.com/hc/en-us/requests/new">Submit a ticket</a></li>
-
-              <li>
-                <a class="sign-in btn btn-light" rel="nofollow" data-auth-action="signin" title="Opens a dialog"
-                  role="button">
-                  Sign in
-                </a>
-              </li>
+              <li><a href="https://community.home-assistant.io" target="_blank" rel="noopener" class="btn btn-text btn-text-light external-link">Community forum</a></li>
+              <li><a href="https://www.home-assistant.io/join-chat/" target="_blank" rel="noopener" class="btn btn-text btn-text-light external-link">Discord chat server</a></li>
+              <li><a class="submit-a-request btn btn-white" href="https://support.nabucasa.com/hc/en-us/requests/new">Submit a ticket</a></li>
             </ul>
           </nav>
         </div>
         <div class="nav-wrapper-mobile">
-          <button class="menu-button-mobile" aria-controls="user-nav-mobile" aria-expanded="false"
-            aria-label="Toggle navigation menu">
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16"
-              class="icon-menu">
-              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"></path>
+          <button class="menu-button-mobile" aria-controls="user-nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-menu" aria-hidden="true">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M1.5 3.5h13m-13 4h13m-13 4h13"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-close" aria-hidden="true">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M3 3l10 10M13 3L3 13"/>
             </svg>
           </button>
-          <nav class="menu-list-mobile" id="user-nav-mobile" aria-expanded="false">
+          <nav class="menu-list-mobile" id="user-nav-mobile" aria-expanded="false" aria-label="User navigation">
             <ul class="menu-list-mobile-items">
-
-              <li class="item">
-                <a role="button" rel="nofollow" data-auth-action="signin" title="Opens a dialog">
-                  Sign in
-                </a>
+              <li class="item"><a href="https://community.home-assistant.io" target="_blank" rel="noopener" class="external-link">Community forum</a></li>
+              <li class="item"><a href="https://www.home-assistant.io/join-chat/" target="_blank" rel="noopener" class="external-link">Discord chat server</a></li>
+              <li class="nav-divider"></li>
+              <li class="item item-actions">
+                <a class="submit-a-request btn btn-dark btn-large" role="menuitem" href="https://support.nabucasa.com/hc/en-us/requests/new">Submit a ticket</a>
               </li>
-              <li class="nav-divider"></li>
-              <li class="item"></li>
-              <li class="item"><a class="submit-a-request" role="menuitem"
-                  href="https://support.nabucasa.com/hc/en-us/requests/new">Submit a
-                  request</a></li>
-              <li class="nav-divider"></li>
-
             </ul>
           </nav>
         </div>
       </div>
     </div>
-
   </header>
 
   <main role="main">
-    {% if zendeskCategoryId %}
+  {% if isHome %}
+    <section id="main-content" class="section hero hero-home">
+      <div class="hero-inner">
+        <div class="container">
+          <div class="hero-heading">
+            <h1 class="visibility-hidden">Nabu Casa Support</h1>
+            <h2 class="hero-default">Nabu Casa Support</h2>
+            <p class="hero-default">Get the support you need for your Nabu Casa products, including detailed documentation and links to contact support.</p>
+          </div>
+          <div class="search-wrapper">
+            <form role="search" class="search search-full" action="/hc/en-us/search" accept-charset="UTF-8" method="get" autocomplete="off">
+              <input type="search" name="query" id="query" placeholder="Search for articles" autocomplete="off" aria-label="Search for articles">
+            </form>
+            <button class="btn btn-dark btn-large">Search</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <h2><span class="hero-default">Choose a category</span></h2>
+      <div class="layout home-layout">
+        <div class="column">
+          <section class="section knowledge-base">
+            <section class="categories blocks">
+              <div class="category-cards">
+                {% for id, category in collections.zendeskCategories %}
+                <a href="/categories/{{id}}" class="category-card" data-name="{{category.name}}">
+                  <div class="category-card-content">
+                    <div class="category-card-title">
+                      <h3>{{category.name}}</h3>
+                    </div>
+                    <div class="category-card-description">
+                      {% if category.description %}<p>{{category.description}}</p>{% endif %}
+                      <span class="category-card-cta">View articles</span>
+                    </div>
+                  </div>
+                </a>
+                {% endfor %}
+              </div>
+            </section>
+          </section>
+        </div>
+        <div class="column sidebar">
+          <div class="item-cards">
+            {{ helpCards() }}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% else %}
+    {% if zendeskCategoryId and not zendeskSectionId and not zendeskArticleId %}
     <section id="main-content" class="section hero" data-category="{{collections.zendeskCategories[zendeskCategoryId]['name']}}">
     {% else %}
-        <section id="main-content" class="section hero">
+    <section id="main-content" class="section hero">
     {% endif %}
       <div class="hero-inner">
         <div class="container">
@@ -104,42 +170,34 @@ eleventyComputed:
       <div class="layout">
         <div class="sub-hero">
           <div class="sub-nav">
-          {%if zendeskArticleId or zendeskCategoryId or zendeskSectionId %}
             <nav aria-label="Current location">
               <ol class="breadcrumbs">
                 <li><a href="/">Nabu Casa</a></li>
                 {% if zendeskCategoryId %}
-                  <li><a href="/categories/{{zendeskCategoryId}}">{{collections.zendeskCategories[zendeskCategoryId]['name']}}</a></li>
+                <li><a href="/categories/{{zendeskCategoryId}}">{{collections.zendeskCategories[zendeskCategoryId]['name']}}</a></li>
                 {% endif %}
                 {% if zendeskSectionId %}
-                  <li><a href="/sections/{{zendeskSectionId}}">{{collections.zendeskSections[zendeskSectionId]['name']}}</a></li>
+                <li><a href="/sections/{{zendeskSectionId}}">{{collections.zendeskSections[zendeskSectionId]['name']}}</a></li>
                 {% endif %}
               </ol>
             </nav>
-            {%endif%}
           </div>
           <div class="search-wrapper small">
-            <form role="search" class="search search-full" data-search="" data-instant="true" autocomplete="off"
-              action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"
-                autocomplete="off"><input type="search" name="query" id="query" placeholder="Search for articles"
-                autocomplete="off" aria-label="Search for articles"><button type="button" aria-controls="query"
-                class="clear-button"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false"
-                  role="img" viewBox="0 0 12 12" aria-label="Clear search">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M3 9l6-6m0 6L3 3"></path>
-                </svg></button></form>
+            <form role="search" class="search search-full" action="/hc/en-us/search" accept-charset="UTF-8" method="get" autocomplete="off">
+              <input type="search" name="query" id="query" placeholder="Search for articles" autocomplete="off" aria-label="Search for articles">
+            </form>
             <button class="btn btn-dark btn-large">Search</button>
           </div>
         </div>
       </div>
     </div>
+
     <div class="container">
       <div class="layout">
         <div class="column">
           {% if zendeskArticleId %}
           <header class="article-header">
-            <h1 title="{{zendesk.name}}" class="article-title">
-              {{zendesk.name}}
-            </h1>
+            <h1 title="{{zendesk.name}}" class="article-title">{{zendesk.name}}</h1>
             <div class="article-author">
               <div class="article-meta">
                 <div class="meta-group">
@@ -151,133 +209,155 @@ eleventyComputed:
           {% elif zendeskSectionId %}
           <header class="page-header">
             <h2>{{zendesk.name}}</h2>
-            <p class="page-header-description">{{zendesk.description}}</p>
+            {% if zendesk.description %}<p class="page-header-description">{{zendesk.description}}</p>{% endif %}
           </header>
           {% else %}
-          <h2 >
-            Choose a category
-          </h2>
+          <div class="category-container">
+            <div class="category-content">
+              <header class="page-header">
+                <div class="h2">Choose a category</div>
+              </header>
+            </div>
+          </div>
           {% endif %}
         </div>
+        {% if zendeskCategoryId and not zendeskSectionId and not zendeskArticleId %}
+        <div class="column sidebar"></div>
+        {% endif %}
       </div>
-      <div class="layout">
-        <div class="column">
+
+      <div class="layout{% if zendeskArticleId %} article-layout{% endif %}">
         {% if zendeskArticleId %}
+        <aside class="article-toc" data-article-toc hidden>
+          <details class="article-toc-details" open>
+            <summary class="article-toc-title" id="article-toc-title">
+              On this page
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="article-toc-chevron" aria-hidden="true">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+              </svg>
+            </summary>
+            <nav class="article-toc-nav" aria-labelledby="article-toc-title">
+              <ol class="article-toc-list"></ol>
+            </nav>
+            <a href="#article-container" class="article-toc-top">Back to top</a>
+          </details>
+        </aside>
+        {% endif %}
+        <div class="column">
+          {% if zendeskArticleId %}
           <div class="article-container" id="article-container">
             <article id="main-content" class="article">
               <section class="article-info">
                 <div class="article-content">
-                  <div class="article-body">
-                    {{ content | safe }}
-                  </div>
+                  <div class="article-body">{{ content | safe }}</div>
+                </div>
               </section>
             </article>
           </div>
           {% elif zendeskSectionId %}
           <div class="section-container">
             <section id="main-content" class="section-content">
-                <div class="item-cards">
+              <div class="item-cards">
                 {% for article in collections.zendeskSections[zendeskSectionId].articles %}
-                  <a href="/articles/{{article.data.zendesk.article_id}}" class="item-card small">
-                    <div class="item-card-details">
-                      <div class="item-card-content">
-                        <span class="item-card-title">{{article.data.zendesk.name}}</span>
-                        <span class="item-card-description">
-                        {{article.templateContent | striptags(true) | truncate(117, true) | safe }}
-                        </span>
-                      </div>
+                <a href="/articles/{{article.data.zendesk.article_id}}" class="item-card small">
+                  <div class="item-card-details">
+                    <div class="item-card-content">
+                      <span class="item-card-title">{{article.data.zendesk.name}}</span>
+                      <span class="item-card-description">{{article.templateContent | striptags(true) | truncate(117, true) | safe }}</span>
                     </div>
-                  </a>
+                  </div>
+                </a>
                 {% endfor %}
               </div>
             </section>
           </div>
-          {% elif zendeskCategoryId %}
+          {% else %}
+          {% set zendeskCategoryData = collections.zendeskCategories[zendeskCategoryId] %}
           <div id="main-content" class="section-tree">
-              <div class="item-cards">
-
-              {% set zendeskCategoryData = collections.zendeskCategories[zendeskCategoryId] %}
-
+            <div class="item-cards">
               {% for section in zendeskCategoryData.sections %}
-
-                <a class="item-card" data-icon="{{section.name}}" href="/sections/{{section.section_id}}" >
-                  <div class="item-card-details">
-                    <div class="item-card-content">
-                      <span class="item-card-title">{{section.name}}</span>
-                        <span class="item-card-description">{{section.description}}</span>
-                    </div>
-                      <div class="item-card-pills">
-                      {% for article in section.articles %}
-                          <span class="item-card-pill" data-url="/articles/{{article.data.zendesk.article_id}}">{{article.data.zendesk.name}}</span>
-                      {% endfor %}
-                      </div>
+              <a href="/sections/{{section.section_id}}" class="item-card" data-icon="{{section.name}}">
+                <div class="item-card-details">
+                  <div class="item-card-content">
+                    <span class="item-card-title">{{section.name}}</span>
+                    {% if section.description %}<span class="item-card-description">{{section.description}}</span>{% endif %}
                   </div>
-                </a>
+                  {% if section.articles %}
+                  <div class="item-card-pills">
+                    {% for article in section.articles %}
+                    <span class="item-card-pill" data-url="/articles/{{article.data.zendesk.article_id}}">{{article.data.zendesk.name}}</span>
+                    {% endfor %}
+                  </div>
+                  {% endif %}
+                </div>
+              </a>
               {% endfor %}
             </div>
           </div>
-          {% else %}
-            <section class="section knowledge-base">
-              <section class="categories blocks">
-                <div class="item-cards">
-                {% for id, category in collections.zendeskCategories %}
-                    <a href="/categories/{{id}}" class="item-card" data-name="{{category.name}}">
-                      <div class="item-card-details">
-                        <div class="item-card-content">
-                          <span class="item-card-title">{{category.name}}</span>
-                          <span class="item-card-description">{{category.description}}</span>
-                        </div>
-                      </div>
-                    </a>
-                {% endfor %}
-                </div>
-              </section>
-            </section>
           {% endif %}
         </div>
+
         <div class="column sidebar">
           <div class="item-cards">
-            <div class="item-card primary">
+            {% set products = [
+              ["https://www.home-assistant.io/green", "product-green", "Home Assistant Green"],
+              ["https://www.home-assistant.io/yellow", "product-yellow", "Home Assistant Yellow"],
+              ["https://www.home-assistant.io/voice-pe", "product-voice-preview-edition", "Home Assistant Voice Preview Edition"],
+              ["https://www.home-assistant.io/connectzbt1", "product-connect-zbt-1", "Home Assistant Connect ZBT-1"],
+              ["https://www.home-assistant.io/connect/zbt-2", "product-connect-zbt-2", "Home Assistant Connect ZBT-2"],
+              ["https://www.home-assistant.io/connect/zwa-2", "product-connect-zwa-2", "Home Assistant Connect ZWA-2"]
+            ] %}
+            {% for p in products %}
+            <a href="{{p[0]}}" class="item-card product {{p[1]}}" data-product-card-hide>
               <div class="item-card-details">
                 <div class="item-card-content">
-                  <span class="item-card-title">Still need help?</span>
-                  <span class="item-card-description">Feel free to open a ticket and talk with our Customer Service
-                    team</span>
-                  <a class="item-card-button btn btn-primary" href="/hc/en-us/requests/new">Submit a ticket</a>
+                  <span class="item-card-title">{{p[2]}}</span>
+                  <span class="item-card-description">Click here to learn more about the device and where to buy</span>
                 </div>
               </div>
-            </div>
-            <div class="item-card">
-              <div class="item-card-details">
-                <div class="item-card-content">
-                  <span class="item-card-title">Our community</span>
-                  <span class="item-card-description">The community is happy to be of help, just visit the forums or
-                    join our Discord server</span>
-                  <div class="item-card-buttons">
-                    <a href="https://community.home-assistant.io" class="item-card-button btn btn-primary external-link"
-                      target="_blank" rel="noopener">Community forum</a>
-                    <a href="https://www.home-assistant.io/join-chat/"
-                      class="item-card-button btn btn-primary external-link" target="_blank" rel="noopener">Discord
-                      server</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </a>
+            {% endfor %}
+            {{ helpCards() }}
           </div>
         </div>
       </div>
     </div>
+  {% endif %}
   </main>
+
   <footer class="footer">
-    <div class="footer-inner">
-      <a title="Home" href="/">Nabu Casa</a>
-
-      <div class="footer-language-selector">
-
-      </div>
+    <section class="footer-panel">
+      <nav class="footer-links" aria-label="Nabu Casa">
+        <ul>
+          <li><a href="/">Support</a></li>
+          <li><a href="https://www.nabucasa.com/about-us/">About Nabu Casa</a></li>
+          <li><a href="https://www.nabucasa.com/news/">News</a></li>
+          <li><a href="https://account.nabucasa.com/login" target="_blank" rel="noopener noreferrer">Log in to Link</a></li>
+        </ul>
+      </nav>
+    </section>
+    <div class="footer-bottom">
+      <span>&copy; Nabu Casa, Inc.</span>
+      <div class="footer-language-selector"></div>
     </div>
   </footer>
 
+  <script>
+    // Same as the theme's category_page.hbs: make article pills inside section cards clickable
+    document.querySelectorAll('.item-card').forEach(function (card) {
+      let defaultHref = card.getAttribute('href');
+      card.querySelectorAll('.item-card-pill').forEach(function (pill) {
+        pill.addEventListener('mouseenter', function () {
+          defaultHref = card.getAttribute('href');
+          card.setAttribute('href', pill.getAttribute('data-url'));
+        });
+        pill.addEventListener('mouseleave', function () {
+          card.setAttribute('href', defaultHref);
+        });
+      });
+    });
+  </script>
+  <script src="{{themeBase}}/script.js?digest={%currentGitSha%}" defer></script>
 </body>
 
 </html>
