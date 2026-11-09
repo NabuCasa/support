@@ -10,6 +10,24 @@ eleventyComputed:
 {% set themeBase = "https://support.nabucasa.com/hc/theming_assets/21891975/20902849390493" %}
 {% set assetBase = "https://support.nabucasa.com/hc/theming_assets" %}
 {% set isHome = not (zendeskArticleId or zendeskSectionId or zendeskCategoryId) %}
+{# With slugged=true, hrefs are Zendesk-style (/categories/{id}-{Name}) because the theme CSS matches
+   the category href ending (e.g. a[href$=Green]). Preview pages only exist at /categories/{id}, so the
+   visible breadcrumbs use plain hrefs. #}
+{% macro breadcrumbs(slugged=false) %}
+              <nav aria-label="Current location">
+                <ol class="breadcrumbs">
+                  <li><a href="/">Nabu Casa Support</a></li>
+                  {% if zendeskCategoryId %}
+                  {% set categoryName = collections.zendeskCategories[zendeskCategoryId]['name'] %}
+                  <li><a href="/categories/{{zendeskCategoryId}}{% if slugged %}-{{categoryName | replace(' ', '-')}}{% endif %}">{{categoryName}}</a></li>
+                  {% endif %}
+                  {% if zendeskSectionId %}
+                  {% set sectionName = collections.zendeskSections[zendeskSectionId]['name'] %}
+                  <li><a href="/sections/{{zendeskSectionId}}{% if slugged %}-{{sectionName | replace(' ', '-')}}{% endif %}">{{sectionName}}</a></li>
+                  {% endif %}
+                </ol>
+              </nav>
+{% endmacro %}
 {% macro helpCards() %}
             <div class="item-card primary">
               <div class="item-card-details">
@@ -66,7 +84,7 @@ eleventyComputed:
             <img src="{{assetBase}}/01M4VN30W8V1XA0N6YEGEK4XMG" alt="Nabu Casa Support home page" height="44">
           </a>
         </div>
-        <h2 style="color:white;margin:0 0 0 24px">PREVIEW!</h2>
+        <span style="background:#C05811;color:#fff;border-radius:6px;padding:4px 10px;margin-left:24px;font-weight:600;font-size:14px;line-height:1.4">PREVIEW!</span>
         <div class="nav-wrapper-desktop">
           <nav class="user-nav" id="user-nav" aria-label="User navigation">
             <ul class="user-nav-list">
@@ -151,6 +169,8 @@ eleventyComputed:
       </div>
     </div>
   {% else %}
+    {# Same as the theme's page templates: the theme CSS styles the hero and shows the product card from this block. #}
+    <div class="visibility-hidden">{{ breadcrumbs(slugged=true) }}</div>
     {% if zendeskCategoryId and not zendeskSectionId and not zendeskArticleId %}
     <section id="main-content" class="section hero" data-category="{{collections.zendeskCategories[zendeskCategoryId]['name']}}">
     {% else %}
@@ -170,17 +190,7 @@ eleventyComputed:
       <div class="layout">
         <div class="sub-hero">
           <div class="sub-nav">
-            <nav aria-label="Current location">
-              <ol class="breadcrumbs">
-                <li><a href="/">Nabu Casa</a></li>
-                {% if zendeskCategoryId %}
-                <li><a href="/categories/{{zendeskCategoryId}}">{{collections.zendeskCategories[zendeskCategoryId]['name']}}</a></li>
-                {% endif %}
-                {% if zendeskSectionId %}
-                <li><a href="/sections/{{zendeskSectionId}}">{{collections.zendeskSections[zendeskSectionId]['name']}}</a></li>
-                {% endif %}
-              </ol>
-            </nav>
+{{ breadcrumbs() }}
           </div>
           <div class="search-wrapper small">
             <form role="search" class="search search-full" action="/hc/en-us/search" accept-charset="UTF-8" method="get" autocomplete="off">
