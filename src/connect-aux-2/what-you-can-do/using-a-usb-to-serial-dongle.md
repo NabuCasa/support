@@ -8,7 +8,7 @@ zendesk:
 
 Alongside RS-232 Port 1 and Port 2, Home Assistant Connect AUX-2 can talk to a serial device through a USB-to-serial dongle in the USB-A port. Use a dongle for an extra serial connection, or for a different electrical standard such as RS-485 without an inline adapter.
 
-{% image "/static/img/connect-aux-2/dongle-waveshare-usb-to-rs485-b.jpg" "Waveshare USB TO RS485 (B) dongle" %}
+<img src="/static/img/connect-aux-2/dongle-waveshare-usb-to-rs485-b.jpg" alt="Waveshare USB TO RS485 (B) dongle" width="450" style="display: block; margin: 0 auto;">
 
 ## Supported dongles
 

@@ -33,7 +33,7 @@ To find the **Audio Output** setting:
 2. Select Connect AUX-2.
 3. Find **Audio Output** on the **Configuration** card.
 
-{% image "/static/img/connect-aux-2/aux-2-audio-output-digital.png" "Configuration card of Connect AUX-2 in Home Assistant, with Audio Output set to Digital" %}
+<img src="/static/img/connect-aux-2/aux-2-audio-output-digital.png" alt="Configuration card of Connect AUX-2 in Home Assistant, with Audio Output set to Digital" width="306" style="display: block; margin: 0 auto;">
 
 {% hazard "notice" %}
 

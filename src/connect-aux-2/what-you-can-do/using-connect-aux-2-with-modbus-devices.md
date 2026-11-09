@@ -8,7 +8,7 @@ zendesk:
 
 Home Assistant Connect AUX-2 connects Modbus devices that use RS-485, such as solar inverters, boilers, and sensors, to an existing Modbus integration in Home Assistant. A Waveshare USB TO RS485 (B) dongle in the USB-A port makes the RS-485 connection, and the integration talks to your device through Connect AUX-2.
 
-{% image "/static/img/connect-aux-2/dongle-waveshare-usb-to-rs485-b.jpg" "Waveshare USB TO RS485 (B) dongle" %}
+<img src="/static/img/connect-aux-2/dongle-waveshare-usb-to-rs485-b.jpg" alt="Waveshare USB TO RS485 (B) dongle" width="450" style="display: block; margin: 0 auto;">
 
 ## Prerequisites
 
