@@ -1,14 +1,14 @@
 ---
 zendesk:
   article_id: 25649130769949
-  name: Enabling Home Assistant Cloud
+  name: Enabling Home Assistant Link
   position: 20
-  labels: cloud
+  labels: cloud, link
 ---
 
-Before you can use the [features provided by Home Assistant Cloud](/hc/en-us/articles/26260474250269/), you have to enable Home Assistant Cloud in Home Assistant.
+Before you can use the [features provided by Home Assistant Link](/hc/en-us/articles/26260474250269/), you have to enable Home Assistant Link in Home Assistant.
 
-## To enable Home Assistant Cloud
+## To enable Home Assistant Link
 
 {% steps %}
 {% step "Opening the Home Assistant Cloud page" %}
@@ -28,7 +28,7 @@ cloud:
 {% endstepContent %}
 {% endstep %}
 
-{% step "Signing in to Home Assistant Cloud" %}
+{% step "Signing in to Home Assistant Link" %}
 {% image "/static/img/cloud/ha-cloud-register-01.png" "Home Assistant Cloud log in page" %}
 {% stepContent %}
 
@@ -42,13 +42,13 @@ cloud:
 {% endstepContent %}
 {% endstep %}
 
-{% step "Connected to Home Assistant Cloud" %}
+{% step "Connected to Home Assistant Link" %}
 {% image "/static/img/cloud/ha_cloud_connected.png" "Home Assistant Cloud connected" %}
 {% stepContent %}
 
-1. Under [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/), you should now see that you are connected to Home Assistant Cloud.
+1. Under [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/), you should now see that you are connected to Home Assistant Link.
 
-2. That's it. You are ready to go with Home Assistant Cloud.
+2. That's it. You are ready to go with Home Assistant Link.
 
 {% endstepContent %}
 {% endstep %}
@@ -58,4 +58,4 @@ cloud:
 
 - [Nabu Casa account pricing](https://www.nabucasa.com/pricing/)
 - [Nabu Casa account log in page](https://account.nabucasa.com/)
-- [Features provided by Home Assistant Cloud](/hc/en-us/articles/26260474250269/)
+- [Features provided by Home Assistant Link](/hc/en-us/articles/26260474250269/)

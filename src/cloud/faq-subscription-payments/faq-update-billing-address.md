@@ -3,7 +3,7 @@ zendesk:
   article_id: 26179743752733
   name: I moved, how do I update my billing address?
   position: 50
-  labels: cloud
+  labels: cloud, link
 ---
 
 1. Log in to your [Nabu Casa account](https://account.nabucasa.com/) and select **Account settings**.
@@ -13,4 +13,4 @@ zendesk:
 
 ## Related topics
 
-- [Home Assistant Cloud pricing](https://www.nabucasa.com/pricing/)
+- [Home Assistant Link pricing](https://www.nabucasa.com/pricing/)

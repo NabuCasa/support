@@ -1,12 +1,12 @@
 ---
 zendesk:
   article_id: 26170426881693
-  name: Logging out all devices from Home Assistant Cloud
+  name: Logging out all devices from Home Assistant Link
   position: 40
-  labels: cloud
+  labels: cloud, link
 ---
 
-You can log out all devices that are currently logged in to Home Assistant Cloud. This includes Home Assistant, Google Home, Alexa, and browsers.
+You can log out all devices that are currently logged in to Home Assistant Link. This includes Home Assistant, Google Home, Alexa, and browsers.
 
 {% hazard "notice" %}
 
@@ -17,7 +17,7 @@ You can log out all devices that are currently logged in to Home Assistant Cloud
 
 {% endhazard %}
 
-## To log out all devices from Home Assistant Cloud
+## To log out all devices from Home Assistant Link
 
 1. Log in to your [Nabu Casa account](https://account.nabucasa.com/) and select **Account settings**.
 2. To log out all devices, select **Log out from all devices**.

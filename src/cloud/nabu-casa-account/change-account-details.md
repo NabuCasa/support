@@ -3,10 +3,10 @@ zendesk:
   article_id: 25651116591901
   name: Changing your Nabu Casa account information
   position: 10
-  labels: cloud
+  labels: cloud, link
 ---
 
-To change your password, email, or the billing information for your Home Assistant Cloud subscription, follow these steps
+To change your password, email, or the billing information for your Home Assistant Link subscription, follow these steps
 
 1. Log in to your [Nabu Casa account](https://account.nabucasa.com/) and select **Account settings**.
 2. To change your password or email, fill in the required details in the dedicated section.
