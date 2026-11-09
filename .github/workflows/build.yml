@@ -5,8 +5,9 @@ on:
     branches:
       - main
 
-permissions: {}
-
+permissions:
+  contents: read
+  
 jobs:
   guide-content:
     runs-on: ubuntu-latest
