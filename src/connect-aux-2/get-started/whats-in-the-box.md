@@ -12,4 +12,4 @@ The Home Assistant Connect AUX-2 box contains:
 - Warranty and Safety Information leaflet
 - Home Assistant sticker
 
-The USB-C cable and the Ethernet cable aren't included. Supply your own for the power and network setup you use. See [Power and network options](/hc/en-us/articles/40528734420253).
+Connect AUX-2 comes without cables, so you can use the ones that fit your setup. For USB-C and Ethernet cables, see [Power and network options](/hc/en-us/articles/40528734420253). For audio and serial cables, see [Streaming audio with Sendspin](/hc/en-us/articles/40528779913373) and [Controlling devices over serial](/hc/en-us/articles/40528797748125).
