@@ -54,4 +54,4 @@ Wi-Fi setup uses Improv via BLE. Home Assistant sends your Wi-Fi details to Conn
 
 {% image "/static/img/connect-aux-2/ha-discovered-card.png" "Connect AUX-2 in the Discovered list in Home Assistant, ready for Wi-Fi setup with Improv via BLE" %}
 
-Connect AUX-2 runs on ESPHome and is adopted like any other ESPHome device. To see what happens after adoption, read [What Connect AUX-2 is and how it works](/hc/en-us/articles/40528879660317). To pick a first project, see Starter projects.
+Connect AUX-2 runs on ESPHome and is adopted like any other ESPHome device. To see what happens after adoption, read [What Connect AUX-2 is and how it works](/hc/en-us/articles/40528879660317). To pick a first project, see the guides for [audio](https://www.nabucasa.com/hardware/aux-2/audio/), [TV control](https://www.nabucasa.com/hardware/aux-2/tv/), [Z-Wave](https://www.nabucasa.com/hardware/aux-2/z-wave/), and [Bluetooth](https://www.nabucasa.com/hardware/aux-2/bluetooth/) on the [Connect AUX-2 product page](https://www.nabucasa.com/hardware/aux-2/).

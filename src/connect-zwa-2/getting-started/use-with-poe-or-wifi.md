@@ -39,4 +39,4 @@ Additionally, this setup is not strictly limited to Home Assistant; it is compat
 
 You can also place Connect ZWA-2 away from your Home Assistant server by plugging it into the USB-A port of Home Assistant Connect AUX-2. Connect AUX-2 connects to your network over Wi-Fi, Ethernet, or Power over Ethernet (PoE), and Home Assistant discovers the Connect ZWA-2 automatically. A wired connection is recommended for the most reliable radio link. Your Z-Wave network data stays on the Connect ZWA-2.
 
-See [Using a Connect radio adapter over the network](/hc/en-us/articles/40528828414237).
+See [Using a Connect radio adapter over the network](/hc/en-us/articles/40528828414237) and the [Connect AUX-2 Z-Wave guide](https://www.nabucasa.com/hardware/aux-2/z-wave/).

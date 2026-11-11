@@ -13,6 +13,8 @@ Plug a Connect ZWA-2 into the USB-A port of Home Assistant Connect AUX-2 to use 
 - Use one adapter at a time.
 - A wired connection, over Ethernet or Power over Ethernet (PoE), is recommended for the most reliable radio link. See [Power and network options](/hc/en-us/articles/40528734420253).
 
+To move your Connect ZWA-2 closer to your Z-Wave devices, follow the [Connect AUX-2 Z-Wave guide](https://www.nabucasa.com/hardware/aux-2/z-wave/).
+
 ## Where your network data lives
 
 Connect AUX-2 stores no Z-Wave network data. The network data lives on the Connect ZWA-2.
