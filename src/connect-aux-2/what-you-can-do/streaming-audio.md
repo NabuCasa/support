@@ -10,6 +10,8 @@ Home Assistant Connect AUX-2 plays audio through its 3.5 mm audio output to a st
 
 Connect AUX-2 plays audio through Sendspin, which keeps it in sync with your other speakers. Use Music Assistant to play audio on it.
 
+To get started, follow the [Connect AUX-2 audio guide](https://www.nabucasa.com/hardware/aux-2/audio/).
+
 ## What Sendspin is
 
 [Sendspin](https://www.sendspin-audio.com/) is an open standard from the Open Home Foundation for synchronized whole-home audio. A Sendspin source sends audio to the Sendspin speakers on your network, and they play it in sync, with no cloud service or account.

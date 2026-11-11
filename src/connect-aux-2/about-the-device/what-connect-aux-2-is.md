@@ -34,6 +34,7 @@ Connect AUX-2 updates over the air through ESPHome. It has an unlocked bootloade
 
 ## Related topics
 
+- [Connect AUX-2 product page](https://www.nabucasa.com/hardware/aux-2/)
 - [Home Assistant documentation](https://www.home-assistant.io/docs/)
 - [ESPHome](https://esphome.io/)
 - [Music Assistant](https://www.home-assistant.io/integrations/music_assistant/)
