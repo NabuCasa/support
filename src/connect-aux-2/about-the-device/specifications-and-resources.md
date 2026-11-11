@@ -74,3 +74,4 @@ zendesk:
 
 - Factory firmware web installer: [firmware.nabucasa.com/install/aux-2](https://firmware.nabucasa.com/install/aux-2/)
 - [Declaration of Conformity for EU (PDF)](/static/docs/connect-aux-2/nc-aux-9758-eu-doc-v1.0-nov-2026.pdf)
+- [Warranty and Safety Information (PDF)](/static/docs/connect-aux-2/ha-connect-aux-2_warranty-and-safety-information_v1-2.pdf)
