@@ -6,6 +6,12 @@ zendesk:
   labels: connect aux-2
 ---
 
+{% callout "important" %}
+
+Firmware you build yourself is for personal use and isn't supported by Nabu Casa. Nabu Casa support can't help with custom configurations, including Grove sensors. While Connect AUX-2 runs your own firmware, it doesn't receive over-the-air firmware updates from Nabu Casa. To return to the supported firmware at any time, reinstall the factory firmware. See [Custom firmware and restoring factory firmware](/hc/en-us/articles/40528961462941).
+
+{% endcallout %}
+
 Home Assistant Connect AUX-2 has an unlocked bootloader, so you can test your own ESPHome component for serial or Modbus on it.
 
 1. Compile ESPHome with your custom component for Connect AUX-2, starting from the [firmware source](https://github.com/NabuCasa/aux-2).
