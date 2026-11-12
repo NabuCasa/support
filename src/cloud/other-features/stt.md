@@ -51,6 +51,15 @@ If you want to speak to Assist in different languages, set up an assistant for e
 
   ![STT language selector in voice assistant dialog](/static/img/cloud/ha-cloud-stt.png)
 
+## If Home Assistant Cloud is not listed
+
+If **Home Assistant Cloud** is not offered as a speech-to-text option when you set up a voice assistant, its entity may be disabled. Disabled entities are hidden from the entity list by default, so the steps below include showing them.
+
+1. In Home Assistant, go to [**Settings** > **Devices & services** > **Entities**](https://my.home-assistant.io/redirect/entities/).
+2. In the **Filters** panel, expand **Status**. Select **Disabled** and clear **Enabled**, so that only disabled entities are listed.
+3. Search for `home_assistant_cloud`.
+4. Select each entity in the list, open its settings, and turn on **Enabled**.
+
 ## List of available languages for speech-to-text
 
 Language options may change from time to time, so if you are missing options which are shown on this page, make sure you are running the [latest version of Home Assistant](https://www.home-assistant.io/latest-release-notes/).
