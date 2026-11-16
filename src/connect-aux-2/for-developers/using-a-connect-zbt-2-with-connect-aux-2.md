@@ -6,7 +6,7 @@ zendesk:
   labels: connect aux-2
 ---
 
-Plug a Home Assistant Connect ZBT-2 into Home Assistant Connect AUX-2 to run your Zigbee network from Connect AUX-2 instead of your Home Assistant server. With Connect AUX-2 powered over Ethernet, the Connect ZBT-2 can sit in a more central spot in your home. Home Assistant reaches the Connect ZBT-2 over the network through the Zigbee Home Automation (ZHA) integration.
+Plug a Home Assistant Connect ZBT-2 into Home Assistant Connect AUX-2 to run your [Zigbee](https://www.home-assistant.io/connectivity/zigbee/) network from Connect AUX-2 instead of your Home Assistant server. With Connect AUX-2 powered over Ethernet, the Connect ZBT-2 can sit in a more central spot in your home. Home Assistant reaches the Connect ZBT-2 over the network through the Zigbee Home Automation (ZHA) integration.
 
 {% callout "important" %}
 

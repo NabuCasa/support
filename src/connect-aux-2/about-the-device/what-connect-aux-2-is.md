@@ -40,3 +40,6 @@ Connect AUX-2 updates over the air through ESPHome. It has an unlocked bootloade
 - [Music Assistant](https://www.home-assistant.io/integrations/music_assistant/)
 - [Sendspin](https://www.sendspin-audio.com/)
 - [Home Assistant integrations](https://www.home-assistant.io/integrations/)
+- [Serial in Home Assistant](https://www.home-assistant.io/connectivity/serial/)
+- [Modbus in Home Assistant](https://www.home-assistant.io/connectivity/modbus/)
+- [Bluetooth in Home Assistant](https://www.home-assistant.io/connectivity/bluetooth/)

@@ -11,5 +11,5 @@ zendesk:
 ## Related topics
 
 - [zigbee.blakadder.com](https://zigbee.blakadder.com)
-- [Best practices to avoid pairing issues with Zigbee devices](https://www.home-assistant.io/integrations/zha/#best-practices-to-avoid-pairingconnection-difficulties)
+- [Best practices to avoid pairing issues with Zigbee devices](https://www.home-assistant.io/connectivity/zigbee/#best-practices-to-avoid-pairingconnection-difficulties)
 - [connectivity issues and interference](/hc/en-us/articles/26124431414557)
