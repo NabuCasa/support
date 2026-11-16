@@ -1,11 +1,19 @@
 #!/bin/sh
 
+set -e
+
 cd "$(dirname "$0")/.."
 
 
 if ! python3 -c "import hass_nabucasa" 2>/dev/null; then
-  coreversion=$(curl -sSL https://www.home-assistant.io/version.json | jq -r '.current_version')
-  corehassnabucasa=$(curl -sSL "https://raw.githubusercontent.com/home-assistant/core/refs/tags/${coreversion}/homeassistant/components/cloud/manifest.json" | jq -r '.requirements[]' | grep -E '^hass-nabucasa')
+  if ! coreversion=$(curl -fsSL https://version.home-assistant.io/beta.json | jq -er '.homeassistant.default'); then
+    echo "Failed to get the Home Assistant Core beta version from https://version.home-assistant.io/beta.json" >&2
+    exit 1
+  fi
+  if ! corehassnabucasa=$(curl -fsSL "https://raw.githubusercontent.com/home-assistant/core/refs/tags/${coreversion}/homeassistant/components/cloud/manifest.json" | jq -er '.requirements[]' | grep -E '^hass-nabucasa'); then
+    echo "Failed to find the hass-nabucasa requirement for Home Assistant Core ${coreversion}" >&2
+    exit 1
+  fi
   python3 -m pip install "${corehassnabucasa}"
 fi
 mkdir -p _data
