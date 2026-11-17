@@ -1,9 +1,9 @@
 ---
 zendesk:
   article_id: 26198603111581
-  name: Disabling MFA (multi-factor authentication) for Home Assistant Cloud
+  name: Disabling MFA (multi-factor authentication) for your Nabu Casa account
   position: 30
-  labels: cloud
+  labels: cloud, link
 ---
 
 {% callout "important" %}
@@ -12,7 +12,7 @@ Multi-factor authentication (MFA) cannot be disabled from your Nabu Casa account
 
 ## Symptom
 
-You have multi-factor authentication (MFA) enabled for your Home Assistant Cloud account, and you no longer want to be prompted for a one-time code when you log in.
+You have multi-factor authentication (MFA) enabled for your Nabu Casa account, and you no longer want to be prompted for a one-time code when you log in.
 
 ## Before you start
 
@@ -24,7 +24,7 @@ You have multi-factor authentication (MFA) enabled for your Home Assistant Cloud
 Submit a ticket to our Customer Support team.
 
 - **Result**: Multi-factor authentication is disabled.
-- When logging into Home Assistant Cloud, you will no longer be prompted to provide a one-time code.
+- When logging into your Nabu Casa account, you will no longer be prompted to provide a one-time code.
 
 ## Related topics
 
