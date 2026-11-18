@@ -11,5 +11,7 @@ productName: "Home Assistant Yellow"
 
 ## Related topics
 
+- [Zigbee in Home Assistant](https://www.home-assistant.io/connectivity/zigbee/)
+- [Thread in Home Assistant](https://www.home-assistant.io/connectivity/thread/)
 - [Zigbee Home Automation integration documentation](https://www.home-assistant.io/integrations/zha/)
 - [Thread integration documentation](https://www.home-assistant.io/integrations/thread/)

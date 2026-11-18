@@ -6,7 +6,7 @@ zendesk:
   labels: connect aux-2
 ---
 
-Home Assistant Connect AUX-2 has a dedicated on-board Bluetooth antenna and works as a Home Assistant Bluetooth proxy with no configuration. The proxy supports Bluetooth Low Energy (BLE) devices only.
+Home Assistant Connect AUX-2 has a dedicated on-board Bluetooth antenna and works as a Home Assistant [Bluetooth proxy](https://www.home-assistant.io/connectivity/bluetooth/#bluetooth-proxies) with no configuration. The proxy supports Bluetooth Low Energy (BLE) devices only.
 
 - Once Connect AUX-2 is connected to Home Assistant, supported BLE devices in range are discovered automatically.
 - Some devices need the proxy switched from passive to active mode.

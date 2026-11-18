@@ -21,4 +21,4 @@ Some of my Zigbee Home Automation (ZHA) devices are now shown as unavailable or 
 
    4. Set your end device into pairing mode.
       - The end device should now be connected to the selected router device.
-7. Check the [best practices to avoid pairing issues with Zigbee devices](https://www.home-assistant.io/integrations/zha/#best-practices-to-avoid-pairingconnection-difficulties).
+7. Check the [best practices to avoid pairing issues with Zigbee devices](https://www.home-assistant.io/connectivity/zigbee/#best-practices-to-avoid-pairingconnection-difficulties).
