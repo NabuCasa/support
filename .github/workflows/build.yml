@@ -22,7 +22,7 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm install ci
+        run: npm ci
 
       - name: Compile Eleventy
         run: npm run build
