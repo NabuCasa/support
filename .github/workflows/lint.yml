@@ -35,7 +35,7 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm install ci
+        run: npm ci
 
       - name: Lint with ${{ matrix.tool }}
         run: npm run lint:${{ matrix.tool }}:check
