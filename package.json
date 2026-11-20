@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "5.0.2",
-    "@11ty/eleventy": "3.1.6",
+    "@11ty/eleventy": "3.1.8",
     "cross-env": "10.1.0",
     "js-yaml": "4.3.1",
     "luxon": "3.7.2",
