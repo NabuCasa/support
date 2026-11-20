@@ -6,7 +6,7 @@ zendesk:
   labels: connect aux-2
 ---
 
-Home Assistant Connect AUX-2 has two RS-232 serial ports, Port 1 and Port 2, each on a 3.5 mm jack. Use them to control TVs, AV receivers, projectors, UPS units, climate controllers, and Modbus-capable devices. For signal levels, see [Specifications](/hc/en-us/articles/40528929207453).
+Home Assistant Connect AUX-2 has two RS-232 [serial ports](https://www.home-assistant.io/connectivity/serial/), Port 1 and Port 2, each on a 3.5 mm jack. Use them to control TVs, AV receivers, projectors, UPS units, climate controllers, and Modbus-capable devices. For signal levels, see [Specifications](/hc/en-us/articles/40528929207453).
 
 To control a TV or AV receiver, follow the [Connect AUX-2 TV guide](https://www.nabucasa.com/hardware/aux-2/tv/).
 

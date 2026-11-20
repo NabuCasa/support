@@ -29,8 +29,8 @@ zendesk:
 | | |
 | --- | --- |
 | Connectivity | 3.5 mm audio output, analog or optical S/PDIF (one at a time), output only |
-| Analog | 16-bit / 48 kHz stereo |
-| Digital | 16-bit / 48 kHz stereo |
+| Analog | 24-bit / 48 kHz stereo |
+| Digital | 24-bit / 48 kHz stereo |
 | Codecs | Music Assistant converts audio before sending it over Sendspin, so you can play any format it supports. Decoded on the device: FLAC, MP3, WAV. |
 | Sendspin | Yes, native Sendspin player. On by default. Plays synchronized audio from any Sendspin source, such as Music Assistant. |
 | Bluetooth audio | Not supported |
