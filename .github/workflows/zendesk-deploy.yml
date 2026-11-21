@@ -28,6 +28,7 @@ jobs:
     if: github.repository_owner == 'NabuCasa'
     environment: content
     runs-on: ubuntu-26.04
+    timeout-minutes: 15
     steps:
       - name: Check out files from GitHub
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1

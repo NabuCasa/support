@@ -2,6 +2,7 @@
 name: zizmor
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main

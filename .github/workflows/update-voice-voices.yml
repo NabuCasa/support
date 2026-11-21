@@ -15,6 +15,7 @@ jobs:
   generate:
     name: Generate
     runs-on: ubuntu-26.04
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -47,6 +48,7 @@ jobs:
   create-pr:
     name: Create PR
     runs-on: ubuntu-26.04
+    timeout-minutes: 10
     needs: generate
     permissions:
       contents: write # To push the branch with the updated data

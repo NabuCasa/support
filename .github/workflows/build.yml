@@ -14,6 +14,7 @@ concurrency:
 jobs:
   guide-content:
     runs-on: ubuntu-26.04
+    timeout-minutes: 10
     name: Guide content
     steps:
       - name: Check out files from GitHub
