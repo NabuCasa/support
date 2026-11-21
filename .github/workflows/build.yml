@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   guide-content:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     name: Guide content
     steps:
       - name: Check out files from GitHub
