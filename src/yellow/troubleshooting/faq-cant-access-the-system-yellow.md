@@ -1,12 +1,12 @@
 ---
 zendesk:
   article_id: 25455199250589
-  name: I can’t access the system via http://homeassistant.local:8123.
+  name: I can’t access the system via http://homeassistant.local.
   position: 10
   labels: yellow, troubleshooting
 ---
 
-1. If [http://homeassistant.local:8123](http://homeassistant.local:8123) doesn't work, try [http://homeassistant:8123](http://homeassistant:8123). If that does not help, you may be able to find the IP address of Home Assistant Yellow on your router. The URL will be `http://<IP ADDRESS>:8123`.
+1. Try [http://homeassistant.local](http://homeassistant.local) first, and if that doesn't load, try [http://homeassistant.local:8123](http://homeassistant.local:8123). Home Assistant uses one of these two ports depending on how and when it was installed. If neither works, try `http://homeassistant` or `http://homeassistant:8123`. If that does not help, you may be able to find the IP address of Home Assistant Yellow on your router. The URL will be `http://<IP ADDRESS>` or `http://<IP ADDRESS>:8123`.
 
 2. Check if the Home Assistant Yellow is plugged in and the yellow LED blinks in a heartbeat pattern. For more information on the LED patterns, see [Home Assistant Yellow LEDs](/hc/en-us/articles/25410366475165-About-the-LEDs).
 

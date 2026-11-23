@@ -12,7 +12,7 @@ There are two ways you can use a backup:
 A full backup includes the following elements:
 
 - your system configuration
-- add-on data
+- app data (formerly known as add-ons)
 - automations
 - scripts
 - and media stored on Home Assistant.
@@ -21,4 +21,4 @@ Before creating a backup, you can select what to include or exclude for a backup
 
 ### Estimated duration
 
-The time it takes to restore a backup depends on your installation. Home Assistant Core and all add-ons are being reinstalled. For a larger installation, this process can take about 45 minutes to 1 hour.
+The time it takes to restore a backup depends on your installation. Home Assistant Core and all apps (formerly known as add-ons) are being reinstalled. For a larger installation, this process can take about 45 minutes to 1 hour.

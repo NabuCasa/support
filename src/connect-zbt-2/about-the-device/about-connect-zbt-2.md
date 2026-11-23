@@ -7,7 +7,7 @@ zendesk:
 productName: "Home Assistant Connect&nbsp;ZBT-2"
 ---
 
-[{{ productName }}](https://www.home-assistant.io/connect/zbt-2/) is a Zigbee or Thread adapter designed specifically to work with Home Assistant. It connects to your Home Assistant smart home hub via USB, allowing it to build either a Zigbee or a Thread network via Home Assistant's built-in Zigbee or Thread integrations.
+[{{ productName }}](https://www.home-assistant.io/connect/zbt-2/) is a Zigbee or Thread adapter designed specifically to work with Home Assistant. It connects to your Home Assistant smart home hub via USB, allowing it to build either a [Zigbee](https://www.home-assistant.io/connectivity/zigbee/) or a [Thread](https://www.home-assistant.io/connectivity/thread/) network via Home Assistant's built-in Zigbee or Thread integrations.
 
 {% callout "important" %}
 
@@ -38,7 +38,7 @@ A few device characteristics are listed below:
 - Home Assistant supports 2 Zigbee solutions:
   - [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/)
   - [Zigbee2MQTT](https://www.zigbee2mqtt.io/)
-- You can run another adapter with the deCONZ or Zigbee2MQTT add-on alongside a {{ productName }} with Zigbee Home Automation.
+- You can run another adapter with the deCONZ or Zigbee2MQTT app alongside a {{ productName }} with Zigbee Home Automation.
 - You cannot run 2 {{ productName }} adapters with the Zigbee Home Automation integration at once in Home Assistant.
   - The Zigbee Home Automation integration is single instance only.
 
@@ -64,6 +64,8 @@ Home Assistant Connect&nbsp;ZBT-1 (formerly known as SkyConnect) was Nabu Casa's
 
 ### Related Home Assistant documentation
 
+- [Zigbee in Home Assistant](https://www.home-assistant.io/connectivity/zigbee/)
+- [Thread in Home Assistant](https://www.home-assistant.io/connectivity/thread/)
 - [Zigbee Home Automation integration documentation](https://www.home-assistant.io/integrations/zha/)
 - [Thread integration documentation](https://www.home-assistant.io/integrations/thread/)
 - [Home Assistant user documentation](https://www.home-assistant.io/docs/)

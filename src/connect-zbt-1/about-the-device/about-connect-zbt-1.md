@@ -7,7 +7,7 @@ zendesk:
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
-[{{ productName }}](https://www.home-assistant.io/connectzbt1) is a Zigbee or Thread adapter. It was designed specifically to work with Home Assistant. It connects to your Home Assistant system via USB, allowing it to build either a Zigbee or a Thread network via Home Assistant's built-in Zigbee or Thread integrations.
+[{{ productName }}](https://www.home-assistant.io/connectzbt1) is a Zigbee or Thread adapter. It was designed specifically to work with Home Assistant. It connects to your Home Assistant system via USB, allowing it to build either a [Zigbee](https://www.home-assistant.io/connectivity/zigbee/) or a [Thread](https://www.home-assistant.io/connectivity/thread/) network via Home Assistant's built-in Zigbee or Thread integrations.
 
 {% callout "important" %}
 
@@ -28,7 +28,7 @@ A few device characteristics are listed below:
 - {{ productName }} was formerly known as Home Assistant SkyConnect.
   - Despite the new name and look, they have the exact same hardware, capability, and support.
 - You can run 2 different Zigbee solutions in Home Assistant: Zigbee Home Automation (ZHA) and Zigbee2MQTT
-  - You can run another adapter with a deCONZ or Zigbee2MQTT add-on alongside a {{ productName }} with [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/).
+  - You can run another adapter with a deCONZ or Zigbee2MQTT app alongside a {{ productName }} with [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/).
 - You cannot run 2 {{ productName }} adapters with the Zigbee Home Automation integration at once in Home Assistant.
   - The Zigbee Home Automation integration is single instance only.
 - {{ productName }} does not support Bluetooth or Z-Wave.
@@ -42,6 +42,8 @@ A few device characteristics are listed below:
 
 ### Related Home Assistant documentation
 
+- [Zigbee in Home Assistant](https://www.home-assistant.io/connectivity/zigbee/)
+- [Thread in Home Assistant](https://www.home-assistant.io/connectivity/thread/)
 - [Zigbee Home Automation integration documentation](https://www.home-assistant.io/integrations/zha/)
 - [Thread integration documentation](https://www.home-assistant.io/integrations/thread/)
 - [Home Assistant user documentation](https://www.home-assistant.io/)

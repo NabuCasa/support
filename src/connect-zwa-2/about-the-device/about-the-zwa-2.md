@@ -7,13 +7,13 @@ zendesk:
 ---
 
 
-Home Assistant Connect ZWA-2 is a Z-Wave adapter that connects to your Home Assistant hub via USB. It allows Home Assistant to build a Z-Wave network via the included Z-Wave integration.
+Home Assistant Connect ZWA-2 is a Z-Wave adapter that connects to your Home Assistant hub via USB. It allows Home Assistant to build a Z-Wave network via the included Z-Wave integration. You can also plug it into Home Assistant Connect AUX-2 and use it over your network connection. See [Using a Connect radio adapter over the network](/hc/en-us/articles/40528828414237).
 
 {% callout "important" %}
 
 Home Assistant Connect ZWA-2 is not a standalone product.
 
-- It was designed to run with Home Assistant running on a smart home hub (such as [Home Assistant Green](https://www.home-assistant.io/green/)) and the **Z-Wave JS** add-on.
+- It was designed to run with Home Assistant running on a smart home hub (such as [Home Assistant Green](https://www.home-assistant.io/green/)) and the **Z-Wave JS** app.
   - You can run it without Home Assistant, in this case [extra steps are required](/hc/en-us/articles/29059418289821).
 - One or more Z-Wave devices, such as switches, dimmers, or locks.
 - **Optional**: [Home Assistant Companion app](https://companion.home-assistant.io/) installed on your smart phone.
@@ -57,6 +57,7 @@ Home Assistant Connect ZWA-2 is not a standalone product.
 - [Forming a new Z-Wave network with Home Assistant Connect ZWA-2 and Home Assistant](/hc/en-us/articles/28685765309853)
 - [Migrating an existing Z-Wave network to Home Assistant Connect ZWA-2](/hc/en-us/articles/29529265751965)
 - [Using Home Assistant Connect ZWA-2 without Home Assistant](/hc/en-us/articles/29447110878493)
+- [Using a Connect radio adapter over the network](/hc/en-us/articles/40528828414237)
 - [Overriding the radio frequency region](/hc/en-us/articles/29059418289821)
 - [About radio frequency and transmit power](/hc/en-us/articles/29081378073501)
 

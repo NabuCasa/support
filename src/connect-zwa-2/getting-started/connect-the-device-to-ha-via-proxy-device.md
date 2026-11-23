@@ -10,6 +10,12 @@ If you need to place Connect ZWA-2 far away from your Home Assistant system, you
 
 This allows you to plug Home Assistant Connect ZWA-2 in a location that is closer to your end devices.
 
+{% callout "tip" %}
+
+If you have Home Assistant Connect AUX-2, you can plug Connect ZWA-2 into its USB-A port instead. Home Assistant discovers it automatically over the network. See [Using a Connect radio adapter over the network](/hc/en-us/articles/40528828414237).
+
+{% endcallout %}
+
 ## Prerequisites
 
 - A system that can act as a proxy and fulfills the following requirements:
@@ -36,7 +42,7 @@ This allows you to plug Home Assistant Connect ZWA-2 in a location that is close
    - **Troubleshooting**:  If it is not discovered, you can configure it manually.
      - On your Home Assistant system, go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/)
      - Add a Z-Wave hub using a **Custom installation method**.
-     - Make sure to *uncheck* the **Use the Z-Wave Supervisor add-on** option.
+     - Make sure to *uncheck* the **Use the Z-Wave Supervisor app** option.
      - Fill in the IP address of the Z-Wave JS UI system (for example `ws://IP-ADDRESS:3000`).
 
 ## Related topics

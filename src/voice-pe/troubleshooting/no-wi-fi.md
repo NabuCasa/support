@@ -20,6 +20,6 @@ Try the following steps:
    - If you are using an Android phone, make sure precise location is enabled.
      - Go to **Settings** > **Apps** > **Home Assistant** > **Permissions** and enable **Location**, **Allow all the time**, and **Use precise location**.
 3. If you have different SSIDs (Wi-Fi names) for the 2.4&nbsp;GHz and the 5&nbsp;GHz Wi-Fi networks, make sure you use the credentials for the 2.4&nbsp;GHz network.
-4. If you are using a Bluetooth proxy:
+4. If you are using a [Bluetooth proxy](https://www.home-assistant.io/connectivity/bluetooth/#bluetooth-proxies):
    - Make sure the proxy is close to the device and to the Home Assistant server.
    - If it still does not work, try a different Bluetooth proxy.

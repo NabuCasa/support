@@ -7,7 +7,7 @@ zendesk:
   labels: yellow, setup, Thread
 ---
 
-Step-by-step instructions on configuring the Home Assistant Yellow for Thread support when you have previously used it for Zigbee. The Thread adapter allows you to connect Thread-based devices, such as Matter-over-Thread devices, to your network.
+Step-by-step instructions on configuring the Home Assistant Yellow for Thread support when you have previously used it for Zigbee. The Thread adapter allows you to connect [Thread](https://www.home-assistant.io/connectivity/thread/)-based devices, such as [Matter](https://www.home-assistant.io/connectivity/matter/)-over-Thread devices, to your network.
 
 This guide is about switching from Zigbee to Thread support on Yellow's built-in radio chip. If your goal is to keep using Zigbee and using Thread in addition, you can use an external adapter for Thread, such as the [Home Assistant Connect&nbsp;ZBT-1](https://www.home-assistant.io/connectzbt1).
 
@@ -24,7 +24,7 @@ This guide assumes you have the following setup:
 - Home Assistant OS installation.
 - Multiprotocol support disabled: Refer to the [Disable multiprotocol support](/hc/en-us/articles/25744235797661-Disabling-multiprotocol-support) procedure.
 - **Important:** This guide installs firmware that supports only Thread! You will no longer be able to control your Zigbee devices with this adapter after installing the Thread firmware. Depending on whether you want to keep your Zigbee network (on another device) or not, follow the steps in one of the following scenarios:
-  - **Scenario 1: You want to keep the Zigbee network**: If you use your Yellow to run a Zigbee network, [migrate your Zigbee network](https://www.home-assistant.io/integrations/zha/#migrating-to-a-new-zigbee-coordinator-adapter-inside-zha) to another adapter. Otherwise, if you delete the Zigbee network, even if you set it up again, all of your entity customizations will be gone.
+  - **Scenario 1: You want to keep the Zigbee network**: If you use your Yellow to run a Zigbee network, [migrate your Zigbee network](https://www.home-assistant.io/integrations/zha/#migrating-to-a-new-zigbee-adapter-inside-zha) to another adapter. Otherwise, if you delete the Zigbee network, even if you set it up again, all of your entity customizations will be gone.
   - **Scenario 2: You no longer need the Zigbee network**: If you use your Yellow to run a Zigbee network, and you no longer need a Zigbee network, follow these steps to remove ZHA from the integration list:
 
     1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
@@ -55,7 +55,7 @@ This guide assumes you have the following setup:
 {% stepContent %}
 
 1. Under **Pick your protocol**, select **Use as Thread adapter**.
-   - **Result**: **The OpenThread Border Router** add-on is installed.
+   - **Result**: **The OpenThread Border Router** app is installed.
    - The dialog informs you that your Yellow now acts as an OpenThread border router. Select **Submit**.
 2. Then, select **Finish**.
 
@@ -79,4 +79,4 @@ This guide assumes you have the following setup:
 - [Thread integration documentation](https://www.home-assistant.io/integrations/thread/)
 - [About firmware options](/hc/en-us/articles/25616122309405-About-firmware-options)
 - [Disable multiprotocol support](/hc/en-us/articles/25744235797661-Disabling-multiprotocol-support)
-- [Migrating your Zigbee network](https://www.home-assistant.io/integrations/zha/#migrating-to-a-new-zigbee-coordinator-adapter-inside-zha)
+- [Migrating your Zigbee network](https://www.home-assistant.io/integrations/zha/#migrating-to-a-new-zigbee-adapter-inside-zha)

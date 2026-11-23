@@ -28,9 +28,9 @@ To handle simultaneous requests, all data is routed through a TCP multiplexer. T
 2. Decrypting the packets using the SSL certificate.
 3. Forwarding the decrypted data to the HTTP component for further handling.
 
-## About add-ons which support ingress
+## About apps which support ingress
 
-Add-ons which support Ingress can be accessed via Home Assistant Cloud. Because they are served via the Home Assistant UI, they benefit from the same end-to-end encryption and local authentication as the Home Assistant frontend.
+Apps (formerly known as Home Assistant add-ons) which support Ingress can be accessed via Home Assistant Cloud. Because they are served via the Home Assistant UI, they benefit from the same end-to-end encryption and local authentication as the Home Assistant frontend.
 
 ## Related topics
 

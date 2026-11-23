@@ -10,21 +10,21 @@ Both the radio frequency and the radio transmit power level used by Z-Wave devic
 
 By default, the radio frequency of Home Assistant Connect ZWA-2 is set to EU Long Range. The transmit power level is configured for Europe. Home Assistant automatically adjusts these settings to match the region you are located in, but if you are using Connect ZWA-2 without Home Assistant, you will need to adjust this manually.
 
-## Scenario 1: Running the device with Home Assistant and the Z-Wave JS add-on
+## Scenario 1: Running the device with Home Assistant and the Z-Wave JS app
 
-If you use the **Z-Wave JS** add-on, you do not need to do anything.
+If you use the **Z-Wave JS** app, you do not need to do anything.
 
-- The Z-Wave JS add-on automatically adjusts the region based on the location defined for your Home Assistant hub.
+- The Z-Wave JS app automatically adjusts the region based on the location defined for your Home Assistant hub.
   - This means radio frequency and transmit power level are set automatically for your region.
-  - If you don't know whether you use the **Z-Wave JS** add-on:
-    - Go to **Settings** > **Add-ons**](https://my.home-assistant.io/redirect/supervisor/) and look for the [**Z-Wave JS**](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_zwave_js) add-on.
+  - If you don't know whether you use the **Z-Wave JS** app:
+    - Go to **Settings** > **Apps**](https://my.home-assistant.io/redirect/supervisor/) and look for the [**Z-Wave JS**](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_zwave_js) app.
     - In the top right corner, it will be a green "play" icon if you have it installed and running.
 
-- If needed, you can override the radio frequency region in the **Z-Wave JS** add-on. To do this, follow the [steps in the Z-Wave documentation](https://www.home-assistant.io/integrations/zwave_js/#overriding-the-radio-frequency-region-of-the-adapter-in-the-z-wave-js-add-on).
+- If needed, you can override the radio frequency region in the **Z-Wave JS** app. To do this, follow the [steps in the Z-Wave documentation](https://www.home-assistant.io/integrations/zwave_js/#overriding-the-radio-frequency-region-of-the-adapter-in-the-z-wave-js-app).
 
-## Scenario 2: Running the device with Z-Wave JS UI add-on or another automation platform (without Home Assistant)
+## Scenario 2: Running the device with Z-Wave JS UI app or another automation platform (without Home Assistant)
 
-If you are using Home Assistant Connect ZWA-2 with the **Z-Wave JS UI** add-on or another automation platform, you can change the radio frequency region and transmit power level there.
+If you are using Home Assistant Connect ZWA-2 with the **Z-Wave JS UI** app or another automation platform, you can change the radio frequency region and transmit power level there.
 
 - The location of the settings depends on your hub.
 - Refer to the section [about transmit power levels](/hc/en-us/articles/29081378073501) to find the right values.
@@ -36,6 +36,6 @@ If you are using Home Assistant Connect ZWA-2 with the **Z-Wave JS UI** add-on o
 ## Related topics
 
 - [About transmit power levels](/hc/en-us/articles/29081378073501)
-- [Z-Wave documentation on overriding the radio frequency region](https://www.home-assistant.io/integrations/zwave_js/#overriding-the-radio-frequency-region-of-the-adapter-in-the-z-wave-js-add-on)
+- [Z-Wave documentation on overriding the radio frequency region](https://www.home-assistant.io/integrations/zwave_js/#overriding-the-radio-frequency-region-of-the-adapter-in-the-z-wave-js-app)
 - [Migrating an existing Z-Wave network to Home Assistant Connect ZWA-2](/hc/en-us/articles/29529265751965)
 - [Z-Wave global regions](https://www.silabs.com/wireless/z-wave/global-regions)
