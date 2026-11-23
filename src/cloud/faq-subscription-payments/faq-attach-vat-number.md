@@ -10,11 +10,7 @@ We strictly operate as a business-to-consumer provider. As such, we cannot inclu
 
 If you're located in the EU, UK, US, or Canada and see VAT/sales tax charged, this is standard consumer tax. As a B2C provider, we're VAT registered where required by law, but this does not allow business customers to reclaim or reverse-charge VAT.
 
-You can update your billing name and address at https://account.nabucasa.com/:
-
-  1. Scroll to the bottom of the page.
-  2. Select **Manage Account**.
-  3. Update your billing details.
+You can update your billing name and address on the [Nabu Casa account page](https://account.nabucasa.com/), under **Account settings**. For the full steps, see [I moved, how do I update my billing address?](/hc/en-us/articles/26179743752733).
 
 Changes apply to future invoices only. We cannot reissue or modify past invoices due to billing system constraints.
 
