@@ -2,6 +2,14 @@ name: Generate voice languages data
 
 on:
   workflow_dispatch:
+    inputs:
+      stage:
+        description: "Home Assistant Core stage to generate data from"
+        type: choice
+        default: stable
+        options:
+          - stable
+          - beta
   schedule:
     - cron: '0 06 * * 4'
 
@@ -29,7 +37,8 @@ jobs:
       - name: Generate data
         env:
           GITHUB_GENERATOR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run generate:voice-languages
+          STAGE: ${{ inputs.stage || 'stable' }}
+        run: npm run generate:voice-languages -- "$STAGE"
 
       - name: Upload data
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
