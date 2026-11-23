@@ -180,10 +180,6 @@ packages:
 
 rc522_i2c:
   i2c_id: grove_i2c
-  address: 0x28
-  on_tag:
-    then:
-      - homeassistant.tag_scanned: !lambda 'return x;'
 
 # Link the RFID reader to binary sensor
 binary_sensor:
