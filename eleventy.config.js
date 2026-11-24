@@ -92,6 +92,15 @@ export default async function (eleventyConfig) {
     return languageDisplayNames.of(code);
   });
 
+  // Mirrors resolve_language in hass_nabucasa.stt_v2: the v2 (Soniox) service
+  // is matched on the base language, so every locale of a supported language
+  // is supported. Locales it cannot resolve fall back to the v1 (Azure) engine.
+  eleventyConfig.addFilter("sttV2Supported", function (code, sttV2Languages) {
+    const base = code.split("-")[0].toLowerCase();
+    const resolved = sttV2Languages.aliases[base] || base;
+    return sttV2Languages.languages.includes(resolved);
+  });
+
   eleventyConfig.addCollection("zendeskCategories", function (collection) {
     const data = {};
     const sectionsData = {};
