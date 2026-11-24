@@ -1,6 +1,7 @@
 # Repository files
 .devcontainer.json @NabuCasa/cloud
 .github/ @NabuCasa/cloud
+.npmrc @NabuCasa/cloud
 .nvmrc @NabuCasa/cloud
 netlify.toml @NabuCasa/cloud
 package.json @NabuCasa/cloud
