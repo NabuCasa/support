@@ -62,8 +62,8 @@ This process clears the data disk on your Green. Unless you [create a backup](ht
 {% image "/static/img/green/download-circle-outline.svg" "Downloading the required software" %}
 {% stepContent %}
 
-1. Download the Home Assistant Green OS installer: [green-installer-20240410.img.xz](https://github.com/NabuCasa/buildroot-installer/releases/download/green-installer-20240410/green-installer-20240410.img.xz)
-   - This file is hosted on the [NabuCasa buildroot-installer releases page](https://github.com/NabuCasa/buildroot-installer/releases/tag/green-installer-20240410) on GitHub.
+1. Download the Home Assistant Green OS installer: [green_installer-20261015.img.xz](https://github.com/NabuCasa/buildroot-installer/releases/download/release-20261015/green_installer-20261015.img.xz)
+   - This file is hosted on the [NabuCasa buildroot-installer releases page](https://github.com/NabuCasa/buildroot-installer/releases/tag/release-20261015) on GitHub.
 2. Download and start [Balena Etcher](https://www.balena.io/etcher).
    - You may need to run it with administrator privileges on Windows.
 
@@ -177,8 +177,10 @@ This process clears the data disk on your Green. Unless you [create a backup](ht
 
 1. Install the app: To access Home Assistant from your mobile device, use the QR code to locate the app in the app store.
 2. Select your Home Assistant server:
-   - **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196:8123`.
-   - **Desktop**: Visit [http://homeassistant.local:8123](http://homeassistant.local:8123) to access the Home Assistant user interface.
+   - **Mobile**: Confirm the IP address detected by the app. For example `http://192.168.1.196`.
+   - **Desktop**: Visit [http://homeassistant.local](http://homeassistant.local) to access the Home Assistant user interface.
+
+   - **Info**: If that address doesn't load, add `:8123` to the end of either address. Home Assistant uses one of these two ports depending on how and when it was installed.
 3. The Home Assistant user interface guides you through the initial onboarding.
    - **Info**: For further information, refer to the instructions provided.
 
@@ -190,5 +192,5 @@ This process clears the data disk on your Green. Unless you [create a backup](ht
 
 - [Creating a backup](/hc/en-us/articles/25154828325917)
 - [Onboarding](https://www.home-assistant.io/getting-started/onboarding/)
-- [Can't access homeassistant.local:8123](/hc/en-us/articles/25140903526301)
+- [Can't access homeassistant.local](/hc/en-us/articles/25140903526301)
 - [Resetting the device without SD card (OS version 13.1 and later)](/hc/en-us/articles/25161225495837)
