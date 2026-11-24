@@ -7,7 +7,7 @@ zendesk:
 productName: "Home Assistant Connect&nbsp;ZBT-1"
 ---
 
-This guide shows you how to use the {{ productName }} as a dedicated Thread adapter when you have previously used it for Zigbee. The Thread adapter allows you to connect Thread-based devices, such as Matter-over-Thread devices, to your network.
+This guide shows you how to use the {{ productName }} as a dedicated Thread adapter when you have previously used it for Zigbee. The Thread adapter allows you to connect [Thread](https://www.home-assistant.io/connectivity/thread/)-based devices, such as [Matter](https://www.home-assistant.io/connectivity/matter/)-over-Thread devices, to your network.
 
 ## Prerequisites
 
@@ -67,8 +67,8 @@ This guide shows you how to use the {{ productName }} as a dedicated Thread adap
 2. Select the **Thread** integration, then select the cogwheel.
    - You will now see a **Home Assistant OpenThread Border Router**.
    - You might also see other Thread networks from other border router devices in your home.
-   - Refer to the Thread documentation to learn more [about different Thread networks](https://www.home-assistant.io/integrations/thread/#about-different-thread-networks), or [about Thread border routers](https://www.home-assistant.io/integrations/thread/#about-thread-border-routers).
-   - You can now [add your Thread-based devices to Home Assistant](https://www.home-assistant.io/integrations/thread/#adding-a-thread-based-device-to-home-assistant).
+   - Refer to the Thread documentation to learn more [about different Thread networks](https://www.home-assistant.io/integrations/thread/#about-different-thread-networks), or [about Thread border routers](https://www.home-assistant.io/connectivity/thread/#about-thread-border-routers).
+   - You can now [add your Thread-based devices to Home Assistant](https://www.home-assistant.io/connectivity/thread/#adding-a-thread-based-device-to-home-assistant).
 
 {% endstepContent %}
 {% endstep %}

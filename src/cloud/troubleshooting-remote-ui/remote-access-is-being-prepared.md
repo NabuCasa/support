@@ -30,17 +30,16 @@ If the status remains the same after a reboot, there are different steps you can
 1. Wait for 5 minutes. It may take a while to generate the certificate.
 2. Check if there is a general network issue.
 
-If none of the above applies, check if there is an IPv6 issue.
+If none of the above applies, the host's IPv6 configuration is the next thing to try. Turning IPv6 off and back on rebuilds it from scratch, so treat this as a reset rather than as a permanent setting.
 
-1. To check the IPv6 connection, in your browser, open [test-ipv6.com](https://test-ipv6.com/).
+1. In the UI, go to [**System** > **Network**](https://my.home-assistant.io/redirect/network/).
+2. Under **Configure network interfaces**, expand the **IPv6** dropdown, choose the **disabled** option, and save the changes.
+3. To have all network settings applied from scratch, reboot the host. Select **Settings** > **System** > **Restart Home Assistant** (top right) > Expand Advanced Options > **Reboot system**.
+4. Once the certificate has been issued and remote access is working, set **IPv6** back to the option it was on before and save the changes.
 
-   - Try the steps suggested by the website.
+Thread and Matter devices need IPv6 on your local network, so leaving it disabled can stop them working. If the problem returns as soon as you put the setting back, there is something in your own IPv6 configuration that needs addressing on your network.
 
-2. If the IPv6 test revealed that there is an IPv6 issue, and if you are not running Home Assistant on a VM, try disabling IPv6:
-   - In the UI, go to [**System** > **Network**](https://my.home-assistant.io/redirect/network/).
-   - Under **Configure network interfaces**, expand the **IPv6** dropdown.
-   - Choose the **disabled** option and save the changes.
-   - To have all network settings applied from scratch, reboot the host. Select **Settings** > **System** > **Restart Home Assistant** (top right) > Expand Advanced Options > **Reboot system**.
+If Home Assistant runs on a virtual machine, the interface's IPv6 configuration comes from the hypervisor rather than from Home Assistant, so the change has to be made there.
 
 If the problem persists, try resetting your Home Assistant Cloud data and requesting a new certificate:
 
@@ -56,5 +55,5 @@ If the problem persists, try resetting your Home Assistant Cloud data and reques
 If resetting cloud data did not resolve the issue, do not reset it again. Instead:
 
 1. Download and attach the support package file using the 3 dots in the upper right corner of the Home Assistant Cloud page ([**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/)).
-2. Use the **Submit a ticket** button on this page and include the downloaded file with your request.
+2. Use the **Submit a ticket** button at the top of this page and include the downloaded file with your request.
    - This file will help identify the root cause of your issue.

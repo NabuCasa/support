@@ -18,5 +18,7 @@ productName: "Home Assistant Connect&nbsp;ZBT-2"
 ## Related topics
 
 - [Updating firmware on the Connect&nbsp;ZBT-2](/hc/en-us/articles/31494346582557)
+- [Zigbee in Home Assistant](https://www.home-assistant.io/connectivity/zigbee/)
+- [Thread in Home Assistant](https://www.home-assistant.io/connectivity/thread/)
 - [Zigbee Home Automation integration documentation](https://www.home-assistant.io/integrations/zha/)
 - [Thread integration documentation](https://www.home-assistant.io/integrations/thread/)

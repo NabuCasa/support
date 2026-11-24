@@ -10,6 +10,12 @@ If you need to place Connect ZWA-2 far away from your Home Assistant system, you
 
 This allows you to plug Home Assistant Connect ZWA-2 in a location that is closer to your end devices.
 
+{% callout "tip" %}
+
+If you have Home Assistant Connect AUX-2, you can plug Connect ZWA-2 into its USB-A port instead. Home Assistant discovers it automatically over the network. See [Using a Connect radio adapter over the network](/hc/en-us/articles/40528828414237).
+
+{% endcallout %}
+
 ## Prerequisites
 
 - A system that can act as a proxy and fulfills the following requirements:
