@@ -88,6 +88,10 @@ Currently, the following domains are available to be used with Alexa:
 - [Sensor](https://www.home-assistant.io/integrations/sensor/)
 - [Switch](https://www.home-assistant.io/integrations/switch/)
 
+## How Alexa connects to Home Assistant
+
+Home Assistant keeps its own secure connection to Home Assistant Cloud. Alexa's requests reach Home Assistant through that connection, so Alexa doesn't need remote access. Remote access is a separate feature that makes your Home Assistant interface reachable from outside your home. It stays off until you [enable it](/hc/en-us/articles/26474279202973).
+
 ## Manual configuration
 
 You can use the [`configuration.yaml`](https://www.home-assistant.io/docs/configuration/) file to configure the entities that are being shown to Alexa and how they are exposed.
