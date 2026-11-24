@@ -75,6 +75,8 @@ Currently, the following domains are available to be used with Alexa:
 - [Automation](https://www.home-assistant.io/integrations/automation/) (enables/disables)
 - [Binary sensor](https://www.home-assistant.io/integrations/binary_sensor/)
 - [Camera](https://www.home-assistant.io/integrations/camera/)
+  - To stream a camera to an Echo device, Home Assistant needs an external HTTPS address on port 443. [Remote access](/hc/en-us/articles/26474279202973) provides one.
+  - From Home Assistant 2026.11, Echo Show devices can also show the live view of cameras that support WebRTC. This doesn't need remote access. See [WebRTC live view](https://www.home-assistant.io/integrations/alexa.smart_home/#webrtc-live-view).
 - [Climate](https://www.home-assistant.io/integrations/climate/)
 - [Cover](https://www.home-assistant.io/integrations/cover/)
 - [Fan](https://www.home-assistant.io/integrations/fan/) (supports on/off and set speed)
@@ -87,6 +89,10 @@ Currently, the following domains are available to be used with Alexa:
 - [Script](https://www.home-assistant.io/integrations/script/) (enables/disables)
 - [Sensor](https://www.home-assistant.io/integrations/sensor/)
 - [Switch](https://www.home-assistant.io/integrations/switch/)
+
+## How Alexa connects to Home Assistant
+
+Home Assistant keeps its own secure connection to Home Assistant Cloud. Alexa's requests reach Home Assistant through that connection, so Alexa doesn't need remote access. The exception is camera streams (see **Camera** under [List of available domains](#list-of-available-domains)). Remote access is a separate feature that makes your Home Assistant reachable from outside your home. It stays off until you [enable it](/hc/en-us/articles/26474279202973).
 
 ## Manual configuration
 

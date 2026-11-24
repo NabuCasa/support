@@ -103,6 +103,10 @@ Here are the modes that are currently available:
 
 After setting up the cloud, if you make any device changes such as changing the name or adding a new device simply say "Ok Google, sync my devices" to get the changes to show up.
 
+## How Google Assistant connects to Home Assistant
+
+Home Assistant keeps its own secure connection to Home Assistant Cloud. Google Assistant's requests reach Home Assistant through that connection, so Google Assistant doesn't need remote access. Remote access is a separate feature that makes your Home Assistant reachable from outside your home. It stays off until you [enable it](/hc/en-us/articles/26474279202973).
+
 ## Local communication
 
 Google devices can send their commands locally to Home Assistant. This allows Google to respond faster to your commands. If a local connection is unavailable it will automatically fallback to the cloud.
