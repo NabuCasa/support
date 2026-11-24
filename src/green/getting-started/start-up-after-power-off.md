@@ -33,7 +33,7 @@ There are 2 different start up procedures, depending on the current state of you
 
 {% steps %}
 {% step "Powering up the system" %}
-{% image "/static/img/green/green_reset_power-up_heartbeat.webp" "Clip showing the where to press the button on the device" %}
+{% image "/static/img/green/green_reset_power-up_heartbeat.webp" "Clip showing where to press the power button on the device" %}
 {% stepContent %}
 
  - Press the power button.
@@ -72,7 +72,7 @@ Follow these steps if you want to start up the system after it has been powered 
 {% endstep %}
 
 {% step "Connecting power" %}
-{% image "/static/img/green/green_connect_power.webp" "Clip showing the where to press the button on the device" %}
+{% image "/static/img/green/green_connect_power.webp" "Clip showing how to connect the power cable" %}
 {% stepContent %}
 
 - Connect the power to the electrical outlet and then to the Home Assistant Green.
