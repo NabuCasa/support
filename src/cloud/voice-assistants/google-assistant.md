@@ -105,7 +105,7 @@ After setting up the cloud, if you make any device changes such as changing the 
 
 ## How Google Assistant connects to Home Assistant
 
-Home Assistant keeps its own secure connection to Home Assistant Cloud. Google Assistant's requests reach Home Assistant through that connection, so Google Assistant doesn't need remote access. Remote access is a separate feature that makes your Home Assistant interface reachable from outside your home. It stays off until you [enable it](/hc/en-us/articles/26474279202973).
+Home Assistant keeps its own secure connection to Home Assistant Cloud. Google Assistant's requests reach Home Assistant through that connection, so Google Assistant doesn't need remote access. Remote access is a separate feature that makes your Home Assistant reachable from outside your home. It stays off until you [enable it](/hc/en-us/articles/26474279202973).
 
 ## Local communication
 
