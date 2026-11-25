@@ -68,3 +68,4 @@ If your domain has DNSSEC enabled, it must be fully and correctly configured. A 
 
 - [About the remote access connection to Home Assistant](/hc/en-us/articles/26469707849629/)
 - [Enabling remote access to Home Assistant](/hc/en-us/articles/26474279202973/)
+- [Connect an AI agent to Home Assistant with Home Assistant Cloud](/hc/en-us/articles/40241458926365/)

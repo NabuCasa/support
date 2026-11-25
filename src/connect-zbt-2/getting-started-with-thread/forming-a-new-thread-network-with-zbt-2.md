@@ -7,7 +7,7 @@ zendesk:
 productName: "Home Assistant Connect&nbsp;ZBT-2"
 ---
 
-This guide shows you how to use the {{ productName }} as a dedicated Thread adapter. The Thread adapter allows you to connect Thread-based devices, such as Matter-over-Thread devices, to your network.
+This guide shows you how to use the {{ productName }} as a dedicated Thread adapter. The Thread adapter allows you to connect [Thread](https://www.home-assistant.io/connectivity/thread/)-based devices, such as [Matter](https://www.home-assistant.io/connectivity/matter/)-over-Thread devices, to your network.
 
 ## Prerequisites
 
@@ -72,14 +72,16 @@ This guide shows you how to use the {{ productName }} as a dedicated Thread adap
 
 1. Go to [**Settings** > **Devices & services**](https://my.home-assistant.io/redirect/integrations/).
    - You now see the **OpenThread Border Router** and the **Thread** integrations.
+
+   If the **OpenThread Border Router** integration doesn't appear, restart Home Assistant.
 2. Select the **Thread** integration, then select the cogwheel.
    - You will now see a **Home Assistant OpenThread Border Router**.
    - You might also see other Thread networks from other border router devices in your home.
 
 3. Before adding Thread-based devices, you'll have to make sure your Thread credentials are set up correctly:
-   1. Make sure that the network is the [preferred network](https://www.home-assistant.io/integrations/thread/#to-make-home-assistant-your-first-thread-network).
-   2. Make sure you've imported the Thread network credentials to your mobile phone. Refer to the Thread documentation to learn more [about different Thread networks](https://www.home-assistant.io/integrations/thread/#about-different-thread-networks), or [about Thread border routers](https://www.home-assistant.io/integrations/thread/#about-thread-border-routers).
-4. You can now [add your Thread-based devices to Home Assistant](https://www.home-assistant.io/integrations/thread/#adding-a-thread-based-device-to-home-assistant).
+   1. Make sure that the network is the [preferred network](https://www.home-assistant.io/integrations/thread/#case-1-making-home-assistant-your-first-thread-network).
+   2. Make sure you've imported the Thread network credentials to your mobile phone. Refer to the Thread documentation to learn more [about different Thread networks](https://www.home-assistant.io/integrations/thread/#about-different-thread-networks), or [about Thread border routers](https://www.home-assistant.io/connectivity/thread/#about-thread-border-routers).
+4. You can now [add your Thread-based devices to Home Assistant](https://www.home-assistant.io/connectivity/thread/#adding-a-thread-based-device-to-home-assistant).
 
 {% endstepContent %}
 {% endstep %}
@@ -87,7 +89,7 @@ This guide shows you how to use the {{ productName }} as a dedicated Thread adap
 
 ## Related topics
 
-- [Add your Thread-based devices to Home Assistant](https://www.home-assistant.io/integrations/thread/#adding-a-thread-based-device-to-home-assistant)
+- [Add your Thread-based devices to Home Assistant](https://www.home-assistant.io/connectivity/thread/#adding-a-thread-based-device-to-home-assistant)
 - [About different Thread networks](https://www.home-assistant.io/integrations/thread/#about-different-thread-networks)
-- [About Thread border routers](https://www.home-assistant.io/integrations/thread/#about-thread-border-routers)
-- [Making Home Assistant your first Thread network](https://www.home-assistant.io/integrations/thread/#to-make-home-assistant-your-first-thread-network)
+- [About Thread border routers](https://www.home-assistant.io/connectivity/thread/#about-thread-border-routers)
+- [Making Home Assistant your first Thread network](https://www.home-assistant.io/integrations/thread/#case-1-making-home-assistant-your-first-thread-network)
