@@ -7,13 +7,20 @@ on:
 
 permissions: {}
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   guide-content:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
+    timeout-minutes: 10
     name: Guide content
     steps:
       - name: Check out files from GitHub
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
       - name: Setting up Node.js
         uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
@@ -22,7 +29,7 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm install ci
+        run: npm ci
 
       - name: Compile Eleventy
         run: npm run build
