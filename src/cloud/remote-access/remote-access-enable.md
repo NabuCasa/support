@@ -6,15 +6,15 @@ zendesk:
   labels: cloud
 ---
 
-Remote access allows you to connect to your Home Assistant instance from outside of your home network. So that you can start the vacuum cleaner from your phone while you are on the train for your daily commute, for example.
+Remote access lets you connect to your Home Assistant instance from outside your home network. For example, you can start the vacuum cleaner from your phone while you're on the train.
 
 By default, remote access is not enabled. To enable it, you can use one of the following methods:
 
-- [Enabling remote access from within your network](#to-enable-remote-access-to-home-assistant)
+- [Enabling remote access from within your network](#to-activate-remote-access-from-inside-your-network)
 - [Enabling remote access from outside of your network](#to-activate-remote-access-from-outside-your-network)
-- [Using an automation to enable or disable remote connection](#using-an-automation-to-enable-and-disable-the-remote-connection)
+- [Using an automation to enable or disable remote connection](#using-an-automation-to-enable-and-disable-remote-access)
 
-## To enable remote access to Home Assistant while you're inside the network
+## To activate remote access from inside your network
 
 1. In Home Assistant, go to [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
 2. Make sure you are logged in to Home Assistant Cloud.
@@ -41,7 +41,7 @@ If you are away from home and want to access your Home Assistant, but the remote
 
 <img src="/static/img/cloud/ha-remote-access-disabled.png" alt='Screenshot showing a disabled remote access option on the Home Assistant instance.' class='img-fluid'>
 
-Activating remote access from outside your network only works if under [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/) you previously enabled **Allow external activation of remote access** (see steps above under _To enable remote access).
+Activating remote access from outside your network only works if under [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/) you previously enabled **Allow external activation of remote access** (see [To activate remote access from inside your network](#to-activate-remote-access-from-inside-your-network)).
 
 1. Log in to your [Nabu Casa account page](https://account.nabucasa.com).
    - If your instance is not connected, the **Status** under **Remote access** is shown as **Not connected**.
@@ -65,3 +65,4 @@ That way you can turn on the remote connection only when you leave the house and
 - [About the remote access connection to Home Assistant](/hc/en-us/articles/26469707849629/)
 - [Using remote access with a custom domain for Home Assistant](/hc/en-us/articles/26497540527517/)
 - [Troubleshooting remote access](/hc/en-us/sections/26315762664861)
+- [Connect an AI agent to Home Assistant with Home Assistant Cloud](/hc/en-us/articles/40241458926365/)
