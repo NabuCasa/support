@@ -37,6 +37,7 @@ These are the addresses your instance pings. They are our remote access servers 
 | --- | --- | --- |
 | Johannesburg | Africa | 152.233.63.37 |
 | Singapore | Asia | 152.233.68.160 |
+| Hong Kong | Asia | 95.173.197.194 |
 | Frankfurt | Europe | 57.129.54.3 |
 | Amsterdam | Europe | 51.158.253.232 |
 | Strasbourg | Europe | 91.134.22.133 |
@@ -92,7 +93,7 @@ When your instance is moved to a different server, the DNS record for your remot
 
 ## What we collect
 
-The only information sent to us is the round-trip time to each measurement address and whether it responded. No traffic from your Home Assistant instance is sent to these addresses, and the measurement does not reveal anything about your devices, your automations, or what you do in Home Assistant.
+The only information sent to us is the round-trip time to each measurement address and whether it responded. The measurement does not reveal anything about your devices, your automations, or what you do in Home Assistant.
 
 The check is part of Home Assistant Cloud. It only runs while you are signed in to Home Assistant Cloud, and an instance that is not signed in never contacts these addresses.
 
