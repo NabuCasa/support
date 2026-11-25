@@ -49,7 +49,7 @@ Using your iPhone/Android is the easiest way to connect your {{ productName }} t
 
 ### Onboarding via Bluetooth
 
-If you don't want to use a phone and your Home Assistant has Bluetooth: either onboard Bluetooth, or an ESPHome device set up as a [Bluetooth proxy](https://esphome.io/projects/?type=bluetooth) and connected to Home Assistant.
+If you don't want to use a phone and your Home Assistant has [Bluetooth](https://www.home-assistant.io/connectivity/bluetooth/): either onboard Bluetooth, or an ESPHome device set up as a [Bluetooth proxy](https://esphome.io/projects/?type=bluetooth) and connected to Home Assistant.
 
 {% endstepContent %}
 {% endprereq %}
