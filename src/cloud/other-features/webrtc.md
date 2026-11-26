@@ -14,7 +14,7 @@ If you are [logged into Home Assistant Link in Home Assistant](/hc/en-us/article
 
 If you've disabled it, follow these steps to enable it.
 
-1. In Home Assistant, go to [Settings > Home Assistant Cloud](https://my.home-assistant.io/redirect/cloud/).
+1. In Home Assistant, go to [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/).
 2. Under **WebRTC connections**, enable the toggle.
 
    <img src="/static/img/cloud/relay-toggle.png" alt="WebRTC toggle inside of Home Assistant">
@@ -35,7 +35,7 @@ All Home Assistant users can use WebRTC connections, even if they do not have a 
 
  If, for some reason, you would like to turn this feature off and only use peer-to-peer connections without the relay functionality, this setting is available.
 
-1. In Home Assistant, go to [Settings > Home Assistant Cloud](https://my.home-assistant.io/redirect/cloud/).
+1. In Home Assistant, go to [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/).
 2. Under **WebRTC connections**, disable the toggle.
    - **Result**: If disabled, whenever a WebRTC connection is not possible, it will revert to using other less responsive video streaming methods.
 

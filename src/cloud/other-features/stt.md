@@ -24,7 +24,7 @@ To try it, you need:
 ### Turning on the new engine
 
 1. Go to [**Settings** > **System** > **Labs**](https://my.home-assistant.io/redirect/labs/).
-2. Turn on **Home Assistant Cloud: Speech-to-text**.
+2. Turn on **Home Assistant Link: Speech-to-text**.
 3. Confirm that you want to enable the feature.
 
 No restart is needed, and you can turn it off again from the same page at any time. When you turn it off, your assistants go straight back to the current engine.
@@ -32,7 +32,7 @@ No restart is needed, and you can turn it off again from the same page at any ti
 ### What changes while it is enabled
 
 - Audio from your voice commands is processed by [Soniox](https://soniox.com/) instead of our current provider, Microsoft Azure. It travels through a Nabu Casa proxy, which handles authentication and forwards it to the processing region closest to you. Nabu Casa does not process, store, or log your audio at any point.
-- Only assistants configured to use Home Assistant Cloud for speech-to-text are affected. Everything else about your voice pipeline stays the same, including your wake word, intent handling, and text-to-speech.
+- Only assistants configured to use Home Assistant Link for speech-to-text are affected. Everything else about your voice pipeline stays the same, including your wake word, intent handling, and text-to-speech.
 - The new engine detects the end of speech itself and works best on untouched audio. Home Assistant handles this for you: on supported hardware, such as [Home Assistant Voice Preview Edition](https://www.home-assistant.io/voice-pe/), automatic gain control and noise reduction are switched off while the feature is enabled, which lets the engine do its own audio processing.
 
 {% callout "important" %}
@@ -51,9 +51,9 @@ If you want to speak to Assist in different languages, set up an assistant for e
 
   ![STT language selector in voice assistant dialog](/static/img/cloud/ha-cloud-stt.png)
 
-## If Home Assistant Cloud is not listed
+## If Home Assistant Link is not listed
 
-If **Home Assistant Cloud** is not offered as a speech-to-text option when you set up a voice assistant, its entity may be disabled. Disabled entities are hidden from the entity list by default, so the steps below include showing them.
+If **Home Assistant Link** is not offered as a speech-to-text option when you set up a voice assistant, its entity may be disabled. Disabled entities are hidden from the entity list by default, so the steps below include showing them.
 
 1. In Home Assistant, go to [**Settings** > **Devices & services** > **Entities**](https://my.home-assistant.io/redirect/entities/).
 2. In the **Filters** panel, expand **Status**. Select **Disabled** and clear **Enabled**, so that only disabled entities are listed.

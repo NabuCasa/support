@@ -39,7 +39,7 @@ This tutorial will show you the following:
 1. Under **Action**, in the **Search action** field, type "li" and select **Light Turn On** from the list.
    - In the bottom right corner, select **Save**.
    - Your automation is now created.
-1. Go to [**Settings** > **Cloud**](https://my.home-assistant.io/redirect/cloud/) and scroll to the webhooks card.
+1. Go to [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/) and scroll to the webhooks card.
    - You will now see your newly created webhook.
      <img src="/static/img/cloud/webhooks-02.png" alt="Screenshot of the webhooks card in the Cloud panel" style="max-width: 500px;">
 1. Next to the webhook, select **Manage**.

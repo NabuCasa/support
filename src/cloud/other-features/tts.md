@@ -18,7 +18,7 @@ Language options may change from time to time, so if you are missing options whi
 
 ## Using Home Assistant Link TTS in an automation
 
-1. To try Home Assistant Link TTS, go to [**System** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
+1. To try Home Assistant Link TTS, go to [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/).
 2. Select the language and voice.
 3. To view a greeting sample, select **Try**.
 
@@ -42,7 +42,7 @@ Another way to test the Home Assistant Link text-to-speech service is by calling
 1. To test the TTS service, go to [**Media**](https://my.home-assistant.io/redirect/media_browser/).
 2. Select **Text-to-speech**.
    ![Select Text-to-speech](/static/img/cloud/tts_select_media_source_01.png)
-3. Select **Cloud**.
+3. Select **Home Assistant Link**.
 
    ![Select Cloud](/static/img/cloud/tts_select_tts_source.png)
 
@@ -53,9 +53,9 @@ Another way to test the Home Assistant Link text-to-speech service is by calling
      ![Enter text to be spoken](/static/img/cloud/tts_enter_sentence_01.png)
 5. To listen to the text, select **Say**.
 
-## If Home Assistant Cloud is not listed
+## If Home Assistant Link is not listed
 
-If **Home Assistant Cloud** is not offered as a text-to-speech option when you set up a voice assistant, its entity may be disabled. Disabled entities are hidden from the entity list by default, so the steps below include showing them.
+If **Home Assistant Link** is not offered as a text-to-speech option when you set up a voice assistant, its entity may be disabled. Disabled entities are hidden from the entity list by default, so the steps below include showing them.
 
 1. In Home Assistant, go to [**Settings** > **Devices & services** > **Entities**](https://my.home-assistant.io/redirect/entities/).
 2. In the **Filters** panel, expand **Status**. Select **Disabled** and clear **Enabled**, so that only disabled entities are listed.
