@@ -45,7 +45,7 @@ Feedback is what decides whether this becomes the default for everyone, so pleas
 
 ## Selecting the STT language
 
-You can define the language you speak to Assist when you [set up a Home Assistant Link voice assistant](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/).
+You can define the language you speak to Assist when you [set up a voice assistant with Home Assistant Link](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/).
 
 If you want to speak to Assist in different languages, set up an assistant for each language.
 
@@ -81,5 +81,5 @@ Every language below works with Azure, the current engine. Soniox, the new engin
 ## Related topics
 
 - [Assist: supported sentences](https://www.home-assistant.io/voice_control/builtin_sentences/)
-- [Setting up a Home Assistant Link voice assistant](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/)
+- [Set up a voice assistant with Home Assistant Link](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/)
 - [Home Assistant Link text-to-speech (TTS)](/hc/en-us/articles/25619386304541)
