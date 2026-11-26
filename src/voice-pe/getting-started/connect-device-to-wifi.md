@@ -129,9 +129,9 @@ If you don't want to use a phone and your Home Assistant has [Bluetooth](https:/
 
    1. The wizard starts checking for updates.
       - Follow the instructions on screen.
-   2. If you are connected to Home Assistant Link, the **Home Assistant Cloud** voice assistant is used. Your job is done here.
-   3. If you are not connected to Home Assistant Link, you will see a step What Hardware do you want to use?:
-      - **Option 1**: If you choose **Home Assistant Cloud**:
+   2. If you are connected to Home Assistant Link, the **Home Assistant Link** voice assistant is used. Your job is done here.
+   3. If you are not connected to Home Assistant Link, you will see the step **How do you want your voice to be processed?**:
+      - **Option 1**: If you choose **Home Assistant Link**:
         - If you already have a Nabu Casa account, select **Log in** and enter your login credentials. If not, enter email and password, select **Next** and follow the wizard.
         - If you do not have an account yet, select **Learn more**, then **Try 1 month for free**.
         - For more information, refer to the guide on [Set up a voice assistant with Home Assistant Link](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/).

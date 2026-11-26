@@ -11,13 +11,13 @@ Before you can use the [features provided by Home Assistant Link](/hc/en-us/arti
 ## To enable Home Assistant Link
 
 {% steps %}
-{% step "Opening the Home Assistant Cloud page" %}
+{% step "Opening the Home Assistant Link page" %}
 {% image "/static/img/cloud/ha-settings-panel.png" "Home Assistant Settings panel" %}
 {% stepContent %}
 
-- In Home Assistant, go to [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
+- In Home Assistant, go to [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/).
 
-- **Troubleshooting**: If you do not see **Home Assistant Cloud** under **Settings**, you might have removed the [`default_config`](https://www.home-assistant.io/integrations/default_config/) integration from your `configuration.yaml`.
+- **Troubleshooting**: If you do not see **Home Assistant Link** under **Settings**, you might have removed the [`default_config`](https://www.home-assistant.io/integrations/default_config/) integration from your `configuration.yaml`.
 Add `cloud:` to the `configuration.yaml` file.
 
 ```yaml
@@ -46,7 +46,7 @@ cloud:
 {% image "/static/img/cloud/ha_cloud_connected.png" "Home Assistant Cloud connected" %}
 {% stepContent %}
 
-1. Under [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/), you should now see that you are connected to Home Assistant Link.
+1. Under [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/), you should now see that you are connected to Home Assistant Link.
 
 2. That's it. You are ready to go with Home Assistant Link.
 

@@ -1,23 +1,23 @@
 ---
 zendesk:
   article_id: 25620486925085
-  name: Unable to reach Home Assistant Cloud
+  name: Unable to reach Home Assistant Link
   position: 20
   labels: cloud, link
 ---
 
-There are multiple reasons Home Assistant Link cannot be reached. This page provides instructions how to troubleshoot the "Unable to reach the Home Assistant Cloud" message.
+There are multiple reasons Home Assistant Link cannot be reached. This page provides instructions how to troubleshoot the "Unable to reach Home Assistant Link" message.
 
-## Message: "Unable to reach the Home Assistant Cloud"
+## Message: "Unable to reach Home Assistant Link"
 
 ### Symptom
 
-Under [**System** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/):
+Under [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/):
 
 - This message can show in 2 different situations:
-  - You are logged in to Home Assistant Link and the **Cloud connection status** is **Connecting**.
+  - You are logged in to Home Assistant Link and the **Home Assistant Link connection status** is **Connecting**.
   - This is the first time you are trying to log in to Home Assistant Link.
-- You see a message **Unable to reach the Home Assistant Cloud**, or signing in fails with **Authentication timed out**.
+- You see a message **Unable to reach Home Assistant Link**, or signing in fails with **Authentication timed out**.
   <img src="/static/img/cloud/coud_unable_to_connect_03.png" alt="Unable to connect to Home Assistant Cloud">
 
 If you can sign in to your account on the website with the same password, your password is not the problem. The website uses the network of the phone or computer you are browsing on, while Home Assistant has to reach our sign-in service itself.

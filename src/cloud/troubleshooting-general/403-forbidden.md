@@ -56,4 +56,4 @@ For guidance on choosing a threshold, see [Remote access - limitations](/hc/en-u
 
 - [Remote access - limitations](/hc/en-us/articles/26523862491165)
 - [Remote access - security aspects](/hc/en-us/articles/26508882007581)
-- [Unable to reach Home Assistant Cloud](/hc/en-us/articles/25620486925085)
+- [Unable to reach Home Assistant Link](/hc/en-us/articles/25620486925085)

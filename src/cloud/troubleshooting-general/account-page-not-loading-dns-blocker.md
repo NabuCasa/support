@@ -32,5 +32,5 @@ After adding the domains, reload the account page.
 
 ## Related topics
 
-- [Unable to reach Home Assistant Cloud](/hc/en-us/articles/25620486925085)
+- [Unable to reach Home Assistant Link](/hc/en-us/articles/25620486925085)
 - [Nabu Casa account page](https://account.nabucasa.com)
