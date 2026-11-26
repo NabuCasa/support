@@ -25,8 +25,8 @@ A backup will only be uploaded off-site if the following requirements are met:
 </div>
 
 1. To set up the off-site backup, follow the steps on [setting up an automatic backup](https://www.home-assistant.io/common-tasks/general/#setting-up-an-automatic-backup-process).
-2. In the step on defining the backup location, enable **Home Assistant Cloud**.
-   - **Troubleshooting**: If you do not see **Home Assistant Cloud** as an option in the list, you do not have [Home Assistant Link enabled](/hc/en-us/articles/25649130769949).
+2. In the step on defining the backup location, enable **Home Assistant Link**.
+   - **Troubleshooting**: If you do not see **Home Assistant Link** as an option in the list, you do not have [Home Assistant Link enabled](/hc/en-us/articles/25649130769949).
 
 ## Related topics
 

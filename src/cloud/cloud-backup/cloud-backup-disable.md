@@ -14,10 +14,10 @@ zendesk:
 
 ## To disable the off-site backup
 
-If you no longer want to upload your backups off-site, you can turn off the **Home Assistant Cloud** backup location.
+If you no longer want to upload your backups off-site, you can turn off the **Home Assistant Link** backup location.
 
 1. In Home Assistant, go to  the [**Settings** > **System** > **Backups** > **Backup settings**](https://my.home-assistant.io/redirect/backup_config/).
-2. Under **Locations**, turn off **Home Assistant Cloud**.
+2. Under **Locations**, turn off **Home Assistant Link**.
    - **Result**: Your next backup will not be uploaded off-site. Your last backup will remain available, unless you [delete it](https://www.home-assistant.io/common-tasks/general/#deleting-obsolete-backups).
 
 ## Related topics
