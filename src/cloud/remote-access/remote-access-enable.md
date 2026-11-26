@@ -16,7 +16,7 @@ By default, remote access is not enabled. To enable it, you can use one of the f
 
 ## To activate remote access from inside your network
 
-1. In Home Assistant, go to [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
+1. In Home Assistant, go to [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/).
 2. Make sure you are logged in to Home Assistant Link.
    - If you only just logged in for the first time, you might see a message _"Remote access is being prepared. We will notify you when it's ready."_.
    - In this case, wait a few minutes and refresh the page.
@@ -41,7 +41,7 @@ If you are away from home and want to access your Home Assistant, but the remote
 
 <img src="/static/img/cloud/ha-remote-access-disabled.png" alt='Screenshot showing a disabled remote access option on the Home Assistant instance.' class='img-fluid'>
 
-Activating remote access from outside your network only works if under [**Settings** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/) you previously enabled **Allow external activation of remote access** (see [To activate remote access from inside your network](#to-activate-remote-access-from-inside-your-network)).
+Activating remote access from outside your network only works if under [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/) you previously enabled **Allow external activation of remote access** (see [To activate remote access from inside your network](#to-activate-remote-access-from-inside-your-network)).
 
 1. Log in to your [Nabu Casa account page](https://account.nabucasa.com).
    - If your instance is not connected, the **Status** under **Remote access** is shown as **Not connected**.
