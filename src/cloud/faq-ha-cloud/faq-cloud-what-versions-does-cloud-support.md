@@ -46,6 +46,6 @@ For more information, refer to the [Home Assistant update documentation](https:/
 ## Related topics
 
 - [List of Home Assistant Link features](/hc/en-us/articles/26260474250269)
-- [Enabling Home Assistant Cloud in Home Assistant](/hc/en-us/articles/25649130769949)
+- [Enabling Home Assistant Link](/hc/en-us/articles/25649130769949)
 - [About the remote access connection to Home Assistant](/hc/en-us/articles/26469707849629/)
 
