@@ -3,7 +3,7 @@ zendesk:
   article_id: 25620473014685
   name: Troubleshooting webhook response codes
   position: 40
-  labels: cloud
+  labels: cloud, link
 ---
 
 Calling a webhook URL can return various status codes for different problems. Below is a list of the most common codes and reasons.

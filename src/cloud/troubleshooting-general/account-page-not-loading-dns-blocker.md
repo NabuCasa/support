@@ -3,7 +3,7 @@ zendesk:
   article_id: 38777761100061
   name: Account page not loading when using a DNS ad blocker
   position: 80
-  labels: cloud, troubleshooting
+  labels: cloud, troubleshooting, link
 ---
 
 ## Symptom
