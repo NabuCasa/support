@@ -1,26 +1,26 @@
 ---
 zendesk:
   article_id: 40241458926365
-  name: Connect an AI agent to Home Assistant with Home Assistant Cloud
+  name: Connect an AI agent to Home Assistant with Home Assistant Link
   position: 50
-  labels: cloud, mcp, model context protocol, ai, ai agent, remote access, setup
+  labels: cloud, link, mcp, model context protocol, ai, ai agent, remote access, setup
 ---
 
-# Connect an AI agent to Home Assistant with Home Assistant Cloud
+# Connect an AI agent to Home Assistant with Home Assistant Link
 
-Home Assistant Cloud gives your AI agent a secure HTTPS address for your Home Assistant. Get your MCP server URL, paste it into your AI app, and sign in. Most AI apps can also set up the connection for you: paste the URL into a chat and ask the AI to configure it.
+Home Assistant Link gives your AI agent a secure HTTPS address for your Home Assistant. Get your MCP server URL, paste it into your AI app, and sign in. Most AI apps can also set up the connection for you: paste the URL into a chat and ask the AI to configure it.
 
 ## Before you start
 
-- An active Home Assistant Cloud subscription
+- An active Home Assistant Link subscription
 - Home Assistant 2026.10 or newer
 - An administrator account in Home Assistant
 
 ## Get your MCP server URL
 
-AI agents that run in the cloud, such as Claude and ChatGPT, connect to Home Assistant over the internet through your Home Assistant Cloud address.
+AI agents that run in the cloud, such as Claude and ChatGPT, connect to Home Assistant over the internet through your Home Assistant Link address.
 
-1. Go to **Settings** > **Home Assistant Cloud**, and under **Cloud features**, select **Remote access**.
+1. Go to **Settings** > **Home Assistant Link**, and under **Home Assistant Link features**, select **Remote access**.
 2. On the **Remote connection** card, turn on the toggle.
 3. Select **Copy link**.
    - The copied link contains the full address, even though the card hides most of it.
@@ -38,7 +38,7 @@ If MCP is turned off, go to **Settings** > **System** > **AI** and select **Enab
 2. If the app asks for an authentication method, select OAuth.
 3. Log in with your Home Assistant account.
 
-The Home Assistant Cloud URL uses HTTPS, so it also works with AI apps that only accept HTTPS addresses, such as some command-line tools.
+The Home Assistant Link URL uses HTTPS, so it also works with AI apps that only accept HTTPS addresses, such as some command-line tools.
 
 For instructions for specific AI apps, see [Client configuration](https://www.home-assistant.io/integrations/mcp_server/#client-configuration) in the Home Assistant documentation.
 

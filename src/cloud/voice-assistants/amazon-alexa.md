@@ -3,7 +3,7 @@ zendesk:
   article_id: 25619363899677
   name: Configuring Amazon Alexa to work with Home Assistant
   position: 30
-  labels: cloud
+  labels: cloud, link
 ---
 
 The [Alexa integration](https://www.home-assistant.io/integrations/alexa/) allows you to control the Home Assistant entities via the [Home Assistant Smart Home skill](https://www.home-assistant.io/integrations/alexa.smart_home/) for Amazon Alexa. You can then say things like "Alexa, turn on the kitchen light" to control your local Home Assistant.
@@ -17,7 +17,7 @@ The [Alexa integration](https://www.home-assistant.io/integrations/alexa/) allow
 
 ## To control Home Assistant entities from Alexa
 
-1. [Set up Home Assistant Cloud](/hc/en-us/articles/25649130769949).
+1. [Set up Home Assistant Link](/hc/en-us/articles/25649130769949).
 2. Under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/), enable **Alexa**.
 
    <img src="/static/img/cloud/alexa-enable.png" alt="Enable Alexa">
@@ -92,7 +92,7 @@ Currently, the following domains are available to be used with Alexa:
 
 ## How Alexa connects to Home Assistant
 
-Home Assistant keeps its own secure connection to Home Assistant Cloud. Alexa's requests reach Home Assistant through that connection, so Alexa doesn't need remote access. The exception is camera streams (see **Camera** under [List of available domains](#list-of-available-domains)). Remote access is a separate feature that makes your Home Assistant reachable from outside your home. It stays off until you [enable it](/hc/en-us/articles/26474279202973).
+Home Assistant keeps its own secure connection to Home Assistant Link. Alexa's requests reach Home Assistant through that connection, so Alexa doesn't need remote access. The exception is camera streams (see **Camera** under [List of available domains](#list-of-available-domains)). Remote access is a separate feature that makes your Home Assistant reachable from outside your home. It stays off until you [enable it](/hc/en-us/articles/26474279202973).
 
 ## Manual configuration
 
@@ -156,4 +156,4 @@ cloud:
 
 - [Alexa integration](https://www.home-assistant.io/integrations/alexa/)
 - [Home Assistant Smart Home skill](https://www.home-assistant.io/integrations/alexa.smart_home/)
-- [Set up Home Assistant Cloud](/hc/en-us/articles/25649130769949)
+- [Set up Home Assistant Link](/hc/en-us/articles/25649130769949)

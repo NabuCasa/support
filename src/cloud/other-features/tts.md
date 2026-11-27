@@ -3,22 +3,22 @@ zendesk:
   article_id: 25619386304541
   name: Text-to-speech (TTS)
   position: 10
-  labels: cloud
+  labels: cloud, link
 ---
 
-The Cloud text-to-speech (TTS) service allows you to have text read aloud with natural sounding voices. This service is automatically enabled when you are signed in to your Home Assistant Cloud account.
+The Home Assistant Link text-to-speech (TTS) service allows you to have text read aloud with natural sounding voices. This service is automatically enabled when you are signed in to Home Assistant Link.
 
 **Text-to-speech sample:**
 
 <audio src="/static/audio/tts_demo.mp3" controls></audio>
 
-<small><i>Voice: JennyNeural (Home Assistant Cloud / American English)</i></small>
+<small><i>Voice: JennyNeural (Home Assistant Link / American English)</i></small>
 
 Language options may change from time to time, so if you are missing options which are shown on this page, make sure you are running the latest version of Home Assistant.
 
-## Using Home Assistant Cloud TTS in an automation
+## Using Home Assistant Link TTS in an automation
 
-1. To try Home Assistant Cloud TTS, go to [**System** > **Home Assistant Cloud**](https://my.home-assistant.io/redirect/cloud/).
+1. To try Home Assistant Link TTS, go to [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/).
 2. Select the language and voice.
 3. To view a greeting sample, select **Try**.
 
@@ -37,12 +37,12 @@ Language options may change from time to time, so if you are missing options whi
 
 ## Testing the TTS service
 
-Another way to test the Home Assistant Cloud text-to-speech service is by calling it from the **Media**.
+Another way to test the Home Assistant Link text-to-speech service is by calling it from the **Media**.
 
 1. To test the TTS service, go to [**Media**](https://my.home-assistant.io/redirect/media_browser/).
 2. Select **Text-to-speech**.
    ![Select Text-to-speech](/static/img/cloud/tts_select_media_source_01.png)
-3. Select **Cloud**.
+3. Select **Home Assistant Link**.
 
    ![Select Cloud](/static/img/cloud/tts_select_tts_source.png)
 
@@ -53,9 +53,9 @@ Another way to test the Home Assistant Cloud text-to-speech service is by callin
      ![Enter text to be spoken](/static/img/cloud/tts_enter_sentence_01.png)
 5. To listen to the text, select **Say**.
 
-## If Home Assistant Cloud is not listed
+## If Home Assistant Link is not listed
 
-If **Home Assistant Cloud** is not offered as a text-to-speech option when you set up a voice assistant, its entity may be disabled. Disabled entities are hidden from the entity list by default, so the steps below include showing them.
+If **Home Assistant Link** is not offered as a text-to-speech option when you set up a voice assistant, its entity may be disabled. Disabled entities are hidden from the entity list by default, so the steps below include showing them.
 
 1. In Home Assistant, go to [**Settings** > **Devices & services** > **Entities**](https://my.home-assistant.io/redirect/entities/).
 2. In the **Filters** panel, expand **Status**. Select **Disabled** and clear **Enabled**, so that only disabled entities are listed.
