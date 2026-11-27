@@ -3,7 +3,7 @@ zendesk:
   article_id: 26177731023261
   name: Do you have access to my Home Assistant instance?
   position: 20
-  labels: cloud
+  labels: cloud, link
 ---
 
 No, we don't. We specifically designed our systems so that we have no access to your Home Assistant instance.
