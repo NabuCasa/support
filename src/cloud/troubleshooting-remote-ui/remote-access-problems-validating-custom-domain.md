@@ -3,7 +3,7 @@ zendesk:
   article_id: 25620466293533
   name: Remote access - Problems validating custom domain
   position: 10
-  labels: cloud
+  labels: cloud, link
 ---
 
 If you are using Cloudflare for DNS, make sure the records do not have proxy enabled for the DNS records.

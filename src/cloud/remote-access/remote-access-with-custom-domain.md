@@ -3,7 +3,7 @@ zendesk:
   article_id: 26497540527517
   name: Using remote access with a custom domain for Home Assistant
   position: 40
-  labels: cloud
+  labels: cloud, link
 ---
 
 If you own your own domain (like `example.com`), you might want to use a subdomain of that domain name (like `home.example.com`) to have a familiar URL to access Home Assistant, in addition to the default one that is provided when you [enable Home Assistant remote access](/hc/en-us/articles/26474279202973/).

@@ -3,7 +3,7 @@ zendesk:
   article_id: 25619268678557
   name: Remote access - Deep dive
   position: 30
-  labels: cloud
+  labels: cloud, link
 ---
 
 Home Assistant remote access allows you to connect to your Home Assistant instance from outside of your home network. By default, remote access is not enabled. You need to [enable it](/hc/en-us/articles/26474279202973/).
@@ -20,7 +20,7 @@ Remote access ensures secure communication between your browser and your local H
 
 #### Routing mechanism
 
-Routing is handled on the proxy server (Home Assistant Cloud) by the [Server Name Indication (SNI)](https://en.wikipedia.org/wiki/Server_Name_Indication) extension during the TLS handshake. This extension specifies the hostname for which an incoming request is intended, allowing the proxy server to forward the request to the matching local instance.
+Routing is handled on the proxy server (Home Assistant Link) by the [Server Name Indication (SNI)](https://en.wikipedia.org/wiki/Server_Name_Indication) extension during the TLS handshake. This extension specifies the hostname for which an incoming request is intended, allowing the proxy server to forward the request to the matching local instance.
 
 To handle simultaneous requests, all data is routed through a TCP multiplexer. The local Home Assistant instance processes the incoming TCP packets using the following steps:
 
@@ -30,7 +30,7 @@ To handle simultaneous requests, all data is routed through a TCP multiplexer. T
 
 ## About apps which support ingress
 
-Apps (formerly known as Home Assistant add-ons) which support Ingress can be accessed via Home Assistant Cloud. Because they are served via the Home Assistant UI, they benefit from the same end-to-end encryption and local authentication as the Home Assistant frontend.
+Apps (formerly known as Home Assistant add-ons) which support Ingress can be accessed via Home Assistant Link. Because they are served via the Home Assistant UI, they benefit from the same end-to-end encryption and local authentication as the Home Assistant frontend.
 
 ## Related topics
 
