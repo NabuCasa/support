@@ -3,22 +3,22 @@ zendesk:
   article_id: 26323093151901
   name: Backup - Can't find encryption key
   position: 30
-  labels: cloud
+  labels: cloud, link
 ---
 
 ## Symptom
 
-You have [Home Assistant Cloud backup enabled](/hc/en-us/articles/26294320337181-Enabling-a-cloud-backup) in Home Assistant and you now want to restore your Home Assistant using the backup you have uploaded to Home Assistant Cloud.
+You have the [off-site backup enabled](/hc/en-us/articles/26294320337181) in Home Assistant and you now want to restore your Home Assistant using the backup you have uploaded off-site.
 
 ## Resolution
 
 **Case 1: You can't find your encryption key, but you still have access to Home Assistant**:
 
-- Follow these steps to [retrieve the encryption key](https://www.home-assistant.io/more-info/backup-emergency-kit/#i-lost-my-backup-encryption-key---how-can-i-retrieve-it) for your Home Assistant Cloud backup.
+- Follow these steps to [retrieve the encryption key](https://www.home-assistant.io/more-info/backup-emergency-kit/#i-lost-my-backup-encryption-key---how-can-i-retrieve-it) for your off-site backup.
 
 **Case 2: You can't find your encryption key and you do not have access to Home Assistant**:
 
-- You will not be able to use your backups stored on Home Assistant Cloud or on Home Assistant to restore your system. Nabu Casa does not store your encryption key and cannot provide support in decrypting backups if the key goes missing.
+- You will not be able to use your backups stored off-site or on Home Assistant to restore your system. Nabu Casa does not store your encryption key and cannot provide support in decrypting backups if the key goes missing.
 - If you have an unencrypted backup stored on a storage medium outside your Home Assistant system, you can use that to restore your system.
 
 ## Related topics
