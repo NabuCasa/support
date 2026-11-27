@@ -29,13 +29,13 @@ cloud:
 {% endstep %}
 
 {% step "Signing in to Home Assistant Link" %}
-{% image "/static/img/cloud/ha-cloud-register-01.png" "Home Assistant Cloud log in page" %}
+{% image "/static/img/cloud/ha-cloud-register-01.png" "Home Assistant Link start page with the Start free trial and Sign in options" %}
 {% stepContent %}
 
 1. If you already have an account, sign in.
    - The account name is case-sensitive.
 2. If you do not have an account yet, start a trial:
-   - Select **Start your free 1 month trial**.
+   - On the Home Assistant Link start page, select **Start free trial**.
    - To create an account, enter **Email address** and **Password**.
    - Select **Start trial**.
 
@@ -43,7 +43,7 @@ cloud:
 {% endstep %}
 
 {% step "Connected to Home Assistant Link" %}
-{% image "/static/img/cloud/ha_cloud_connected.png" "Home Assistant Cloud connected" %}
+{% image "/static/img/cloud/ha_cloud_connected.png" "Home Assistant Link connected" %}
 {% stepContent %}
 
 1. Under [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/), you should now see that you are connected to Home Assistant Link.

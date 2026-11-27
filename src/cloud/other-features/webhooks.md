@@ -25,26 +25,27 @@ This tutorial will show you the following:
 
 ### To create a webhook trigger and use it in an automation
 
-1. To start creating a new automation, go to [**Settings** > **Automations & scenes**](https://my.home-assistant.io/redirect/automations/).
+1. To create a new automation, go to [**Settings** > **Automations & scenes**](https://my.home-assistant.io/redirect/automations/).
 
    - In the bottom right corner, select **Create automation**, then, select **Create new automation**.
 
-1. Under **Trigger**, select **Webhook**.
+1. Select **Add trigger**, search for **Webhook** and add it.
 
-   - Under **Webhook ID**, leave the ID as is.
-   - Select the cogwheel, and make sure the **Only accessible from the local network** is cleared (de-selected).
-     - This means your webhook is now accessible via cloud.
+   - Leave the **Webhook ID** as is.
+   - Select the cogwheel, and make sure the **Only accessible from the local network** is not selected.
+     - This means your webhook is now accessible via Home Assistant Link.
        <img src="/static/img/cloud/webhooks-01.png" alt="Screenshot of the webhook automation trigger">
 
-1. Under **Action**, in the **Search action** field, type "li" and select **Light Turn On** from the list.
-   - In the bottom right corner, select **Save**.
+1. Select **Add action**, search for "notification", and pick **Send a notification message** from the list.
+   - Choose a target for the notification. If you have the Companion app set up and linked, select your mobile phone and add a [notification message](https://companion.home-assistant.io/docs/notifications/notifications-basic/).
+   - Select **Save**, then name your automation and **Save** it.
    - Your automation is now created.
 1. Go to [**Settings** > **Home Assistant Link**](https://my.home-assistant.io/redirect/cloud/) and scroll to the webhooks card.
    - You will now see your newly created webhook.
-     <img src="/static/img/cloud/webhooks-02.png" alt="Screenshot of the webhooks card in the Cloud panel" style="max-width: 500px;">
+     <img src="/static/img/cloud/webhooks-02.png" alt="Screenshot of the webhooks card in the Home Assistant Link panel" style="max-width: 500px;">
 1. Next to the webhook, select **Manage**.
 
-   - A dialog opens, showing you a unique URL. You can use to this URL to trigger your automation.
+   - A dialog opens, showing you a unique URL. You can use this URL to trigger your automation.
    - If you're on a Linux or Mac, you can test it out with the following commands:
 
    ```bash

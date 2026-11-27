@@ -124,7 +124,7 @@ If you don't want to use a phone and your Home Assistant has [Bluetooth](https:/
 {% endstep %}
 
 {% step "Following the wizard steps" %}
-{% image "/static/img/voice-pe/voice_choose_hw_for_processing.png" "Screenshot of onboarding wizard" %}
+{% image "/static/img/voice-pe/voice_choose_hw_for_processing.png" "Screenshot of the onboarding wizard asking how you want your voice to be processed" %}
 {% stepContent %}
 
    1. The wizard starts checking for updates.

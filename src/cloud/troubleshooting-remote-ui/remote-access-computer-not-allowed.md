@@ -14,8 +14,6 @@ When trying to access the Home Assistant user interface, you see the message:
 
 - **You're about to give `https://somekey.ui.nabu.casa/` access to your Home Assistant instance. Logging in with Trusted Networks. Login aborted: Your computer is not allowed.**
 
-    <img src="/static/img/cloud/login-trusted-networks-01.png" alt="Unable to connect to Home Assistant Cloud">
-
 ### Cause
 
 This message indicates that you have [trusted networks](https://www.home-assistant.io/docs/authentication/providers/#trusted-networks) configured in the `configuration.yaml` file. Due to the way the [Remote access is set up](/hc/en-us/articles/25619268678557), you cannot use `trusted_networks` over the cloud URL.
