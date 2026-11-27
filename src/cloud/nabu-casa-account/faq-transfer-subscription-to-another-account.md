@@ -3,7 +3,7 @@ zendesk:
   article_id: 26166924647453
   name: Transferring the Nabu Casa subscription to another person
   position: 50
-  labels: cloud, transfer subscription, faq
+  labels: cloud, transfer subscription, faq, link
 ---
 
 You cannot transfer the subscription from one account to another person or account.

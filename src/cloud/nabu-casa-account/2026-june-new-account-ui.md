@@ -3,7 +3,7 @@ zendesk:
   article_id: 35617635812893
   name: June 2026 - New Nabu Casa account management experience
   position: 70
-  labels: cloud
+  labels: cloud, link
 ---
 
 In June 2026, we updated the Nabu Casa account management portal at [account.nabucasa.com](https://account.nabucasa.com) and moved subscriptions to updated billing infrastructure.
