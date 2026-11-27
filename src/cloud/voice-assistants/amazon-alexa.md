@@ -18,7 +18,7 @@ The [Alexa integration](https://www.home-assistant.io/integrations/alexa/) allow
 ## To control Home Assistant entities from Alexa
 
 1. [Set up Home Assistant Link](/hc/en-us/articles/25649130769949).
-2. Under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/), enable **Alexa**.
+2. Under [**Settings** > **Voice assistants**](https://my.home-assistant.io/redirect/voice_assistants/), enable **Alexa**.
 
    <img src="/static/img/cloud/alexa-enable.png" alt="Enable Alexa">
 
@@ -98,7 +98,7 @@ Home Assistant keeps its own secure connection to Home Assistant Link. Alexa's r
 
 You can use the [`configuration.yaml`](https://www.home-assistant.io/docs/configuration/) file to configure the entities that are being shown to Alexa and how they are exposed.
 
-If you use any filters, as shown in the example below, the entities can no longer be exposed via User Interface. They are still listed under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/) > **Expose**, but are shown grayed out.
+If you use any filters, as shown in the example below, the entities can no longer be exposed via User Interface. They are still listed under [**Settings** > **Voice assistants**](https://my.home-assistant.io/redirect/voice_assistants/) > **Expose**, but are shown grayed out.
 
 ```yml
 # Example configuration.yaml entry configuring Alexa

@@ -11,31 +11,31 @@ The Google Assistant integration allows users to control Home Assistant entities
 To control Home Assistant entities from Google Home, follow these steps:
 
 1. [Set up Home Assistant Link](/hc/en-us/articles/25649130769949)
-1. Under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/), enable **Google Assistant**.
-   <img src="/static/img/cloud/google-assistant-enable.png" alt="Enable Google Assistant">
+1. Under [**Settings** > **Voice assistants**](https://my.home-assistant.io/redirect/voice_assistants/), enable **Google Home**.
+   <img src="/static/img/cloud/google-assistant-enable.png" alt="Enable Google Home">
 1. On the **Expose** tab, expose at least one entity to Google. For the first link, start with a small number, such as a few lights. You can expose more afterwards and say "Hey Google, sync my devices" to add them.
 
    - Open the **Expose** tab.
 
      <img src="/static/img/cloud/assistant-expose-05.png" alt="Open the Expose tab">
 
-   - Select the entity you want to be able to control via Google Assistant.
+   - Select the entity you want to be able to control via Google Home.
 
-     <img src="/static/img/cloud/assistant-expose-06.png" alt="Select the entities you want to expose to Google Assistant">
+     <img src="/static/img/cloud/assistant-expose-06.png" alt="Select the entities you want to expose to Google Home">
 
-   - Enable Google Assistant.
+   - Enable **Google Home**.
 
-     <img src="/static/img/cloud/assistant-expose-07.png" alt="Enable Google Assistant">
+     <img src="/static/img/cloud/assistant-expose-07.png" alt="Enable Google Home">
 
-     - The Google Assistant icon is now visible in the **Assistants** column.
+     - The Google Home icon is now visible in the **Assistants** column.
 
-        <img src="/static/img/cloud/assistant-expose-08.png" alt="Expose entities: Google Assistant icon is now visible">
+        <img src="/static/img/cloud/assistant-expose-08.png" alt="Expose entities: Google Home icon is now visible">
 
 1. Connect Home Assistant in the Google Home app.
    - In the Google Home app, select **Add**, then **Link app or service**, and then **Works with Google**.
    - Search for **Home Assistant Cloud by Nabu Casa**, select it, and sign in with your Nabu Casa account.
    - Troubleshooting:
-     - If the message _No compatible devices were found in your Home Assistant Cloud by Nabu Casa_ appears, no entity was exposed to Google Assistant. Repeat the step on exposing entities.
+     - If the message _No compatible devices were found in your Home Assistant Cloud by Nabu Casa_ appears, no entity was exposed to Google Home. Repeat the step on exposing entities.
      - If the message _Could not reach Home Assistant Cloud by Nabu Casa_ appears, expose only 1 to 5 entities, try linking again, and add the rest in batches once linking works. Exposing many entities at one time can cause linking to fail.
 
 ## Available domains
@@ -73,7 +73,7 @@ A secure device cannot be opened by Google Assistant unless a `secure_devices_pi
 
 To allow opening, set the `secure_devices_pin` to something and you will be prompted to verbally provide this when opening the device. Closing and locking these devices does not require a pin.
 
-  <img src="/static/img/cloud/assistant-secure-devices-01.png" alt="Home Assistant expose devices: secure device">
+  <img src="/static/img/cloud/assistant-secure-devices-01.png" alt="Google Home settings with the Security devices PIN field">
 
 For the Alarm Control Panel, if a code is set, it must be the same as the `secure_devices_pin`. If `code_arm_required` is set to `false`, the system will arm without prompting for the pin.
 
@@ -122,7 +122,7 @@ The Google device still needs to be connected to the internet to be able to sync
 ## Manual configuration
 
 You can use `configuration.yaml` to configure the entities that are being shown to Google Assistant and how they are exposed.
-If you use any filters, as shown in the example below, the entities can no longer be exposed via User Interface. They are still listed under [**Settings** > **Voice assistant**](https://my.home-assistant.io/redirect/voice_assistants/) > **Expose**, but are shown grayed out.
+If you use any filters, as shown in the example below, the entities can no longer be exposed via User Interface. They are still listed under [**Settings** > **Voice assistants**](https://my.home-assistant.io/redirect/voice_assistants/) > **Expose**, but are shown grayed out.
 
 ```yml
 # Example configuration.yaml entry configuring Google Assistant

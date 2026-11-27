@@ -39,9 +39,9 @@ Assist is built on top of an open voice foundation and powered by knowledge prov
 
 ## Supported languages
 
-Currently, over 50 languages are supported. To check if yours is there, go to [**Settings** > **Voice Assistant**](https://my.home-assistant.io/redirect/voice_assistants/) and select **Home Assistant Link**. Open the **Language** dropdown. Select your language and check if it appears as a **Conversation agent**. If it's there, your language is supported.
+Currently, over 50 languages are supported. To check if yours is there, go to [**Settings** > **Voice assistants**](https://my.home-assistant.io/redirect/voice_assistants/) and select **Home Assistant Link**. Open the **Language** dropdown. Select your language and check if it appears as a **Conversation agent**. If it's there, your language is supported.
 
-<img src="/static/img/cloud/assist_home-assistant-cloud_languages.png" alt="Languages supported by Home Assistant Cloud">
+<img src="/static/img/cloud/assist_home-assistant-cloud_languages.png" alt="Languages supported by Home Assistant Link">
 
 If **Home Assistant Link** is not offered as a **Conversation agent**, its entity may be disabled. Disabled entities are hidden from the entity list by default, so the steps below include showing them.
 

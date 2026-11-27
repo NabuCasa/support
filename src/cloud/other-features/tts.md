@@ -44,7 +44,7 @@ Another way to test the Home Assistant Link text-to-speech service is by calling
    ![Select Text-to-speech](/static/img/cloud/tts_select_media_source_01.png)
 3. Select **Home Assistant Link**.
 
-   ![Select Cloud](/static/img/cloud/tts_select_tts_source.png)
+   ![Select Home Assistant Link](/static/img/cloud/tts_select_tts_source.png)
 
 4. Enter the text you want to hear. -
    - Select the language.
